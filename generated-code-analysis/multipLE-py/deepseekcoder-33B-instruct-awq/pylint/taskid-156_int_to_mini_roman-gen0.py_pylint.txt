@@ -1,0 +1,9 @@
+************* Module taskid-156_int_to_mini_roman-gen0
+/home/saima/projects/NonFunc-AWQ/multipLE-py/deepseekcoder-33B-instruct-awq/completion/taskid-156_int_to_mini_roman-gen0.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+/home/saima/projects/NonFunc-AWQ/multipLE-py/deepseekcoder-33B-instruct-awq/completion/taskid-156_int_to_mini_roman-gen0.py:1:0: C0103: Module name "taskid-156_int_to_mini_roman-gen0" doesn't conform to snake_case naming style (invalid-name)
+/home/saima/projects/NonFunc-AWQ/multipLE-py/deepseekcoder-33B-instruct-awq/completion/taskid-156_int_to_mini_roman-gen0.py:25:12: W0612: Unused variable 'current' (unused-variable)
+/home/saima/projects/NonFunc-AWQ/multipLE-py/deepseekcoder-33B-instruct-awq/completion/taskid-156_int_to_mini_roman-gen0.py:26:12: W0612: Unused variable 'next_' (unused-variable)
+
+------------------------------------------------------------------
+Your code has been rated at 7.89/10 (previous run: 6.67/10, +1.23)
+

@@ -1,0 +1,2 @@
+/home/saima/projects/NonFunc-AWQ/multipLE-py/deepseekcoder-6.7B-instruct-hf/completion/taskid-91_is_bored-gen0.py:6:1: W293 blank line contains whitespace
+/home/saima/projects/NonFunc-AWQ/multipLE-py/deepseekcoder-6.7B-instruct-hf/completion/taskid-91_is_bored-gen0.py:15:5: E303 too many blank lines (2)

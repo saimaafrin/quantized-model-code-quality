@@ -1,0 +1,10 @@
+************* Module taskid-12_longest-gen0
+/home/saima/projects/NonFunc-AWQ/multipLE-py/codellama-13B-instruct-hf/completion/taskid-12_longest-gen0.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+/home/saima/projects/NonFunc-AWQ/multipLE-py/codellama-13B-instruct-hf/completion/taskid-12_longest-gen0.py:1:0: C0103: Module name "taskid-12_longest-gen0" doesn't conform to snake_case naming style (invalid-name)
+/home/saima/projects/NonFunc-AWQ/multipLE-py/codellama-13B-instruct-hf/completion/taskid-12_longest-gen0.py:15:8: W0622: Redefining built-in 'str' (redefined-builtin)
+/home/saima/projects/NonFunc-AWQ/multipLE-py/codellama-13B-instruct-hf/completion/taskid-12_longest-gen0.py:3:26: W0631: Using possibly undefined loop variable 'str' (undefined-loop-variable)
+/home/saima/projects/NonFunc-AWQ/multipLE-py/codellama-13B-instruct-hf/completion/taskid-12_longest-gen0.py:3:44: W0631: Using possibly undefined loop variable 'str' (undefined-loop-variable)
+
+------------------------------------------------------------------
+Your code has been rated at 2.86/10 (previous run: 6.00/10, -3.14)
+

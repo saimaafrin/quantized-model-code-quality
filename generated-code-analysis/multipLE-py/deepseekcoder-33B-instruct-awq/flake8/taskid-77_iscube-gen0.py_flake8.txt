@@ -1,0 +1,2 @@
+/home/saima/projects/NonFunc-AWQ/multipLE-py/deepseekcoder-33B-instruct-awq/completion/taskid-77_iscube-gen0.py:3:62: W291 trailing whitespace
+/home/saima/projects/NonFunc-AWQ/multipLE-py/deepseekcoder-33B-instruct-awq/completion/taskid-77_iscube-gen0.py:21:12: E721 do not compare types, for exact checks use `is` / `is not`, for instance checks use `isinstance()`

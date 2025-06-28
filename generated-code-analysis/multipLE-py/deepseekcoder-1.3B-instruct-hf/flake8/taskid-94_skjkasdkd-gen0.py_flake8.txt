@@ -1,0 +1,15 @@
+/home/saima/projects/NonFunc-AWQ/multipLE-py/deepseekcoder-1.3B-instruct-hf/completion/taskid-94_skjkasdkd-gen0.py:3:1: E302 expected 2 blank lines, found 1
+/home/saima/projects/NonFunc-AWQ/multipLE-py/deepseekcoder-1.3B-instruct-hf/completion/taskid-94_skjkasdkd-gen0.py:8:80: E501 line too long (92 > 79 characters)
+/home/saima/projects/NonFunc-AWQ/multipLE-py/deepseekcoder-1.3B-instruct-hf/completion/taskid-94_skjkasdkd-gen0.py:12:80: E501 line too long (86 > 79 characters)
+/home/saima/projects/NonFunc-AWQ/multipLE-py/deepseekcoder-1.3B-instruct-hf/completion/taskid-94_skjkasdkd-gen0.py:23:28: E701 multiple statements on one line (colon)
+/home/saima/projects/NonFunc-AWQ/multipLE-py/deepseekcoder-1.3B-instruct-hf/completion/taskid-94_skjkasdkd-gen0.py:24:22: E228 missing whitespace around modulo operator
+/home/saima/projects/NonFunc-AWQ/multipLE-py/deepseekcoder-1.3B-instruct-hf/completion/taskid-94_skjkasdkd-gen0.py:24:29: E701 multiple statements on one line (colon)
+/home/saima/projects/NonFunc-AWQ/multipLE-py/deepseekcoder-1.3B-instruct-hf/completion/taskid-94_skjkasdkd-gen0.py:25:17: E701 multiple statements on one line (colon)
+/home/saima/projects/NonFunc-AWQ/multipLE-py/deepseekcoder-1.3B-instruct-hf/completion/taskid-94_skjkasdkd-gen0.py:26:13: E228 missing whitespace around modulo operator
+/home/saima/projects/NonFunc-AWQ/multipLE-py/deepseekcoder-1.3B-instruct-hf/completion/taskid-94_skjkasdkd-gen0.py:26:20: E701 multiple statements on one line (colon)
+/home/saima/projects/NonFunc-AWQ/multipLE-py/deepseekcoder-1.3B-instruct-hf/completion/taskid-94_skjkasdkd-gen0.py:30:17: E228 missing whitespace around modulo operator
+/home/saima/projects/NonFunc-AWQ/multipLE-py/deepseekcoder-1.3B-instruct-hf/completion/taskid-94_skjkasdkd-gen0.py:30:24: E701 multiple statements on one line (colon)
+/home/saima/projects/NonFunc-AWQ/multipLE-py/deepseekcoder-1.3B-instruct-hf/completion/taskid-94_skjkasdkd-gen0.py:31:17: E228 missing whitespace around modulo operator
+/home/saima/projects/NonFunc-AWQ/multipLE-py/deepseekcoder-1.3B-instruct-hf/completion/taskid-94_skjkasdkd-gen0.py:31:28: E701 multiple statements on one line (colon)
+/home/saima/projects/NonFunc-AWQ/multipLE-py/deepseekcoder-1.3B-instruct-hf/completion/taskid-94_skjkasdkd-gen0.py:32:17: E225 missing whitespace around operator
+/home/saima/projects/NonFunc-AWQ/multipLE-py/deepseekcoder-1.3B-instruct-hf/completion/taskid-94_skjkasdkd-gen0.py:33:20: W291 trailing whitespace

@@ -1,0 +1,12 @@
+************* Module taskid-121_solution-gen0
+/home/saima/projects/NonFunc-AWQ/multipLE-py/codellama-13B-instruct-awq/completion/taskid-121_solution-gen0.py:4:0: C0301: Line too long (112/100) (line-too-long)
+/home/saima/projects/NonFunc-AWQ/multipLE-py/codellama-13B-instruct-awq/completion/taskid-121_solution-gen0.py:18:23: C0303: Trailing whitespace (trailing-whitespace)
+/home/saima/projects/NonFunc-AWQ/multipLE-py/codellama-13B-instruct-awq/completion/taskid-121_solution-gen0.py:20:0: C0303: Trailing whitespace (trailing-whitespace)
+/home/saima/projects/NonFunc-AWQ/multipLE-py/codellama-13B-instruct-awq/completion/taskid-121_solution-gen0.py:30:23: C0303: Trailing whitespace (trailing-whitespace)
+/home/saima/projects/NonFunc-AWQ/multipLE-py/codellama-13B-instruct-awq/completion/taskid-121_solution-gen0.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+/home/saima/projects/NonFunc-AWQ/multipLE-py/codellama-13B-instruct-awq/completion/taskid-121_solution-gen0.py:1:0: C0103: Module name "taskid-121_solution-gen0" doesn't conform to snake_case naming style (invalid-name)
+/home/saima/projects/NonFunc-AWQ/multipLE-py/codellama-13B-instruct-awq/completion/taskid-121_solution-gen0.py:37:4: C0200: Consider using enumerate instead of iterating with range and len (consider-using-enumerate)
+
+------------------------------------------------------------------
+Your code has been rated at 0.00/10 (previous run: 4.29/10, -4.29)
+

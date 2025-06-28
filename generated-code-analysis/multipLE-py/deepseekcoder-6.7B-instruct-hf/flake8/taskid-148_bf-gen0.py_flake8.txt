@@ -1,0 +1,10 @@
+/home/saima/projects/NonFunc-AWQ/multipLE-py/deepseekcoder-6.7B-instruct-hf/completion/taskid-148_bf-gen0.py:3:1: E302 expected 2 blank lines, found 1
+/home/saima/projects/NonFunc-AWQ/multipLE-py/deepseekcoder-6.7B-instruct-hf/completion/taskid-148_bf-gen0.py:5:73: W291 trailing whitespace
+/home/saima/projects/NonFunc-AWQ/multipLE-py/deepseekcoder-6.7B-instruct-hf/completion/taskid-148_bf-gen0.py:6:74: W291 trailing whitespace
+/home/saima/projects/NonFunc-AWQ/multipLE-py/deepseekcoder-6.7B-instruct-hf/completion/taskid-148_bf-gen0.py:8:80: E501 line too long (80 > 79 characters)
+/home/saima/projects/NonFunc-AWQ/multipLE-py/deepseekcoder-6.7B-instruct-hf/completion/taskid-148_bf-gen0.py:8:81: W291 trailing whitespace
+/home/saima/projects/NonFunc-AWQ/multipLE-py/deepseekcoder-6.7B-instruct-hf/completion/taskid-148_bf-gen0.py:9:79: W291 trailing whitespace
+/home/saima/projects/NonFunc-AWQ/multipLE-py/deepseekcoder-6.7B-instruct-hf/completion/taskid-148_bf-gen0.py:10:77: W291 trailing whitespace
+/home/saima/projects/NonFunc-AWQ/multipLE-py/deepseekcoder-6.7B-instruct-hf/completion/taskid-148_bf-gen0.py:11:30: W291 trailing whitespace
+/home/saima/projects/NonFunc-AWQ/multipLE-py/deepseekcoder-6.7B-instruct-hf/completion/taskid-148_bf-gen0.py:13:34: W291 trailing whitespace
+/home/saima/projects/NonFunc-AWQ/multipLE-py/deepseekcoder-6.7B-instruct-hf/completion/taskid-148_bf-gen0.py:23:80: E501 line too long (93 > 79 characters)

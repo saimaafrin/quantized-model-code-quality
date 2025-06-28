@@ -1,0 +1,10 @@
+************* Module taskid-105_by_length-gen0
+/home/saima/projects/NonFunc-AWQ/multipLE-py/codellama-7B-instruct-hf/completion/taskid-105_by_length-gen0.py:26:0: C0301: Line too long (251/100) (line-too-long)
+/home/saima/projects/NonFunc-AWQ/multipLE-py/codellama-7B-instruct-hf/completion/taskid-105_by_length-gen0.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+/home/saima/projects/NonFunc-AWQ/multipLE-py/codellama-7B-instruct-hf/completion/taskid-105_by_length-gen0.py:1:0: C0103: Module name "taskid-105_by_length-gen0" doesn't conform to snake_case naming style (invalid-name)
+/home/saima/projects/NonFunc-AWQ/multipLE-py/codellama-7B-instruct-hf/completion/taskid-105_by_length-gen0.py:22:22: C0321: More than one statement on a single line (multiple-statements)
+/home/saima/projects/NonFunc-AWQ/multipLE-py/codellama-7B-instruct-hf/completion/taskid-105_by_length-gen0.py:25:14: W0108: Lambda may not be necessary (unnecessary-lambda)
+
+------------------------------------------------------------------
+Your code has been rated at 4.44/10 (previous run: 3.33/10, +1.11)
+

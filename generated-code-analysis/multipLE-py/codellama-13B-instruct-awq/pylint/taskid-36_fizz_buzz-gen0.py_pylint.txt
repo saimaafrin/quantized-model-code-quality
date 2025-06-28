@@ -1,0 +1,8 @@
+************* Module taskid-36_fizz_buzz-gen0
+/home/saima/projects/NonFunc-AWQ/multipLE-py/codellama-13B-instruct-awq/completion/taskid-36_fizz_buzz-gen0.py:2:0: C0301: Line too long (110/100) (line-too-long)
+/home/saima/projects/NonFunc-AWQ/multipLE-py/codellama-13B-instruct-awq/completion/taskid-36_fizz_buzz-gen0.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+/home/saima/projects/NonFunc-AWQ/multipLE-py/codellama-13B-instruct-awq/completion/taskid-36_fizz_buzz-gen0.py:1:0: C0103: Module name "taskid-36_fizz_buzz-gen0" doesn't conform to snake_case naming style (invalid-name)
+
+------------------------------------------------------------------
+Your code has been rated at 5.00/10 (previous run: 6.67/10, -1.67)
+

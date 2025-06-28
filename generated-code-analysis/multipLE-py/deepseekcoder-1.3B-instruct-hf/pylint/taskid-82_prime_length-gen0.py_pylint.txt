@@ -1,0 +1,7 @@
+************* Module taskid-82_prime_length-gen0
+/home/saima/projects/NonFunc-AWQ/multipLE-py/deepseekcoder-1.3B-instruct-hf/completion/taskid-82_prime_length-gen0.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+/home/saima/projects/NonFunc-AWQ/multipLE-py/deepseekcoder-1.3B-instruct-hf/completion/taskid-82_prime_length-gen0.py:1:0: C0103: Module name "taskid-82_prime_length-gen0" doesn't conform to snake_case naming style (invalid-name)
+
+------------------------------------------------------------------
+Your code has been rated at 7.78/10 (previous run: 7.78/10, +0.00)
+

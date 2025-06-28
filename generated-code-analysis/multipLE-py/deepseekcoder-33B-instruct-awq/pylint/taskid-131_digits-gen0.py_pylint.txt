@@ -1,0 +1,9 @@
+************* Module taskid-131_digits-gen0
+/home/saima/projects/NonFunc-AWQ/multipLE-py/deepseekcoder-33B-instruct-awq/completion/taskid-131_digits-gen0.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+/home/saima/projects/NonFunc-AWQ/multipLE-py/deepseekcoder-33B-instruct-awq/completion/taskid-131_digits-gen0.py:1:0: C0103: Module name "taskid-131_digits-gen0" doesn't conform to snake_case naming style (invalid-name)
+/home/saima/projects/NonFunc-AWQ/multipLE-py/deepseekcoder-33B-instruct-awq/completion/taskid-131_digits-gen0.py:13:4: W0107: Unnecessary pass statement (unnecessary-pass)
+/home/saima/projects/NonFunc-AWQ/multipLE-py/deepseekcoder-33B-instruct-awq/completion/taskid-131_digits-gen0.py:1:11: W0613: Unused argument 'n' (unused-argument)
+
+------------------------------------------------------------------
+Your code has been rated at 0.00/10 (previous run: 7.50/10, -7.50)
+

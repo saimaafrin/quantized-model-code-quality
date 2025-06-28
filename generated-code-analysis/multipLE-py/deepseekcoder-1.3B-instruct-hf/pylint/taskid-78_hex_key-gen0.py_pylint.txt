@@ -1,0 +1,8 @@
+************* Module taskid-78_hex_key-gen0
+/home/saima/projects/NonFunc-AWQ/multipLE-py/deepseekcoder-1.3B-instruct-hf/completion/taskid-78_hex_key-gen0.py:25:0: C0301: Line too long (109/100) (line-too-long)
+/home/saima/projects/NonFunc-AWQ/multipLE-py/deepseekcoder-1.3B-instruct-hf/completion/taskid-78_hex_key-gen0.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+/home/saima/projects/NonFunc-AWQ/multipLE-py/deepseekcoder-1.3B-instruct-hf/completion/taskid-78_hex_key-gen0.py:1:0: C0103: Module name "taskid-78_hex_key-gen0" doesn't conform to snake_case naming style (invalid-name)
+
+------------------------------------------------------------------
+Your code has been rated at 7.27/10 (previous run: 4.62/10, +2.66)
+

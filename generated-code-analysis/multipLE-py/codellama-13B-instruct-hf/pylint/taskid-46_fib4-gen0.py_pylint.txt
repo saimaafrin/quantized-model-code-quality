@@ -1,0 +1,11 @@
+************* Module taskid-46_fib4-gen0
+/home/saima/projects/NonFunc-AWQ/multipLE-py/codellama-13B-instruct-hf/completion/taskid-46_fib4-gen0.py:2:0: C0301: Line too long (107/100) (line-too-long)
+/home/saima/projects/NonFunc-AWQ/multipLE-py/codellama-13B-instruct-hf/completion/taskid-46_fib4-gen0.py:8:0: C0301: Line too long (119/100) (line-too-long)
+/home/saima/projects/NonFunc-AWQ/multipLE-py/codellama-13B-instruct-hf/completion/taskid-46_fib4-gen0.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+/home/saima/projects/NonFunc-AWQ/multipLE-py/codellama-13B-instruct-hf/completion/taskid-46_fib4-gen0.py:1:0: C0103: Module name "taskid-46_fib4-gen0" doesn't conform to snake_case naming style (invalid-name)
+/home/saima/projects/NonFunc-AWQ/multipLE-py/codellama-13B-instruct-hf/completion/taskid-46_fib4-gen0.py:21:4: W0621: Redefining name 'fib4' from outer scope (line 1) (redefined-outer-name)
+/home/saima/projects/NonFunc-AWQ/multipLE-py/codellama-13B-instruct-hf/completion/taskid-46_fib4-gen0.py:22:8: R1705: Unnecessary "else" after "return", remove the "else" and de-indent the code inside it (no-else-return)
+
+------------------------------------------------------------------
+Your code has been rated at 3.33/10 (previous run: 2.00/10, +1.33)
+

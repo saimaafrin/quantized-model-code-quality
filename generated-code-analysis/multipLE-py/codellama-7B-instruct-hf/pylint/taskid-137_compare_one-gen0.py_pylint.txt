@@ -1,0 +1,18 @@
+************* Module taskid-137_compare_one-gen0
+/home/saima/projects/NonFunc-AWQ/multipLE-py/codellama-7B-instruct-hf/completion/taskid-137_compare_one-gen0.py:3:0: C0301: Line too long (102/100) (line-too-long)
+/home/saima/projects/NonFunc-AWQ/multipLE-py/codellama-7B-instruct-hf/completion/taskid-137_compare_one-gen0.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+/home/saima/projects/NonFunc-AWQ/multipLE-py/codellama-7B-instruct-hf/completion/taskid-137_compare_one-gen0.py:1:0: C0103: Module name "taskid-137_compare_one-gen0" doesn't conform to snake_case naming style (invalid-name)
+/home/saima/projects/NonFunc-AWQ/multipLE-py/codellama-7B-instruct-hf/completion/taskid-137_compare_one-gen0.py:26:7: C0123: Use isinstance() rather than type() for a typecheck. (unidiomatic-typecheck)
+/home/saima/projects/NonFunc-AWQ/multipLE-py/codellama-7B-instruct-hf/completion/taskid-137_compare_one-gen0.py:26:26: C0123: Use isinstance() rather than type() for a typecheck. (unidiomatic-typecheck)
+/home/saima/projects/NonFunc-AWQ/multipLE-py/codellama-7B-instruct-hf/completion/taskid-137_compare_one-gen0.py:28:8: R1705: Unnecessary "else" after "return", remove the "else" and de-indent the code inside it (no-else-return)
+/home/saima/projects/NonFunc-AWQ/multipLE-py/codellama-7B-instruct-hf/completion/taskid-137_compare_one-gen0.py:35:7: C0123: Use isinstance() rather than type() for a typecheck. (unidiomatic-typecheck)
+/home/saima/projects/NonFunc-AWQ/multipLE-py/codellama-7B-instruct-hf/completion/taskid-137_compare_one-gen0.py:35:26: C0123: Use isinstance() rather than type() for a typecheck. (unidiomatic-typecheck)
+/home/saima/projects/NonFunc-AWQ/multipLE-py/codellama-7B-instruct-hf/completion/taskid-137_compare_one-gen0.py:37:8: R1705: Unnecessary "else" after "return", remove the "else" and de-indent the code inside it (no-else-return)
+/home/saima/projects/NonFunc-AWQ/multipLE-py/codellama-7B-instruct-hf/completion/taskid-137_compare_one-gen0.py:43:7: C0123: Use isinstance() rather than type() for a typecheck. (unidiomatic-typecheck)
+/home/saima/projects/NonFunc-AWQ/multipLE-py/codellama-7B-instruct-hf/completion/taskid-137_compare_one-gen0.py:43:28: C0123: Use isinstance() rather than type() for a typecheck. (unidiomatic-typecheck)
+/home/saima/projects/NonFunc-AWQ/multipLE-py/codellama-7B-instruct-hf/completion/taskid-137_compare_one-gen0.py:45:8: R1705: Unnecessary "else" after "return", remove the "else" and de-indent the code inside it (no-else-return)
+/home/saima/projects/NonFunc-AWQ/multipLE-py/codellama-7B-instruct-hf/completion/taskid-137_compare_one-gen0.py:3:0: R0911: Too many return statements (7/6) (too-many-return-statements)
+
+------------------------------------------------------------------
+Your code has been rated at 2.35/10 (previous run: 4.00/10, -1.65)
+

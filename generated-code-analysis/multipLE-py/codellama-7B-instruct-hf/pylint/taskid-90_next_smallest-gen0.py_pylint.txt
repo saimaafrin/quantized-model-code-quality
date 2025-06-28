@@ -1,0 +1,8 @@
+************* Module taskid-90_next_smallest-gen0
+/home/saima/projects/NonFunc-AWQ/multipLE-py/codellama-7B-instruct-hf/completion/taskid-90_next_smallest-gen0.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+/home/saima/projects/NonFunc-AWQ/multipLE-py/codellama-7B-instruct-hf/completion/taskid-90_next_smallest-gen0.py:1:0: C0103: Module name "taskid-90_next_smallest-gen0" doesn't conform to snake_case naming style (invalid-name)
+/home/saima/projects/NonFunc-AWQ/multipLE-py/codellama-7B-instruct-hf/completion/taskid-90_next_smallest-gen0.py:19:4: R1705: Unnecessary "else" after "return", remove the "else" and de-indent the code inside it (no-else-return)
+
+------------------------------------------------------------------
+Your code has been rated at 5.00/10 (previous run: 6.67/10, -1.67)
+

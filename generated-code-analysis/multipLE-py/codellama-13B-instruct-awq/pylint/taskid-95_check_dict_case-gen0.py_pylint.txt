@@ -1,0 +1,9 @@
+************* Module taskid-95_check_dict_case-gen0
+/home/saima/projects/NonFunc-AWQ/multipLE-py/codellama-13B-instruct-awq/completion/taskid-95_check_dict_case-gen0.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+/home/saima/projects/NonFunc-AWQ/multipLE-py/codellama-13B-instruct-awq/completion/taskid-95_check_dict_case-gen0.py:1:0: C0103: Module name "taskid-95_check_dict_case-gen0" doesn't conform to snake_case naming style (invalid-name)
+/home/saima/projects/NonFunc-AWQ/multipLE-py/codellama-13B-instruct-awq/completion/taskid-95_check_dict_case-gen0.py:3:20: W0622: Redefining built-in 'dict' (redefined-builtin)
+/home/saima/projects/NonFunc-AWQ/multipLE-py/codellama-13B-instruct-awq/completion/taskid-95_check_dict_case-gen0.py:3:20: W0613: Unused argument 'dict' (unused-argument)
+
+------------------------------------------------------------------
+Your code has been rated at 0.00/10 (previous run: 5.00/10, -5.00)
+

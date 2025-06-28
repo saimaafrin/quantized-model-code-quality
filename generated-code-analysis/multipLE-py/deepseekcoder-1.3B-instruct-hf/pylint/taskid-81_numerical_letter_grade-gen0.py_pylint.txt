@@ -1,0 +1,8 @@
+************* Module taskid-81_numerical_letter_grade-gen0
+/home/saima/projects/NonFunc-AWQ/multipLE-py/deepseekcoder-1.3B-instruct-hf/completion/taskid-81_numerical_letter_grade-gen0.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+/home/saima/projects/NonFunc-AWQ/multipLE-py/deepseekcoder-1.3B-instruct-hf/completion/taskid-81_numerical_letter_grade-gen0.py:1:0: C0103: Module name "taskid-81_numerical_letter_grade-gen0" doesn't conform to snake_case naming style (invalid-name)
+/home/saima/projects/NonFunc-AWQ/multipLE-py/deepseekcoder-1.3B-instruct-hf/completion/taskid-81_numerical_letter_grade-gen0.py:3:0: R0912: Too many branches (14/12) (too-many-branches)
+
+------------------------------------------------------------------
+Your code has been rated at 9.00/10 (previous run: 4.00/10, +5.00)
+

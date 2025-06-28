@@ -1,0 +1,10 @@
+************* Module taskid-141_file_name_check-gen0
+/home/saima/projects/NonFunc-AWQ/multipLE-py/deepseekcoder-6.7B-instruct-awq/completion/taskid-141_file_name_check-gen0.py:22:0: C0303: Trailing whitespace (trailing-whitespace)
+/home/saima/projects/NonFunc-AWQ/multipLE-py/deepseekcoder-6.7B-instruct-awq/completion/taskid-141_file_name_check-gen0.py:27:0: C0303: Trailing whitespace (trailing-whitespace)
+/home/saima/projects/NonFunc-AWQ/multipLE-py/deepseekcoder-6.7B-instruct-awq/completion/taskid-141_file_name_check-gen0.py:33:0: C0303: Trailing whitespace (trailing-whitespace)
+/home/saima/projects/NonFunc-AWQ/multipLE-py/deepseekcoder-6.7B-instruct-awq/completion/taskid-141_file_name_check-gen0.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+/home/saima/projects/NonFunc-AWQ/multipLE-py/deepseekcoder-6.7B-instruct-awq/completion/taskid-141_file_name_check-gen0.py:1:0: C0103: Module name "taskid-141_file_name_check-gen0" doesn't conform to snake_case naming style (invalid-name)
+
+------------------------------------------------------------------
+Your code has been rated at 5.83/10 (previous run: 8.42/10, -2.59)
+

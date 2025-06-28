@@ -1,0 +1,11 @@
+************* Module taskid-125_split_words-gen0
+/home/saima/projects/NonFunc-AWQ/multipLE-py/codellama-13B-instruct-awq/completion/taskid-125_split_words-gen0.py:5:0: C0301: Line too long (113/100) (line-too-long)
+/home/saima/projects/NonFunc-AWQ/multipLE-py/codellama-13B-instruct-awq/completion/taskid-125_split_words-gen0.py:6:0: C0301: Line too long (123/100) (line-too-long)
+/home/saima/projects/NonFunc-AWQ/multipLE-py/codellama-13B-instruct-awq/completion/taskid-125_split_words-gen0.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+/home/saima/projects/NonFunc-AWQ/multipLE-py/codellama-13B-instruct-awq/completion/taskid-125_split_words-gen0.py:1:0: C0103: Module name "taskid-125_split_words-gen0" doesn't conform to snake_case naming style (invalid-name)
+/home/saima/projects/NonFunc-AWQ/multipLE-py/codellama-13B-instruct-awq/completion/taskid-125_split_words-gen0.py:20:8: R1705: Unnecessary "else" after "return", remove the "else" and de-indent the code inside it (no-else-return)
+/home/saima/projects/NonFunc-AWQ/multipLE-py/codellama-13B-instruct-awq/completion/taskid-125_split_words-gen0.py:25:15: R1721: Unnecessary use of a comprehension, use list(txt.split()) instead. (unnecessary-comprehension)
+
+------------------------------------------------------------------
+Your code has been rated at 3.33/10 (previous run: 2.50/10, +0.83)
+

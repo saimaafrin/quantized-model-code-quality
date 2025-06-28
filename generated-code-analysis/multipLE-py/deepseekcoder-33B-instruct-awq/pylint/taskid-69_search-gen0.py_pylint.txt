@@ -1,0 +1,10 @@
+************* Module taskid-69_search-gen0
+/home/saima/projects/NonFunc-AWQ/multipLE-py/deepseekcoder-33B-instruct-awq/completion/taskid-69_search-gen0.py:5:0: C0301: Line too long (105/100) (line-too-long)
+/home/saima/projects/NonFunc-AWQ/multipLE-py/deepseekcoder-33B-instruct-awq/completion/taskid-69_search-gen0.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+/home/saima/projects/NonFunc-AWQ/multipLE-py/deepseekcoder-33B-instruct-awq/completion/taskid-69_search-gen0.py:1:0: C0103: Module name "taskid-69_search-gen0" doesn't conform to snake_case naming style (invalid-name)
+/home/saima/projects/NonFunc-AWQ/multipLE-py/deepseekcoder-33B-instruct-awq/completion/taskid-69_search-gen0.py:18:4: C0415: Import outside toplevel (collections.Counter) (import-outside-toplevel)
+/home/saima/projects/NonFunc-AWQ/multipLE-py/deepseekcoder-33B-instruct-awq/completion/taskid-69_search-gen0.py:20:11: R1728: Consider using a generator instead 'max((k for (k, v) in c.items() if k == v), default=-1)' (consider-using-generator)
+
+------------------------------------------------------------------
+Your code has been rated at 0.00/10 (previous run: 0.00/10, +0.00)
+

@@ -1,0 +1,7 @@
+************* Module taskid-7_filter_by_substring-gen0
+/home/saima/projects/NonFunc-AWQ/multipLE-py/codellama-34B-instruct-awq/completion/taskid-7_filter_by_substring-gen0.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+/home/saima/projects/NonFunc-AWQ/multipLE-py/codellama-34B-instruct-awq/completion/taskid-7_filter_by_substring-gen0.py:1:0: C0103: Module name "taskid-7_filter_by_substring-gen0" doesn't conform to snake_case naming style (invalid-name)
+
+------------------------------------------------------------------
+Your code has been rated at 3.33/10 (previous run: 3.33/10, +0.00)
+

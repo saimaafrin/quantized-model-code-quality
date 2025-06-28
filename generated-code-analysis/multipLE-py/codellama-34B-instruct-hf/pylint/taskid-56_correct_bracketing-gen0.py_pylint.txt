@@ -1,0 +1,10 @@
+************* Module taskid-56_correct_bracketing-gen0
+/home/saima/projects/NonFunc-AWQ/multipLE-py/codellama-34B-instruct-hf/completion/taskid-56_correct_bracketing-gen0.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+/home/saima/projects/NonFunc-AWQ/multipLE-py/codellama-34B-instruct-hf/completion/taskid-56_correct_bracketing-gen0.py:1:0: C0103: Module name "taskid-56_correct_bracketing-gen0" doesn't conform to snake_case naming style (invalid-name)
+/home/saima/projects/NonFunc-AWQ/multipLE-py/codellama-34B-instruct-hf/completion/taskid-56_correct_bracketing-gen0.py:20:12: R1705: Unnecessary "else" after "return", remove the "else" and de-indent the code inside it (no-else-return)
+/home/saima/projects/NonFunc-AWQ/multipLE-py/codellama-34B-instruct-hf/completion/taskid-56_correct_bracketing-gen0.py:25:4: R1703: The if statement can be replaced with 'return bool(test)' (simplifiable-if-statement)
+/home/saima/projects/NonFunc-AWQ/multipLE-py/codellama-34B-instruct-hf/completion/taskid-56_correct_bracketing-gen0.py:25:4: R1705: Unnecessary "else" after "return", remove the "else" and de-indent the code inside it (no-else-return)
+
+------------------------------------------------------------------
+Your code has been rated at 5.83/10 (previous run: 8.18/10, -2.35)
+

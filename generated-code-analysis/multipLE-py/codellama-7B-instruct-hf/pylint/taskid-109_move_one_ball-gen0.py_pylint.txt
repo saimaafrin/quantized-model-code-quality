@@ -1,0 +1,12 @@
+************* Module taskid-109_move_one_ball-gen0
+/home/saima/projects/NonFunc-AWQ/multipLE-py/codellama-7B-instruct-hf/completion/taskid-109_move_one_ball-gen0.py:36:0: C0303: Trailing whitespace (trailing-whitespace)
+/home/saima/projects/NonFunc-AWQ/multipLE-py/codellama-7B-instruct-hf/completion/taskid-109_move_one_ball-gen0.py:39:0: C0303: Trailing whitespace (trailing-whitespace)
+/home/saima/projects/NonFunc-AWQ/multipLE-py/codellama-7B-instruct-hf/completion/taskid-109_move_one_ball-gen0.py:41:0: C0303: Trailing whitespace (trailing-whitespace)
+/home/saima/projects/NonFunc-AWQ/multipLE-py/codellama-7B-instruct-hf/completion/taskid-109_move_one_ball-gen0.py:44:0: C0303: Trailing whitespace (trailing-whitespace)
+/home/saima/projects/NonFunc-AWQ/multipLE-py/codellama-7B-instruct-hf/completion/taskid-109_move_one_ball-gen0.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+/home/saima/projects/NonFunc-AWQ/multipLE-py/codellama-7B-instruct-hf/completion/taskid-109_move_one_ball-gen0.py:1:0: C0103: Module name "taskid-109_move_one_ball-gen0" doesn't conform to snake_case naming style (invalid-name)
+/home/saima/projects/NonFunc-AWQ/multipLE-py/codellama-7B-instruct-hf/completion/taskid-109_move_one_ball-gen0.py:33:4: C0103: Variable name "N" doesn't conform to snake_case naming style (invalid-name)
+
+------------------------------------------------------------------
+Your code has been rated at 3.64/10 (previous run: 5.00/10, -1.36)
+

@@ -1,0 +1,4 @@
+/home/saima/projects/NonFunc-AWQ/multipLE-py/deepseekcoder-1.3B-instruct-hf/completion/taskid-100_make_a_pile-gen0.py:3:1: E302 expected 2 blank lines, found 1
+/home/saima/projects/NonFunc-AWQ/multipLE-py/deepseekcoder-1.3B-instruct-hf/completion/taskid-100_make_a_pile-gen0.py:19:5: E303 too many blank lines (2)
+/home/saima/projects/NonFunc-AWQ/multipLE-py/deepseekcoder-1.3B-instruct-hf/completion/taskid-100_make_a_pile-gen0.py:22:1: W293 blank line contains whitespace
+/home/saima/projects/NonFunc-AWQ/multipLE-py/deepseekcoder-1.3B-instruct-hf/completion/taskid-100_make_a_pile-gen0.py:27:1: W293 blank line contains whitespace

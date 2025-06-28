@@ -1,0 +1,10 @@
+************* Module taskid-102_choose_num-gen0
+/home/saima/projects/NonFunc-AWQ/multipLE-py/codellama-13B-instruct-hf/completion/taskid-102_choose_num-gen0.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+/home/saima/projects/NonFunc-AWQ/multipLE-py/codellama-13B-instruct-hf/completion/taskid-102_choose_num-gen0.py:1:0: C0103: Module name "taskid-102_choose_num-gen0" doesn't conform to snake_case naming style (invalid-name)
+/home/saima/projects/NonFunc-AWQ/multipLE-py/codellama-13B-instruct-hf/completion/taskid-102_choose_num-gen0.py:13:4: W0107: Unnecessary pass statement (unnecessary-pass)
+/home/saima/projects/NonFunc-AWQ/multipLE-py/codellama-13B-instruct-hf/completion/taskid-102_choose_num-gen0.py:1:15: W0613: Unused argument 'x' (unused-argument)
+/home/saima/projects/NonFunc-AWQ/multipLE-py/codellama-13B-instruct-hf/completion/taskid-102_choose_num-gen0.py:1:23: W0613: Unused argument 'y' (unused-argument)
+
+------------------------------------------------------------------
+Your code has been rated at 0.00/10 (previous run: 6.36/10, -6.36)
+

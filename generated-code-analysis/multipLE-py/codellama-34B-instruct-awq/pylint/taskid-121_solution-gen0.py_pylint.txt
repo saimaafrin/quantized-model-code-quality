@@ -1,0 +1,10 @@
+************* Module taskid-121_solution-gen0
+/home/saima/projects/NonFunc-AWQ/multipLE-py/codellama-34B-instruct-awq/completion/taskid-121_solution-gen0.py:4:0: C0301: Line too long (112/100) (line-too-long)
+/home/saima/projects/NonFunc-AWQ/multipLE-py/codellama-34B-instruct-awq/completion/taskid-121_solution-gen0.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+/home/saima/projects/NonFunc-AWQ/multipLE-py/codellama-34B-instruct-awq/completion/taskid-121_solution-gen0.py:1:0: C0103: Module name "taskid-121_solution-gen0" doesn't conform to snake_case naming style (invalid-name)
+/home/saima/projects/NonFunc-AWQ/multipLE-py/codellama-34B-instruct-awq/completion/taskid-121_solution-gen0.py:17:21: C3001: Lambda expression assigned to a variable. Define a function using the "def" keyword instead. (unnecessary-lambda-assignment)
+/home/saima/projects/NonFunc-AWQ/multipLE-py/codellama-34B-instruct-awq/completion/taskid-121_solution-gen0.py:18:18: C3001: Lambda expression assigned to a variable. Define a function using the "def" keyword instead. (unnecessary-lambda-assignment)
+
+------------------------------------------------------------------
+Your code has been rated at 0.00/10 (previous run: 5.71/10, -5.71)
+

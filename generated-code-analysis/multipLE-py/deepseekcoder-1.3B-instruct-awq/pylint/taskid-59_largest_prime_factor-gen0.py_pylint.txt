@@ -1,0 +1,9 @@
+************* Module taskid-59_largest_prime_factor-gen0
+/home/saima/projects/NonFunc-AWQ/multipLE-py/deepseekcoder-1.3B-instruct-awq/completion/taskid-59_largest_prime_factor-gen0.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+/home/saima/projects/NonFunc-AWQ/multipLE-py/deepseekcoder-1.3B-instruct-awq/completion/taskid-59_largest_prime_factor-gen0.py:1:0: C0103: Module name "taskid-59_largest_prime_factor-gen0" doesn't conform to snake_case naming style (invalid-name)
+/home/saima/projects/NonFunc-AWQ/multipLE-py/deepseekcoder-1.3B-instruct-awq/completion/taskid-59_largest_prime_factor-gen0.py:11:11: R1714: Consider merging these comparisons with 'in' by using 'n in (2, 3)'. Use a set instead if elements are hashable. (consider-using-in)
+/home/saima/projects/NonFunc-AWQ/multipLE-py/deepseekcoder-1.3B-instruct-awq/completion/taskid-59_largest_prime_factor-gen0.py:10:4: W0612: Unused variable 'is_prime' (unused-variable)
+
+------------------------------------------------------------------
+Your code has been rated at 7.50/10 (previous run: 0.00/10, +7.50)
+

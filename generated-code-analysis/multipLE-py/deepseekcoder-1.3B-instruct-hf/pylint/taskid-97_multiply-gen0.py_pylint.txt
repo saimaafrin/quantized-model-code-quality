@@ -1,0 +1,16 @@
+************* Module taskid-97_multiply-gen0
+/home/saima/projects/NonFunc-AWQ/multipLE-py/deepseekcoder-1.3B-instruct-hf/completion/taskid-97_multiply-gen0.py:18:0: C0303: Trailing whitespace (trailing-whitespace)
+/home/saima/projects/NonFunc-AWQ/multipLE-py/deepseekcoder-1.3B-instruct-hf/completion/taskid-97_multiply-gen0.py:21:0: C0303: Trailing whitespace (trailing-whitespace)
+/home/saima/projects/NonFunc-AWQ/multipLE-py/deepseekcoder-1.3B-instruct-hf/completion/taskid-97_multiply-gen0.py:23:0: C0301: Line too long (123/100) (line-too-long)
+/home/saima/projects/NonFunc-AWQ/multipLE-py/deepseekcoder-1.3B-instruct-hf/completion/taskid-97_multiply-gen0.py:24:0: C0303: Trailing whitespace (trailing-whitespace)
+/home/saima/projects/NonFunc-AWQ/multipLE-py/deepseekcoder-1.3B-instruct-hf/completion/taskid-97_multiply-gen0.py:27:0: C0303: Trailing whitespace (trailing-whitespace)
+/home/saima/projects/NonFunc-AWQ/multipLE-py/deepseekcoder-1.3B-instruct-hf/completion/taskid-97_multiply-gen0.py:30:0: C0303: Trailing whitespace (trailing-whitespace)
+/home/saima/projects/NonFunc-AWQ/multipLE-py/deepseekcoder-1.3B-instruct-hf/completion/taskid-97_multiply-gen0.py:33:0: C0303: Trailing whitespace (trailing-whitespace)
+/home/saima/projects/NonFunc-AWQ/multipLE-py/deepseekcoder-1.3B-instruct-hf/completion/taskid-97_multiply-gen0.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+/home/saima/projects/NonFunc-AWQ/multipLE-py/deepseekcoder-1.3B-instruct-hf/completion/taskid-97_multiply-gen0.py:1:0: C0103: Module name "taskid-97_multiply-gen0" doesn't conform to snake_case naming style (invalid-name)
+/home/saima/projects/NonFunc-AWQ/multipLE-py/deepseekcoder-1.3B-instruct-hf/completion/taskid-97_multiply-gen0.py:22:37: W0613: Unused argument 'base' (unused-argument)
+/home/saima/projects/NonFunc-AWQ/multipLE-py/deepseekcoder-1.3B-instruct-hf/completion/taskid-97_multiply-gen0.py:34:4: R1705: Unnecessary "elif" after "return", remove the leading "el" from "elif" (no-else-return)
+
+------------------------------------------------------------------
+Your code has been rated at 4.50/10 (previous run: 6.67/10, -2.17)
+

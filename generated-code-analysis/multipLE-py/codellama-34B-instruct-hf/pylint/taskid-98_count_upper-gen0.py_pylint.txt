@@ -1,0 +1,7 @@
+************* Module taskid-98_count_upper-gen0
+/home/saima/projects/NonFunc-AWQ/multipLE-py/codellama-34B-instruct-hf/completion/taskid-98_count_upper-gen0.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+/home/saima/projects/NonFunc-AWQ/multipLE-py/codellama-34B-instruct-hf/completion/taskid-98_count_upper-gen0.py:1:0: C0103: Module name "taskid-98_count_upper-gen0" doesn't conform to snake_case naming style (invalid-name)
+
+------------------------------------------------------------------
+Your code has been rated at 7.14/10 (previous run: 5.00/10, +2.14)
+

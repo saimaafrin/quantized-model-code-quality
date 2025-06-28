@@ -1,0 +1,14 @@
+************* Module taskid-153_Strongest_Extension-gen0
+/home/saima/projects/NonFunc-AWQ/multipLE-py/deepseekcoder-6.7B-instruct-awq/completion/taskid-153_Strongest_Extension-gen0.py:24:0: C0301: Line too long (132/100) (line-too-long)
+/home/saima/projects/NonFunc-AWQ/multipLE-py/deepseekcoder-6.7B-instruct-awq/completion/taskid-153_Strongest_Extension-gen0.py:27:0: C0301: Line too long (106/100) (line-too-long)
+/home/saima/projects/NonFunc-AWQ/multipLE-py/deepseekcoder-6.7B-instruct-awq/completion/taskid-153_Strongest_Extension-gen0.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+/home/saima/projects/NonFunc-AWQ/multipLE-py/deepseekcoder-6.7B-instruct-awq/completion/taskid-153_Strongest_Extension-gen0.py:1:0: C0103: Module name "taskid-153_Strongest_Extension-gen0" doesn't conform to snake_case naming style (invalid-name)
+/home/saima/projects/NonFunc-AWQ/multipLE-py/deepseekcoder-6.7B-instruct-awq/completion/taskid-153_Strongest_Extension-gen0.py:3:0: C0103: Function name "Strongest_Extension" doesn't conform to snake_case naming style (invalid-name)
+/home/saima/projects/NonFunc-AWQ/multipLE-py/deepseekcoder-6.7B-instruct-awq/completion/taskid-153_Strongest_Extension-gen0.py:24:25: R1728: Consider using a generator instead 'sum(1 for c in strongest_extension if c.isupper())' (consider-using-generator)
+/home/saima/projects/NonFunc-AWQ/multipLE-py/deepseekcoder-6.7B-instruct-awq/completion/taskid-153_Strongest_Extension-gen0.py:24:80: R1728: Consider using a generator instead 'sum(1 for c in strongest_extension if c.islower())' (consider-using-generator)
+/home/saima/projects/NonFunc-AWQ/multipLE-py/deepseekcoder-6.7B-instruct-awq/completion/taskid-153_Strongest_Extension-gen0.py:27:19: R1728: Consider using a generator instead 'sum(1 for c in extension if c.isupper())' (consider-using-generator)
+/home/saima/projects/NonFunc-AWQ/multipLE-py/deepseekcoder-6.7B-instruct-awq/completion/taskid-153_Strongest_Extension-gen0.py:27:64: R1728: Consider using a generator instead 'sum(1 for c in extension if c.islower())' (consider-using-generator)
+
+------------------------------------------------------------------
+Your code has been rated at 1.00/10 (previous run: 0.00/10, +1.00)
+

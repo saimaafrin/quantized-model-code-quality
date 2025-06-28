@@ -1,0 +1,7 @@
+/home/saima/projects/NonFunc-AWQ/multipLE-py/deepseekcoder-1.3B-instruct-awq/completion/taskid-140_fix_spaces-gen0.py:3:68: W291 trailing whitespace
+/home/saima/projects/NonFunc-AWQ/multipLE-py/deepseekcoder-1.3B-instruct-awq/completion/taskid-140_fix_spaces-gen0.py:4:56: W291 trailing whitespace
+/home/saima/projects/NonFunc-AWQ/multipLE-py/deepseekcoder-1.3B-instruct-awq/completion/taskid-140_fix_spaces-gen0.py:5:47: W291 trailing whitespace
+/home/saima/projects/NonFunc-AWQ/multipLE-py/deepseekcoder-1.3B-instruct-awq/completion/taskid-140_fix_spaces-gen0.py:6:1: W293 blank line contains whitespace
+/home/saima/projects/NonFunc-AWQ/multipLE-py/deepseekcoder-1.3B-instruct-awq/completion/taskid-140_fix_spaces-gen0.py:18:5: E303 too many blank lines (2)
+/home/saima/projects/NonFunc-AWQ/multipLE-py/deepseekcoder-1.3B-instruct-awq/completion/taskid-140_fix_spaces-gen0.py:21:1: W293 blank line contains whitespace
+/home/saima/projects/NonFunc-AWQ/multipLE-py/deepseekcoder-1.3B-instruct-awq/completion/taskid-140_fix_spaces-gen0.py:24:1: W293 blank line contains whitespace

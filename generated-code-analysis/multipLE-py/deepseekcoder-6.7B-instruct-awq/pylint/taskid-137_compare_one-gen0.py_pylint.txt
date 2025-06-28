@@ -1,0 +1,11 @@
+************* Module taskid-137_compare_one-gen0
+/home/saima/projects/NonFunc-AWQ/multipLE-py/deepseekcoder-6.7B-instruct-awq/completion/taskid-137_compare_one-gen0.py:3:0: C0301: Line too long (102/100) (line-too-long)
+/home/saima/projects/NonFunc-AWQ/multipLE-py/deepseekcoder-6.7B-instruct-awq/completion/taskid-137_compare_one-gen0.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+/home/saima/projects/NonFunc-AWQ/multipLE-py/deepseekcoder-6.7B-instruct-awq/completion/taskid-137_compare_one-gen0.py:1:0: C0103: Module name "taskid-137_compare_one-gen0" doesn't conform to snake_case naming style (invalid-name)
+/home/saima/projects/NonFunc-AWQ/multipLE-py/deepseekcoder-6.7B-instruct-awq/completion/taskid-137_compare_one-gen0.py:21:13: C0123: Use isinstance() rather than type() for a typecheck. (unidiomatic-typecheck)
+/home/saima/projects/NonFunc-AWQ/multipLE-py/deepseekcoder-6.7B-instruct-awq/completion/taskid-137_compare_one-gen0.py:22:13: C0123: Use isinstance() rather than type() for a typecheck. (unidiomatic-typecheck)
+/home/saima/projects/NonFunc-AWQ/multipLE-py/deepseekcoder-6.7B-instruct-awq/completion/taskid-137_compare_one-gen0.py:25:4: R1705: Unnecessary "elif" after "return", remove the leading "el" from "elif" (no-else-return)
+
+------------------------------------------------------------------
+Your code has been rated at 3.33/10 (previous run: 6.92/10, -3.59)
+

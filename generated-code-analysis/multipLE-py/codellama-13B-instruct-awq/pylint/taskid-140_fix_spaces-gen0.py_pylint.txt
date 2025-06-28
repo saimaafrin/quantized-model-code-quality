@@ -1,0 +1,7 @@
+************* Module taskid-140_fix_spaces-gen0
+/home/saima/projects/NonFunc-AWQ/multipLE-py/codellama-13B-instruct-awq/completion/taskid-140_fix_spaces-gen0.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+/home/saima/projects/NonFunc-AWQ/multipLE-py/codellama-13B-instruct-awq/completion/taskid-140_fix_spaces-gen0.py:1:0: C0103: Module name "taskid-140_fix_spaces-gen0" doesn't conform to snake_case naming style (invalid-name)
+
+------------------------------------------------------------------
+Your code has been rated at 6.00/10 (previous run: 0.00/10, +6.00)
+

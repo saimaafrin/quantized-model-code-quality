@@ -1,0 +1,10 @@
+************* Module taskid-19_sort_numbers-gen0
+/home/saima/projects/NonFunc-AWQ/multipLE-py/deepseekcoder-1.3B-instruct-hf/completion/taskid-19_sort_numbers-gen0.py:3:0: C0301: Line too long (104/100) (line-too-long)
+/home/saima/projects/NonFunc-AWQ/multipLE-py/deepseekcoder-1.3B-instruct-hf/completion/taskid-19_sort_numbers-gen0.py:11:0: C0301: Line too long (129/100) (line-too-long)
+/home/saima/projects/NonFunc-AWQ/multipLE-py/deepseekcoder-1.3B-instruct-hf/completion/taskid-19_sort_numbers-gen0.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+/home/saima/projects/NonFunc-AWQ/multipLE-py/deepseekcoder-1.3B-instruct-hf/completion/taskid-19_sort_numbers-gen0.py:1:0: C0103: Module name "taskid-19_sort_numbers-gen0" doesn't conform to snake_case naming style (invalid-name)
+/home/saima/projects/NonFunc-AWQ/multipLE-py/deepseekcoder-1.3B-instruct-hf/completion/taskid-19_sort_numbers-gen0.py:17:4: W0612: Unused variable 'sorted_words' (unused-variable)
+
+------------------------------------------------------------------
+Your code has been rated at 1.67/10 (previous run: 2.00/10, -0.33)
+

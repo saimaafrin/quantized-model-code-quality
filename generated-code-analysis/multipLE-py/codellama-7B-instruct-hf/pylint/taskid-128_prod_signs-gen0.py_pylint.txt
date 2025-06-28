@@ -1,0 +1,10 @@
+************* Module taskid-128_prod_signs-gen0
+/home/saima/projects/NonFunc-AWQ/multipLE-py/codellama-7B-instruct-hf/completion/taskid-128_prod_signs-gen0.py:19:5: W0511: TODO - you code here (fixme)
+/home/saima/projects/NonFunc-AWQ/multipLE-py/codellama-7B-instruct-hf/completion/taskid-128_prod_signs-gen0.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+/home/saima/projects/NonFunc-AWQ/multipLE-py/codellama-7B-instruct-hf/completion/taskid-128_prod_signs-gen0.py:1:0: C0103: Module name "taskid-128_prod_signs-gen0" doesn't conform to snake_case naming style (invalid-name)
+/home/saima/projects/NonFunc-AWQ/multipLE-py/codellama-7B-instruct-hf/completion/taskid-128_prod_signs-gen0.py:20:4: W0107: Unnecessary pass statement (unnecessary-pass)
+/home/saima/projects/NonFunc-AWQ/multipLE-py/codellama-7B-instruct-hf/completion/taskid-128_prod_signs-gen0.py:3:15: W0613: Unused argument 'arr' (unused-argument)
+
+------------------------------------------------------------------
+Your code has been rated at 0.00/10 (previous run: 8.18/10, -8.18)
+

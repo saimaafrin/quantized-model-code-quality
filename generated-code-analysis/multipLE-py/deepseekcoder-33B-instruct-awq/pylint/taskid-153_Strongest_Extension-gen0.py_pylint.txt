@@ -1,0 +1,10 @@
+************* Module taskid-153_Strongest_Extension-gen0
+/home/saima/projects/NonFunc-AWQ/multipLE-py/deepseekcoder-33B-instruct-awq/completion/taskid-153_Strongest_Extension-gen0.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+/home/saima/projects/NonFunc-AWQ/multipLE-py/deepseekcoder-33B-instruct-awq/completion/taskid-153_Strongest_Extension-gen0.py:1:0: C0103: Module name "taskid-153_Strongest_Extension-gen0" doesn't conform to snake_case naming style (invalid-name)
+/home/saima/projects/NonFunc-AWQ/multipLE-py/deepseekcoder-33B-instruct-awq/completion/taskid-153_Strongest_Extension-gen0.py:3:0: C0103: Function name "Strongest_Extension" doesn't conform to snake_case naming style (invalid-name)
+/home/saima/projects/NonFunc-AWQ/multipLE-py/deepseekcoder-33B-instruct-awq/completion/taskid-153_Strongest_Extension-gen0.py:25:8: C0103: Variable name "CAP" doesn't conform to snake_case naming style (invalid-name)
+/home/saima/projects/NonFunc-AWQ/multipLE-py/deepseekcoder-33B-instruct-awq/completion/taskid-153_Strongest_Extension-gen0.py:26:8: C0103: Variable name "SM" doesn't conform to snake_case naming style (invalid-name)
+
+------------------------------------------------------------------
+Your code has been rated at 5.83/10 (previous run: 1.00/10, +4.83)
+

@@ -1,0 +1,3 @@
+/home/saima/projects/NonFunc-AWQ/multipLE-py/deepseekcoder-1.3B-instruct-awq/completion/taskid-98_count_upper-gen0.py:4:1: W293 blank line contains whitespace
+/home/saima/projects/NonFunc-AWQ/multipLE-py/deepseekcoder-1.3B-instruct-awq/completion/taskid-98_count_upper-gen0.py:18:80: E501 line too long (84 > 79 characters)
+/home/saima/projects/NonFunc-AWQ/multipLE-py/deepseekcoder-1.3B-instruct-awq/completion/taskid-98_count_upper-gen0.py:19:80: E501 line too long (88 > 79 characters)

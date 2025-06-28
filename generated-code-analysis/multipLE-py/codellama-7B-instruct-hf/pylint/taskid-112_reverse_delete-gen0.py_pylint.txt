@@ -1,0 +1,9 @@
+************* Module taskid-112_reverse_delete-gen0
+/home/saima/projects/NonFunc-AWQ/multipLE-py/codellama-7B-instruct-hf/completion/taskid-112_reverse_delete-gen0.py:5:0: C0301: Line too long (118/100) (line-too-long)
+/home/saima/projects/NonFunc-AWQ/multipLE-py/codellama-7B-instruct-hf/completion/taskid-112_reverse_delete-gen0.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+/home/saima/projects/NonFunc-AWQ/multipLE-py/codellama-7B-instruct-hf/completion/taskid-112_reverse_delete-gen0.py:1:0: C0103: Module name "taskid-112_reverse_delete-gen0" doesn't conform to snake_case naming style (invalid-name)
+/home/saima/projects/NonFunc-AWQ/multipLE-py/codellama-7B-instruct-hf/completion/taskid-112_reverse_delete-gen0.py:18:36: R0124: Redundant comparison - c not in c (comparison-with-itself)
+
+------------------------------------------------------------------
+Your code has been rated at 0.00/10 (previous run: 0.00/10, +0.00)
+

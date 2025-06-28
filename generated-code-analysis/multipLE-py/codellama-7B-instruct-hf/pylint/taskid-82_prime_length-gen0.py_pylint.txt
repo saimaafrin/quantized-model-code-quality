@@ -1,0 +1,10 @@
+************* Module taskid-82_prime_length-gen0
+/home/saima/projects/NonFunc-AWQ/multipLE-py/codellama-7B-instruct-hf/completion/taskid-82_prime_length-gen0.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+/home/saima/projects/NonFunc-AWQ/multipLE-py/codellama-7B-instruct-hf/completion/taskid-82_prime_length-gen0.py:1:0: C0103: Module name "taskid-82_prime_length-gen0" doesn't conform to snake_case naming style (invalid-name)
+/home/saima/projects/NonFunc-AWQ/multipLE-py/codellama-7B-instruct-hf/completion/taskid-82_prime_length-gen0.py:17:11: R1714: Consider merging these comparisons with 'in' by using 'n in (1, 0)'. Use a set instead if elements are hashable. (consider-using-in)
+/home/saima/projects/NonFunc-AWQ/multipLE-py/codellama-7B-instruct-hf/completion/taskid-82_prime_length-gen0.py:25:7: R1714: Consider merging these comparisons with 'in' by using 'length in (1, 0)'. Use a set instead if elements are hashable. (consider-using-in)
+/home/saima/projects/NonFunc-AWQ/multipLE-py/codellama-7B-instruct-hf/completion/taskid-82_prime_length-gen0.py:16:4: W0612: Unused variable 'is_prime' (unused-variable)
+
+------------------------------------------------------------------
+Your code has been rated at 6.67/10 (previous run: 7.00/10, -0.33)
+

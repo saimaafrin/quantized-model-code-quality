@@ -1,0 +1,11 @@
+************* Module taskid-129_minPath-gen0
+/home/saima/projects/NonFunc-AWQ/multipLE-py/deepseekcoder-6.7B-instruct-awq/completion/taskid-129_minPath-gen0.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+/home/saima/projects/NonFunc-AWQ/multipLE-py/deepseekcoder-6.7B-instruct-awq/completion/taskid-129_minPath-gen0.py:1:0: C0103: Module name "taskid-129_minPath-gen0" doesn't conform to snake_case naming style (invalid-name)
+/home/saima/projects/NonFunc-AWQ/multipLE-py/deepseekcoder-6.7B-instruct-awq/completion/taskid-129_minPath-gen0.py:3:0: C0103: Function name "minPath" doesn't conform to snake_case naming style (invalid-name)
+/home/saima/projects/NonFunc-AWQ/multipLE-py/deepseekcoder-6.7B-instruct-awq/completion/taskid-129_minPath-gen0.py:3:0: R0914: Too many local variables (18/15) (too-many-locals)
+/home/saima/projects/NonFunc-AWQ/multipLE-py/deepseekcoder-6.7B-instruct-awq/completion/taskid-129_minPath-gen0.py:33:4: C0103: Variable name "N" doesn't conform to snake_case naming style (invalid-name)
+/home/saima/projects/NonFunc-AWQ/multipLE-py/deepseekcoder-6.7B-instruct-awq/completion/taskid-129_minPath-gen0.py:42:4: R1702: Too many nested blocks (6/5) (too-many-nested-blocks)
+
+------------------------------------------------------------------
+Your code has been rated at 8.06/10 (previous run: 0.00/10, +8.06)
+

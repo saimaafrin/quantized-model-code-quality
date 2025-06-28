@@ -1,0 +1,3 @@
+/home/saima/projects/NonFunc-AWQ/multipLE-py/deepseekcoder-6.7B-instruct-awq/completion/taskid-89_encrypt-gen0.py:3:64: W291 trailing whitespace
+/home/saima/projects/NonFunc-AWQ/multipLE-py/deepseekcoder-6.7B-instruct-awq/completion/taskid-89_encrypt-gen0.py:4:69: W291 trailing whitespace
+/home/saima/projects/NonFunc-AWQ/multipLE-py/deepseekcoder-6.7B-instruct-awq/completion/taskid-89_encrypt-gen0.py:20:13: F841 local variable 'shift' is assigned to but never used

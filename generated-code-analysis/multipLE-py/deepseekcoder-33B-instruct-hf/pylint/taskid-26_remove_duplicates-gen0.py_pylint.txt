@@ -1,0 +1,8 @@
+************* Module taskid-26_remove_duplicates-gen0
+/home/saima/projects/NonFunc-AWQ/multipLE-py/deepseekcoder-33B-instruct-hf/completion/taskid-26_remove_duplicates-gen0.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+/home/saima/projects/NonFunc-AWQ/multipLE-py/deepseekcoder-33B-instruct-hf/completion/taskid-26_remove_duplicates-gen0.py:1:0: C0103: Module name "taskid-26_remove_duplicates-gen0" doesn't conform to snake_case naming style (invalid-name)
+/home/saima/projects/NonFunc-AWQ/multipLE-py/deepseekcoder-33B-instruct-hf/completion/taskid-26_remove_duplicates-gen0.py:3:22: W0613: Unused argument 'numbers' (unused-argument)
+
+------------------------------------------------------------------
+Your code has been rated at 0.00/10 (previous run: 8.46/10, -8.46)
+

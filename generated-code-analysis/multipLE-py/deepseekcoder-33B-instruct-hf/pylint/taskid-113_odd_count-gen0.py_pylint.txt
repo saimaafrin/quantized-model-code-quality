@@ -1,0 +1,9 @@
+************* Module taskid-113_odd_count-gen0
+/home/saima/projects/NonFunc-AWQ/multipLE-py/deepseekcoder-33B-instruct-hf/completion/taskid-113_odd_count-gen0.py:12:0: C0301: Line too long (124/100) (line-too-long)
+/home/saima/projects/NonFunc-AWQ/multipLE-py/deepseekcoder-33B-instruct-hf/completion/taskid-113_odd_count-gen0.py:15:0: C0301: Line too long (156/100) (line-too-long)
+/home/saima/projects/NonFunc-AWQ/multipLE-py/deepseekcoder-33B-instruct-hf/completion/taskid-113_odd_count-gen0.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+/home/saima/projects/NonFunc-AWQ/multipLE-py/deepseekcoder-33B-instruct-hf/completion/taskid-113_odd_count-gen0.py:1:0: C0103: Module name "taskid-113_odd_count-gen0" doesn't conform to snake_case naming style (invalid-name)
+
+------------------------------------------------------------------
+Your code has been rated at 0.00/10 (previous run: 4.29/10, -4.29)
+

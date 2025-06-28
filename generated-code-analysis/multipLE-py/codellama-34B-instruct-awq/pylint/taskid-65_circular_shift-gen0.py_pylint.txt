@@ -1,0 +1,8 @@
+************* Module taskid-65_circular_shift-gen0
+/home/saima/projects/NonFunc-AWQ/multipLE-py/codellama-34B-instruct-awq/completion/taskid-65_circular_shift-gen0.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+/home/saima/projects/NonFunc-AWQ/multipLE-py/codellama-34B-instruct-awq/completion/taskid-65_circular_shift-gen0.py:1:0: C0103: Module name "taskid-65_circular_shift-gen0" doesn't conform to snake_case naming style (invalid-name)
+/home/saima/projects/NonFunc-AWQ/multipLE-py/codellama-34B-instruct-awq/completion/taskid-65_circular_shift-gen0.py:12:4: R1705: Unnecessary "else" after "return", remove the "else" and de-indent the code inside it (no-else-return)
+
+------------------------------------------------------------------
+Your code has been rated at 4.00/10 (previous run: 6.00/10, -2.00)
+

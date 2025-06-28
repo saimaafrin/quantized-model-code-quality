@@ -1,0 +1,9 @@
+************* Module taskid-6_parse_nested_parens-gen0
+/home/saima/projects/NonFunc-AWQ/multipLE-py/deepseekcoder-6.7B-instruct-awq/completion/taskid-6_parse_nested_parens-gen0.py:4:0: C0301: Line too long (114/100) (line-too-long)
+/home/saima/projects/NonFunc-AWQ/multipLE-py/deepseekcoder-6.7B-instruct-awq/completion/taskid-6_parse_nested_parens-gen0.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+/home/saima/projects/NonFunc-AWQ/multipLE-py/deepseekcoder-6.7B-instruct-awq/completion/taskid-6_parse_nested_parens-gen0.py:1:0: C0103: Module name "taskid-6_parse_nested_parens-gen0" doesn't conform to snake_case naming style (invalid-name)
+/home/saima/projects/NonFunc-AWQ/multipLE-py/deepseekcoder-6.7B-instruct-awq/completion/taskid-6_parse_nested_parens-gen0.py:19:16: R1731: Consider using 'max_depth = max(max_depth, current_depth)' instead of unnecessary if block (consider-using-max-builtin)
+
+------------------------------------------------------------------
+Your code has been rated at 7.33/10 (previous run: 0.00/10, +7.33)
+

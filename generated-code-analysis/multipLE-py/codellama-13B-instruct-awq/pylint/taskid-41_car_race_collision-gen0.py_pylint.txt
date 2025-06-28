@@ -1,0 +1,8 @@
+************* Module taskid-41_car_race_collision-gen0
+/home/saima/projects/NonFunc-AWQ/multipLE-py/codellama-13B-instruct-awq/completion/taskid-41_car_race_collision-gen0.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+/home/saima/projects/NonFunc-AWQ/multipLE-py/codellama-13B-instruct-awq/completion/taskid-41_car_race_collision-gen0.py:1:0: C0103: Module name "taskid-41_car_race_collision-gen0" doesn't conform to snake_case naming style (invalid-name)
+/home/saima/projects/NonFunc-AWQ/multipLE-py/codellama-13B-instruct-awq/completion/taskid-41_car_race_collision-gen0.py:20:7: R1714: Consider merging these comparisons with 'in' by using 'n in (1, 2)'. Use a set instead if elements are hashable. (consider-using-in)
+
+------------------------------------------------------------------
+Your code has been rated at 5.00/10 (previous run: 6.67/10, -1.67)
+

@@ -1,0 +1,8 @@
+************* Module taskid-151_double_the_difference-gen0
+/home/saima/projects/NonFunc-AWQ/multipLE-py/deepseekcoder-6.7B-instruct-hf/completion/taskid-151_double_the_difference-gen0.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+/home/saima/projects/NonFunc-AWQ/multipLE-py/deepseekcoder-6.7B-instruct-hf/completion/taskid-151_double_the_difference-gen0.py:1:0: C0103: Module name "taskid-151_double_the_difference-gen0" doesn't conform to snake_case naming style (invalid-name)
+/home/saima/projects/NonFunc-AWQ/multipLE-py/deepseekcoder-6.7B-instruct-hf/completion/taskid-151_double_the_difference-gen0.py:21:22: R1728: Consider using a generator instead 'sum(num**2 for num in lst if num > 0 and num % 2 == 1)' (consider-using-generator)
+
+------------------------------------------------------------------
+Your code has been rated at 2.50/10 (previous run: 6.67/10, -4.17)
+

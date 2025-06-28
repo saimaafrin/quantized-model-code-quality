@@ -1,0 +1,10 @@
+************* Module taskid-160_do_algebra-gen0
+/home/saima/projects/NonFunc-AWQ/multipLE-py/codellama-34B-instruct-hf/completion/taskid-160_do_algebra-gen0.py:29:5: W0511: TODO (fixme)
+/home/saima/projects/NonFunc-AWQ/multipLE-py/codellama-34B-instruct-hf/completion/taskid-160_do_algebra-gen0.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+/home/saima/projects/NonFunc-AWQ/multipLE-py/codellama-34B-instruct-hf/completion/taskid-160_do_algebra-gen0.py:1:0: C0103: Module name "taskid-160_do_algebra-gen0" doesn't conform to snake_case naming style (invalid-name)
+/home/saima/projects/NonFunc-AWQ/multipLE-py/codellama-34B-instruct-hf/completion/taskid-160_do_algebra-gen0.py:3:15: W0613: Unused argument 'operator' (unused-argument)
+/home/saima/projects/NonFunc-AWQ/multipLE-py/codellama-34B-instruct-hf/completion/taskid-160_do_algebra-gen0.py:3:36: W0613: Unused argument 'operand' (unused-argument)
+
+------------------------------------------------------------------
+Your code has been rated at 0.00/10 (previous run: 8.12/10, -8.12)
+

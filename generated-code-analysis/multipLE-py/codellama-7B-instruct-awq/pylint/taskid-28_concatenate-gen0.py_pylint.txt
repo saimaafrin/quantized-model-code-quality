@@ -1,0 +1,2 @@
+************* Module taskid-28_concatenate-gen0
+/home/saima/projects/NonFunc-AWQ/multipLE-py/codellama-7B-instruct-awq/completion/taskid-28_concatenate-gen0.py:12:11: E0001: Parsing failed: 'unexpected character after line continuation character (taskid-28_concatenate-gen0, line 12)' (syntax-error)

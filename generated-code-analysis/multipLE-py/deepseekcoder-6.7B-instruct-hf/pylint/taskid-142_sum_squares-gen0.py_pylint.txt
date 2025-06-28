@@ -1,0 +1,11 @@
+************* Module taskid-142_sum_squares-gen0
+/home/saima/projects/NonFunc-AWQ/multipLE-py/deepseekcoder-6.7B-instruct-hf/completion/taskid-142_sum_squares-gen0.py:5:0: C0301: Line too long (138/100) (line-too-long)
+/home/saima/projects/NonFunc-AWQ/multipLE-py/deepseekcoder-6.7B-instruct-hf/completion/taskid-142_sum_squares-gen0.py:6:0: C0301: Line too long (128/100) (line-too-long)
+/home/saima/projects/NonFunc-AWQ/multipLE-py/deepseekcoder-6.7B-instruct-hf/completion/taskid-142_sum_squares-gen0.py:7:0: C0301: Line too long (133/100) (line-too-long)
+/home/saima/projects/NonFunc-AWQ/multipLE-py/deepseekcoder-6.7B-instruct-hf/completion/taskid-142_sum_squares-gen0.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+/home/saima/projects/NonFunc-AWQ/multipLE-py/deepseekcoder-6.7B-instruct-hf/completion/taskid-142_sum_squares-gen0.py:1:0: C0103: Module name "taskid-142_sum_squares-gen0" doesn't conform to snake_case naming style (invalid-name)
+/home/saima/projects/NonFunc-AWQ/multipLE-py/deepseekcoder-6.7B-instruct-hf/completion/taskid-142_sum_squares-gen0.py:19:4: C0200: Consider using enumerate instead of iterating with range and len (consider-using-enumerate)
+
+------------------------------------------------------------------
+Your code has been rated at 4.00/10 (previous run: 0.00/10, +4.00)
+

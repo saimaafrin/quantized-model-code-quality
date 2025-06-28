@@ -1,0 +1,10 @@
+************* Module taskid-96_count_up_to-gen0
+/home/saima/projects/NonFunc-AWQ/multipLE-py/codellama-34B-instruct-hf/completion/taskid-96_count_up_to-gen0.py:22:5: W0511: TODO: Implement count_up_to (fixme)
+/home/saima/projects/NonFunc-AWQ/multipLE-py/codellama-34B-instruct-hf/completion/taskid-96_count_up_to-gen0.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+/home/saima/projects/NonFunc-AWQ/multipLE-py/codellama-34B-instruct-hf/completion/taskid-96_count_up_to-gen0.py:1:0: C0103: Module name "taskid-96_count_up_to-gen0" doesn't conform to snake_case naming style (invalid-name)
+/home/saima/projects/NonFunc-AWQ/multipLE-py/codellama-34B-instruct-hf/completion/taskid-96_count_up_to-gen0.py:25:8: C0103: Variable name "isPrime" doesn't conform to snake_case naming style (invalid-name)
+/home/saima/projects/NonFunc-AWQ/multipLE-py/codellama-34B-instruct-hf/completion/taskid-96_count_up_to-gen0.py:28:16: C0103: Variable name "isPrime" doesn't conform to snake_case naming style (invalid-name)
+
+------------------------------------------------------------------
+Your code has been rated at 5.83/10 (previous run: 8.00/10, -2.17)
+

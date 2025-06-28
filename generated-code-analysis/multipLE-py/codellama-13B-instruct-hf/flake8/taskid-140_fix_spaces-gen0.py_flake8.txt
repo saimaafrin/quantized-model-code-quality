@@ -1,0 +1,4 @@
+/home/saima/projects/NonFunc-AWQ/multipLE-py/codellama-13B-instruct-hf/completion/taskid-140_fix_spaces-gen0.py:3:68: W291 trailing whitespace
+/home/saima/projects/NonFunc-AWQ/multipLE-py/codellama-13B-instruct-hf/completion/taskid-140_fix_spaces-gen0.py:4:56: W291 trailing whitespace
+/home/saima/projects/NonFunc-AWQ/multipLE-py/codellama-13B-instruct-hf/completion/taskid-140_fix_spaces-gen0.py:5:47: W291 trailing whitespace
+/home/saima/projects/NonFunc-AWQ/multipLE-py/codellama-13B-instruct-hf/completion/taskid-140_fix_spaces-gen0.py:6:1: W293 blank line contains whitespace

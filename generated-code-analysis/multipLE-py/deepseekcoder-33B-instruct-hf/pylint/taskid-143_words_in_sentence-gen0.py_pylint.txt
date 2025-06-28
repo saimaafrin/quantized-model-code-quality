@@ -1,0 +1,7 @@
+************* Module taskid-143_words_in_sentence-gen0
+/home/saima/projects/NonFunc-AWQ/multipLE-py/deepseekcoder-33B-instruct-hf/completion/taskid-143_words_in_sentence-gen0.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+/home/saima/projects/NonFunc-AWQ/multipLE-py/deepseekcoder-33B-instruct-hf/completion/taskid-143_words_in_sentence-gen0.py:1:0: C0103: Module name "taskid-143_words_in_sentence-gen0" doesn't conform to snake_case naming style (invalid-name)
+
+------------------------------------------------------------------
+Your code has been rated at 8.67/10 (previous run: 8.57/10, +0.10)
+

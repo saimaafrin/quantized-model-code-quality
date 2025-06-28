@@ -1,0 +1,10 @@
+************* Module taskid-39_prime_fib-gen0
+/home/saima/projects/NonFunc-AWQ/multipLE-py/codellama-13B-instruct-hf/completion/taskid-39_prime_fib-gen0.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+/home/saima/projects/NonFunc-AWQ/multipLE-py/codellama-13B-instruct-hf/completion/taskid-39_prime_fib-gen0.py:1:0: C0103: Module name "taskid-39_prime_fib-gen0" doesn't conform to snake_case naming style (invalid-name)
+/home/saima/projects/NonFunc-AWQ/multipLE-py/codellama-13B-instruct-hf/completion/taskid-39_prime_fib-gen0.py:16:4: R1720: Unnecessary "else" after "raise", remove the "else" and de-indent the code inside it (no-else-raise)
+/home/saima/projects/NonFunc-AWQ/multipLE-py/codellama-13B-instruct-hf/completion/taskid-39_prime_fib-gen0.py:19:18: E0602: Undefined variable 'fib' (undefined-variable)
+/home/saima/projects/NonFunc-AWQ/multipLE-py/codellama-13B-instruct-hf/completion/taskid-39_prime_fib-gen0.py:21:15: E0602: Undefined variable 'is_prime' (undefined-variable)
+
+------------------------------------------------------------------
+Your code has been rated at 0.00/10 (previous run: 4.62/10, -4.62)
+

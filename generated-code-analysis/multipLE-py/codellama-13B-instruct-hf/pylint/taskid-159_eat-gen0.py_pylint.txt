@@ -1,0 +1,13 @@
+************* Module taskid-159_eat-gen0
+/home/saima/projects/NonFunc-AWQ/multipLE-py/codellama-13B-instruct-hf/completion/taskid-159_eat-gen0.py:9:0: C0301: Line too long (108/100) (line-too-long)
+/home/saima/projects/NonFunc-AWQ/multipLE-py/codellama-13B-instruct-hf/completion/taskid-159_eat-gen0.py:37:0: C0303: Trailing whitespace (trailing-whitespace)
+/home/saima/projects/NonFunc-AWQ/multipLE-py/codellama-13B-instruct-hf/completion/taskid-159_eat-gen0.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+/home/saima/projects/NonFunc-AWQ/multipLE-py/codellama-13B-instruct-hf/completion/taskid-159_eat-gen0.py:1:0: C0103: Module name "taskid-159_eat-gen0" doesn't conform to snake_case naming style (invalid-name)
+/home/saima/projects/NonFunc-AWQ/multipLE-py/codellama-13B-instruct-hf/completion/taskid-159_eat-gen0.py:40:4: W0107: Unnecessary pass statement (unnecessary-pass)
+/home/saima/projects/NonFunc-AWQ/multipLE-py/codellama-13B-instruct-hf/completion/taskid-159_eat-gen0.py:3:8: W0613: Unused argument 'number' (unused-argument)
+/home/saima/projects/NonFunc-AWQ/multipLE-py/codellama-13B-instruct-hf/completion/taskid-159_eat-gen0.py:3:21: W0613: Unused argument 'need' (unused-argument)
+/home/saima/projects/NonFunc-AWQ/multipLE-py/codellama-13B-instruct-hf/completion/taskid-159_eat-gen0.py:3:32: W0613: Unused argument 'remaining' (unused-argument)
+
+------------------------------------------------------------------
+Your code has been rated at 0.00/10 (previous run: 5.71/10, -5.71)
+

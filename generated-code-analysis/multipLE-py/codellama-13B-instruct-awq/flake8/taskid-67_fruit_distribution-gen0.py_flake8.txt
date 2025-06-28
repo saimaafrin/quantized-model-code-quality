@@ -1,0 +1,7 @@
+/home/saima/projects/NonFunc-AWQ/multipLE-py/codellama-13B-instruct-awq/completion/taskid-67_fruit_distribution-gen0.py:3:80: E501 line too long (91 > 79 characters)
+/home/saima/projects/NonFunc-AWQ/multipLE-py/codellama-13B-instruct-awq/completion/taskid-67_fruit_distribution-gen0.py:3:92: W291 trailing whitespace
+/home/saima/projects/NonFunc-AWQ/multipLE-py/codellama-13B-instruct-awq/completion/taskid-67_fruit_distribution-gen0.py:4:67: W291 trailing whitespace
+/home/saima/projects/NonFunc-AWQ/multipLE-py/codellama-13B-instruct-awq/completion/taskid-67_fruit_distribution-gen0.py:5:80: E501 line too long (91 > 79 characters)
+/home/saima/projects/NonFunc-AWQ/multipLE-py/codellama-13B-instruct-awq/completion/taskid-67_fruit_distribution-gen0.py:5:92: W291 trailing whitespace
+/home/saima/projects/NonFunc-AWQ/multipLE-py/codellama-13B-instruct-awq/completion/taskid-67_fruit_distribution-gen0.py:6:80: E501 line too long (87 > 79 characters)
+/home/saima/projects/NonFunc-AWQ/multipLE-py/codellama-13B-instruct-awq/completion/taskid-67_fruit_distribution-gen0.py:6:88: W291 trailing whitespace

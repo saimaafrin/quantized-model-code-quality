@@ -1,0 +1,2 @@
+/home/saima/projects/NonFunc-AWQ/multipLE-py/deepseekcoder-1.3B-instruct-hf/completion/taskid-158_find_max-gen0.py:3:1: E302 expected 2 blank lines, found 1
+/home/saima/projects/NonFunc-AWQ/multipLE-py/deepseekcoder-1.3B-instruct-hf/completion/taskid-158_find_max-gen0.py:18:5: E303 too many blank lines (2)

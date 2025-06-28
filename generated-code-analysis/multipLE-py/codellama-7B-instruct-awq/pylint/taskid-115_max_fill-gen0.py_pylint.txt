@@ -1,0 +1,8 @@
+************* Module taskid-115_max_fill-gen0
+/home/saima/projects/NonFunc-AWQ/multipLE-py/codellama-7B-instruct-awq/completion/taskid-115_max_fill-gen0.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+/home/saima/projects/NonFunc-AWQ/multipLE-py/codellama-7B-instruct-awq/completion/taskid-115_max_fill-gen0.py:1:0: C0103: Module name "taskid-115_max_fill-gen0" doesn't conform to snake_case naming style (invalid-name)
+/home/saima/projects/NonFunc-AWQ/multipLE-py/codellama-7B-instruct-awq/completion/taskid-115_max_fill-gen0.py:40:8: W0621: Redefining name 'max_fill' from outer scope (line 3) (redefined-outer-name)
+
+------------------------------------------------------------------
+Your code has been rated at 8.70/10 (previous run: 8.70/10, +0.00)
+

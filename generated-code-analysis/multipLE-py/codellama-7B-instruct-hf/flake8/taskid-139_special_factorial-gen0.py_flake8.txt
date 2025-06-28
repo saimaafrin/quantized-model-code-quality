@@ -1,0 +1,7 @@
+/home/saima/projects/NonFunc-AWQ/multipLE-py/codellama-7B-instruct-hf/completion/taskid-139_special_factorial-gen0.py:14:12: F821 undefined name 'factorial'
+/home/saima/projects/NonFunc-AWQ/multipLE-py/codellama-7B-instruct-hf/completion/taskid-139_special_factorial-gen0.py:14:27: F821 undefined name 'factorial'
+/home/saima/projects/NonFunc-AWQ/multipLE-py/codellama-7B-instruct-hf/completion/taskid-139_special_factorial-gen0.py:14:44: F821 undefined name 'factorial'
+/home/saima/projects/NonFunc-AWQ/multipLE-py/codellama-7B-instruct-hf/completion/taskid-139_special_factorial-gen0.py:14:61: F821 undefined name 'factorial'
+/home/saima/projects/NonFunc-AWQ/multipLE-py/codellama-7B-instruct-hf/completion/taskid-139_special_factorial-gen0.py:14:78: F821 undefined name 'factorial'
+/home/saima/projects/NonFunc-AWQ/multipLE-py/codellama-7B-instruct-hf/completion/taskid-139_special_factorial-gen0.py:14:80: E501 line too long (108 > 79 characters)
+/home/saima/projects/NonFunc-AWQ/multipLE-py/codellama-7B-instruct-hf/completion/taskid-139_special_factorial-gen0.py:14:95: F821 undefined name 'factorial'

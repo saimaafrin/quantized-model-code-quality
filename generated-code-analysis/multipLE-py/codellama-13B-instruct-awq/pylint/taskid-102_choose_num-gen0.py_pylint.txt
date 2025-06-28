@@ -1,0 +1,13 @@
+************* Module taskid-102_choose_num-gen0
+/home/saima/projects/NonFunc-AWQ/multipLE-py/codellama-13B-instruct-awq/completion/taskid-102_choose_num-gen0.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+/home/saima/projects/NonFunc-AWQ/multipLE-py/codellama-13B-instruct-awq/completion/taskid-102_choose_num-gen0.py:1:0: C0103: Module name "taskid-102_choose_num-gen0" doesn't conform to snake_case naming style (invalid-name)
+/home/saima/projects/NonFunc-AWQ/multipLE-py/codellama-13B-instruct-awq/completion/taskid-102_choose_num-gen0.py:26:12: R1705: Unnecessary "else" after "return", remove the "else" and de-indent the code inside it (no-else-return)
+/home/saima/projects/NonFunc-AWQ/multipLE-py/codellama-13B-instruct-awq/completion/taskid-102_choose_num-gen0.py:31:20: R1705: Unnecessary "else" after "return", remove the "else" and de-indent the code inside it (no-else-return)
+/home/saima/projects/NonFunc-AWQ/multipLE-py/codellama-13B-instruct-awq/completion/taskid-102_choose_num-gen0.py:41:8: R1705: Unnecessary "else" after "return", remove the "else" and de-indent the code inside it (no-else-return)
+/home/saima/projects/NonFunc-AWQ/multipLE-py/codellama-13B-instruct-awq/completion/taskid-102_choose_num-gen0.py:46:16: R1705: Unnecessary "else" after "return", remove the "else" and de-indent the code inside it (no-else-return)
+/home/saima/projects/NonFunc-AWQ/multipLE-py/codellama-13B-instruct-awq/completion/taskid-102_choose_num-gen0.py:1:0: R0911: Too many return statements (9/6) (too-many-return-statements)
+/home/saima/projects/NonFunc-AWQ/multipLE-py/codellama-13B-instruct-awq/completion/taskid-102_choose_num-gen0.py:1:0: R0912: Too many branches (16/12) (too-many-branches)
+
+------------------------------------------------------------------
+Your code has been rated at 6.36/10 (previous run: 2.50/10, +3.86)
+

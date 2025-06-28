@@ -1,0 +1,8 @@
+************* Module taskid-73_smallest_change-gen0
+/home/saima/projects/NonFunc-AWQ/multipLE-py/deepseekcoder-33B-instruct-hf/completion/taskid-73_smallest_change-gen0.py:7:0: C0301: Line too long (108/100) (line-too-long)
+/home/saima/projects/NonFunc-AWQ/multipLE-py/deepseekcoder-33B-instruct-hf/completion/taskid-73_smallest_change-gen0.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+/home/saima/projects/NonFunc-AWQ/multipLE-py/deepseekcoder-33B-instruct-hf/completion/taskid-73_smallest_change-gen0.py:1:0: C0103: Module name "taskid-73_smallest_change-gen0" doesn't conform to snake_case naming style (invalid-name)
+
+------------------------------------------------------------------
+Your code has been rated at 7.27/10 (previous run: 7.00/10, +0.27)
+

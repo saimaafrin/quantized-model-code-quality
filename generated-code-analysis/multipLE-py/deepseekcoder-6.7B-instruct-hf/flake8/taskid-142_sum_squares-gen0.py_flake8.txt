@@ -1,0 +1,8 @@
+/home/saima/projects/NonFunc-AWQ/multipLE-py/deepseekcoder-6.7B-instruct-hf/completion/taskid-142_sum_squares-gen0.py:3:1: E302 expected 2 blank lines, found 1
+/home/saima/projects/NonFunc-AWQ/multipLE-py/deepseekcoder-6.7B-instruct-hf/completion/taskid-142_sum_squares-gen0.py:5:80: E501 line too long (138 > 79 characters)
+/home/saima/projects/NonFunc-AWQ/multipLE-py/deepseekcoder-6.7B-instruct-hf/completion/taskid-142_sum_squares-gen0.py:5:139: W291 trailing whitespace
+/home/saima/projects/NonFunc-AWQ/multipLE-py/deepseekcoder-6.7B-instruct-hf/completion/taskid-142_sum_squares-gen0.py:6:80: E501 line too long (128 > 79 characters)
+/home/saima/projects/NonFunc-AWQ/multipLE-py/deepseekcoder-6.7B-instruct-hf/completion/taskid-142_sum_squares-gen0.py:6:129: W291 trailing whitespace
+/home/saima/projects/NonFunc-AWQ/multipLE-py/deepseekcoder-6.7B-instruct-hf/completion/taskid-142_sum_squares-gen0.py:7:80: E501 line too long (133 > 79 characters)
+/home/saima/projects/NonFunc-AWQ/multipLE-py/deepseekcoder-6.7B-instruct-hf/completion/taskid-142_sum_squares-gen0.py:7:134: W291 trailing whitespace
+/home/saima/projects/NonFunc-AWQ/multipLE-py/deepseekcoder-6.7B-instruct-hf/completion/taskid-142_sum_squares-gen0.py:8:1: W293 blank line contains whitespace

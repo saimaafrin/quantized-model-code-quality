@@ -1,0 +1,9 @@
+/home/saima/projects/NonFunc-AWQ/multipLE-py/deepseekcoder-1.3B-instruct-awq/completion/taskid-78_hex_key-gen0.py:2:62: W291 trailing whitespace
+/home/saima/projects/NonFunc-AWQ/multipLE-py/deepseekcoder-1.3B-instruct-awq/completion/taskid-78_hex_key-gen0.py:3:74: W291 trailing whitespace
+/home/saima/projects/NonFunc-AWQ/multipLE-py/deepseekcoder-1.3B-instruct-awq/completion/taskid-78_hex_key-gen0.py:4:74: W291 trailing whitespace
+/home/saima/projects/NonFunc-AWQ/multipLE-py/deepseekcoder-1.3B-instruct-awq/completion/taskid-78_hex_key-gen0.py:8:75: W291 trailing whitespace
+/home/saima/projects/NonFunc-AWQ/multipLE-py/deepseekcoder-1.3B-instruct-awq/completion/taskid-78_hex_key-gen0.py:10:70: W291 trailing whitespace
+/home/saima/projects/NonFunc-AWQ/multipLE-py/deepseekcoder-1.3B-instruct-awq/completion/taskid-78_hex_key-gen0.py:26:80: E501 line too long (109 > 79 characters)
+/home/saima/projects/NonFunc-AWQ/multipLE-py/deepseekcoder-1.3B-instruct-awq/completion/taskid-78_hex_key-gen0.py:27:80: E501 line too long (149 > 79 characters)
+/home/saima/projects/NonFunc-AWQ/multipLE-py/deepseekcoder-1.3B-instruct-awq/completion/taskid-78_hex_key-gen0.py:28:1: W293 blank line contains whitespace
+/home/saima/projects/NonFunc-AWQ/multipLE-py/deepseekcoder-1.3B-instruct-awq/completion/taskid-78_hex_key-gen0.py:33:1: W293 blank line contains whitespace

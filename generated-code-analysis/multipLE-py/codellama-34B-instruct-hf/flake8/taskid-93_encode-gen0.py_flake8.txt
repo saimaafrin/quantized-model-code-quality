@@ -1,0 +1,6 @@
+/home/saima/projects/NonFunc-AWQ/multipLE-py/codellama-34B-instruct-hf/completion/taskid-93_encode-gen0.py:3:65: W291 trailing whitespace
+/home/saima/projects/NonFunc-AWQ/multipLE-py/codellama-34B-instruct-hf/completion/taskid-93_encode-gen0.py:4:66: W291 trailing whitespace
+/home/saima/projects/NonFunc-AWQ/multipLE-py/codellama-34B-instruct-hf/completion/taskid-93_encode-gen0.py:5:68: W291 trailing whitespace
+/home/saima/projects/NonFunc-AWQ/multipLE-py/codellama-34B-instruct-hf/completion/taskid-93_encode-gen0.py:6:35: W291 trailing whitespace
+/home/saima/projects/NonFunc-AWQ/multipLE-py/codellama-34B-instruct-hf/completion/taskid-93_encode-gen0.py:7:25: W291 trailing whitespace
+/home/saima/projects/NonFunc-AWQ/multipLE-py/codellama-34B-instruct-hf/completion/taskid-93_encode-gen0.py:8:1: W293 blank line contains whitespace

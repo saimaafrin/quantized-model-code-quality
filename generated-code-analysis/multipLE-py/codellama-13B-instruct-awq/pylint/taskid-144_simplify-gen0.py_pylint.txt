@@ -1,0 +1,8 @@
+************* Module taskid-144_simplify-gen0
+/home/saima/projects/NonFunc-AWQ/multipLE-py/codellama-13B-instruct-awq/completion/taskid-144_simplify-gen0.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+/home/saima/projects/NonFunc-AWQ/multipLE-py/codellama-13B-instruct-awq/completion/taskid-144_simplify-gen0.py:1:0: C0103: Module name "taskid-144_simplify-gen0" doesn't conform to snake_case naming style (invalid-name)
+/home/saima/projects/NonFunc-AWQ/multipLE-py/codellama-13B-instruct-awq/completion/taskid-144_simplify-gen0.py:17:11: W0123: Use of eval (eval-used)
+
+------------------------------------------------------------------
+Your code has been rated at 0.00/10 (previous run: 6.25/10, -6.25)
+

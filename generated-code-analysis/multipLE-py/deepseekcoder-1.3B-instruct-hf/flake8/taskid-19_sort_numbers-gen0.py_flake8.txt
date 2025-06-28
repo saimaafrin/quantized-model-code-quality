@@ -1,0 +1,4 @@
+/home/saima/projects/NonFunc-AWQ/multipLE-py/deepseekcoder-1.3B-instruct-hf/completion/taskid-19_sort_numbers-gen0.py:3:80: E501 line too long (104 > 79 characters)
+/home/saima/projects/NonFunc-AWQ/multipLE-py/deepseekcoder-1.3B-instruct-hf/completion/taskid-19_sort_numbers-gen0.py:10:5: E303 too many blank lines (2)
+/home/saima/projects/NonFunc-AWQ/multipLE-py/deepseekcoder-1.3B-instruct-hf/completion/taskid-19_sort_numbers-gen0.py:11:80: E501 line too long (129 > 79 characters)
+/home/saima/projects/NonFunc-AWQ/multipLE-py/deepseekcoder-1.3B-instruct-hf/completion/taskid-19_sort_numbers-gen0.py:17:5: F841 local variable 'sorted_words' is assigned to but never used

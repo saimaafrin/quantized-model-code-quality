@@ -1,0 +1,8 @@
+************* Module taskid-43_pairs_sum_to_zero-gen0
+/home/saima/projects/NonFunc-AWQ/multipLE-py/codellama-13B-instruct-hf/completion/taskid-43_pairs_sum_to_zero-gen0.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+/home/saima/projects/NonFunc-AWQ/multipLE-py/codellama-13B-instruct-hf/completion/taskid-43_pairs_sum_to_zero-gen0.py:1:0: C0103: Module name "taskid-43_pairs_sum_to_zero-gen0" doesn't conform to snake_case naming style (invalid-name)
+/home/saima/projects/NonFunc-AWQ/multipLE-py/codellama-13B-instruct-hf/completion/taskid-43_pairs_sum_to_zero-gen0.py:20:4: C0200: Consider using enumerate instead of iterating with range and len (consider-using-enumerate)
+
+------------------------------------------------------------------
+Your code has been rated at 5.71/10 (previous run: 5.71/10, +0.00)
+

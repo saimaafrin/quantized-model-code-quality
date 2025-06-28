@@ -1,0 +1,9 @@
+************* Module taskid-46_fib4-gen0
+/home/saima/projects/NonFunc-AWQ/multipLE-py/codellama-7B-instruct-hf/completion/taskid-46_fib4-gen0.py:2:0: C0301: Line too long (107/100) (line-too-long)
+/home/saima/projects/NonFunc-AWQ/multipLE-py/codellama-7B-instruct-hf/completion/taskid-46_fib4-gen0.py:8:0: C0301: Line too long (119/100) (line-too-long)
+/home/saima/projects/NonFunc-AWQ/multipLE-py/codellama-7B-instruct-hf/completion/taskid-46_fib4-gen0.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+/home/saima/projects/NonFunc-AWQ/multipLE-py/codellama-7B-instruct-hf/completion/taskid-46_fib4-gen0.py:1:0: C0103: Module name "taskid-46_fib4-gen0" doesn't conform to snake_case naming style (invalid-name)
+
+------------------------------------------------------------------
+Your code has been rated at 7.33/10 (previous run: 6.67/10, +0.67)
+

@@ -1,0 +1,8 @@
+************* Module taskid-66_digitSum-gen0
+/home/saima/projects/NonFunc-AWQ/multipLE-py/deepseekcoder-6.7B-instruct-hf/completion/taskid-66_digitSum-gen0.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+/home/saima/projects/NonFunc-AWQ/multipLE-py/deepseekcoder-6.7B-instruct-hf/completion/taskid-66_digitSum-gen0.py:1:0: C0103: Module name "taskid-66_digitSum-gen0" doesn't conform to snake_case naming style (invalid-name)
+/home/saima/projects/NonFunc-AWQ/multipLE-py/deepseekcoder-6.7B-instruct-hf/completion/taskid-66_digitSum-gen0.py:1:0: C0103: Function name "digitSum" doesn't conform to snake_case naming style (invalid-name)
+
+------------------------------------------------------------------
+Your code has been rated at 0.00/10 (previous run: 0.00/10, +0.00)
+

@@ -1,0 +1,8 @@
+************* Module taskid-55_fib-gen0
+/home/saima/projects/NonFunc-AWQ/multipLE-py/deepseekcoder-1.3B-instruct-hf/completion/taskid-55_fib-gen0.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+/home/saima/projects/NonFunc-AWQ/multipLE-py/deepseekcoder-1.3B-instruct-hf/completion/taskid-55_fib-gen0.py:1:0: C0103: Module name "taskid-55_fib-gen0" doesn't conform to snake_case naming style (invalid-name)
+/home/saima/projects/NonFunc-AWQ/multipLE-py/deepseekcoder-1.3B-instruct-hf/completion/taskid-55_fib-gen0.py:11:4: R1705: Unnecessary "elif" after "return", remove the leading "el" from "elif" (no-else-return)
+
+------------------------------------------------------------------
+Your code has been rated at 6.67/10 (previous run: 6.67/10, +0.00)
+

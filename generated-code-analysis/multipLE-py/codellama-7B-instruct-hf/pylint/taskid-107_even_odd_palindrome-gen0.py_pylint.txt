@@ -1,0 +1,10 @@
+************* Module taskid-107_even_odd_palindrome-gen0
+/home/saima/projects/NonFunc-AWQ/multipLE-py/codellama-7B-instruct-hf/completion/taskid-107_even_odd_palindrome-gen0.py:20:0: C0301: Line too long (107/100) (line-too-long)
+/home/saima/projects/NonFunc-AWQ/multipLE-py/codellama-7B-instruct-hf/completion/taskid-107_even_odd_palindrome-gen0.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+/home/saima/projects/NonFunc-AWQ/multipLE-py/codellama-7B-instruct-hf/completion/taskid-107_even_odd_palindrome-gen0.py:1:0: C0103: Module name "taskid-107_even_odd_palindrome-gen0" doesn't conform to snake_case naming style (invalid-name)
+/home/saima/projects/NonFunc-AWQ/multipLE-py/codellama-7B-instruct-hf/completion/taskid-107_even_odd_palindrome-gen0.py:31:11: E0602: Undefined variable 'is_palindrome' (undefined-variable)
+/home/saima/projects/NonFunc-AWQ/multipLE-py/codellama-7B-instruct-hf/completion/taskid-107_even_odd_palindrome-gen0.py:33:13: E0602: Undefined variable 'is_palindrome' (undefined-variable)
+
+------------------------------------------------------------------
+Your code has been rated at 0.00/10 (previous run: 0.00/10, +0.00)
+

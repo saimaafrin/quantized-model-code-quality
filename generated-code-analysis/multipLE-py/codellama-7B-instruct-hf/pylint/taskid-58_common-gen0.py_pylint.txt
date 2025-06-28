@@ -1,0 +1,2 @@
+************* Module taskid-58_common-gen0
+/home/saima/projects/NonFunc-AWQ/multipLE-py/codellama-7B-instruct-hf/completion/taskid-58_common-gen0.py:13:11: E0001: Parsing failed: 'unexpected character after line continuation character (taskid-58_common-gen0, line 13)' (syntax-error)

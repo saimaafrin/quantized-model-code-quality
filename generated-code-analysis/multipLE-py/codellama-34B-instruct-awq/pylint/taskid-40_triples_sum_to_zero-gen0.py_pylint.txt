@@ -1,0 +1,7 @@
+************* Module taskid-40_triples_sum_to_zero-gen0
+/home/saima/projects/NonFunc-AWQ/multipLE-py/codellama-34B-instruct-awq/completion/taskid-40_triples_sum_to_zero-gen0.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+/home/saima/projects/NonFunc-AWQ/multipLE-py/codellama-34B-instruct-awq/completion/taskid-40_triples_sum_to_zero-gen0.py:1:0: C0103: Module name "taskid-40_triples_sum_to_zero-gen0" doesn't conform to snake_case naming style (invalid-name)
+
+------------------------------------------------------------------
+Your code has been rated at 7.78/10 (previous run: 7.00/10, +0.78)
+

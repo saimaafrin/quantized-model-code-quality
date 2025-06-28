@@ -1,0 +1,2 @@
+/home/saima/projects/NonFunc-AWQ/multipLE-py/deepseekcoder-6.7B-instruct-hf/completion/taskid-150_x_or_y-gen0.py:2:67: W291 trailing whitespace
+/home/saima/projects/NonFunc-AWQ/multipLE-py/deepseekcoder-6.7B-instruct-hf/completion/taskid-150_x_or_y-gen0.py:10:1: W293 blank line contains whitespace

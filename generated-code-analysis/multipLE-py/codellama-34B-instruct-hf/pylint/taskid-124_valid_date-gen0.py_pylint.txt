@@ -1,0 +1,13 @@
+************* Module taskid-124_valid_date-gen0
+/home/saima/projects/NonFunc-AWQ/multipLE-py/codellama-34B-instruct-hf/completion/taskid-124_valid_date-gen0.py:6:0: C0301: Line too long (259/100) (line-too-long)
+/home/saima/projects/NonFunc-AWQ/multipLE-py/codellama-34B-instruct-hf/completion/taskid-124_valid_date-gen0.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+/home/saima/projects/NonFunc-AWQ/multipLE-py/codellama-34B-instruct-hf/completion/taskid-124_valid_date-gen0.py:1:0: C0103: Module name "taskid-124_valid_date-gen0" doesn't conform to snake_case naming style (invalid-name)
+/home/saima/projects/NonFunc-AWQ/multipLE-py/codellama-34B-instruct-hf/completion/taskid-124_valid_date-gen0.py:33:28: R1703: The if statement can be replaced with 'return bool(test)' (simplifiable-if-statement)
+/home/saima/projects/NonFunc-AWQ/multipLE-py/codellama-34B-instruct-hf/completion/taskid-124_valid_date-gen0.py:33:28: R1705: Unnecessary "else" after "return", remove the "else" and de-indent the code inside it (no-else-return)
+/home/saima/projects/NonFunc-AWQ/multipLE-py/codellama-34B-instruct-hf/completion/taskid-124_valid_date-gen0.py:1:0: R0911: Too many return statements (8/6) (too-many-return-statements)
+/home/saima/projects/NonFunc-AWQ/multipLE-py/codellama-34B-instruct-hf/completion/taskid-124_valid_date-gen0.py:1:0: R0912: Too many branches (14/12) (too-many-branches)
+/home/saima/projects/NonFunc-AWQ/multipLE-py/codellama-34B-instruct-hf/completion/taskid-124_valid_date-gen0.py:27:4: R1702: Too many nested blocks (7/5) (too-many-nested-blocks)
+
+------------------------------------------------------------------
+Your code has been rated at 5.29/10 (previous run: 7.22/10, -1.93)
+

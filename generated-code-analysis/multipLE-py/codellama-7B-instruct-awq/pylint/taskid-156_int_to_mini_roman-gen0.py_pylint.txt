@@ -1,0 +1,8 @@
+************* Module taskid-156_int_to_mini_roman-gen0
+/home/saima/projects/NonFunc-AWQ/multipLE-py/codellama-7B-instruct-awq/completion/taskid-156_int_to_mini_roman-gen0.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+/home/saima/projects/NonFunc-AWQ/multipLE-py/codellama-7B-instruct-awq/completion/taskid-156_int_to_mini_roman-gen0.py:1:0: C0103: Module name "taskid-156_int_to_mini_roman-gen0" doesn't conform to snake_case naming style (invalid-name)
+/home/saima/projects/NonFunc-AWQ/multipLE-py/codellama-7B-instruct-awq/completion/taskid-156_int_to_mini_roman-gen0.py:32:4: C0206: Consider iterating with .items() (consider-using-dict-items)
+
+------------------------------------------------------------------
+Your code has been rated at 6.25/10 (previous run: 6.25/10, +0.00)
+

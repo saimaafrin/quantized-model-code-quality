@@ -1,0 +1,9 @@
+************* Module taskid-76_is_simple_power-gen0
+/home/saima/projects/NonFunc-AWQ/multipLE-py/deepseekcoder-33B-instruct-hf/completion/taskid-76_is_simple_power-gen0.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+/home/saima/projects/NonFunc-AWQ/multipLE-py/deepseekcoder-33B-instruct-hf/completion/taskid-76_is_simple_power-gen0.py:1:0: C0103: Module name "taskid-76_is_simple_power-gen0" doesn't conform to snake_case naming style (invalid-name)
+/home/saima/projects/NonFunc-AWQ/multipLE-py/deepseekcoder-33B-instruct-hf/completion/taskid-76_is_simple_power-gen0.py:20:4: R1705: Unnecessary "else" after "return", remove the "else" and de-indent the code inside it (no-else-return)
+/home/saima/projects/NonFunc-AWQ/multipLE-py/deepseekcoder-33B-instruct-hf/completion/taskid-76_is_simple_power-gen0.py:20:13: C0321: More than one statement on a single line (multiple-statements)
+
+------------------------------------------------------------------
+Your code has been rated at 5.56/10 (previous run: 7.78/10, -2.22)
+

@@ -1,0 +1,8 @@
+************* Module taskid-6_parse_nested_parens-gen0
+/home/saima/projects/NonFunc-AWQ/multipLE-py/deepseekcoder-1.3B-instruct-awq/completion/taskid-6_parse_nested_parens-gen0.py:4:0: C0301: Line too long (114/100) (line-too-long)
+/home/saima/projects/NonFunc-AWQ/multipLE-py/deepseekcoder-1.3B-instruct-awq/completion/taskid-6_parse_nested_parens-gen0.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+/home/saima/projects/NonFunc-AWQ/multipLE-py/deepseekcoder-1.3B-instruct-awq/completion/taskid-6_parse_nested_parens-gen0.py:1:0: C0103: Module name "taskid-6_parse_nested_parens-gen0" doesn't conform to snake_case naming style (invalid-name)
+
+------------------------------------------------------------------
+Your code has been rated at 7.69/10 (previous run: 0.00/10, +7.69)
+

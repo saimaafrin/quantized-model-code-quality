@@ -1,0 +1,8 @@
+************* Module taskid-5_intersperse-gen0
+/home/saima/projects/NonFunc-AWQ/multipLE-py/deepseekcoder-6.7B-instruct-hf/completion/taskid-5_intersperse-gen0.py:11:0: C0301: Line too long (110/100) (line-too-long)
+/home/saima/projects/NonFunc-AWQ/multipLE-py/deepseekcoder-6.7B-instruct-hf/completion/taskid-5_intersperse-gen0.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+/home/saima/projects/NonFunc-AWQ/multipLE-py/deepseekcoder-6.7B-instruct-hf/completion/taskid-5_intersperse-gen0.py:1:0: C0103: Module name "taskid-5_intersperse-gen0" doesn't conform to snake_case naming style (invalid-name)
+
+------------------------------------------------------------------
+Your code has been rated at 0.00/10 (previous run: 7.50/10, -7.50)
+

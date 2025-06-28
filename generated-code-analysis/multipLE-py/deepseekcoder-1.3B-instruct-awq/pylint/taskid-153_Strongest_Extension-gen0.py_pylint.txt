@@ -1,0 +1,11 @@
+************* Module taskid-153_Strongest_Extension-gen0
+/home/saima/projects/NonFunc-AWQ/multipLE-py/deepseekcoder-1.3B-instruct-awq/completion/taskid-153_Strongest_Extension-gen0.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+/home/saima/projects/NonFunc-AWQ/multipLE-py/deepseekcoder-1.3B-instruct-awq/completion/taskid-153_Strongest_Extension-gen0.py:1:0: C0103: Module name "taskid-153_Strongest_Extension-gen0" doesn't conform to snake_case naming style (invalid-name)
+/home/saima/projects/NonFunc-AWQ/multipLE-py/deepseekcoder-1.3B-instruct-awq/completion/taskid-153_Strongest_Extension-gen0.py:3:0: C0103: Function name "Strongest_Extension" doesn't conform to snake_case naming style (invalid-name)
+/home/saima/projects/NonFunc-AWQ/multipLE-py/deepseekcoder-1.3B-instruct-awq/completion/taskid-153_Strongest_Extension-gen0.py:23:4: W2301: Unnecessary ellipsis constant (unnecessary-ellipsis)
+/home/saima/projects/NonFunc-AWQ/multipLE-py/deepseekcoder-1.3B-instruct-awq/completion/taskid-153_Strongest_Extension-gen0.py:3:24: W0613: Unused argument 'class_name' (unused-argument)
+/home/saima/projects/NonFunc-AWQ/multipLE-py/deepseekcoder-1.3B-instruct-awq/completion/taskid-153_Strongest_Extension-gen0.py:3:41: W0613: Unused argument 'extensions' (unused-argument)
+
+------------------------------------------------------------------
+Your code has been rated at 0.00/10 (previous run: 8.00/10, -8.00)
+

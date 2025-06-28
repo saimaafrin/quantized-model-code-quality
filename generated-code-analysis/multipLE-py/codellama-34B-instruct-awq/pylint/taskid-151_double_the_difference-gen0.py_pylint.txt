@@ -1,0 +1,10 @@
+************* Module taskid-151_double_the_difference-gen0
+/home/saima/projects/NonFunc-AWQ/multipLE-py/codellama-34B-instruct-awq/completion/taskid-151_double_the_difference-gen0.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+/home/saima/projects/NonFunc-AWQ/multipLE-py/codellama-34B-instruct-awq/completion/taskid-151_double_the_difference-gen0.py:1:0: C0103: Module name "taskid-151_double_the_difference-gen0" doesn't conform to snake_case naming style (invalid-name)
+/home/saima/projects/NonFunc-AWQ/multipLE-py/codellama-34B-instruct-awq/completion/taskid-151_double_the_difference-gen0.py:20:4: W0622: Redefining built-in 'sum' (redefined-builtin)
+/home/saima/projects/NonFunc-AWQ/multipLE-py/codellama-34B-instruct-awq/completion/taskid-151_double_the_difference-gen0.py:22:17: C0123: Use isinstance() rather than type() for a typecheck. (unidiomatic-typecheck)
+/home/saima/projects/NonFunc-AWQ/multipLE-py/codellama-34B-instruct-awq/completion/taskid-151_double_the_difference-gen0.py:22:37: C0123: Use isinstance() rather than type() for a typecheck. (unidiomatic-typecheck)
+
+------------------------------------------------------------------
+Your code has been rated at 3.75/10 (previous run: 0.00/10, +3.75)
+

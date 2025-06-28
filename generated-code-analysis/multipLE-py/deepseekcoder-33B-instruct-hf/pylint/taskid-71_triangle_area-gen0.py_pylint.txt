@@ -1,0 +1,11 @@
+************* Module taskid-71_triangle_area-gen0
+/home/saima/projects/NonFunc-AWQ/multipLE-py/deepseekcoder-33B-instruct-hf/completion/taskid-71_triangle_area-gen0.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+/home/saima/projects/NonFunc-AWQ/multipLE-py/deepseekcoder-33B-instruct-hf/completion/taskid-71_triangle_area-gen0.py:1:0: C0103: Module name "taskid-71_triangle_area-gen0" doesn't conform to snake_case naming style (invalid-name)
+/home/saima/projects/NonFunc-AWQ/multipLE-py/deepseekcoder-33B-instruct-hf/completion/taskid-71_triangle_area-gen0.py:17:4: W0107: Unnecessary pass statement (unnecessary-pass)
+/home/saima/projects/NonFunc-AWQ/multipLE-py/deepseekcoder-33B-instruct-hf/completion/taskid-71_triangle_area-gen0.py:1:18: W0613: Unused argument 'a' (unused-argument)
+/home/saima/projects/NonFunc-AWQ/multipLE-py/deepseekcoder-33B-instruct-hf/completion/taskid-71_triangle_area-gen0.py:1:26: W0613: Unused argument 'b' (unused-argument)
+/home/saima/projects/NonFunc-AWQ/multipLE-py/deepseekcoder-33B-instruct-hf/completion/taskid-71_triangle_area-gen0.py:1:34: W0613: Unused argument 'c' (unused-argument)
+
+------------------------------------------------------------------
+Your code has been rated at 0.00/10 (previous run: 5.00/10, -5.00)
+

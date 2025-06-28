@@ -1,0 +1,3 @@
+/home/saima/projects/NonFunc-AWQ/multipLE-py/deepseekcoder-6.7B-instruct-hf/completion/taskid-162_string_to_md5-gen0.py:3:1: E302 expected 2 blank lines, found 1
+/home/saima/projects/NonFunc-AWQ/multipLE-py/deepseekcoder-6.7B-instruct-hf/completion/taskid-162_string_to_md5-gen0.py:15:5: F841 local variable 'hash_object' is assigned to but never used
+/home/saima/projects/NonFunc-AWQ/multipLE-py/deepseekcoder-6.7B-instruct-hf/completion/taskid-162_string_to_md5-gen0.py:16:12: F821 undefined name 'hash_objec'

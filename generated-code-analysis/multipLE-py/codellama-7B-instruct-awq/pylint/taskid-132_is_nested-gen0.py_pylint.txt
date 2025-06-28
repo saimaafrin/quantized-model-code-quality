@@ -1,0 +1,8 @@
+************* Module taskid-132_is_nested-gen0
+/home/saima/projects/NonFunc-AWQ/multipLE-py/codellama-7B-instruct-awq/completion/taskid-132_is_nested-gen0.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+/home/saima/projects/NonFunc-AWQ/multipLE-py/codellama-7B-instruct-awq/completion/taskid-132_is_nested-gen0.py:1:0: C0103: Module name "taskid-132_is_nested-gen0" doesn't conform to snake_case naming style (invalid-name)
+/home/saima/projects/NonFunc-AWQ/multipLE-py/codellama-7B-instruct-awq/completion/taskid-132_is_nested-gen0.py:29:11: R1719: The if expression can be replaced with 'test' (simplifiable-if-expression)
+
+------------------------------------------------------------------
+Your code has been rated at 7.00/10 (previous run: 7.00/10, +0.00)
+

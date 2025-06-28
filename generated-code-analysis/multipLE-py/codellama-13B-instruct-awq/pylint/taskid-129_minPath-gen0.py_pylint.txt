@@ -1,0 +1,16 @@
+************* Module taskid-129_minPath-gen0
+/home/saima/projects/NonFunc-AWQ/multipLE-py/codellama-13B-instruct-awq/completion/taskid-129_minPath-gen0.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+/home/saima/projects/NonFunc-AWQ/multipLE-py/codellama-13B-instruct-awq/completion/taskid-129_minPath-gen0.py:1:0: C0103: Module name "taskid-129_minPath-gen0" doesn't conform to snake_case naming style (invalid-name)
+/home/saima/projects/NonFunc-AWQ/multipLE-py/codellama-13B-instruct-awq/completion/taskid-129_minPath-gen0.py:3:0: C0103: Function name "minPath" doesn't conform to snake_case naming style (invalid-name)
+/home/saima/projects/NonFunc-AWQ/multipLE-py/codellama-13B-instruct-awq/completion/taskid-129_minPath-gen0.py:56:4: C0103: Variable name "minDist" doesn't conform to snake_case naming style (invalid-name)
+/home/saima/projects/NonFunc-AWQ/multipLE-py/codellama-13B-instruct-awq/completion/taskid-129_minPath-gen0.py:68:4: E0602: Undefined variable 'heappush' (undefined-variable)
+/home/saima/projects/NonFunc-AWQ/multipLE-py/codellama-13B-instruct-awq/completion/taskid-129_minPath-gen0.py:71:10: C1802: Do not use `len(SEQUENCE)` without comparison to determine if a sequence is empty (use-implicit-booleaness-not-len)
+/home/saima/projects/NonFunc-AWQ/multipLE-py/codellama-13B-instruct-awq/completion/taskid-129_minPath-gen0.py:73:15: E0602: Undefined variable 'heappop' (undefined-variable)
+/home/saima/projects/NonFunc-AWQ/multipLE-py/codellama-13B-instruct-awq/completion/taskid-129_minPath-gen0.py:83:12: C0103: Variable name "newDist" doesn't conform to snake_case naming style (invalid-name)
+/home/saima/projects/NonFunc-AWQ/multipLE-py/codellama-13B-instruct-awq/completion/taskid-129_minPath-gen0.py:94:16: W0104: Statement seems to have no effect (pointless-statement)
+/home/saima/projects/NonFunc-AWQ/multipLE-py/codellama-13B-instruct-awq/completion/taskid-129_minPath-gen0.py:94:16: E0602: Undefined variable 'he' (undefined-variable)
+/home/saima/projects/NonFunc-AWQ/multipLE-py/codellama-13B-instruct-awq/completion/taskid-129_minPath-gen0.py:3:35: W0613: Unused argument 'k' (unused-argument)
+
+------------------------------------------------------------------
+Your code has been rated at 2.07/10 (previous run: 6.92/10, -4.85)
+

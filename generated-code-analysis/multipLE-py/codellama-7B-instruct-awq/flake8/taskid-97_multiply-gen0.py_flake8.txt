@@ -1,0 +1,2 @@
+/home/saima/projects/NonFunc-AWQ/multipLE-py/codellama-7B-instruct-awq/completion/taskid-97_multiply-gen0.py:2:65: W291 trailing whitespace
+/home/saima/projects/NonFunc-AWQ/multipLE-py/codellama-7B-instruct-awq/completion/taskid-97_multiply-gen0.py:17:5: E303 too many blank lines (2)

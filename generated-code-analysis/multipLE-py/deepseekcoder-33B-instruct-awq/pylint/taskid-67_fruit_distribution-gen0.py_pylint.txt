@@ -1,0 +1,10 @@
+************* Module taskid-67_fruit_distribution-gen0
+/home/saima/projects/NonFunc-AWQ/multipLE-py/deepseekcoder-33B-instruct-awq/completion/taskid-67_fruit_distribution-gen0.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+/home/saima/projects/NonFunc-AWQ/multipLE-py/deepseekcoder-33B-instruct-awq/completion/taskid-67_fruit_distribution-gen0.py:1:0: C0103: Module name "taskid-67_fruit_distribution-gen0" doesn't conform to snake_case naming style (invalid-name)
+/home/saima/projects/NonFunc-AWQ/multipLE-py/deepseekcoder-33B-instruct-awq/completion/taskid-67_fruit_distribution-gen0.py:19:4: W0107: Unnecessary pass statement (unnecessary-pass)
+/home/saima/projects/NonFunc-AWQ/multipLE-py/deepseekcoder-33B-instruct-awq/completion/taskid-67_fruit_distribution-gen0.py:1:23: W0613: Unused argument 's' (unused-argument)
+/home/saima/projects/NonFunc-AWQ/multipLE-py/deepseekcoder-33B-instruct-awq/completion/taskid-67_fruit_distribution-gen0.py:1:31: W0613: Unused argument 'n' (unused-argument)
+
+------------------------------------------------------------------
+Your code has been rated at 0.00/10 (previous run: 6.00/10, -6.00)
+

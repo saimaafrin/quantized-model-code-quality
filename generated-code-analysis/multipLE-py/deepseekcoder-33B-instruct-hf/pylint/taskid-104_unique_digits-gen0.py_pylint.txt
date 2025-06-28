@@ -1,0 +1,8 @@
+************* Module taskid-104_unique_digits-gen0
+/home/saima/projects/NonFunc-AWQ/multipLE-py/deepseekcoder-33B-instruct-hf/completion/taskid-104_unique_digits-gen0.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+/home/saima/projects/NonFunc-AWQ/multipLE-py/deepseekcoder-33B-instruct-hf/completion/taskid-104_unique_digits-gen0.py:1:0: C0103: Module name "taskid-104_unique_digits-gen0" doesn't conform to snake_case naming style (invalid-name)
+/home/saima/projects/NonFunc-AWQ/multipLE-py/deepseekcoder-33B-instruct-hf/completion/taskid-104_unique_digits-gen0.py:16:35: R1729: Use a generator instead 'all(int(d) % 2 != 0 for d in str(i))' (use-a-generator)
+
+------------------------------------------------------------------
+Your code has been rated at 0.00/10 (previous run: 8.00/10, -8.00)
+

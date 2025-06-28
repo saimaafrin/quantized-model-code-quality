@@ -1,0 +1,8 @@
+************* Module taskid-147_get_max_triples-gen0
+/home/saima/projects/NonFunc-AWQ/multipLE-py/deepseekcoder-6.7B-instruct-awq/completion/taskid-147_get_max_triples-gen0.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+/home/saima/projects/NonFunc-AWQ/multipLE-py/deepseekcoder-6.7B-instruct-awq/completion/taskid-147_get_max_triples-gen0.py:1:0: C0103: Module name "taskid-147_get_max_triples-gen0" doesn't conform to snake_case naming style (invalid-name)
+/home/saima/projects/NonFunc-AWQ/multipLE-py/deepseekcoder-6.7B-instruct-awq/completion/taskid-147_get_max_triples-gen0.py:21:4: W0612: Unused variable 'lcm' (unused-variable)
+
+------------------------------------------------------------------
+Your code has been rated at 8.42/10 (previous run: 6.67/10, +1.75)
+

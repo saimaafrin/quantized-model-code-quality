@@ -1,0 +1,10 @@
+************* Module taskid-125_split_words-gen0
+/home/saima/projects/NonFunc-AWQ/multipLE-py/codellama-13B-instruct-hf/completion/taskid-125_split_words-gen0.py:5:0: C0301: Line too long (113/100) (line-too-long)
+/home/saima/projects/NonFunc-AWQ/multipLE-py/codellama-13B-instruct-hf/completion/taskid-125_split_words-gen0.py:6:0: C0301: Line too long (123/100) (line-too-long)
+/home/saima/projects/NonFunc-AWQ/multipLE-py/codellama-13B-instruct-hf/completion/taskid-125_split_words-gen0.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+/home/saima/projects/NonFunc-AWQ/multipLE-py/codellama-13B-instruct-hf/completion/taskid-125_split_words-gen0.py:1:0: C0103: Module name "taskid-125_split_words-gen0" doesn't conform to snake_case naming style (invalid-name)
+/home/saima/projects/NonFunc-AWQ/multipLE-py/codellama-13B-instruct-hf/completion/taskid-125_split_words-gen0.py:17:4: R1705: Unnecessary "elif" after "return", remove the leading "el" from "elif" (no-else-return)
+
+------------------------------------------------------------------
+Your code has been rated at 2.86/10 (previous run: 3.33/10, -0.48)
+

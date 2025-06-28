@@ -1,0 +1,10 @@
+************* Module taskid-39_prime_fib-gen0
+/home/saima/projects/NonFunc-AWQ/multipLE-py/codellama-7B-instruct-hf/completion/taskid-39_prime_fib-gen0.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+/home/saima/projects/NonFunc-AWQ/multipLE-py/codellama-7B-instruct-hf/completion/taskid-39_prime_fib-gen0.py:1:0: C0103: Module name "taskid-39_prime_fib-gen0" doesn't conform to snake_case naming style (invalid-name)
+/home/saima/projects/NonFunc-AWQ/multipLE-py/codellama-7B-instruct-hf/completion/taskid-39_prime_fib-gen0.py:19:11: E0602: Undefined variable 'is_prime' (undefined-variable)
+/home/saima/projects/NonFunc-AWQ/multipLE-py/codellama-7B-instruct-hf/completion/taskid-39_prime_fib-gen0.py:1:0: R1710: Either all return statements in a function should return an expression, or none of them should. (inconsistent-return-statements)
+/home/saima/projects/NonFunc-AWQ/multipLE-py/codellama-7B-instruct-hf/completion/taskid-39_prime_fib-gen0.py:17:8: W0612: Unused variable 'i' (unused-variable)
+
+------------------------------------------------------------------
+Your code has been rated at 0.00/10 (previous run: 0.00/10, +0.00)
+

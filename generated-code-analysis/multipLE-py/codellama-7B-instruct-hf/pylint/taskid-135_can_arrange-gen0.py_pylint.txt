@@ -1,0 +1,9 @@
+************* Module taskid-135_can_arrange-gen0
+/home/saima/projects/NonFunc-AWQ/multipLE-py/codellama-7B-instruct-hf/completion/taskid-135_can_arrange-gen0.py:15:0: C0305: Trailing newlines (trailing-newlines)
+/home/saima/projects/NonFunc-AWQ/multipLE-py/codellama-7B-instruct-hf/completion/taskid-135_can_arrange-gen0.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+/home/saima/projects/NonFunc-AWQ/multipLE-py/codellama-7B-instruct-hf/completion/taskid-135_can_arrange-gen0.py:1:0: C0103: Module name "taskid-135_can_arrange-gen0" doesn't conform to snake_case naming style (invalid-name)
+/home/saima/projects/NonFunc-AWQ/multipLE-py/codellama-7B-instruct-hf/completion/taskid-135_can_arrange-gen0.py:3:16: W0613: Unused argument 'arr' (unused-argument)
+
+------------------------------------------------------------------
+Your code has been rated at 0.00/10 (previous run: 7.50/10, -7.50)
+

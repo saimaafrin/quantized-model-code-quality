@@ -1,0 +1,10 @@
+************* Module taskid-127_intersection-gen0
+/home/saima/projects/NonFunc-AWQ/multipLE-py/codellama-34B-instruct-hf/completion/taskid-127_intersection-gen0.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+/home/saima/projects/NonFunc-AWQ/multipLE-py/codellama-34B-instruct-hf/completion/taskid-127_intersection-gen0.py:1:0: C0103: Module name "taskid-127_intersection-gen0" doesn't conform to snake_case naming style (invalid-name)
+/home/saima/projects/NonFunc-AWQ/multipLE-py/codellama-34B-instruct-hf/completion/taskid-127_intersection-gen0.py:34:4: W0621: Redefining name 'intersection' from outer scope (line 3) (redefined-outer-name)
+/home/saima/projects/NonFunc-AWQ/multipLE-py/codellama-34B-instruct-hf/completion/taskid-127_intersection-gen0.py:41:4: R1705: Unnecessary "else" after "return", remove the "else" and de-indent the code inside it (no-else-return)
+/home/saima/projects/NonFunc-AWQ/multipLE-py/codellama-34B-instruct-hf/completion/taskid-127_intersection-gen0.py:41:7: R1714: Consider merging these comparisons with 'in' by using 'length in (2, 3, 5, 7, 11)'. Use a set instead if elements are hashable. (consider-using-in)
+
+------------------------------------------------------------------
+Your code has been rated at 6.43/10 (previous run: 0.00/10, +6.43)
+

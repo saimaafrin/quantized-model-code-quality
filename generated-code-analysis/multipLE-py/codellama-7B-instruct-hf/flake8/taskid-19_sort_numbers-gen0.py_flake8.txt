@@ -1,0 +1,3 @@
+/home/saima/projects/NonFunc-AWQ/multipLE-py/codellama-7B-instruct-hf/completion/taskid-19_sort_numbers-gen0.py:3:80: E501 line too long (104 > 79 characters)
+/home/saima/projects/NonFunc-AWQ/multipLE-py/codellama-7B-instruct-hf/completion/taskid-19_sort_numbers-gen0.py:11:80: E501 line too long (84 > 79 characters)
+/home/saima/projects/NonFunc-AWQ/multipLE-py/codellama-7B-instruct-hf/completion/taskid-19_sort_numbers-gen0.py:12:29: F821 undefined name 'str_to_num'

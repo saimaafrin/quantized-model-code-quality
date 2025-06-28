@@ -1,0 +1,4 @@
+/home/saima/projects/NonFunc-AWQ/multipLE-py/codellama-7B-instruct-awq/completion/taskid-95_check_dict_case-gen0.py:3:1: E302 expected 2 blank lines, found 1
+/home/saima/projects/NonFunc-AWQ/multipLE-py/codellama-7B-instruct-awq/completion/taskid-95_check_dict_case-gen0.py:5:69: W291 trailing whitespace
+/home/saima/projects/NonFunc-AWQ/multipLE-py/codellama-7B-instruct-awq/completion/taskid-95_check_dict_case-gen0.py:21:16: E701 multiple statements on one line (colon)
+/home/saima/projects/NonFunc-AWQ/multipLE-py/codellama-7B-instruct-awq/completion/taskid-95_check_dict_case-gen0.py:24:9: E701 multiple statements on one line (colon)

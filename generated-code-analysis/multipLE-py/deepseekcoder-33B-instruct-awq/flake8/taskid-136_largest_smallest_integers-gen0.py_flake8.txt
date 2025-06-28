@@ -1,0 +1,4 @@
+/home/saima/projects/NonFunc-AWQ/multipLE-py/deepseekcoder-33B-instruct-awq/completion/taskid-136_largest_smallest_integers-gen0.py:3:1: E302 expected 2 blank lines, found 1
+/home/saima/projects/NonFunc-AWQ/multipLE-py/deepseekcoder-33B-instruct-awq/completion/taskid-136_largest_smallest_integers-gen0.py:3:80: E501 line too long (85 > 79 characters)
+/home/saima/projects/NonFunc-AWQ/multipLE-py/deepseekcoder-33B-instruct-awq/completion/taskid-136_largest_smallest_integers-gen0.py:23:80: E501 line too long (90 > 79 characters)
+/home/saima/projects/NonFunc-AWQ/multipLE-py/deepseekcoder-33B-instruct-awq/completion/taskid-136_largest_smallest_integers-gen0.py:25:80: E501 line too long (92 > 79 characters)

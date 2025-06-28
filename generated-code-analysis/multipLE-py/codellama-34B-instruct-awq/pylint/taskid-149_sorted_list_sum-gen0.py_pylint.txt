@@ -1,0 +1,10 @@
+************* Module taskid-149_sorted_list_sum-gen0
+/home/saima/projects/NonFunc-AWQ/multipLE-py/codellama-34B-instruct-awq/completion/taskid-149_sorted_list_sum-gen0.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+/home/saima/projects/NonFunc-AWQ/multipLE-py/codellama-34B-instruct-awq/completion/taskid-149_sorted_list_sum-gen0.py:1:0: C0103: Module name "taskid-149_sorted_list_sum-gen0" doesn't conform to snake_case naming style (invalid-name)
+/home/saima/projects/NonFunc-AWQ/multipLE-py/codellama-34B-instruct-awq/completion/taskid-149_sorted_list_sum-gen0.py:34:4: W0621: Redefining name 'sorted_list_sum' from outer scope (line 3) (redefined-outer-name)
+/home/saima/projects/NonFunc-AWQ/multipLE-py/codellama-34B-instruct-awq/completion/taskid-149_sorted_list_sum-gen0.py:3:20: W0613: Unused argument 'lst' (unused-argument)
+/home/saima/projects/NonFunc-AWQ/multipLE-py/codellama-34B-instruct-awq/completion/taskid-149_sorted_list_sum-gen0.py:34:4: W0612: Unused variable 'sorted_list_sum' (unused-variable)
+
+------------------------------------------------------------------
+Your code has been rated at 5.83/10 (previous run: 7.14/10, -1.31)
+

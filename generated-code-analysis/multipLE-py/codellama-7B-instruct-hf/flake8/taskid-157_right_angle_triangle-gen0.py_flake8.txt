@@ -1,0 +1,2 @@
+/home/saima/projects/NonFunc-AWQ/multipLE-py/codellama-7B-instruct-hf/completion/taskid-157_right_angle_triangle-gen0.py:3:80: E501 line too long (80 > 79 characters)
+/home/saima/projects/NonFunc-AWQ/multipLE-py/codellama-7B-instruct-hf/completion/taskid-157_right_angle_triangle-gen0.py:5:79: W291 trailing whitespace

@@ -1,0 +1,14 @@
+************* Module taskid-139_special_factorial-gen0
+/home/saima/projects/NonFunc-AWQ/multipLE-py/codellama-7B-instruct-hf/completion/taskid-139_special_factorial-gen0.py:14:0: C0301: Line too long (108/100) (line-too-long)
+/home/saima/projects/NonFunc-AWQ/multipLE-py/codellama-7B-instruct-hf/completion/taskid-139_special_factorial-gen0.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+/home/saima/projects/NonFunc-AWQ/multipLE-py/codellama-7B-instruct-hf/completion/taskid-139_special_factorial-gen0.py:1:0: C0103: Module name "taskid-139_special_factorial-gen0" doesn't conform to snake_case naming style (invalid-name)
+/home/saima/projects/NonFunc-AWQ/multipLE-py/codellama-7B-instruct-hf/completion/taskid-139_special_factorial-gen0.py:14:11: E0602: Undefined variable 'factorial' (undefined-variable)
+/home/saima/projects/NonFunc-AWQ/multipLE-py/codellama-7B-instruct-hf/completion/taskid-139_special_factorial-gen0.py:14:26: E0602: Undefined variable 'factorial' (undefined-variable)
+/home/saima/projects/NonFunc-AWQ/multipLE-py/codellama-7B-instruct-hf/completion/taskid-139_special_factorial-gen0.py:14:43: E0602: Undefined variable 'factorial' (undefined-variable)
+/home/saima/projects/NonFunc-AWQ/multipLE-py/codellama-7B-instruct-hf/completion/taskid-139_special_factorial-gen0.py:14:60: E0602: Undefined variable 'factorial' (undefined-variable)
+/home/saima/projects/NonFunc-AWQ/multipLE-py/codellama-7B-instruct-hf/completion/taskid-139_special_factorial-gen0.py:14:77: E0602: Undefined variable 'factorial' (undefined-variable)
+/home/saima/projects/NonFunc-AWQ/multipLE-py/codellama-7B-instruct-hf/completion/taskid-139_special_factorial-gen0.py:14:94: E0602: Undefined variable 'factorial' (undefined-variable)
+
+------------------------------------------------------------------
+Your code has been rated at 0.00/10 (previous run: 5.00/10, -5.00)
+

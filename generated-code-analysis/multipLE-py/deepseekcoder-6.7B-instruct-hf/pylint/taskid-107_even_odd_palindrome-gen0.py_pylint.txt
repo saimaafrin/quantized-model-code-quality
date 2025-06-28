@@ -1,0 +1,11 @@
+************* Module taskid-107_even_odd_palindrome-gen0
+/home/saima/projects/NonFunc-AWQ/multipLE-py/deepseekcoder-6.7B-instruct-hf/completion/taskid-107_even_odd_palindrome-gen0.py:20:0: C0301: Line too long (107/100) (line-too-long)
+/home/saima/projects/NonFunc-AWQ/multipLE-py/deepseekcoder-6.7B-instruct-hf/completion/taskid-107_even_odd_palindrome-gen0.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+/home/saima/projects/NonFunc-AWQ/multipLE-py/deepseekcoder-6.7B-instruct-hf/completion/taskid-107_even_odd_palindrome-gen0.py:1:0: C0103: Module name "taskid-107_even_odd_palindrome-gen0" doesn't conform to snake_case naming style (invalid-name)
+/home/saima/projects/NonFunc-AWQ/multipLE-py/deepseekcoder-6.7B-instruct-hf/completion/taskid-107_even_odd_palindrome-gen0.py:38:4: R1702: Too many nested blocks (6/5) (too-many-nested-blocks)
+/home/saima/projects/NonFunc-AWQ/multipLE-py/deepseekcoder-6.7B-instruct-hf/completion/taskid-107_even_odd_palindrome-gen0.py:3:0: R0912: Too many branches (13/12) (too-many-branches)
+/home/saima/projects/NonFunc-AWQ/multipLE-py/deepseekcoder-6.7B-instruct-hf/completion/taskid-107_even_odd_palindrome-gen0.py:38:4: R1702: Too many nested blocks (6/5) (too-many-nested-blocks)
+
+------------------------------------------------------------------
+Your code has been rated at 7.69/10 (previous run: 5.45/10, +2.24)
+

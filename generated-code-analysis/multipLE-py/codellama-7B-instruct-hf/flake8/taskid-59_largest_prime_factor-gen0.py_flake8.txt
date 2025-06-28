@@ -1,0 +1,1 @@
+/home/saima/projects/NonFunc-AWQ/multipLE-py/codellama-7B-instruct-hf/completion/taskid-59_largest_prime_factor-gen0.py:12:27: F821 undefined name 'is_prime'

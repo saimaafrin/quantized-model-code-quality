@@ -1,0 +1,8 @@
+************* Module taskid-154_cycpattern_check-gen0
+/home/saima/projects/NonFunc-AWQ/multipLE-py/deepseekcoder-6.7B-instruct-awq/completion/taskid-154_cycpattern_check-gen0.py:2:0: C0301: Line too long (129/100) (line-too-long)
+/home/saima/projects/NonFunc-AWQ/multipLE-py/deepseekcoder-6.7B-instruct-awq/completion/taskid-154_cycpattern_check-gen0.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+/home/saima/projects/NonFunc-AWQ/multipLE-py/deepseekcoder-6.7B-instruct-awq/completion/taskid-154_cycpattern_check-gen0.py:1:0: C0103: Module name "taskid-154_cycpattern_check-gen0" doesn't conform to snake_case naming style (invalid-name)
+
+------------------------------------------------------------------
+Your code has been rated at 7.27/10 (previous run: 0.00/10, +7.27)
+

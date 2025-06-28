@@ -1,0 +1,16 @@
+************* Module taskid-94_skjkasdkd-gen0
+/home/saima/projects/NonFunc-AWQ/multipLE-py/deepseekcoder-1.3B-instruct-hf/completion/taskid-94_skjkasdkd-gen0.py:33:19: C0303: Trailing whitespace (trailing-whitespace)
+/home/saima/projects/NonFunc-AWQ/multipLE-py/deepseekcoder-1.3B-instruct-hf/completion/taskid-94_skjkasdkd-gen0.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+/home/saima/projects/NonFunc-AWQ/multipLE-py/deepseekcoder-1.3B-instruct-hf/completion/taskid-94_skjkasdkd-gen0.py:1:0: C0103: Module name "taskid-94_skjkasdkd-gen0" doesn't conform to snake_case naming style (invalid-name)
+/home/saima/projects/NonFunc-AWQ/multipLE-py/deepseekcoder-1.3B-instruct-hf/completion/taskid-94_skjkasdkd-gen0.py:23:11: R1714: Consider merging these comparisons with 'in' by using 'n in (2, 3)'. Use a set instead if elements are hashable. (consider-using-in)
+/home/saima/projects/NonFunc-AWQ/multipLE-py/deepseekcoder-1.3B-instruct-hf/completion/taskid-94_skjkasdkd-gen0.py:23:29: C0321: More than one statement on a single line (multiple-statements)
+/home/saima/projects/NonFunc-AWQ/multipLE-py/deepseekcoder-1.3B-instruct-hf/completion/taskid-94_skjkasdkd-gen0.py:24:30: C0321: More than one statement on a single line (multiple-statements)
+/home/saima/projects/NonFunc-AWQ/multipLE-py/deepseekcoder-1.3B-instruct-hf/completion/taskid-94_skjkasdkd-gen0.py:25:18: C0321: More than one statement on a single line (multiple-statements)
+/home/saima/projects/NonFunc-AWQ/multipLE-py/deepseekcoder-1.3B-instruct-hf/completion/taskid-94_skjkasdkd-gen0.py:26:21: C0321: More than one statement on a single line (multiple-statements)
+/home/saima/projects/NonFunc-AWQ/multipLE-py/deepseekcoder-1.3B-instruct-hf/completion/taskid-94_skjkasdkd-gen0.py:30:25: C0321: More than one statement on a single line (multiple-statements)
+/home/saima/projects/NonFunc-AWQ/multipLE-py/deepseekcoder-1.3B-instruct-hf/completion/taskid-94_skjkasdkd-gen0.py:31:29: C0321: More than one statement on a single line (multiple-statements)
+/home/saima/projects/NonFunc-AWQ/multipLE-py/deepseekcoder-1.3B-instruct-hf/completion/taskid-94_skjkasdkd-gen0.py:22:4: R0911: Too many return statements (7/6) (too-many-return-statements)
+
+------------------------------------------------------------------
+Your code has been rated at 5.00/10 (previous run: 0.00/10, +5.00)
+

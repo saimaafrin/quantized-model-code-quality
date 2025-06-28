@@ -1,0 +1,4 @@
+/home/saima/projects/NonFunc-AWQ/multipLE-py/codellama-7B-instruct-hf/completion/taskid-75_is_multiply_prime-gen0.py:2:80: E501 line too long (102 > 79 characters)
+/home/saima/projects/NonFunc-AWQ/multipLE-py/codellama-7B-instruct-hf/completion/taskid-75_is_multiply_prime-gen0.py:4:39: W291 trailing whitespace
+/home/saima/projects/NonFunc-AWQ/multipLE-py/codellama-7B-instruct-hf/completion/taskid-75_is_multiply_prime-gen0.py:14:27: F821 undefined name 'is_prime'
+/home/saima/projects/NonFunc-AWQ/multipLE-py/codellama-7B-instruct-hf/completion/taskid-75_is_multiply_prime-gen0.py:15:38: F821 undefined name 'is_prime'

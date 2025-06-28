@@ -1,0 +1,8 @@
+************* Module taskid-47_median-gen0
+/home/saima/projects/NonFunc-AWQ/multipLE-py/codellama-34B-instruct-hf/completion/taskid-47_median-gen0.py:12:0: C0325: Unnecessary parens after 'return' keyword (superfluous-parens)
+/home/saima/projects/NonFunc-AWQ/multipLE-py/codellama-34B-instruct-hf/completion/taskid-47_median-gen0.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+/home/saima/projects/NonFunc-AWQ/multipLE-py/codellama-34B-instruct-hf/completion/taskid-47_median-gen0.py:1:0: C0103: Module name "taskid-47_median-gen0" doesn't conform to snake_case naming style (invalid-name)
+
+------------------------------------------------------------------
+Your code has been rated at 2.50/10 (previous run: 4.00/10, -1.50)
+

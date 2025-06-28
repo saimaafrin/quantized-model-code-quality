@@ -1,0 +1,15 @@
+************* Module taskid-148_bf-gen0
+/home/saima/projects/NonFunc-AWQ/multipLE-py/codellama-7B-instruct-hf/completion/taskid-148_bf-gen0.py:27:0: C0301: Line too long (119/100) (line-too-long)
+/home/saima/projects/NonFunc-AWQ/multipLE-py/codellama-7B-instruct-hf/completion/taskid-148_bf-gen0.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+/home/saima/projects/NonFunc-AWQ/multipLE-py/codellama-7B-instruct-hf/completion/taskid-148_bf-gen0.py:1:0: C0103: Module name "taskid-148_bf-gen0" doesn't conform to snake_case naming style (invalid-name)
+/home/saima/projects/NonFunc-AWQ/multipLE-py/codellama-7B-instruct-hf/completion/taskid-148_bf-gen0.py:24:22: E0602: Undefined variable 'PLANETS' (undefined-variable)
+/home/saima/projects/NonFunc-AWQ/multipLE-py/codellama-7B-instruct-hf/completion/taskid-148_bf-gen0.py:24:48: E0602: Undefined variable 'PLANETS' (undefined-variable)
+/home/saima/projects/NonFunc-AWQ/multipLE-py/codellama-7B-instruct-hf/completion/taskid-148_bf-gen0.py:27:33: E0602: Undefined variable 'PLANETS' (undefined-variable)
+/home/saima/projects/NonFunc-AWQ/multipLE-py/codellama-7B-instruct-hf/completion/taskid-148_bf-gen0.py:27:44: E0602: Undefined variable 'PLANETS' (undefined-variable)
+/home/saima/projects/NonFunc-AWQ/multipLE-py/codellama-7B-instruct-hf/completion/taskid-148_bf-gen0.py:27:62: E0602: Undefined variable 'PLANETS' (undefined-variable)
+/home/saima/projects/NonFunc-AWQ/multipLE-py/codellama-7B-instruct-hf/completion/taskid-148_bf-gen0.py:27:83: E0602: Undefined variable 'PLANETS' (undefined-variable)
+/home/saima/projects/NonFunc-AWQ/multipLE-py/codellama-7B-instruct-hf/completion/taskid-148_bf-gen0.py:27:101: E0602: Undefined variable 'PLANETS' (undefined-variable)
+
+------------------------------------------------------------------
+Your code has been rated at 0.00/10 (previous run: 7.27/10, -7.27)
+

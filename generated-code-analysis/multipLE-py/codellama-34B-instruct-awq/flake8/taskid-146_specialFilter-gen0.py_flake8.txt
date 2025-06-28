@@ -1,0 +1,12 @@
+/home/saima/projects/NonFunc-AWQ/multipLE-py/codellama-34B-instruct-awq/completion/taskid-146_specialFilter-gen0.py:3:1: E302 expected 2 blank lines, found 1
+/home/saima/projects/NonFunc-AWQ/multipLE-py/codellama-34B-instruct-awq/completion/taskid-146_specialFilter-gen0.py:4:76: W291 trailing whitespace
+/home/saima/projects/NonFunc-AWQ/multipLE-py/codellama-34B-instruct-awq/completion/taskid-146_specialFilter-gen0.py:5:74: W291 trailing whitespace
+/home/saima/projects/NonFunc-AWQ/multipLE-py/codellama-34B-instruct-awq/completion/taskid-146_specialFilter-gen0.py:16:54: E231 missing whitespace after ','
+/home/saima/projects/NonFunc-AWQ/multipLE-py/codellama-34B-instruct-awq/completion/taskid-146_specialFilter-gen0.py:16:58: E231 missing whitespace after ','
+/home/saima/projects/NonFunc-AWQ/multipLE-py/codellama-34B-instruct-awq/completion/taskid-146_specialFilter-gen0.py:16:62: E231 missing whitespace after ','
+/home/saima/projects/NonFunc-AWQ/multipLE-py/codellama-34B-instruct-awq/completion/taskid-146_specialFilter-gen0.py:16:66: E231 missing whitespace after ','
+/home/saima/projects/NonFunc-AWQ/multipLE-py/codellama-34B-instruct-awq/completion/taskid-146_specialFilter-gen0.py:17:5: E125 continuation line with same indent as next logical line
+/home/saima/projects/NonFunc-AWQ/multipLE-py/codellama-34B-instruct-awq/completion/taskid-146_specialFilter-gen0.py:17:36: E231 missing whitespace after ','
+/home/saima/projects/NonFunc-AWQ/multipLE-py/codellama-34B-instruct-awq/completion/taskid-146_specialFilter-gen0.py:17:40: E231 missing whitespace after ','
+/home/saima/projects/NonFunc-AWQ/multipLE-py/codellama-34B-instruct-awq/completion/taskid-146_specialFilter-gen0.py:17:44: E231 missing whitespace after ','
+/home/saima/projects/NonFunc-AWQ/multipLE-py/codellama-34B-instruct-awq/completion/taskid-146_specialFilter-gen0.py:17:48: E231 missing whitespace after ','

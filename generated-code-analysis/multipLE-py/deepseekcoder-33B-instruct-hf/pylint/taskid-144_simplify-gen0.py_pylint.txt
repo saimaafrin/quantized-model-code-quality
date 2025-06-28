@@ -1,0 +1,13 @@
+************* Module taskid-144_simplify-gen0
+/home/saima/projects/NonFunc-AWQ/multipLE-py/deepseekcoder-33B-instruct-hf/completion/taskid-144_simplify-gen0.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+/home/saima/projects/NonFunc-AWQ/multipLE-py/deepseekcoder-33B-instruct-hf/completion/taskid-144_simplify-gen0.py:1:0: C0103: Module name "taskid-144_simplify-gen0" doesn't conform to snake_case naming style (invalid-name)
+/home/saima/projects/NonFunc-AWQ/multipLE-py/deepseekcoder-33B-instruct-hf/completion/taskid-144_simplify-gen0.py:36:4: W0101: Unreachable code (unreachable)
+/home/saima/projects/NonFunc-AWQ/multipLE-py/deepseekcoder-33B-instruct-hf/completion/taskid-144_simplify-gen0.py:42:4: W0101: Unreachable code (unreachable)
+/home/saima/projects/NonFunc-AWQ/multipLE-py/deepseekcoder-33B-instruct-hf/completion/taskid-144_simplify-gen0.py:36:36: W0123: Use of eval (eval-used)
+/home/saima/projects/NonFunc-AWQ/multipLE-py/deepseekcoder-33B-instruct-hf/completion/taskid-144_simplify-gen0.py:36:44: W0123: Use of eval (eval-used)
+/home/saima/projects/NonFunc-AWQ/multipLE-py/deepseekcoder-33B-instruct-hf/completion/taskid-144_simplify-gen0.py:42:11: W0123: Use of eval (eval-used)
+/home/saima/projects/NonFunc-AWQ/multipLE-py/deepseekcoder-33B-instruct-hf/completion/taskid-144_simplify-gen0.py:42:19: W0123: Use of eval (eval-used)
+
+------------------------------------------------------------------
+Your code has been rated at 1.11/10 (previous run: 5.00/10, -3.89)
+

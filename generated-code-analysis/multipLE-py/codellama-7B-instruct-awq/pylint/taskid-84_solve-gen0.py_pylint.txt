@@ -1,0 +1,10 @@
+************* Module taskid-84_solve-gen0
+/home/saima/projects/NonFunc-AWQ/multipLE-py/codellama-7B-instruct-awq/completion/taskid-84_solve-gen0.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+/home/saima/projects/NonFunc-AWQ/multipLE-py/codellama-7B-instruct-awq/completion/taskid-84_solve-gen0.py:1:0: C0103: Module name "taskid-84_solve-gen0" doesn't conform to snake_case naming style (invalid-name)
+/home/saima/projects/NonFunc-AWQ/multipLE-py/codellama-7B-instruct-awq/completion/taskid-84_solve-gen0.py:1:10: C0103: Argument name "N" doesn't conform to snake_case naming style (invalid-name)
+/home/saima/projects/NonFunc-AWQ/multipLE-py/codellama-7B-instruct-awq/completion/taskid-84_solve-gen0.py:19:4: R1705: Unnecessary "else" after "return", remove the "else" and de-indent the code inside it (no-else-return)
+/home/saima/projects/NonFunc-AWQ/multipLE-py/codellama-7B-instruct-awq/completion/taskid-84_solve-gen0.py:22:8: R1705: Unnecessary "else" after "return", remove the "else" and de-indent the code inside it (no-else-return)
+
+------------------------------------------------------------------
+Your code has been rated at 1.67/10 (previous run: 1.67/10, +0.00)
+

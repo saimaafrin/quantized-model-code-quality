@@ -1,0 +1,9 @@
+************* Module taskid-161_solve-gen0
+/home/saima/projects/NonFunc-AWQ/multipLE-py/codellama-13B-instruct-hf/completion/taskid-161_solve-gen0.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+/home/saima/projects/NonFunc-AWQ/multipLE-py/codellama-13B-instruct-hf/completion/taskid-161_solve-gen0.py:1:0: C0103: Module name "taskid-161_solve-gen0" doesn't conform to snake_case naming style (invalid-name)
+/home/saima/projects/NonFunc-AWQ/multipLE-py/codellama-13B-instruct-hf/completion/taskid-161_solve-gen0.py:18:4: C0200: Consider using enumerate instead of iterating with range and len (consider-using-enumerate)
+/home/saima/projects/NonFunc-AWQ/multipLE-py/codellama-13B-instruct-hf/completion/taskid-161_solve-gen0.py:16:4: W0612: Unused variable 'alpha' (unused-variable)
+
+------------------------------------------------------------------
+Your code has been rated at 5.56/10 (previous run: 8.46/10, -2.91)
+

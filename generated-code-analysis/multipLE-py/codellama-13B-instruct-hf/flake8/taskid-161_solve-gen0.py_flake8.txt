@@ -1,0 +1,3 @@
+/home/saima/projects/NonFunc-AWQ/multipLE-py/codellama-13B-instruct-hf/completion/taskid-161_solve-gen0.py:3:77: W291 trailing whitespace
+/home/saima/projects/NonFunc-AWQ/multipLE-py/codellama-13B-instruct-hf/completion/taskid-161_solve-gen0.py:16:5: F841 local variable 'alpha' is assigned to but never used
+/home/saima/projects/NonFunc-AWQ/multipLE-py/codellama-13B-instruct-hf/completion/taskid-161_solve-gen0.py:20:47: E203 whitespace before ':'

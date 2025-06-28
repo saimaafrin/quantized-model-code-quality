@@ -1,0 +1,9 @@
+************* Module taskid-137_compare_one-gen0
+/home/saima/projects/NonFunc-AWQ/multipLE-py/deepseekcoder-1.3B-instruct-hf/completion/taskid-137_compare_one-gen0.py:3:0: C0301: Line too long (102/100) (line-too-long)
+/home/saima/projects/NonFunc-AWQ/multipLE-py/deepseekcoder-1.3B-instruct-hf/completion/taskid-137_compare_one-gen0.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+/home/saima/projects/NonFunc-AWQ/multipLE-py/deepseekcoder-1.3B-instruct-hf/completion/taskid-137_compare_one-gen0.py:1:0: C0103: Module name "taskid-137_compare_one-gen0" doesn't conform to snake_case naming style (invalid-name)
+/home/saima/projects/NonFunc-AWQ/multipLE-py/deepseekcoder-1.3B-instruct-hf/completion/taskid-137_compare_one-gen0.py:26:4: R1705: Unnecessary "elif" after "return", remove the leading "el" from "elif" (no-else-return)
+
+------------------------------------------------------------------
+Your code has been rated at 5.56/10 (previous run: 5.56/10, +0.00)
+

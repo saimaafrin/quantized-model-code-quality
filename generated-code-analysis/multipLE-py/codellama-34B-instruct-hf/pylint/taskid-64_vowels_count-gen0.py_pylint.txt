@@ -1,0 +1,8 @@
+************* Module taskid-64_vowels_count-gen0
+/home/saima/projects/NonFunc-AWQ/multipLE-py/codellama-34B-instruct-hf/completion/taskid-64_vowels_count-gen0.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+/home/saima/projects/NonFunc-AWQ/multipLE-py/codellama-34B-instruct-hf/completion/taskid-64_vowels_count-gen0.py:1:0: C0103: Module name "taskid-64_vowels_count-gen0" doesn't conform to snake_case naming style (invalid-name)
+/home/saima/projects/NonFunc-AWQ/multipLE-py/codellama-34B-instruct-hf/completion/taskid-64_vowels_count-gen0.py:16:4: C0200: Consider using enumerate instead of iterating with range and len (consider-using-enumerate)
+
+------------------------------------------------------------------
+Your code has been rated at 6.67/10 (previous run: 7.14/10, -0.48)
+

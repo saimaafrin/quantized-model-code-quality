@@ -1,0 +1,2 @@
+************* Module taskid-34_unique-gen0
+/home/saima/projects/NonFunc-AWQ/multipLE-py/codellama-7B-instruct-awq/completion/taskid-34_unique-gen0.py:10:11: E0001: Parsing failed: 'unexpected character after line continuation character (taskid-34_unique-gen0, line 10)' (syntax-error)

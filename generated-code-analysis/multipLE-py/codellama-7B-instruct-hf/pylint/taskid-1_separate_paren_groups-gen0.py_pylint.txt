@@ -1,0 +1,9 @@
+************* Module taskid-1_separate_paren_groups-gen0
+/home/saima/projects/NonFunc-AWQ/multipLE-py/codellama-7B-instruct-hf/completion/taskid-1_separate_paren_groups-gen0.py:4:0: C0301: Line too long (108/100) (line-too-long)
+/home/saima/projects/NonFunc-AWQ/multipLE-py/codellama-7B-instruct-hf/completion/taskid-1_separate_paren_groups-gen0.py:6:0: C0301: Line too long (102/100) (line-too-long)
+/home/saima/projects/NonFunc-AWQ/multipLE-py/codellama-7B-instruct-hf/completion/taskid-1_separate_paren_groups-gen0.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+/home/saima/projects/NonFunc-AWQ/multipLE-py/codellama-7B-instruct-hf/completion/taskid-1_separate_paren_groups-gen0.py:1:0: C0103: Module name "taskid-1_separate_paren_groups-gen0" doesn't conform to snake_case naming style (invalid-name)
+
+------------------------------------------------------------------
+Your code has been rated at 7.50/10 (previous run: 5.83/10, +1.67)
+

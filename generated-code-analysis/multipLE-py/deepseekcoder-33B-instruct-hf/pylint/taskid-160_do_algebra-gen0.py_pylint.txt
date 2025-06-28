@@ -1,0 +1,11 @@
+************* Module taskid-160_do_algebra-gen0
+/home/saima/projects/NonFunc-AWQ/multipLE-py/deepseekcoder-33B-instruct-hf/completion/taskid-160_do_algebra-gen0.py:32:0: C0301: Line too long (103/100) (line-too-long)
+/home/saima/projects/NonFunc-AWQ/multipLE-py/deepseekcoder-33B-instruct-hf/completion/taskid-160_do_algebra-gen0.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+/home/saima/projects/NonFunc-AWQ/multipLE-py/deepseekcoder-33B-instruct-hf/completion/taskid-160_do_algebra-gen0.py:1:0: C0103: Module name "taskid-160_do_algebra-gen0" doesn't conform to snake_case naming style (invalid-name)
+/home/saima/projects/NonFunc-AWQ/multipLE-py/deepseekcoder-33B-instruct-hf/completion/taskid-160_do_algebra-gen0.py:29:4: R1705: Unnecessary "else" after "return", remove the "else" and de-indent the code inside it (no-else-return)
+/home/saima/projects/NonFunc-AWQ/multipLE-py/deepseekcoder-33B-instruct-hf/completion/taskid-160_do_algebra-gen0.py:30:15: W0123: Use of eval (eval-used)
+/home/saima/projects/NonFunc-AWQ/multipLE-py/deepseekcoder-33B-instruct-hf/completion/taskid-160_do_algebra-gen0.py:32:41: W0123: Use of eval (eval-used)
+
+------------------------------------------------------------------
+Your code has been rated at 0.00/10 (previous run: 8.67/10, -8.67)
+

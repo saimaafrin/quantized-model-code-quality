@@ -1,0 +1,9 @@
+************* Module taskid-145_order_by_points-gen0
+/home/saima/projects/NonFunc-AWQ/multipLE-py/deepseekcoder-6.7B-instruct-awq/completion/taskid-145_order_by_points-gen0.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+/home/saima/projects/NonFunc-AWQ/multipLE-py/deepseekcoder-6.7B-instruct-awq/completion/taskid-145_order_by_points-gen0.py:1:0: C0103: Module name "taskid-145_order_by_points-gen0" doesn't conform to snake_case naming style (invalid-name)
+/home/saima/projects/NonFunc-AWQ/multipLE-py/deepseekcoder-6.7B-instruct-awq/completion/taskid-145_order_by_points-gen0.py:17:24: R1721: Unnecessary use of a comprehension, use list(enumerate(nums)) instead. (unnecessary-comprehension)
+/home/saima/projects/NonFunc-AWQ/multipLE-py/deepseekcoder-6.7B-instruct-awq/completion/taskid-145_order_by_points-gen0.py:17:4: W0612: Unused variable 'nums_with_indices' (unused-variable)
+
+------------------------------------------------------------------
+Your code has been rated at 4.29/10 (previous run: 0.00/10, +4.29)
+

@@ -1,0 +1,13 @@
+************* Module taskid-124_valid_date-gen0
+/home/saima/projects/NonFunc-AWQ/multipLE-py/codellama-13B-instruct-awq/completion/taskid-124_valid_date-gen0.py:6:0: C0301: Line too long (259/100) (line-too-long)
+/home/saima/projects/NonFunc-AWQ/multipLE-py/codellama-13B-instruct-awq/completion/taskid-124_valid_date-gen0.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+/home/saima/projects/NonFunc-AWQ/multipLE-py/codellama-13B-instruct-awq/completion/taskid-124_valid_date-gen0.py:1:0: C0103: Module name "taskid-124_valid_date-gen0" doesn't conform to snake_case naming style (invalid-name)
+/home/saima/projects/NonFunc-AWQ/multipLE-py/codellama-13B-instruct-awq/completion/taskid-124_valid_date-gen0.py:37:11: R1716: Simplify chained comparison between the operands (chained-comparison)
+/home/saima/projects/NonFunc-AWQ/multipLE-py/codellama-13B-instruct-awq/completion/taskid-124_valid_date-gen0.py:39:19: R1716: Simplify chained comparison between the operands (chained-comparison)
+/home/saima/projects/NonFunc-AWQ/multipLE-py/codellama-13B-instruct-awq/completion/taskid-124_valid_date-gen0.py:42:19: R1716: Simplify chained comparison between the operands (chained-comparison)
+/home/saima/projects/NonFunc-AWQ/multipLE-py/codellama-13B-instruct-awq/completion/taskid-124_valid_date-gen0.py:45:19: R1716: Simplify chained comparison between the operands (chained-comparison)
+/home/saima/projects/NonFunc-AWQ/multipLE-py/codellama-13B-instruct-awq/completion/taskid-124_valid_date-gen0.py:1:0: R0911: Too many return statements (8/6) (too-many-return-statements)
+
+------------------------------------------------------------------
+Your code has been rated at 6.67/10 (previous run: 8.00/10, -1.33)
+

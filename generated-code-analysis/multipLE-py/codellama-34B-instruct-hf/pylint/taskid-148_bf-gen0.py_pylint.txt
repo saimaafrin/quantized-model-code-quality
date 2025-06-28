@@ -1,0 +1,10 @@
+************* Module taskid-148_bf-gen0
+/home/saima/projects/NonFunc-AWQ/multipLE-py/codellama-34B-instruct-hf/completion/taskid-148_bf-gen0.py:27:69: C0303: Trailing whitespace (trailing-whitespace)
+/home/saima/projects/NonFunc-AWQ/multipLE-py/codellama-34B-instruct-hf/completion/taskid-148_bf-gen0.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+/home/saima/projects/NonFunc-AWQ/multipLE-py/codellama-34B-instruct-hf/completion/taskid-148_bf-gen0.py:1:0: C0103: Module name "taskid-148_bf-gen0" doesn't conform to snake_case naming style (invalid-name)
+/home/saima/projects/NonFunc-AWQ/multipLE-py/codellama-34B-instruct-hf/completion/taskid-148_bf-gen0.py:27:11: R1728: Consider using a generator instead 'tuple(x for x in planets if planets[x] > planets[planet1] and planets[x] < planets[planet2])' (consider-using-generator)
+/home/saima/projects/NonFunc-AWQ/multipLE-py/codellama-34B-instruct-hf/completion/taskid-148_bf-gen0.py:27:0: C0206: Consider iterating with .items() (consider-using-dict-items)
+
+------------------------------------------------------------------
+Your code has been rated at 1.67/10 (previous run: 7.50/10, -5.83)
+

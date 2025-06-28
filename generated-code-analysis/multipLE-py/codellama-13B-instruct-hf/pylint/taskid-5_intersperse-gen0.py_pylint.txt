@@ -1,0 +1,11 @@
+************* Module taskid-5_intersperse-gen0
+/home/saima/projects/NonFunc-AWQ/multipLE-py/codellama-13B-instruct-hf/completion/taskid-5_intersperse-gen0.py:11:5: W0511: TODO: Write a solution that uses a list comprehension (fixme)
+/home/saima/projects/NonFunc-AWQ/multipLE-py/codellama-13B-instruct-hf/completion/taskid-5_intersperse-gen0.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+/home/saima/projects/NonFunc-AWQ/multipLE-py/codellama-13B-instruct-hf/completion/taskid-5_intersperse-gen0.py:1:0: C0103: Module name "taskid-5_intersperse-gen0" doesn't conform to snake_case naming style (invalid-name)
+/home/saima/projects/NonFunc-AWQ/multipLE-py/codellama-13B-instruct-hf/completion/taskid-5_intersperse-gen0.py:12:4: W0107: Unnecessary pass statement (unnecessary-pass)
+/home/saima/projects/NonFunc-AWQ/multipLE-py/codellama-13B-instruct-hf/completion/taskid-5_intersperse-gen0.py:3:16: W0613: Unused argument 'numbers' (unused-argument)
+/home/saima/projects/NonFunc-AWQ/multipLE-py/codellama-13B-instruct-hf/completion/taskid-5_intersperse-gen0.py:3:36: W0613: Unused argument 'delimeter' (unused-argument)
+
+------------------------------------------------------------------
+Your code has been rated at 0.00/10 (previous run: 7.14/10, -7.14)
+
