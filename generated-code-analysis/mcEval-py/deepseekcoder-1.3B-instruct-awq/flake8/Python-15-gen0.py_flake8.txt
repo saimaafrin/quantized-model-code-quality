@@ -1,0 +1,1 @@
+/home/saima/projects/NonFunc-AWQ/mcEval-py/deepseekcoder-1.3B-instruct-awq/completion/python-files/Python-15-gen0.py:46:43: E999 SyntaxError: expected ':'

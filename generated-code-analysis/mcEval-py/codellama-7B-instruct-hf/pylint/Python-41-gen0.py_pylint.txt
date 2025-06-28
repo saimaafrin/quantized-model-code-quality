@@ -1,0 +1,14 @@
+************* Module Python-41-gen0
+/home/saima/projects/NonFunc-AWQ/mcEval-py/codellama-7B-instruct-hf/completion/python-files/Python-41-gen0.py:30:0: C0301: Line too long (153/100) (line-too-long)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/codellama-7B-instruct-hf/completion/python-files/Python-41-gen0.py:50:0: C0301: Line too long (123/100) (line-too-long)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/codellama-7B-instruct-hf/completion/python-files/Python-41-gen0.py:54:0: C0304: Final newline missing (missing-final-newline)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/codellama-7B-instruct-hf/completion/python-files/Python-41-gen0.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/codellama-7B-instruct-hf/completion/python-files/Python-41-gen0.py:1:0: C0103: Module name "Python-41-gen0" doesn't conform to snake_case naming style (invalid-name)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/codellama-7B-instruct-hf/completion/python-files/Python-41-gen0.py:28:7: W0127: Assigning the same variable 'b' to itself (self-assigning-variable)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/codellama-7B-instruct-hf/completion/python-files/Python-41-gen0.py:30:8: W0632: Possible unbalanced tuple unpacking with sequence '(b // a if b >= a else (b // a, b % a, a, y, u, v), (a, b), (x, y), (u, v), (u - b // a * x) % b, (v - b // a * y) % b)': left side has 7 labels, right side has 6 values (unbalanced-tuple-unpacking)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/codellama-7B-instruct-hf/completion/python-files/Python-41-gen0.py:30:8: W0612: Unused variable 'q' (unused-variable)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/codellama-7B-instruct-hf/completion/python-files/Python-41-gen0.py:35:0: C0116: Missing function or method docstring (missing-function-docstring)
+
+-----------------------------------
+Your code has been rated at 5.71/10
+

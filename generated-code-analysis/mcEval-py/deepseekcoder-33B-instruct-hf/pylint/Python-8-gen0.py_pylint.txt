@@ -1,0 +1,52 @@
+Exception on node <ImportFrom l.1 at 0x7f7dcf01a660> in file '/home/saima/projects/NonFunc-AWQ/mcEval-py/deepseekcoder-33B-instruct-hf/completion/python-files/Python-8-gen0.py'
+Traceback (most recent call last):
+  File "/home/saima/anaconda3/lib/python3.12/site-packages/pylint/checkers/imports.py", line 846, in _get_imported_module
+    return importnode.do_import_module(modname)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/saima/anaconda3/lib/python3.12/site-packages/astroid/nodes/_base_nodes.py", line 146, in do_import_module
+    return mymodule.import_module(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/saima/anaconda3/lib/python3.12/site-packages/astroid/nodes/scoped_nodes/scoped_nodes.py", line 527, in import_module
+    return AstroidManager().ast_from_module_name(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/saima/anaconda3/lib/python3.12/site-packages/astroid/manager.py", line 232, in ast_from_module_name
+    return self.ast_from_file(found_spec.location, modname, fallback=False)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/saima/anaconda3/lib/python3.12/site-packages/astroid/manager.py", line 124, in ast_from_file
+    return AstroidBuilder(self).file_build(filepath, modname)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/saima/anaconda3/lib/python3.12/site-packages/astroid/builder.py", line 144, in file_build
+    module, builder = self._data_build(data, modname, path)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/saima/anaconda3/lib/python3.12/site-packages/astroid/builder.py", line 204, in _data_build
+    module = builder.visit_module(node, modname, node_file, package)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/saima/anaconda3/lib/python3.12/site-packages/astroid/rebuilder.py", line 254, in visit_module
+    [self.visit(child, newnode) for child in node.body],
+     ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/saima/anaconda3/lib/python3.12/site-packages/astroid/rebuilder.py", line 603, in visit
+    visit_method = getattr(self, visit_name)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'TreeRebuilder' object has no attribute 'visit_typealias'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/saima/anaconda3/lib/python3.12/site-packages/pylint/utils/ast_walker.py", line 91, in walk
+    callback(astroid)
+  File "/home/saima/anaconda3/lib/python3.12/site-packages/pylint/checkers/imports.py", line 541, in visit_importfrom
+    imported_module = self._get_imported_module(node, basename)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/saima/anaconda3/lib/python3.12/site-packages/pylint/checkers/imports.py", line 871, in _get_imported_module
+    raise astroid.AstroidError from e
+astroid.exceptions.AstroidError
+************* Module Python-8-gen0
+/home/saima/projects/NonFunc-AWQ/mcEval-py/deepseekcoder-33B-instruct-hf/completion/python-files/Python-8-gen0.py:53:0: C0303: Trailing whitespace (trailing-whitespace)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/deepseekcoder-33B-instruct-hf/completion/python-files/Python-8-gen0.py:63:0: C0304: Final newline missing (missing-final-newline)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/deepseekcoder-33B-instruct-hf/completion/python-files/Python-8-gen0.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/deepseekcoder-33B-instruct-hf/completion/python-files/Python-8-gen0.py:1:0: C0103: Module name "Python-8-gen0" doesn't conform to snake_case naming style (invalid-name)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/deepseekcoder-33B-instruct-hf/completion/python-files/Python-8-gen0.py:1:0: F0002: /home/saima/projects/NonFunc-AWQ/mcEval-py/deepseekcoder-33B-instruct-hf/completion/python-files/Python-8-gen0.py: Fatal error while checking '/home/saima/projects/NonFunc-AWQ/mcEval-py/deepseekcoder-33B-instruct-hf/completion/python-files/Python-8-gen0.py'. Please open an issue in our bug tracker so we address this. There is a pre-filled template that you can use in '/home/saima/.cache/pylint/pylint-crash-2025-03-11-11-27-12.txt'. (astroid-error)
+
+-----------------------------------
+Your code has been rated at 0.00/10
+

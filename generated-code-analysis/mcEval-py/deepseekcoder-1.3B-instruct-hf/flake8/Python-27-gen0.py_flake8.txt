@@ -1,0 +1,12 @@
+/home/saima/projects/NonFunc-AWQ/mcEval-py/deepseekcoder-1.3B-instruct-hf/completion/python-files/Python-27-gen0.py:24:16: F821 undefined name 'TreeNode'
+/home/saima/projects/NonFunc-AWQ/mcEval-py/deepseekcoder-1.3B-instruct-hf/completion/python-files/Python-27-gen0.py:24:35: F821 undefined name 'self'
+/home/saima/projects/NonFunc-AWQ/mcEval-py/deepseekcoder-1.3B-instruct-hf/completion/python-files/Python-27-gen0.py:25:9: F821 undefined name 'self'
+/home/saima/projects/NonFunc-AWQ/mcEval-py/deepseekcoder-1.3B-instruct-hf/completion/python-files/Python-27-gen0.py:30:17: F821 undefined name 'self'
+/home/saima/projects/NonFunc-AWQ/mcEval-py/deepseekcoder-1.3B-instruct-hf/completion/python-files/Python-27-gen0.py:36:5: F821 undefined name 'self'
+/home/saima/projects/NonFunc-AWQ/mcEval-py/deepseekcoder-1.3B-instruct-hf/completion/python-files/Python-27-gen0.py:37:5: F821 undefined name 'self'
+/home/saima/projects/NonFunc-AWQ/mcEval-py/deepseekcoder-1.3B-instruct-hf/completion/python-files/Python-27-gen0.py:39:1: E302 expected 2 blank lines, found 0
+/home/saima/projects/NonFunc-AWQ/mcEval-py/deepseekcoder-1.3B-instruct-hf/completion/python-files/Python-27-gen0.py:45:80: E501 line too long (86 > 79 characters)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/deepseekcoder-1.3B-instruct-hf/completion/python-files/Python-27-gen0.py:52:80: E501 line too long (86 > 79 characters)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/deepseekcoder-1.3B-instruct-hf/completion/python-files/Python-27-gen0.py:59:80: E501 line too long (86 > 79 characters)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/deepseekcoder-1.3B-instruct-hf/completion/python-files/Python-27-gen0.py:62:1: E305 expected 2 blank lines after class or function definition, found 1
+/home/saima/projects/NonFunc-AWQ/mcEval-py/deepseekcoder-1.3B-instruct-hf/completion/python-files/Python-27-gen0.py:62:26: W292 no newline at end of file

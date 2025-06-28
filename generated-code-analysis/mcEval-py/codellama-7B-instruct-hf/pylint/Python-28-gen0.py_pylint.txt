@@ -1,0 +1,17 @@
+************* Module Python-28-gen0
+/home/saima/projects/NonFunc-AWQ/mcEval-py/codellama-7B-instruct-hf/completion/python-files/Python-28-gen0.py:96:0: C0304: Final newline missing (missing-final-newline)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/codellama-7B-instruct-hf/completion/python-files/Python-28-gen0.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/codellama-7B-instruct-hf/completion/python-files/Python-28-gen0.py:1:0: C0103: Module name "Python-28-gen0" doesn't conform to snake_case naming style (invalid-name)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/codellama-7B-instruct-hf/completion/python-files/Python-28-gen0.py:3:26: C0103: Argument name "A" doesn't conform to snake_case naming style (invalid-name)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/codellama-7B-instruct-hf/completion/python-files/Python-28-gen0.py:3:34: C0103: Argument name "B" doesn't conform to snake_case naming style (invalid-name)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/codellama-7B-instruct-hf/completion/python-files/Python-28-gen0.py:71:0: C0116: Missing function or method docstring (missing-function-docstring)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/codellama-7B-instruct-hf/completion/python-files/Python-28-gen0.py:73:4: C0103: Variable name "A1" doesn't conform to snake_case naming style (invalid-name)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/codellama-7B-instruct-hf/completion/python-files/Python-28-gen0.py:74:4: C0103: Variable name "B1" doesn't conform to snake_case naming style (invalid-name)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/codellama-7B-instruct-hf/completion/python-files/Python-28-gen0.py:80:4: C0103: Variable name "A2" doesn't conform to snake_case naming style (invalid-name)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/codellama-7B-instruct-hf/completion/python-files/Python-28-gen0.py:81:4: C0103: Variable name "B2" doesn't conform to snake_case naming style (invalid-name)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/codellama-7B-instruct-hf/completion/python-files/Python-28-gen0.py:87:4: C0103: Variable name "A3" doesn't conform to snake_case naming style (invalid-name)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/codellama-7B-instruct-hf/completion/python-files/Python-28-gen0.py:88:4: C0103: Variable name "B3" doesn't conform to snake_case naming style (invalid-name)
+
+-----------------------------------
+Your code has been rated at 6.84/10
+

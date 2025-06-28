@@ -1,0 +1,22 @@
+************* Module Python-32-gen0
+/home/saima/projects/NonFunc-AWQ/mcEval-py/deepseekcoder-1.3B-instruct-awq/completion/python-files/Python-32-gen0.py:3:0: C0301: Line too long (112/100) (line-too-long)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/deepseekcoder-1.3B-instruct-awq/completion/python-files/Python-32-gen0.py:5:0: C0301: Line too long (108/100) (line-too-long)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/deepseekcoder-1.3B-instruct-awq/completion/python-files/Python-32-gen0.py:6:0: C0301: Line too long (106/100) (line-too-long)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/deepseekcoder-1.3B-instruct-awq/completion/python-files/Python-32-gen0.py:12:0: C0301: Line too long (104/100) (line-too-long)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/deepseekcoder-1.3B-instruct-awq/completion/python-files/Python-32-gen0.py:19:0: C0301: Line too long (151/100) (line-too-long)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/deepseekcoder-1.3B-instruct-awq/completion/python-files/Python-32-gen0.py:36:0: C0301: Line too long (102/100) (line-too-long)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/deepseekcoder-1.3B-instruct-awq/completion/python-files/Python-32-gen0.py:46:0: C0301: Line too long (122/100) (line-too-long)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/deepseekcoder-1.3B-instruct-awq/completion/python-files/Python-32-gen0.py:56:0: C0301: Line too long (122/100) (line-too-long)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/deepseekcoder-1.3B-instruct-awq/completion/python-files/Python-32-gen0.py:66:0: C0301: Line too long (122/100) (line-too-long)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/deepseekcoder-1.3B-instruct-awq/completion/python-files/Python-32-gen0.py:71:0: C0304: Final newline missing (missing-final-newline)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/deepseekcoder-1.3B-instruct-awq/completion/python-files/Python-32-gen0.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/deepseekcoder-1.3B-instruct-awq/completion/python-files/Python-32-gen0.py:1:0: C0103: Module name "Python-32-gen0" doesn't conform to snake_case naming style (invalid-name)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/deepseekcoder-1.3B-instruct-awq/completion/python-files/Python-32-gen0.py:1:69: W0613: Unused argument 'days_of_week' (unused-argument)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/deepseekcoder-1.3B-instruct-awq/completion/python-files/Python-32-gen0.py:34:0: C0116: Missing function or method docstring (missing-function-docstring)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/deepseekcoder-1.3B-instruct-awq/completion/python-files/Python-32-gen0.py:46:11: C0121: Comparison 'check_scenario(scenario_test1, liar_count_test1, statements_test1, days_of_week) == False' should be 'check_scenario(scenario_test1, liar_count_test1, statements_test1, days_of_week) is False' if checking for the singleton value False, or 'not check_scenario(scenario_test1, liar_count_test1, statements_test1, days_of_week)' if testing for falsiness (singleton-comparison)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/deepseekcoder-1.3B-instruct-awq/completion/python-files/Python-32-gen0.py:56:11: C0121: Comparison 'check_scenario(scenario_test2, liar_count_test2, statements_test2, days_of_week) == False' should be 'check_scenario(scenario_test2, liar_count_test2, statements_test2, days_of_week) is False' if checking for the singleton value False, or 'not check_scenario(scenario_test2, liar_count_test2, statements_test2, days_of_week)' if testing for falsiness (singleton-comparison)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/deepseekcoder-1.3B-instruct-awq/completion/python-files/Python-32-gen0.py:66:11: C0121: Comparison 'check_scenario(scenario_test3, liar_count_test3, statements_test3, days_of_week) == False' should be 'check_scenario(scenario_test3, liar_count_test3, statements_test3, days_of_week) is False' if checking for the singleton value False, or 'not check_scenario(scenario_test3, liar_count_test3, statements_test3, days_of_week)' if testing for falsiness (singleton-comparison)
+
+------------------------------------------------------------------
+Your code has been rated at 2.92/10 (previous run: 4.69/10, -1.77)
+

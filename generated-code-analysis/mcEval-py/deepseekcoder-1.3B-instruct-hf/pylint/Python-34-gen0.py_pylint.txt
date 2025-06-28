@@ -1,0 +1,16 @@
+************* Module Python-34-gen0
+/home/saima/projects/NonFunc-AWQ/mcEval-py/deepseekcoder-1.3B-instruct-hf/completion/python-files/Python-34-gen0.py:5:0: C0301: Line too long (117/100) (line-too-long)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/deepseekcoder-1.3B-instruct-hf/completion/python-files/Python-34-gen0.py:6:0: C0301: Line too long (127/100) (line-too-long)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/deepseekcoder-1.3B-instruct-hf/completion/python-files/Python-34-gen0.py:7:0: C0301: Line too long (125/100) (line-too-long)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/deepseekcoder-1.3B-instruct-hf/completion/python-files/Python-34-gen0.py:40:0: C0301: Line too long (127/100) (line-too-long)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/deepseekcoder-1.3B-instruct-hf/completion/python-files/Python-34-gen0.py:45:0: C0301: Line too long (127/100) (line-too-long)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/deepseekcoder-1.3B-instruct-hf/completion/python-files/Python-34-gen0.py:50:0: C0301: Line too long (127/100) (line-too-long)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/deepseekcoder-1.3B-instruct-hf/completion/python-files/Python-34-gen0.py:55:0: C0304: Final newline missing (missing-final-newline)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/deepseekcoder-1.3B-instruct-hf/completion/python-files/Python-34-gen0.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/deepseekcoder-1.3B-instruct-hf/completion/python-files/Python-34-gen0.py:1:0: C0103: Module name "Python-34-gen0" doesn't conform to snake_case naming style (invalid-name)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/deepseekcoder-1.3B-instruct-hf/completion/python-files/Python-34-gen0.py:25:7: R1714: Consider merging these comparisons with 'in' by using 'n in (0, 1)'. Use a set instead if elements are hashable. (consider-using-in)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/deepseekcoder-1.3B-instruct-hf/completion/python-files/Python-34-gen0.py:36:0: C0116: Missing function or method docstring (missing-function-docstring)
+
+------------------------------------------------------------------
+Your code has been rated at 4.76/10 (previous run: 3.89/10, +0.87)
+

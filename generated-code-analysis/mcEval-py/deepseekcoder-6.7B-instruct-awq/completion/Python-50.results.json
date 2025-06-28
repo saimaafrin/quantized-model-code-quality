@@ -1,0 +1,25 @@
+{
+  "name": "Python-50",
+  "language": "py",
+  "temperature": 0.8,
+  "top_p": 0.95,
+  "max_tokens": 1024,
+  "prompt": "def total_smoked_cigarettes(n, k):\n    \"\"\"\n    Calculates the total number of cigarettes Peter can smoke.\n    Peter starts with n cigarettes and can exchange k butts for one new cigarette.\n    The function takes two arguments, n and k, where n is the initial number of cigarettes,\n    and k is the number of cigarette butts needed to exchange for one new cigarette.\n    The function returns the total number of cigarettes Peter can smoke.\n    Example:\n    >>> total_smoked_cigarettes(4, 3)\n        5\n    >>> total_smoked_cigarettes(10, 3)\n        14\n    \"\"\"",
+  "tests": "assert total_smoked_cigarettes(4, 3) == 5\nassert total_smoked_cigarettes(10, 3) == 14\nassert total_smoked_cigarettes(1, 2) == 1  # Peter cannot exchange butts as he starts with less than k\nassert total_smoked_cigarettes(20, 4) == 26\nassert total_smoked_cigarettes(0, 5) == 0  # Peter starts with no cigarettes",
+  "stop_tokens": [
+    "\ndef",
+    "\n#",
+    "\nif",
+    "\nclass"
+  ],
+  "results": [
+    {
+      "program": "def total_smoked_cigarettes(n, k):\n    \"\"\"\n    Calculates the total number of cigarettes Peter can smoke.\n    Peter starts with n cigarettes and can exchange k butts for one new cigarette.\n    The function takes two arguments, n and k, where n is the initial number of cigarettes,\n    and k is the number of cigarette butts needed to exchange for one new cigarette.\n    The function returns the total number of cigarettes Peter can smoke.\n    Example:\n    >>> total_smoked_cigarettes(4, 3)\n        5\n    >>> total_smoked_cigarettes(10, 3)\n        14\n    \"\"\"\n    # Initial number of cigarettes\n    total_cigarettes = n\n    # Number of butts needed for the first cigarette\n    butts_needed = k\n\n    while True:\n        # Number of cigarettes gotten by exchanging butts\n        new_cigarettes = butts_needed\n        # Add the new cigarettes to the total\n        total_cigarettes += new_cigarettes\n        # The new butts needed to get a new cigarette is the number of new cigarettes gotten plus the remaining butts needed for the first cigarette\n        butts_needed = new_cigarettes + butts_needed - k\n        # If no more cigarettes can be gotten, break the loop\n        if new_cigarettes < k:\n            break\n\n    return total_cigarettes\nassert total_smoked_cigarettes(4, 3) == 5\nassert total_smoked_cigarettes(10, 3) == 14\nassert total_smoked_cigarettes(1, 2) == 1  # Peter cannot exchange butts as he starts with less than k\nassert total_smoked_cigarettes(20, 4) == 26\nassert total_smoked_cigarettes(0, 5) == 0  # Peter starts with no cigarettes",
+      "timestamp": 1741625932,
+      "stdout": "",
+      "stderr": "",
+      "exit_code": -1,
+      "status": "Timeout"
+    }
+  ]
+}

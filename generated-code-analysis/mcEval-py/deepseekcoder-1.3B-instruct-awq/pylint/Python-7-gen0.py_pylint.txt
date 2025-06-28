@@ -1,0 +1,17 @@
+************* Module Python-7-gen0
+/home/saima/projects/NonFunc-AWQ/mcEval-py/deepseekcoder-1.3B-instruct-awq/completion/python-files/Python-7-gen0.py:24:0: C0301: Line too long (129/100) (line-too-long)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/deepseekcoder-1.3B-instruct-awq/completion/python-files/Python-7-gen0.py:41:0: C0301: Line too long (104/100) (line-too-long)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/deepseekcoder-1.3B-instruct-awq/completion/python-files/Python-7-gen0.py:53:0: C0304: Final newline missing (missing-final-newline)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/deepseekcoder-1.3B-instruct-awq/completion/python-files/Python-7-gen0.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/deepseekcoder-1.3B-instruct-awq/completion/python-files/Python-7-gen0.py:1:0: C0103: Module name "Python-7-gen0" doesn't conform to snake_case naming style (invalid-name)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/deepseekcoder-1.3B-instruct-awq/completion/python-files/Python-7-gen0.py:1:24: C0103: Argument name "n" doesn't conform to snake_case naming style (invalid-name)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/deepseekcoder-1.3B-instruct-awq/completion/python-files/Python-7-gen0.py:24:41: E0602: Undefined variable 'carpe' (undefined-variable)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/deepseekcoder-1.3B-instruct-awq/completion/python-files/Python-7-gen0.py:24:55: E0602: Undefined variable 'carpts' (undefined-variable)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/deepseekcoder-1.3B-instruct-awq/completion/python-files/Python-7-gen0.py:24:72: E0602: Undefined variable 'carpts' (undefined-variable)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/deepseekcoder-1.3B-instruct-awq/completion/python-files/Python-7-gen0.py:24:100: E0602: Undefined variable 'carpts' (undefined-variable)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/deepseekcoder-1.3B-instruct-awq/completion/python-files/Python-7-gen0.py:24:115: E0602: Undefined variable 'carpts' (undefined-variable)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/deepseekcoder-1.3B-instruct-awq/completion/python-files/Python-7-gen0.py:27:0: C0116: Missing function or method docstring (missing-function-docstring)
+
+------------------------------------------------------------------
+Your code has been rated at 0.00/10 (previous run: 6.00/10, -6.00)
+

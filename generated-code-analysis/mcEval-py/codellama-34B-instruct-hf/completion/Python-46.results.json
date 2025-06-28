@@ -1,0 +1,25 @@
+{
+  "name": "Python-46",
+  "language": "py",
+  "temperature": 0.8,
+  "top_p": 0.95,
+  "max_tokens": 1024,
+  "prompt": "def minimum_students_to_leave(heights):\n    \"\"\"\n    Calculate the minimum number of students that need to leave to form a choir formation.\n    A choir formation is defined such that for some position 'i', the heights of students\n    increase from the start to 'i' and decrease from 'i' to the end of the formation.\n\n    Args:\n    heights (List[int]): A list of student heights.\n\n    Returns:\n    int: The minimum number of students that need to leave.\n    \"\"\"",
+  "tests": "def test_minimum_students_to_leave():\n    # Test case 1: Provided example\n    assert minimum_students_to_leave([186, 186, 150, 200, 160, 130, 197, 220]) == 4, \"Test case 1 failed\"\n\n    # Test case 2: All students have the same height\n    assert minimum_students_to_leave([150, 150, 150, 150, 150]) == 4, \"Test case 2 failed\"\n\n    # Test case 3: Students are already in a choir formation\n    assert minimum_students_to_leave([130, 150, 170, 190, 170, 150, 130]) == 0, \"Test case 3 failed\"\n\n    # Test case 4: Students are in strictly increasing order\n    assert minimum_students_to_leave([130, 135, 140, 145, 150, 155]) == 0, \"Test case 4 failed\"\n\n    # Test case 5: Students are in strictly decreasing order\n    assert minimum_students_to_leave([155, 150, 145, 140, 135, 130]) == 0, \"Test case 5 failed\"\n\n    # Test case 6: Optimal choir formation is not including the first or last student\n    assert minimum_students_to_leave([200, 180, 190, 170, 210, 160, 220]) == 3, \"Test case 6 failed\"\n\n    print(\"All test cases passed!\")\n\n# Run the test function\ntest_minimum_students_to_leave()",
+  "stop_tokens": [
+    "\ndef",
+    "\n#",
+    "\nif",
+    "\nclass"
+  ],
+  "results": [
+    {
+      "program": "def minimum_students_to_leave(heights):\n    \"\"\"\n    Calculate the minimum number of students that need to leave to form a choir formation.\n    A choir formation is defined such that for some position 'i', the heights of students\n    increase from the start to 'i' and decrease from 'i' to the end of the formation.\n\n    Args:\n    heights (List[int]): A list of student heights.\n\n    Returns:\n    int: The minimum number of students that need to leave.\n    \"\"\"\n\n    # The maximum number of students that can leave and still have a valid choir\n    # formation is equal to the number of students in the list divided by 2.\n    max_students_to_leave = len(heights) // 2\n\n    # The minimum number of students that can leave is 0.\n    min_students_to_leave = 0\n\n    # Loop through the possible number of students to leave and check if a valid\n    # choir formation exists. If it does, update the minimum number of students\n    # to leave and the maximum number of students to leave.\n    for students_to_leave in range(max_students_to_leave, min_students_to_leave - 1, -1):\n        # If a valid choir formation exists, update the minimum number of students\n        # to leave and the maximum number of students to leave.\n        if choir_formation_exists(heights, students_to_leave):\n            min_students_to_leave = students_to_leave\n            break\n\n    return min_students_to_leave\ndef test_minimum_students_to_leave():\n    # Test case 1: Provided example\n    assert minimum_students_to_leave([186, 186, 150, 200, 160, 130, 197, 220]) == 4, \"Test case 1 failed\"\n\n    # Test case 2: All students have the same height\n    assert minimum_students_to_leave([150, 150, 150, 150, 150]) == 4, \"Test case 2 failed\"\n\n    # Test case 3: Students are already in a choir formation\n    assert minimum_students_to_leave([130, 150, 170, 190, 170, 150, 130]) == 0, \"Test case 3 failed\"\n\n    # Test case 4: Students are in strictly increasing order\n    assert minimum_students_to_leave([130, 135, 140, 145, 150, 155]) == 0, \"Test case 4 failed\"\n\n    # Test case 5: Students are in strictly decreasing order\n    assert minimum_students_to_leave([155, 150, 145, 140, 135, 130]) == 0, \"Test case 5 failed\"\n\n    # Test case 6: Optimal choir formation is not including the first or last student\n    assert minimum_students_to_leave([200, 180, 190, 170, 210, 160, 220]) == 3, \"Test case 6 failed\"\n\n    print(\"All test cases passed!\")\n\n# Run the test function\ntest_minimum_students_to_leave()",
+      "timestamp": 1741533967,
+      "stdout": "",
+      "stderr": "Traceback (most recent call last):\n  File \"/tmp/tmpufz1sgvv.py\", line 54, in <module>\n    test_minimum_students_to_leave()\n  File \"/tmp/tmpufz1sgvv.py\", line 34, in test_minimum_students_to_leave\n    assert minimum_students_to_leave([186, 186, 150, 200, 160, 130, 197, 220]) == 4, \"Test case 1 failed\"\n  File \"/tmp/tmpufz1sgvv.py\", line 27, in minimum_students_to_leave\n    if choir_formation_exists(heights, students_to_leave):\nNameError: name 'choir_formation_exists' is not defined\n",
+      "exit_code": 1,
+      "status": "Exception"
+    }
+  ]
+}

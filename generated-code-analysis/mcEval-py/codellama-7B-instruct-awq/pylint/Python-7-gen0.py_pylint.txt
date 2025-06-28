@@ -1,0 +1,14 @@
+************* Module Python-7-gen0
+/home/saima/projects/NonFunc-AWQ/mcEval-py/codellama-7B-instruct-awq/completion/python-files/Python-7-gen0.py:46:0: C0301: Line too long (104/100) (line-too-long)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/codellama-7B-instruct-awq/completion/python-files/Python-7-gen0.py:58:0: C0304: Final newline missing (missing-final-newline)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/codellama-7B-instruct-awq/completion/python-files/Python-7-gen0.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/codellama-7B-instruct-awq/completion/python-files/Python-7-gen0.py:1:0: C0103: Module name "Python-7-gen0" doesn't conform to snake_case naming style (invalid-name)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/codellama-7B-instruct-awq/completion/python-files/Python-7-gen0.py:1:24: C0103: Argument name "n" doesn't conform to snake_case naming style (invalid-name)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/codellama-7B-instruct-awq/completion/python-files/Python-7-gen0.py:26:8: C0103: Variable name "a" doesn't conform to snake_case naming style (invalid-name)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/codellama-7B-instruct-awq/completion/python-files/Python-7-gen0.py:26:11: C0103: Variable name "b" doesn't conform to snake_case naming style (invalid-name)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/codellama-7B-instruct-awq/completion/python-files/Python-7-gen0.py:26:14: C0103: Variable name "g" doesn't conform to snake_case naming style (invalid-name)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/codellama-7B-instruct-awq/completion/python-files/Python-7-gen0.py:32:0: C0116: Missing function or method docstring (missing-function-docstring)
+
+------------------------------------------------------------------
+Your code has been rated at 5.26/10 (previous run: 3.53/10, +1.73)
+

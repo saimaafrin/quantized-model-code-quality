@@ -1,0 +1,2 @@
+************* Module Python-15-gen0
+/home/saima/projects/NonFunc-AWQ/mcEval-py/deepseekcoder-1.3B-instruct-awq/completion/python-files/Python-15-gen0.py:46:42: E0001: Parsing failed: 'expected ':' (<unknown>, line 46)' (syntax-error)

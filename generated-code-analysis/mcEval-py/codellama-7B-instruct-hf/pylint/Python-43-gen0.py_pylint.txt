@@ -1,0 +1,25 @@
+************* Module Python-43-gen0
+/home/saima/projects/NonFunc-AWQ/mcEval-py/codellama-7B-instruct-hf/completion/python-files/Python-43-gen0.py:15:0: C0301: Line too long (101/100) (line-too-long)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/codellama-7B-instruct-hf/completion/python-files/Python-43-gen0.py:42:0: C0301: Line too long (112/100) (line-too-long)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/codellama-7B-instruct-hf/completion/python-files/Python-43-gen0.py:44:0: C0303: Trailing whitespace (trailing-whitespace)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/codellama-7B-instruct-hf/completion/python-files/Python-43-gen0.py:47:0: C0301: Line too long (114/100) (line-too-long)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/codellama-7B-instruct-hf/completion/python-files/Python-43-gen0.py:49:0: C0303: Trailing whitespace (trailing-whitespace)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/codellama-7B-instruct-hf/completion/python-files/Python-43-gen0.py:52:0: C0301: Line too long (112/100) (line-too-long)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/codellama-7B-instruct-hf/completion/python-files/Python-43-gen0.py:57:0: C0301: Line too long (114/100) (line-too-long)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/codellama-7B-instruct-hf/completion/python-files/Python-43-gen0.py:59:0: C0303: Trailing whitespace (trailing-whitespace)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/codellama-7B-instruct-hf/completion/python-files/Python-43-gen0.py:62:0: C0301: Line too long (109/100) (line-too-long)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/codellama-7B-instruct-hf/completion/python-files/Python-43-gen0.py:64:0: C0303: Trailing whitespace (trailing-whitespace)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/codellama-7B-instruct-hf/completion/python-files/Python-43-gen0.py:68:0: C0304: Final newline missing (missing-final-newline)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/codellama-7B-instruct-hf/completion/python-files/Python-43-gen0.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/codellama-7B-instruct-hf/completion/python-files/Python-43-gen0.py:1:0: C0103: Module name "Python-43-gen0" doesn't conform to snake_case naming style (invalid-name)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/codellama-7B-instruct-hf/completion/python-files/Python-43-gen0.py:39:0: C0116: Missing function or method docstring (missing-function-docstring)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/codellama-7B-instruct-hf/completion/python-files/Python-43-gen0.py:42:11: C0121: Comparison 'next_permutation(perm1) == True' should be 'next_permutation(perm1) is True' if checking for the singleton value True, or 'next_permutation(perm1)' if testing for truthiness (singleton-comparison)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/codellama-7B-instruct-hf/completion/python-files/Python-43-gen0.py:47:11: C0121: Comparison 'next_permutation(perm2) == False' should be 'next_permutation(perm2) is False' if checking for the singleton value False, or 'not next_permutation(perm2)' if testing for falsiness (singleton-comparison)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/codellama-7B-instruct-hf/completion/python-files/Python-43-gen0.py:52:11: C0121: Comparison 'next_permutation(perm3) == True' should be 'next_permutation(perm3) is True' if checking for the singleton value True, or 'next_permutation(perm3)' if testing for truthiness (singleton-comparison)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/codellama-7B-instruct-hf/completion/python-files/Python-43-gen0.py:57:11: C0121: Comparison 'next_permutation(perm4) == False' should be 'next_permutation(perm4) is False' if checking for the singleton value False, or 'not next_permutation(perm4)' if testing for falsiness (singleton-comparison)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/codellama-7B-instruct-hf/completion/python-files/Python-43-gen0.py:62:11: C0121: Comparison 'next_permutation(perm5) == False' should be 'next_permutation(perm5) is False' if checking for the singleton value False, or 'not next_permutation(perm5)' if testing for falsiness (singleton-comparison)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/codellama-7B-instruct-hf/completion/python-files/Python-43-gen0.py:1:0: W0611: Unused permutations imported from itertools (unused-import)
+
+-----------------------------------
+Your code has been rated at 3.55/10
+

@@ -1,0 +1,23 @@
+************* Module Python-28-gen0
+/home/saima/projects/NonFunc-AWQ/mcEval-py/codellama-13B-instruct-hf/completion/python-files/Python-28-gen0.py:103:0: C0304: Final newline missing (missing-final-newline)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/codellama-13B-instruct-hf/completion/python-files/Python-28-gen0.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/codellama-13B-instruct-hf/completion/python-files/Python-28-gen0.py:1:0: C0103: Module name "Python-28-gen0" doesn't conform to snake_case naming style (invalid-name)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/codellama-13B-instruct-hf/completion/python-files/Python-28-gen0.py:3:26: C0103: Argument name "A" doesn't conform to snake_case naming style (invalid-name)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/codellama-13B-instruct-hf/completion/python-files/Python-28-gen0.py:3:34: C0103: Argument name "B" doesn't conform to snake_case naming style (invalid-name)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/codellama-13B-instruct-hf/completion/python-files/Python-28-gen0.py:32:4: C0103: Variable name "G" doesn't conform to snake_case naming style (invalid-name)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/codellama-13B-instruct-hf/completion/python-files/Python-28-gen0.py:37:4: C0103: Variable name "Q" doesn't conform to snake_case naming style (invalid-name)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/codellama-13B-instruct-hf/completion/python-files/Python-28-gen0.py:40:4: C0103: Variable name "V" doesn't conform to snake_case naming style (invalid-name)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/codellama-13B-instruct-hf/completion/python-files/Python-28-gen0.py:43:4: C0103: Variable name "MAX_STEPS" doesn't conform to snake_case naming style (invalid-name)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/codellama-13B-instruct-hf/completion/python-files/Python-28-gen0.py:3:0: R1710: Either all return statements in a function should return an expression, or none of them should. (inconsistent-return-statements)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/codellama-13B-instruct-hf/completion/python-files/Python-28-gen0.py:3:26: W0613: Unused argument 'A' (unused-argument)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/codellama-13B-instruct-hf/completion/python-files/Python-28-gen0.py:78:0: C0116: Missing function or method docstring (missing-function-docstring)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/codellama-13B-instruct-hf/completion/python-files/Python-28-gen0.py:80:4: C0103: Variable name "A1" doesn't conform to snake_case naming style (invalid-name)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/codellama-13B-instruct-hf/completion/python-files/Python-28-gen0.py:81:4: C0103: Variable name "B1" doesn't conform to snake_case naming style (invalid-name)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/codellama-13B-instruct-hf/completion/python-files/Python-28-gen0.py:87:4: C0103: Variable name "A2" doesn't conform to snake_case naming style (invalid-name)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/codellama-13B-instruct-hf/completion/python-files/Python-28-gen0.py:88:4: C0103: Variable name "B2" doesn't conform to snake_case naming style (invalid-name)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/codellama-13B-instruct-hf/completion/python-files/Python-28-gen0.py:94:4: C0103: Variable name "A3" doesn't conform to snake_case naming style (invalid-name)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/codellama-13B-instruct-hf/completion/python-files/Python-28-gen0.py:95:4: C0103: Variable name "B3" doesn't conform to snake_case naming style (invalid-name)
+
+------------------------------------------------------------------
+Your code has been rated at 5.26/10 (previous run: 6.84/10, -1.58)
+

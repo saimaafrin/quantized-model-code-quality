@@ -1,0 +1,10 @@
+************* Module Python-50-gen0
+/home/saima/projects/NonFunc-AWQ/mcEval-py/deepseekcoder-33B-instruct-hf/completion/python-files/Python-50-gen0.py:22:0: C0301: Line too long (102/100) (line-too-long)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/deepseekcoder-33B-instruct-hf/completion/python-files/Python-50-gen0.py:24:0: C0304: Final newline missing (missing-final-newline)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/deepseekcoder-33B-instruct-hf/completion/python-files/Python-50-gen0.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/deepseekcoder-33B-instruct-hf/completion/python-files/Python-50-gen0.py:1:0: C0103: Module name "Python-50-gen0" doesn't conform to snake_case naming style (invalid-name)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/deepseekcoder-33B-instruct-hf/completion/python-files/Python-50-gen0.py:1:28: C0103: Argument name "n" doesn't conform to snake_case naming style (invalid-name)
+
+-----------------------------------
+Your code has been rated at 5.83/10
+

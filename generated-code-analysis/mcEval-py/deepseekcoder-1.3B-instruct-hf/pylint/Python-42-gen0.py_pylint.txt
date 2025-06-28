@@ -1,0 +1,16 @@
+************* Module Python-42-gen0
+/home/saima/projects/NonFunc-AWQ/mcEval-py/deepseekcoder-1.3B-instruct-hf/completion/python-files/Python-42-gen0.py:26:0: C0303: Trailing whitespace (trailing-whitespace)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/deepseekcoder-1.3B-instruct-hf/completion/python-files/Python-42-gen0.py:29:0: C0303: Trailing whitespace (trailing-whitespace)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/deepseekcoder-1.3B-instruct-hf/completion/python-files/Python-42-gen0.py:33:85: C0303: Trailing whitespace (trailing-whitespace)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/deepseekcoder-1.3B-instruct-hf/completion/python-files/Python-42-gen0.py:79:0: C0304: Final newline missing (missing-final-newline)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/deepseekcoder-1.3B-instruct-hf/completion/python-files/Python-42-gen0.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/deepseekcoder-1.3B-instruct-hf/completion/python-files/Python-42-gen0.py:1:0: C0103: Module name "Python-42-gen0" doesn't conform to snake_case naming style (invalid-name)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/deepseekcoder-1.3B-instruct-hf/completion/python-files/Python-42-gen0.py:28:18: R1728: Consider using a generator instead 'sum(sum(x) for x in schedule)' (consider-using-generator)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/deepseekcoder-1.3B-instruct-hf/completion/python-files/Python-42-gen0.py:31:22: R1728: Consider using a generator instead 'max(sum(x) for x in schedule)' (consider-using-generator)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/deepseekcoder-1.3B-instruct-hf/completion/python-files/Python-42-gen0.py:32:4: R1705: Unnecessary "else" after "return", remove the "else" and de-indent the code inside it (no-else-return)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/deepseekcoder-1.3B-instruct-hf/completion/python-files/Python-42-gen0.py:28:4: W0612: Unused variable 'total_hours' (unused-variable)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/deepseekcoder-1.3B-instruct-hf/completion/python-files/Python-42-gen0.py:39:0: C0116: Missing function or method docstring (missing-function-docstring)
+
+------------------------------------------------------------------
+Your code has been rated at 2.67/10 (previous run: 4.71/10, -2.04)
+

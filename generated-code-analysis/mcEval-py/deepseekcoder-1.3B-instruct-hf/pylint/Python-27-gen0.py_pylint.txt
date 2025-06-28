@@ -1,0 +1,15 @@
+************* Module Python-27-gen0
+/home/saima/projects/NonFunc-AWQ/mcEval-py/deepseekcoder-1.3B-instruct-hf/completion/python-files/Python-27-gen0.py:62:0: C0304: Final newline missing (missing-final-newline)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/deepseekcoder-1.3B-instruct-hf/completion/python-files/Python-27-gen0.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/deepseekcoder-1.3B-instruct-hf/completion/python-files/Python-27-gen0.py:1:0: C0103: Module name "Python-27-gen0" doesn't conform to snake_case naming style (invalid-name)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/deepseekcoder-1.3B-instruct-hf/completion/python-files/Python-27-gen0.py:24:15: E0602: Undefined variable 'TreeNode' (undefined-variable)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/deepseekcoder-1.3B-instruct-hf/completion/python-files/Python-27-gen0.py:24:34: E0602: Undefined variable 'self' (undefined-variable)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/deepseekcoder-1.3B-instruct-hf/completion/python-files/Python-27-gen0.py:25:8: E0602: Undefined variable 'self' (undefined-variable)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/deepseekcoder-1.3B-instruct-hf/completion/python-files/Python-27-gen0.py:30:16: E0602: Undefined variable 'self' (undefined-variable)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/deepseekcoder-1.3B-instruct-hf/completion/python-files/Python-27-gen0.py:36:4: E0602: Undefined variable 'self' (undefined-variable)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/deepseekcoder-1.3B-instruct-hf/completion/python-files/Python-27-gen0.py:37:4: E0602: Undefined variable 'self' (undefined-variable)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/deepseekcoder-1.3B-instruct-hf/completion/python-files/Python-27-gen0.py:39:0: C0116: Missing function or method docstring (missing-function-docstring)
+
+------------------------------------------------------------------
+Your code has been rated at 0.00/10 (previous run: 7.74/10, -7.74)
+
