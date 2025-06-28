@@ -1,0 +1,4 @@
+/home/saima/projects/NonFunc-AWQ/multipLE-java/codellama-13B-instruct-awq/completion/taskid-128_prod_signs-gen0.java:20:	LooseCoupling:	Avoid using implementation types like 'ArrayList'; use the interface instead
+/home/saima/projects/NonFunc-AWQ/multipLE-java/codellama-13B-instruct-awq/completion/taskid-128_prod_signs-gen0.java:23:	OneDeclarationPerLine:	Use one line for each declaration, it enhances code readability.
+/home/saima/projects/NonFunc-AWQ/multipLE-java/codellama-13B-instruct-awq/completion/taskid-128_prod_signs-gen0.java:23:	UnusedLocalVariable:	Avoid unused local variables such as 'pos'.
+/home/saima/projects/NonFunc-AWQ/multipLE-java/codellama-13B-instruct-awq/completion/taskid-128_prod_signs-gen0.java:23:	UnusedLocalVariable:	Avoid unused local variables such as 'zero'.

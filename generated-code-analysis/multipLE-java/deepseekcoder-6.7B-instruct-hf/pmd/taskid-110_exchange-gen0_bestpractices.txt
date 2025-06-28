@@ -1,0 +1,9 @@
+/home/saima/projects/NonFunc-AWQ/multipLE-java/deepseekcoder-6.7B-instruct-hf/completion/taskid-110_exchange-gen0.java:22:	LooseCoupling:	Avoid using implementation types like 'ArrayList'; use the interface instead
+/home/saima/projects/NonFunc-AWQ/multipLE-java/deepseekcoder-6.7B-instruct-hf/completion/taskid-110_exchange-gen0.java:22:	LooseCoupling:	Avoid using implementation types like 'ArrayList'; use the interface instead
+/home/saima/projects/NonFunc-AWQ/multipLE-java/deepseekcoder-6.7B-instruct-hf/completion/taskid-110_exchange-gen0.java:29:	LiteralsFirstInComparisons:	Position literals first in String comparisons
+/home/saima/projects/NonFunc-AWQ/multipLE-java/deepseekcoder-6.7B-instruct-hf/completion/taskid-110_exchange-gen0.java:30:	LiteralsFirstInComparisons:	Position literals first in String comparisons
+/home/saima/projects/NonFunc-AWQ/multipLE-java/deepseekcoder-6.7B-instruct-hf/completion/taskid-110_exchange-gen0.java:31:	LiteralsFirstInComparisons:	Position literals first in String comparisons
+/home/saima/projects/NonFunc-AWQ/multipLE-java/deepseekcoder-6.7B-instruct-hf/completion/taskid-110_exchange-gen0.java:32:	LiteralsFirstInComparisons:	Position literals first in String comparisons
+/home/saima/projects/NonFunc-AWQ/multipLE-java/deepseekcoder-6.7B-instruct-hf/completion/taskid-110_exchange-gen0.java:33:	LiteralsFirstInComparisons:	Position literals first in String comparisons
+/home/saima/projects/NonFunc-AWQ/multipLE-java/deepseekcoder-6.7B-instruct-hf/completion/taskid-110_exchange-gen0.java:34:	LiteralsFirstInComparisons:	Position literals first in String comparisons
+/home/saima/projects/NonFunc-AWQ/multipLE-java/deepseekcoder-6.7B-instruct-hf/completion/taskid-110_exchange-gen0.java:35:	LiteralsFirstInComparisons:	Position literals first in String comparisons

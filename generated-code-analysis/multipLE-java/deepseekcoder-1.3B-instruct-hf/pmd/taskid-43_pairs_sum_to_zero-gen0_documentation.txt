@@ -1,0 +1,7 @@
+/home/saima/projects/NonFunc-AWQ/multipLE-java/deepseekcoder-1.3B-instruct-hf/completion/taskid-43_pairs_sum_to_zero-gen0.java:8:	CommentRequired:	Class comments are required
+/home/saima/projects/NonFunc-AWQ/multipLE-java/deepseekcoder-1.3B-instruct-hf/completion/taskid-43_pairs_sum_to_zero-gen0.java:12:	CommentSize:	Comment is too large: Line too long
+/home/saima/projects/NonFunc-AWQ/multipLE-java/deepseekcoder-1.3B-instruct-hf/completion/taskid-43_pairs_sum_to_zero-gen0.java:14:	CommentSize:	Comment is too large: Line too long
+/home/saima/projects/NonFunc-AWQ/multipLE-java/deepseekcoder-1.3B-instruct-hf/completion/taskid-43_pairs_sum_to_zero-gen0.java:16:	CommentSize:	Comment is too large: Line too long
+/home/saima/projects/NonFunc-AWQ/multipLE-java/deepseekcoder-1.3B-instruct-hf/completion/taskid-43_pairs_sum_to_zero-gen0.java:18:	CommentSize:	Comment is too large: Line too long
+/home/saima/projects/NonFunc-AWQ/multipLE-java/deepseekcoder-1.3B-instruct-hf/completion/taskid-43_pairs_sum_to_zero-gen0.java:22:	CommentRequired:	Public method and constructor comments are required
+/home/saima/projects/NonFunc-AWQ/multipLE-java/deepseekcoder-1.3B-instruct-hf/completion/taskid-43_pairs_sum_to_zero-gen0.java:33:	CommentRequired:	Public method and constructor comments are required

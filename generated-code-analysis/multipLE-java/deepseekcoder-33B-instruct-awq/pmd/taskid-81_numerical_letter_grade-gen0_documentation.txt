@@ -1,0 +1,7 @@
+/home/saima/projects/NonFunc-AWQ/multipLE-java/deepseekcoder-33B-instruct-awq/completion/taskid-81_numerical_letter_grade-gen0.java:8:	CommentRequired:	Class comments are required
+/home/saima/projects/NonFunc-AWQ/multipLE-java/deepseekcoder-33B-instruct-awq/completion/taskid-81_numerical_letter_grade-gen0.java:12:	CommentSize:	Comment is too large: Line too long
+/home/saima/projects/NonFunc-AWQ/multipLE-java/deepseekcoder-33B-instruct-awq/completion/taskid-81_numerical_letter_grade-gen0.java:13:	CommentSize:	Comment is too large: Line too long
+/home/saima/projects/NonFunc-AWQ/multipLE-java/deepseekcoder-33B-instruct-awq/completion/taskid-81_numerical_letter_grade-gen0.java:29:	CommentSize:	Comment is too large: Line too long
+/home/saima/projects/NonFunc-AWQ/multipLE-java/deepseekcoder-33B-instruct-awq/completion/taskid-81_numerical_letter_grade-gen0.java:30:	CommentSize:	Comment is too large: Line too long
+/home/saima/projects/NonFunc-AWQ/multipLE-java/deepseekcoder-33B-instruct-awq/completion/taskid-81_numerical_letter_grade-gen0.java:31:	CommentRequired:	Public method and constructor comments are required
+/home/saima/projects/NonFunc-AWQ/multipLE-java/deepseekcoder-33B-instruct-awq/completion/taskid-81_numerical_letter_grade-gen0.java:67:	CommentRequired:	Public method and constructor comments are required

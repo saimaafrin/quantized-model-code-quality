@@ -1,0 +1,7 @@
+/home/saima/projects/NonFunc-AWQ/multipLE-java/codellama-13B-instruct-awq/completion/taskid-84_solve-gen0.java:24:	UnusedLocalVariable:	Avoid unused local variables such as 'sum'.
+/home/saima/projects/NonFunc-AWQ/multipLE-java/codellama-13B-instruct-awq/completion/taskid-84_solve-gen0.java:30:	AvoidReassigningParameters:	Avoid reassigning parameters such as 'N'
+/home/saima/projects/NonFunc-AWQ/multipLE-java/codellama-13B-instruct-awq/completion/taskid-84_solve-gen0.java:37:	LiteralsFirstInComparisons:	Position literals first in String comparisons
+/home/saima/projects/NonFunc-AWQ/multipLE-java/codellama-13B-instruct-awq/completion/taskid-84_solve-gen0.java:38:	LiteralsFirstInComparisons:	Position literals first in String comparisons
+/home/saima/projects/NonFunc-AWQ/multipLE-java/codellama-13B-instruct-awq/completion/taskid-84_solve-gen0.java:39:	LiteralsFirstInComparisons:	Position literals first in String comparisons
+/home/saima/projects/NonFunc-AWQ/multipLE-java/codellama-13B-instruct-awq/completion/taskid-84_solve-gen0.java:40:	LiteralsFirstInComparisons:	Position literals first in String comparisons
+/home/saima/projects/NonFunc-AWQ/multipLE-java/codellama-13B-instruct-awq/completion/taskid-84_solve-gen0.java:41:	LiteralsFirstInComparisons:	Position literals first in String comparisons

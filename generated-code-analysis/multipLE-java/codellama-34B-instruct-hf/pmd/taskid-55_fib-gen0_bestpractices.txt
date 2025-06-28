@@ -1,0 +1,1 @@
+/home/saima/projects/NonFunc-AWQ/multipLE-java/codellama-34B-instruct-hf/completion/taskid-55_fib-gen0.java:20:	OneDeclarationPerLine:	Use one line for each declaration, it enhances code readability.

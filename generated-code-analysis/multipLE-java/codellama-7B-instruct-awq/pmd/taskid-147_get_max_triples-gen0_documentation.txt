@@ -1,0 +1,4 @@
+/home/saima/projects/NonFunc-AWQ/multipLE-java/codellama-7B-instruct-awq/completion/taskid-147_get_max_triples-gen0.java:8:	CommentRequired:	Class comments are required
+/home/saima/projects/NonFunc-AWQ/multipLE-java/codellama-7B-instruct-awq/completion/taskid-147_get_max_triples-gen0.java:9:	CommentSize:	Comment is too large: Line too long
+/home/saima/projects/NonFunc-AWQ/multipLE-java/codellama-7B-instruct-awq/completion/taskid-147_get_max_triples-gen0.java:19:	CommentRequired:	Public method and constructor comments are required
+/home/saima/projects/NonFunc-AWQ/multipLE-java/codellama-7B-instruct-awq/completion/taskid-147_get_max_triples-gen0.java:32:	CommentRequired:	Public method and constructor comments are required

@@ -1,0 +1,2 @@
+/home/saima/projects/NonFunc-AWQ/multipLE-java/codellama-13B-instruct-hf/completion/taskid-43_pairs_sum_to_zero-gen0.java:22:	LooseCoupling:	Avoid using implementation types like 'ArrayList'; use the interface instead
+/home/saima/projects/NonFunc-AWQ/multipLE-java/codellama-13B-instruct-hf/completion/taskid-43_pairs_sum_to_zero-gen0.java:25:	LooseCoupling:	Avoid using implementation types like 'HashSet'; use the interface instead

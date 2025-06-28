@@ -1,0 +1,4 @@
+/home/saima/projects/NonFunc-AWQ/multipLE-java/codellama-34B-instruct-hf/completion/taskid-4_mean_absolute_deviation-gen0.java:8:	CommentRequired:	Class comments are required
+/home/saima/projects/NonFunc-AWQ/multipLE-java/codellama-34B-instruct-hf/completion/taskid-4_mean_absolute_deviation-gen0.java:14:	CommentSize:	Comment is too large: Line too long
+/home/saima/projects/NonFunc-AWQ/multipLE-java/codellama-34B-instruct-hf/completion/taskid-4_mean_absolute_deviation-gen0.java:16:	CommentRequired:	Public method and constructor comments are required
+/home/saima/projects/NonFunc-AWQ/multipLE-java/codellama-34B-instruct-hf/completion/taskid-4_mean_absolute_deviation-gen0.java:21:	CommentRequired:	Public method and constructor comments are required

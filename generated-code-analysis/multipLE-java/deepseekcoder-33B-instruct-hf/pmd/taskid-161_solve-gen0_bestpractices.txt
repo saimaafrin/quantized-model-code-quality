@@ -1,0 +1,8 @@
+/home/saima/projects/NonFunc-AWQ/multipLE-java/deepseekcoder-33B-instruct-hf/completion/taskid-161_solve-gen0.java:44:	LiteralsFirstInComparisons:	Position literals first in String comparisons
+/home/saima/projects/NonFunc-AWQ/multipLE-java/deepseekcoder-33B-instruct-hf/completion/taskid-161_solve-gen0.java:45:	LiteralsFirstInComparisons:	Position literals first in String comparisons
+/home/saima/projects/NonFunc-AWQ/multipLE-java/deepseekcoder-33B-instruct-hf/completion/taskid-161_solve-gen0.java:46:	LiteralsFirstInComparisons:	Position literals first in String comparisons
+/home/saima/projects/NonFunc-AWQ/multipLE-java/deepseekcoder-33B-instruct-hf/completion/taskid-161_solve-gen0.java:47:	LiteralsFirstInComparisons:	Position literals first in String comparisons
+/home/saima/projects/NonFunc-AWQ/multipLE-java/deepseekcoder-33B-instruct-hf/completion/taskid-161_solve-gen0.java:48:	LiteralsFirstInComparisons:	Position literals first in String comparisons
+/home/saima/projects/NonFunc-AWQ/multipLE-java/deepseekcoder-33B-instruct-hf/completion/taskid-161_solve-gen0.java:49:	LiteralsFirstInComparisons:	Position literals first in String comparisons
+/home/saima/projects/NonFunc-AWQ/multipLE-java/deepseekcoder-33B-instruct-hf/completion/taskid-161_solve-gen0.java:50:	LiteralsFirstInComparisons:	Position literals first in String comparisons
+/home/saima/projects/NonFunc-AWQ/multipLE-java/deepseekcoder-33B-instruct-hf/completion/taskid-161_solve-gen0.java:51:	LiteralsFirstInComparisons:	Position literals first in String comparisons

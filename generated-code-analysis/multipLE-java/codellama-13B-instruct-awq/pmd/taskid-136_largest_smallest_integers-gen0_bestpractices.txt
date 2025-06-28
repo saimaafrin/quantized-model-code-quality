@@ -1,0 +1,5 @@
+/home/saima/projects/NonFunc-AWQ/multipLE-java/codellama-13B-instruct-awq/completion/taskid-136_largest_smallest_integers-gen0.java:20:	LooseCoupling:	Avoid using implementation types like 'ArrayList'; use the interface instead
+/home/saima/projects/NonFunc-AWQ/multipLE-java/codellama-13B-instruct-awq/completion/taskid-136_largest_smallest_integers-gen0.java:23:	OneDeclarationPerLine:	Use one line for each declaration, it enhances code readability.
+/home/saima/projects/NonFunc-AWQ/multipLE-java/codellama-13B-instruct-awq/completion/taskid-136_largest_smallest_integers-gen0.java:24:	OneDeclarationPerLine:	Use one line for each declaration, it enhances code readability.
+/home/saima/projects/NonFunc-AWQ/multipLE-java/codellama-13B-instruct-awq/completion/taskid-136_largest_smallest_integers-gen0.java:31:	UnusedAssignment:	The value assigned to variable 'largest' is never used
+/home/saima/projects/NonFunc-AWQ/multipLE-java/codellama-13B-instruct-awq/completion/taskid-136_largest_smallest_integers-gen0.java:32:	UnusedAssignment:	The value assigned to variable 'smallest' is never used

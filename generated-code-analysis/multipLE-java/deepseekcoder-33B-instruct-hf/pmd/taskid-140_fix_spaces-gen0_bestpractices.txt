@@ -1,0 +1,5 @@
+/home/saima/projects/NonFunc-AWQ/multipLE-java/deepseekcoder-33B-instruct-hf/completion/taskid-140_fix_spaces-gen0.java:41:	LiteralsFirstInComparisons:	Position literals first in String comparisons
+/home/saima/projects/NonFunc-AWQ/multipLE-java/deepseekcoder-33B-instruct-hf/completion/taskid-140_fix_spaces-gen0.java:42:	LiteralsFirstInComparisons:	Position literals first in String comparisons
+/home/saima/projects/NonFunc-AWQ/multipLE-java/deepseekcoder-33B-instruct-hf/completion/taskid-140_fix_spaces-gen0.java:43:	LiteralsFirstInComparisons:	Position literals first in String comparisons
+/home/saima/projects/NonFunc-AWQ/multipLE-java/deepseekcoder-33B-instruct-hf/completion/taskid-140_fix_spaces-gen0.java:44:	LiteralsFirstInComparisons:	Position literals first in String comparisons
+/home/saima/projects/NonFunc-AWQ/multipLE-java/deepseekcoder-33B-instruct-hf/completion/taskid-140_fix_spaces-gen0.java:45:	LiteralsFirstInComparisons:	Position literals first in String comparisons

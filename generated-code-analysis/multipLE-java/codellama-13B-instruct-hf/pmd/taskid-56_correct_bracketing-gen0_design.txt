@@ -1,0 +1,14 @@
+/home/saima/projects/NonFunc-AWQ/multipLE-java/codellama-13B-instruct-hf/completion/taskid-56_correct_bracketing-gen0.java:8:	UseUtilityClass:	This utility class has a non-private constructor
+/home/saima/projects/NonFunc-AWQ/multipLE-java/codellama-13B-instruct-hf/completion/taskid-56_correct_bracketing-gen0.java:37:	SimplifyBooleanExpressions:	Avoid unnecessary comparisons in boolean expressions
+/home/saima/projects/NonFunc-AWQ/multipLE-java/codellama-13B-instruct-hf/completion/taskid-56_correct_bracketing-gen0.java:38:	SimplifyBooleanExpressions:	Avoid unnecessary comparisons in boolean expressions
+/home/saima/projects/NonFunc-AWQ/multipLE-java/codellama-13B-instruct-hf/completion/taskid-56_correct_bracketing-gen0.java:39:	SimplifyBooleanExpressions:	Avoid unnecessary comparisons in boolean expressions
+/home/saima/projects/NonFunc-AWQ/multipLE-java/codellama-13B-instruct-hf/completion/taskid-56_correct_bracketing-gen0.java:40:	SimplifyBooleanExpressions:	Avoid unnecessary comparisons in boolean expressions
+/home/saima/projects/NonFunc-AWQ/multipLE-java/codellama-13B-instruct-hf/completion/taskid-56_correct_bracketing-gen0.java:41:	SimplifyBooleanExpressions:	Avoid unnecessary comparisons in boolean expressions
+/home/saima/projects/NonFunc-AWQ/multipLE-java/codellama-13B-instruct-hf/completion/taskid-56_correct_bracketing-gen0.java:42:	SimplifyBooleanExpressions:	Avoid unnecessary comparisons in boolean expressions
+/home/saima/projects/NonFunc-AWQ/multipLE-java/codellama-13B-instruct-hf/completion/taskid-56_correct_bracketing-gen0.java:43:	SimplifyBooleanExpressions:	Avoid unnecessary comparisons in boolean expressions
+/home/saima/projects/NonFunc-AWQ/multipLE-java/codellama-13B-instruct-hf/completion/taskid-56_correct_bracketing-gen0.java:44:	SimplifyBooleanExpressions:	Avoid unnecessary comparisons in boolean expressions
+/home/saima/projects/NonFunc-AWQ/multipLE-java/codellama-13B-instruct-hf/completion/taskid-56_correct_bracketing-gen0.java:45:	SimplifyBooleanExpressions:	Avoid unnecessary comparisons in boolean expressions
+/home/saima/projects/NonFunc-AWQ/multipLE-java/codellama-13B-instruct-hf/completion/taskid-56_correct_bracketing-gen0.java:46:	SimplifyBooleanExpressions:	Avoid unnecessary comparisons in boolean expressions
+/home/saima/projects/NonFunc-AWQ/multipLE-java/codellama-13B-instruct-hf/completion/taskid-56_correct_bracketing-gen0.java:47:	SimplifyBooleanExpressions:	Avoid unnecessary comparisons in boolean expressions
+/home/saima/projects/NonFunc-AWQ/multipLE-java/codellama-13B-instruct-hf/completion/taskid-56_correct_bracketing-gen0.java:48:	SimplifyBooleanExpressions:	Avoid unnecessary comparisons in boolean expressions
+LoosePackageCoupling	-	No packages or classes specified

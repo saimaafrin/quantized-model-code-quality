@@ -1,0 +1,20 @@
+/home/saima/projects/NonFunc-AWQ/multipLE-java/codellama-13B-instruct-hf/completion/taskid-162_string_to_md5-gen0.java:2:	UnnecessaryImport:	Unused import 'java.lang.reflect.*'
+/home/saima/projects/NonFunc-AWQ/multipLE-java/codellama-13B-instruct-hf/completion/taskid-162_string_to_md5-gen0.java:3:	UnnecessaryImport:	Unused import 'org.javatuples.*'
+/home/saima/projects/NonFunc-AWQ/multipLE-java/codellama-13B-instruct-hf/completion/taskid-162_string_to_md5-gen0.java:6:	UnnecessaryImport:	Unused import 'java.io.*'
+/home/saima/projects/NonFunc-AWQ/multipLE-java/codellama-13B-instruct-hf/completion/taskid-162_string_to_md5-gen0.java:7:	UnnecessaryImport:	Unused import 'java.util.stream.*'
+/home/saima/projects/NonFunc-AWQ/multipLE-java/codellama-13B-instruct-hf/completion/taskid-162_string_to_md5-gen0.java:8:	NoPackage:	All classes, interfaces, enums and annotations must belong to a named package
+/home/saima/projects/NonFunc-AWQ/multipLE-java/codellama-13B-instruct-hf/completion/taskid-162_string_to_md5-gen0.java:13:	MethodArgumentCouldBeFinal:	Parameter 'text' is not assigned and could be declared final
+/home/saima/projects/NonFunc-AWQ/multipLE-java/codellama-13B-instruct-hf/completion/taskid-162_string_to_md5-gen0.java:16:	OnlyOneReturn:	A method should have only one exit point, and that should be the last statement in the method
+/home/saima/projects/NonFunc-AWQ/multipLE-java/codellama-13B-instruct-hf/completion/taskid-162_string_to_md5-gen0.java:19:	ShortVariable:	Avoid variables with short names like md
+/home/saima/projects/NonFunc-AWQ/multipLE-java/codellama-13B-instruct-hf/completion/taskid-162_string_to_md5-gen0.java:19:	LocalVariableCouldBeFinal:	Local variable 'md' could be declared final
+/home/saima/projects/NonFunc-AWQ/multipLE-java/codellama-13B-instruct-hf/completion/taskid-162_string_to_md5-gen0.java:21:	LocalVariableCouldBeFinal:	Local variable 'digest' could be declared final
+/home/saima/projects/NonFunc-AWQ/multipLE-java/codellama-13B-instruct-hf/completion/taskid-162_string_to_md5-gen0.java:22:	LocalVariableCouldBeFinal:	Local variable 'bigInt' could be declared final
+/home/saima/projects/NonFunc-AWQ/multipLE-java/codellama-13B-instruct-hf/completion/taskid-162_string_to_md5-gen0.java:27:	OnlyOneReturn:	A method should have only one exit point, and that should be the last statement in the method
+/home/saima/projects/NonFunc-AWQ/multipLE-java/codellama-13B-instruct-hf/completion/taskid-162_string_to_md5-gen0.java:33:	UselessParentheses:	Useless parentheses.
+/home/saima/projects/NonFunc-AWQ/multipLE-java/codellama-13B-instruct-hf/completion/taskid-162_string_to_md5-gen0.java:33:	UselessParentheses:	Useless parentheses.
+/home/saima/projects/NonFunc-AWQ/multipLE-java/codellama-13B-instruct-hf/completion/taskid-162_string_to_md5-gen0.java:34:	UselessParentheses:	Useless parentheses.
+/home/saima/projects/NonFunc-AWQ/multipLE-java/codellama-13B-instruct-hf/completion/taskid-162_string_to_md5-gen0.java:34:	UselessParentheses:	Useless parentheses.
+/home/saima/projects/NonFunc-AWQ/multipLE-java/codellama-13B-instruct-hf/completion/taskid-162_string_to_md5-gen0.java:35:	UselessParentheses:	Useless parentheses.
+/home/saima/projects/NonFunc-AWQ/multipLE-java/codellama-13B-instruct-hf/completion/taskid-162_string_to_md5-gen0.java:35:	UselessParentheses:	Useless parentheses.
+/home/saima/projects/NonFunc-AWQ/multipLE-java/codellama-13B-instruct-hf/completion/taskid-162_string_to_md5-gen0.java:36:	UselessParentheses:	Useless parentheses.
+/home/saima/projects/NonFunc-AWQ/multipLE-java/codellama-13B-instruct-hf/completion/taskid-162_string_to_md5-gen0.java:36:	UselessParentheses:	Useless parentheses.

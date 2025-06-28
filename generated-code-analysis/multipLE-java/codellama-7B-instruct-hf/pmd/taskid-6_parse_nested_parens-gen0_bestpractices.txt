@@ -1,0 +1,5 @@
+/home/saima/projects/NonFunc-AWQ/multipLE-java/codellama-7B-instruct-hf/completion/taskid-6_parse_nested_parens-gen0.java:14:	LooseCoupling:	Avoid using implementation types like 'ArrayList'; use the interface instead
+/home/saima/projects/NonFunc-AWQ/multipLE-java/codellama-7B-instruct-hf/completion/taskid-6_parse_nested_parens-gen0.java:17:	LooseCoupling:	Avoid using implementation types like 'ArrayList'; use the interface instead
+/home/saima/projects/NonFunc-AWQ/multipLE-java/codellama-7B-instruct-hf/completion/taskid-6_parse_nested_parens-gen0.java:19:	LooseCoupling:	Avoid using implementation types like 'Stack'; use the interface instead
+/home/saima/projects/NonFunc-AWQ/multipLE-java/codellama-7B-instruct-hf/completion/taskid-6_parse_nested_parens-gen0.java:25:	UseCollectionIsEmpty:	Substitute calls to size() == 0 (or size() != 0, size() > 0, size() < 1) with calls to isEmpty()
+/home/saima/projects/NonFunc-AWQ/multipLE-java/codellama-7B-instruct-hf/completion/taskid-6_parse_nested_parens-gen0.java:33:	UseCollectionIsEmpty:	Substitute calls to size() == 0 (or size() != 0, size() > 0, size() < 1) with calls to isEmpty()

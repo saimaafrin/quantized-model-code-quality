@@ -1,0 +1,3 @@
+/home/saima/projects/NonFunc-AWQ/multipLE-java/codellama-34B-instruct-awq/completion/taskid-148_bf-gen0.java:25:	LooseCoupling:	Avoid using implementation types like 'ArrayList'; use the interface instead
+/home/saima/projects/NonFunc-AWQ/multipLE-java/codellama-34B-instruct-awq/completion/taskid-148_bf-gen0.java:27:	LooseCoupling:	Avoid using implementation types like 'ArrayList'; use the interface instead
+/home/saima/projects/NonFunc-AWQ/multipLE-java/codellama-34B-instruct-awq/completion/taskid-148_bf-gen0.java:29:	OneDeclarationPerLine:	Use one line for each declaration, it enhances code readability.

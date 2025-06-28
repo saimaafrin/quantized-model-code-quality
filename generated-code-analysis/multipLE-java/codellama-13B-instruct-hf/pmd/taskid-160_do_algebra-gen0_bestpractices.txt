@@ -1,0 +1,9 @@
+/home/saima/projects/NonFunc-AWQ/multipLE-java/codellama-13B-instruct-hf/completion/taskid-160_do_algebra-gen0.java:27:	LooseCoupling:	Avoid using implementation types like 'ArrayList'; use the interface instead
+/home/saima/projects/NonFunc-AWQ/multipLE-java/codellama-13B-instruct-hf/completion/taskid-160_do_algebra-gen0.java:27:	LooseCoupling:	Avoid using implementation types like 'ArrayList'; use the interface instead
+/home/saima/projects/NonFunc-AWQ/multipLE-java/codellama-13B-instruct-hf/completion/taskid-160_do_algebra-gen0.java:29:	LooseCoupling:	Avoid using implementation types like 'Stack'; use the interface instead
+/home/saima/projects/NonFunc-AWQ/multipLE-java/codellama-13B-instruct-hf/completion/taskid-160_do_algebra-gen0.java:32:	ForLoopCanBeForeach:	This for loop can be replaced by a foreach loop
+/home/saima/projects/NonFunc-AWQ/multipLE-java/codellama-13B-instruct-hf/completion/taskid-160_do_algebra-gen0.java:33:	LiteralsFirstInComparisons:	Position literals first in String comparisons
+/home/saima/projects/NonFunc-AWQ/multipLE-java/codellama-13B-instruct-hf/completion/taskid-160_do_algebra-gen0.java:38:	LiteralsFirstInComparisons:	Position literals first in String comparisons
+/home/saima/projects/NonFunc-AWQ/multipLE-java/codellama-13B-instruct-hf/completion/taskid-160_do_algebra-gen0.java:43:	LiteralsFirstInComparisons:	Position literals first in String comparisons
+/home/saima/projects/NonFunc-AWQ/multipLE-java/codellama-13B-instruct-hf/completion/taskid-160_do_algebra-gen0.java:48:	LiteralsFirstInComparisons:	Position literals first in String comparisons
+/home/saima/projects/NonFunc-AWQ/multipLE-java/codellama-13B-instruct-hf/completion/taskid-160_do_algebra-gen0.java:53:	LiteralsFirstInComparisons:	Position literals first in String comparisons

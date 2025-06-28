@@ -1,0 +1,1 @@
+/home/saima/projects/NonFunc-AWQ/multipLE-java/codellama-34B-instruct-hf/completion/taskid-89_encrypt-gen0.java:38:	UseStringBufferForStringAppends:	Prefer StringBuilder (non-synchronized) or StringBuffer (synchronized) over += for concatenating strings

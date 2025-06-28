@@ -1,0 +1,2 @@
+/home/saima/projects/NonFunc-AWQ/multipLE-java/deepseekcoder-1.3B-instruct-awq/completion/taskid-47_median-gen0.java:14:	LooseCoupling:	Avoid using implementation types like 'ArrayList'; use the interface instead
+/home/saima/projects/NonFunc-AWQ/multipLE-java/deepseekcoder-1.3B-instruct-awq/completion/taskid-47_median-gen0.java:17:	UnusedAssignment:	The initializer for variable 'result' is never used (overwritten on lines 19 and 21)

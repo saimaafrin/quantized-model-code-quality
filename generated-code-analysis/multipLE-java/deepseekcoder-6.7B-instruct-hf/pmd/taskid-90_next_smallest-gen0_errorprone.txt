@@ -1,0 +1,1 @@
+/home/saima/projects/NonFunc-AWQ/multipLE-java/deepseekcoder-6.7B-instruct-hf/completion/taskid-90_next_smallest-gen0.java:22:	AvoidLiteralsInIfCondition:	Avoid using literals in if statements

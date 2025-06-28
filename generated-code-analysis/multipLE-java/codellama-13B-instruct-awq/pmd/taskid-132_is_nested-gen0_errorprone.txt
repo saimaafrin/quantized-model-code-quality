@@ -1,0 +1,2 @@
+/home/saima/projects/NonFunc-AWQ/multipLE-java/codellama-13B-instruct-awq/completion/taskid-132_is_nested-gen0.java:28:	AvoidLiteralsInIfCondition:	Avoid using literals in if statements
+/home/saima/projects/NonFunc-AWQ/multipLE-java/codellama-13B-instruct-awq/completion/taskid-132_is_nested-gen0.java:29:	AvoidLiteralsInIfCondition:	Avoid using literals in if statements

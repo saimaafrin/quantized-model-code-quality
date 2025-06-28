@@ -1,0 +1,3 @@
+/home/saima/projects/NonFunc-AWQ/multipLE-java/codellama-13B-instruct-hf/completion/taskid-86_anti_shuffle-gen0.java:28:	UseStringBufferForStringAppends:	Prefer StringBuilder (non-synchronized) or StringBuffer (synchronized) over += for concatenating strings
+/home/saima/projects/NonFunc-AWQ/multipLE-java/codellama-13B-instruct-hf/completion/taskid-86_anti_shuffle-gen0.java:28:	AvoidInstantiatingObjectsInLoops:	Avoid instantiating new objects inside loops
+/home/saima/projects/NonFunc-AWQ/multipLE-java/codellama-13B-instruct-hf/completion/taskid-86_anti_shuffle-gen0.java:29:	UseStringBufferForStringAppends:	Prefer StringBuilder (non-synchronized) or StringBuffer (synchronized) over += for concatenating strings

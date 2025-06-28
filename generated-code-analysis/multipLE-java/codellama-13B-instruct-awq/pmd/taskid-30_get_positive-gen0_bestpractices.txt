@@ -1,0 +1,3 @@
+/home/saima/projects/NonFunc-AWQ/multipLE-java/codellama-13B-instruct-awq/completion/taskid-30_get_positive-gen0.java:14:	LooseCoupling:	Avoid using implementation types like 'ArrayList'; use the interface instead
+/home/saima/projects/NonFunc-AWQ/multipLE-java/codellama-13B-instruct-awq/completion/taskid-30_get_positive-gen0.java:14:	LooseCoupling:	Avoid using implementation types like 'ArrayList'; use the interface instead
+/home/saima/projects/NonFunc-AWQ/multipLE-java/codellama-13B-instruct-awq/completion/taskid-30_get_positive-gen0.java:16:	LooseCoupling:	Avoid using implementation types like 'ArrayList'; use the interface instead

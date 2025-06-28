@@ -1,0 +1,1 @@
+/home/saima/projects/NonFunc-AWQ/multipLE-java/deepseekcoder-6.7B-instruct-hf/completion/taskid-77_iscube-gen0.java:27:	OneDeclarationPerLine:	Use one line for each declaration, it enhances code readability.

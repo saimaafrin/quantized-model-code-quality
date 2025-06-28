@@ -1,0 +1,3 @@
+/home/saima/projects/NonFunc-AWQ/multipLE-java/codellama-7B-instruct-hf/completion/taskid-140_fix_spaces-gen0.java:28:	AppendCharacterWithChar:	Avoid appending characters as strings in StringBuffer.append.
+/home/saima/projects/NonFunc-AWQ/multipLE-java/codellama-7B-instruct-hf/completion/taskid-140_fix_spaces-gen0.java:30:	AppendCharacterWithChar:	Avoid appending characters as strings in StringBuffer.append.
+/home/saima/projects/NonFunc-AWQ/multipLE-java/codellama-7B-instruct-hf/completion/taskid-140_fix_spaces-gen0.java:32:	AppendCharacterWithChar:	Avoid appending characters as strings in StringBuffer.append.

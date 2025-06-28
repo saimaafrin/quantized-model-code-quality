@@ -1,0 +1,2 @@
+/home/saima/projects/NonFunc-AWQ/multipLE-java/codellama-7B-instruct-hf/completion/taskid-119_match_parens-gen0.java:36:	AvoidDuplicateLiterals:	The String literal "Yes" appears 6 times in this file; the first occurrence is on line 36
+/home/saima/projects/NonFunc-AWQ/multipLE-java/codellama-7B-instruct-hf/completion/taskid-119_match_parens-gen0.java:37:	AvoidDuplicateLiterals:	The String literal "No" appears 6 times in this file; the first occurrence is on line 37

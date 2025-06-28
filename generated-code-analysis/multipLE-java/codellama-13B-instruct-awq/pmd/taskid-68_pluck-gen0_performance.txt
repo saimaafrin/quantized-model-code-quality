@@ -1,0 +1,3 @@
+/home/saima/projects/NonFunc-AWQ/multipLE-java/codellama-13B-instruct-awq/completion/taskid-68_pluck-gen0.java:42:	AvoidInstantiatingObjectsInLoops:	Avoid instantiating new objects inside loops
+/home/saima/projects/NonFunc-AWQ/multipLE-java/codellama-13B-instruct-awq/completion/taskid-68_pluck-gen0.java:44:	AvoidInstantiatingObjectsInLoops:	Avoid instantiating new objects inside loops
+/home/saima/projects/NonFunc-AWQ/multipLE-java/codellama-13B-instruct-awq/completion/taskid-68_pluck-gen0.java:47:	AvoidInstantiatingObjectsInLoops:	Avoid instantiating new objects inside loops

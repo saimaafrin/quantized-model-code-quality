@@ -1,0 +1,5 @@
+/home/saima/projects/NonFunc-AWQ/multipLE-java/deepseekcoder-6.7B-instruct-hf/completion/taskid-124_valid_date-gen0.java:31:	AvoidLiteralsInIfCondition:	Avoid using literals in if statements
+/home/saima/projects/NonFunc-AWQ/multipLE-java/deepseekcoder-6.7B-instruct-hf/completion/taskid-124_valid_date-gen0.java:35:	AvoidLiteralsInIfCondition:	Avoid using literals in if statements
+/home/saima/projects/NonFunc-AWQ/multipLE-java/deepseekcoder-6.7B-instruct-hf/completion/taskid-124_valid_date-gen0.java:48:	AvoidLiteralsInIfCondition:	Avoid using literals in if statements
+/home/saima/projects/NonFunc-AWQ/multipLE-java/deepseekcoder-6.7B-instruct-hf/completion/taskid-124_valid_date-gen0.java:52:	AvoidLiteralsInIfCondition:	Avoid using literals in if statements
+/home/saima/projects/NonFunc-AWQ/multipLE-java/deepseekcoder-6.7B-instruct-hf/completion/taskid-124_valid_date-gen0.java:53:	AvoidLiteralsInIfCondition:	Avoid using literals in if statements

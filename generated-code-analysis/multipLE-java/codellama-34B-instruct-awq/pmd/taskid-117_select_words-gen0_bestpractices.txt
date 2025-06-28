@@ -1,0 +1,4 @@
+/home/saima/projects/NonFunc-AWQ/multipLE-java/codellama-34B-instruct-awq/completion/taskid-117_select_words-gen0.java:25:	LooseCoupling:	Avoid using implementation types like 'ArrayList'; use the interface instead
+/home/saima/projects/NonFunc-AWQ/multipLE-java/codellama-34B-instruct-awq/completion/taskid-117_select_words-gen0.java:28:	LooseCoupling:	Avoid using implementation types like 'ArrayList'; use the interface instead
+/home/saima/projects/NonFunc-AWQ/multipLE-java/codellama-34B-instruct-awq/completion/taskid-117_select_words-gen0.java:33:	ForLoopCanBeForeach:	This for loop can be replaced by a foreach loop
+/home/saima/projects/NonFunc-AWQ/multipLE-java/codellama-34B-instruct-awq/completion/taskid-117_select_words-gen0.java:37:	ForLoopCanBeForeach:	This for loop can be replaced by a foreach loop

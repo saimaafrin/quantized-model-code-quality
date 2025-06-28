@@ -1,0 +1,4 @@
+/home/saima/projects/NonFunc-AWQ/multipLE-java/codellama-13B-instruct-awq/completion/taskid-6_parse_nested_parens-gen0.java:14:	LooseCoupling:	Avoid using implementation types like 'ArrayList'; use the interface instead
+/home/saima/projects/NonFunc-AWQ/multipLE-java/codellama-13B-instruct-awq/completion/taskid-6_parse_nested_parens-gen0.java:16:	UnusedLocalVariable:	Avoid unused local variables such as 'nesting'.
+/home/saima/projects/NonFunc-AWQ/multipLE-java/codellama-13B-instruct-awq/completion/taskid-6_parse_nested_parens-gen0.java:17:	LooseCoupling:	Avoid using implementation types like 'ArrayList'; use the interface instead
+/home/saima/projects/NonFunc-AWQ/multipLE-java/codellama-13B-instruct-awq/completion/taskid-6_parse_nested_parens-gen0.java:27:	SystemPrintln:	Usage of System.out/err

@@ -1,0 +1,2 @@
+/home/saima/projects/NonFunc-AWQ/multipLE-java/deepseekcoder-1.3B-instruct-hf/completion/taskid-76_is_simple_power-gen0.java:27:	AvoidLiteralsInIfCondition:	Avoid using literals in if statements
+/home/saima/projects/NonFunc-AWQ/multipLE-java/deepseekcoder-1.3B-instruct-hf/completion/taskid-76_is_simple_power-gen0.java:28:	AvoidLiteralsInIfCondition:	Avoid using literals in if statements

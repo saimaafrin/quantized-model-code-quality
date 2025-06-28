@@ -1,0 +1,1 @@
+/home/saima/projects/NonFunc-AWQ/multipLE-java/codellama-7B-instruct-awq/completion/taskid-142_sum_squares-gen0.java:20:	LooseCoupling:	Avoid using implementation types like 'ArrayList'; use the interface instead

@@ -1,0 +1,7 @@
+/home/saima/projects/NonFunc-AWQ/multipLE-java/codellama-34B-instruct-awq/completion/taskid-118_get_closest_vowel-gen0.java:30:	AddEmptyString:	Do not add empty strings
+/home/saima/projects/NonFunc-AWQ/multipLE-java/codellama-34B-instruct-awq/completion/taskid-118_get_closest_vowel-gen0.java:30:	AddEmptyString:	Do not add empty strings
+/home/saima/projects/NonFunc-AWQ/multipLE-java/codellama-34B-instruct-awq/completion/taskid-118_get_closest_vowel-gen0.java:30:	AddEmptyString:	Do not add empty strings
+/home/saima/projects/NonFunc-AWQ/multipLE-java/codellama-34B-instruct-awq/completion/taskid-118_get_closest_vowel-gen0.java:31:	AddEmptyString:	Do not add empty strings
+/home/saima/projects/NonFunc-AWQ/multipLE-java/codellama-34B-instruct-awq/completion/taskid-118_get_closest_vowel-gen0.java:31:	AddEmptyString:	Do not add empty strings
+/home/saima/projects/NonFunc-AWQ/multipLE-java/codellama-34B-instruct-awq/completion/taskid-118_get_closest_vowel-gen0.java:31:	AddEmptyString:	Do not add empty strings
+/home/saima/projects/NonFunc-AWQ/multipLE-java/codellama-34B-instruct-awq/completion/taskid-118_get_closest_vowel-gen0.java:34:	AddEmptyString:	Do not add empty strings

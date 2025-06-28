@@ -1,0 +1,1 @@
+/home/saima/projects/NonFunc-AWQ/multipLE-java/codellama-13B-instruct-hf/completion/taskid-69_search-gen0.java:20:	LooseCoupling:	Avoid using implementation types like 'ArrayList'; use the interface instead

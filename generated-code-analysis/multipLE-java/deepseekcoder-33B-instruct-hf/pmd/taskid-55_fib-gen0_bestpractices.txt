@@ -1,0 +1,1 @@
+/home/saima/projects/NonFunc-AWQ/multipLE-java/deepseekcoder-33B-instruct-hf/completion/taskid-55_fib-gen0.java:19:	LooseCoupling:	Avoid using implementation types like 'HashMap'; use the interface instead

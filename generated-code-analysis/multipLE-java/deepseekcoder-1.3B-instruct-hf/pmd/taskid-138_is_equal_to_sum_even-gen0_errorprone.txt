@@ -1,0 +1,1 @@
+/home/saima/projects/NonFunc-AWQ/multipLE-java/deepseekcoder-1.3B-instruct-hf/completion/taskid-138_is_equal_to_sum_even-gen0.java:19:	AvoidLiteralsInIfCondition:	Avoid using literals in if statements

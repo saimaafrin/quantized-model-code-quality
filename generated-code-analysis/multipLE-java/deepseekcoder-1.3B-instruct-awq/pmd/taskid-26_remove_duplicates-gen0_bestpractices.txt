@@ -1,0 +1,4 @@
+/home/saima/projects/NonFunc-AWQ/multipLE-java/deepseekcoder-1.3B-instruct-awq/completion/taskid-26_remove_duplicates-gen0.java:13:	LooseCoupling:	Avoid using implementation types like 'ArrayList'; use the interface instead
+/home/saima/projects/NonFunc-AWQ/multipLE-java/deepseekcoder-1.3B-instruct-awq/completion/taskid-26_remove_duplicates-gen0.java:13:	LooseCoupling:	Avoid using implementation types like 'ArrayList'; use the interface instead
+/home/saima/projects/NonFunc-AWQ/multipLE-java/deepseekcoder-1.3B-instruct-awq/completion/taskid-26_remove_duplicates-gen0.java:15:	LooseCoupling:	Avoid using implementation types like 'HashMap'; use the interface instead
+/home/saima/projects/NonFunc-AWQ/multipLE-java/deepseekcoder-1.3B-instruct-awq/completion/taskid-26_remove_duplicates-gen0.java:24:	LooseCoupling:	Avoid using implementation types like 'ArrayList'; use the interface instead

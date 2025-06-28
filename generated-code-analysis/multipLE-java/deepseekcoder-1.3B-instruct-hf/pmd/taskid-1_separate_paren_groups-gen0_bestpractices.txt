@@ -1,0 +1,2 @@
+/home/saima/projects/NonFunc-AWQ/multipLE-java/deepseekcoder-1.3B-instruct-hf/completion/taskid-1_separate_paren_groups-gen0.java:15:	LooseCoupling:	Avoid using implementation types like 'ArrayList'; use the interface instead
+/home/saima/projects/NonFunc-AWQ/multipLE-java/deepseekcoder-1.3B-instruct-hf/completion/taskid-1_separate_paren_groups-gen0.java:17:	LooseCoupling:	Avoid using implementation types like 'ArrayList'; use the interface instead

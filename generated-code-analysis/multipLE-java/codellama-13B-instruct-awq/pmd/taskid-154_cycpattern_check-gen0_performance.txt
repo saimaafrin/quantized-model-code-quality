@@ -1,0 +1,1 @@
+/home/saima/projects/NonFunc-AWQ/multipLE-java/codellama-13B-instruct-awq/completion/taskid-154_cycpattern_check-gen0.java:28:	ConsecutiveAppendsShouldReuse:	StringBuffer (or StringBuilder).append is called consecutively without reusing the target variable.

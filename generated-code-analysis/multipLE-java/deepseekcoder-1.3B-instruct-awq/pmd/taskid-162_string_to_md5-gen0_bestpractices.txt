@@ -1,0 +1,3 @@
+/home/saima/projects/NonFunc-AWQ/multipLE-java/deepseekcoder-1.3B-instruct-awq/completion/taskid-162_string_to_md5-gen0.java:21:	LiteralsFirstInComparisons:	Position literals first in String comparisons
+/home/saima/projects/NonFunc-AWQ/multipLE-java/deepseekcoder-1.3B-instruct-awq/completion/taskid-162_string_to_md5-gen0.java:23:	LiteralsFirstInComparisons:	Position literals first in String comparisons
+/home/saima/projects/NonFunc-AWQ/multipLE-java/deepseekcoder-1.3B-instruct-awq/completion/taskid-162_string_to_md5-gen0.java:24:	LiteralsFirstInComparisons:	Position literals first in String comparisons

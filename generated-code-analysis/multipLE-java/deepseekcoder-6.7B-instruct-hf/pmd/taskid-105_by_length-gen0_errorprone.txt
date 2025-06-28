@@ -1,0 +1,2 @@
+/home/saima/projects/NonFunc-AWQ/multipLE-java/deepseekcoder-6.7B-instruct-hf/completion/taskid-105_by_length-gen0.java:24:	AvoidDuplicateLiterals:	The String literal "One" appears 5 times in this file; the first occurrence is on line 24
+/home/saima/projects/NonFunc-AWQ/multipLE-java/deepseekcoder-6.7B-instruct-hf/completion/taskid-105_by_length-gen0.java:24:	AvoidDuplicateLiterals:	The String literal "Two" appears 4 times in this file; the first occurrence is on line 24

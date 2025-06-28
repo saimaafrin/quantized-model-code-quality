@@ -1,0 +1,33 @@
+/home/saima/projects/NonFunc-AWQ/multipLE-java/codellama-13B-instruct-awq/completion/taskid-64_vowels_count-gen0.java:2:	UnnecessaryImport:	Unused import 'java.lang.reflect.*'
+/home/saima/projects/NonFunc-AWQ/multipLE-java/codellama-13B-instruct-awq/completion/taskid-64_vowels_count-gen0.java:3:	UnnecessaryImport:	Unused import 'org.javatuples.*'
+/home/saima/projects/NonFunc-AWQ/multipLE-java/codellama-13B-instruct-awq/completion/taskid-64_vowels_count-gen0.java:4:	UnnecessaryImport:	Unused import 'java.security.*'
+/home/saima/projects/NonFunc-AWQ/multipLE-java/codellama-13B-instruct-awq/completion/taskid-64_vowels_count-gen0.java:5:	UnnecessaryImport:	Unused import 'java.math.*'
+/home/saima/projects/NonFunc-AWQ/multipLE-java/codellama-13B-instruct-awq/completion/taskid-64_vowels_count-gen0.java:6:	UnnecessaryImport:	Unused import 'java.io.*'
+/home/saima/projects/NonFunc-AWQ/multipLE-java/codellama-13B-instruct-awq/completion/taskid-64_vowels_count-gen0.java:7:	UnnecessaryImport:	Unused import 'java.util.stream.*'
+/home/saima/projects/NonFunc-AWQ/multipLE-java/codellama-13B-instruct-awq/completion/taskid-64_vowels_count-gen0.java:8:	NoPackage:	All classes, interfaces, enums and annotations must belong to a named package
+/home/saima/projects/NonFunc-AWQ/multipLE-java/codellama-13B-instruct-awq/completion/taskid-64_vowels_count-gen0.java:18:	ShortVariable:	Avoid variables with short names like s
+/home/saima/projects/NonFunc-AWQ/multipLE-java/codellama-13B-instruct-awq/completion/taskid-64_vowels_count-gen0.java:18:	MethodArgumentCouldBeFinal:	Parameter 's' is not assigned and could be declared final
+/home/saima/projects/NonFunc-AWQ/multipLE-java/codellama-13B-instruct-awq/completion/taskid-64_vowels_count-gen0.java:20:	LocalVariableCouldBeFinal:	Local variable 'vowels' could be declared final
+/home/saima/projects/NonFunc-AWQ/multipLE-java/codellama-13B-instruct-awq/completion/taskid-64_vowels_count-gen0.java:24:	ControlStatementBraces:	This statement should have braces
+/home/saima/projects/NonFunc-AWQ/multipLE-java/codellama-13B-instruct-awq/completion/taskid-64_vowels_count-gen0.java:26:	ControlStatementBraces:	This statement should have braces
+/home/saima/projects/NonFunc-AWQ/multipLE-java/codellama-13B-instruct-awq/completion/taskid-64_vowels_count-gen0.java:31:	UselessParentheses:	Useless parentheses.
+/home/saima/projects/NonFunc-AWQ/multipLE-java/codellama-13B-instruct-awq/completion/taskid-64_vowels_count-gen0.java:31:	UselessParentheses:	Useless parentheses.
+/home/saima/projects/NonFunc-AWQ/multipLE-java/codellama-13B-instruct-awq/completion/taskid-64_vowels_count-gen0.java:31:	UselessParentheses:	Useless parentheses.
+/home/saima/projects/NonFunc-AWQ/multipLE-java/codellama-13B-instruct-awq/completion/taskid-64_vowels_count-gen0.java:32:	UselessParentheses:	Useless parentheses.
+/home/saima/projects/NonFunc-AWQ/multipLE-java/codellama-13B-instruct-awq/completion/taskid-64_vowels_count-gen0.java:32:	UselessParentheses:	Useless parentheses.
+/home/saima/projects/NonFunc-AWQ/multipLE-java/codellama-13B-instruct-awq/completion/taskid-64_vowels_count-gen0.java:32:	UselessParentheses:	Useless parentheses.
+/home/saima/projects/NonFunc-AWQ/multipLE-java/codellama-13B-instruct-awq/completion/taskid-64_vowels_count-gen0.java:33:	UselessParentheses:	Useless parentheses.
+/home/saima/projects/NonFunc-AWQ/multipLE-java/codellama-13B-instruct-awq/completion/taskid-64_vowels_count-gen0.java:33:	UselessParentheses:	Useless parentheses.
+/home/saima/projects/NonFunc-AWQ/multipLE-java/codellama-13B-instruct-awq/completion/taskid-64_vowels_count-gen0.java:33:	UselessParentheses:	Useless parentheses.
+/home/saima/projects/NonFunc-AWQ/multipLE-java/codellama-13B-instruct-awq/completion/taskid-64_vowels_count-gen0.java:34:	UselessParentheses:	Useless parentheses.
+/home/saima/projects/NonFunc-AWQ/multipLE-java/codellama-13B-instruct-awq/completion/taskid-64_vowels_count-gen0.java:34:	UselessParentheses:	Useless parentheses.
+/home/saima/projects/NonFunc-AWQ/multipLE-java/codellama-13B-instruct-awq/completion/taskid-64_vowels_count-gen0.java:34:	UselessParentheses:	Useless parentheses.
+/home/saima/projects/NonFunc-AWQ/multipLE-java/codellama-13B-instruct-awq/completion/taskid-64_vowels_count-gen0.java:35:	UselessParentheses:	Useless parentheses.
+/home/saima/projects/NonFunc-AWQ/multipLE-java/codellama-13B-instruct-awq/completion/taskid-64_vowels_count-gen0.java:35:	UselessParentheses:	Useless parentheses.
+/home/saima/projects/NonFunc-AWQ/multipLE-java/codellama-13B-instruct-awq/completion/taskid-64_vowels_count-gen0.java:35:	UselessParentheses:	Useless parentheses.
+/home/saima/projects/NonFunc-AWQ/multipLE-java/codellama-13B-instruct-awq/completion/taskid-64_vowels_count-gen0.java:36:	UselessParentheses:	Useless parentheses.
+/home/saima/projects/NonFunc-AWQ/multipLE-java/codellama-13B-instruct-awq/completion/taskid-64_vowels_count-gen0.java:36:	UselessParentheses:	Useless parentheses.
+/home/saima/projects/NonFunc-AWQ/multipLE-java/codellama-13B-instruct-awq/completion/taskid-64_vowels_count-gen0.java:36:	UselessParentheses:	Useless parentheses.
+/home/saima/projects/NonFunc-AWQ/multipLE-java/codellama-13B-instruct-awq/completion/taskid-64_vowels_count-gen0.java:37:	UselessParentheses:	Useless parentheses.
+/home/saima/projects/NonFunc-AWQ/multipLE-java/codellama-13B-instruct-awq/completion/taskid-64_vowels_count-gen0.java:37:	UselessParentheses:	Useless parentheses.
+/home/saima/projects/NonFunc-AWQ/multipLE-java/codellama-13B-instruct-awq/completion/taskid-64_vowels_count-gen0.java:37:	UselessParentheses:	Useless parentheses.

@@ -1,0 +1,10 @@
+/home/saima/projects/NonFunc-AWQ/multipLE-java/codellama-34B-instruct-awq/completion/taskid-93_encode-gen0.java:25:	AvoidLiteralsInIfCondition:	Avoid using literals in if statements
+/home/saima/projects/NonFunc-AWQ/multipLE-java/codellama-34B-instruct-awq/completion/taskid-93_encode-gen0.java:27:	AvoidLiteralsInIfCondition:	Avoid using literals in if statements
+/home/saima/projects/NonFunc-AWQ/multipLE-java/codellama-34B-instruct-awq/completion/taskid-93_encode-gen0.java:29:	AvoidLiteralsInIfCondition:	Avoid using literals in if statements
+/home/saima/projects/NonFunc-AWQ/multipLE-java/codellama-34B-instruct-awq/completion/taskid-93_encode-gen0.java:31:	AvoidLiteralsInIfCondition:	Avoid using literals in if statements
+/home/saima/projects/NonFunc-AWQ/multipLE-java/codellama-34B-instruct-awq/completion/taskid-93_encode-gen0.java:33:	AvoidLiteralsInIfCondition:	Avoid using literals in if statements
+/home/saima/projects/NonFunc-AWQ/multipLE-java/codellama-34B-instruct-awq/completion/taskid-93_encode-gen0.java:38:	AvoidLiteralsInIfCondition:	Avoid using literals in if statements
+/home/saima/projects/NonFunc-AWQ/multipLE-java/codellama-34B-instruct-awq/completion/taskid-93_encode-gen0.java:40:	AvoidLiteralsInIfCondition:	Avoid using literals in if statements
+/home/saima/projects/NonFunc-AWQ/multipLE-java/codellama-34B-instruct-awq/completion/taskid-93_encode-gen0.java:42:	AvoidLiteralsInIfCondition:	Avoid using literals in if statements
+/home/saima/projects/NonFunc-AWQ/multipLE-java/codellama-34B-instruct-awq/completion/taskid-93_encode-gen0.java:44:	AvoidLiteralsInIfCondition:	Avoid using literals in if statements
+/home/saima/projects/NonFunc-AWQ/multipLE-java/codellama-34B-instruct-awq/completion/taskid-93_encode-gen0.java:46:	AvoidLiteralsInIfCondition:	Avoid using literals in if statements

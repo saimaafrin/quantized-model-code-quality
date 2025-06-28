@@ -1,0 +1,6 @@
+/home/saima/projects/NonFunc-AWQ/multipLE-java/codellama-7B-instruct-awq/completion/taskid-64_vowels_count-gen0.java:21:	LiteralsFirstInComparisons:	Position literals first in String comparisons
+/home/saima/projects/NonFunc-AWQ/multipLE-java/codellama-7B-instruct-awq/completion/taskid-64_vowels_count-gen0.java:21:	LiteralsFirstInComparisons:	Position literals first in String comparisons
+/home/saima/projects/NonFunc-AWQ/multipLE-java/codellama-7B-instruct-awq/completion/taskid-64_vowels_count-gen0.java:21:	LiteralsFirstInComparisons:	Position literals first in String comparisons
+/home/saima/projects/NonFunc-AWQ/multipLE-java/codellama-7B-instruct-awq/completion/taskid-64_vowels_count-gen0.java:21:	LiteralsFirstInComparisons:	Position literals first in String comparisons
+/home/saima/projects/NonFunc-AWQ/multipLE-java/codellama-7B-instruct-awq/completion/taskid-64_vowels_count-gen0.java:21:	LiteralsFirstInComparisons:	Position literals first in String comparisons
+/home/saima/projects/NonFunc-AWQ/multipLE-java/codellama-7B-instruct-awq/completion/taskid-64_vowels_count-gen0.java:21:	LiteralsFirstInComparisons:	Position literals first in String comparisons

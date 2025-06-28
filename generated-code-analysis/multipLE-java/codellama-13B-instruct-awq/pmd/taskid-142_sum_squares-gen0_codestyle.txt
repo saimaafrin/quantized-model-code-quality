@@ -1,0 +1,128 @@
+/home/saima/projects/NonFunc-AWQ/multipLE-java/codellama-13B-instruct-awq/completion/taskid-142_sum_squares-gen0.java:2:	UnnecessaryImport:	Unused import 'java.lang.reflect.*'
+/home/saima/projects/NonFunc-AWQ/multipLE-java/codellama-13B-instruct-awq/completion/taskid-142_sum_squares-gen0.java:3:	UnnecessaryImport:	Unused import 'org.javatuples.*'
+/home/saima/projects/NonFunc-AWQ/multipLE-java/codellama-13B-instruct-awq/completion/taskid-142_sum_squares-gen0.java:4:	UnnecessaryImport:	Unused import 'java.security.*'
+/home/saima/projects/NonFunc-AWQ/multipLE-java/codellama-13B-instruct-awq/completion/taskid-142_sum_squares-gen0.java:5:	UnnecessaryImport:	Unused import 'java.math.*'
+/home/saima/projects/NonFunc-AWQ/multipLE-java/codellama-13B-instruct-awq/completion/taskid-142_sum_squares-gen0.java:6:	UnnecessaryImport:	Unused import 'java.io.*'
+/home/saima/projects/NonFunc-AWQ/multipLE-java/codellama-13B-instruct-awq/completion/taskid-142_sum_squares-gen0.java:7:	UnnecessaryImport:	Unused import 'java.util.stream.*'
+/home/saima/projects/NonFunc-AWQ/multipLE-java/codellama-13B-instruct-awq/completion/taskid-142_sum_squares-gen0.java:8:	NoPackage:	All classes, interfaces, enums and annotations must belong to a named package
+/home/saima/projects/NonFunc-AWQ/multipLE-java/codellama-13B-instruct-awq/completion/taskid-142_sum_squares-gen0.java:20:	MethodArgumentCouldBeFinal:	Parameter 'lst' is not assigned and could be declared final
+/home/saima/projects/NonFunc-AWQ/multipLE-java/codellama-13B-instruct-awq/completion/taskid-142_sum_squares-gen0.java:35:	UselessParentheses:	Useless parentheses.
+/home/saima/projects/NonFunc-AWQ/multipLE-java/codellama-13B-instruct-awq/completion/taskid-142_sum_squares-gen0.java:35:	UselessParentheses:	Useless parentheses.
+/home/saima/projects/NonFunc-AWQ/multipLE-java/codellama-13B-instruct-awq/completion/taskid-142_sum_squares-gen0.java:35:	UseDiamondOperator:	Explicit type arguments can be replaced by a diamond: `new ArrayList<>(...)`
+/home/saima/projects/NonFunc-AWQ/multipLE-java/codellama-13B-instruct-awq/completion/taskid-142_sum_squares-gen0.java:35:	UnnecessaryCast:	Unnecessary cast (long)
+/home/saima/projects/NonFunc-AWQ/multipLE-java/codellama-13B-instruct-awq/completion/taskid-142_sum_squares-gen0.java:35:	UnnecessaryCast:	Unnecessary cast (long)
+/home/saima/projects/NonFunc-AWQ/multipLE-java/codellama-13B-instruct-awq/completion/taskid-142_sum_squares-gen0.java:35:	UnnecessaryCast:	Unnecessary cast (long)
+/home/saima/projects/NonFunc-AWQ/multipLE-java/codellama-13B-instruct-awq/completion/taskid-142_sum_squares-gen0.java:35:	UselessParentheses:	Useless parentheses.
+/home/saima/projects/NonFunc-AWQ/multipLE-java/codellama-13B-instruct-awq/completion/taskid-142_sum_squares-gen0.java:36:	UselessParentheses:	Useless parentheses.
+/home/saima/projects/NonFunc-AWQ/multipLE-java/codellama-13B-instruct-awq/completion/taskid-142_sum_squares-gen0.java:36:	UselessParentheses:	Useless parentheses.
+/home/saima/projects/NonFunc-AWQ/multipLE-java/codellama-13B-instruct-awq/completion/taskid-142_sum_squares-gen0.java:36:	UseDiamondOperator:	Explicit type arguments can be replaced by a diamond: `new ArrayList<>(...)`
+/home/saima/projects/NonFunc-AWQ/multipLE-java/codellama-13B-instruct-awq/completion/taskid-142_sum_squares-gen0.java:36:	UnnecessaryCast:	Unnecessary cast (long)
+/home/saima/projects/NonFunc-AWQ/multipLE-java/codellama-13B-instruct-awq/completion/taskid-142_sum_squares-gen0.java:36:	UnnecessaryCast:	Unnecessary cast (long)
+/home/saima/projects/NonFunc-AWQ/multipLE-java/codellama-13B-instruct-awq/completion/taskid-142_sum_squares-gen0.java:36:	UnnecessaryCast:	Unnecessary cast (long)
+/home/saima/projects/NonFunc-AWQ/multipLE-java/codellama-13B-instruct-awq/completion/taskid-142_sum_squares-gen0.java:36:	UselessParentheses:	Useless parentheses.
+/home/saima/projects/NonFunc-AWQ/multipLE-java/codellama-13B-instruct-awq/completion/taskid-142_sum_squares-gen0.java:37:	UselessParentheses:	Useless parentheses.
+/home/saima/projects/NonFunc-AWQ/multipLE-java/codellama-13B-instruct-awq/completion/taskid-142_sum_squares-gen0.java:37:	UselessParentheses:	Useless parentheses.
+/home/saima/projects/NonFunc-AWQ/multipLE-java/codellama-13B-instruct-awq/completion/taskid-142_sum_squares-gen0.java:37:	UseDiamondOperator:	Explicit type arguments can be replaced by a diamond: `new ArrayList<>(Arrays.asList())`
+/home/saima/projects/NonFunc-AWQ/multipLE-java/codellama-13B-instruct-awq/completion/taskid-142_sum_squares-gen0.java:37:	UselessParentheses:	Useless parentheses.
+/home/saima/projects/NonFunc-AWQ/multipLE-java/codellama-13B-instruct-awq/completion/taskid-142_sum_squares-gen0.java:38:	UselessParentheses:	Useless parentheses.
+/home/saima/projects/NonFunc-AWQ/multipLE-java/codellama-13B-instruct-awq/completion/taskid-142_sum_squares-gen0.java:38:	UselessParentheses:	Useless parentheses.
+/home/saima/projects/NonFunc-AWQ/multipLE-java/codellama-13B-instruct-awq/completion/taskid-142_sum_squares-gen0.java:38:	UseDiamondOperator:	Explicit type arguments can be replaced by a diamond: `new ArrayList<>(...)`
+/home/saima/projects/NonFunc-AWQ/multipLE-java/codellama-13B-instruct-awq/completion/taskid-142_sum_squares-gen0.java:38:	UnnecessaryCast:	Unnecessary cast (long)
+/home/saima/projects/NonFunc-AWQ/multipLE-java/codellama-13B-instruct-awq/completion/taskid-142_sum_squares-gen0.java:38:	UnnecessaryCast:	Unnecessary cast (long)
+/home/saima/projects/NonFunc-AWQ/multipLE-java/codellama-13B-instruct-awq/completion/taskid-142_sum_squares-gen0.java:38:	UnnecessaryCast:	Unnecessary cast (long)
+/home/saima/projects/NonFunc-AWQ/multipLE-java/codellama-13B-instruct-awq/completion/taskid-142_sum_squares-gen0.java:38:	UnnecessaryCast:	Unnecessary cast (long)
+/home/saima/projects/NonFunc-AWQ/multipLE-java/codellama-13B-instruct-awq/completion/taskid-142_sum_squares-gen0.java:38:	UnnecessaryCast:	Unnecessary cast (long)
+/home/saima/projects/NonFunc-AWQ/multipLE-java/codellama-13B-instruct-awq/completion/taskid-142_sum_squares-gen0.java:38:	UnnecessaryCast:	Unnecessary cast (long)
+/home/saima/projects/NonFunc-AWQ/multipLE-java/codellama-13B-instruct-awq/completion/taskid-142_sum_squares-gen0.java:38:	UnnecessaryCast:	Unnecessary cast (long)
+/home/saima/projects/NonFunc-AWQ/multipLE-java/codellama-13B-instruct-awq/completion/taskid-142_sum_squares-gen0.java:38:	UnnecessaryCast:	Unnecessary cast (long)
+/home/saima/projects/NonFunc-AWQ/multipLE-java/codellama-13B-instruct-awq/completion/taskid-142_sum_squares-gen0.java:38:	UnnecessaryCast:	Unnecessary cast (long)
+/home/saima/projects/NonFunc-AWQ/multipLE-java/codellama-13B-instruct-awq/completion/taskid-142_sum_squares-gen0.java:38:	UselessParentheses:	Useless parentheses.
+/home/saima/projects/NonFunc-AWQ/multipLE-java/codellama-13B-instruct-awq/completion/taskid-142_sum_squares-gen0.java:39:	UselessParentheses:	Useless parentheses.
+/home/saima/projects/NonFunc-AWQ/multipLE-java/codellama-13B-instruct-awq/completion/taskid-142_sum_squares-gen0.java:39:	UselessParentheses:	Useless parentheses.
+/home/saima/projects/NonFunc-AWQ/multipLE-java/codellama-13B-instruct-awq/completion/taskid-142_sum_squares-gen0.java:39:	UseDiamondOperator:	Explicit type arguments can be replaced by a diamond: `new ArrayList<>(...)`
+/home/saima/projects/NonFunc-AWQ/multipLE-java/codellama-13B-instruct-awq/completion/taskid-142_sum_squares-gen0.java:39:	UnnecessaryCast:	Unnecessary cast (long)
+/home/saima/projects/NonFunc-AWQ/multipLE-java/codellama-13B-instruct-awq/completion/taskid-142_sum_squares-gen0.java:39:	UnnecessaryCast:	Unnecessary cast (long)
+/home/saima/projects/NonFunc-AWQ/multipLE-java/codellama-13B-instruct-awq/completion/taskid-142_sum_squares-gen0.java:39:	UnnecessaryCast:	Unnecessary cast (long)
+/home/saima/projects/NonFunc-AWQ/multipLE-java/codellama-13B-instruct-awq/completion/taskid-142_sum_squares-gen0.java:39:	UnnecessaryCast:	Unnecessary cast (long)
+/home/saima/projects/NonFunc-AWQ/multipLE-java/codellama-13B-instruct-awq/completion/taskid-142_sum_squares-gen0.java:39:	UnnecessaryCast:	Unnecessary cast (long)
+/home/saima/projects/NonFunc-AWQ/multipLE-java/codellama-13B-instruct-awq/completion/taskid-142_sum_squares-gen0.java:39:	UnnecessaryCast:	Unnecessary cast (long)
+/home/saima/projects/NonFunc-AWQ/multipLE-java/codellama-13B-instruct-awq/completion/taskid-142_sum_squares-gen0.java:39:	UnnecessaryCast:	Unnecessary cast (long)
+/home/saima/projects/NonFunc-AWQ/multipLE-java/codellama-13B-instruct-awq/completion/taskid-142_sum_squares-gen0.java:39:	UnnecessaryCast:	Unnecessary cast (long)
+/home/saima/projects/NonFunc-AWQ/multipLE-java/codellama-13B-instruct-awq/completion/taskid-142_sum_squares-gen0.java:39:	UnnecessaryCast:	Unnecessary cast (long)
+/home/saima/projects/NonFunc-AWQ/multipLE-java/codellama-13B-instruct-awq/completion/taskid-142_sum_squares-gen0.java:40:	UselessParentheses:	Useless parentheses.
+/home/saima/projects/NonFunc-AWQ/multipLE-java/codellama-13B-instruct-awq/completion/taskid-142_sum_squares-gen0.java:40:	UselessParentheses:	Useless parentheses.
+/home/saima/projects/NonFunc-AWQ/multipLE-java/codellama-13B-instruct-awq/completion/taskid-142_sum_squares-gen0.java:40:	UseDiamondOperator:	Explicit type arguments can be replaced by a diamond: `new ArrayList<>(Arrays.asList((long)0l))`
+/home/saima/projects/NonFunc-AWQ/multipLE-java/codellama-13B-instruct-awq/completion/taskid-142_sum_squares-gen0.java:40:	UnnecessaryCast:	Unnecessary cast (long)
+/home/saima/projects/NonFunc-AWQ/multipLE-java/codellama-13B-instruct-awq/completion/taskid-142_sum_squares-gen0.java:40:	UselessParentheses:	Useless parentheses.
+/home/saima/projects/NonFunc-AWQ/multipLE-java/codellama-13B-instruct-awq/completion/taskid-142_sum_squares-gen0.java:41:	UselessParentheses:	Useless parentheses.
+/home/saima/projects/NonFunc-AWQ/multipLE-java/codellama-13B-instruct-awq/completion/taskid-142_sum_squares-gen0.java:41:	UselessParentheses:	Useless parentheses.
+/home/saima/projects/NonFunc-AWQ/multipLE-java/codellama-13B-instruct-awq/completion/taskid-142_sum_squares-gen0.java:41:	UseDiamondOperator:	Explicit type arguments can be replaced by a diamond: `new ArrayList<>(...)`
+/home/saima/projects/NonFunc-AWQ/multipLE-java/codellama-13B-instruct-awq/completion/taskid-142_sum_squares-gen0.java:41:	UnnecessaryCast:	Unnecessary cast (long)
+/home/saima/projects/NonFunc-AWQ/multipLE-java/codellama-13B-instruct-awq/completion/taskid-142_sum_squares-gen0.java:41:	UnnecessaryCast:	Unnecessary cast (long)
+/home/saima/projects/NonFunc-AWQ/multipLE-java/codellama-13B-instruct-awq/completion/taskid-142_sum_squares-gen0.java:41:	UnnecessaryCast:	Unnecessary cast (long)
+/home/saima/projects/NonFunc-AWQ/multipLE-java/codellama-13B-instruct-awq/completion/taskid-142_sum_squares-gen0.java:41:	UnnecessaryCast:	Unnecessary cast (long)
+/home/saima/projects/NonFunc-AWQ/multipLE-java/codellama-13B-instruct-awq/completion/taskid-142_sum_squares-gen0.java:41:	UnnecessaryCast:	Unnecessary cast (long)
+/home/saima/projects/NonFunc-AWQ/multipLE-java/codellama-13B-instruct-awq/completion/taskid-142_sum_squares-gen0.java:42:	UselessParentheses:	Useless parentheses.
+/home/saima/projects/NonFunc-AWQ/multipLE-java/codellama-13B-instruct-awq/completion/taskid-142_sum_squares-gen0.java:42:	UselessParentheses:	Useless parentheses.
+/home/saima/projects/NonFunc-AWQ/multipLE-java/codellama-13B-instruct-awq/completion/taskid-142_sum_squares-gen0.java:42:	UseDiamondOperator:	Explicit type arguments can be replaced by a diamond: `new ArrayList<>(...)`
+/home/saima/projects/NonFunc-AWQ/multipLE-java/codellama-13B-instruct-awq/completion/taskid-142_sum_squares-gen0.java:42:	UnnecessaryCast:	Unnecessary cast (long)
+/home/saima/projects/NonFunc-AWQ/multipLE-java/codellama-13B-instruct-awq/completion/taskid-142_sum_squares-gen0.java:42:	UnnecessaryCast:	Unnecessary cast (long)
+/home/saima/projects/NonFunc-AWQ/multipLE-java/codellama-13B-instruct-awq/completion/taskid-142_sum_squares-gen0.java:42:	UnnecessaryCast:	Unnecessary cast (long)
+/home/saima/projects/NonFunc-AWQ/multipLE-java/codellama-13B-instruct-awq/completion/taskid-142_sum_squares-gen0.java:42:	UnnecessaryCast:	Unnecessary cast (long)
+/home/saima/projects/NonFunc-AWQ/multipLE-java/codellama-13B-instruct-awq/completion/taskid-142_sum_squares-gen0.java:42:	UnnecessaryCast:	Unnecessary cast (long)
+/home/saima/projects/NonFunc-AWQ/multipLE-java/codellama-13B-instruct-awq/completion/taskid-142_sum_squares-gen0.java:42:	UselessParentheses:	Useless parentheses.
+/home/saima/projects/NonFunc-AWQ/multipLE-java/codellama-13B-instruct-awq/completion/taskid-142_sum_squares-gen0.java:43:	UselessParentheses:	Useless parentheses.
+/home/saima/projects/NonFunc-AWQ/multipLE-java/codellama-13B-instruct-awq/completion/taskid-142_sum_squares-gen0.java:43:	UselessParentheses:	Useless parentheses.
+/home/saima/projects/NonFunc-AWQ/multipLE-java/codellama-13B-instruct-awq/completion/taskid-142_sum_squares-gen0.java:43:	UseDiamondOperator:	Explicit type arguments can be replaced by a diamond: `new ArrayList<>(...)`
+/home/saima/projects/NonFunc-AWQ/multipLE-java/codellama-13B-instruct-awq/completion/taskid-142_sum_squares-gen0.java:43:	UnnecessaryCast:	Unnecessary cast (long)
+/home/saima/projects/NonFunc-AWQ/multipLE-java/codellama-13B-instruct-awq/completion/taskid-142_sum_squares-gen0.java:43:	UnnecessaryCast:	Unnecessary cast (long)
+/home/saima/projects/NonFunc-AWQ/multipLE-java/codellama-13B-instruct-awq/completion/taskid-142_sum_squares-gen0.java:43:	UnnecessaryCast:	Unnecessary cast (long)
+/home/saima/projects/NonFunc-AWQ/multipLE-java/codellama-13B-instruct-awq/completion/taskid-142_sum_squares-gen0.java:43:	UnnecessaryCast:	Unnecessary cast (long)
+/home/saima/projects/NonFunc-AWQ/multipLE-java/codellama-13B-instruct-awq/completion/taskid-142_sum_squares-gen0.java:43:	UnnecessaryCast:	Unnecessary cast (long)
+/home/saima/projects/NonFunc-AWQ/multipLE-java/codellama-13B-instruct-awq/completion/taskid-142_sum_squares-gen0.java:43:	UnnecessaryCast:	Unnecessary cast (long)
+/home/saima/projects/NonFunc-AWQ/multipLE-java/codellama-13B-instruct-awq/completion/taskid-142_sum_squares-gen0.java:43:	UnnecessaryCast:	Unnecessary cast (long)
+/home/saima/projects/NonFunc-AWQ/multipLE-java/codellama-13B-instruct-awq/completion/taskid-142_sum_squares-gen0.java:43:	UnnecessaryCast:	Unnecessary cast (long)
+/home/saima/projects/NonFunc-AWQ/multipLE-java/codellama-13B-instruct-awq/completion/taskid-142_sum_squares-gen0.java:43:	UnnecessaryCast:	Unnecessary cast (long)
+/home/saima/projects/NonFunc-AWQ/multipLE-java/codellama-13B-instruct-awq/completion/taskid-142_sum_squares-gen0.java:43:	UselessParentheses:	Useless parentheses.
+/home/saima/projects/NonFunc-AWQ/multipLE-java/codellama-13B-instruct-awq/completion/taskid-142_sum_squares-gen0.java:44:	UselessParentheses:	Useless parentheses.
+/home/saima/projects/NonFunc-AWQ/multipLE-java/codellama-13B-instruct-awq/completion/taskid-142_sum_squares-gen0.java:44:	UselessParentheses:	Useless parentheses.
+/home/saima/projects/NonFunc-AWQ/multipLE-java/codellama-13B-instruct-awq/completion/taskid-142_sum_squares-gen0.java:44:	UseDiamondOperator:	Explicit type arguments can be replaced by a diamond: `new ArrayList<>(...)`
+/home/saima/projects/NonFunc-AWQ/multipLE-java/codellama-13B-instruct-awq/completion/taskid-142_sum_squares-gen0.java:44:	UnnecessaryCast:	Unnecessary cast (long)
+/home/saima/projects/NonFunc-AWQ/multipLE-java/codellama-13B-instruct-awq/completion/taskid-142_sum_squares-gen0.java:44:	UnnecessaryCast:	Unnecessary cast (long)
+/home/saima/projects/NonFunc-AWQ/multipLE-java/codellama-13B-instruct-awq/completion/taskid-142_sum_squares-gen0.java:44:	UnnecessaryCast:	Unnecessary cast (long)
+/home/saima/projects/NonFunc-AWQ/multipLE-java/codellama-13B-instruct-awq/completion/taskid-142_sum_squares-gen0.java:44:	UnnecessaryCast:	Unnecessary cast (long)
+/home/saima/projects/NonFunc-AWQ/multipLE-java/codellama-13B-instruct-awq/completion/taskid-142_sum_squares-gen0.java:44:	UnnecessaryCast:	Unnecessary cast (long)
+/home/saima/projects/NonFunc-AWQ/multipLE-java/codellama-13B-instruct-awq/completion/taskid-142_sum_squares-gen0.java:44:	UnnecessaryCast:	Unnecessary cast (long)
+/home/saima/projects/NonFunc-AWQ/multipLE-java/codellama-13B-instruct-awq/completion/taskid-142_sum_squares-gen0.java:44:	UnnecessaryCast:	Unnecessary cast (long)
+/home/saima/projects/NonFunc-AWQ/multipLE-java/codellama-13B-instruct-awq/completion/taskid-142_sum_squares-gen0.java:44:	UnnecessaryCast:	Unnecessary cast (long)
+/home/saima/projects/NonFunc-AWQ/multipLE-java/codellama-13B-instruct-awq/completion/taskid-142_sum_squares-gen0.java:44:	UnnecessaryCast:	Unnecessary cast (long)
+/home/saima/projects/NonFunc-AWQ/multipLE-java/codellama-13B-instruct-awq/completion/taskid-142_sum_squares-gen0.java:44:	UnnecessaryCast:	Unnecessary cast (long)
+/home/saima/projects/NonFunc-AWQ/multipLE-java/codellama-13B-instruct-awq/completion/taskid-142_sum_squares-gen0.java:44:	UnnecessaryCast:	Unnecessary cast (long)
+/home/saima/projects/NonFunc-AWQ/multipLE-java/codellama-13B-instruct-awq/completion/taskid-142_sum_squares-gen0.java:44:	UnnecessaryCast:	Unnecessary cast (long)
+/home/saima/projects/NonFunc-AWQ/multipLE-java/codellama-13B-instruct-awq/completion/taskid-142_sum_squares-gen0.java:44:	UnnecessaryCast:	Unnecessary cast (long)
+/home/saima/projects/NonFunc-AWQ/multipLE-java/codellama-13B-instruct-awq/completion/taskid-142_sum_squares-gen0.java:44:	UnnecessaryCast:	Unnecessary cast (long)
+/home/saima/projects/NonFunc-AWQ/multipLE-java/codellama-13B-instruct-awq/completion/taskid-142_sum_squares-gen0.java:44:	UnnecessaryCast:	Unnecessary cast (long)
+/home/saima/projects/NonFunc-AWQ/multipLE-java/codellama-13B-instruct-awq/completion/taskid-142_sum_squares-gen0.java:44:	UseUnderscoresInNumericLiterals:	Number 14196l should separate every third digit with an underscore
+/home/saima/projects/NonFunc-AWQ/multipLE-java/codellama-13B-instruct-awq/completion/taskid-142_sum_squares-gen0.java:45:	UselessParentheses:	Useless parentheses.
+/home/saima/projects/NonFunc-AWQ/multipLE-java/codellama-13B-instruct-awq/completion/taskid-142_sum_squares-gen0.java:45:	UselessParentheses:	Useless parentheses.
+/home/saima/projects/NonFunc-AWQ/multipLE-java/codellama-13B-instruct-awq/completion/taskid-142_sum_squares-gen0.java:45:	UseDiamondOperator:	Explicit type arguments can be replaced by a diamond: `new ArrayList<>(...)`
+/home/saima/projects/NonFunc-AWQ/multipLE-java/codellama-13B-instruct-awq/completion/taskid-142_sum_squares-gen0.java:45:	UnnecessaryCast:	Unnecessary cast (long)
+/home/saima/projects/NonFunc-AWQ/multipLE-java/codellama-13B-instruct-awq/completion/taskid-142_sum_squares-gen0.java:45:	UnnecessaryCast:	Unnecessary cast (long)
+/home/saima/projects/NonFunc-AWQ/multipLE-java/codellama-13B-instruct-awq/completion/taskid-142_sum_squares-gen0.java:45:	UnnecessaryCast:	Unnecessary cast (long)
+/home/saima/projects/NonFunc-AWQ/multipLE-java/codellama-13B-instruct-awq/completion/taskid-142_sum_squares-gen0.java:45:	UnnecessaryCast:	Unnecessary cast (long)
+/home/saima/projects/NonFunc-AWQ/multipLE-java/codellama-13B-instruct-awq/completion/taskid-142_sum_squares-gen0.java:45:	UnnecessaryCast:	Unnecessary cast (long)
+/home/saima/projects/NonFunc-AWQ/multipLE-java/codellama-13B-instruct-awq/completion/taskid-142_sum_squares-gen0.java:45:	UnnecessaryCast:	Unnecessary cast (long)
+/home/saima/projects/NonFunc-AWQ/multipLE-java/codellama-13B-instruct-awq/completion/taskid-142_sum_squares-gen0.java:45:	UnnecessaryCast:	Unnecessary cast (long)
+/home/saima/projects/NonFunc-AWQ/multipLE-java/codellama-13B-instruct-awq/completion/taskid-142_sum_squares-gen0.java:45:	UnnecessaryCast:	Unnecessary cast (long)
+/home/saima/projects/NonFunc-AWQ/multipLE-java/codellama-13B-instruct-awq/completion/taskid-142_sum_squares-gen0.java:45:	UnnecessaryCast:	Unnecessary cast (long)
+/home/saima/projects/NonFunc-AWQ/multipLE-java/codellama-13B-instruct-awq/completion/taskid-142_sum_squares-gen0.java:45:	UnnecessaryCast:	Unnecessary cast (long)
+/home/saima/projects/NonFunc-AWQ/multipLE-java/codellama-13B-instruct-awq/completion/taskid-142_sum_squares-gen0.java:45:	UnnecessaryCast:	Unnecessary cast (long)
+/home/saima/projects/NonFunc-AWQ/multipLE-java/codellama-13B-instruct-awq/completion/taskid-142_sum_squares-gen0.java:45:	UnnecessaryCast:	Unnecessary cast (long)
+/home/saima/projects/NonFunc-AWQ/multipLE-java/codellama-13B-instruct-awq/completion/taskid-142_sum_squares-gen0.java:45:	UnnecessaryCast:	Unnecessary cast (long)
+/home/saima/projects/NonFunc-AWQ/multipLE-java/codellama-13B-instruct-awq/completion/taskid-142_sum_squares-gen0.java:45:	UnnecessaryCast:	Unnecessary cast (long)
+/home/saima/projects/NonFunc-AWQ/multipLE-java/codellama-13B-instruct-awq/completion/taskid-142_sum_squares-gen0.java:45:	UnnecessaryCast:	Unnecessary cast (long)
+/home/saima/projects/NonFunc-AWQ/multipLE-java/codellama-13B-instruct-awq/completion/taskid-142_sum_squares-gen0.java:45:	UnnecessaryCast:	Unnecessary cast (long)
+/home/saima/projects/NonFunc-AWQ/multipLE-java/codellama-13B-instruct-awq/completion/taskid-142_sum_squares-gen0.java:45:	UnnecessaryCast:	Unnecessary cast (long)
+/home/saima/projects/NonFunc-AWQ/multipLE-java/codellama-13B-instruct-awq/completion/taskid-142_sum_squares-gen0.java:45:	UnnecessaryCast:	Unnecessary cast (long)
+/home/saima/projects/NonFunc-AWQ/multipLE-java/codellama-13B-instruct-awq/completion/taskid-142_sum_squares-gen0.java:45:	UnnecessaryCast:	Unnecessary cast (long)
+/home/saima/projects/NonFunc-AWQ/multipLE-java/codellama-13B-instruct-awq/completion/taskid-142_sum_squares-gen0.java:45:	UnnecessaryCast:	Unnecessary cast (long)

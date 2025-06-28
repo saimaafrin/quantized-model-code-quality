@@ -1,0 +1,1 @@
+/home/saima/projects/NonFunc-AWQ/multipLE-java/codellama-7B-instruct-hf/completion/taskid-144_simplify-gen0.java:24:	OneDeclarationPerLine:	Use one line for each declaration, it enhances code readability.

@@ -1,0 +1,54 @@
+import java.util.*;
+import java.lang.reflect.*;
+import org.javatuples.*;
+import java.security.*;
+import java.math.*;
+import java.io.*;
+import java.util.stream.*;
+class Problem {
+    // pairs_sum_to_zero takes an array array list of integers as an input.
+    // it returns true if there are two distinct elements in the array list that
+    // sum to zero, and false otherwise.
+    // >>> pairsSumToZero((new ArrayList<Long>(Arrays.asList((long)1l, (long)3l, (long)5l, (long)0l))))
+    // (false)
+    // >>> pairsSumToZero((new ArrayList<Long>(Arrays.asList((long)1l, (long)3l, (long)-2l, (long)1l))))
+    // (false)
+    // >>> pairsSumToZero((new ArrayList<Long>(Arrays.asList((long)1l, (long)2l, (long)3l, (long)7l))))
+    // (false)
+    // >>> pairsSumToZero((new ArrayList<Long>(Arrays.asList((long)2l, (long)4l, (long)-5l, (long)3l, (long)5l, (long)7l))))
+    // (true)
+    // >>> pairsSumToZero((new ArrayList<Long>(Arrays.asList((long)1l))))
+    // (false)
+    public static boolean pairsSumToZero(ArrayList<Long> l) {
+
+        ArrayList<Long> temp = new ArrayList<Long>(l);
+        if (temp.size() < 2)
+            return false;
+        Collections.sort(temp);
+        long sum = (long)0l;
+        int i = 0;
+        int j = temp.size() - 1;
+        while (i < j) {
+            sum = temp.get(i) + temp.get(j);
+            if (sum == (long)0l)
+                return true;
+            else if (sum < (long)0l)
+                i++;
+            else
+                j--;
+        }
+        return false;
+    }
+    public static void main(String[] args) {
+    assert(pairsSumToZero((new ArrayList<Long>(Arrays.asList((long)1l, (long)3l, (long)5l, (long)0l)))) == (false));
+    assert(pairsSumToZero((new ArrayList<Long>(Arrays.asList((long)1l, (long)3l, (long)-2l, (long)1l)))) == (false));
+    assert(pairsSumToZero((new ArrayList<Long>(Arrays.asList((long)1l, (long)2l, (long)3l, (long)7l)))) == (false));
+    assert(pairsSumToZero((new ArrayList<Long>(Arrays.asList((long)2l, (long)4l, (long)-5l, (long)3l, (long)5l, (long)7l)))) == (true));
+    assert(pairsSumToZero((new ArrayList<Long>(Arrays.asList((long)1l)))) == (false));
+    assert(pairsSumToZero((new ArrayList<Long>(Arrays.asList((long)-3l, (long)9l, (long)-1l, (long)3l, (long)2l, (long)30l)))) == (true));
+    assert(pairsSumToZero((new ArrayList<Long>(Arrays.asList((long)-3l, (long)9l, (long)-1l, (long)3l, (long)2l, (long)31l)))) == (true));
+    assert(pairsSumToZero((new ArrayList<Long>(Arrays.asList((long)-3l, (long)9l, (long)-1l, (long)4l, (long)2l, (long)30l)))) == (false));
+    assert(pairsSumToZero((new ArrayList<Long>(Arrays.asList((long)-3l, (long)9l, (long)-1l, (long)4l, (long)2l, (long)31l)))) == (false));
+    }
+
+}

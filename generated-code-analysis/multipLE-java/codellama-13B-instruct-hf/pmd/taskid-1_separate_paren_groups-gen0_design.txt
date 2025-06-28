@@ -1,0 +1,6 @@
+/home/saima/projects/NonFunc-AWQ/multipLE-java/codellama-13B-instruct-hf/completion/taskid-1_separate_paren_groups-gen0.java:8:	UseUtilityClass:	This utility class has a non-private constructor
+/home/saima/projects/NonFunc-AWQ/multipLE-java/codellama-13B-instruct-hf/completion/taskid-1_separate_paren_groups-gen0.java:15:	CognitiveComplexity:	The method 'separateParenGroups(String)' has a cognitive complexity of 27, current threshold is 15
+/home/saima/projects/NonFunc-AWQ/multipLE-java/codellama-13B-instruct-hf/completion/taskid-1_separate_paren_groups-gen0.java:15:	CyclomaticComplexity:	The method 'separateParenGroups(String)' has a cyclomatic complexity of 13.
+/home/saima/projects/NonFunc-AWQ/multipLE-java/codellama-13B-instruct-hf/completion/taskid-1_separate_paren_groups-gen0.java:25:	SimplifyBooleanExpressions:	Avoid unnecessary comparisons in boolean expressions
+/home/saima/projects/NonFunc-AWQ/multipLE-java/codellama-13B-instruct-hf/completion/taskid-1_separate_paren_groups-gen0.java:44:	AvoidDeeplyNestedIfStmts:	Deeply nested if..then statements are hard to read
+LoosePackageCoupling	-	No packages or classes specified

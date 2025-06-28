@@ -1,0 +1,14 @@
+/home/saima/projects/NonFunc-AWQ/multipLE-java/deepseekcoder-33B-instruct-awq/completion/taskid-156_int_to_mini_roman-gen0.java:66:	LiteralsFirstInComparisons:	Position literals first in String comparisons
+/home/saima/projects/NonFunc-AWQ/multipLE-java/deepseekcoder-33B-instruct-awq/completion/taskid-156_int_to_mini_roman-gen0.java:67:	LiteralsFirstInComparisons:	Position literals first in String comparisons
+/home/saima/projects/NonFunc-AWQ/multipLE-java/deepseekcoder-33B-instruct-awq/completion/taskid-156_int_to_mini_roman-gen0.java:68:	LiteralsFirstInComparisons:	Position literals first in String comparisons
+/home/saima/projects/NonFunc-AWQ/multipLE-java/deepseekcoder-33B-instruct-awq/completion/taskid-156_int_to_mini_roman-gen0.java:69:	LiteralsFirstInComparisons:	Position literals first in String comparisons
+/home/saima/projects/NonFunc-AWQ/multipLE-java/deepseekcoder-33B-instruct-awq/completion/taskid-156_int_to_mini_roman-gen0.java:70:	LiteralsFirstInComparisons:	Position literals first in String comparisons
+/home/saima/projects/NonFunc-AWQ/multipLE-java/deepseekcoder-33B-instruct-awq/completion/taskid-156_int_to_mini_roman-gen0.java:71:	LiteralsFirstInComparisons:	Position literals first in String comparisons
+/home/saima/projects/NonFunc-AWQ/multipLE-java/deepseekcoder-33B-instruct-awq/completion/taskid-156_int_to_mini_roman-gen0.java:72:	LiteralsFirstInComparisons:	Position literals first in String comparisons
+/home/saima/projects/NonFunc-AWQ/multipLE-java/deepseekcoder-33B-instruct-awq/completion/taskid-156_int_to_mini_roman-gen0.java:73:	LiteralsFirstInComparisons:	Position literals first in String comparisons
+/home/saima/projects/NonFunc-AWQ/multipLE-java/deepseekcoder-33B-instruct-awq/completion/taskid-156_int_to_mini_roman-gen0.java:74:	LiteralsFirstInComparisons:	Position literals first in String comparisons
+/home/saima/projects/NonFunc-AWQ/multipLE-java/deepseekcoder-33B-instruct-awq/completion/taskid-156_int_to_mini_roman-gen0.java:75:	LiteralsFirstInComparisons:	Position literals first in String comparisons
+/home/saima/projects/NonFunc-AWQ/multipLE-java/deepseekcoder-33B-instruct-awq/completion/taskid-156_int_to_mini_roman-gen0.java:76:	LiteralsFirstInComparisons:	Position literals first in String comparisons
+/home/saima/projects/NonFunc-AWQ/multipLE-java/deepseekcoder-33B-instruct-awq/completion/taskid-156_int_to_mini_roman-gen0.java:77:	LiteralsFirstInComparisons:	Position literals first in String comparisons
+/home/saima/projects/NonFunc-AWQ/multipLE-java/deepseekcoder-33B-instruct-awq/completion/taskid-156_int_to_mini_roman-gen0.java:78:	LiteralsFirstInComparisons:	Position literals first in String comparisons
+/home/saima/projects/NonFunc-AWQ/multipLE-java/deepseekcoder-33B-instruct-awq/completion/taskid-156_int_to_mini_roman-gen0.java:79:	LiteralsFirstInComparisons:	Position literals first in String comparisons

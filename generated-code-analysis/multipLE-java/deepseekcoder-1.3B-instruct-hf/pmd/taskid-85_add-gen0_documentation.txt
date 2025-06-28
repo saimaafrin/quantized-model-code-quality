@@ -1,0 +1,5 @@
+/home/saima/projects/NonFunc-AWQ/multipLE-java/deepseekcoder-1.3B-instruct-hf/completion/taskid-85_add-gen0.java:8:	CommentRequired:	Class comments are required
+/home/saima/projects/NonFunc-AWQ/multipLE-java/deepseekcoder-1.3B-instruct-hf/completion/taskid-85_add-gen0.java:9:	CommentSize:	Comment is too large: Line too long
+/home/saima/projects/NonFunc-AWQ/multipLE-java/deepseekcoder-1.3B-instruct-hf/completion/taskid-85_add-gen0.java:11:	CommentSize:	Comment is too large: Line too long
+/home/saima/projects/NonFunc-AWQ/multipLE-java/deepseekcoder-1.3B-instruct-hf/completion/taskid-85_add-gen0.java:13:	CommentRequired:	Public method and constructor comments are required
+/home/saima/projects/NonFunc-AWQ/multipLE-java/deepseekcoder-1.3B-instruct-hf/completion/taskid-85_add-gen0.java:21:	CommentRequired:	Public method and constructor comments are required

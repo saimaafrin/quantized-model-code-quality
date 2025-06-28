@@ -1,0 +1,1 @@
+/home/saima/projects/NonFunc-AWQ/multipLE-java/codellama-13B-instruct-hf/completion/taskid-108_count_nums-gen0.java:19:	LooseCoupling:	Avoid using implementation types like 'ArrayList'; use the interface instead

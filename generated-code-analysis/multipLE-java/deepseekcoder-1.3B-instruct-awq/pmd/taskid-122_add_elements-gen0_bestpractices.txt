@@ -1,0 +1,1 @@
+/home/saima/projects/NonFunc-AWQ/multipLE-java/deepseekcoder-1.3B-instruct-awq/completion/taskid-122_add_elements-gen0.java:17:	LooseCoupling:	Avoid using implementation types like 'ArrayList'; use the interface instead

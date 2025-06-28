@@ -1,0 +1,5 @@
+/home/saima/projects/NonFunc-AWQ/multipLE-java/deepseekcoder-33B-instruct-hf/completion/taskid-120_maximum-gen0.java:24:	LooseCoupling:	Avoid using implementation types like 'ArrayList'; use the interface instead
+/home/saima/projects/NonFunc-AWQ/multipLE-java/deepseekcoder-33B-instruct-hf/completion/taskid-120_maximum-gen0.java:24:	LooseCoupling:	Avoid using implementation types like 'ArrayList'; use the interface instead
+/home/saima/projects/NonFunc-AWQ/multipLE-java/deepseekcoder-33B-instruct-hf/completion/taskid-120_maximum-gen0.java:26:	LooseCoupling:	Avoid using implementation types like 'PriorityQueue'; use the interface instead
+/home/saima/projects/NonFunc-AWQ/multipLE-java/deepseekcoder-33B-instruct-hf/completion/taskid-120_maximum-gen0.java:28:	LooseCoupling:	Avoid using implementation types like 'ArrayList'; use the interface instead
+/home/saima/projects/NonFunc-AWQ/multipLE-java/deepseekcoder-33B-instruct-hf/completion/taskid-120_maximum-gen0.java:29:	AvoidReassigningParameters:	Avoid reassigning parameters such as 'k'

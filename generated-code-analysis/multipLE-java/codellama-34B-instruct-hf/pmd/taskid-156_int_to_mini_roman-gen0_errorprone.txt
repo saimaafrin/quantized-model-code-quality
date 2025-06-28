@@ -1,0 +1,9 @@
+/home/saima/projects/NonFunc-AWQ/multipLE-java/codellama-34B-instruct-hf/completion/taskid-156_int_to_mini_roman-gen0.java:21:	AvoidLiteralsInIfCondition:	Avoid using literals in if statements
+/home/saima/projects/NonFunc-AWQ/multipLE-java/codellama-34B-instruct-hf/completion/taskid-156_int_to_mini_roman-gen0.java:23:	AvoidLiteralsInIfCondition:	Avoid using literals in if statements
+/home/saima/projects/NonFunc-AWQ/multipLE-java/codellama-34B-instruct-hf/completion/taskid-156_int_to_mini_roman-gen0.java:25:	AvoidLiteralsInIfCondition:	Avoid using literals in if statements
+/home/saima/projects/NonFunc-AWQ/multipLE-java/codellama-34B-instruct-hf/completion/taskid-156_int_to_mini_roman-gen0.java:27:	AvoidLiteralsInIfCondition:	Avoid using literals in if statements
+/home/saima/projects/NonFunc-AWQ/multipLE-java/codellama-34B-instruct-hf/completion/taskid-156_int_to_mini_roman-gen0.java:29:	AvoidLiteralsInIfCondition:	Avoid using literals in if statements
+/home/saima/projects/NonFunc-AWQ/multipLE-java/codellama-34B-instruct-hf/completion/taskid-156_int_to_mini_roman-gen0.java:31:	AvoidLiteralsInIfCondition:	Avoid using literals in if statements
+/home/saima/projects/NonFunc-AWQ/multipLE-java/codellama-34B-instruct-hf/completion/taskid-156_int_to_mini_roman-gen0.java:33:	AvoidLiteralsInIfCondition:	Avoid using literals in if statements
+/home/saima/projects/NonFunc-AWQ/multipLE-java/codellama-34B-instruct-hf/completion/taskid-156_int_to_mini_roman-gen0.java:35:	AvoidLiteralsInIfCondition:	Avoid using literals in if statements
+/home/saima/projects/NonFunc-AWQ/multipLE-java/codellama-34B-instruct-hf/completion/taskid-156_int_to_mini_roman-gen0.java:37:	AvoidLiteralsInIfCondition:	Avoid using literals in if statements

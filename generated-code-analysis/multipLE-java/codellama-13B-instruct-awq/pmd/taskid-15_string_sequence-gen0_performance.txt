@@ -1,0 +1,1 @@
+/home/saima/projects/NonFunc-AWQ/multipLE-java/codellama-13B-instruct-awq/completion/taskid-15_string_sequence-gen0.java:20:	AppendCharacterWithChar:	Avoid appending characters as strings in StringBuffer.append.

@@ -1,0 +1,1 @@
+/home/saima/projects/NonFunc-AWQ/multipLE-java/deepseekcoder-1.3B-instruct-awq/completion/taskid-1_separate_paren_groups-gen0.java:30:	AvoidInstantiatingObjectsInLoops:	Avoid instantiating new objects inside loops

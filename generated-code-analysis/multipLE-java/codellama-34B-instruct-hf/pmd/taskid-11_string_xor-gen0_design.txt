@@ -1,0 +1,3 @@
+/home/saima/projects/NonFunc-AWQ/multipLE-java/codellama-34B-instruct-hf/completion/taskid-11_string_xor-gen0.java:8:	UseUtilityClass:	This utility class has a non-private constructor
+/home/saima/projects/NonFunc-AWQ/multipLE-java/codellama-34B-instruct-hf/completion/taskid-11_string_xor-gen0.java:15:	AvoidThrowingRawExceptionTypes:	Avoid throwing raw exception types.
+LoosePackageCoupling	-	No packages or classes specified

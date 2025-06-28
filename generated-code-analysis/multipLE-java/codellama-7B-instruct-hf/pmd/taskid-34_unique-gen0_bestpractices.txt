@@ -1,0 +1,2 @@
+/home/saima/projects/NonFunc-AWQ/multipLE-java/codellama-7B-instruct-hf/completion/taskid-34_unique-gen0.java:12:	LooseCoupling:	Avoid using implementation types like 'ArrayList'; use the interface instead
+/home/saima/projects/NonFunc-AWQ/multipLE-java/codellama-7B-instruct-hf/completion/taskid-34_unique-gen0.java:12:	LooseCoupling:	Avoid using implementation types like 'ArrayList'; use the interface instead

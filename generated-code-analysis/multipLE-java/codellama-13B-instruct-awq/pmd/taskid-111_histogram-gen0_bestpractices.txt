@@ -1,0 +1,2 @@
+/home/saima/projects/NonFunc-AWQ/multipLE-java/codellama-13B-instruct-awq/completion/taskid-111_histogram-gen0.java:23:	LooseCoupling:	Avoid using implementation types like 'HashMap'; use the interface instead
+/home/saima/projects/NonFunc-AWQ/multipLE-java/codellama-13B-instruct-awq/completion/taskid-111_histogram-gen0.java:25:	LooseCoupling:	Avoid using implementation types like 'HashMap'; use the interface instead

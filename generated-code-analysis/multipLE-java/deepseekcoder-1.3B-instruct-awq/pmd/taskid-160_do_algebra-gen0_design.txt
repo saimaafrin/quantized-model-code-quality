@@ -1,0 +1,3 @@
+/home/saima/projects/NonFunc-AWQ/multipLE-java/deepseekcoder-1.3B-instruct-awq/completion/taskid-160_do_algebra-gen0.java:8:	UseUtilityClass:	This utility class has a non-private constructor
+/home/saima/projects/NonFunc-AWQ/multipLE-java/deepseekcoder-1.3B-instruct-awq/completion/taskid-160_do_algebra-gen0.java:27:	CyclomaticComplexity:	The method 'doAlgebra(ArrayList<String>, ArrayList<Long>)' has a cyclomatic complexity of 10.
+LoosePackageCoupling	-	No packages or classes specified

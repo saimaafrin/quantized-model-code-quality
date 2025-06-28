@@ -1,0 +1,4 @@
+/home/saima/projects/NonFunc-AWQ/multipLE-java/codellama-7B-instruct-awq/completion/taskid-163_generate_integers-gen0.java:18:	LooseCoupling:	Avoid using implementation types like 'ArrayList'; use the interface instead
+/home/saima/projects/NonFunc-AWQ/multipLE-java/codellama-7B-instruct-awq/completion/taskid-163_generate_integers-gen0.java:20:	LooseCoupling:	Avoid using implementation types like 'ArrayList'; use the interface instead
+/home/saima/projects/NonFunc-AWQ/multipLE-java/codellama-7B-instruct-awq/completion/taskid-163_generate_integers-gen0.java:21:	UnusedAssignment:	The initializer for variable 'start' is never used (overwritten on lines 24 and 27)
+/home/saima/projects/NonFunc-AWQ/multipLE-java/codellama-7B-instruct-awq/completion/taskid-163_generate_integers-gen0.java:22:	UnusedAssignment:	The initializer for variable 'end' is never used (overwritten on lines 25 and 28)

@@ -1,0 +1,1 @@
+/home/saima/projects/NonFunc-AWQ/multipLE-java/codellama-34B-instruct-awq/completion/taskid-150_x_or_y-gen0.java:18:	AvoidLiteralsInIfCondition:	Avoid using literals in if statements

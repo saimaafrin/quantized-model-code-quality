@@ -1,0 +1,3 @@
+/home/saima/projects/NonFunc-AWQ/multipLE-java/codellama-34B-instruct-awq/completion/taskid-135_can_arrange-gen0.java:8:	UseUtilityClass:	This utility class has a non-private constructor
+/home/saima/projects/NonFunc-AWQ/multipLE-java/codellama-34B-instruct-awq/completion/taskid-135_can_arrange-gen0.java:24:	CollapsibleIfStatements:	This if statement could be combined with its parent
+LoosePackageCoupling	-	No packages or classes specified

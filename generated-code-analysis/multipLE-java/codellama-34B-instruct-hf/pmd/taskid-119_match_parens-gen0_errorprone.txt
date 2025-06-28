@@ -1,0 +1,4 @@
+/home/saima/projects/NonFunc-AWQ/multipLE-java/codellama-34B-instruct-hf/completion/taskid-119_match_parens-gen0.java:28:	AvoidLiteralsInIfCondition:	Avoid using literals in if statements
+/home/saima/projects/NonFunc-AWQ/multipLE-java/codellama-34B-instruct-hf/completion/taskid-119_match_parens-gen0.java:30:	AvoidLiteralsInIfCondition:	Avoid using literals in if statements
+/home/saima/projects/NonFunc-AWQ/multipLE-java/codellama-34B-instruct-hf/completion/taskid-119_match_parens-gen0.java:43:	AvoidDuplicateLiterals:	The String literal "Yes" appears 6 times in this file; the first occurrence is on line 43
+/home/saima/projects/NonFunc-AWQ/multipLE-java/codellama-34B-instruct-hf/completion/taskid-119_match_parens-gen0.java:44:	AvoidDuplicateLiterals:	The String literal "No" appears 6 times in this file; the first occurrence is on line 44

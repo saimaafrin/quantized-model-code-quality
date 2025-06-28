@@ -1,0 +1,3 @@
+/home/saima/projects/NonFunc-AWQ/multipLE-java/codellama-34B-instruct-hf/completion/taskid-79_decimal_to_binary-gen0.java:21:	InsufficientStringBufferDeclaration:	StringBuilder has been initialized with size 18, but has at least 37 characters appended.
+/home/saima/projects/NonFunc-AWQ/multipLE-java/codellama-34B-instruct-hf/completion/taskid-79_decimal_to_binary-gen0.java:28:	AppendCharacterWithChar:	Avoid appending characters as strings in StringBuffer.append.
+/home/saima/projects/NonFunc-AWQ/multipLE-java/codellama-34B-instruct-hf/completion/taskid-79_decimal_to_binary-gen0.java:30:	AppendCharacterWithChar:	Avoid appending characters as strings in StringBuffer.append.

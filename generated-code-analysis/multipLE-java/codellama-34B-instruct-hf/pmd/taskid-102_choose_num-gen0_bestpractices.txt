@@ -1,0 +1,2 @@
+/home/saima/projects/NonFunc-AWQ/multipLE-java/codellama-34B-instruct-hf/completion/taskid-102_choose_num-gen0.java:21:	AvoidReassigningParameters:	Avoid reassigning parameters such as 'x'
+/home/saima/projects/NonFunc-AWQ/multipLE-java/codellama-34B-instruct-hf/completion/taskid-102_choose_num-gen0.java:22:	AvoidReassigningParameters:	Avoid reassigning parameters such as 'y'

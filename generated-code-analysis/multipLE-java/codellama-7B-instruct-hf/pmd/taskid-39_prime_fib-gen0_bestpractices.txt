@@ -1,0 +1,2 @@
+/home/saima/projects/NonFunc-AWQ/multipLE-java/codellama-7B-instruct-hf/completion/taskid-39_prime_fib-gen0.java:22:	OneDeclarationPerLine:	Use one line for each declaration, it enhances code readability.
+/home/saima/projects/NonFunc-AWQ/multipLE-java/codellama-7B-instruct-hf/completion/taskid-39_prime_fib-gen0.java:23:	UnusedAssignment:	The initializer for variable 'c' is never used (overwritten on line 26)

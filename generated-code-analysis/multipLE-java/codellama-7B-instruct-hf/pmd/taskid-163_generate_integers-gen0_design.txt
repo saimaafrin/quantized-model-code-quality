@@ -1,0 +1,2 @@
+/home/saima/projects/NonFunc-AWQ/multipLE-java/codellama-7B-instruct-hf/completion/taskid-163_generate_integers-gen0.java:8:	UseUtilityClass:	This utility class has a non-private constructor
+LoosePackageCoupling	-	No packages or classes specified

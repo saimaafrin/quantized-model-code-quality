@@ -1,0 +1,7 @@
+/home/saima/projects/NonFunc-AWQ/multipLE-java/deepseekcoder-1.3B-instruct-awq/completion/taskid-39_prime_fib-gen0.java:22:	UnusedAssignment:	The initializer for variable 'fib_num' is never used (overwritten on line 34)
+/home/saima/projects/NonFunc-AWQ/multipLE-java/deepseekcoder-1.3B-instruct-awq/completion/taskid-39_prime_fib-gen0.java:23:	UnusedAssignment:	The initializer for variable 'prime_num' is never used (overwritten on line 35)
+/home/saima/projects/NonFunc-AWQ/multipLE-java/deepseekcoder-1.3B-instruct-awq/completion/taskid-39_prime_fib-gen0.java:24:	UnusedLocalVariable:	Avoid unused local variables such as 'i'.
+/home/saima/projects/NonFunc-AWQ/multipLE-java/deepseekcoder-1.3B-instruct-awq/completion/taskid-39_prime_fib-gen0.java:25:	UnusedLocalVariable:	Avoid unused local variables such as 'j'.
+/home/saima/projects/NonFunc-AWQ/multipLE-java/deepseekcoder-1.3B-instruct-awq/completion/taskid-39_prime_fib-gen0.java:31:	UnusedLocalVariable:	Avoid unused local variables such as 'prime_i'.
+/home/saima/projects/NonFunc-AWQ/multipLE-java/deepseekcoder-1.3B-instruct-awq/completion/taskid-39_prime_fib-gen0.java:31:	UnusedAssignment:	The initializer for variable 'prime_i' is never used (overwritten on line 47)
+/home/saima/projects/NonFunc-AWQ/multipLE-java/deepseekcoder-1.3B-instruct-awq/completion/taskid-39_prime_fib-gen0.java:47:	UnusedAssignment:	The value assigned to variable 'prime_i' is never used (reassigned every iteration)

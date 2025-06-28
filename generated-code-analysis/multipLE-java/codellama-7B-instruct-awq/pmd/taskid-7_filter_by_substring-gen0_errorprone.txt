@@ -1,0 +1,2 @@
+/home/saima/projects/NonFunc-AWQ/multipLE-java/codellama-7B-instruct-awq/completion/taskid-7_filter_by_substring-gen0.java:20:	AvoidDuplicateLiterals:	The String literal "xxx" appears 8 times in this file; the first occurrence is on line 20
+/home/saima/projects/NonFunc-AWQ/multipLE-java/codellama-7B-instruct-awq/completion/taskid-7_filter_by_substring-gen0.java:20:	AvoidDuplicateLiterals:	The String literal "xxxAAA" appears 4 times in this file; the first occurrence is on line 20

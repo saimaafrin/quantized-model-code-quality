@@ -1,0 +1,6 @@
+/home/saima/projects/NonFunc-AWQ/multipLE-java/deepseekcoder-33B-instruct-hf/completion/taskid-149_sorted_list_sum-gen0.java:8:	CommentRequired:	Class comments are required
+/home/saima/projects/NonFunc-AWQ/multipLE-java/deepseekcoder-33B-instruct-hf/completion/taskid-149_sorted_list_sum-gen0.java:12:	CommentSize:	Comment is too large: Line too long
+/home/saima/projects/NonFunc-AWQ/multipLE-java/deepseekcoder-33B-instruct-hf/completion/taskid-149_sorted_list_sum-gen0.java:20:	CommentSize:	Comment is too large: Line too long
+/home/saima/projects/NonFunc-AWQ/multipLE-java/deepseekcoder-33B-instruct-hf/completion/taskid-149_sorted_list_sum-gen0.java:22:	CommentSize:	Comment is too large: Line too long
+/home/saima/projects/NonFunc-AWQ/multipLE-java/deepseekcoder-33B-instruct-hf/completion/taskid-149_sorted_list_sum-gen0.java:24:	CommentRequired:	Public method and constructor comments are required
+/home/saima/projects/NonFunc-AWQ/multipLE-java/deepseekcoder-33B-instruct-hf/completion/taskid-149_sorted_list_sum-gen0.java:44:	CommentRequired:	Public method and constructor comments are required

@@ -1,0 +1,3 @@
+/home/saima/projects/NonFunc-AWQ/multipLE-java/deepseekcoder-33B-instruct-hf/completion/taskid-141_file_name_check-gen0.java:38:	AvoidLiteralsInIfCondition:	Avoid using literals in if statements
+/home/saima/projects/NonFunc-AWQ/multipLE-java/deepseekcoder-33B-instruct-hf/completion/taskid-141_file_name_check-gen0.java:46:	AvoidDuplicateLiterals:	The String literal "Yes" appears 7 times in this file; the first occurrence is on line 46
+/home/saima/projects/NonFunc-AWQ/multipLE-java/deepseekcoder-33B-instruct-hf/completion/taskid-141_file_name_check-gen0.java:47:	AvoidDuplicateLiterals:	The String literal "No" appears 19 times in this file; the first occurrence is on line 47

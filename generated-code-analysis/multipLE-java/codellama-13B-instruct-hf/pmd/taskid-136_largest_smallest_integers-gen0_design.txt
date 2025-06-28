@@ -1,0 +1,6 @@
+/home/saima/projects/NonFunc-AWQ/multipLE-java/codellama-13B-instruct-hf/completion/taskid-136_largest_smallest_integers-gen0.java:8:	UseUtilityClass:	This utility class has a non-private constructor
+/home/saima/projects/NonFunc-AWQ/multipLE-java/codellama-13B-instruct-hf/completion/taskid-136_largest_smallest_integers-gen0.java:20:	CognitiveComplexity:	The method 'largestSmallestIntegers(ArrayList<Long>)' has a cognitive complexity of 24, current threshold is 15
+/home/saima/projects/NonFunc-AWQ/multipLE-java/codellama-13B-instruct-hf/completion/taskid-136_largest_smallest_integers-gen0.java:20:	CyclomaticComplexity:	The method 'largestSmallestIntegers(ArrayList<Long>)' has a cyclomatic complexity of 13.
+/home/saima/projects/NonFunc-AWQ/multipLE-java/codellama-13B-instruct-hf/completion/taskid-136_largest_smallest_integers-gen0.java:33:	CollapsibleIfStatements:	This if statement could be combined with its parent
+/home/saima/projects/NonFunc-AWQ/multipLE-java/codellama-13B-instruct-hf/completion/taskid-136_largest_smallest_integers-gen0.java:41:	CollapsibleIfStatements:	This if statement could be combined with its parent
+LoosePackageCoupling	-	No packages or classes specified

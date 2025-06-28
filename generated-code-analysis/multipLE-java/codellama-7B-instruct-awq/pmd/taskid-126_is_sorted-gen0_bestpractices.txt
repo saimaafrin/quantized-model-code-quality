@@ -1,0 +1,1 @@
+/home/saima/projects/NonFunc-AWQ/multipLE-java/codellama-7B-instruct-awq/completion/taskid-126_is_sorted-gen0.java:29:	LooseCoupling:	Avoid using implementation types like 'ArrayList'; use the interface instead

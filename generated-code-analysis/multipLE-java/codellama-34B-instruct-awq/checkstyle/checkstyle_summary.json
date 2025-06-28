@@ -1,0 +1,55 @@
+{
+    "Total code count": {
+        "files": 158
+    },
+    "Total Rule Violations": {
+        "javadoc": 157,
+        "imports": 1099,
+        "design": 157,
+        "whitespace": 4441,
+        "coding": 2851,
+        "regexp": 83,
+        "blocks": 58,
+        "naming": 28
+    },
+    "Error Code Counts": {
+        "javadoc": {
+            "JavadocPackage": 157
+        },
+        "imports": {
+            "AvoidStarImport": 1099
+        },
+        "design": {
+            "HideUtilityClassConstructor": 157
+        },
+        "whitespace": {
+            "WhitespaceAround": 1225,
+            "WhitespaceAfter": 3211,
+            "NoWhitespaceAfter": 4,
+            "FileTabCharacter": 1
+        },
+        "coding": {
+            "MagicNumber": 2577,
+            "SimplifyBooleanExpression": 267,
+            "MultipleVariableDeclarations": 3,
+            "SimplifyBooleanReturn": 2,
+            "MissingSwitchDefault": 2
+        },
+        "regexp": {
+            "RegexpSingleline": 83
+        },
+        "blocks": {
+            "NeedBraces": 45,
+            "RightCurly": 4,
+            "LeftCurly": 9
+        },
+        "naming": {
+            "ParameterName": 7,
+            "LocalVariableName": 20,
+            "MethodName": 1
+        },
+        "annotation": {},
+        "metrics": {},
+        "modifiers": {}
+    }
+}

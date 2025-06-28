@@ -1,0 +1,1 @@
+/home/saima/projects/NonFunc-AWQ/multipLE-java/codellama-34B-instruct-awq/completion/taskid-72_will_it_fly-gen0.java:24:	LooseCoupling:	Avoid using implementation types like 'ArrayList'; use the interface instead

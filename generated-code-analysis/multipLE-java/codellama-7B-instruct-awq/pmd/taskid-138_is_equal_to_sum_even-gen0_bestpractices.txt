@@ -1,0 +1,5 @@
+/home/saima/projects/NonFunc-AWQ/multipLE-java/codellama-7B-instruct-awq/completion/taskid-138_is_equal_to_sum_even-gen0.java:19:	OneDeclarationPerLine:	Use one line for each declaration, it enhances code readability.
+/home/saima/projects/NonFunc-AWQ/multipLE-java/codellama-7B-instruct-awq/completion/taskid-138_is_equal_to_sum_even-gen0.java:19:	UnusedAssignment:	The initializer for variable 'a' is never used (overwritten on line 20)
+/home/saima/projects/NonFunc-AWQ/multipLE-java/codellama-7B-instruct-awq/completion/taskid-138_is_equal_to_sum_even-gen0.java:19:	UnusedAssignment:	The initializer for variable 'b' is never used (overwritten on line 21)
+/home/saima/projects/NonFunc-AWQ/multipLE-java/codellama-7B-instruct-awq/completion/taskid-138_is_equal_to_sum_even-gen0.java:19:	UnusedAssignment:	The initializer for variable 'c' is never used (overwritten on line 22)
+/home/saima/projects/NonFunc-AWQ/multipLE-java/codellama-7B-instruct-awq/completion/taskid-138_is_equal_to_sum_even-gen0.java:19:	UnusedAssignment:	The initializer for variable 'd' is never used (overwritten on line 23)

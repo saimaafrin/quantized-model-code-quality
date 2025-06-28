@@ -1,0 +1,2 @@
+/home/saima/projects/NonFunc-AWQ/multipLE-java/codellama-34B-instruct-awq/completion/taskid-10_make_palindrome-gen0.java:8:	UseUtilityClass:	This utility class has a non-private constructor
+LoosePackageCoupling	-	No packages or classes specified

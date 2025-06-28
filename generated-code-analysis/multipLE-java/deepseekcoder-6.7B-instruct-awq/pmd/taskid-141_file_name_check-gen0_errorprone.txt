@@ -1,0 +1,2 @@
+/home/saima/projects/NonFunc-AWQ/multipLE-java/deepseekcoder-6.7B-instruct-awq/completion/taskid-141_file_name_check-gen0.java:42:	AvoidDuplicateLiterals:	The String literal "Yes" appears 7 times in this file; the first occurrence is on line 42
+/home/saima/projects/NonFunc-AWQ/multipLE-java/deepseekcoder-6.7B-instruct-awq/completion/taskid-141_file_name_check-gen0.java:43:	AvoidDuplicateLiterals:	The String literal "No" appears 19 times in this file; the first occurrence is on line 43

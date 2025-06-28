@@ -1,0 +1,5 @@
+/home/saima/projects/NonFunc-AWQ/multipLE-java/deepseekcoder-6.7B-instruct-hf/completion/taskid-95_check_dict_case-gen0.java:27:	UnnecessaryCaseChange:	Using equalsIgnoreCase() is cleaner than using toUpperCase/toLowerCase().equals().
+/home/saima/projects/NonFunc-AWQ/multipLE-java/deepseekcoder-6.7B-instruct-hf/completion/taskid-95_check_dict_case-gen0.java:27:	UseLocaleWithCaseConversions:	When doing a String.toLowerCase()/toUpperCase() call, use a Locale
+/home/saima/projects/NonFunc-AWQ/multipLE-java/deepseekcoder-6.7B-instruct-hf/completion/taskid-95_check_dict_case-gen0.java:28:	UnnecessaryCaseChange:	Using equalsIgnoreCase() is cleaner than using toUpperCase/toLowerCase().equals().
+/home/saima/projects/NonFunc-AWQ/multipLE-java/deepseekcoder-6.7B-instruct-hf/completion/taskid-95_check_dict_case-gen0.java:28:	UseLocaleWithCaseConversions:	When doing a String.toLowerCase()/toUpperCase() call, use a Locale
+/home/saima/projects/NonFunc-AWQ/multipLE-java/deepseekcoder-6.7B-instruct-hf/completion/taskid-95_check_dict_case-gen0.java:32:	AvoidDuplicateLiterals:	The String literal "banana" appears 4 times in this file; the first occurrence is on line 32

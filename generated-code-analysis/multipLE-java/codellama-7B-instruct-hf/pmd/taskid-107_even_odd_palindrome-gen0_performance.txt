@@ -1,0 +1,2 @@
+/home/saima/projects/NonFunc-AWQ/multipLE-java/codellama-7B-instruct-hf/completion/taskid-107_even_odd_palindrome-gen0.java:29:	AddEmptyString:	Do not add empty strings
+/home/saima/projects/NonFunc-AWQ/multipLE-java/codellama-7B-instruct-hf/completion/taskid-107_even_odd_palindrome-gen0.java:30:	AvoidInstantiatingObjectsInLoops:	Avoid instantiating new objects inside loops

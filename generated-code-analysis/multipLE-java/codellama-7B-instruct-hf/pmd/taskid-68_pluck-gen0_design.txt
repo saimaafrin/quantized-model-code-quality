@@ -1,0 +1,4 @@
+/home/saima/projects/NonFunc-AWQ/multipLE-java/codellama-7B-instruct-hf/completion/taskid-68_pluck-gen0.java:8:	UseUtilityClass:	This utility class has a non-private constructor
+/home/saima/projects/NonFunc-AWQ/multipLE-java/codellama-7B-instruct-hf/completion/taskid-68_pluck-gen0.java:34:	CognitiveComplexity:	The method 'pluck(ArrayList<Long>)' has a cognitive complexity of 19, current threshold is 15
+/home/saima/projects/NonFunc-AWQ/multipLE-java/codellama-7B-instruct-hf/completion/taskid-68_pluck-gen0.java:34:	CyclomaticComplexity:	The method 'pluck(ArrayList<Long>)' has a cyclomatic complexity of 15.
+LoosePackageCoupling	-	No packages or classes specified

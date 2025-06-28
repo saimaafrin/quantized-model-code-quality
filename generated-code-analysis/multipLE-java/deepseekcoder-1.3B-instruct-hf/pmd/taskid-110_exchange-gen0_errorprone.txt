@@ -1,0 +1,2 @@
+/home/saima/projects/NonFunc-AWQ/multipLE-java/deepseekcoder-1.3B-instruct-hf/completion/taskid-110_exchange-gen0.java:29:	AvoidLiteralsInIfCondition:	Avoid using literals in if statements
+/home/saima/projects/NonFunc-AWQ/multipLE-java/deepseekcoder-1.3B-instruct-hf/completion/taskid-110_exchange-gen0.java:45:	AvoidDuplicateLiterals:	The String literal "YES" appears 4 times in this file; the first occurrence is on line 45

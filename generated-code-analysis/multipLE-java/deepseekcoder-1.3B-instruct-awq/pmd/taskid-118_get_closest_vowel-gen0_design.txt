@@ -1,0 +1,4 @@
+/home/saima/projects/NonFunc-AWQ/multipLE-java/deepseekcoder-1.3B-instruct-awq/completion/taskid-118_get_closest_vowel-gen0.java:8:	UseUtilityClass:	This utility class has a non-private constructor
+/home/saima/projects/NonFunc-AWQ/multipLE-java/deepseekcoder-1.3B-instruct-awq/completion/taskid-118_get_closest_vowel-gen0.java:23:	CognitiveComplexity:	The method 'getClosestVowel(String)' has a cognitive complexity of 18, current threshold is 15
+/home/saima/projects/NonFunc-AWQ/multipLE-java/deepseekcoder-1.3B-instruct-awq/completion/taskid-118_get_closest_vowel-gen0.java:23:	CyclomaticComplexity:	The method 'getClosestVowel(String)' has a cyclomatic complexity of 23.
+LoosePackageCoupling	-	No packages or classes specified

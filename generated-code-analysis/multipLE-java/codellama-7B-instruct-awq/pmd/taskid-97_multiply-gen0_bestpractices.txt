@@ -1,0 +1,2 @@
+/home/saima/projects/NonFunc-AWQ/multipLE-java/codellama-7B-instruct-awq/completion/taskid-97_multiply-gen0.java:23:	UnusedLocalVariable:	Avoid unused local variables such as 'A'.
+/home/saima/projects/NonFunc-AWQ/multipLE-java/codellama-7B-instruct-awq/completion/taskid-97_multiply-gen0.java:24:	UnusedLocalVariable:	Avoid unused local variables such as 'B'.

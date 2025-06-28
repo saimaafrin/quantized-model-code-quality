@@ -1,0 +1,2 @@
+/home/saima/projects/NonFunc-AWQ/multipLE-java/deepseekcoder-6.7B-instruct-awq/completion/taskid-39_prime_fib-gen0.java:22:	OneDeclarationPerLine:	Use one line for each declaration, it enhances code readability.
+/home/saima/projects/NonFunc-AWQ/multipLE-java/deepseekcoder-6.7B-instruct-awq/completion/taskid-39_prime_fib-gen0.java:22:	UnusedAssignment:	The initializer for variable 'fib' is never used (overwritten on line 24)

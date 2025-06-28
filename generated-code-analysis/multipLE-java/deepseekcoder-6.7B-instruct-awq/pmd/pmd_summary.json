@@ -1,0 +1,83 @@
+{
+    "Total code count": {
+        "files": 158
+    },
+    "Total Rule Violations": {
+        "bestpractices": 424,
+        "codestyle": 9417,
+        "design": 424,
+        "documentation": 778,
+        "errorprone": 68,
+        "multithreading": 3,
+        "performance": 8,
+        "security": 0
+    },
+    "Error Code Counts": {
+        "bestpractices": {
+            "LooseCoupling": 190,
+            "AvoidReassigningParameters": 15,
+            "OneDeclarationPerLine": 7,
+            "LiteralsFirstInComparisons": 201,
+            "AvoidReassigningLoopVariables": 2,
+            "UnusedLocalVariable": 3,
+            "UnusedAssignment": 2,
+            "MissingOverride": 1,
+            "ForLoopVariableCount": 1,
+            "SwitchStmtsShouldHaveDefault": 1,
+            "ForLoopCanBeForeach": 1
+        },
+        "codestyle": {
+            "UnnecessaryImport": 989,
+            "NoPackage": 157,
+            "ShortVariable": 130,
+            "MethodArgumentCouldBeFinal": 185,
+            "UselessParentheses": 3500,
+            "UseUnderscoresInNumericLiterals": 36,
+            "LocalVariableCouldBeFinal": 206,
+            "UseDiamondOperator": 814,
+            "UnnecessaryCast": 3286,
+            "ControlStatementBraces": 24,
+            "OnlyOneReturn": 66,
+            "FormalParameterNamingConventions": 7,
+            "LinguisticNaming": 2,
+            "LocalVariableNamingConventions": 4,
+            "MethodNamingConventions": 1,
+            "LongVariable": 3,
+            "LambdaCanBeMethodReference": 3,
+            "ShortMethodName": 2,
+            "UnnecessaryLocalBeforeReturn": 2
+        },
+        "design": {
+            "UseUtilityClass": 157,
+            "SimplifyBooleanExpressions": 256,
+            "SimplifyBooleanReturns": 3,
+            "CollapsibleIfStatements": 2,
+            "CognitiveComplexity": 1,
+            "CyclomaticComplexity": 3,
+            "AvoidThrowingRawExceptionTypes": 1,
+            "NPathComplexity": 1
+        },
+        "documentation": {
+            "CommentRequired": 471,
+            "CommentSize": 307
+        },
+        "errorprone": {
+            "AvoidLiteralsInIfCondition": 45,
+            "UseLocaleWithCaseConversions": 3,
+            "AvoidDuplicateLiterals": 17,
+            "ReturnEmptyCollectionRatherThanNull": 1,
+            "UnnecessaryCaseChange": 2
+        },
+        "multithreading": {
+            "UseConcurrentHashMap": 3
+        },
+        "performance": {
+            "ConsecutiveAppendsShouldReuse": 1,
+            "UseStringBufferForStringAppends": 3,
+            "AddEmptyString": 1,
+            "AvoidInstantiatingObjectsInLoops": 1,
+            "AppendCharacterWithChar": 2
+        },
+        "security": {}
+    }
+}

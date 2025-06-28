@@ -1,0 +1,2 @@
+/home/saima/projects/NonFunc-AWQ/multipLE-java/codellama-13B-instruct-awq/completion/taskid-148_bf-gen0.java:29:	AvoidDuplicateLiterals:	The String literal "Saturn" appears 4 times in this file; the first occurrence is on line 29
+/home/saima/projects/NonFunc-AWQ/multipLE-java/codellama-13B-instruct-awq/completion/taskid-148_bf-gen0.java:40:	AvoidDuplicateLiterals:	The String literal "Earth" appears 4 times in this file; the first occurrence is on line 40

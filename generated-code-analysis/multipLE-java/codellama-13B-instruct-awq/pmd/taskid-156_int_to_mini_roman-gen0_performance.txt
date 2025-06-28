@@ -1,0 +1,2 @@
+/home/saima/projects/NonFunc-AWQ/multipLE-java/codellama-13B-instruct-awq/completion/taskid-156_int_to_mini_roman-gen0.java:28:	AvoidInstantiatingObjectsInLoops:	Avoid instantiating new objects inside loops
+/home/saima/projects/NonFunc-AWQ/multipLE-java/codellama-13B-instruct-awq/completion/taskid-156_int_to_mini_roman-gen0.java:28:	AvoidInstantiatingObjectsInLoops:	Avoid instantiating new objects inside loops

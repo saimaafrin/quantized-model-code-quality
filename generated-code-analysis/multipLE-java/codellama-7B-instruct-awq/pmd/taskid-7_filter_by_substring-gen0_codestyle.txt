@@ -1,0 +1,58 @@
+/home/saima/projects/NonFunc-AWQ/multipLE-java/codellama-7B-instruct-awq/completion/taskid-7_filter_by_substring-gen0.java:2:	UnnecessaryImport:	Unused import 'java.lang.reflect.*'
+/home/saima/projects/NonFunc-AWQ/multipLE-java/codellama-7B-instruct-awq/completion/taskid-7_filter_by_substring-gen0.java:3:	UnnecessaryImport:	Unused import 'org.javatuples.*'
+/home/saima/projects/NonFunc-AWQ/multipLE-java/codellama-7B-instruct-awq/completion/taskid-7_filter_by_substring-gen0.java:4:	UnnecessaryImport:	Unused import 'java.security.*'
+/home/saima/projects/NonFunc-AWQ/multipLE-java/codellama-7B-instruct-awq/completion/taskid-7_filter_by_substring-gen0.java:5:	UnnecessaryImport:	Unused import 'java.math.*'
+/home/saima/projects/NonFunc-AWQ/multipLE-java/codellama-7B-instruct-awq/completion/taskid-7_filter_by_substring-gen0.java:6:	UnnecessaryImport:	Unused import 'java.io.*'
+/home/saima/projects/NonFunc-AWQ/multipLE-java/codellama-7B-instruct-awq/completion/taskid-7_filter_by_substring-gen0.java:8:	NoPackage:	All classes, interfaces, enums and annotations must belong to a named package
+/home/saima/projects/NonFunc-AWQ/multipLE-java/codellama-7B-instruct-awq/completion/taskid-7_filter_by_substring-gen0.java:14:	MethodArgumentCouldBeFinal:	Parameter 'strings' is not assigned and could be declared final
+/home/saima/projects/NonFunc-AWQ/multipLE-java/codellama-7B-instruct-awq/completion/taskid-7_filter_by_substring-gen0.java:14:	MethodArgumentCouldBeFinal:	Parameter 'substring' is not assigned and could be declared final
+/home/saima/projects/NonFunc-AWQ/multipLE-java/codellama-7B-instruct-awq/completion/taskid-7_filter_by_substring-gen0.java:16:	UseDiamondOperator:	Explicit type arguments can be replaced by a diamond: `new ArrayList<>(...)`
+/home/saima/projects/NonFunc-AWQ/multipLE-java/codellama-7B-instruct-awq/completion/taskid-7_filter_by_substring-gen0.java:19:	UselessParentheses:	Useless parentheses.
+/home/saima/projects/NonFunc-AWQ/multipLE-java/codellama-7B-instruct-awq/completion/taskid-7_filter_by_substring-gen0.java:19:	UselessParentheses:	Useless parentheses.
+/home/saima/projects/NonFunc-AWQ/multipLE-java/codellama-7B-instruct-awq/completion/taskid-7_filter_by_substring-gen0.java:19:	UseDiamondOperator:	Explicit type arguments can be replaced by a diamond: `new ArrayList<>(Arrays.asList())`
+/home/saima/projects/NonFunc-AWQ/multipLE-java/codellama-7B-instruct-awq/completion/taskid-7_filter_by_substring-gen0.java:19:	UselessParentheses:	Useless parentheses.
+/home/saima/projects/NonFunc-AWQ/multipLE-java/codellama-7B-instruct-awq/completion/taskid-7_filter_by_substring-gen0.java:19:	UselessParentheses:	Useless parentheses.
+/home/saima/projects/NonFunc-AWQ/multipLE-java/codellama-7B-instruct-awq/completion/taskid-7_filter_by_substring-gen0.java:19:	UseDiamondOperator:	Explicit type arguments can be replaced by a diamond: `new ArrayList<>(Arrays.asList())`
+/home/saima/projects/NonFunc-AWQ/multipLE-java/codellama-7B-instruct-awq/completion/taskid-7_filter_by_substring-gen0.java:20:	UselessParentheses:	Useless parentheses.
+/home/saima/projects/NonFunc-AWQ/multipLE-java/codellama-7B-instruct-awq/completion/taskid-7_filter_by_substring-gen0.java:20:	UselessParentheses:	Useless parentheses.
+/home/saima/projects/NonFunc-AWQ/multipLE-java/codellama-7B-instruct-awq/completion/taskid-7_filter_by_substring-gen0.java:20:	UseDiamondOperator:	Explicit type arguments can be replaced by a diamond: `new ArrayList<>(...)`
+/home/saima/projects/NonFunc-AWQ/multipLE-java/codellama-7B-instruct-awq/completion/taskid-7_filter_by_substring-gen0.java:20:	UnnecessaryCast:	Unnecessary cast (String)
+/home/saima/projects/NonFunc-AWQ/multipLE-java/codellama-7B-instruct-awq/completion/taskid-7_filter_by_substring-gen0.java:20:	UnnecessaryCast:	Unnecessary cast (String)
+/home/saima/projects/NonFunc-AWQ/multipLE-java/codellama-7B-instruct-awq/completion/taskid-7_filter_by_substring-gen0.java:20:	UnnecessaryCast:	Unnecessary cast (String)
+/home/saima/projects/NonFunc-AWQ/multipLE-java/codellama-7B-instruct-awq/completion/taskid-7_filter_by_substring-gen0.java:20:	UnnecessaryCast:	Unnecessary cast (String)
+/home/saima/projects/NonFunc-AWQ/multipLE-java/codellama-7B-instruct-awq/completion/taskid-7_filter_by_substring-gen0.java:20:	UnnecessaryCast:	Unnecessary cast (String)
+/home/saima/projects/NonFunc-AWQ/multipLE-java/codellama-7B-instruct-awq/completion/taskid-7_filter_by_substring-gen0.java:20:	UnnecessaryCast:	Unnecessary cast (String)
+/home/saima/projects/NonFunc-AWQ/multipLE-java/codellama-7B-instruct-awq/completion/taskid-7_filter_by_substring-gen0.java:20:	UselessParentheses:	Useless parentheses.
+/home/saima/projects/NonFunc-AWQ/multipLE-java/codellama-7B-instruct-awq/completion/taskid-7_filter_by_substring-gen0.java:20:	UselessParentheses:	Useless parentheses.
+/home/saima/projects/NonFunc-AWQ/multipLE-java/codellama-7B-instruct-awq/completion/taskid-7_filter_by_substring-gen0.java:20:	UseDiamondOperator:	Explicit type arguments can be replaced by a diamond: `new ArrayList<>(...)`
+/home/saima/projects/NonFunc-AWQ/multipLE-java/codellama-7B-instruct-awq/completion/taskid-7_filter_by_substring-gen0.java:20:	UnnecessaryCast:	Unnecessary cast (String)
+/home/saima/projects/NonFunc-AWQ/multipLE-java/codellama-7B-instruct-awq/completion/taskid-7_filter_by_substring-gen0.java:20:	UnnecessaryCast:	Unnecessary cast (String)
+/home/saima/projects/NonFunc-AWQ/multipLE-java/codellama-7B-instruct-awq/completion/taskid-7_filter_by_substring-gen0.java:20:	UnnecessaryCast:	Unnecessary cast (String)
+/home/saima/projects/NonFunc-AWQ/multipLE-java/codellama-7B-instruct-awq/completion/taskid-7_filter_by_substring-gen0.java:21:	UselessParentheses:	Useless parentheses.
+/home/saima/projects/NonFunc-AWQ/multipLE-java/codellama-7B-instruct-awq/completion/taskid-7_filter_by_substring-gen0.java:21:	UselessParentheses:	Useless parentheses.
+/home/saima/projects/NonFunc-AWQ/multipLE-java/codellama-7B-instruct-awq/completion/taskid-7_filter_by_substring-gen0.java:21:	UseDiamondOperator:	Explicit type arguments can be replaced by a diamond: `new ArrayList<>(...)`
+/home/saima/projects/NonFunc-AWQ/multipLE-java/codellama-7B-instruct-awq/completion/taskid-7_filter_by_substring-gen0.java:21:	UnnecessaryCast:	Unnecessary cast (String)
+/home/saima/projects/NonFunc-AWQ/multipLE-java/codellama-7B-instruct-awq/completion/taskid-7_filter_by_substring-gen0.java:21:	UnnecessaryCast:	Unnecessary cast (String)
+/home/saima/projects/NonFunc-AWQ/multipLE-java/codellama-7B-instruct-awq/completion/taskid-7_filter_by_substring-gen0.java:21:	UnnecessaryCast:	Unnecessary cast (String)
+/home/saima/projects/NonFunc-AWQ/multipLE-java/codellama-7B-instruct-awq/completion/taskid-7_filter_by_substring-gen0.java:21:	UnnecessaryCast:	Unnecessary cast (String)
+/home/saima/projects/NonFunc-AWQ/multipLE-java/codellama-7B-instruct-awq/completion/taskid-7_filter_by_substring-gen0.java:21:	UnnecessaryCast:	Unnecessary cast (String)
+/home/saima/projects/NonFunc-AWQ/multipLE-java/codellama-7B-instruct-awq/completion/taskid-7_filter_by_substring-gen0.java:21:	UnnecessaryCast:	Unnecessary cast (String)
+/home/saima/projects/NonFunc-AWQ/multipLE-java/codellama-7B-instruct-awq/completion/taskid-7_filter_by_substring-gen0.java:21:	UselessParentheses:	Useless parentheses.
+/home/saima/projects/NonFunc-AWQ/multipLE-java/codellama-7B-instruct-awq/completion/taskid-7_filter_by_substring-gen0.java:21:	UselessParentheses:	Useless parentheses.
+/home/saima/projects/NonFunc-AWQ/multipLE-java/codellama-7B-instruct-awq/completion/taskid-7_filter_by_substring-gen0.java:21:	UseDiamondOperator:	Explicit type arguments can be replaced by a diamond: `new ArrayList<>(...)`
+/home/saima/projects/NonFunc-AWQ/multipLE-java/codellama-7B-instruct-awq/completion/taskid-7_filter_by_substring-gen0.java:21:	UnnecessaryCast:	Unnecessary cast (String)
+/home/saima/projects/NonFunc-AWQ/multipLE-java/codellama-7B-instruct-awq/completion/taskid-7_filter_by_substring-gen0.java:21:	UnnecessaryCast:	Unnecessary cast (String)
+/home/saima/projects/NonFunc-AWQ/multipLE-java/codellama-7B-instruct-awq/completion/taskid-7_filter_by_substring-gen0.java:21:	UnnecessaryCast:	Unnecessary cast (String)
+/home/saima/projects/NonFunc-AWQ/multipLE-java/codellama-7B-instruct-awq/completion/taskid-7_filter_by_substring-gen0.java:21:	UnnecessaryCast:	Unnecessary cast (String)
+/home/saima/projects/NonFunc-AWQ/multipLE-java/codellama-7B-instruct-awq/completion/taskid-7_filter_by_substring-gen0.java:22:	UselessParentheses:	Useless parentheses.
+/home/saima/projects/NonFunc-AWQ/multipLE-java/codellama-7B-instruct-awq/completion/taskid-7_filter_by_substring-gen0.java:22:	UselessParentheses:	Useless parentheses.
+/home/saima/projects/NonFunc-AWQ/multipLE-java/codellama-7B-instruct-awq/completion/taskid-7_filter_by_substring-gen0.java:22:	UseDiamondOperator:	Explicit type arguments can be replaced by a diamond: `new ArrayList<>(...)`
+/home/saima/projects/NonFunc-AWQ/multipLE-java/codellama-7B-instruct-awq/completion/taskid-7_filter_by_substring-gen0.java:22:	UnnecessaryCast:	Unnecessary cast (String)
+/home/saima/projects/NonFunc-AWQ/multipLE-java/codellama-7B-instruct-awq/completion/taskid-7_filter_by_substring-gen0.java:22:	UnnecessaryCast:	Unnecessary cast (String)
+/home/saima/projects/NonFunc-AWQ/multipLE-java/codellama-7B-instruct-awq/completion/taskid-7_filter_by_substring-gen0.java:22:	UnnecessaryCast:	Unnecessary cast (String)
+/home/saima/projects/NonFunc-AWQ/multipLE-java/codellama-7B-instruct-awq/completion/taskid-7_filter_by_substring-gen0.java:22:	UnnecessaryCast:	Unnecessary cast (String)
+/home/saima/projects/NonFunc-AWQ/multipLE-java/codellama-7B-instruct-awq/completion/taskid-7_filter_by_substring-gen0.java:22:	UselessParentheses:	Useless parentheses.
+/home/saima/projects/NonFunc-AWQ/multipLE-java/codellama-7B-instruct-awq/completion/taskid-7_filter_by_substring-gen0.java:22:	UselessParentheses:	Useless parentheses.
+/home/saima/projects/NonFunc-AWQ/multipLE-java/codellama-7B-instruct-awq/completion/taskid-7_filter_by_substring-gen0.java:22:	UseDiamondOperator:	Explicit type arguments can be replaced by a diamond: `new ArrayList<>(...)`
+/home/saima/projects/NonFunc-AWQ/multipLE-java/codellama-7B-instruct-awq/completion/taskid-7_filter_by_substring-gen0.java:22:	UnnecessaryCast:	Unnecessary cast (String)
+/home/saima/projects/NonFunc-AWQ/multipLE-java/codellama-7B-instruct-awq/completion/taskid-7_filter_by_substring-gen0.java:22:	UnnecessaryCast:	Unnecessary cast (String)

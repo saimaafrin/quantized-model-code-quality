@@ -1,0 +1,2 @@
+/home/saima/projects/NonFunc-AWQ/multipLE-java/deepseekcoder-1.3B-instruct-hf/completion/taskid-114_minSubArraySum-gen0.java:16:	LooseCoupling:	Avoid using implementation types like 'ArrayList'; use the interface instead
+/home/saima/projects/NonFunc-AWQ/multipLE-java/deepseekcoder-1.3B-instruct-hf/completion/taskid-114_minSubArraySum-gen0.java:19:	UnusedAssignment:	The initializer for variable 'currentSum' is never used (overwritten on line 21)

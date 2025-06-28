@@ -1,0 +1,6 @@
+/home/saima/projects/NonFunc-AWQ/multipLE-java/deepseekcoder-6.7B-instruct-awq/completion/taskid-145_order_by_points-gen0.java:18:	LooseCoupling:	Avoid using implementation types like 'ArrayList'; use the interface instead
+/home/saima/projects/NonFunc-AWQ/multipLE-java/deepseekcoder-6.7B-instruct-awq/completion/taskid-145_order_by_points-gen0.java:18:	LooseCoupling:	Avoid using implementation types like 'ArrayList'; use the interface instead
+/home/saima/projects/NonFunc-AWQ/multipLE-java/deepseekcoder-6.7B-instruct-awq/completion/taskid-145_order_by_points-gen0.java:20:	LooseCoupling:	Avoid using implementation types like 'ArrayList'; use the interface instead
+/home/saima/projects/NonFunc-AWQ/multipLE-java/deepseekcoder-6.7B-instruct-awq/completion/taskid-145_order_by_points-gen0.java:22:	UnusedLocalVariable:	Avoid unused local variables such as 'sum'.
+/home/saima/projects/NonFunc-AWQ/multipLE-java/deepseekcoder-6.7B-instruct-awq/completion/taskid-145_order_by_points-gen0.java:33:	MissingOverride:	The method 'compare(Pair<Long, Long>, Pair<Long, Long>)' is missing an @Override annotation.
+/home/saima/projects/NonFunc-AWQ/multipLE-java/deepseekcoder-6.7B-instruct-awq/completion/taskid-145_order_by_points-gen0.java:39:	LooseCoupling:	Avoid using implementation types like 'ArrayList'; use the interface instead

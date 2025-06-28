@@ -1,0 +1,1 @@
+/home/saima/projects/NonFunc-AWQ/multipLE-java/deepseekcoder-1.3B-instruct-hf/completion/taskid-144_simplify-gen0.java:36:	AvoidDuplicateLiterals:	The String literal "1/5" appears 4 times in this file; the first occurrence is on line 36

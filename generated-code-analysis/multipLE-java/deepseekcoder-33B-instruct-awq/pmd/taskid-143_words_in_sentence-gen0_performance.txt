@@ -1,0 +1,2 @@
+/home/saima/projects/NonFunc-AWQ/multipLE-java/deepseekcoder-33B-instruct-awq/completion/taskid-143_words_in_sentence-gen0.java:29:	ConsecutiveAppendsShouldReuse:	StringBuffer (or StringBuilder).append is called consecutively without reusing the target variable.
+/home/saima/projects/NonFunc-AWQ/multipLE-java/deepseekcoder-33B-instruct-awq/completion/taskid-143_words_in_sentence-gen0.java:30:	AppendCharacterWithChar:	Avoid appending characters as strings in StringBuffer.append.

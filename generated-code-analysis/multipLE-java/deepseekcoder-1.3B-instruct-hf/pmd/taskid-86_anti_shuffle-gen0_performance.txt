@@ -1,0 +1,3 @@
+/home/saima/projects/NonFunc-AWQ/multipLE-java/deepseekcoder-1.3B-instruct-hf/completion/taskid-86_anti_shuffle-gen0.java:29:	ConsecutiveAppendsShouldReuse:	StringBuffer (or StringBuilder).append is called consecutively without reusing the target variable.
+/home/saima/projects/NonFunc-AWQ/multipLE-java/deepseekcoder-1.3B-instruct-hf/completion/taskid-86_anti_shuffle-gen0.java:29:	AvoidInstantiatingObjectsInLoops:	Avoid instantiating new objects inside loops
+/home/saima/projects/NonFunc-AWQ/multipLE-java/deepseekcoder-1.3B-instruct-hf/completion/taskid-86_anti_shuffle-gen0.java:30:	AppendCharacterWithChar:	Avoid appending characters as strings in StringBuffer.append.

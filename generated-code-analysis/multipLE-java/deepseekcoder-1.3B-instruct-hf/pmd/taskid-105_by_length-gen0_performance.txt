@@ -1,0 +1,1 @@
+/home/saima/projects/NonFunc-AWQ/multipLE-java/deepseekcoder-1.3B-instruct-hf/completion/taskid-105_by_length-gen0.java:40:	AvoidInstantiatingObjectsInLoops:	Avoid instantiating new objects inside loops

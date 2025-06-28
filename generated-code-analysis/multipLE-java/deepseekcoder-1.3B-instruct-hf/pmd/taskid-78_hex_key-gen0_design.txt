@@ -1,0 +1,3 @@
+/home/saima/projects/NonFunc-AWQ/multipLE-java/deepseekcoder-1.3B-instruct-hf/completion/taskid-78_hex_key-gen0.java:8:	UseUtilityClass:	This utility class has a non-private constructor
+/home/saima/projects/NonFunc-AWQ/multipLE-java/deepseekcoder-1.3B-instruct-hf/completion/taskid-78_hex_key-gen0.java:38:	CollapsibleIfStatements:	This if statement could be combined with its parent
+LoosePackageCoupling	-	No packages or classes specified

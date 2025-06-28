@@ -1,0 +1,89 @@
+{
+    "Total code count": {
+        "files": 158
+    },
+    "Total Rule Violations": {
+        "bestpractices": 426,
+        "codestyle": 9271,
+        "design": 443,
+        "documentation": 778,
+        "errorprone": 102,
+        "multithreading": 1,
+        "performance": 31,
+        "security": 0
+    },
+    "Error Code Counts": {
+        "bestpractices": {
+            "LooseCoupling": 171,
+            "AvoidReassigningParameters": 18,
+            "UnusedAssignment": 5,
+            "OneDeclarationPerLine": 3,
+            "LiteralsFirstInComparisons": 203,
+            "UseCollectionIsEmpty": 8,
+            "ForLoopCanBeForeach": 12,
+            "UnusedLocalVariable": 2,
+            "SwitchStmtsShouldHaveDefault": 2,
+            "AvoidReassigningLoopVariables": 2
+        },
+        "codestyle": {
+            "UnnecessaryImport": 1000,
+            "NoPackage": 157,
+            "ShortVariable": 170,
+            "UselessParentheses": 3514,
+            "UseUnderscoresInNumericLiterals": 35,
+            "MethodArgumentCouldBeFinal": 180,
+            "UnnecessaryLocalBeforeReturn": 3,
+            "LocalVariableCouldBeFinal": 205,
+            "UseDiamondOperator": 776,
+            "UnnecessaryCast": 3057,
+            "UseExplicitTypes": 2,
+            "OnlyOneReturn": 77,
+            "ControlStatementBraces": 45,
+            "FormalParameterNamingConventions": 7,
+            "LocalVariableNamingConventions": 20,
+            "LinguisticNaming": 3,
+            "LambdaCanBeMethodReference": 3,
+            "UnnecessaryBoxing": 6,
+            "MethodNamingConventions": 1,
+            "LongVariable": 2,
+            "PrematureDeclaration": 3,
+            "ShortMethodName": 2,
+            "UseShortArrayInitializer": 2,
+            "UnnecessaryFullyQualifiedName": 1
+        },
+        "design": {
+            "UseUtilityClass": 157,
+            "AvoidCatchingGenericException": 2,
+            "SimplifyBooleanExpressions": 267,
+            "AvoidThrowingRawExceptionTypes": 1,
+            "CyclomaticComplexity": 6,
+            "CollapsibleIfStatements": 2,
+            "SimplifyBooleanReturns": 4,
+            "CognitiveComplexity": 3,
+            "LogicInversion": 1
+        },
+        "documentation": {
+            "CommentRequired": 471,
+            "CommentSize": 307
+        },
+        "errorprone": {
+            "IdempotentOperations": 1,
+            "AvoidLiteralsInIfCondition": 69,
+            "UseLocaleWithCaseConversions": 5,
+            "AvoidDuplicateLiterals": 17,
+            "UnnecessaryCaseChange": 3,
+            "ReturnEmptyCollectionRatherThanNull": 1,
+            "CompareObjectsWithEquals": 6
+        },
+        "multithreading": {
+            "UseConcurrentHashMap": 1
+        },
+        "performance": {
+            "UseStringBufferForStringAppends": 16,
+            "AddEmptyString": 9,
+            "BigIntegerInstantiation": 4,
+            "AvoidInstantiatingObjectsInLoops": 2
+        },
+        "security": {}
+    }
+}

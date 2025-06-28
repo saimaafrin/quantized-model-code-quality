@@ -1,0 +1,1 @@
+/home/saima/projects/NonFunc-AWQ/multipLE-java/deepseekcoder-33B-instruct-awq/completion/taskid-46_fib4-gen0.java:31:	OneDeclarationPerLine:	Use one line for each declaration, it enhances code readability.

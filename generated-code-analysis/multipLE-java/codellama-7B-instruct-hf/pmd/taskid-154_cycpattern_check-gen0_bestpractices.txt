@@ -1,0 +1,2 @@
+/home/saima/projects/NonFunc-AWQ/multipLE-java/codellama-7B-instruct-hf/completion/taskid-154_cycpattern_check-gen0.java:25:	OneDeclarationPerLine:	Use one line for each declaration, it enhances code readability.
+/home/saima/projects/NonFunc-AWQ/multipLE-java/codellama-7B-instruct-hf/completion/taskid-154_cycpattern_check-gen0.java:26:	UnusedLocalVariable:	Avoid unused local variables such as 'slen'.

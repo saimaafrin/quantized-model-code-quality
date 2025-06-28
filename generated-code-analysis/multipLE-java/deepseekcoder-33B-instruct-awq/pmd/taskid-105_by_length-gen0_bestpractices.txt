@@ -1,0 +1,5 @@
+/home/saima/projects/NonFunc-AWQ/multipLE-java/deepseekcoder-33B-instruct-awq/completion/taskid-105_by_length-gen0.java:21:	LooseCoupling:	Avoid using implementation types like 'ArrayList'; use the interface instead
+/home/saima/projects/NonFunc-AWQ/multipLE-java/deepseekcoder-33B-instruct-awq/completion/taskid-105_by_length-gen0.java:21:	LooseCoupling:	Avoid using implementation types like 'ArrayList'; use the interface instead
+/home/saima/projects/NonFunc-AWQ/multipLE-java/deepseekcoder-33B-instruct-awq/completion/taskid-105_by_length-gen0.java:23:	LooseCoupling:	Avoid using implementation types like 'HashMap'; use the interface instead
+/home/saima/projects/NonFunc-AWQ/multipLE-java/deepseekcoder-33B-instruct-awq/completion/taskid-105_by_length-gen0.java:33:	AvoidReassigningParameters:	Avoid reassigning parameters such as 'arr'
+/home/saima/projects/NonFunc-AWQ/multipLE-java/deepseekcoder-33B-instruct-awq/completion/taskid-105_by_length-gen0.java:36:	LooseCoupling:	Avoid using implementation types like 'ArrayList'; use the interface instead

@@ -1,0 +1,8 @@
+/home/saima/projects/NonFunc-AWQ/multipLE-java/codellama-13B-instruct-awq/completion/taskid-94_skjkasdkd-gen0.java:24:	LooseCoupling:	Avoid using implementation types like 'ArrayList'; use the interface instead
+/home/saima/projects/NonFunc-AWQ/multipLE-java/codellama-13B-instruct-awq/completion/taskid-94_skjkasdkd-gen0.java:26:	UnusedAssignment:	The initializer for variable 'n' is never used (overwritten on line 33)
+/home/saima/projects/NonFunc-AWQ/multipLE-java/codellama-13B-instruct-awq/completion/taskid-94_skjkasdkd-gen0.java:27:	UnusedLocalVariable:	Avoid unused local variables such as 'nn'.
+/home/saima/projects/NonFunc-AWQ/multipLE-java/codellama-13B-instruct-awq/completion/taskid-94_skjkasdkd-gen0.java:27:	UnusedAssignment:	The initializer for variable 'nn' is never used (overwritten on line 34)
+/home/saima/projects/NonFunc-AWQ/multipLE-java/codellama-13B-instruct-awq/completion/taskid-94_skjkasdkd-gen0.java:28:	UnusedAssignment:	The initializer for variable 'nnn' is never used (overwritten on line 35)
+/home/saima/projects/NonFunc-AWQ/multipLE-java/codellama-13B-instruct-awq/completion/taskid-94_skjkasdkd-gen0.java:30:	UnusedLocalVariable:	Avoid unused local variables such as 'k'.
+/home/saima/projects/NonFunc-AWQ/multipLE-java/codellama-13B-instruct-awq/completion/taskid-94_skjkasdkd-gen0.java:30:	UnusedAssignment:	The initializer for variable 'k' is never used (overwritten on line 36)
+/home/saima/projects/NonFunc-AWQ/multipLE-java/codellama-13B-instruct-awq/completion/taskid-94_skjkasdkd-gen0.java:34:	UnusedAssignment:	The value assigned to variable 'nn' is never used (reassigned every iteration)

@@ -1,0 +1,3 @@
+/home/saima/projects/NonFunc-AWQ/multipLE-java/deepseekcoder-1.3B-instruct-awq/completion/taskid-156_int_to_mini_roman-gen0.java:8:	UseUtilityClass:	This utility class has a non-private constructor
+/home/saima/projects/NonFunc-AWQ/multipLE-java/deepseekcoder-1.3B-instruct-awq/completion/taskid-156_int_to_mini_roman-gen0.java:35:	LawOfDemeter:	Access to field `_2` on foreign value `tuple` (degree 1)
+LoosePackageCoupling	-	No packages or classes specified

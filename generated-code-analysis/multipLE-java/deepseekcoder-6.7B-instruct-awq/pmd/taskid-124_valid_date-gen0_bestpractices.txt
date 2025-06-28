@@ -1,0 +1,3 @@
+/home/saima/projects/NonFunc-AWQ/multipLE-java/deepseekcoder-6.7B-instruct-awq/completion/taskid-124_valid_date-gen0.java:37:	OneDeclarationPerLine:	Use one line for each declaration, it enhances code readability.
+/home/saima/projects/NonFunc-AWQ/multipLE-java/deepseekcoder-6.7B-instruct-awq/completion/taskid-124_valid_date-gen0.java:37:	UnusedLocalVariable:	Avoid unused local variables such as 'year'.
+/home/saima/projects/NonFunc-AWQ/multipLE-java/deepseekcoder-6.7B-instruct-awq/completion/taskid-124_valid_date-gen0.java:41:	UnusedAssignment:	The value assigned to variable 'year' is never used

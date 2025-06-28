@@ -1,0 +1,2 @@
+/home/saima/projects/NonFunc-AWQ/multipLE-java/codellama-7B-instruct-hf/completion/taskid-86_anti_shuffle-gen0.java:28:	ConsecutiveAppendsShouldReuse:	StringBuffer (or StringBuilder).append is called consecutively without reusing the target variable.
+/home/saima/projects/NonFunc-AWQ/multipLE-java/codellama-7B-instruct-hf/completion/taskid-86_anti_shuffle-gen0.java:29:	AppendCharacterWithChar:	Avoid appending characters as strings in StringBuffer.append.

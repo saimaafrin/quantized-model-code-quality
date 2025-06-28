@@ -1,0 +1,5 @@
+/home/saima/projects/NonFunc-AWQ/multipLE-java/codellama-34B-instruct-awq/completion/taskid-159_eat-gen0.java:35:	LooseCoupling:	Avoid using implementation types like 'ArrayList'; use the interface instead
+/home/saima/projects/NonFunc-AWQ/multipLE-java/codellama-34B-instruct-awq/completion/taskid-159_eat-gen0.java:40:	AvoidReassigningParameters:	Avoid reassigning parameters such as 'need'
+/home/saima/projects/NonFunc-AWQ/multipLE-java/codellama-34B-instruct-awq/completion/taskid-159_eat-gen0.java:40:	UnusedAssignment:	The value assigned to variable 'need' is never used
+/home/saima/projects/NonFunc-AWQ/multipLE-java/codellama-34B-instruct-awq/completion/taskid-159_eat-gen0.java:42:	UnusedAssignment:	The value assigned to variable 'need' is never used
+/home/saima/projects/NonFunc-AWQ/multipLE-java/codellama-34B-instruct-awq/completion/taskid-159_eat-gen0.java:44:	LooseCoupling:	Avoid using implementation types like 'ArrayList'; use the interface instead

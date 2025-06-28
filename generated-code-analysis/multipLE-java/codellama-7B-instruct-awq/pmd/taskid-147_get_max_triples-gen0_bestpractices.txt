@@ -1,0 +1,5 @@
+/home/saima/projects/NonFunc-AWQ/multipLE-java/codellama-7B-instruct-awq/completion/taskid-147_get_max_triples-gen0.java:22:	OneDeclarationPerLine:	Use one line for each declaration, it enhances code readability.
+/home/saima/projects/NonFunc-AWQ/multipLE-java/codellama-7B-instruct-awq/completion/taskid-147_get_max_triples-gen0.java:22:	UnusedAssignment:	The initializer for variable 'j' is never used (overwritten on line 24)
+/home/saima/projects/NonFunc-AWQ/multipLE-java/codellama-7B-instruct-awq/completion/taskid-147_get_max_triples-gen0.java:22:	UnusedLocalVariable:	Avoid unused local variables such as 'k'.
+/home/saima/projects/NonFunc-AWQ/multipLE-java/codellama-7B-instruct-awq/completion/taskid-147_get_max_triples-gen0.java:22:	UnusedAssignment:	The initializer for variable 'k' is never used (overwritten on line 25)
+/home/saima/projects/NonFunc-AWQ/multipLE-java/codellama-7B-instruct-awq/completion/taskid-147_get_max_triples-gen0.java:25:	UnusedAssignment:	The value assigned to variable 'k' is never used (reassigned every iteration)

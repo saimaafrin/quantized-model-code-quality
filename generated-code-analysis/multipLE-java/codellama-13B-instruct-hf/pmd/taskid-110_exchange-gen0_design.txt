@@ -1,0 +1,4 @@
+/home/saima/projects/NonFunc-AWQ/multipLE-java/codellama-13B-instruct-hf/completion/taskid-110_exchange-gen0.java:8:	UseUtilityClass:	This utility class has a non-private constructor
+/home/saima/projects/NonFunc-AWQ/multipLE-java/codellama-13B-instruct-hf/completion/taskid-110_exchange-gen0.java:22:	CognitiveComplexity:	The method 'exchange(ArrayList<Long>, ArrayList<Long>)' has a cognitive complexity of 23, current threshold is 15
+/home/saima/projects/NonFunc-AWQ/multipLE-java/codellama-13B-instruct-hf/completion/taskid-110_exchange-gen0.java:22:	CyclomaticComplexity:	The method 'exchange(ArrayList<Long>, ArrayList<Long>)' has a cyclomatic complexity of 13.
+LoosePackageCoupling	-	No packages or classes specified

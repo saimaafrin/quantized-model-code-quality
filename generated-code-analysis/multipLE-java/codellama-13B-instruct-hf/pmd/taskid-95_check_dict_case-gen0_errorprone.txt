@@ -1,0 +1,1 @@
+/home/saima/projects/NonFunc-AWQ/multipLE-java/codellama-13B-instruct-hf/completion/taskid-95_check_dict_case-gen0.java:43:	AvoidDuplicateLiterals:	The String literal "banana" appears 4 times in this file; the first occurrence is on line 43

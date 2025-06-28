@@ -1,0 +1,29 @@
+/home/saima/projects/NonFunc-AWQ/multipLE-java/codellama-7B-instruct-awq/completion/taskid-24_largest_divisor-gen0.java:1:	UnnecessaryImport:	Unused import 'java.util.*'
+/home/saima/projects/NonFunc-AWQ/multipLE-java/codellama-7B-instruct-awq/completion/taskid-24_largest_divisor-gen0.java:2:	UnnecessaryImport:	Unused import 'java.lang.reflect.*'
+/home/saima/projects/NonFunc-AWQ/multipLE-java/codellama-7B-instruct-awq/completion/taskid-24_largest_divisor-gen0.java:3:	UnnecessaryImport:	Unused import 'org.javatuples.*'
+/home/saima/projects/NonFunc-AWQ/multipLE-java/codellama-7B-instruct-awq/completion/taskid-24_largest_divisor-gen0.java:4:	UnnecessaryImport:	Unused import 'java.security.*'
+/home/saima/projects/NonFunc-AWQ/multipLE-java/codellama-7B-instruct-awq/completion/taskid-24_largest_divisor-gen0.java:5:	UnnecessaryImport:	Unused import 'java.math.*'
+/home/saima/projects/NonFunc-AWQ/multipLE-java/codellama-7B-instruct-awq/completion/taskid-24_largest_divisor-gen0.java:6:	UnnecessaryImport:	Unused import 'java.io.*'
+/home/saima/projects/NonFunc-AWQ/multipLE-java/codellama-7B-instruct-awq/completion/taskid-24_largest_divisor-gen0.java:7:	UnnecessaryImport:	Unused import 'java.util.stream.*'
+/home/saima/projects/NonFunc-AWQ/multipLE-java/codellama-7B-instruct-awq/completion/taskid-24_largest_divisor-gen0.java:8:	NoPackage:	All classes, interfaces, enums and annotations must belong to a named package
+/home/saima/projects/NonFunc-AWQ/multipLE-java/codellama-7B-instruct-awq/completion/taskid-24_largest_divisor-gen0.java:12:	ShortVariable:	Avoid variables with short names like n
+/home/saima/projects/NonFunc-AWQ/multipLE-java/codellama-7B-instruct-awq/completion/taskid-24_largest_divisor-gen0.java:12:	MethodArgumentCouldBeFinal:	Parameter 'n' is not assigned and could be declared final
+/home/saima/projects/NonFunc-AWQ/multipLE-java/codellama-7B-instruct-awq/completion/taskid-24_largest_divisor-gen0.java:14:	OnlyOneReturn:	A method should have only one exit point, and that should be the last statement in the method
+/home/saima/projects/NonFunc-AWQ/multipLE-java/codellama-7B-instruct-awq/completion/taskid-24_largest_divisor-gen0.java:14:	ControlStatementBraces:	This statement should have braces
+/home/saima/projects/NonFunc-AWQ/multipLE-java/codellama-7B-instruct-awq/completion/taskid-24_largest_divisor-gen0.java:16:	OnlyOneReturn:	A method should have only one exit point, and that should be the last statement in the method
+/home/saima/projects/NonFunc-AWQ/multipLE-java/codellama-7B-instruct-awq/completion/taskid-24_largest_divisor-gen0.java:16:	ControlStatementBraces:	This statement should have braces
+/home/saima/projects/NonFunc-AWQ/multipLE-java/codellama-7B-instruct-awq/completion/taskid-24_largest_divisor-gen0.java:21:	UselessParentheses:	Useless parentheses.
+/home/saima/projects/NonFunc-AWQ/multipLE-java/codellama-7B-instruct-awq/completion/taskid-24_largest_divisor-gen0.java:21:	UselessParentheses:	Useless parentheses.
+/home/saima/projects/NonFunc-AWQ/multipLE-java/codellama-7B-instruct-awq/completion/taskid-24_largest_divisor-gen0.java:21:	UselessParentheses:	Useless parentheses.
+/home/saima/projects/NonFunc-AWQ/multipLE-java/codellama-7B-instruct-awq/completion/taskid-24_largest_divisor-gen0.java:22:	UselessParentheses:	Useless parentheses.
+/home/saima/projects/NonFunc-AWQ/multipLE-java/codellama-7B-instruct-awq/completion/taskid-24_largest_divisor-gen0.java:22:	UselessParentheses:	Useless parentheses.
+/home/saima/projects/NonFunc-AWQ/multipLE-java/codellama-7B-instruct-awq/completion/taskid-24_largest_divisor-gen0.java:22:	UselessParentheses:	Useless parentheses.
+/home/saima/projects/NonFunc-AWQ/multipLE-java/codellama-7B-instruct-awq/completion/taskid-24_largest_divisor-gen0.java:23:	UselessParentheses:	Useless parentheses.
+/home/saima/projects/NonFunc-AWQ/multipLE-java/codellama-7B-instruct-awq/completion/taskid-24_largest_divisor-gen0.java:23:	UselessParentheses:	Useless parentheses.
+/home/saima/projects/NonFunc-AWQ/multipLE-java/codellama-7B-instruct-awq/completion/taskid-24_largest_divisor-gen0.java:23:	UselessParentheses:	Useless parentheses.
+/home/saima/projects/NonFunc-AWQ/multipLE-java/codellama-7B-instruct-awq/completion/taskid-24_largest_divisor-gen0.java:24:	UselessParentheses:	Useless parentheses.
+/home/saima/projects/NonFunc-AWQ/multipLE-java/codellama-7B-instruct-awq/completion/taskid-24_largest_divisor-gen0.java:24:	UselessParentheses:	Useless parentheses.
+/home/saima/projects/NonFunc-AWQ/multipLE-java/codellama-7B-instruct-awq/completion/taskid-24_largest_divisor-gen0.java:24:	UselessParentheses:	Useless parentheses.
+/home/saima/projects/NonFunc-AWQ/multipLE-java/codellama-7B-instruct-awq/completion/taskid-24_largest_divisor-gen0.java:25:	UselessParentheses:	Useless parentheses.
+/home/saima/projects/NonFunc-AWQ/multipLE-java/codellama-7B-instruct-awq/completion/taskid-24_largest_divisor-gen0.java:25:	UselessParentheses:	Useless parentheses.
+/home/saima/projects/NonFunc-AWQ/multipLE-java/codellama-7B-instruct-awq/completion/taskid-24_largest_divisor-gen0.java:25:	UselessParentheses:	Useless parentheses.

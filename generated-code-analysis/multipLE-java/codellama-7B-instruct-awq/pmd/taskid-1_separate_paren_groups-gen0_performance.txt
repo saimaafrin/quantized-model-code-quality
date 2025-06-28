@@ -1,0 +1,1 @@
+/home/saima/projects/NonFunc-AWQ/multipLE-java/codellama-7B-instruct-awq/completion/taskid-1_separate_paren_groups-gen0.java:32:	AvoidInstantiatingObjectsInLoops:	Avoid instantiating new objects inside loops

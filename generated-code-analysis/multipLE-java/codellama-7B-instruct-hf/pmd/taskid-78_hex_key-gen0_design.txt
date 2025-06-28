@@ -1,0 +1,5 @@
+/home/saima/projects/NonFunc-AWQ/multipLE-java/codellama-7B-instruct-hf/completion/taskid-78_hex_key-gen0.java:8:	UseUtilityClass:	This utility class has a non-private constructor
+/home/saima/projects/NonFunc-AWQ/multipLE-java/codellama-7B-instruct-hf/completion/taskid-78_hex_key-gen0.java:30:	CognitiveComplexity:	The method 'hexKey(String)' has a cognitive complexity of 25, current threshold is 15
+/home/saima/projects/NonFunc-AWQ/multipLE-java/codellama-7B-instruct-hf/completion/taskid-78_hex_key-gen0.java:30:	CyclomaticComplexity:	The method 'hexKey(String)' has a cyclomatic complexity of 13.
+/home/saima/projects/NonFunc-AWQ/multipLE-java/codellama-7B-instruct-hf/completion/taskid-78_hex_key-gen0.java:30:	NPathComplexity:	The method 'hexKey(String)' has an NPath complexity of 280, current threshold is 200
+LoosePackageCoupling	-	No packages or classes specified

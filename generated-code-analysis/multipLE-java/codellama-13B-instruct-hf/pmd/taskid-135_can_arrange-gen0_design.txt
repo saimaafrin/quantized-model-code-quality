@@ -1,0 +1,5 @@
+/home/saima/projects/NonFunc-AWQ/multipLE-java/codellama-13B-instruct-hf/completion/taskid-135_can_arrange-gen0.java:8:	UseUtilityClass:	This utility class has a non-private constructor
+/home/saima/projects/NonFunc-AWQ/multipLE-java/codellama-13B-instruct-hf/completion/taskid-135_can_arrange-gen0.java:18:	CognitiveComplexity:	The method 'canArrange(ArrayList<Long>)' has a cognitive complexity of 17, current threshold is 15
+/home/saima/projects/NonFunc-AWQ/multipLE-java/codellama-13B-instruct-hf/completion/taskid-135_can_arrange-gen0.java:18:	CyclomaticComplexity:	The method 'canArrange(ArrayList<Long>)' has a cyclomatic complexity of 13.
+/home/saima/projects/NonFunc-AWQ/multipLE-java/codellama-13B-instruct-hf/completion/taskid-135_can_arrange-gen0.java:18:	NPathComplexity:	The method 'canArrange(ArrayList<Long>)' has an NPath complexity of 324, current threshold is 200
+LoosePackageCoupling	-	No packages or classes specified

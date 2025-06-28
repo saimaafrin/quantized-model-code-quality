@@ -1,0 +1,2 @@
+/home/saima/projects/NonFunc-AWQ/multipLE-java/deepseekcoder-1.3B-instruct-hf/completion/taskid-142_sum_squares-gen0.java:8:	UseUtilityClass:	This utility class has a non-private constructor
+LoosePackageCoupling	-	No packages or classes specified

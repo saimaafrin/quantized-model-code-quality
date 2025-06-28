@@ -1,0 +1,1 @@
+/home/saima/projects/NonFunc-AWQ/multipLE-java/codellama-7B-instruct-hf/completion/taskid-67_fruit_distribution-gen0.java:25:	OneDeclarationPerLine:	Use one line for each declaration, it enhances code readability.

@@ -1,0 +1,4 @@
+/home/saima/projects/NonFunc-AWQ/multipLE-java/codellama-34B-instruct-awq/completion/taskid-81_numerical_letter_grade-gen0.java:8:	UseUtilityClass:	This utility class has a non-private constructor
+/home/saima/projects/NonFunc-AWQ/multipLE-java/codellama-34B-instruct-awq/completion/taskid-81_numerical_letter_grade-gen0.java:31:	CognitiveComplexity:	The method 'numericalLetterGrade(ArrayList<Float>)' has a cognitive complexity of 15, current threshold is 15
+/home/saima/projects/NonFunc-AWQ/multipLE-java/codellama-34B-instruct-awq/completion/taskid-81_numerical_letter_grade-gen0.java:31:	CyclomaticComplexity:	The method 'numericalLetterGrade(ArrayList<Float>)' has a cyclomatic complexity of 14.
+LoosePackageCoupling	-	No packages or classes specified

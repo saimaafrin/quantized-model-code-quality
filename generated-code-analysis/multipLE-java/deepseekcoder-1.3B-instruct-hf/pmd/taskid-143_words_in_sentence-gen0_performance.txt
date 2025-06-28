@@ -1,0 +1,1 @@
+/home/saima/projects/NonFunc-AWQ/multipLE-java/deepseekcoder-1.3B-instruct-hf/completion/taskid-143_words_in_sentence-gen0.java:34:	InefficientStringBuffering:	Avoid concatenating nonliterals in a StringBuffer/StringBuilder constructor or append().

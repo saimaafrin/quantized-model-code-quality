@@ -1,0 +1,48 @@
+import java.util.*;
+import java.lang.reflect.*;
+import org.javatuples.*;
+import java.security.*;
+import java.math.*;
+import java.io.*;
+import java.util.stream.*;
+class Problem {
+    // Write a function vowels_count which takes a string representing
+    // a word as input and returns the number of vowels in the string.
+    // Vowels in this case are 'a', 'e', 'i', 'o', 'u'. Here, 'y' is also a
+    // vowel, but only when it is at the end of the given word.
+    // Example:
+    // >>> vowelsCount(("abcde"))
+    // (2l)
+    // >>> vowelsCount(("ACEDY"))
+    // (3l)
+    public static long vowelsCount(String s) {
+
+        long vowels=0;
+        for (int i=0; i<s.length(); i++) {
+            char ch = s.charAt(i);
+            switch (ch) {
+                case 'a':
+                case 'e':
+                case 'i':
+                case 'o':
+                case 'u':
+                case 'y':
+                    vowels++;
+                    break;
+                default:
+                    break;
+            }
+        }
+        return vowels;
+    }
+    public static void main(String[] args) {
+    assert(vowelsCount(("abcde")) == (2l));
+    assert(vowelsCount(("Alone")) == (3l));
+    assert(vowelsCount(("key")) == (2l));
+    assert(vowelsCount(("bye")) == (1l));
+    assert(vowelsCount(("keY")) == (2l));
+    assert(vowelsCount(("bYe")) == (1l));
+    assert(vowelsCount(("ACEDY")) == (3l));
+    }
+
+}

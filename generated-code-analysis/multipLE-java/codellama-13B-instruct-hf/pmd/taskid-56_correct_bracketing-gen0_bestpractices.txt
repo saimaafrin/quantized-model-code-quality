@@ -1,0 +1,1 @@
+/home/saima/projects/NonFunc-AWQ/multipLE-java/codellama-13B-instruct-hf/completion/taskid-56_correct_bracketing-gen0.java:22:	LooseCoupling:	Avoid using implementation types like 'Stack'; use the interface instead

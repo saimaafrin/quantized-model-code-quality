@@ -1,0 +1,1 @@
+/home/saima/projects/NonFunc-AWQ/multipLE-java/deepseekcoder-1.3B-instruct-awq/completion/taskid-95_check_dict_case-gen0.java:23:	LooseCoupling:	Avoid using implementation types like 'HashMap'; use the interface instead

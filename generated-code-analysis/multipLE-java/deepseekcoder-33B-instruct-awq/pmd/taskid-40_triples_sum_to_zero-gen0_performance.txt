@@ -1,0 +1,1 @@
+/home/saima/projects/NonFunc-AWQ/multipLE-java/deepseekcoder-33B-instruct-awq/completion/taskid-40_triples_sum_to_zero-gen0.java:25:	AvoidInstantiatingObjectsInLoops:	Avoid instantiating new objects inside loops
