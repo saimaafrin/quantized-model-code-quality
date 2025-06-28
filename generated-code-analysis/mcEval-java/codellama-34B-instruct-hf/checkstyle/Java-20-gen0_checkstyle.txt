@@ -1,0 +1,22 @@
+Starting audit...
+[ERROR] /home/saima/projects/NonFunc-AWQ/mcEval-java/codellama-34B-instruct-hf/completion/java-files/Java-20-gen0.java:1: Missing package-info.java file. [JavadocPackage]
+[ERROR] /home/saima/projects/NonFunc-AWQ/mcEval-java/codellama-34B-instruct-hf/completion/java-files/Java-20-gen0.java:3: Line is longer than 80 characters (found 88). [LineLength]
+[ERROR] /home/saima/projects/NonFunc-AWQ/mcEval-java/codellama-34B-instruct-hf/completion/java-files/Java-20-gen0.java:25: @return tag should be present and have description. [JavadocMethod]
+[ERROR] /home/saima/projects/NonFunc-AWQ/mcEval-java/codellama-34B-instruct-hf/completion/java-files/Java-20-gen0.java:25:36: Parameter cost should be final. [FinalParameters]
+[ERROR] /home/saima/projects/NonFunc-AWQ/mcEval-java/codellama-34B-instruct-hf/completion/java-files/Java-20-gen0.java:25:42: Expected @param tag for 'cost'. [JavadocMethod]
+[ERROR] /home/saima/projects/NonFunc-AWQ/mcEval-java/codellama-34B-instruct-hf/completion/java-files/Java-20-gen0.java:36: Line is longer than 80 characters (found 186). [LineLength]
+[ERROR] /home/saima/projects/NonFunc-AWQ/mcEval-java/codellama-34B-instruct-hf/completion/java-files/Java-20-gen0.java:40:27: Parameter args should be final. [FinalParameters]
+[ERROR] /home/saima/projects/NonFunc-AWQ/mcEval-java/codellama-34B-instruct-hf/completion/java-files/Java-20-gen0.java:44:53: '{' is followed by whitespace. [NoWhitespaceAfter]
+[ERROR] /home/saima/projects/NonFunc-AWQ/mcEval-java/codellama-34B-instruct-hf/completion/java-files/Java-20-gen0.java:44:55: '10' is a magic number. [MagicNumber]
+[ERROR] /home/saima/projects/NonFunc-AWQ/mcEval-java/codellama-34B-instruct-hf/completion/java-files/Java-20-gen0.java:44:59: '15' is a magic number. [MagicNumber]
+[ERROR] /home/saima/projects/NonFunc-AWQ/mcEval-java/codellama-34B-instruct-hf/completion/java-files/Java-20-gen0.java:44:63: '20' is a magic number. [MagicNumber]
+[ERROR] /home/saima/projects/NonFunc-AWQ/mcEval-java/codellama-34B-instruct-hf/completion/java-files/Java-20-gen0.java:44:72: '15' is a magic number. [MagicNumber]
+[ERROR] /home/saima/projects/NonFunc-AWQ/mcEval-java/codellama-34B-instruct-hf/completion/java-files/Java-20-gen0.java:46:17: '{' is followed by whitespace. [NoWhitespaceAfter]
+[ERROR] /home/saima/projects/NonFunc-AWQ/mcEval-java/codellama-34B-instruct-hf/completion/java-files/Java-20-gen0.java:46:22: '100' is a magic number. [MagicNumber]
+[ERROR] /home/saima/projects/NonFunc-AWQ/mcEval-java/codellama-34B-instruct-hf/completion/java-files/Java-20-gen0.java:46:36: '100' is a magic number. [MagicNumber]
+[ERROR] /home/saima/projects/NonFunc-AWQ/mcEval-java/codellama-34B-instruct-hf/completion/java-files/Java-20-gen0.java:46:47: '100' is a magic number. [MagicNumber]
+[ERROR] /home/saima/projects/NonFunc-AWQ/mcEval-java/codellama-34B-instruct-hf/completion/java-files/Java-20-gen0.java:47:7: '==' should be on a new line. [OperatorWrap]
+[ERROR] /home/saima/projects/NonFunc-AWQ/mcEval-java/codellama-34B-instruct-hf/completion/java-files/Java-20-gen0.java:48:5: '6' is a magic number. [MagicNumber]
+[ERROR] /home/saima/projects/NonFunc-AWQ/mcEval-java/codellama-34B-instruct-hf/completion/java-files/Java-20-gen0.java:49:53: '{' is followed by whitespace. [NoWhitespaceAfter]
+Audit done.
+Checkstyle ends with 19 errors.

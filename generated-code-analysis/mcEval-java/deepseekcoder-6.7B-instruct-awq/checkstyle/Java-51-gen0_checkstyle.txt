@@ -1,0 +1,21 @@
+Starting audit...
+[ERROR] /home/saima/projects/NonFunc-AWQ/mcEval-java/deepseekcoder-6.7B-instruct-awq/completion/java-files/Java-51-gen0.java:1: File does not end with a newline. [NewlineAtEndOfFile]
+[ERROR] /home/saima/projects/NonFunc-AWQ/mcEval-java/deepseekcoder-6.7B-instruct-awq/completion/java-files/Java-51-gen0.java:1: Missing package-info.java file. [JavadocPackage]
+[ERROR] /home/saima/projects/NonFunc-AWQ/mcEval-java/deepseekcoder-6.7B-instruct-awq/completion/java-files/Java-51-gen0.java:3:1: Utility classes should not have a public or default constructor. [HideUtilityClassConstructor]
+[ERROR] /home/saima/projects/NonFunc-AWQ/mcEval-java/deepseekcoder-6.7B-instruct-awq/completion/java-files/Java-51-gen0.java:15:40: Parameter nums should be final. [FinalParameters]
+[ERROR] /home/saima/projects/NonFunc-AWQ/mcEval-java/deepseekcoder-6.7B-instruct-awq/completion/java-files/Java-51-gen0.java:35:27: Parameter args should be final. [FinalParameters]
+[ERROR] /home/saima/projects/NonFunc-AWQ/mcEval-java/deepseekcoder-6.7B-instruct-awq/completion/java-files/Java-51-gen0.java:36: Line is longer than 80 characters (found 82). [LineLength]
+[ERROR] /home/saima/projects/NonFunc-AWQ/mcEval-java/deepseekcoder-6.7B-instruct-awq/completion/java-files/Java-51-gen0.java:36:41: '{' is followed by whitespace. [NoWhitespaceAfter]
+[ERROR] /home/saima/projects/NonFunc-AWQ/mcEval-java/deepseekcoder-6.7B-instruct-awq/completion/java-files/Java-51-gen0.java:36:46: '4' is a magic number. [MagicNumber]
+[ERROR] /home/saima/projects/NonFunc-AWQ/mcEval-java/deepseekcoder-6.7B-instruct-awq/completion/java-files/Java-51-gen0.java:36:49: '5' is a magic number. [MagicNumber]
+[ERROR] /home/saima/projects/NonFunc-AWQ/mcEval-java/deepseekcoder-6.7B-instruct-awq/completion/java-files/Java-51-gen0.java:36:58: '4' is a magic number. [MagicNumber]
+[ERROR] /home/saima/projects/NonFunc-AWQ/mcEval-java/deepseekcoder-6.7B-instruct-awq/completion/java-files/Java-51-gen0.java:36:66: '7' is a magic number. [MagicNumber]
+[ERROR] /home/saima/projects/NonFunc-AWQ/mcEval-java/deepseekcoder-6.7B-instruct-awq/completion/java-files/Java-51-gen0.java:37:41: '{' is followed by whitespace. [NoWhitespaceAfter]
+[ERROR] /home/saima/projects/NonFunc-AWQ/mcEval-java/deepseekcoder-6.7B-instruct-awq/completion/java-files/Java-51-gen0.java:38: Line is longer than 80 characters (found 81). [LineLength]
+[ERROR] /home/saima/projects/NonFunc-AWQ/mcEval-java/deepseekcoder-6.7B-instruct-awq/completion/java-files/Java-51-gen0.java:38:41: '{' is followed by whitespace. [NoWhitespaceAfter]
+[ERROR] /home/saima/projects/NonFunc-AWQ/mcEval-java/deepseekcoder-6.7B-instruct-awq/completion/java-files/Java-51-gen0.java:38:47: '-2' is a magic number. [MagicNumber]
+[ERROR] /home/saima/projects/NonFunc-AWQ/mcEval-java/deepseekcoder-6.7B-instruct-awq/completion/java-files/Java-51-gen0.java:38:51: '-3' is a magic number. [MagicNumber]
+[ERROR] /home/saima/projects/NonFunc-AWQ/mcEval-java/deepseekcoder-6.7B-instruct-awq/completion/java-files/Java-51-gen0.java:38:55: '-2' is a magic number. [MagicNumber]
+[ERROR] /home/saima/projects/NonFunc-AWQ/mcEval-java/deepseekcoder-6.7B-instruct-awq/completion/java-files/Java-51-gen0.java:38:64: '-4' is a magic number. [MagicNumber]
+Audit done.
+Checkstyle ends with 18 errors.

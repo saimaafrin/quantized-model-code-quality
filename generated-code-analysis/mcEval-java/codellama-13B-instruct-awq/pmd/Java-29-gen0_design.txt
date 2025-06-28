@@ -1,0 +1,2 @@
+/home/saima/projects/NonFunc-AWQ/mcEval-java/codellama-13B-instruct-awq/completion/java-files/Java-29-gen0.java:22:	CognitiveComplexity:	The method 'kthFactor(int, int)' has a cognitive complexity of 18, current threshold is 15
+LoosePackageCoupling	-	No packages or classes specified

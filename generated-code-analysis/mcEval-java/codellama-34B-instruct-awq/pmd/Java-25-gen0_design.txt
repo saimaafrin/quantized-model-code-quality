@@ -1,0 +1,3 @@
+/home/saima/projects/NonFunc-AWQ/mcEval-java/codellama-34B-instruct-awq/completion/java-files/Java-25-gen0.java:19:	CognitiveComplexity:	The method 'minOperations(int)' has a cognitive complexity of 18, current threshold is 15
+/home/saima/projects/NonFunc-AWQ/mcEval-java/codellama-34B-instruct-awq/completion/java-files/Java-25-gen0.java:19:	CyclomaticComplexity:	The method 'minOperations(int)' has a cyclomatic complexity of 10.
+LoosePackageCoupling	-	No packages or classes specified

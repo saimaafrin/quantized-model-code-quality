@@ -1,0 +1,6 @@
+/home/saima/projects/NonFunc-AWQ/mcEval-java/deepseekcoder-1.3B-instruct-hf/completion/java-files/Java-47-gen0.java:1:	UseUtilityClass:	This utility class has a non-private constructor
+/home/saima/projects/NonFunc-AWQ/mcEval-java/deepseekcoder-1.3B-instruct-hf/completion/java-files/Java-47-gen0.java:21:	SimplifyBooleanReturns:	This if statement can be replaced by `return !{condition};`
+/home/saima/projects/NonFunc-AWQ/mcEval-java/deepseekcoder-1.3B-instruct-hf/completion/java-files/Java-47-gen0.java:30:	SimplifyBooleanExpressions:	Avoid unnecessary comparisons in boolean expressions
+/home/saima/projects/NonFunc-AWQ/mcEval-java/deepseekcoder-1.3B-instruct-hf/completion/java-files/Java-47-gen0.java:32:	SimplifyBooleanExpressions:	Avoid unnecessary comparisons in boolean expressions
+/home/saima/projects/NonFunc-AWQ/mcEval-java/deepseekcoder-1.3B-instruct-hf/completion/java-files/Java-47-gen0.java:34:	SimplifyBooleanExpressions:	Avoid unnecessary comparisons in boolean expressions
+LoosePackageCoupling	-	No packages or classes specified

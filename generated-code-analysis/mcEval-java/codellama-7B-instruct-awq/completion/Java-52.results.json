@@ -1,0 +1,20 @@
+{
+  "name": "Java-52",
+  "language": "java",
+  "temperature": 0.8,
+  "top_p": 0.95,
+  "max_tokens": 1024,
+  "prompt": "class Problem {\n\n  /**\n   * Given an integer n, return the minimum number of perfect square numbers that sum up to n.\n   *\n   * @param n The target integer.\n   * @return The minimum number of perfect square numbers.\n   *\n   * Example:\n   * minPerfectSquareSum(12)\n   * Output: 3\n   *\n   * Example:\n   * minPerfectSquareSum(13)\n   * Output: 2\n   */\n  public static int minPerfectSquareSum(int n) ",
+  "tests": "  public static void main(String[] args) {\n    assert minPerfectSquareSum(26) == 2 : \"Test case 1 failed\";\n    assert minPerfectSquareSum(17) == 2 : \"Test case 2 failed\";\n    assert minPerfectSquareSum(99) == 3 : \"Test case 3 failed\";\n    System.out.println(\"All tests passed\");\n  }\n}",
+  "stop_tokens": [],
+  "results": [
+    {
+      "program": "class Problem {\n\n  /**\n   * Given an integer n, return the minimum number of perfect square numbers that sum up to n.\n   *\n   * @param n The target integer.\n   * @return The minimum number of perfect square numbers.\n   *\n   * Example:\n   * minPerfectSquareSum(12)\n   * Output: 3\n   *\n   * Example:\n   * minPerfectSquareSum(13)\n   * Output: 2\n   */\n  public static int minPerfectSquareSum(int n)  {\n    // 1. Brute Force (TLE)\n    // for (int i = 1; i <= n; i++) {\n    //   int sum = 0;\n    //   for (int j = 1; j <= i; j++) {\n    //     sum += Math.pow(j, 2);\n    //   }\n    //   if (sum == n) return i;\n    // }\n    // return 0;\n\n    // 2. Sort + Two Pointers\n    int[] squares = new int[n + 1];\n    for (int i = 1; i <= n; i++) {\n      squares[i] = (int) Math.pow(i, 2);\n    }\n    Arrays.sort(squares);\n\n    int minSquares = 0;\n    int left = 1;\n    int right = n;\n    while (left <= right) {\n      int sum = squares[left] + squares[right];\n      if (sum == n) {\n        minSquares = Math.min(minSquares, right - left + 1);\n        left++;\n        right--;\n      } else if (sum > n) {\n        right--;\n      } else {\n        left++;\n      }\n    }\n\n    return minSquares;\n  }\n  public static void main(String[] args) {\n    assert minPerfectSquareSum(26) == 2 : \"Test case 1 failed\";\n    assert minPerfectSquareSum(17) == 2 : \"Test case 2 failed\";\n    assert minPerfectSquareSum(99) == 3 : \"Test case 3 failed\";\n    System.out.println(\"All tests passed\");\n  }\n}",
+      "timestamp": 1741573264,
+      "stdout": "",
+      "stderr": "/tmp/tmpfxuh0w10.java:33: error: cannot find symbol\n    Arrays.sort(squares);\n    ^\n  symbol:   variable Arrays\n  location: class Problem\n1 error\n",
+      "exit_code": 1,
+      "status": "SyntaxError"
+    }
+  ]
+}

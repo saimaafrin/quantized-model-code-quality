@@ -1,0 +1,2 @@
+/home/saima/projects/NonFunc-AWQ/mcEval-java/codellama-7B-instruct-hf/completion/java-files/Java-10-gen0.java:21:	AvoidDuplicateLiterals:	The String literal "cannot be travelled" appears 5 times in this file; the first occurrence is on line 21
+/home/saima/projects/NonFunc-AWQ/mcEval-java/codellama-7B-instruct-hf/completion/java-files/Java-10-gen0.java:41:	AvoidDuplicateLiterals:	The String literal "can be travelled" appears 4 times in this file; the first occurrence is on line 41

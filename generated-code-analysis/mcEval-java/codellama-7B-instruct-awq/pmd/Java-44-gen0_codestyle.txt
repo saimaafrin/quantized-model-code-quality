@@ -1,0 +1,9 @@
+/home/saima/projects/NonFunc-AWQ/mcEval-java/codellama-7B-instruct-awq/completion/java-files/Java-44-gen0.java:3:	NoPackage:	All classes, interfaces, enums and annotations must belong to a named package
+/home/saima/projects/NonFunc-AWQ/mcEval-java/codellama-7B-instruct-awq/completion/java-files/Java-44-gen0.java:15:	MethodArgumentCouldBeFinal:	Parameter 'mat' is not assigned and could be declared final
+/home/saima/projects/NonFunc-AWQ/mcEval-java/codellama-7B-instruct-awq/completion/java-files/Java-44-gen0.java:16:	ShortVariable:	Avoid variables with short names like n
+/home/saima/projects/NonFunc-AWQ/mcEval-java/codellama-7B-instruct-awq/completion/java-files/Java-44-gen0.java:16:	LocalVariableCouldBeFinal:	Local variable 'n' could be declared final
+/home/saima/projects/NonFunc-AWQ/mcEval-java/codellama-7B-instruct-awq/completion/java-files/Java-44-gen0.java:17:	LocalVariableCouldBeFinal:	Local variable 'list' could be declared final
+/home/saima/projects/NonFunc-AWQ/mcEval-java/codellama-7B-instruct-awq/completion/java-files/Java-44-gen0.java:20:	ControlStatementBraces:	This statement should have braces
+/home/saima/projects/NonFunc-AWQ/mcEval-java/codellama-7B-instruct-awq/completion/java-files/Java-44-gen0.java:25:	ControlStatementBraces:	This statement should have braces
+/home/saima/projects/NonFunc-AWQ/mcEval-java/codellama-7B-instruct-awq/completion/java-files/Java-44-gen0.java:30:	ControlStatementBraces:	This statement should have braces
+/home/saima/projects/NonFunc-AWQ/mcEval-java/codellama-7B-instruct-awq/completion/java-files/Java-44-gen0.java:33:	LocalVariableCouldBeFinal:	Local variable 'res' could be declared final

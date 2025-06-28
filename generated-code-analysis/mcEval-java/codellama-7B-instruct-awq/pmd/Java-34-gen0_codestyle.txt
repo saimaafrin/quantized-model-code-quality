@@ -1,0 +1,17 @@
+/home/saima/projects/NonFunc-AWQ/mcEval-java/codellama-7B-instruct-awq/completion/java-files/Java-34-gen0.java:1:	NoPackage:	All classes, interfaces, enums and annotations must belong to a named package
+/home/saima/projects/NonFunc-AWQ/mcEval-java/codellama-7B-instruct-awq/completion/java-files/Java-34-gen0.java:32:	ShortVariable:	Avoid variables with short names like n
+/home/saima/projects/NonFunc-AWQ/mcEval-java/codellama-7B-instruct-awq/completion/java-files/Java-34-gen0.java:32:	MethodArgumentCouldBeFinal:	Parameter 'n' is not assigned and could be declared final
+/home/saima/projects/NonFunc-AWQ/mcEval-java/codellama-7B-instruct-awq/completion/java-files/Java-34-gen0.java:35:	LocalVariableCouldBeFinal:	Local variable 'numSeats' could be declared final
+/home/saima/projects/NonFunc-AWQ/mcEval-java/codellama-7B-instruct-awq/completion/java-files/Java-34-gen0.java:38:	LocalVariableCouldBeFinal:	Local variable 'numCombinations' could be declared final
+/home/saima/projects/NonFunc-AWQ/mcEval-java/codellama-7B-instruct-awq/completion/java-files/Java-34-gen0.java:41:	LongVariable:	Avoid excessively long variable names like numCombinationsLastPassengerSitsInTheirOwnSeat
+/home/saima/projects/NonFunc-AWQ/mcEval-java/codellama-7B-instruct-awq/completion/java-files/Java-34-gen0.java:41:	LocalVariableCouldBeFinal:	Local variable 'numCombinationsLastPassengerSitsInTheirOwnSeat' could be declared final
+/home/saima/projects/NonFunc-AWQ/mcEval-java/codellama-7B-instruct-awq/completion/java-files/Java-34-gen0.java:41:	UselessParentheses:	Useless parentheses.
+/home/saima/projects/NonFunc-AWQ/mcEval-java/codellama-7B-instruct-awq/completion/java-files/Java-34-gen0.java:44:	LongVariable:	Avoid excessively long variable names like probabilityLastPassengerSitsInTheirOwnSeat
+/home/saima/projects/NonFunc-AWQ/mcEval-java/codellama-7B-instruct-awq/completion/java-files/Java-34-gen0.java:44:	UnnecessaryLocalBeforeReturn:	Consider simply returning the value vs storing it in local variable 'probabilityLastPassengerSitsInTheirOwnSeat'
+/home/saima/projects/NonFunc-AWQ/mcEval-java/codellama-7B-instruct-awq/completion/java-files/Java-34-gen0.java:44:	LocalVariableCouldBeFinal:	Local variable 'probabilityLastPassengerSitsInTheirOwnSeat' could be declared final
+/home/saima/projects/NonFunc-AWQ/mcEval-java/codellama-7B-instruct-awq/completion/java-files/Java-34-gen0.java:49:	UseUnderscoresInNumericLiterals:	Number 0.50000 should separate every third digit with an underscore
+/home/saima/projects/NonFunc-AWQ/mcEval-java/codellama-7B-instruct-awq/completion/java-files/Java-34-gen0.java:49:	UseUnderscoresInNumericLiterals:	Number 0.00001 should separate every third digit with an underscore
+/home/saima/projects/NonFunc-AWQ/mcEval-java/codellama-7B-instruct-awq/completion/java-files/Java-34-gen0.java:50:	UseUnderscoresInNumericLiterals:	Number 0.50000 should separate every third digit with an underscore
+/home/saima/projects/NonFunc-AWQ/mcEval-java/codellama-7B-instruct-awq/completion/java-files/Java-34-gen0.java:50:	UseUnderscoresInNumericLiterals:	Number 0.00001 should separate every third digit with an underscore
+/home/saima/projects/NonFunc-AWQ/mcEval-java/codellama-7B-instruct-awq/completion/java-files/Java-34-gen0.java:51:	UseUnderscoresInNumericLiterals:	Number 0.50000 should separate every third digit with an underscore
+/home/saima/projects/NonFunc-AWQ/mcEval-java/codellama-7B-instruct-awq/completion/java-files/Java-34-gen0.java:51:	UseUnderscoresInNumericLiterals:	Number 0.00001 should separate every third digit with an underscore

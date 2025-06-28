@@ -1,0 +1,20 @@
+{
+  "name": "Java-19",
+  "language": "java",
+  "temperature": 0.8,
+  "top_p": 0.95,
+  "max_tokens": 1024,
+  "prompt": "import java.util.*;\n\nclass Problem {\n    /**\n     * Check if it is possible to split the given integer array into two non-empty arrays\n     * with the same average.\n     *\n     * >>> splitArraySameAverage(new int[]{1,2,3,4,5,6,7,8})\n     * true\n     *\n     * >>> splitArraySameAverage(new int[]{3,1})\n     * false\n     */\n    public boolean splitArraySameAverage(int[] nums) ",
+  "tests": "public static void main(String[] args) {\n        Problem solution = new Problem();\n\n        // Test the function with different test cases\n        assert solution.splitArraySameAverage(new int[]{1, 2, 3, 4, 5, 6, 7, 8}) == true;\n        assert solution.splitArraySameAverage(new int[]{1, 2, 3, 4, 5, 6, 7, 9}) == false;\n        assert solution.splitArraySameAverage(new int[]{1, 2, 3, 4, 5, 6, 7, 10}) == true;\n        assert solution.splitArraySameAverage(new int[]{1, 2, 3, 4, 5, 6, 7, 8, 9, 10}) == true;\n        System.out.println(\"All tests passed\");\n    }\n}",
+  "stop_tokens": [],
+  "results": [
+    {
+      "program": "import java.util.*;\n\nclass Problem {\n    /**\n     * Check if it is possible to split the given integer array into two non-empty arrays\n     * with the same average.\n     *\n     * >>> splitArraySameAverage(new int[]{1,2,3,4,5,6,7,8})\n     * true\n     *\n     * >>> splitArraySameAverage(new int[]{3,1})\n     * false\n     */\n    public boolean splitArraySameAverage(int[] nums)  {\n        int sum = Arrays.stream(nums).sum();\n        int n = nums.length;\n\n        boolean[][] dp = new boolean[n+1][sum*2+1];\n        dp[0][0] = true;\n\n        for (int i = 0; i < n; i++) {\n            for (int j = sum; j >= nums[i]; j--) {\n                for (int k = sum; k >= 0; k--) {\n                    dp[i+1][j] |= dp[i][j-nums[i]] && (k == 0 || j >= nums[i] && dp[i+1][k-nums[i]]);\n                }\n            }\n        }\n\n        for (int i = 1; i < n; i++) {\n            if (sum*i % n == 0 && dp[i][sum*i/n]) {\n                return true;\n            }\n        }\n\n        return false;\n    }\npublic static void main(String[] args) {\n        Problem solution = new Problem();\n\n        // Test the function with different test cases\n        assert solution.splitArraySameAverage(new int[]{1, 2, 3, 4, 5, 6, 7, 8}) == true;\n        assert solution.splitArraySameAverage(new int[]{1, 2, 3, 4, 5, 6, 7, 9}) == false;\n        assert solution.splitArraySameAverage(new int[]{1, 2, 3, 4, 5, 6, 7, 10}) == true;\n        assert solution.splitArraySameAverage(new int[]{1, 2, 3, 4, 5, 6, 7, 8, 9, 10}) == true;\n        System.out.println(\"All tests passed\");\n    }\n}",
+      "timestamp": 1741622035,
+      "stdout": "",
+      "stderr": "Exception in thread \"main\" java.lang.ArrayIndexOutOfBoundsException: Index -1 out of bounds for length 73\n\tat Problem.splitArraySameAverage(tmpkymr3drz.java:24)\n\tat Problem.main(tmpkymr3drz.java:41)\n",
+      "exit_code": 1,
+      "status": "Exception"
+    }
+  ]
+}

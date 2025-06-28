@@ -1,0 +1,5 @@
+/home/saima/projects/NonFunc-AWQ/mcEval-java/codellama-13B-instruct-awq/completion/java-files/Java-40-gen0.java:14:	UseVarargs:	Consider using varargs for methods or constructors which take an array the last parameter.
+/home/saima/projects/NonFunc-AWQ/mcEval-java/codellama-13B-instruct-awq/completion/java-files/Java-40-gen0.java:16:	OneDeclarationPerLine:	Use one line for each declaration, it enhances code readability.
+/home/saima/projects/NonFunc-AWQ/mcEval-java/codellama-13B-instruct-awq/completion/java-files/Java-40-gen0.java:33:	ForLoopVariableCount:	Too many control variables in the for statement
+/home/saima/projects/NonFunc-AWQ/mcEval-java/codellama-13B-instruct-awq/completion/java-files/Java-40-gen0.java:39:	ForLoopVariableCount:	Too many control variables in the for statement
+/home/saima/projects/NonFunc-AWQ/mcEval-java/codellama-13B-instruct-awq/completion/java-files/Java-40-gen0.java:69:	SystemPrintln:	Usage of System.out/err

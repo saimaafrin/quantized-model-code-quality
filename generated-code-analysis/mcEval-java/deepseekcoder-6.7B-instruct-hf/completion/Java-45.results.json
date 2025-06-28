@@ -1,0 +1,20 @@
+{
+  "name": "Java-45",
+  "language": "java",
+  "temperature": 0.8,
+  "top_p": 0.95,
+  "max_tokens": 1024,
+  "prompt": "class Problem {\n\n  /**\n   * Find the smallest integer that can be formed by rearranging the digits of the given positive integer n, which is greater than n.\n   *\n   * @param n The input positive integer.\n   * @return The smallest rearranged integer greater than n, or -1 if not possible.\n   *\n   * Example:\n   * findSmallestInteger(12)\n   * Output: 21\n   */\n  public static int findSmallestInteger(int n) ",
+  "tests": "  public static void main(String[] args) {\n    assert findSmallestInteger(123) == 132;\n    assert findSmallestInteger(531) == -1;\n    assert findSmallestInteger(2071) == 2107;\n\n    System.out.println(\"All tests passed\");\n  }\n}",
+  "stop_tokens": [],
+  "results": [
+    {
+      "program": "class Problem {\n\n  /**\n   * Find the smallest integer that can be formed by rearranging the digits of the given positive integer n, which is greater than n.\n   *\n   * @param n The input positive integer.\n   * @return The smallest rearranged integer greater than n, or -1 if not possible.\n   *\n   * Example:\n   * findSmallestInteger(12)\n   * Output: 21\n   */\n  public static int findSmallestInteger(int n)  {\n    // Convert the integer to a string array of digits\n    char[] digits = Integer.toString(n).toCharArray();\n\n    // Sort the digits in ascending order\n    Arrays.sort(digits);\n\n    // Try each permutation from the smallest to the largest\n    for (int i = 1; i < digits.length; i++) {\n      if (digits[i - 1] != digits[i]) {\n        // Swap the first digit that is greater than its successor\n        char temp = digits[i - 1];\n        digits[i - 1] = digits[i];\n        digits[i] = temp;\n\n        // Convert the string back to an integer\n        try {\n          return Integer.parseInt(new String(digits));\n        } catch (NumberFormatException e) {\n          // Ignore any exception and try the next permutation\n        }\n      }\n    }\n\n    // No valid permutation found, return -1\n    return -1;\n  }\n  public static void main(String[] args) {\n    assert findSmallestInteger(123) == 132;\n    assert findSmallestInteger(531) == -1;\n    assert findSmallestInteger(2071) == 2107;\n\n    System.out.println(\"All tests passed\");\n  }\n}",
+      "timestamp": 1741536765,
+      "stdout": "",
+      "stderr": "/tmp/tmpjw4p0d42.java:18: error: cannot find symbol\n    Arrays.sort(digits);\n    ^\n  symbol:   variable Arrays\n  location: class Problem\n1 error\n",
+      "exit_code": 1,
+      "status": "SyntaxError"
+    }
+  ]
+}

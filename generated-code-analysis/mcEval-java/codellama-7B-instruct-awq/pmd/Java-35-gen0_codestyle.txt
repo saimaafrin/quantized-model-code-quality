@@ -1,0 +1,6 @@
+/home/saima/projects/NonFunc-AWQ/mcEval-java/codellama-7B-instruct-awq/completion/java-files/Java-35-gen0.java:4:	NoPackage:	All classes, interfaces, enums and annotations must belong to a named package
+/home/saima/projects/NonFunc-AWQ/mcEval-java/codellama-7B-instruct-awq/completion/java-files/Java-35-gen0.java:20:	MethodArgumentCouldBeFinal:	Parameter 'nums' is not assigned and could be declared final
+/home/saima/projects/NonFunc-AWQ/mcEval-java/codellama-7B-instruct-awq/completion/java-files/Java-35-gen0.java:22:	LocalVariableCouldBeFinal:	Local variable 'freq' could be declared final
+/home/saima/projects/NonFunc-AWQ/mcEval-java/codellama-7B-instruct-awq/completion/java-files/Java-35-gen0.java:23:	LocalVariableCouldBeFinal:	Local variable 'num' could be declared final
+/home/saima/projects/NonFunc-AWQ/mcEval-java/codellama-7B-instruct-awq/completion/java-files/Java-35-gen0.java:30:	LocalVariableCouldBeFinal:	Local variable 'num' could be declared final
+/home/saima/projects/NonFunc-AWQ/mcEval-java/codellama-7B-instruct-awq/completion/java-files/Java-35-gen0.java:32:	OnlyOneReturn:	A method should have only one exit point, and that should be the last statement in the method

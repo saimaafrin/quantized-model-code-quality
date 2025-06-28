@@ -1,0 +1,7 @@
+/home/saima/projects/NonFunc-AWQ/mcEval-java/codellama-34B-instruct-hf/completion/java-files/Java-11-gen0.java:1:	UnnecessaryImport:	Unused import 'java.util.*'
+/home/saima/projects/NonFunc-AWQ/mcEval-java/codellama-34B-instruct-hf/completion/java-files/Java-11-gen0.java:3:	NoPackage:	All classes, interfaces, enums and annotations must belong to a named package
+/home/saima/projects/NonFunc-AWQ/mcEval-java/codellama-34B-instruct-hf/completion/java-files/Java-11-gen0.java:23:	MethodArgumentCouldBeFinal:	Parameter 'word1' is not assigned and could be declared final
+/home/saima/projects/NonFunc-AWQ/mcEval-java/codellama-34B-instruct-hf/completion/java-files/Java-11-gen0.java:23:	MethodArgumentCouldBeFinal:	Parameter 'word2' is not assigned and could be declared final
+/home/saima/projects/NonFunc-AWQ/mcEval-java/codellama-34B-instruct-hf/completion/java-files/Java-11-gen0.java:25:	LocalVariableCouldBeFinal:	Local variable 'common' could be declared final
+/home/saima/projects/NonFunc-AWQ/mcEval-java/codellama-34B-instruct-hf/completion/java-files/Java-11-gen0.java:26:	LocalVariableCouldBeFinal:	Local variable 'len1' could be declared final
+/home/saima/projects/NonFunc-AWQ/mcEval-java/codellama-34B-instruct-hf/completion/java-files/Java-11-gen0.java:27:	LocalVariableCouldBeFinal:	Local variable 'len2' could be declared final

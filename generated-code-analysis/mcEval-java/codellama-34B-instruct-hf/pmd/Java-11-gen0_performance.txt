@@ -1,0 +1,4 @@
+/home/saima/projects/NonFunc-AWQ/mcEval-java/codellama-34B-instruct-hf/completion/java-files/Java-11-gen0.java:31:	AddEmptyString:	Do not add empty strings
+/home/saima/projects/NonFunc-AWQ/mcEval-java/codellama-34B-instruct-hf/completion/java-files/Java-11-gen0.java:33:	UseStringBufferForStringAppends:	Prefer StringBuilder (non-synchronized) or StringBuffer (synchronized) over += for concatenating strings
+/home/saima/projects/NonFunc-AWQ/mcEval-java/codellama-34B-instruct-hf/completion/java-files/Java-11-gen0.java:35:	UseStringBufferForStringAppends:	Prefer StringBuilder (non-synchronized) or StringBuffer (synchronized) over += for concatenating strings
+/home/saima/projects/NonFunc-AWQ/mcEval-java/codellama-34B-instruct-hf/completion/java-files/Java-11-gen0.java:37:	UseStringBufferForStringAppends:	Prefer StringBuilder (non-synchronized) or StringBuffer (synchronized) over += for concatenating strings

@@ -1,0 +1,5 @@
+/home/saima/projects/NonFunc-AWQ/mcEval-java/deepseekcoder-1.3B-instruct-awq/completion/java-files/Java-36-gen0.java:4:	UseUtilityClass:	This utility class has a non-private constructor
+/home/saima/projects/NonFunc-AWQ/mcEval-java/deepseekcoder-1.3B-instruct-awq/completion/java-files/Java-36-gen0.java:17:	CognitiveComplexity:	The method 'findSteppingNumbers(int, int)' has a cognitive complexity of 16, current threshold is 15
+/home/saima/projects/NonFunc-AWQ/mcEval-java/deepseekcoder-1.3B-instruct-awq/completion/java-files/Java-36-gen0.java:17:	CyclomaticComplexity:	The method 'findSteppingNumbers(int, int)' has a cyclomatic complexity of 11.
+/home/saima/projects/NonFunc-AWQ/mcEval-java/deepseekcoder-1.3B-instruct-awq/completion/java-files/Java-36-gen0.java:17:	NPathComplexity:	The method 'findSteppingNumbers(int, int)' has an NPath complexity of 290, current threshold is 200
+LoosePackageCoupling	-	No packages or classes specified

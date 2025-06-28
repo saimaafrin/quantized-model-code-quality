@@ -1,0 +1,3 @@
+/home/saima/projects/NonFunc-AWQ/mcEval-java/codellama-13B-instruct-hf/completion/java-files/Java-16-gen0.java:28:	AvoidLiteralsInIfCondition:	Avoid using literals in if statements
+/home/saima/projects/NonFunc-AWQ/mcEval-java/codellama-13B-instruct-hf/completion/java-files/Java-16-gen0.java:31:	AvoidLiteralsInIfCondition:	Avoid using literals in if statements
+/home/saima/projects/NonFunc-AWQ/mcEval-java/codellama-13B-instruct-hf/completion/java-files/Java-16-gen0.java:57:	AvoidLiteralsInIfCondition:	Avoid using literals in if statements

@@ -1,0 +1,19 @@
+Starting audit...
+[ERROR] /home/saima/projects/NonFunc-AWQ/mcEval-java/deepseekcoder-1.3B-instruct-hf/completion/java-files/Java-46-gen0.java:1: Missing package-info.java file. [JavadocPackage]
+[ERROR] /home/saima/projects/NonFunc-AWQ/mcEval-java/deepseekcoder-1.3B-instruct-hf/completion/java-files/Java-46-gen0.java:2:8: Unused import - java.util.Arrays. [UnusedImports]
+[ERROR] /home/saima/projects/NonFunc-AWQ/mcEval-java/deepseekcoder-1.3B-instruct-hf/completion/java-files/Java-46-gen0.java:5:1: Utility classes should not have a public or default constructor. [HideUtilityClassConstructor]
+[ERROR] /home/saima/projects/NonFunc-AWQ/mcEval-java/deepseekcoder-1.3B-instruct-hf/completion/java-files/Java-46-gen0.java:20:53: Parameter n should be final. [FinalParameters]
+[ERROR] /home/saima/projects/NonFunc-AWQ/mcEval-java/deepseekcoder-1.3B-instruct-hf/completion/java-files/Java-46-gen0.java:22:22: 'typecast' is not followed by whitespace. [WhitespaceAfter]
+[ERROR] /home/saima/projects/NonFunc-AWQ/mcEval-java/deepseekcoder-1.3B-instruct-hf/completion/java-files/Java-46-gen0.java:22:32: '10' is a magic number. [MagicNumber]
+[ERROR] /home/saima/projects/NonFunc-AWQ/mcEval-java/deepseekcoder-1.3B-instruct-hf/completion/java-files/Java-46-gen0.java:22:37: '-' is not followed by whitespace. [WhitespaceAround]
+[ERROR] /home/saima/projects/NonFunc-AWQ/mcEval-java/deepseekcoder-1.3B-instruct-hf/completion/java-files/Java-46-gen0.java:22:37: '-' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] /home/saima/projects/NonFunc-AWQ/mcEval-java/deepseekcoder-1.3B-instruct-hf/completion/java-files/Java-46-gen0.java:22:50: 'typecast' is not followed by whitespace. [WhitespaceAfter]
+[ERROR] /home/saima/projects/NonFunc-AWQ/mcEval-java/deepseekcoder-1.3B-instruct-hf/completion/java-files/Java-46-gen0.java:22:60: '10' is a magic number. [MagicNumber]
+[ERROR] /home/saima/projects/NonFunc-AWQ/mcEval-java/deepseekcoder-1.3B-instruct-hf/completion/java-files/Java-46-gen0.java:33:36: Parameter expected should be final. [FinalParameters]
+[ERROR] /home/saima/projects/NonFunc-AWQ/mcEval-java/deepseekcoder-1.3B-instruct-hf/completion/java-files/Java-46-gen0.java:33:55: Parameter actual should be final. [FinalParameters]
+[ERROR] /home/saima/projects/NonFunc-AWQ/mcEval-java/deepseekcoder-1.3B-instruct-hf/completion/java-files/Java-46-gen0.java:44:27: Parameter args should be final. [FinalParameters]
+[ERROR] /home/saima/projects/NonFunc-AWQ/mcEval-java/deepseekcoder-1.3B-instruct-hf/completion/java-files/Java-46-gen0.java:46:20: '{' is followed by whitespace. [NoWhitespaceAfter]
+[ERROR] /home/saima/projects/NonFunc-AWQ/mcEval-java/deepseekcoder-1.3B-instruct-hf/completion/java-files/Java-46-gen0.java:49:31: '{' is followed by whitespace. [NoWhitespaceAfter]
+[ERROR] /home/saima/projects/NonFunc-AWQ/mcEval-java/deepseekcoder-1.3B-instruct-hf/completion/java-files/Java-46-gen0.java:65:30: '3' is a magic number. [MagicNumber]
+Audit done.
+Checkstyle ends with 16 errors.

@@ -1,0 +1,7 @@
+/home/saima/projects/NonFunc-AWQ/mcEval-java/codellama-34B-instruct-hf/completion/java-files/Java-36-gen0.java:4:	NoPackage:	All classes, interfaces, enums and annotations must belong to a named package
+/home/saima/projects/NonFunc-AWQ/mcEval-java/codellama-34B-instruct-hf/completion/java-files/Java-36-gen0.java:17:	MethodArgumentCouldBeFinal:	Parameter 'low' is not assigned and could be declared final
+/home/saima/projects/NonFunc-AWQ/mcEval-java/codellama-34B-instruct-hf/completion/java-files/Java-36-gen0.java:17:	MethodArgumentCouldBeFinal:	Parameter 'high' is not assigned and could be declared final
+/home/saima/projects/NonFunc-AWQ/mcEval-java/codellama-34B-instruct-hf/completion/java-files/Java-36-gen0.java:19:	LocalVariableCouldBeFinal:	Local variable 'steppingNumbers' could be declared final
+/home/saima/projects/NonFunc-AWQ/mcEval-java/codellama-34B-instruct-hf/completion/java-files/Java-36-gen0.java:28:	LocalVariableCouldBeFinal:	Local variable 'numberAsString' could be declared final
+/home/saima/projects/NonFunc-AWQ/mcEval-java/codellama-34B-instruct-hf/completion/java-files/Java-36-gen0.java:34:	LocalVariableCouldBeFinal:	Local variable 'current' could be declared final
+/home/saima/projects/NonFunc-AWQ/mcEval-java/codellama-34B-instruct-hf/completion/java-files/Java-36-gen0.java:37:	LocalVariableCouldBeFinal:	Local variable 'next' could be declared final

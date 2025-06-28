@@ -1,0 +1,8 @@
+/home/saima/projects/NonFunc-AWQ/mcEval-java/deepseekcoder-1.3B-instruct-hf/completion/java-files/Java-31-gen0.java:3:	NoPackage:	All classes, interfaces, enums and annotations must belong to a named package
+/home/saima/projects/NonFunc-AWQ/mcEval-java/deepseekcoder-1.3B-instruct-hf/completion/java-files/Java-31-gen0.java:3:	AtLeastOneConstructor:	Each class should declare at least one constructor
+/home/saima/projects/NonFunc-AWQ/mcEval-java/deepseekcoder-1.3B-instruct-hf/completion/java-files/Java-31-gen0.java:19:	ShortVariable:	Avoid variables with short names like s
+/home/saima/projects/NonFunc-AWQ/mcEval-java/deepseekcoder-1.3B-instruct-hf/completion/java-files/Java-31-gen0.java:19:	MethodArgumentCouldBeFinal:	Parameter 's' is not assigned and could be declared final
+/home/saima/projects/NonFunc-AWQ/mcEval-java/deepseekcoder-1.3B-instruct-hf/completion/java-files/Java-31-gen0.java:20:	LocalVariableCouldBeFinal:	Local variable 'seen' could be declared final
+/home/saima/projects/NonFunc-AWQ/mcEval-java/deepseekcoder-1.3B-instruct-hf/completion/java-files/Java-31-gen0.java:21:	ShortVariable:	Avoid variables with short names like n
+/home/saima/projects/NonFunc-AWQ/mcEval-java/deepseekcoder-1.3B-instruct-hf/completion/java-files/Java-31-gen0.java:22:	LocalVariableCouldBeFinal:	Local variable 'memo' could be declared final
+/home/saima/projects/NonFunc-AWQ/mcEval-java/deepseekcoder-1.3B-instruct-hf/completion/java-files/Java-31-gen0.java:27:	LocalVariableCouldBeFinal:	Local variable 'solution' could be declared final

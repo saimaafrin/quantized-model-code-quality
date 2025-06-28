@@ -1,0 +1,12 @@
+Starting audit...
+[ERROR] /home/saima/projects/NonFunc-AWQ/mcEval-java/deepseekcoder-33B-instruct-hf/completion/java-files/Java-11-gen0.java:1: File does not end with a newline. [NewlineAtEndOfFile]
+[ERROR] /home/saima/projects/NonFunc-AWQ/mcEval-java/deepseekcoder-33B-instruct-hf/completion/java-files/Java-11-gen0.java:1: Missing package-info.java file. [JavadocPackage]
+[ERROR] /home/saima/projects/NonFunc-AWQ/mcEval-java/deepseekcoder-33B-instruct-hf/completion/java-files/Java-11-gen0.java:1:17: Using the '.*' form of import should be avoided - java.util.*. [AvoidStarImport]
+[ERROR] /home/saima/projects/NonFunc-AWQ/mcEval-java/deepseekcoder-33B-instruct-hf/completion/java-files/Java-11-gen0.java:3:1: Utility classes should not have a public or default constructor. [HideUtilityClassConstructor]
+[ERROR] /home/saima/projects/NonFunc-AWQ/mcEval-java/deepseekcoder-33B-instruct-hf/completion/java-files/Java-11-gen0.java:5: Line is longer than 80 characters (found 83). [LineLength]
+[ERROR] /home/saima/projects/NonFunc-AWQ/mcEval-java/deepseekcoder-33B-instruct-hf/completion/java-files/Java-11-gen0.java:23:31: Parameter word1 should be final. [FinalParameters]
+[ERROR] /home/saima/projects/NonFunc-AWQ/mcEval-java/deepseekcoder-33B-instruct-hf/completion/java-files/Java-11-gen0.java:23:45: Parameter word2 should be final. [FinalParameters]
+[ERROR] /home/saima/projects/NonFunc-AWQ/mcEval-java/deepseekcoder-33B-instruct-hf/completion/java-files/Java-11-gen0.java:33: Line is longer than 80 characters (found 104). [LineLength]
+[ERROR] /home/saima/projects/NonFunc-AWQ/mcEval-java/deepseekcoder-33B-instruct-hf/completion/java-files/Java-11-gen0.java:35:29: Parameter args should be final. [FinalParameters]
+Audit done.
+Checkstyle ends with 9 errors.

@@ -1,0 +1,5 @@
+/home/saima/projects/NonFunc-AWQ/mcEval-java/codellama-13B-instruct-hf/completion/java-files/Java-12-gen0.java:37:	SwitchStmtsShouldHaveDefault:	Switch statements should be exhaustive, add a default case (or missing enum branches)
+/home/saima/projects/NonFunc-AWQ/mcEval-java/codellama-13B-instruct-hf/completion/java-files/Java-12-gen0.java:64:	LiteralsFirstInComparisons:	Position literals first in String comparisons
+/home/saima/projects/NonFunc-AWQ/mcEval-java/codellama-13B-instruct-hf/completion/java-files/Java-12-gen0.java:65:	LiteralsFirstInComparisons:	Position literals first in String comparisons
+/home/saima/projects/NonFunc-AWQ/mcEval-java/codellama-13B-instruct-hf/completion/java-files/Java-12-gen0.java:66:	LiteralsFirstInComparisons:	Position literals first in String comparisons
+/home/saima/projects/NonFunc-AWQ/mcEval-java/codellama-13B-instruct-hf/completion/java-files/Java-12-gen0.java:67:	SystemPrintln:	Usage of System.out/err

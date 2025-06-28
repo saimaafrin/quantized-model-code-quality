@@ -1,0 +1,18 @@
+Starting audit...
+[ERROR] /home/saima/projects/NonFunc-AWQ/mcEval-java/codellama-7B-instruct-awq/completion/java-files/Java-25-gen0.java:1: File does not end with a newline. [NewlineAtEndOfFile]
+[ERROR] /home/saima/projects/NonFunc-AWQ/mcEval-java/codellama-7B-instruct-awq/completion/java-files/Java-25-gen0.java:1: Missing package-info.java file. [JavadocPackage]
+[ERROR] /home/saima/projects/NonFunc-AWQ/mcEval-java/codellama-7B-instruct-awq/completion/java-files/Java-25-gen0.java:3: Line is longer than 80 characters (found 117). [LineLength]
+[ERROR] /home/saima/projects/NonFunc-AWQ/mcEval-java/codellama-7B-instruct-awq/completion/java-files/Java-25-gen0.java:5: Line is longer than 80 characters (found 156). [LineLength]
+[ERROR] /home/saima/projects/NonFunc-AWQ/mcEval-java/codellama-7B-instruct-awq/completion/java-files/Java-25-gen0.java:6: Line is longer than 80 characters (found 155). [LineLength]
+[ERROR] /home/saima/projects/NonFunc-AWQ/mcEval-java/codellama-7B-instruct-awq/completion/java-files/Java-25-gen0.java:19: @return tag should be present and have description. [JavadocMethod]
+[ERROR] /home/saima/projects/NonFunc-AWQ/mcEval-java/codellama-7B-instruct-awq/completion/java-files/Java-25-gen0.java:19:28: Parameter n should be final. [FinalParameters]
+[ERROR] /home/saima/projects/NonFunc-AWQ/mcEval-java/codellama-7B-instruct-awq/completion/java-files/Java-25-gen0.java:19:32: Expected @param tag for 'n'. [JavadocMethod]
+[ERROR] /home/saima/projects/NonFunc-AWQ/mcEval-java/codellama-7B-instruct-awq/completion/java-files/Java-25-gen0.java:44:27: Parameter args should be final. [FinalParameters]
+[ERROR] /home/saima/projects/NonFunc-AWQ/mcEval-java/codellama-7B-instruct-awq/completion/java-files/Java-25-gen0.java:48:37: '4' is a magic number. [MagicNumber]
+[ERROR] /home/saima/projects/NonFunc-AWQ/mcEval-java/codellama-7B-instruct-awq/completion/java-files/Java-25-gen0.java:48:43: '4' is a magic number. [MagicNumber]
+[ERROR] /home/saima/projects/NonFunc-AWQ/mcEval-java/codellama-7B-instruct-awq/completion/java-files/Java-25-gen0.java:49:37: '5' is a magic number. [MagicNumber]
+[ERROR] /home/saima/projects/NonFunc-AWQ/mcEval-java/codellama-7B-instruct-awq/completion/java-files/Java-25-gen0.java:49:43: '6' is a magic number. [MagicNumber]
+[ERROR] /home/saima/projects/NonFunc-AWQ/mcEval-java/codellama-7B-instruct-awq/completion/java-files/Java-25-gen0.java:50:37: '7' is a magic number. [MagicNumber]
+[ERROR] /home/saima/projects/NonFunc-AWQ/mcEval-java/codellama-7B-instruct-awq/completion/java-files/Java-25-gen0.java:50:43: '12' is a magic number. [MagicNumber]
+Audit done.
+Checkstyle ends with 15 errors.

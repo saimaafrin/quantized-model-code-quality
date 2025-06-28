@@ -1,0 +1,4 @@
+/home/saima/projects/NonFunc-AWQ/mcEval-java/codellama-34B-instruct-hf/completion/java-files/Java-15-gen0.java:29:	UseVarargs:	Consider using varargs for methods or constructors which take an array the last parameter.
+/home/saima/projects/NonFunc-AWQ/mcEval-java/codellama-34B-instruct-hf/completion/java-files/Java-15-gen0.java:34:	OneDeclarationPerLine:	Use one line for each declaration, it enhances code readability.
+/home/saima/projects/NonFunc-AWQ/mcEval-java/codellama-34B-instruct-hf/completion/java-files/Java-15-gen0.java:34:	UnusedLocalVariable:	Avoid unused local variables such as 'total'.
+/home/saima/projects/NonFunc-AWQ/mcEval-java/codellama-34B-instruct-hf/completion/java-files/Java-15-gen0.java:62:	SystemPrintln:	Usage of System.out/err

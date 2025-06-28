@@ -1,0 +1,15 @@
+/home/saima/projects/NonFunc-AWQ/mcEval-java/codellama-7B-instruct-hf/completion/java-files/Java-11-gen0.java:1:	UnnecessaryImport:	Unused import 'java.util.*'
+/home/saima/projects/NonFunc-AWQ/mcEval-java/codellama-7B-instruct-hf/completion/java-files/Java-11-gen0.java:3:	NoPackage:	All classes, interfaces, enums and annotations must belong to a named package
+/home/saima/projects/NonFunc-AWQ/mcEval-java/codellama-7B-instruct-hf/completion/java-files/Java-11-gen0.java:23:	MethodArgumentCouldBeFinal:	Parameter 'word1' is not assigned and could be declared final
+/home/saima/projects/NonFunc-AWQ/mcEval-java/codellama-7B-instruct-hf/completion/java-files/Java-11-gen0.java:23:	MethodArgumentCouldBeFinal:	Parameter 'word2' is not assigned and could be declared final
+/home/saima/projects/NonFunc-AWQ/mcEval-java/codellama-7B-instruct-hf/completion/java-files/Java-11-gen0.java:26:	ShortVariable:	Avoid variables with short names like n1
+/home/saima/projects/NonFunc-AWQ/mcEval-java/codellama-7B-instruct-hf/completion/java-files/Java-11-gen0.java:26:	LocalVariableCouldBeFinal:	Local variable 'n1' could be declared final
+/home/saima/projects/NonFunc-AWQ/mcEval-java/codellama-7B-instruct-hf/completion/java-files/Java-11-gen0.java:27:	ShortVariable:	Avoid variables with short names like n2
+/home/saima/projects/NonFunc-AWQ/mcEval-java/codellama-7B-instruct-hf/completion/java-files/Java-11-gen0.java:27:	LocalVariableCouldBeFinal:	Local variable 'n2' could be declared final
+/home/saima/projects/NonFunc-AWQ/mcEval-java/codellama-7B-instruct-hf/completion/java-files/Java-11-gen0.java:28:	ShortVariable:	Avoid variables with short names like m
+/home/saima/projects/NonFunc-AWQ/mcEval-java/codellama-7B-instruct-hf/completion/java-files/Java-11-gen0.java:37:	ShortVariable:	Avoid variables with short names like d
+/home/saima/projects/NonFunc-AWQ/mcEval-java/codellama-7B-instruct-hf/completion/java-files/Java-11-gen0.java:37:	LocalVariableCouldBeFinal:	Local variable 'd' could be declared final
+/home/saima/projects/NonFunc-AWQ/mcEval-java/codellama-7B-instruct-hf/completion/java-files/Java-11-gen0.java:38:	LocalVariableCouldBeFinal:	Local variable 'gcd' could be declared final
+/home/saima/projects/NonFunc-AWQ/mcEval-java/codellama-7B-instruct-hf/completion/java-files/Java-11-gen0.java:39:	LocalVariableCouldBeFinal:	Local variable 'numerator' could be declared final
+/home/saima/projects/NonFunc-AWQ/mcEval-java/codellama-7B-instruct-hf/completion/java-files/Java-11-gen0.java:40:	LocalVariableCouldBeFinal:	Local variable 'denominator' could be declared final
+/home/saima/projects/NonFunc-AWQ/mcEval-java/codellama-7B-instruct-hf/completion/java-files/Java-11-gen0.java:41:	LocalVariableCouldBeFinal:	Local variable 'str' could be declared final

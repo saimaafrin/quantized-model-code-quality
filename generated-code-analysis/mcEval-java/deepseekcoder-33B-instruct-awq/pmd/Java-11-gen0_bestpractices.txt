@@ -1,0 +1,4 @@
+/home/saima/projects/NonFunc-AWQ/mcEval-java/deepseekcoder-33B-instruct-awq/completion/java-files/Java-11-gen0.java:53:	LiteralsFirstInComparisons:	Position literals first in String comparisons
+/home/saima/projects/NonFunc-AWQ/mcEval-java/deepseekcoder-33B-instruct-awq/completion/java-files/Java-11-gen0.java:54:	LiteralsFirstInComparisons:	Position literals first in String comparisons
+/home/saima/projects/NonFunc-AWQ/mcEval-java/deepseekcoder-33B-instruct-awq/completion/java-files/Java-11-gen0.java:55:	LiteralsFirstInComparisons:	Position literals first in String comparisons
+/home/saima/projects/NonFunc-AWQ/mcEval-java/deepseekcoder-33B-instruct-awq/completion/java-files/Java-11-gen0.java:56:	SystemPrintln:	Usage of System.out/err

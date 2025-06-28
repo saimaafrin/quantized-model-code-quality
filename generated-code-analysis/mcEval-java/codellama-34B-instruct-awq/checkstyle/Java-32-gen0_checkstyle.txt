@@ -1,0 +1,16 @@
+Starting audit...
+[ERROR] /home/saima/projects/NonFunc-AWQ/mcEval-java/codellama-34B-instruct-awq/completion/java-files/Java-32-gen0.java:1: File does not end with a newline. [NewlineAtEndOfFile]
+[ERROR] /home/saima/projects/NonFunc-AWQ/mcEval-java/codellama-34B-instruct-awq/completion/java-files/Java-32-gen0.java:1: Missing package-info.java file. [JavadocPackage]
+[ERROR] /home/saima/projects/NonFunc-AWQ/mcEval-java/codellama-34B-instruct-awq/completion/java-files/Java-32-gen0.java:9: Line is longer than 80 characters (found 83). [LineLength]
+[ERROR] /home/saima/projects/NonFunc-AWQ/mcEval-java/codellama-34B-instruct-awq/completion/java-files/Java-32-gen0.java:17: @return tag should be present and have description. [JavadocMethod]
+[ERROR] /home/saima/projects/NonFunc-AWQ/mcEval-java/codellama-34B-instruct-awq/completion/java-files/Java-32-gen0.java:17:28: Parameter logs should be final. [FinalParameters]
+[ERROR] /home/saima/projects/NonFunc-AWQ/mcEval-java/codellama-34B-instruct-awq/completion/java-files/Java-32-gen0.java:17:37: Expected @param tag for 'logs'. [JavadocMethod]
+[ERROR] /home/saima/projects/NonFunc-AWQ/mcEval-java/codellama-34B-instruct-awq/completion/java-files/Java-32-gen0.java:32:27: Parameter args should be final. [FinalParameters]
+[ERROR] /home/saima/projects/NonFunc-AWQ/mcEval-java/codellama-34B-instruct-awq/completion/java-files/Java-32-gen0.java:37:20: '{' is followed by whitespace. [NoWhitespaceAfter]
+[ERROR] /home/saima/projects/NonFunc-AWQ/mcEval-java/codellama-34B-instruct-awq/completion/java-files/Java-32-gen0.java:38:7: '==' should be on a new line. [OperatorWrap]
+[ERROR] /home/saima/projects/NonFunc-AWQ/mcEval-java/codellama-34B-instruct-awq/completion/java-files/Java-32-gen0.java:41:20: '{' is followed by whitespace. [NoWhitespaceAfter]
+[ERROR] /home/saima/projects/NonFunc-AWQ/mcEval-java/codellama-34B-instruct-awq/completion/java-files/Java-32-gen0.java:42:7: '==' should be on a new line. [OperatorWrap]
+[ERROR] /home/saima/projects/NonFunc-AWQ/mcEval-java/codellama-34B-instruct-awq/completion/java-files/Java-32-gen0.java:45:20: '{' is followed by whitespace. [NoWhitespaceAfter]
+[ERROR] /home/saima/projects/NonFunc-AWQ/mcEval-java/codellama-34B-instruct-awq/completion/java-files/Java-32-gen0.java:46:7: '==' should be on a new line. [OperatorWrap]
+Audit done.
+Checkstyle ends with 13 errors.

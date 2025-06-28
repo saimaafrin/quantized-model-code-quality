@@ -1,0 +1,20 @@
+{
+  "name": "Java-43",
+  "language": "java",
+  "temperature": 0.8,
+  "top_p": 0.95,
+  "max_tokens": 1024,
+  "prompt": "import java.util.*;\nclass Problem {\n\n  /**\n   * Given n non-negative integers representing the heights of bars in a bar chart.\n   * Each bar has a width of 1 unit. Calculate the largest rectangle area that can be formed in the bar chart.\n   *\n   * @param heights An array of integers representing the heights of bars.\n   * @return The maximum area of the rectangle that can be formed.\n   *\n   * Example:\n   * largestRectangleArea(new int[]{2,1,5,6,2,3})\n   * Output: 10\n   *\n   * Example:\n   * largestRectangleArea(new int[]{2,4})\n   * Output: 4\n   */\n  public static int largestRectangleArea(int[] heights) ",
+  "tests": "  public static void main(String[] args) {\n    assert largestRectangleArea(new int[] { 1, 2, 3, 4, 5, 3, 3, 2 }) == 15;\n    assert largestRectangleArea(new int[] { 6, 2, 5, 4, 5, 1, 6 }) == 12;\n    assert largestRectangleArea(new int[] { 2, 1, 2, 3, 1 }) == 5;\n\n    System.out.println(\"All tests passed\");\n  }\n}",
+  "stop_tokens": [],
+  "results": [
+    {
+      "program": "import java.util.*;\nclass Problem {\n\n  /**\n   * Given n non-negative integers representing the heights of bars in a bar chart.\n   * Each bar has a width of 1 unit. Calculate the largest rectangle area that can be formed in the bar chart.\n   *\n   * @param heights An array of integers representing the heights of bars.\n   * @return The maximum area of the rectangle that can be formed.\n   *\n   * Example:\n   * largestRectangleArea(new int[]{2,1,5,6,2,3})\n   * Output: 10\n   *\n   * Example:\n   * largestRectangleArea(new int[]{2,4})\n   * Output: 4\n   */\n  public static int largestRectangleArea(int[] heights)  {\n    int n = heights.length;\n    int[] left = new int[n];\n    int[] right = new int[n];\n    int[] maxArea = new int[n];\n\n    // calculate left\n    // from left to right\n    int maxLeft = 0;\n    for (int i = 0; i < n; i++) {\n      if (heights[i] > maxLeft) {\n        maxLeft = heights[i];\n      }\n      left[i] = maxLeft;\n    }\n\n    // calculate right\n    // from right to left\n    int maxRight = 0;\n    for (int i = n - 1; i >= 0; i--) {\n      if (heights[i] > maxRight) {\n        maxRight = heights[i];\n      }\n      right[i] = maxRight;\n    }\n\n    // calculate max area\n    for (int i = 0; i < n; i++) {\n      maxArea[i] = Math.min(left[i], right[i]) * heights[i];\n    }\n\n    // find max area\n    int max = maxArea[0];\n    for (int i = 1; i < n; i++) {\n      if (maxArea[i] > max) {\n        max = maxArea[i];\n      }\n    }\n\n    return max;\n  }\n  public static void main(String[] args) {\n    assert largestRectangleArea(new int[] { 1, 2, 3, 4, 5, 3, 3, 2 }) == 15;\n    assert largestRectangleArea(new int[] { 6, 2, 5, 4, 5, 1, 6 }) == 12;\n    assert largestRectangleArea(new int[] { 2, 1, 2, 3, 1 }) == 5;\n\n    System.out.println(\"All tests passed\");\n  }\n}",
+      "timestamp": 1741528526,
+      "stdout": "",
+      "stderr": "Exception in thread \"main\" java.lang.AssertionError\n\tat Problem.main(tmp3xuduf0h.java:61)\n",
+      "exit_code": 1,
+      "status": "Exception"
+    }
+  ]
+}

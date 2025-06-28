@@ -1,0 +1,18 @@
+Starting audit...
+[ERROR] /home/saima/projects/NonFunc-AWQ/mcEval-java/codellama-7B-instruct-hf/completion/java-files/Java-48-gen0.java:1: Missing package-info.java file. [JavadocPackage]
+[ERROR] /home/saima/projects/NonFunc-AWQ/mcEval-java/codellama-7B-instruct-hf/completion/java-files/Java-48-gen0.java:1:1: Redundant import from the java.lang package - java.lang.Math. [RedundantImport]
+[ERROR] /home/saima/projects/NonFunc-AWQ/mcEval-java/codellama-7B-instruct-hf/completion/java-files/Java-48-gen0.java:1:8: Unused import - java.lang.Math. [UnusedImports]
+[ERROR] /home/saima/projects/NonFunc-AWQ/mcEval-java/codellama-7B-instruct-hf/completion/java-files/Java-48-gen0.java:3:1: Utility classes should not have a public or default constructor. [HideUtilityClassConstructor]
+[ERROR] /home/saima/projects/NonFunc-AWQ/mcEval-java/codellama-7B-instruct-hf/completion/java-files/Java-48-gen0.java:15:39: Parameter n should be final. [FinalParameters]
+[ERROR] /home/saima/projects/NonFunc-AWQ/mcEval-java/codellama-7B-instruct-hf/completion/java-files/Java-48-gen0.java:24: Line is longer than 80 characters (found 110). [LineLength]
+[ERROR] /home/saima/projects/NonFunc-AWQ/mcEval-java/codellama-7B-instruct-hf/completion/java-files/Java-48-gen0.java:24:60: '3' is a magic number. [MagicNumber]
+[ERROR] /home/saima/projects/NonFunc-AWQ/mcEval-java/codellama-7B-instruct-hf/completion/java-files/Java-48-gen0.java:24:86: '5' is a magic number. [MagicNumber]
+[ERROR] /home/saima/projects/NonFunc-AWQ/mcEval-java/codellama-7B-instruct-hf/completion/java-files/Java-48-gen0.java:30:18: '3' is a magic number. [MagicNumber]
+[ERROR] /home/saima/projects/NonFunc-AWQ/mcEval-java/codellama-7B-instruct-hf/completion/java-files/Java-48-gen0.java:33:18: '5' is a magic number. [MagicNumber]
+[ERROR] /home/saima/projects/NonFunc-AWQ/mcEval-java/codellama-7B-instruct-hf/completion/java-files/Java-48-gen0.java:40:27: Parameter args should be final. [FinalParameters]
+[ERROR] /home/saima/projects/NonFunc-AWQ/mcEval-java/codellama-7B-instruct-hf/completion/java-files/Java-48-gen0.java:42:30: '7' is a magic number. [MagicNumber]
+[ERROR] /home/saima/projects/NonFunc-AWQ/mcEval-java/codellama-7B-instruct-hf/completion/java-files/Java-48-gen0.java:42:36: '8' is a magic number. [MagicNumber]
+[ERROR] /home/saima/projects/NonFunc-AWQ/mcEval-java/codellama-7B-instruct-hf/completion/java-files/Java-48-gen0.java:43:30: '15' is a magic number. [MagicNumber]
+[ERROR] /home/saima/projects/NonFunc-AWQ/mcEval-java/codellama-7B-instruct-hf/completion/java-files/Java-48-gen0.java:43:37: '24' is a magic number. [MagicNumber]
+Audit done.
+Checkstyle ends with 15 errors.

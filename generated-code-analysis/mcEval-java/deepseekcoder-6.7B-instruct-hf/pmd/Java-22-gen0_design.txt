@@ -1,0 +1,4 @@
+/home/saima/projects/NonFunc-AWQ/mcEval-java/deepseekcoder-6.7B-instruct-hf/completion/java-files/Java-22-gen0.java:38:	SimplifyBooleanExpressions:	Avoid unnecessary comparisons in boolean expressions
+/home/saima/projects/NonFunc-AWQ/mcEval-java/deepseekcoder-6.7B-instruct-hf/completion/java-files/Java-22-gen0.java:39:	SimplifyBooleanExpressions:	Avoid unnecessary comparisons in boolean expressions
+/home/saima/projects/NonFunc-AWQ/mcEval-java/deepseekcoder-6.7B-instruct-hf/completion/java-files/Java-22-gen0.java:44:	SimplifyBooleanExpressions:	Avoid unnecessary comparisons in boolean expressions
+LoosePackageCoupling	-	No packages or classes specified

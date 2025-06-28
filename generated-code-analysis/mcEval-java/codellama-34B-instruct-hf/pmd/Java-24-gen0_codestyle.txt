@@ -1,0 +1,13 @@
+/home/saima/projects/NonFunc-AWQ/mcEval-java/codellama-34B-instruct-hf/completion/java-files/Java-24-gen0.java:1:	NoPackage:	All classes, interfaces, enums and annotations must belong to a named package
+/home/saima/projects/NonFunc-AWQ/mcEval-java/codellama-34B-instruct-hf/completion/java-files/Java-24-gen0.java:1:	AtLeastOneConstructor:	Each class should declare at least one constructor
+/home/saima/projects/NonFunc-AWQ/mcEval-java/codellama-34B-instruct-hf/completion/java-files/Java-24-gen0.java:15:	ShortVariable:	Avoid variables with short names like s
+/home/saima/projects/NonFunc-AWQ/mcEval-java/codellama-34B-instruct-hf/completion/java-files/Java-24-gen0.java:15:	MethodArgumentCouldBeFinal:	Parameter 's' is not assigned and could be declared final
+/home/saima/projects/NonFunc-AWQ/mcEval-java/codellama-34B-instruct-hf/completion/java-files/Java-24-gen0.java:25:	LocalVariableCouldBeFinal:	Local variable 'len' could be declared final
+/home/saima/projects/NonFunc-AWQ/mcEval-java/codellama-34B-instruct-hf/completion/java-files/Java-24-gen0.java:26:	OnlyOneReturn:	A method should have only one exit point, and that should be the last statement in the method
+/home/saima/projects/NonFunc-AWQ/mcEval-java/codellama-34B-instruct-hf/completion/java-files/Java-24-gen0.java:26:	ControlStatementBraces:	This statement should have braces
+/home/saima/projects/NonFunc-AWQ/mcEval-java/codellama-34B-instruct-hf/completion/java-files/Java-24-gen0.java:29:	LocalVariableCouldBeFinal:	Local variable 'c' could be declared final
+/home/saima/projects/NonFunc-AWQ/mcEval-java/codellama-34B-instruct-hf/completion/java-files/Java-24-gen0.java:30:	ControlStatementBraces:	This statement should have braces
+/home/saima/projects/NonFunc-AWQ/mcEval-java/codellama-34B-instruct-hf/completion/java-files/Java-24-gen0.java:31:	ControlStatementBraces:	This statement should have braces
+/home/saima/projects/NonFunc-AWQ/mcEval-java/codellama-34B-instruct-hf/completion/java-files/Java-24-gen0.java:52:	ControlStatementBraces:	This statement should have braces
+/home/saima/projects/NonFunc-AWQ/mcEval-java/codellama-34B-instruct-hf/completion/java-files/Java-24-gen0.java:53:	ControlStatementBraces:	This statement should have braces
+/home/saima/projects/NonFunc-AWQ/mcEval-java/codellama-34B-instruct-hf/completion/java-files/Java-24-gen0.java:69:	LocalVariableCouldBeFinal:	Local variable 'solution' could be declared final

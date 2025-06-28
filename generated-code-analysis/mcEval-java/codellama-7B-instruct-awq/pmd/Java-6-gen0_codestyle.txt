@@ -1,0 +1,10 @@
+/home/saima/projects/NonFunc-AWQ/mcEval-java/codellama-7B-instruct-awq/completion/java-files/Java-6-gen0.java:3:	NoPackage:	All classes, interfaces, enums and annotations must belong to a named package
+/home/saima/projects/NonFunc-AWQ/mcEval-java/codellama-7B-instruct-awq/completion/java-files/Java-6-gen0.java:22:	ShortVariable:	Avoid variables with short names like dx
+/home/saima/projects/NonFunc-AWQ/mcEval-java/codellama-7B-instruct-awq/completion/java-files/Java-6-gen0.java:22:	FieldNamingConventions:	The constant name 'dx' doesn't match '[A-Z][A-Z_0-9]*'
+/home/saima/projects/NonFunc-AWQ/mcEval-java/codellama-7B-instruct-awq/completion/java-files/Java-6-gen0.java:23:	ShortVariable:	Avoid variables with short names like dy
+/home/saima/projects/NonFunc-AWQ/mcEval-java/codellama-7B-instruct-awq/completion/java-files/Java-6-gen0.java:23:	FieldNamingConventions:	The constant name 'dy' doesn't match '[A-Z][A-Z_0-9]*'
+/home/saima/projects/NonFunc-AWQ/mcEval-java/codellama-7B-instruct-awq/completion/java-files/Java-6-gen0.java:24:	MethodArgumentCouldBeFinal:	Parameter 'grid' is not assigned and could be declared final
+/home/saima/projects/NonFunc-AWQ/mcEval-java/codellama-7B-instruct-awq/completion/java-files/Java-6-gen0.java:25:	LocalVariableCouldBeFinal:	Local variable 'unique' could be declared final
+/home/saima/projects/NonFunc-AWQ/mcEval-java/codellama-7B-instruct-awq/completion/java-files/Java-6-gen0.java:25:	UseDiamondOperator:	Explicit type arguments can be replaced by a diamond: `new HashSet<>()`
+/home/saima/projects/NonFunc-AWQ/mcEval-java/codellama-7B-instruct-awq/completion/java-files/Java-6-gen0.java:26:	ShortVariable:	Avoid variables with short names like n
+/home/saima/projects/NonFunc-AWQ/mcEval-java/codellama-7B-instruct-awq/completion/java-files/Java-6-gen0.java:26:	LocalVariableCouldBeFinal:	Local variable 'n' could be declared final

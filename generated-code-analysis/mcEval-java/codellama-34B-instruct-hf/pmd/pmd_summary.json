@@ -1,0 +1,74 @@
+{
+    "Total code count": {
+        "files": 53
+    },
+    "Total Rule Violations": {
+        "bestpractices": 121,
+        "codestyle": 368,
+        "design": 51,
+        "documentation": 235,
+        "errorprone": 15,
+        "multithreading": 3,
+        "performance": 7,
+        "security": 0
+    },
+    "Error Code Counts": {
+        "bestpractices": {
+            "UseVarargs": 19,
+            "LooseCoupling": 4,
+            "SystemPrintln": 53,
+            "ForLoopCanBeForeach": 4,
+            "AvoidReassigningParameters": 5,
+            "LiteralsFirstInComparisons": 23,
+            "UnusedAssignment": 2,
+            "OneDeclarationPerLine": 5,
+            "UnusedLocalVariable": 2,
+            "DoubleBraceInitialization": 3,
+            "AvoidPrintStackTrace": 1
+        },
+        "codestyle": {
+            "NoPackage": 53,
+            "AtLeastOneConstructor": 23,
+            "MethodArgumentCouldBeFinal": 55,
+            "LocalVariableCouldBeFinal": 109,
+            "UseDiamondOperator": 5,
+            "UnnecessaryImport": 13,
+            "ShortVariable": 58,
+            "ControlStatementBraces": 15,
+            "CommentDefaultAccessModifier": 2,
+            "UseUnderscoresInNumericLiterals": 10,
+            "OnlyOneReturn": 12,
+            "UselessParentheses": 1,
+            "LongVariable": 2,
+            "LinguisticNaming": 2,
+            "ConfusingTernary": 1,
+            "FormalParameterNamingConventions": 5,
+            "FieldNamingConventions": 2
+        },
+        "design": {
+            "UseUtilityClass": 30,
+            "SimplifyBooleanExpressions": 16,
+            "CognitiveComplexity": 3,
+            "CyclomaticComplexity": 2
+        },
+        "documentation": {
+            "CommentRequired": 111,
+            "CommentSize": 124
+        },
+        "errorprone": {
+            "AvoidLiteralsInIfCondition": 12,
+            "AvoidDuplicateLiterals": 1,
+            "AssignmentInOperand": 1,
+            "SimpleDateFormatNeedsLocale": 1
+        },
+        "multithreading": {
+            "UseConcurrentHashMap": 3
+        },
+        "performance": {
+            "AvoidInstantiatingObjectsInLoops": 1,
+            "AddEmptyString": 1,
+            "UseStringBufferForStringAppends": 5
+        },
+        "security": {}
+    }
+}

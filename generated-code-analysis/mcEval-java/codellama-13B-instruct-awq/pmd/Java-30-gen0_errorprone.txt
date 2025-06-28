@@ -1,0 +1,1 @@
+/home/saima/projects/NonFunc-AWQ/mcEval-java/codellama-13B-instruct-awq/completion/java-files/Java-30-gen0.java:30:	UseLocaleWithCaseConversions:	When doing a String.toLowerCase()/toUpperCase() call, use a Locale

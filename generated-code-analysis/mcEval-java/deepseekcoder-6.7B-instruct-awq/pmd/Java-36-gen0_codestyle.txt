@@ -1,0 +1,5 @@
+/home/saima/projects/NonFunc-AWQ/mcEval-java/deepseekcoder-6.7B-instruct-awq/completion/java-files/Java-36-gen0.java:4:	NoPackage:	All classes, interfaces, enums and annotations must belong to a named package
+/home/saima/projects/NonFunc-AWQ/mcEval-java/deepseekcoder-6.7B-instruct-awq/completion/java-files/Java-36-gen0.java:17:	MethodArgumentCouldBeFinal:	Parameter 'low' is not assigned and could be declared final
+/home/saima/projects/NonFunc-AWQ/mcEval-java/deepseekcoder-6.7B-instruct-awq/completion/java-files/Java-36-gen0.java:17:	MethodArgumentCouldBeFinal:	Parameter 'high' is not assigned and could be declared final
+/home/saima/projects/NonFunc-AWQ/mcEval-java/deepseekcoder-6.7B-instruct-awq/completion/java-files/Java-36-gen0.java:19:	LocalVariableCouldBeFinal:	Local variable 'result' could be declared final
+/home/saima/projects/NonFunc-AWQ/mcEval-java/deepseekcoder-6.7B-instruct-awq/completion/java-files/Java-36-gen0.java:23:	ControlStatementBraces:	This statement should have braces

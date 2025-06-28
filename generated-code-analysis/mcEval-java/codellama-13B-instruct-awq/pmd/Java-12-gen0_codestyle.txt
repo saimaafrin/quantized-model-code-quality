@@ -1,0 +1,14 @@
+/home/saima/projects/NonFunc-AWQ/mcEval-java/codellama-13B-instruct-awq/completion/java-files/Java-12-gen0.java:5:	NoPackage:	All classes, interfaces, enums and annotations must belong to a named package
+/home/saima/projects/NonFunc-AWQ/mcEval-java/codellama-13B-instruct-awq/completion/java-files/Java-12-gen0.java:17:	MethodArgumentCouldBeFinal:	Parameter 'date' is not assigned and could be declared final
+/home/saima/projects/NonFunc-AWQ/mcEval-java/codellama-13B-instruct-awq/completion/java-files/Java-12-gen0.java:19:	LocalVariableCouldBeFinal:	Local variable 'dateList' could be declared final
+/home/saima/projects/NonFunc-AWQ/mcEval-java/codellama-13B-instruct-awq/completion/java-files/Java-12-gen0.java:20:	LocalVariableCouldBeFinal:	Local variable 'month' could be declared final
+/home/saima/projects/NonFunc-AWQ/mcEval-java/codellama-13B-instruct-awq/completion/java-files/Java-12-gen0.java:21:	LocalVariableNamingConventions:	The local variable name 'month_int' doesn't match '[a-z][a-zA-Z0-9]*'
+/home/saima/projects/NonFunc-AWQ/mcEval-java/codellama-13B-instruct-awq/completion/java-files/Java-12-gen0.java:22:	LocalVariableCouldBeFinal:	Local variable 'day' could be declared final
+/home/saima/projects/NonFunc-AWQ/mcEval-java/codellama-13B-instruct-awq/completion/java-files/Java-12-gen0.java:23:	LocalVariableCouldBeFinal:	Local variable 'year' could be declared final
+/home/saima/projects/NonFunc-AWQ/mcEval-java/codellama-13B-instruct-awq/completion/java-files/Java-12-gen0.java:24:	LocalVariableNamingConventions:	The local variable name 'day_int' doesn't match '[a-z][a-zA-Z0-9]*'
+/home/saima/projects/NonFunc-AWQ/mcEval-java/codellama-13B-instruct-awq/completion/java-files/Java-12-gen0.java:25:	LocalVariableNamingConventions:	The local variable name 'year_int' doesn't match '[a-z][a-zA-Z0-9]*'
+/home/saima/projects/NonFunc-AWQ/mcEval-java/codellama-13B-instruct-awq/completion/java-files/Java-12-gen0.java:29:	LocalVariableCouldBeFinal:	Local variable 'sdf' could be declared final
+/home/saima/projects/NonFunc-AWQ/mcEval-java/codellama-13B-instruct-awq/completion/java-files/Java-12-gen0.java:30:	LocalVariableNamingConventions:	The local variable name 'date_object' doesn't match '[a-z][a-zA-Z0-9]*'
+/home/saima/projects/NonFunc-AWQ/mcEval-java/codellama-13B-instruct-awq/completion/java-files/Java-12-gen0.java:39:	LocalVariableCouldBeFinal:	Local variable 'cal' could be declared final
+/home/saima/projects/NonFunc-AWQ/mcEval-java/codellama-13B-instruct-awq/completion/java-files/Java-12-gen0.java:41:	LocalVariableCouldBeFinal:	Local variable 'weekday_int' could be declared final
+/home/saima/projects/NonFunc-AWQ/mcEval-java/codellama-13B-instruct-awq/completion/java-files/Java-12-gen0.java:41:	LocalVariableNamingConventions:	The local variable name 'weekday_int' doesn't match '[a-z][a-zA-Z0-9]*'

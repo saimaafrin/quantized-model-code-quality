@@ -1,0 +1,8 @@
+/home/saima/projects/NonFunc-AWQ/mcEval-java/codellama-13B-instruct-hf/completion/java-files/Java-16-gen0.java:25:	CognitiveComplexity:	The method 'canArrange(int[], int)' has a cognitive complexity of 34, current threshold is 15
+/home/saima/projects/NonFunc-AWQ/mcEval-java/codellama-13B-instruct-hf/completion/java-files/Java-16-gen0.java:25:	CyclomaticComplexity:	The method 'canArrange(int[], int)' has a cyclomatic complexity of 20.
+/home/saima/projects/NonFunc-AWQ/mcEval-java/codellama-13B-instruct-hf/completion/java-files/Java-16-gen0.java:25:	NPathComplexity:	The method 'canArrange(int[], int)' has an NPath complexity of 32400, current threshold is 200
+/home/saima/projects/NonFunc-AWQ/mcEval-java/codellama-13B-instruct-hf/completion/java-files/Java-16-gen0.java:36:	SimplifyBooleanReturns:	This if statement can be replaced by `return {condition};`
+/home/saima/projects/NonFunc-AWQ/mcEval-java/codellama-13B-instruct-hf/completion/java-files/Java-16-gen0.java:94:	SimplifyBooleanExpressions:	Avoid unnecessary comparisons in boolean expressions
+/home/saima/projects/NonFunc-AWQ/mcEval-java/codellama-13B-instruct-hf/completion/java-files/Java-16-gen0.java:95:	SimplifyBooleanExpressions:	Avoid unnecessary comparisons in boolean expressions
+/home/saima/projects/NonFunc-AWQ/mcEval-java/codellama-13B-instruct-hf/completion/java-files/Java-16-gen0.java:96:	SimplifyBooleanExpressions:	Avoid unnecessary comparisons in boolean expressions
+LoosePackageCoupling	-	No packages or classes specified

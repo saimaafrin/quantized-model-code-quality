@@ -1,0 +1,7 @@
+/home/saima/projects/NonFunc-AWQ/mcEval-java/codellama-7B-instruct-hf/completion/java-files/Java-47-gen0.java:1:	NoPackage:	All classes, interfaces, enums and annotations must belong to a named package
+/home/saima/projects/NonFunc-AWQ/mcEval-java/codellama-7B-instruct-hf/completion/java-files/Java-47-gen0.java:13:	MethodArgumentCouldBeFinal:	Parameter 'points' is not assigned and could be declared final
+/home/saima/projects/NonFunc-AWQ/mcEval-java/codellama-7B-instruct-hf/completion/java-files/Java-47-gen0.java:14:	OnlyOneReturn:	A method should have only one exit point, and that should be the last statement in the method
+/home/saima/projects/NonFunc-AWQ/mcEval-java/codellama-7B-instruct-hf/completion/java-files/Java-47-gen0.java:14:	ControlStatementBraces:	This statement should have braces
+/home/saima/projects/NonFunc-AWQ/mcEval-java/codellama-7B-instruct-hf/completion/java-files/Java-47-gen0.java:18:	OnlyOneReturn:	A method should have only one exit point, and that should be the last statement in the method
+/home/saima/projects/NonFunc-AWQ/mcEval-java/codellama-7B-instruct-hf/completion/java-files/Java-47-gen0.java:22:	OnlyOneReturn:	A method should have only one exit point, and that should be the last statement in the method
+/home/saima/projects/NonFunc-AWQ/mcEval-java/codellama-7B-instruct-hf/completion/java-files/Java-47-gen0.java:26:	OnlyOneReturn:	A method should have only one exit point, and that should be the last statement in the method

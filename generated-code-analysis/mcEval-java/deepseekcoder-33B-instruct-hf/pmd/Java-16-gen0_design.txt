@@ -1,0 +1,5 @@
+/home/saima/projects/NonFunc-AWQ/mcEval-java/deepseekcoder-33B-instruct-hf/completion/java-files/Java-16-gen0.java:25:	CognitiveComplexity:	The method 'canArrange(int[], int)' has a cognitive complexity of 16, current threshold is 15
+/home/saima/projects/NonFunc-AWQ/mcEval-java/deepseekcoder-33B-instruct-hf/completion/java-files/Java-16-gen0.java:57:	SimplifyBooleanExpressions:	Avoid unnecessary comparisons in boolean expressions
+/home/saima/projects/NonFunc-AWQ/mcEval-java/deepseekcoder-33B-instruct-hf/completion/java-files/Java-16-gen0.java:58:	SimplifyBooleanExpressions:	Avoid unnecessary comparisons in boolean expressions
+/home/saima/projects/NonFunc-AWQ/mcEval-java/deepseekcoder-33B-instruct-hf/completion/java-files/Java-16-gen0.java:59:	SimplifyBooleanExpressions:	Avoid unnecessary comparisons in boolean expressions
+LoosePackageCoupling	-	No packages or classes specified

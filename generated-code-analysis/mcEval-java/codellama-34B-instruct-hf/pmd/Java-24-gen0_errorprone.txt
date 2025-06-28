@@ -1,0 +1,4 @@
+/home/saima/projects/NonFunc-AWQ/mcEval-java/codellama-34B-instruct-hf/completion/java-files/Java-24-gen0.java:30:	AvoidLiteralsInIfCondition:	Avoid using literals in if statements
+/home/saima/projects/NonFunc-AWQ/mcEval-java/codellama-34B-instruct-hf/completion/java-files/Java-24-gen0.java:50:	AvoidLiteralsInIfCondition:	Avoid using literals in if statements
+/home/saima/projects/NonFunc-AWQ/mcEval-java/codellama-34B-instruct-hf/completion/java-files/Java-24-gen0.java:52:	AvoidLiteralsInIfCondition:	Avoid using literals in if statements
+/home/saima/projects/NonFunc-AWQ/mcEval-java/codellama-34B-instruct-hf/completion/java-files/Java-24-gen0.java:57:	AvoidLiteralsInIfCondition:	Avoid using literals in if statements

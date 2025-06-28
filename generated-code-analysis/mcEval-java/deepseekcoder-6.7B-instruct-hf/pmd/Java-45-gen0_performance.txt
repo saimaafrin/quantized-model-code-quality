@@ -1,0 +1,1 @@
+/home/saima/projects/NonFunc-AWQ/mcEval-java/deepseekcoder-6.7B-instruct-hf/completion/java-files/Java-45-gen0.java:30:	AvoidInstantiatingObjectsInLoops:	Avoid instantiating new objects inside loops

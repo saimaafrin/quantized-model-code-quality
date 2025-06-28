@@ -1,0 +1,17 @@
+Starting audit...
+[ERROR] /home/saima/projects/NonFunc-AWQ/mcEval-java/codellama-34B-instruct-awq/completion/java-files/Java-7-gen0.java:1: File does not end with a newline. [NewlineAtEndOfFile]
+[ERROR] /home/saima/projects/NonFunc-AWQ/mcEval-java/codellama-34B-instruct-awq/completion/java-files/Java-7-gen0.java:1: Missing package-info.java file. [JavadocPackage]
+[ERROR] /home/saima/projects/NonFunc-AWQ/mcEval-java/codellama-34B-instruct-awq/completion/java-files/Java-7-gen0.java:1:17: Using the '.*' form of import should be avoided - java.util.*. [AvoidStarImport]
+[ERROR] /home/saima/projects/NonFunc-AWQ/mcEval-java/codellama-34B-instruct-awq/completion/java-files/Java-7-gen0.java:3:1: Utility classes should not have a public or default constructor. [HideUtilityClassConstructor]
+[ERROR] /home/saima/projects/NonFunc-AWQ/mcEval-java/codellama-34B-instruct-awq/completion/java-files/Java-7-gen0.java:5: Line is longer than 80 characters (found 110). [LineLength]
+[ERROR] /home/saima/projects/NonFunc-AWQ/mcEval-java/codellama-34B-instruct-awq/completion/java-files/Java-7-gen0.java:16:34: Parameter N should be final. [FinalParameters]
+[ERROR] /home/saima/projects/NonFunc-AWQ/mcEval-java/codellama-34B-instruct-awq/completion/java-files/Java-7-gen0.java:16:38: Name 'N' must match pattern '^[a-z][a-zA-Z0-9]*$'. [ParameterName]
+[ERROR] /home/saima/projects/NonFunc-AWQ/mcEval-java/codellama-34B-instruct-awq/completion/java-files/Java-7-gen0.java:19:29: Parameter args should be final. [FinalParameters]
+[ERROR] /home/saima/projects/NonFunc-AWQ/mcEval-java/codellama-34B-instruct-awq/completion/java-files/Java-7-gen0.java:21:27: '3' is a magic number. [MagicNumber]
+[ERROR] /home/saima/projects/NonFunc-AWQ/mcEval-java/codellama-34B-instruct-awq/completion/java-files/Java-7-gen0.java:21:33: '13' is a magic number. [MagicNumber]
+[ERROR] /home/saima/projects/NonFunc-AWQ/mcEval-java/codellama-34B-instruct-awq/completion/java-files/Java-7-gen0.java:22:27: '4' is a magic number. [MagicNumber]
+[ERROR] /home/saima/projects/NonFunc-AWQ/mcEval-java/codellama-34B-instruct-awq/completion/java-files/Java-7-gen0.java:22:33: '21' is a magic number. [MagicNumber]
+[ERROR] /home/saima/projects/NonFunc-AWQ/mcEval-java/codellama-34B-instruct-awq/completion/java-files/Java-7-gen0.java:23:27: '5' is a magic number. [MagicNumber]
+[ERROR] /home/saima/projects/NonFunc-AWQ/mcEval-java/codellama-34B-instruct-awq/completion/java-files/Java-7-gen0.java:23:33: '31' is a magic number. [MagicNumber]
+Audit done.
+Checkstyle ends with 14 errors.

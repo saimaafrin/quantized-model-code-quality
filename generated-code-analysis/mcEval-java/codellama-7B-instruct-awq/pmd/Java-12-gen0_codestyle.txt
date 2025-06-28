@@ -1,0 +1,5 @@
+/home/saima/projects/NonFunc-AWQ/mcEval-java/codellama-7B-instruct-awq/completion/java-files/Java-12-gen0.java:5:	NoPackage:	All classes, interfaces, enums and annotations must belong to a named package
+/home/saima/projects/NonFunc-AWQ/mcEval-java/codellama-7B-instruct-awq/completion/java-files/Java-12-gen0.java:17:	MethodArgumentCouldBeFinal:	Parameter 'date' is not assigned and could be declared final
+/home/saima/projects/NonFunc-AWQ/mcEval-java/codellama-7B-instruct-awq/completion/java-files/Java-12-gen0.java:18:	LocalVariableCouldBeFinal:	Local variable 'sdf' could be declared final
+/home/saima/projects/NonFunc-AWQ/mcEval-java/codellama-7B-instruct-awq/completion/java-files/Java-12-gen0.java:19:	ShortVariable:	Avoid variables with short names like d
+/home/saima/projects/NonFunc-AWQ/mcEval-java/codellama-7B-instruct-awq/completion/java-files/Java-12-gen0.java:25:	LocalVariableCouldBeFinal:	Local variable 'weekday' could be declared final

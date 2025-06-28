@@ -1,0 +1,3 @@
+/home/saima/projects/NonFunc-AWQ/mcEval-java/deepseekcoder-6.7B-instruct-awq/completion/java-files/Java-5-gen0.java:13:	CognitiveComplexity:	The method 'findLargestSubstring(List<String>)' has a cognitive complexity of 17, current threshold is 15
+/home/saima/projects/NonFunc-AWQ/mcEval-java/deepseekcoder-6.7B-instruct-awq/completion/java-files/Java-5-gen0.java:13:	CyclomaticComplexity:	The method 'findLargestSubstring(List<String>)' has a cyclomatic complexity of 11.
+LoosePackageCoupling	-	No packages or classes specified

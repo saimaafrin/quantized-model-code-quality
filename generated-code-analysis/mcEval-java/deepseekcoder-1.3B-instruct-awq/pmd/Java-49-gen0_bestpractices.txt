@@ -1,0 +1,2 @@
+/home/saima/projects/NonFunc-AWQ/mcEval-java/deepseekcoder-1.3B-instruct-awq/completion/java-files/Java-49-gen0.java:17:	UnusedLocalVariable:	Avoid unused local variables such as 'c'.
+/home/saima/projects/NonFunc-AWQ/mcEval-java/deepseekcoder-1.3B-instruct-awq/completion/java-files/Java-49-gen0.java:34:	SystemPrintln:	Usage of System.out/err

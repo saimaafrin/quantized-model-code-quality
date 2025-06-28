@@ -1,0 +1,20 @@
+{
+  "name": "Java-31",
+  "language": "java",
+  "temperature": 0.8,
+  "top_p": 0.95,
+  "max_tokens": 1024,
+  "prompt": "import java.util.*;\n\nclass Problem {\n\n  /**\n   * Given a string s, split the string and return the maximum number of unique substrings.\n   * The split substrings should be able to reconstruct the original string, and each substring must be unique.\n   *\n   * Example:\n   * Input: s = \"ababccc\"\n   * Output: 5\n   * Explanation: One possible way to split the string is ['a', 'b', 'ab', 'c', 'cc'].\n   *              Splitting the string as ['a', 'b', 'a', 'b', 'c', 'cc'] is not valid, because both 'a' and 'b' appear more than once.\n   *\n   * Note:\n   * - The length of s is between 1 and 16.\n   * - s only contains lowercase English letters.\n   */\n  public int maxUniqueSplit(String s) ",
+  "tests": "  public static void main(String[] args) {\n    Problem solution = new Problem();\n\n    // Test the function with different test cases\n    assert solution.maxUniqueSplit(\"ababccc\") == 5;\n    assert solution.maxUniqueSplit(\"abcabcabc\") == 6;\n    assert solution.maxUniqueSplit(\"abcdefg\") == 7;\n    assert solution.maxUniqueSplit(\"aaaaaaa\") == 3;\n    System.out.println(\"All tests passed\");\n  }\n}",
+  "stop_tokens": [],
+  "results": [
+    {
+      "program": "import java.util.*;\n\nclass Problem {\n\n  /**\n   * Given a string s, split the string and return the maximum number of unique substrings.\n   * The split substrings should be able to reconstruct the original string, and each substring must be unique.\n   *\n   * Example:\n   * Input: s = \"ababccc\"\n   * Output: 5\n   * Explanation: One possible way to split the string is ['a', 'b', 'ab', 'c', 'cc'].\n   *              Splitting the string as ['a', 'b', 'a', 'b', 'c', 'cc'] is not valid, because both 'a' and 'b' appear more than once.\n   *\n   * Note:\n   * - The length of s is between 1 and 16.\n   * - s only contains lowercase English letters.\n   */\n  public int maxUniqueSplit(String s)  {\n    int n = s.length();\n    int maxUnique = 0;\n    Map<Character, Integer> charFreq = new HashMap<>();\n\n    for (int i = 0; i < n; i++) {\n      charFreq.put(s.charAt(i), charFreq.getOrDefault(s.charAt(i), 0) + 1);\n    }\n\n    // calculate the maximum number of unique substrings\n    // the substrings are reconstructed from the original string\n    // each substring must be unique\n    // therefore we can count the number of characters that can be used to form the substring\n    // and the number of characters that can be used to form the substrings that contain a given character\n    // if we are able to form a substring with a given character, then it means that we can form any substring that contains that character\n    for (Map.Entry<Character, Integer> entry : charFreq.entrySet()) {\n      Character c = entry.getKey();\n      int cFreq = entry.getValue();\n      int unique = 1;\n\n      // find the maximum number of characters that can be used to form substrings that contain the given character\n      for (int i = 1; i < cFreq; i++) {\n        // we are able to form a substring with the given character\n        // and it means that we can form any substring that contains the given character\n        unique += i;\n      }\n\n      // the maximum number of unique substrings is the maximum number of unique substrings that can be formed\n      // using the given character\n      maxUnique = Math.max(maxUnique, unique);\n    }\n\n    return maxUnique;\n  }\n  public static void main(String[] args) {\n    Problem solution = new Problem();\n\n    // Test the function with different test cases\n    assert solution.maxUniqueSplit(\"ababccc\") == 5;\n    assert solution.maxUniqueSplit(\"abcabcabc\") == 6;\n    assert solution.maxUniqueSplit(\"abcdefg\") == 7;\n    assert solution.maxUniqueSplit(\"aaaaaaa\") == 3;\n    System.out.println(\"All tests passed\");\n  }\n}",
+      "timestamp": 1741573258,
+      "stdout": "",
+      "stderr": "Exception in thread \"main\" java.lang.AssertionError\n\tat Problem.main(tmpq2rtzlic.java:57)\n",
+      "exit_code": 1,
+      "status": "Exception"
+    }
+  ]
+}

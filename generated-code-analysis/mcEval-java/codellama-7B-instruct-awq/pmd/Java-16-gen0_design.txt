@@ -1,0 +1,5 @@
+/home/saima/projects/NonFunc-AWQ/mcEval-java/codellama-7B-instruct-awq/completion/java-files/Java-16-gen0.java:25:	CyclomaticComplexity:	The method 'canArrange(int[], int)' has a cyclomatic complexity of 10.
+/home/saima/projects/NonFunc-AWQ/mcEval-java/codellama-7B-instruct-awq/completion/java-files/Java-16-gen0.java:68:	SimplifyBooleanExpressions:	Avoid unnecessary comparisons in boolean expressions
+/home/saima/projects/NonFunc-AWQ/mcEval-java/codellama-7B-instruct-awq/completion/java-files/Java-16-gen0.java:69:	SimplifyBooleanExpressions:	Avoid unnecessary comparisons in boolean expressions
+/home/saima/projects/NonFunc-AWQ/mcEval-java/codellama-7B-instruct-awq/completion/java-files/Java-16-gen0.java:70:	SimplifyBooleanExpressions:	Avoid unnecessary comparisons in boolean expressions
+LoosePackageCoupling	-	No packages or classes specified

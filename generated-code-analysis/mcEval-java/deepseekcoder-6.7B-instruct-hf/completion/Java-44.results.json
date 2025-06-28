@@ -1,0 +1,20 @@
+{
+  "name": "Java-44",
+  "language": "java",
+  "temperature": 0.8,
+  "top_p": 0.95,
+  "max_tokens": 1024,
+  "prompt": "import java.util.ArrayList;\n\nclass Problem {\n\n  /**\n   * Return all elements in the matrix in diagonal order.\n   *\n   * @param mat The input matrix.\n   * @return An array containing all elements in diagonal order.\n   *\n   * Example:\n   * diagonalOrder(new int[][]{{1,2,3},{4,5,6},{7,8,9}})\n   * Output: [1,2,4,7,5,3,6,8,9]\n   */\n  public static int[] diagonalOrder(int[][] mat) ",
+  "tests": "  public static void main(String[] args) {\n    assert java.util.Arrays.equals(\n      diagonalOrder(new int[][] { { 1, 2 }, { 3, 4 } }),\n      new int[] { 1, 2, 3, 4 }\n    );\n    assert java.util.Arrays.equals(\n      diagonalOrder(\n        new int[][] { { 1, 2, 3, 4 }, { 5, 6, 7, 8 }, { 9, 10, 11, 12 } }\n      ),\n      new int[] { 1, 2, 5, 9, 6, 3, 4, 7, 10, 11, 8, 12 }\n    );\n    assert java.util.Arrays.equals(\n      diagonalOrder(new int[][] { { 1 }, { 2 }, { 3 } }),\n      new int[] { 1, 2, 3 }\n    );\n\n    System.out.println(\"All tests passed\");\n  }\n}",
+  "stop_tokens": [],
+  "results": [
+    {
+      "program": "import java.util.ArrayList;\n\nclass Problem {\n\n  /**\n   * Return all elements in the matrix in diagonal order.\n   *\n   * @param mat The input matrix.\n   * @return An array containing all elements in diagonal order.\n   *\n   * Example:\n   * diagonalOrder(new int[][]{{1,2,3},{4,5,6},{7,8,9}})\n   * Output: [1,2,4,7,5,3,6,8,9]\n   */\n  public static int[] diagonalOrder(int[][] mat)  {\n    if (mat == null || mat.length == 0) {\n      return new int[0];\n    }\n\n    int m = mat.length;\n    int n = mat[0].length;\n\n    int[] result = new int[m * n];\n    int k = 0;\n    ArrayList<Integer> temp = new ArrayList<>();\n\n    for (int i = 0; i < m + n - 1; i++) {\n      if (i % 2 == 0) {\n        // For even i, we start from top or bottom.\n        int start_col = Math.max(0, i - m + 1);\n        int count = Math.min(i + 1, n);\n        for (int j = start_col; j < count; j++) {\n          temp.add(mat[Math.min(i, m - 1)][j]);\n        }\n      } else {\n        // For odd i, we start from left or right.\n        int start_row = Math.max(0, i - n + 1);\n        int count = Math.min(i + 1, m);\n        for (int j = start_row; j < count; j++) {\n          temp.add(mat[j][Math.min(i, n - 1)]);\n        }\n      }\n    }\n\n    for (int i = 0; i < temp.size(); i++) {\n      result[i] = temp.get(i);\n    }\n\n    return result;\n  }\n  public static void main(String[] args) {\n    assert java.util.Arrays.equals(\n      diagonalOrder(new int[][] { { 1, 2 }, { 3, 4 } }),\n      new int[] { 1, 2, 3, 4 }\n    );\n    assert java.util.Arrays.equals(\n      diagonalOrder(\n        new int[][] { { 1, 2, 3, 4 }, { 5, 6, 7, 8 }, { 9, 10, 11, 12 } }\n      ),\n      new int[] { 1, 2, 5, 9, 6, 3, 4, 7, 10, 11, 8, 12 }\n    );\n    assert java.util.Arrays.equals(\n      diagonalOrder(new int[][] { { 1 }, { 2 }, { 3 } }),\n      new int[] { 1, 2, 3 }\n    );\n\n    System.out.println(\"All tests passed\");\n  }\n}",
+      "timestamp": 1741536769,
+      "stdout": "",
+      "stderr": "Exception in thread \"main\" java.lang.AssertionError\n\tat Problem.main(tmpwfn3m809.java:52)\n",
+      "exit_code": 1,
+      "status": "Exception"
+    }
+  ]
+}

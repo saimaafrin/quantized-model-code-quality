@@ -1,0 +1,14 @@
+Starting audit...
+[ERROR] /home/saima/projects/NonFunc-AWQ/mcEval-java/codellama-7B-instruct-hf/completion/java-files/Java-39-gen0.java:1: File does not end with a newline. [NewlineAtEndOfFile]
+[ERROR] /home/saima/projects/NonFunc-AWQ/mcEval-java/codellama-7B-instruct-hf/completion/java-files/Java-39-gen0.java:1: Missing package-info.java file. [JavadocPackage]
+[ERROR] /home/saima/projects/NonFunc-AWQ/mcEval-java/codellama-7B-instruct-hf/completion/java-files/Java-39-gen0.java:1:1: Utility classes should not have a public or default constructor. [HideUtilityClassConstructor]
+[ERROR] /home/saima/projects/NonFunc-AWQ/mcEval-java/codellama-7B-instruct-hf/completion/java-files/Java-39-gen0.java:4: Line is longer than 80 characters (found 123). [LineLength]
+[ERROR] /home/saima/projects/NonFunc-AWQ/mcEval-java/codellama-7B-instruct-hf/completion/java-files/Java-39-gen0.java:13:31: Parameter num should be final. [FinalParameters]
+[ERROR] /home/saima/projects/NonFunc-AWQ/mcEval-java/codellama-7B-instruct-hf/completion/java-files/Java-39-gen0.java:14:24: '9' is a magic number. [MagicNumber]
+[ERROR] /home/saima/projects/NonFunc-AWQ/mcEval-java/codellama-7B-instruct-hf/completion/java-files/Java-39-gen0.java:16:27: Parameter args should be final. [FinalParameters]
+[ERROR] /home/saima/projects/NonFunc-AWQ/mcEval-java/codellama-7B-instruct-hf/completion/java-files/Java-39-gen0.java:17:22: '123' is a magic number. [MagicNumber]
+[ERROR] /home/saima/projects/NonFunc-AWQ/mcEval-java/codellama-7B-instruct-hf/completion/java-files/Java-39-gen0.java:17:30: '6' is a magic number. [MagicNumber]
+[ERROR] /home/saima/projects/NonFunc-AWQ/mcEval-java/codellama-7B-instruct-hf/completion/java-files/Java-39-gen0.java:18:22: '59' is a magic number. [MagicNumber]
+[ERROR] /home/saima/projects/NonFunc-AWQ/mcEval-java/codellama-7B-instruct-hf/completion/java-files/Java-39-gen0.java:18:29: '5' is a magic number. [MagicNumber]
+Audit done.
+Checkstyle ends with 11 errors.

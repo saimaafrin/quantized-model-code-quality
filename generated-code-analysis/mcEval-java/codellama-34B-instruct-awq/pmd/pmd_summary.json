@@ -1,0 +1,79 @@
+{
+    "Total code count": {
+        "files": 53
+    },
+    "Total Rule Violations": {
+        "bestpractices": 115,
+        "codestyle": 363,
+        "design": 53,
+        "documentation": 236,
+        "errorprone": 17,
+        "multithreading": 3,
+        "performance": 2,
+        "security": 0
+    },
+    "Error Code Counts": {
+        "bestpractices": {
+            "UseVarargs": 19,
+            "SystemPrintln": 53,
+            "ForLoopCanBeForeach": 2,
+            "LiteralsFirstInComparisons": 23,
+            "LooseCoupling": 2,
+            "AvoidReassigningParameters": 4,
+            "UnusedLocalVariable": 1,
+            "UseCollectionIsEmpty": 1,
+            "OneDeclarationPerLine": 2,
+            "ForLoopVariableCount": 1,
+            "AvoidReassigningLoopVariables": 2,
+            "DoubleBraceInitialization": 3,
+            "UnusedPrivateField": 2
+        },
+        "codestyle": {
+            "NoPackage": 53,
+            "AtLeastOneConstructor": 23,
+            "MethodArgumentCouldBeFinal": 58,
+            "LocalVariableCouldBeFinal": 104,
+            "UnnecessaryImport": 15,
+            "ShortVariable": 41,
+            "OnlyOneReturn": 19,
+            "CommentDefaultAccessModifier": 2,
+            "UseUnderscoresInNumericLiterals": 10,
+            "UselessParentheses": 4,
+            "ControlStatementBraces": 12,
+            "LinguisticNaming": 2,
+            "UseDiamondOperator": 5,
+            "UnnecessaryLocalBeforeReturn": 1,
+            "UnnecessaryCast": 6,
+            "FormalParameterNamingConventions": 5,
+            "LongVariable": 1,
+            "FieldNamingConventions": 2
+        },
+        "design": {
+            "UseUtilityClass": 30,
+            "SimplifyBooleanExpressions": 16,
+            "SimplifiedTernary": 2,
+            "CognitiveComplexity": 3,
+            "CyclomaticComplexity": 2
+        },
+        "documentation": {
+            "CommentRequired": 111,
+            "CommentSize": 124,
+            "UncommentedEmptyMethodBody": 1
+        },
+        "errorprone": {
+            "AvoidLiteralsInIfCondition": 13,
+            "CompareObjectsWithEquals": 1,
+            "AvoidDuplicateLiterals": 1,
+            "JumbledIncrementer": 1,
+            "ReturnEmptyCollectionRatherThanNull": 1
+        },
+        "multithreading": {
+            "UseConcurrentHashMap": 3
+        },
+        "performance": {
+            "AvoidInstantiatingObjectsInLoops": 1,
+            "UseStringBufferForStringAppends": 1
+        },
+        "security": {}
+    }
+}

@@ -1,0 +1,15 @@
+Starting audit...
+[ERROR] /home/saima/projects/NonFunc-AWQ/mcEval-java/deepseekcoder-6.7B-instruct-hf/completion/java-files/Java-46-gen0.java:1: Missing package-info.java file. [JavadocPackage]
+[ERROR] /home/saima/projects/NonFunc-AWQ/mcEval-java/deepseekcoder-6.7B-instruct-hf/completion/java-files/Java-46-gen0.java:2:8: Unused import - java.util.Arrays. [UnusedImports]
+[ERROR] /home/saima/projects/NonFunc-AWQ/mcEval-java/deepseekcoder-6.7B-instruct-hf/completion/java-files/Java-46-gen0.java:5:1: Utility classes should not have a public or default constructor. [HideUtilityClassConstructor]
+[ERROR] /home/saima/projects/NonFunc-AWQ/mcEval-java/deepseekcoder-6.7B-instruct-hf/completion/java-files/Java-46-gen0.java:20:53: Parameter n should be final. [FinalParameters]
+[ERROR] /home/saima/projects/NonFunc-AWQ/mcEval-java/deepseekcoder-6.7B-instruct-hf/completion/java-files/Java-46-gen0.java:23:27: '10' is a magic number. [MagicNumber]
+[ERROR] /home/saima/projects/NonFunc-AWQ/mcEval-java/deepseekcoder-6.7B-instruct-hf/completion/java-files/Java-46-gen0.java:28:27: '10' is a magic number. [MagicNumber]
+[ERROR] /home/saima/projects/NonFunc-AWQ/mcEval-java/deepseekcoder-6.7B-instruct-hf/completion/java-files/Java-46-gen0.java:34:36: Parameter expected should be final. [FinalParameters]
+[ERROR] /home/saima/projects/NonFunc-AWQ/mcEval-java/deepseekcoder-6.7B-instruct-hf/completion/java-files/Java-46-gen0.java:34:55: Parameter actual should be final. [FinalParameters]
+[ERROR] /home/saima/projects/NonFunc-AWQ/mcEval-java/deepseekcoder-6.7B-instruct-hf/completion/java-files/Java-46-gen0.java:45:27: Parameter args should be final. [FinalParameters]
+[ERROR] /home/saima/projects/NonFunc-AWQ/mcEval-java/deepseekcoder-6.7B-instruct-hf/completion/java-files/Java-46-gen0.java:47:20: '{' is followed by whitespace. [NoWhitespaceAfter]
+[ERROR] /home/saima/projects/NonFunc-AWQ/mcEval-java/deepseekcoder-6.7B-instruct-hf/completion/java-files/Java-46-gen0.java:50:31: '{' is followed by whitespace. [NoWhitespaceAfter]
+[ERROR] /home/saima/projects/NonFunc-AWQ/mcEval-java/deepseekcoder-6.7B-instruct-hf/completion/java-files/Java-46-gen0.java:66:30: '3' is a magic number. [MagicNumber]
+Audit done.
+Checkstyle ends with 12 errors.

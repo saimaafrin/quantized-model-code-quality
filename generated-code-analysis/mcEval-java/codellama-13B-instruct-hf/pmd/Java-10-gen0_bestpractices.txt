@@ -1,0 +1,7 @@
+/home/saima/projects/NonFunc-AWQ/mcEval-java/codellama-13B-instruct-hf/completion/java-files/Java-10-gen0.java:17:	UseVarargs:	Consider using varargs for methods or constructors which take an array the last parameter.
+/home/saima/projects/NonFunc-AWQ/mcEval-java/codellama-13B-instruct-hf/completion/java-files/Java-10-gen0.java:18:	LooseCoupling:	Avoid using implementation types like 'ArrayList'; use the interface instead
+/home/saima/projects/NonFunc-AWQ/mcEval-java/codellama-13B-instruct-hf/completion/java-files/Java-10-gen0.java:23:	ForLoopCanBeForeach:	This for loop can be replaced by a foreach loop
+/home/saima/projects/NonFunc-AWQ/mcEval-java/codellama-13B-instruct-hf/completion/java-files/Java-10-gen0.java:34:	LiteralsFirstInComparisons:	Position literals first in String comparisons
+/home/saima/projects/NonFunc-AWQ/mcEval-java/codellama-13B-instruct-hf/completion/java-files/Java-10-gen0.java:35:	LiteralsFirstInComparisons:	Position literals first in String comparisons
+/home/saima/projects/NonFunc-AWQ/mcEval-java/codellama-13B-instruct-hf/completion/java-files/Java-10-gen0.java:36:	LiteralsFirstInComparisons:	Position literals first in String comparisons
+/home/saima/projects/NonFunc-AWQ/mcEval-java/codellama-13B-instruct-hf/completion/java-files/Java-10-gen0.java:37:	SystemPrintln:	Usage of System.out/err

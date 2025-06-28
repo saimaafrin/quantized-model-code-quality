@@ -1,0 +1,8 @@
+/home/saima/projects/NonFunc-AWQ/mcEval-java/codellama-13B-instruct-hf/completion/java-files/Java-44-gen0.java:3:	NoPackage:	All classes, interfaces, enums and annotations must belong to a named package
+/home/saima/projects/NonFunc-AWQ/mcEval-java/codellama-13B-instruct-hf/completion/java-files/Java-44-gen0.java:15:	MethodArgumentCouldBeFinal:	Parameter 'mat' is not assigned and could be declared final
+/home/saima/projects/NonFunc-AWQ/mcEval-java/codellama-13B-instruct-hf/completion/java-files/Java-44-gen0.java:18:	OnlyOneReturn:	A method should have only one exit point, and that should be the last statement in the method
+/home/saima/projects/NonFunc-AWQ/mcEval-java/codellama-13B-instruct-hf/completion/java-files/Java-44-gen0.java:22:	LocalVariableCouldBeFinal:	Local variable 'ans' could be declared final
+/home/saima/projects/NonFunc-AWQ/mcEval-java/codellama-13B-instruct-hf/completion/java-files/Java-44-gen0.java:22:	UseDiamondOperator:	Explicit type arguments can be replaced by a diamond: `new ArrayList<>()`
+/home/saima/projects/NonFunc-AWQ/mcEval-java/codellama-13B-instruct-hf/completion/java-files/Java-44-gen0.java:23:	LocalVariableCouldBeFinal:	Local variable 'rowCount' could be declared final
+/home/saima/projects/NonFunc-AWQ/mcEval-java/codellama-13B-instruct-hf/completion/java-files/Java-44-gen0.java:24:	LocalVariableCouldBeFinal:	Local variable 'colCount' could be declared final
+/home/saima/projects/NonFunc-AWQ/mcEval-java/codellama-13B-instruct-hf/completion/java-files/Java-44-gen0.java:47:	LocalVariableCouldBeFinal:	Local variable 'ansArr' could be declared final

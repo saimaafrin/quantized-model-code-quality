@@ -1,0 +1,14 @@
+Starting audit...
+[ERROR] /home/saima/projects/NonFunc-AWQ/mcEval-java/deepseekcoder-1.3B-instruct-hf/completion/java-files/Java-53-gen0.java:1: File does not end with a newline. [NewlineAtEndOfFile]
+[ERROR] /home/saima/projects/NonFunc-AWQ/mcEval-java/deepseekcoder-1.3B-instruct-hf/completion/java-files/Java-53-gen0.java:1: Missing package-info.java file. [JavadocPackage]
+[ERROR] /home/saima/projects/NonFunc-AWQ/mcEval-java/deepseekcoder-1.3B-instruct-hf/completion/java-files/Java-53-gen0.java:1:1: Utility classes should not have a public or default constructor. [HideUtilityClassConstructor]
+[ERROR] /home/saima/projects/NonFunc-AWQ/mcEval-java/deepseekcoder-1.3B-instruct-hf/completion/java-files/Java-53-gen0.java:4: Line is longer than 80 characters (found 103). [LineLength]
+[ERROR] /home/saima/projects/NonFunc-AWQ/mcEval-java/deepseekcoder-1.3B-instruct-hf/completion/java-files/Java-53-gen0.java:13:37: Parameter s should be final. [FinalParameters]
+[ERROR] /home/saima/projects/NonFunc-AWQ/mcEval-java/deepseekcoder-1.3B-instruct-hf/completion/java-files/Java-53-gen0.java:17:5: 'for' is not followed by whitespace. [WhitespaceAfter]
+[ERROR] /home/saima/projects/NonFunc-AWQ/mcEval-java/deepseekcoder-1.3B-instruct-hf/completion/java-files/Java-53-gen0.java:17:5: 'for' is not followed by whitespace. [WhitespaceAround]
+[ERROR] /home/saima/projects/NonFunc-AWQ/mcEval-java/deepseekcoder-1.3B-instruct-hf/completion/java-files/Java-53-gen0.java:24:27: Parameter args should be final. [FinalParameters]
+[ERROR] /home/saima/projects/NonFunc-AWQ/mcEval-java/deepseekcoder-1.3B-instruct-hf/completion/java-files/Java-53-gen0.java:25: Line is longer than 80 characters (found 124). [LineLength]
+[ERROR] /home/saima/projects/NonFunc-AWQ/mcEval-java/deepseekcoder-1.3B-instruct-hf/completion/java-files/Java-53-gen0.java:26: Line is longer than 80 characters (found 100). [LineLength]
+[ERROR] /home/saima/projects/NonFunc-AWQ/mcEval-java/deepseekcoder-1.3B-instruct-hf/completion/java-files/Java-53-gen0.java:27: Line is longer than 80 characters (found 100). [LineLength]
+Audit done.
+Checkstyle ends with 11 errors.

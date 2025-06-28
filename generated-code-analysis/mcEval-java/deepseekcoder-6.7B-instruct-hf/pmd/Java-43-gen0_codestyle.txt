@@ -1,0 +1,17 @@
+/home/saima/projects/NonFunc-AWQ/mcEval-java/deepseekcoder-6.7B-instruct-hf/completion/java-files/Java-43-gen0.java:2:	NoPackage:	All classes, interfaces, enums and annotations must belong to a named package
+/home/saima/projects/NonFunc-AWQ/mcEval-java/deepseekcoder-6.7B-instruct-hf/completion/java-files/Java-43-gen0.java:19:	MethodArgumentCouldBeFinal:	Parameter 'heights' is not assigned and could be declared final
+/home/saima/projects/NonFunc-AWQ/mcEval-java/deepseekcoder-6.7B-instruct-hf/completion/java-files/Java-43-gen0.java:21:	OnlyOneReturn:	A method should have only one exit point, and that should be the last statement in the method
+/home/saima/projects/NonFunc-AWQ/mcEval-java/deepseekcoder-6.7B-instruct-hf/completion/java-files/Java-43-gen0.java:24:	LocalVariableCouldBeFinal:	Local variable 'stack' could be declared final
+/home/saima/projects/NonFunc-AWQ/mcEval-java/deepseekcoder-6.7B-instruct-hf/completion/java-files/Java-43-gen0.java:26:	ShortVariable:	Avoid variables with short names like i
+/home/saima/projects/NonFunc-AWQ/mcEval-java/deepseekcoder-6.7B-instruct-hf/completion/java-files/Java-43-gen0.java:33:	ShortVariable:	Avoid variables with short names like p
+/home/saima/projects/NonFunc-AWQ/mcEval-java/deepseekcoder-6.7B-instruct-hf/completion/java-files/Java-43-gen0.java:33:	LocalVariableCouldBeFinal:	Local variable 'p' could be declared final
+/home/saima/projects/NonFunc-AWQ/mcEval-java/deepseekcoder-6.7B-instruct-hf/completion/java-files/Java-43-gen0.java:34:	ShortVariable:	Avoid variables with short names like h
+/home/saima/projects/NonFunc-AWQ/mcEval-java/deepseekcoder-6.7B-instruct-hf/completion/java-files/Java-43-gen0.java:34:	LocalVariableCouldBeFinal:	Local variable 'h' could be declared final
+/home/saima/projects/NonFunc-AWQ/mcEval-java/deepseekcoder-6.7B-instruct-hf/completion/java-files/Java-43-gen0.java:35:	ShortVariable:	Avoid variables with short names like w
+/home/saima/projects/NonFunc-AWQ/mcEval-java/deepseekcoder-6.7B-instruct-hf/completion/java-files/Java-43-gen0.java:35:	LocalVariableCouldBeFinal:	Local variable 'w' could be declared final
+/home/saima/projects/NonFunc-AWQ/mcEval-java/deepseekcoder-6.7B-instruct-hf/completion/java-files/Java-43-gen0.java:41:	ShortVariable:	Avoid variables with short names like p
+/home/saima/projects/NonFunc-AWQ/mcEval-java/deepseekcoder-6.7B-instruct-hf/completion/java-files/Java-43-gen0.java:41:	LocalVariableCouldBeFinal:	Local variable 'p' could be declared final
+/home/saima/projects/NonFunc-AWQ/mcEval-java/deepseekcoder-6.7B-instruct-hf/completion/java-files/Java-43-gen0.java:42:	ShortVariable:	Avoid variables with short names like h
+/home/saima/projects/NonFunc-AWQ/mcEval-java/deepseekcoder-6.7B-instruct-hf/completion/java-files/Java-43-gen0.java:42:	LocalVariableCouldBeFinal:	Local variable 'h' could be declared final
+/home/saima/projects/NonFunc-AWQ/mcEval-java/deepseekcoder-6.7B-instruct-hf/completion/java-files/Java-43-gen0.java:43:	ShortVariable:	Avoid variables with short names like w
+/home/saima/projects/NonFunc-AWQ/mcEval-java/deepseekcoder-6.7B-instruct-hf/completion/java-files/Java-43-gen0.java:43:	LocalVariableCouldBeFinal:	Local variable 'w' could be declared final

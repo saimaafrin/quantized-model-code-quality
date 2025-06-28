@@ -1,0 +1,8 @@
+/home/saima/projects/NonFunc-AWQ/mcEval-java/deepseekcoder-33B-instruct-hf/completion/java-files/Java-11-gen0.java:1:	UnnecessaryImport:	Unused import 'java.util.*'
+/home/saima/projects/NonFunc-AWQ/mcEval-java/deepseekcoder-33B-instruct-hf/completion/java-files/Java-11-gen0.java:3:	NoPackage:	All classes, interfaces, enums and annotations must belong to a named package
+/home/saima/projects/NonFunc-AWQ/mcEval-java/deepseekcoder-33B-instruct-hf/completion/java-files/Java-11-gen0.java:23:	MethodArgumentCouldBeFinal:	Parameter 'word1' is not assigned and could be declared final
+/home/saima/projects/NonFunc-AWQ/mcEval-java/deepseekcoder-33B-instruct-hf/completion/java-files/Java-11-gen0.java:23:	MethodArgumentCouldBeFinal:	Parameter 'word2' is not assigned and could be declared final
+/home/saima/projects/NonFunc-AWQ/mcEval-java/deepseekcoder-33B-instruct-hf/completion/java-files/Java-11-gen0.java:24:	LocalVariableCouldBeFinal:	Local variable 'length1' could be declared final
+/home/saima/projects/NonFunc-AWQ/mcEval-java/deepseekcoder-33B-instruct-hf/completion/java-files/Java-11-gen0.java:25:	LocalVariableCouldBeFinal:	Local variable 'length2' could be declared final
+/home/saima/projects/NonFunc-AWQ/mcEval-java/deepseekcoder-33B-instruct-hf/completion/java-files/Java-11-gen0.java:27:	LocalVariableCouldBeFinal:	Local variable 'c' could be declared final
+/home/saima/projects/NonFunc-AWQ/mcEval-java/deepseekcoder-33B-instruct-hf/completion/java-files/Java-11-gen0.java:32:	LocalVariableCouldBeFinal:	Local variable 'gcd' could be declared final

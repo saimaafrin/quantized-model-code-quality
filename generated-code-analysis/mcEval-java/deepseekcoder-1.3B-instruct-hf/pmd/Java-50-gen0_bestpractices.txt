@@ -1,0 +1,4 @@
+/home/saima/projects/NonFunc-AWQ/mcEval-java/deepseekcoder-1.3B-instruct-hf/completion/java-files/Java-50-gen0.java:39:	DoubleBraceInitialization:	Double-brace initialization should be avoided
+/home/saima/projects/NonFunc-AWQ/mcEval-java/deepseekcoder-1.3B-instruct-hf/completion/java-files/Java-50-gen0.java:60:	DoubleBraceInitialization:	Double-brace initialization should be avoided
+/home/saima/projects/NonFunc-AWQ/mcEval-java/deepseekcoder-1.3B-instruct-hf/completion/java-files/Java-50-gen0.java:88:	DoubleBraceInitialization:	Double-brace initialization should be avoided
+/home/saima/projects/NonFunc-AWQ/mcEval-java/deepseekcoder-1.3B-instruct-hf/completion/java-files/Java-50-gen0.java:95:	SystemPrintln:	Usage of System.out/err

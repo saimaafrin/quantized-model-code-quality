@@ -1,0 +1,11 @@
+/home/saima/projects/NonFunc-AWQ/mcEval-java/deepseekcoder-1.3B-instruct-awq/completion/java-files/Java-17-gen0.java:3:	NoPackage:	All classes, interfaces, enums and annotations must belong to a named package
+/home/saima/projects/NonFunc-AWQ/mcEval-java/deepseekcoder-1.3B-instruct-awq/completion/java-files/Java-17-gen0.java:3:	AtLeastOneConstructor:	Each class should declare at least one constructor
+/home/saima/projects/NonFunc-AWQ/mcEval-java/deepseekcoder-1.3B-instruct-awq/completion/java-files/Java-17-gen0.java:19:	CommentDefaultAccessModifier:	Missing commented default access modifier on field 'tree'
+/home/saima/projects/NonFunc-AWQ/mcEval-java/deepseekcoder-1.3B-instruct-awq/completion/java-files/Java-17-gen0.java:20:	CommentDefaultAccessModifier:	Missing commented default access modifier on field 'res'
+/home/saima/projects/NonFunc-AWQ/mcEval-java/deepseekcoder-1.3B-instruct-awq/completion/java-files/Java-17-gen0.java:22:	ShortVariable:	Avoid variables with short names like n
+/home/saima/projects/NonFunc-AWQ/mcEval-java/deepseekcoder-1.3B-instruct-awq/completion/java-files/Java-17-gen0.java:22:	MethodArgumentCouldBeFinal:	Parameter 'n' is not assigned and could be declared final
+/home/saima/projects/NonFunc-AWQ/mcEval-java/deepseekcoder-1.3B-instruct-awq/completion/java-files/Java-17-gen0.java:22:	MethodArgumentCouldBeFinal:	Parameter 'edges' is not assigned and could be declared final
+/home/saima/projects/NonFunc-AWQ/mcEval-java/deepseekcoder-1.3B-instruct-awq/completion/java-files/Java-17-gen0.java:22:	MethodArgumentCouldBeFinal:	Parameter 'hasApple' is not assigned and could be declared final
+/home/saima/projects/NonFunc-AWQ/mcEval-java/deepseekcoder-1.3B-instruct-awq/completion/java-files/Java-17-gen0.java:25:	ControlStatementBraces:	This statement should have braces
+/home/saima/projects/NonFunc-AWQ/mcEval-java/deepseekcoder-1.3B-instruct-awq/completion/java-files/Java-17-gen0.java:26:	LocalVariableCouldBeFinal:	Local variable 'edge' could be declared final
+/home/saima/projects/NonFunc-AWQ/mcEval-java/deepseekcoder-1.3B-instruct-awq/completion/java-files/Java-17-gen0.java:35:	LocalVariableCouldBeFinal:	Local variable 'solution' could be declared final

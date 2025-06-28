@@ -1,0 +1,5 @@
+/home/saima/projects/NonFunc-AWQ/mcEval-java/deepseekcoder-1.3B-instruct-hf/completion/java-files/Java-7-gen0.java:3:	CommentRequired:	Class comments are required
+/home/saima/projects/NonFunc-AWQ/mcEval-java/deepseekcoder-1.3B-instruct-hf/completion/java-files/Java-7-gen0.java:4:	CommentSize:	Comment is too large: Too many lines
+/home/saima/projects/NonFunc-AWQ/mcEval-java/deepseekcoder-1.3B-instruct-hf/completion/java-files/Java-7-gen0.java:5:	CommentSize:	Comment is too large: Line too long
+/home/saima/projects/NonFunc-AWQ/mcEval-java/deepseekcoder-1.3B-instruct-hf/completion/java-files/Java-7-gen0.java:19:	CommentSize:	Comment is too large: Line too long
+/home/saima/projects/NonFunc-AWQ/mcEval-java/deepseekcoder-1.3B-instruct-hf/completion/java-files/Java-7-gen0.java:37:	CommentRequired:	Public method and constructor comments are required

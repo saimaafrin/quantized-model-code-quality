@@ -1,0 +1,8 @@
+/home/saima/projects/NonFunc-AWQ/mcEval-java/codellama-34B-instruct-hf/completion/java-files/Java-42-gen0.java:1:	UnnecessaryImport:	Unused import 'java.util.HashSet'
+/home/saima/projects/NonFunc-AWQ/mcEval-java/codellama-34B-instruct-hf/completion/java-files/Java-42-gen0.java:2:	UnnecessaryImport:	Unused import 'java.util.Set'
+/home/saima/projects/NonFunc-AWQ/mcEval-java/codellama-34B-instruct-hf/completion/java-files/Java-42-gen0.java:4:	NoPackage:	All classes, interfaces, enums and annotations must belong to a named package
+/home/saima/projects/NonFunc-AWQ/mcEval-java/codellama-34B-instruct-hf/completion/java-files/Java-42-gen0.java:21:	ShortVariable:	Avoid variables with short names like A
+/home/saima/projects/NonFunc-AWQ/mcEval-java/codellama-34B-instruct-hf/completion/java-files/Java-42-gen0.java:21:	MethodArgumentCouldBeFinal:	Parameter 'A' is not assigned and could be declared final
+/home/saima/projects/NonFunc-AWQ/mcEval-java/codellama-34B-instruct-hf/completion/java-files/Java-42-gen0.java:21:	FormalParameterNamingConventions:	The method parameter name 'A' doesn't match '[a-z][a-zA-Z0-9]*'
+/home/saima/projects/NonFunc-AWQ/mcEval-java/codellama-34B-instruct-hf/completion/java-files/Java-42-gen0.java:24:	LocalVariableCouldBeFinal:	Local variable 'current' could be declared final
+/home/saima/projects/NonFunc-AWQ/mcEval-java/codellama-34B-instruct-hf/completion/java-files/Java-42-gen0.java:27:	LocalVariableCouldBeFinal:	Local variable 'sum' could be declared final

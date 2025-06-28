@@ -1,0 +1,7 @@
+/home/saima/projects/NonFunc-AWQ/mcEval-java/deepseekcoder-33B-instruct-hf/completion/java-files/Java-15-gen0.java:1:	UnnecessaryImport:	Unused import 'java.lang.*'
+/home/saima/projects/NonFunc-AWQ/mcEval-java/deepseekcoder-33B-instruct-hf/completion/java-files/Java-15-gen0.java:4:	NoPackage:	All classes, interfaces, enums and annotations must belong to a named package
+/home/saima/projects/NonFunc-AWQ/mcEval-java/deepseekcoder-33B-instruct-hf/completion/java-files/Java-15-gen0.java:4:	AtLeastOneConstructor:	Each class should declare at least one constructor
+/home/saima/projects/NonFunc-AWQ/mcEval-java/deepseekcoder-33B-instruct-hf/completion/java-files/Java-15-gen0.java:29:	MethodArgumentCouldBeFinal:	Parameter 'arr' is not assigned and could be declared final
+/home/saima/projects/NonFunc-AWQ/mcEval-java/deepseekcoder-33B-instruct-hf/completion/java-files/Java-15-gen0.java:30:	LocalVariableCouldBeFinal:	Local variable 'size' could be declared final
+/home/saima/projects/NonFunc-AWQ/mcEval-java/deepseekcoder-33B-instruct-hf/completion/java-files/Java-15-gen0.java:31:	LocalVariableCouldBeFinal:	Local variable 'trimSize' could be declared final
+/home/saima/projects/NonFunc-AWQ/mcEval-java/deepseekcoder-33B-instruct-hf/completion/java-files/Java-15-gen0.java:40:	LocalVariableCouldBeFinal:	Local variable 'solution' could be declared final

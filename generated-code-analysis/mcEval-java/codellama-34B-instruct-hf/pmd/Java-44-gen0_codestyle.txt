@@ -1,0 +1,11 @@
+/home/saima/projects/NonFunc-AWQ/mcEval-java/codellama-34B-instruct-hf/completion/java-files/Java-44-gen0.java:3:	NoPackage:	All classes, interfaces, enums and annotations must belong to a named package
+/home/saima/projects/NonFunc-AWQ/mcEval-java/codellama-34B-instruct-hf/completion/java-files/Java-44-gen0.java:15:	MethodArgumentCouldBeFinal:	Parameter 'mat' is not assigned and could be declared final
+/home/saima/projects/NonFunc-AWQ/mcEval-java/codellama-34B-instruct-hf/completion/java-files/Java-44-gen0.java:17:	ShortVariable:	Avoid variables with short names like m
+/home/saima/projects/NonFunc-AWQ/mcEval-java/codellama-34B-instruct-hf/completion/java-files/Java-44-gen0.java:17:	LocalVariableCouldBeFinal:	Local variable 'm' could be declared final
+/home/saima/projects/NonFunc-AWQ/mcEval-java/codellama-34B-instruct-hf/completion/java-files/Java-44-gen0.java:19:	OnlyOneReturn:	A method should have only one exit point, and that should be the last statement in the method
+/home/saima/projects/NonFunc-AWQ/mcEval-java/codellama-34B-instruct-hf/completion/java-files/Java-44-gen0.java:22:	ShortVariable:	Avoid variables with short names like n
+/home/saima/projects/NonFunc-AWQ/mcEval-java/codellama-34B-instruct-hf/completion/java-files/Java-44-gen0.java:22:	LocalVariableCouldBeFinal:	Local variable 'n' could be declared final
+/home/saima/projects/NonFunc-AWQ/mcEval-java/codellama-34B-instruct-hf/completion/java-files/Java-44-gen0.java:24:	OnlyOneReturn:	A method should have only one exit point, and that should be the last statement in the method
+/home/saima/projects/NonFunc-AWQ/mcEval-java/codellama-34B-instruct-hf/completion/java-files/Java-44-gen0.java:28:	LocalVariableCouldBeFinal:	Local variable 'resultList' could be declared final
+/home/saima/projects/NonFunc-AWQ/mcEval-java/codellama-34B-instruct-hf/completion/java-files/Java-44-gen0.java:34:	ShortVariable:	Avoid variables with short names like x
+/home/saima/projects/NonFunc-AWQ/mcEval-java/codellama-34B-instruct-hf/completion/java-files/Java-44-gen0.java:35:	ShortVariable:	Avoid variables with short names like y

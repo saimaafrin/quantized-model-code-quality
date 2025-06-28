@@ -1,0 +1,70 @@
+{
+    "Total code count": {
+        "files": 53
+    },
+    "Total Rule Violations": {
+        "bestpractices": 116,
+        "codestyle": 373,
+        "design": 51,
+        "documentation": 238,
+        "errorprone": 13,
+        "multithreading": 2,
+        "performance": 3,
+        "security": 0
+    },
+    "Error Code Counts": {
+        "bestpractices": {
+            "UseVarargs": 19,
+            "SystemPrintln": 53,
+            "ForLoopCanBeForeach": 2,
+            "LiteralsFirstInComparisons": 23,
+            "AvoidReassigningParameters": 7,
+            "UseCollectionIsEmpty": 1,
+            "OneDeclarationPerLine": 4,
+            "DoubleBraceInitialization": 3,
+            "LooseCoupling": 2,
+            "UnusedPrivateField": 2
+        },
+        "codestyle": {
+            "NoPackage": 53,
+            "AtLeastOneConstructor": 23,
+            "MethodArgumentCouldBeFinal": 57,
+            "LocalVariableCouldBeFinal": 110,
+            "UnnecessaryImport": 14,
+            "ShortVariable": 54,
+            "CommentDefaultAccessModifier": 2,
+            "UseUnderscoresInNumericLiterals": 10,
+            "OnlyOneReturn": 27,
+            "LinguisticNaming": 2,
+            "ControlStatementBraces": 12,
+            "FormalParameterNamingConventions": 5,
+            "UselessParentheses": 1,
+            "UseDiamondOperator": 1,
+            "FieldNamingConventions": 2
+        },
+        "design": {
+            "UseUtilityClass": 30,
+            "SimplifyBooleanExpressions": 16,
+            "CyclomaticComplexity": 2,
+            "NPathComplexity": 1,
+            "CognitiveComplexity": 2
+        },
+        "documentation": {
+            "CommentRequired": 111,
+            "CommentSize": 127
+        },
+        "errorprone": {
+            "AvoidLiteralsInIfCondition": 9,
+            "AvoidDuplicateLiterals": 1,
+            "AssignmentInOperand": 2,
+            "SimpleDateFormatNeedsLocale": 1
+        },
+        "multithreading": {
+            "UseConcurrentHashMap": 2
+        },
+        "performance": {
+            "AvoidInstantiatingObjectsInLoops": 3
+        },
+        "security": {}
+    }
+}

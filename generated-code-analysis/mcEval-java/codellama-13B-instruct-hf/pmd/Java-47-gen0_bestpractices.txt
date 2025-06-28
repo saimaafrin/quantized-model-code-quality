@@ -1,0 +1,2 @@
+/home/saima/projects/NonFunc-AWQ/mcEval-java/codellama-13B-instruct-hf/completion/java-files/Java-47-gen0.java:13:	UseVarargs:	Consider using varargs for methods or constructors which take an array the last parameter.
+/home/saima/projects/NonFunc-AWQ/mcEval-java/codellama-13B-instruct-hf/completion/java-files/Java-47-gen0.java:28:	SystemPrintln:	Usage of System.out/err

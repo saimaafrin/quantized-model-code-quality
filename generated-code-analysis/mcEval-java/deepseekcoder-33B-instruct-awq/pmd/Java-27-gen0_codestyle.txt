@@ -1,0 +1,5 @@
+/home/saima/projects/NonFunc-AWQ/mcEval-java/deepseekcoder-33B-instruct-awq/completion/java-files/Java-27-gen0.java:1:	NoPackage:	All classes, interfaces, enums and annotations must belong to a named package
+/home/saima/projects/NonFunc-AWQ/mcEval-java/deepseekcoder-33B-instruct-awq/completion/java-files/Java-27-gen0.java:1:	AtLeastOneConstructor:	Each class should declare at least one constructor
+/home/saima/projects/NonFunc-AWQ/mcEval-java/deepseekcoder-33B-instruct-awq/completion/java-files/Java-27-gen0.java:11:	MethodArgumentCouldBeFinal:	Parameter 'nums' is not assigned and could be declared final
+/home/saima/projects/NonFunc-AWQ/mcEval-java/deepseekcoder-33B-instruct-awq/completion/java-files/Java-27-gen0.java:16:	LocalVariableCouldBeFinal:	Local variable 'num' could be declared final
+/home/saima/projects/NonFunc-AWQ/mcEval-java/deepseekcoder-33B-instruct-awq/completion/java-files/Java-27-gen0.java:25:	LocalVariableCouldBeFinal:	Local variable 'solution' could be declared final

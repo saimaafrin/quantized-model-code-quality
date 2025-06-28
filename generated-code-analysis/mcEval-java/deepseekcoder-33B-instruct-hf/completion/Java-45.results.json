@@ -1,0 +1,20 @@
+{
+  "name": "Java-45",
+  "language": "java",
+  "temperature": 0.8,
+  "top_p": 0.95,
+  "max_tokens": 1024,
+  "prompt": "class Problem {\n\n  /**\n   * Find the smallest integer that can be formed by rearranging the digits of the given positive integer n, which is greater than n.\n   *\n   * @param n The input positive integer.\n   * @return The smallest rearranged integer greater than n, or -1 if not possible.\n   *\n   * Example:\n   * findSmallestInteger(12)\n   * Output: 21\n   */\n  public static int findSmallestInteger(int n) ",
+  "tests": "  public static void main(String[] args) {\n    assert findSmallestInteger(123) == 132;\n    assert findSmallestInteger(531) == -1;\n    assert findSmallestInteger(2071) == 2107;\n\n    System.out.println(\"All tests passed\");\n  }\n}",
+  "stop_tokens": [],
+  "results": [
+    {
+      "program": "class Problem {\n\n  /**\n   * Find the smallest integer that can be formed by rearranging the digits of the given positive integer n, which is greater than n.\n   *\n   * @param n The input positive integer.\n   * @return The smallest rearranged integer greater than n, or -1 if not possible.\n   *\n   * Example:\n   * findSmallestInteger(12)\n   * Output: 21\n   */\n  public static int findSmallestInteger(int n)  {\n    char[] nums = (n + \"\").toCharArray();\n\n    int i = nums.length - 1;\n    while (i > 0 && nums[i - 1] >= nums[i]) {\n      i--;\n    }\n    if (i == 0) {\n      return -1;\n    }\n\n    int j = nums.length - 1;\n    while (j > 0 && nums[j] <= nums[i - 1]) {\n      j--;\n    }\n\n    swap(nums, i - 1, j);\n\n    reverse(nums, i, nums.length - 1);\n\n    try {\n      return Integer.parseInt(new String(nums));\n    } catch (NumberFormatException e) {\n      return -1;\n    }\n  }\n  public static void main(String[] args) {\n    assert findSmallestInteger(123) == 132;\n    assert findSmallestInteger(531) == -1;\n    assert findSmallestInteger(2071) == 2107;\n\n    System.out.println(\"All tests passed\");\n  }\n}",
+      "timestamp": 1741546522,
+      "stdout": "",
+      "stderr": "/tmp/tmpn7tfkp7i.java:29: error: cannot find symbol\n    swap(nums, i - 1, j);\n    ^\n  symbol:   method swap(char[],int,int)\n  location: class Problem\n/tmp/tmpn7tfkp7i.java:31: error: cannot find symbol\n    reverse(nums, i, nums.length - 1);\n    ^\n  symbol:   method reverse(char[],int,int)\n  location: class Problem\n2 errors\n",
+      "exit_code": 1,
+      "status": "SyntaxError"
+    }
+  ]
+}

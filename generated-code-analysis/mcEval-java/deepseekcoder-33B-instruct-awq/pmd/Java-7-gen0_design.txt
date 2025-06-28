@@ -1,0 +1,2 @@
+/home/saima/projects/NonFunc-AWQ/mcEval-java/deepseekcoder-33B-instruct-awq/completion/java-files/Java-7-gen0.java:3:	UseUtilityClass:	This utility class has a non-private constructor
+LoosePackageCoupling	-	No packages or classes specified

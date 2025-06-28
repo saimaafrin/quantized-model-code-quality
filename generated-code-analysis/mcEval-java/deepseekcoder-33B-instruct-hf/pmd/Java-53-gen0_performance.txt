@@ -1,0 +1,2 @@
+/home/saima/projects/NonFunc-AWQ/mcEval-java/deepseekcoder-33B-instruct-hf/completion/java-files/Java-53-gen0.java:17:	AvoidInstantiatingObjectsInLoops:	Avoid instantiating new objects inside loops
+/home/saima/projects/NonFunc-AWQ/mcEval-java/deepseekcoder-33B-instruct-hf/completion/java-files/Java-53-gen0.java:17:	AppendCharacterWithChar:	Avoid appending characters as strings in StringBuffer.append.

@@ -1,0 +1,4 @@
+/home/saima/projects/NonFunc-AWQ/mcEval-java/deepseekcoder-1.3B-instruct-awq/completion/java-files/Java-18-gen0.java:27:	AvoidLiteralsInIfCondition:	Avoid using literals in if statements
+/home/saima/projects/NonFunc-AWQ/mcEval-java/deepseekcoder-1.3B-instruct-awq/completion/java-files/Java-18-gen0.java:33:	CompareObjectsWithEquals:	Use equals() to compare object references.
+/home/saima/projects/NonFunc-AWQ/mcEval-java/deepseekcoder-1.3B-instruct-awq/completion/java-files/Java-18-gen0.java:49:	AvoidLiteralsInIfCondition:	Avoid using literals in if statements
+/home/saima/projects/NonFunc-AWQ/mcEval-java/deepseekcoder-1.3B-instruct-awq/completion/java-files/Java-18-gen0.java:54:	CompareObjectsWithEquals:	Use equals() to compare object references.

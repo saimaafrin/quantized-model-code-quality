@@ -1,0 +1,6 @@
+/home/saima/projects/NonFunc-AWQ/mcEval-java/deepseekcoder-33B-instruct-hf/completion/java-files/Java-2-gen0.java:1:	NoPackage:	All classes, interfaces, enums and annotations must belong to a named package
+/home/saima/projects/NonFunc-AWQ/mcEval-java/deepseekcoder-33B-instruct-hf/completion/java-files/Java-2-gen0.java:14:	ShortVariable:	Avoid variables with short names like Y
+/home/saima/projects/NonFunc-AWQ/mcEval-java/deepseekcoder-33B-instruct-hf/completion/java-files/Java-2-gen0.java:14:	FormalParameterNamingConventions:	The method parameter name 'Y' doesn't match '[a-z][a-zA-Z0-9]*'
+/home/saima/projects/NonFunc-AWQ/mcEval-java/deepseekcoder-33B-instruct-hf/completion/java-files/Java-2-gen0.java:14:	ShortVariable:	Avoid variables with short names like N
+/home/saima/projects/NonFunc-AWQ/mcEval-java/deepseekcoder-33B-instruct-hf/completion/java-files/Java-2-gen0.java:14:	MethodArgumentCouldBeFinal:	Parameter 'N' is not assigned and could be declared final
+/home/saima/projects/NonFunc-AWQ/mcEval-java/deepseekcoder-33B-instruct-hf/completion/java-files/Java-2-gen0.java:14:	FormalParameterNamingConventions:	The method parameter name 'N' doesn't match '[a-z][a-zA-Z0-9]*'

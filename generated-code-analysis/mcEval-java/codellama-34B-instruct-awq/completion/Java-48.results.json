@@ -1,0 +1,20 @@
+{
+  "name": "Java-48",
+  "language": "java",
+  "temperature": 0.8,
+  "top_p": 0.95,
+  "max_tokens": 1024,
+  "prompt": "import java.lang.Math;\n\nclass Problem {\n\n  /**\n   * Find and return the nth ugly number.\n   *\n   * @param n The index of the ugly number to find.\n   * @return The nth ugly number.\n   *\n   * Example:\n   * findNthUglyNumber(10)\n   * Output: 12\n   */\n  public static int findNthUglyNumber(int n) ",
+  "tests": "  public static void main(String[] args) {\n    assert findNthUglyNumber(1) == 1 : \"Test case 1 failed\";\n    assert findNthUglyNumber(7) == 8 : \"Test case 2 failed\";\n    assert findNthUglyNumber(15) == 24 : \"Test case 3 failed\";\n\n    System.out.println(\"All tests passed\");\n  }\n}\n",
+  "stop_tokens": [],
+  "results": [
+    {
+      "program": "import java.lang.Math;\n\nclass Problem {\n\n  /**\n   * Find and return the nth ugly number.\n   *\n   * @param n The index of the ugly number to find.\n   * @return The nth ugly number.\n   *\n   * Example:\n   * findNthUglyNumber(10)\n   * Output: 12\n   */\n  public static int findNthUglyNumber(int n)  {\n    // Check for edge case of n=1, which will just return 1 as the 1st ugly number\n    if (n == 1) {\n      return 1;\n    }\n\n    // Start by initializing the first ugly number\n    int currentUglyNumber = 1;\n    // Keep track of the current number of ugly numbers found\n    int foundUglyNumbers = 1;\n\n    while (foundUglyNumbers < n) {\n      // Increment the current ugly number by 1\n      currentUglyNumber++;\n\n      // Check if the current number is divisible by any of 2, 3, or 5\n      // If it is, then it is an ugly number\n      if (currentUglyNumber % 2 == 0 || currentUglyNumber % 3 == 0 || currentUglyNumber % 5 == 0) {\n        foundUglyNumbers++;\n      }\n    }\n\n    return currentUglyNumber;\n  }\n  public static void main(String[] args) {\n    assert findNthUglyNumber(1) == 1 : \"Test case 1 failed\";\n    assert findNthUglyNumber(7) == 8 : \"Test case 2 failed\";\n    assert findNthUglyNumber(15) == 24 : \"Test case 3 failed\";\n\n    System.out.println(\"All tests passed\");\n  }\n}\n",
+      "timestamp": 1741610165,
+      "stdout": "",
+      "stderr": "Exception in thread \"main\" java.lang.AssertionError: Test case 3 failed\n\tat Problem.main(tmp8_yo7pay.java:42)\n",
+      "exit_code": 1,
+      "status": "Exception"
+    }
+  ]
+}

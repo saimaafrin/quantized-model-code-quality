@@ -1,0 +1,13 @@
+Starting audit...
+[ERROR] /home/saima/projects/NonFunc-AWQ/mcEval-java/codellama-7B-instruct-hf/completion/java-files/Java-23-gen0.java:1: File does not end with a newline. [NewlineAtEndOfFile]
+[ERROR] /home/saima/projects/NonFunc-AWQ/mcEval-java/codellama-7B-instruct-hf/completion/java-files/Java-23-gen0.java:1: Missing package-info.java file. [JavadocPackage]
+[ERROR] /home/saima/projects/NonFunc-AWQ/mcEval-java/codellama-7B-instruct-hf/completion/java-files/Java-23-gen0.java:4: Line is longer than 80 characters (found 95). [LineLength]
+[ERROR] /home/saima/projects/NonFunc-AWQ/mcEval-java/codellama-7B-instruct-hf/completion/java-files/Java-23-gen0.java:6: Line has trailing spaces. [RegexpSingleline]
+[ERROR] /home/saima/projects/NonFunc-AWQ/mcEval-java/codellama-7B-instruct-hf/completion/java-files/Java-23-gen0.java:15: @return tag should be present and have description. [JavadocMethod]
+[ERROR] /home/saima/projects/NonFunc-AWQ/mcEval-java/codellama-7B-instruct-hf/completion/java-files/Java-23-gen0.java:15:29: Parameter sentence should be final. [FinalParameters]
+[ERROR] /home/saima/projects/NonFunc-AWQ/mcEval-java/codellama-7B-instruct-hf/completion/java-files/Java-23-gen0.java:15:36: Expected @param tag for 'sentence'. [JavadocMethod]
+[ERROR] /home/saima/projects/NonFunc-AWQ/mcEval-java/codellama-7B-instruct-hf/completion/java-files/Java-23-gen0.java:15:46: Parameter searchWord should be final. [FinalParameters]
+[ERROR] /home/saima/projects/NonFunc-AWQ/mcEval-java/codellama-7B-instruct-hf/completion/java-files/Java-23-gen0.java:15:53: Expected @param tag for 'searchWord'. [JavadocMethod]
+[ERROR] /home/saima/projects/NonFunc-AWQ/mcEval-java/codellama-7B-instruct-hf/completion/java-files/Java-23-gen0.java:24:27: Parameter args should be final. [FinalParameters]
+Audit done.
+Checkstyle ends with 10 errors.

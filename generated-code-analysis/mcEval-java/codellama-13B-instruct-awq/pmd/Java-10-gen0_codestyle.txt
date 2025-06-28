@@ -1,0 +1,12 @@
+/home/saima/projects/NonFunc-AWQ/mcEval-java/codellama-13B-instruct-awq/completion/java-files/Java-10-gen0.java:3:	NoPackage:	All classes, interfaces, enums and annotations must belong to a named package
+/home/saima/projects/NonFunc-AWQ/mcEval-java/codellama-13B-instruct-awq/completion/java-files/Java-10-gen0.java:17:	LinguisticNaming:	Linguistics Antipattern - The method 'canTravelMaze' indicates linguistically it returns a boolean, but it returns 'String'
+/home/saima/projects/NonFunc-AWQ/mcEval-java/codellama-13B-instruct-awq/completion/java-files/Java-10-gen0.java:17:	ShortVariable:	Avoid variables with short names like n
+/home/saima/projects/NonFunc-AWQ/mcEval-java/codellama-13B-instruct-awq/completion/java-files/Java-10-gen0.java:17:	MethodArgumentCouldBeFinal:	Parameter 'n' is not assigned and could be declared final
+/home/saima/projects/NonFunc-AWQ/mcEval-java/codellama-13B-instruct-awq/completion/java-files/Java-10-gen0.java:17:	MethodArgumentCouldBeFinal:	Parameter 'start' is not assigned and could be declared final
+/home/saima/projects/NonFunc-AWQ/mcEval-java/codellama-13B-instruct-awq/completion/java-files/Java-10-gen0.java:17:	MethodArgumentCouldBeFinal:	Parameter 'end' is not assigned and could be declared final
+/home/saima/projects/NonFunc-AWQ/mcEval-java/codellama-13B-instruct-awq/completion/java-files/Java-10-gen0.java:17:	MethodArgumentCouldBeFinal:	Parameter 'paths' is not assigned and could be declared final
+/home/saima/projects/NonFunc-AWQ/mcEval-java/codellama-13B-instruct-awq/completion/java-files/Java-10-gen0.java:19:	LocalVariableCouldBeFinal:	Local variable 'visitedPaths' could be declared final
+/home/saima/projects/NonFunc-AWQ/mcEval-java/codellama-13B-instruct-awq/completion/java-files/Java-10-gen0.java:21:	LocalVariableCouldBeFinal:	Local variable 'queue' could be declared final
+/home/saima/projects/NonFunc-AWQ/mcEval-java/codellama-13B-instruct-awq/completion/java-files/Java-10-gen0.java:31:	LocalVariableCouldBeFinal:	Local variable 'current' could be declared final
+/home/saima/projects/NonFunc-AWQ/mcEval-java/codellama-13B-instruct-awq/completion/java-files/Java-10-gen0.java:37:	OnlyOneReturn:	A method should have only one exit point, and that should be the last statement in the method
+/home/saima/projects/NonFunc-AWQ/mcEval-java/codellama-13B-instruct-awq/completion/java-files/Java-10-gen0.java:49:	OnlyOneReturn:	A method should have only one exit point, and that should be the last statement in the method

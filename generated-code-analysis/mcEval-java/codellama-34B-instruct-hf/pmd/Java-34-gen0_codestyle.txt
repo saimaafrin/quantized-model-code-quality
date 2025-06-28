@@ -1,0 +1,11 @@
+/home/saima/projects/NonFunc-AWQ/mcEval-java/codellama-34B-instruct-hf/completion/java-files/Java-34-gen0.java:1:	NoPackage:	All classes, interfaces, enums and annotations must belong to a named package
+/home/saima/projects/NonFunc-AWQ/mcEval-java/codellama-34B-instruct-hf/completion/java-files/Java-34-gen0.java:32:	ShortVariable:	Avoid variables with short names like n
+/home/saima/projects/NonFunc-AWQ/mcEval-java/codellama-34B-instruct-hf/completion/java-files/Java-34-gen0.java:32:	MethodArgumentCouldBeFinal:	Parameter 'n' is not assigned and could be declared final
+/home/saima/projects/NonFunc-AWQ/mcEval-java/codellama-34B-instruct-hf/completion/java-files/Java-34-gen0.java:35:	ShortVariable:	Avoid variables with short names like x
+/home/saima/projects/NonFunc-AWQ/mcEval-java/codellama-34B-instruct-hf/completion/java-files/Java-34-gen0.java:35:	LocalVariableCouldBeFinal:	Local variable 'x' could be declared final
+/home/saima/projects/NonFunc-AWQ/mcEval-java/codellama-34B-instruct-hf/completion/java-files/Java-34-gen0.java:41:	UseUnderscoresInNumericLiterals:	Number 0.50000 should separate every third digit with an underscore
+/home/saima/projects/NonFunc-AWQ/mcEval-java/codellama-34B-instruct-hf/completion/java-files/Java-34-gen0.java:41:	UseUnderscoresInNumericLiterals:	Number 0.00001 should separate every third digit with an underscore
+/home/saima/projects/NonFunc-AWQ/mcEval-java/codellama-34B-instruct-hf/completion/java-files/Java-34-gen0.java:42:	UseUnderscoresInNumericLiterals:	Number 0.50000 should separate every third digit with an underscore
+/home/saima/projects/NonFunc-AWQ/mcEval-java/codellama-34B-instruct-hf/completion/java-files/Java-34-gen0.java:42:	UseUnderscoresInNumericLiterals:	Number 0.00001 should separate every third digit with an underscore
+/home/saima/projects/NonFunc-AWQ/mcEval-java/codellama-34B-instruct-hf/completion/java-files/Java-34-gen0.java:43:	UseUnderscoresInNumericLiterals:	Number 0.50000 should separate every third digit with an underscore
+/home/saima/projects/NonFunc-AWQ/mcEval-java/codellama-34B-instruct-hf/completion/java-files/Java-34-gen0.java:43:	UseUnderscoresInNumericLiterals:	Number 0.00001 should separate every third digit with an underscore

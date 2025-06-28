@@ -1,0 +1,20 @@
+{
+  "name": "Java-5",
+  "language": "java",
+  "temperature": 0.8,
+  "top_p": 0.95,
+  "max_tokens": 1024,
+  "prompt": "import java.util.*;\n\nclass Problem {\n    /**\n     * Given a number of case-sensitive strings, finds the largest string X, such that either X, or its inverse can be found as a substring of any of the given strings.\n     * \n     * Example:\n     * >>> findLargestSubstring(Arrays.asList(\"ABCD\", \"BCDFF\", \"BRCD\"))\n     * 2\n     * >>> findLargestSubstring(Arrays.asList(\"rose\", \"orchid\"))\n     * 2\n     */\n    public int findLargestSubstring(List<String> strings) ",
+  "tests": "    public static void main(String[] args) {\n        Problem solution = new Problem();\n\n        // Test the function with different test cases\n        assert solution.findLargestSubstring(Arrays.asList(\"ABCD\", \"BCDFF\", \"BRCD\")) == 2;\n        assert solution.findLargestSubstring(Arrays.asList(\"rose\", \"orchid\")) == 2;\n        assert solution.findLargestSubstring(Arrays.asList(\"hello\", \"world\")) == 1;\n        System.out.println(\"All tests passed\");\n    }\n}",
+  "stop_tokens": [],
+  "results": [
+    {
+      "program": "import java.util.*;\n\nclass Problem {\n    /**\n     * Given a number of case-sensitive strings, finds the largest string X, such that either X, or its inverse can be found as a substring of any of the given strings.\n     * \n     * Example:\n     * >>> findLargestSubstring(Arrays.asList(\"ABCD\", \"BCDFF\", \"BRCD\"))\n     * 2\n     * >>> findLargestSubstring(Arrays.asList(\"rose\", \"orchid\"))\n     * 2\n     */\n    public int findLargestSubstring(List<String> strings)  {\n        int longest = 0;\n\n        for (String s : strings) {\n            // Find the longest common prefix and suffix, then add them together\n            int prefixLength = longestCommonPrefix(s, s);\n            int suffixLength = longestCommonSuffix(s, s);\n            longest = Math.max(longest, prefixLength + suffixLength);\n        }\n\n        // Find the longest substring that can be found in at least one string\n        for (String s1 : strings) {\n            for (String s2 : strings) {\n                if (s1 == s2) {\n                    continue;\n                }\n\n                // Find the longest common substring between s1 and s2\n                int lcsLength = longestCommonSubstring(s1, s2);\n                longest = Math.max(longest, lcsLength);\n            }\n        }\n\n        return longest;\n    }\n    public static void main(String[] args) {\n        Problem solution = new Problem();\n\n        // Test the function with different test cases\n        assert solution.findLargestSubstring(Arrays.asList(\"ABCD\", \"BCDFF\", \"BRCD\")) == 2;\n        assert solution.findLargestSubstring(Arrays.asList(\"rose\", \"orchid\")) == 2;\n        assert solution.findLargestSubstring(Arrays.asList(\"hello\", \"world\")) == 1;\n        System.out.println(\"All tests passed\");\n    }\n}",
+      "timestamp": 1741573263,
+      "stdout": "",
+      "stderr": "/tmp/tmp1ys0s88k.java:18: error: cannot find symbol\n            int prefixLength = longestCommonPrefix(s, s);\n                               ^\n  symbol:   method longestCommonPrefix(String,String)\n  location: class Problem\n/tmp/tmp1ys0s88k.java:19: error: cannot find symbol\n            int suffixLength = longestCommonSuffix(s, s);\n                               ^\n  symbol:   method longestCommonSuffix(String,String)\n  location: class Problem\n/tmp/tmp1ys0s88k.java:31: error: cannot find symbol\n                int lcsLength = longestCommonSubstring(s1, s2);\n                                ^\n  symbol:   method longestCommonSubstring(String,String)\n  location: class Problem\n3 errors\n",
+      "exit_code": 1,
+      "status": "SyntaxError"
+    }
+  ]
+}

@@ -1,0 +1,2 @@
+/home/saima/projects/NonFunc-AWQ/mcEval-java/codellama-13B-instruct-awq/completion/java-files/Java-5-gen0.java:18:	UnusedAssignment:	The initializer for variable 'candidate' is never used (overwritten on line 21)
+/home/saima/projects/NonFunc-AWQ/mcEval-java/codellama-13B-instruct-awq/completion/java-files/Java-5-gen0.java:45:	SystemPrintln:	Usage of System.out/err

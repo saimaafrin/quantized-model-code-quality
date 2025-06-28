@@ -1,0 +1,4 @@
+/home/saima/projects/NonFunc-AWQ/mcEval-java/codellama-34B-instruct-awq/completion/java-files/Java-1-gen0.java:4:	NoPackage:	All classes, interfaces, enums and annotations must belong to a named package
+/home/saima/projects/NonFunc-AWQ/mcEval-java/codellama-34B-instruct-awq/completion/java-files/Java-1-gen0.java:15:	MethodArgumentCouldBeFinal:	Parameter 'closingBalances' is not assigned and could be declared final
+/home/saima/projects/NonFunc-AWQ/mcEval-java/codellama-34B-instruct-awq/completion/java-files/Java-1-gen0.java:18:	LocalVariableCouldBeFinal:	Local variable 'bal' could be declared final
+/home/saima/projects/NonFunc-AWQ/mcEval-java/codellama-34B-instruct-awq/completion/java-files/Java-1-gen0.java:25:	UseUnderscoresInNumericLiterals:	Number 12454.12 should separate every third digit with an underscore

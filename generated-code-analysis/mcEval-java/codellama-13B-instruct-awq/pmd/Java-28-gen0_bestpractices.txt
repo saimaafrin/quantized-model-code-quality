@@ -1,0 +1,2 @@
+/home/saima/projects/NonFunc-AWQ/mcEval-java/codellama-13B-instruct-awq/completion/java-files/Java-28-gen0.java:29:	OneDeclarationPerLine:	Use one line for each declaration, it enhances code readability.
+/home/saima/projects/NonFunc-AWQ/mcEval-java/codellama-13B-instruct-awq/completion/java-files/Java-28-gen0.java:47:	SystemPrintln:	Usage of System.out/err

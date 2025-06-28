@@ -1,0 +1,1 @@
+/home/saima/projects/NonFunc-AWQ/mcEval-java/codellama-7B-instruct-hf/completion/java-files/Java-5-gen0.java:14:	UseConcurrentHashMap:	If you run in Java5 or newer and have concurrent access, you should use the ConcurrentHashMap implementation

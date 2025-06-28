@@ -1,0 +1,12 @@
+/home/saima/projects/NonFunc-AWQ/mcEval-java/deepseekcoder-6.7B-instruct-awq/completion/java-files/Java-10-gen0.java:1:	UnnecessaryImport:	Unused import 'java.util.*'
+/home/saima/projects/NonFunc-AWQ/mcEval-java/deepseekcoder-6.7B-instruct-awq/completion/java-files/Java-10-gen0.java:3:	NoPackage:	All classes, interfaces, enums and annotations must belong to a named package
+/home/saima/projects/NonFunc-AWQ/mcEval-java/deepseekcoder-6.7B-instruct-awq/completion/java-files/Java-10-gen0.java:17:	LinguisticNaming:	Linguistics Antipattern - The method 'canTravelMaze' indicates linguistically it returns a boolean, but it returns 'String'
+/home/saima/projects/NonFunc-AWQ/mcEval-java/deepseekcoder-6.7B-instruct-awq/completion/java-files/Java-10-gen0.java:17:	ShortVariable:	Avoid variables with short names like n
+/home/saima/projects/NonFunc-AWQ/mcEval-java/deepseekcoder-6.7B-instruct-awq/completion/java-files/Java-10-gen0.java:17:	MethodArgumentCouldBeFinal:	Parameter 'n' is not assigned and could be declared final
+/home/saima/projects/NonFunc-AWQ/mcEval-java/deepseekcoder-6.7B-instruct-awq/completion/java-files/Java-10-gen0.java:17:	MethodArgumentCouldBeFinal:	Parameter 'start' is not assigned and could be declared final
+/home/saima/projects/NonFunc-AWQ/mcEval-java/deepseekcoder-6.7B-instruct-awq/completion/java-files/Java-10-gen0.java:17:	MethodArgumentCouldBeFinal:	Parameter 'end' is not assigned and could be declared final
+/home/saima/projects/NonFunc-AWQ/mcEval-java/deepseekcoder-6.7B-instruct-awq/completion/java-files/Java-10-gen0.java:17:	MethodArgumentCouldBeFinal:	Parameter 'paths' is not assigned and could be declared final
+/home/saima/projects/NonFunc-AWQ/mcEval-java/deepseekcoder-6.7B-instruct-awq/completion/java-files/Java-10-gen0.java:18:	LocalVariableCouldBeFinal:	Local variable 'graph' could be declared final
+/home/saima/projects/NonFunc-AWQ/mcEval-java/deepseekcoder-6.7B-instruct-awq/completion/java-files/Java-10-gen0.java:19:	LocalVariableCouldBeFinal:	Local variable 'visited' could be declared final
+/home/saima/projects/NonFunc-AWQ/mcEval-java/deepseekcoder-6.7B-instruct-awq/completion/java-files/Java-10-gen0.java:21:	LocalVariableCouldBeFinal:	Local variable 'path' could be declared final
+/home/saima/projects/NonFunc-AWQ/mcEval-java/deepseekcoder-6.7B-instruct-awq/completion/java-files/Java-10-gen0.java:26:	OnlyOneReturn:	A method should have only one exit point, and that should be the last statement in the method

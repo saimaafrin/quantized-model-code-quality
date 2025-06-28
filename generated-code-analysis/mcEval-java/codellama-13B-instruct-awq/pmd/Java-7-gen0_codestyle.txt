@@ -1,0 +1,6 @@
+/home/saima/projects/NonFunc-AWQ/mcEval-java/codellama-13B-instruct-awq/completion/java-files/Java-7-gen0.java:1:	UnnecessaryImport:	Unused import 'java.util.*'
+/home/saima/projects/NonFunc-AWQ/mcEval-java/codellama-13B-instruct-awq/completion/java-files/Java-7-gen0.java:3:	NoPackage:	All classes, interfaces, enums and annotations must belong to a named package
+/home/saima/projects/NonFunc-AWQ/mcEval-java/codellama-13B-instruct-awq/completion/java-files/Java-7-gen0.java:16:	ShortVariable:	Avoid variables with short names like N
+/home/saima/projects/NonFunc-AWQ/mcEval-java/codellama-13B-instruct-awq/completion/java-files/Java-7-gen0.java:16:	MethodArgumentCouldBeFinal:	Parameter 'N' is not assigned and could be declared final
+/home/saima/projects/NonFunc-AWQ/mcEval-java/codellama-13B-instruct-awq/completion/java-files/Java-7-gen0.java:16:	FormalParameterNamingConventions:	The method parameter name 'N' doesn't match '[a-z][a-zA-Z0-9]*'
+/home/saima/projects/NonFunc-AWQ/mcEval-java/codellama-13B-instruct-awq/completion/java-files/Java-7-gen0.java:17:	UselessParentheses:	Useless parentheses.

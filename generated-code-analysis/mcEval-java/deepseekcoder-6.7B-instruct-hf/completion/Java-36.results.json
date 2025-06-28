@@ -1,0 +1,20 @@
+{
+  "name": "Java-36",
+  "language": "java",
+  "temperature": 0.8,
+  "top_p": 0.95,
+  "max_tokens": 1024,
+  "prompt": "import java.util.ArrayList;\nimport java.util.List;\n\nclass Problem {\n\n  /**\n   * Find all stepping numbers in the range [low, high] where a stepping number is defined as a number where each digit is either one more or one less than the adjacent digit.\n   *\n   * @param low The lower bound of the range.\n   * @param high The upper bound of the range.\n   * @return A list of stepping numbers within the range [low, high] sorted in ascending order.\n   *\n   * Example:\n   * findSteppingNumbers(0, 21)\n   * Output: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 12, 21]\n   */\n  public static List<Integer> findSteppingNumbers(int low, int high) ",
+  "tests": "  public static void main(String[] args) {\n    assert findSteppingNumbers(0, 21)\n      .equals(\n        new ArrayList<>(List.of(0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 12, 21))\n      );\n    assert findSteppingNumbers(10, 15).equals(new ArrayList<>(List.of(10, 12)));\n    assert findSteppingNumbers(50, 55).equals(List.of(54));\n\n    System.out.println(\"All tests passed\");\n  }\n}\n",
+  "stop_tokens": [],
+  "results": [
+    {
+      "program": "import java.util.ArrayList;\nimport java.util.List;\n\nclass Problem {\n\n  /**\n   * Find all stepping numbers in the range [low, high] where a stepping number is defined as a number where each digit is either one more or one less than the adjacent digit.\n   *\n   * @param low The lower bound of the range.\n   * @param high The upper bound of the range.\n   * @return A list of stepping numbers within the range [low, high] sorted in ascending order.\n   *\n   * Example:\n   * findSteppingNumbers(0, 21)\n   * Output: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 12, 21]\n   */\n  public static List<Integer> findSteppingNumbers(int low, int high)  {\n    List<Integer> res = new ArrayList<>();\n    // For each number from 0 to 9, add it to the queue\n    for (int i = 0; i <= 9; i++) {\n      if (i >= low && i <= high) {\n        res.add(i);\n      }\n    }\n    if (low == 0) { // if low is 0, 0 is not considered in the range\n      res.remove(0);\n    }\n    for (int i = 1; i <= 9; i++) {\n      // Create a BFS tree, use the first digit of the number to decide the next digit\n      // if the number is within the range, add it to the result list\n      int num = i;\n      while (num <= high) {\n        int lastDigit = num % 10;\n        int nextNum1 = num * 10 + (lastDigit - 1);\n        int nextNum2 = num * 10 + (lastDigit + 1);\n        if (lastDigit == 0 && nextNum2 <= high) {\n          if (nextNum2 >= low) {\n            res.add(nextNum2);\n          }\n          num = nextNum2;\n        } else if (lastDigit == 9 && nextNum1 <= high) {\n          if (nextNum1 >= low) {\n            res.add(nextNum1);\n          }\n          num = nextNum1;\n        } else {\n          if (nextNum1 <= high && nextNum1 >= low) {\n            res.add(nextNum1);\n          }\n          if (nextNum2 <= high && nextNum2 >= low) {\n            res.add(nextNum2);\n          }\n          num = nextNum2;\n        }\n      }\n    }\n    // sort the result list\n    res.sort(Integer::compareTo);\n    return res;\n  }\n  public static void main(String[] args) {\n    assert findSteppingNumbers(0, 21)\n      .equals(\n        new ArrayList<>(List.of(0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 12, 21))\n      );\n    assert findSteppingNumbers(10, 15).equals(new ArrayList<>(List.of(10, 12)));\n    assert findSteppingNumbers(50, 55).equals(List.of(54));\n\n    System.out.println(\"All tests passed\");\n  }\n}\n",
+      "timestamp": 1741536770,
+      "stdout": "",
+      "stderr": "Exception in thread \"main\" java.lang.AssertionError\n\tat Problem.main(tmpvut242t_.java:62)\n",
+      "exit_code": 1,
+      "status": "Exception"
+    }
+  ]
+}

@@ -1,0 +1,4 @@
+/home/saima/projects/NonFunc-AWQ/mcEval-java/codellama-7B-instruct-awq/completion/java-files/Java-18-gen0.java:16:	CognitiveComplexity:	The method 'sortString(String)' has a cognitive complexity of 31, current threshold is 15
+/home/saima/projects/NonFunc-AWQ/mcEval-java/codellama-7B-instruct-awq/completion/java-files/Java-18-gen0.java:16:	CyclomaticComplexity:	The method 'sortString(String)' has a cyclomatic complexity of 28.
+/home/saima/projects/NonFunc-AWQ/mcEval-java/codellama-7B-instruct-awq/completion/java-files/Java-18-gen0.java:16:	NPathComplexity:	The method 'sortString(String)' has an NPath complexity of 331777, current threshold is 200
+LoosePackageCoupling	-	No packages or classes specified

@@ -1,0 +1,20 @@
+{
+  "name": "Java-44",
+  "language": "java",
+  "temperature": 0.8,
+  "top_p": 0.95,
+  "max_tokens": 1024,
+  "prompt": "import java.util.ArrayList;\n\nclass Problem {\n\n  /**\n   * Return all elements in the matrix in diagonal order.\n   *\n   * @param mat The input matrix.\n   * @return An array containing all elements in diagonal order.\n   *\n   * Example:\n   * diagonalOrder(new int[][]{{1,2,3},{4,5,6},{7,8,9}})\n   * Output: [1,2,4,7,5,3,6,8,9]\n   */\n  public static int[] diagonalOrder(int[][] mat) ",
+  "tests": "  public static void main(String[] args) {\n    assert java.util.Arrays.equals(\n      diagonalOrder(new int[][] { { 1, 2 }, { 3, 4 } }),\n      new int[] { 1, 2, 3, 4 }\n    );\n    assert java.util.Arrays.equals(\n      diagonalOrder(\n        new int[][] { { 1, 2, 3, 4 }, { 5, 6, 7, 8 }, { 9, 10, 11, 12 } }\n      ),\n      new int[] { 1, 2, 5, 9, 6, 3, 4, 7, 10, 11, 8, 12 }\n    );\n    assert java.util.Arrays.equals(\n      diagonalOrder(new int[][] { { 1 }, { 2 }, { 3 } }),\n      new int[] { 1, 2, 3 }\n    );\n\n    System.out.println(\"All tests passed\");\n  }\n}",
+  "stop_tokens": [],
+  "results": [
+    {
+      "program": "import java.util.ArrayList;\n\nclass Problem {\n\n  /**\n   * Return all elements in the matrix in diagonal order.\n   *\n   * @param mat The input matrix.\n   * @return An array containing all elements in diagonal order.\n   *\n   * Example:\n   * diagonalOrder(new int[][]{{1,2,3},{4,5,6},{7,8,9}})\n   * Output: [1,2,4,7,5,3,6,8,9]\n   */\n  public static int[] diagonalOrder(int[][] mat)  {\n\n    int m = mat.length;\n    if (m == 0) {\n      return new int[0];\n    }\n\n    int n = mat[0].length;\n    if (n == 0) {\n      return new int[0];\n    }\n\n    int[] result = new int[m * n];\n    ArrayList<Integer> resultList = new ArrayList<>();\n\n    // for each diagonal\n    for (int diagonal = 0; diagonal < m + n - 1; diagonal++) {\n\n      // find the (x, y) coordinates of the first element in this diagonal\n      int x = diagonal < n ? 0 : diagonal - n + 1;\n      int y = diagonal < n ? diagonal : n - 1;\n\n      // iterate through the elements of this diagonal\n      while (x < m && y >= 0) {\n        resultList.add(mat[x][y]);\n        x++;\n        y--;\n      }\n    }\n\n    return resultList.stream().mapToInt(i -> i).toArray();\n  }\n  public static void main(String[] args) {\n    assert java.util.Arrays.equals(\n      diagonalOrder(new int[][] { { 1, 2 }, { 3, 4 } }),\n      new int[] { 1, 2, 3, 4 }\n    );\n    assert java.util.Arrays.equals(\n      diagonalOrder(\n        new int[][] { { 1, 2, 3, 4 }, { 5, 6, 7, 8 }, { 9, 10, 11, 12 } }\n      ),\n      new int[] { 1, 2, 5, 9, 6, 3, 4, 7, 10, 11, 8, 12 }\n    );\n    assert java.util.Arrays.equals(\n      diagonalOrder(new int[][] { { 1 }, { 2 }, { 3 } }),\n      new int[] { 1, 2, 3 }\n    );\n\n    System.out.println(\"All tests passed\");\n  }\n}",
+      "timestamp": 1741530736,
+      "stdout": "",
+      "stderr": "Exception in thread \"main\" java.lang.AssertionError\n\tat Problem.main(tmp7t8842a9.java:52)\n",
+      "exit_code": 1,
+      "status": "Exception"
+    }
+  ]
+}

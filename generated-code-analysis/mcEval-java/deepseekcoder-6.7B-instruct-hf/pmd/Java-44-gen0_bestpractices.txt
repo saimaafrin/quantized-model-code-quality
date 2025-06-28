@@ -1,0 +1,4 @@
+/home/saima/projects/NonFunc-AWQ/mcEval-java/deepseekcoder-6.7B-instruct-hf/completion/java-files/Java-44-gen0.java:15:	UseVarargs:	Consider using varargs for methods or constructors which take an array the last parameter.
+/home/saima/projects/NonFunc-AWQ/mcEval-java/deepseekcoder-6.7B-instruct-hf/completion/java-files/Java-44-gen0.java:24:	UnusedLocalVariable:	Avoid unused local variables such as 'k'.
+/home/saima/projects/NonFunc-AWQ/mcEval-java/deepseekcoder-6.7B-instruct-hf/completion/java-files/Java-44-gen0.java:25:	LooseCoupling:	Avoid using implementation types like 'ArrayList'; use the interface instead
+/home/saima/projects/NonFunc-AWQ/mcEval-java/deepseekcoder-6.7B-instruct-hf/completion/java-files/Java-44-gen0.java:67:	SystemPrintln:	Usage of System.out/err

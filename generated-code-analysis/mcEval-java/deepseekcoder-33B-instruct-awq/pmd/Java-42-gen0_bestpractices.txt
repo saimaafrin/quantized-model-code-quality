@@ -1,0 +1,4 @@
+/home/saima/projects/NonFunc-AWQ/mcEval-java/deepseekcoder-33B-instruct-awq/completion/java-files/Java-42-gen0.java:21:	UseVarargs:	Consider using varargs for methods or constructors which take an array the last parameter.
+/home/saima/projects/NonFunc-AWQ/mcEval-java/deepseekcoder-33B-instruct-awq/completion/java-files/Java-42-gen0.java:41:	ForLoopCanBeForeach:	This for loop can be replaced by a foreach loop
+/home/saima/projects/NonFunc-AWQ/mcEval-java/deepseekcoder-33B-instruct-awq/completion/java-files/Java-42-gen0.java:42:	ForLoopCanBeForeach:	This for loop can be replaced by a foreach loop
+/home/saima/projects/NonFunc-AWQ/mcEval-java/deepseekcoder-33B-instruct-awq/completion/java-files/Java-42-gen0.java:63:	SystemPrintln:	Usage of System.out/err

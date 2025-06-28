@@ -1,0 +1,2 @@
+/home/saima/projects/NonFunc-AWQ/mcEval-java/deepseekcoder-6.7B-instruct-hf/completion/java-files/Java-53-gen0.java:16:	AvoidInstantiatingObjectsInLoops:	Avoid instantiating new objects inside loops
+/home/saima/projects/NonFunc-AWQ/mcEval-java/deepseekcoder-6.7B-instruct-hf/completion/java-files/Java-53-gen0.java:17:	UseStringBufferForStringAppends:	Prefer StringBuilder (non-synchronized) or StringBuffer (synchronized) over += for concatenating strings

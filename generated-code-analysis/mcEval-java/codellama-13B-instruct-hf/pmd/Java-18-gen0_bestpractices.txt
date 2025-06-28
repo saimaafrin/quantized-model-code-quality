@@ -1,0 +1,10 @@
+/home/saima/projects/NonFunc-AWQ/mcEval-java/codellama-13B-instruct-hf/completion/java-files/Java-18-gen0.java:22:	ForLoopVariableCount:	Too many control variables in the for statement
+/home/saima/projects/NonFunc-AWQ/mcEval-java/codellama-13B-instruct-hf/completion/java-files/Java-18-gen0.java:23:	AvoidReassigningLoopVariables:	Avoid reassigning the loop control variable 'j'
+/home/saima/projects/NonFunc-AWQ/mcEval-java/codellama-13B-instruct-hf/completion/java-files/Java-18-gen0.java:25:	AvoidReassigningLoopVariables:	Avoid reassigning the loop control variable 'i'
+/home/saima/projects/NonFunc-AWQ/mcEval-java/codellama-13B-instruct-hf/completion/java-files/Java-18-gen0.java:28:	OneDeclarationPerLine:	Use one line for each declaration, it enhances code readability.
+/home/saima/projects/NonFunc-AWQ/mcEval-java/codellama-13B-instruct-hf/completion/java-files/Java-18-gen0.java:40:	AvoidReassigningLoopVariables:	Avoid reassigning the loop control variable 'i'
+/home/saima/projects/NonFunc-AWQ/mcEval-java/codellama-13B-instruct-hf/completion/java-files/Java-18-gen0.java:45:	AvoidReassigningLoopVariables:	Avoid reassigning the loop control variable 'i'
+/home/saima/projects/NonFunc-AWQ/mcEval-java/codellama-13B-instruct-hf/completion/java-files/Java-18-gen0.java:54:	LiteralsFirstInComparisons:	Position literals first in String comparisons
+/home/saima/projects/NonFunc-AWQ/mcEval-java/codellama-13B-instruct-hf/completion/java-files/Java-18-gen0.java:55:	LiteralsFirstInComparisons:	Position literals first in String comparisons
+/home/saima/projects/NonFunc-AWQ/mcEval-java/codellama-13B-instruct-hf/completion/java-files/Java-18-gen0.java:56:	LiteralsFirstInComparisons:	Position literals first in String comparisons
+/home/saima/projects/NonFunc-AWQ/mcEval-java/codellama-13B-instruct-hf/completion/java-files/Java-18-gen0.java:57:	SystemPrintln:	Usage of System.out/err

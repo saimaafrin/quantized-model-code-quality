@@ -1,0 +1,10 @@
+/home/saima/projects/NonFunc-AWQ/mcEval-java/codellama-13B-instruct-hf/completion/java-files/Java-15-gen0.java:1:	UnnecessaryImport:	Unused import 'java.lang.*'
+/home/saima/projects/NonFunc-AWQ/mcEval-java/codellama-13B-instruct-hf/completion/java-files/Java-15-gen0.java:4:	NoPackage:	All classes, interfaces, enums and annotations must belong to a named package
+/home/saima/projects/NonFunc-AWQ/mcEval-java/codellama-13B-instruct-hf/completion/java-files/Java-15-gen0.java:4:	AtLeastOneConstructor:	Each class should declare at least one constructor
+/home/saima/projects/NonFunc-AWQ/mcEval-java/codellama-13B-instruct-hf/completion/java-files/Java-15-gen0.java:29:	MethodArgumentCouldBeFinal:	Parameter 'arr' is not assigned and could be declared final
+/home/saima/projects/NonFunc-AWQ/mcEval-java/codellama-13B-instruct-hf/completion/java-files/Java-15-gen0.java:31:	LocalVariableCouldBeFinal:	Local variable 'mid' could be declared final
+/home/saima/projects/NonFunc-AWQ/mcEval-java/codellama-13B-instruct-hf/completion/java-files/Java-15-gen0.java:32:	LocalVariableCouldBeFinal:	Local variable 'lowerSize' could be declared final
+/home/saima/projects/NonFunc-AWQ/mcEval-java/codellama-13B-instruct-hf/completion/java-files/Java-15-gen0.java:33:	LocalVariableCouldBeFinal:	Local variable 'lowerStart' could be declared final
+/home/saima/projects/NonFunc-AWQ/mcEval-java/codellama-13B-instruct-hf/completion/java-files/Java-15-gen0.java:34:	LocalVariableCouldBeFinal:	Local variable 'upperSize' could be declared final
+/home/saima/projects/NonFunc-AWQ/mcEval-java/codellama-13B-instruct-hf/completion/java-files/Java-15-gen0.java:35:	LocalVariableCouldBeFinal:	Local variable 'upperEnd' could be declared final
+/home/saima/projects/NonFunc-AWQ/mcEval-java/codellama-13B-instruct-hf/completion/java-files/Java-15-gen0.java:43:	LocalVariableCouldBeFinal:	Local variable 'solution' could be declared final

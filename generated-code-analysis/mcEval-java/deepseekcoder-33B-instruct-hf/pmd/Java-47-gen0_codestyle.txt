@@ -1,0 +1,8 @@
+/home/saima/projects/NonFunc-AWQ/mcEval-java/deepseekcoder-33B-instruct-hf/completion/java-files/Java-47-gen0.java:1:	NoPackage:	All classes, interfaces, enums and annotations must belong to a named package
+/home/saima/projects/NonFunc-AWQ/mcEval-java/deepseekcoder-33B-instruct-hf/completion/java-files/Java-47-gen0.java:13:	MethodArgumentCouldBeFinal:	Parameter 'points' is not assigned and could be declared final
+/home/saima/projects/NonFunc-AWQ/mcEval-java/deepseekcoder-33B-instruct-hf/completion/java-files/Java-47-gen0.java:14:	ShortVariable:	Avoid variables with short names like a
+/home/saima/projects/NonFunc-AWQ/mcEval-java/deepseekcoder-33B-instruct-hf/completion/java-files/Java-47-gen0.java:14:	LocalVariableCouldBeFinal:	Local variable 'a' could be declared final
+/home/saima/projects/NonFunc-AWQ/mcEval-java/deepseekcoder-33B-instruct-hf/completion/java-files/Java-47-gen0.java:14:	ShortVariable:	Avoid variables with short names like b
+/home/saima/projects/NonFunc-AWQ/mcEval-java/deepseekcoder-33B-instruct-hf/completion/java-files/Java-47-gen0.java:14:	LocalVariableCouldBeFinal:	Local variable 'b' could be declared final
+/home/saima/projects/NonFunc-AWQ/mcEval-java/deepseekcoder-33B-instruct-hf/completion/java-files/Java-47-gen0.java:14:	ShortVariable:	Avoid variables with short names like c
+/home/saima/projects/NonFunc-AWQ/mcEval-java/deepseekcoder-33B-instruct-hf/completion/java-files/Java-47-gen0.java:14:	LocalVariableCouldBeFinal:	Local variable 'c' could be declared final

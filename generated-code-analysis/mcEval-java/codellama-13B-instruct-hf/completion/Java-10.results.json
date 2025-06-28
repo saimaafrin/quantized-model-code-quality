@@ -1,0 +1,20 @@
+{
+  "name": "Java-10",
+  "language": "java",
+  "temperature": 0.8,
+  "top_p": 0.95,
+  "max_tokens": 1024,
+  "prompt": "import java.util.*;\n\nclass Problem {\n    /**\n     * Given the size of the n-teresting space, the starting and ending n-tersection coordinates, and the paths between adjacent n-tersections, determine if it is possible to travel from the starting n-tersection to the ending n-tersection.\n     * \n     * Parameters:\n     * - n: the size of the n-teresting space\n     * - start: the starting n-tersection coordinates\n     * - end: the ending n-tersection coordinates\n     * - paths: paths between adjacent n-tersections in the n-teresting space\n     * \n     * Output:\n     * - If travel is possible, return \"can be travelled\"\n     * - If travel is not possible, return \"cannot be travelled\"\n     */\n    public static String canTravelMaze(int n, int[] start, int[] end, int[][] paths) ",
+  "tests": "    public static void main(String[] args) {\n        // Test the function with different test cases\n        assert canTravelMaze(2, new int[]{0, 0}, new int[]{2, 2}, new int[][]{{0, 0, 0, 1}, {0, 1, 1, 1}, {1, 1, 1, 2}, {1, 2, 2, 2}}).equals(\"can be travelled\");\n        assert canTravelMaze(2, new int[]{0, 0}, new int[]{2, 2}, new int[][]{{0, 0, 0, 1}, {0, 1, 1, 1}, {1, 1, 2, 1}, {2, 1, 2, 2}}).equals(\"can be travelled\");\n        assert canTravelMaze(2, new int[]{0, 0}, new int[]{2, 2}, new int[][]{{0, 0, 0, 1}, {0, 1, 1, 1}, {1, 1, 2, 1}}).equals(\"cannot be travelled\");\n        System.out.println(\"All tests passed\");\n    }\n}",
+  "stop_tokens": [],
+  "results": [
+    {
+      "program": "import java.util.*;\n\nclass Problem {\n    /**\n     * Given the size of the n-teresting space, the starting and ending n-tersection coordinates, and the paths between adjacent n-tersections, determine if it is possible to travel from the starting n-tersection to the ending n-tersection.\n     * \n     * Parameters:\n     * - n: the size of the n-teresting space\n     * - start: the starting n-tersection coordinates\n     * - end: the ending n-tersection coordinates\n     * - paths: paths between adjacent n-tersections in the n-teresting space\n     * \n     * Output:\n     * - If travel is possible, return \"can be travelled\"\n     * - If travel is not possible, return \"cannot be travelled\"\n     */\n    public static String canTravelMaze(int n, int[] start, int[] end, int[][] paths)  {\n        ArrayList<Integer>[] graph = new ArrayList[n];\n        for (int i = 0; i < n; i++) {\n            graph[i] = new ArrayList<Integer>();\n        }\n\n        for (int i = 0; i < paths.length; i++) {\n            int from = paths[i][0];\n            int to = paths[i][1];\n            graph[from].add(to);\n            graph[to].add(from);\n        }\n\n        return bfs(start, end, graph) ? \"can be travelled\" : \"cannot be travelled\";\n    }\n    public static void main(String[] args) {\n        // Test the function with different test cases\n        assert canTravelMaze(2, new int[]{0, 0}, new int[]{2, 2}, new int[][]{{0, 0, 0, 1}, {0, 1, 1, 1}, {1, 1, 1, 2}, {1, 2, 2, 2}}).equals(\"can be travelled\");\n        assert canTravelMaze(2, new int[]{0, 0}, new int[]{2, 2}, new int[][]{{0, 0, 0, 1}, {0, 1, 1, 1}, {1, 1, 2, 1}, {2, 1, 2, 2}}).equals(\"can be travelled\");\n        assert canTravelMaze(2, new int[]{0, 0}, new int[]{2, 2}, new int[][]{{0, 0, 0, 1}, {0, 1, 1, 1}, {1, 1, 2, 1}}).equals(\"cannot be travelled\");\n        System.out.println(\"All tests passed\");\n    }\n}",
+      "timestamp": 1741528510,
+      "stdout": "",
+      "stderr": "/tmp/tmps55esl6x.java:30: error: cannot find symbol\n        return bfs(start, end, graph) ? \"can be travelled\" : \"cannot be travelled\";\n               ^\n  symbol:   method bfs(int[],int[],ArrayList<Integer>[])\n  location: class Problem\nNote: /tmp/tmps55esl6x.java uses unchecked or unsafe operations.\nNote: Recompile with -Xlint:unchecked for details.\n1 error\n",
+      "exit_code": 1,
+      "status": "SyntaxError"
+    }
+  ]
+}

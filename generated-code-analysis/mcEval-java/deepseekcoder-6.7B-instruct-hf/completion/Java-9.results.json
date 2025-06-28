@@ -1,0 +1,20 @@
+{
+  "name": "Java-9",
+  "language": "java",
+  "temperature": 0.8,
+  "top_p": 0.95,
+  "max_tokens": 1024,
+  "prompt": "import java.util.*;\n\nclass Problem {\n   /**\n     * Given a list of numbers, determine how many items in the list are twice some other item in the same list.\n     * \n     * Example:\n     * >>> countDoubles(new int[] {1, 4, 3, 2, 9, 7, 18, 22})\n     * 3\n     * >>> countDoubles(new int[] {2, 4, 8, 10})\n     * 2\n     * >>> countDoubles(new int[] {7, 5, 11, 13, 1, 3})\n     * 0\n     */\n    public static int countDoubles(int[] numbers) ",
+  "tests": "    public static void main(String[] args) {\n        // Test the function with different test cases\n        assert countDoubles(new int[]{1, 2, 4, 8, 16}) == 4;\n        assert countDoubles(new int[]{5, 10, 20, 40, 80}) == 4;\n        assert countDoubles(new int[]{3, 6, 12, 24, 48}) == 4;\n        System.out.println(\"All tests passed\");\n    }\n}",
+  "stop_tokens": [],
+  "results": [
+    {
+      "program": "import java.util.*;\n\nclass Problem {\n   /**\n     * Given a list of numbers, determine how many items in the list are twice some other item in the same list.\n     * \n     * Example:\n     * >>> countDoubles(new int[] {1, 4, 3, 2, 9, 7, 18, 22})\n     * 3\n     * >>> countDoubles(new int[] {2, 4, 8, 10})\n     * 2\n     * >>> countDoubles(new int[] {7, 5, 11, 13, 1, 3})\n     * 0\n     */\n    public static int countDoubles(int[] numbers)  {\n        Map<Integer, Integer> countMap = new HashMap<>();\n        for (int num : numbers) {\n            countMap.put(num, countMap.getOrDefault(num, 0) + 1);\n        }\n        \n        int count = 0;\n        for (Map.Entry<Integer, Integer> entry : countMap.entrySet()) {\n            if (entry.getValue() > 1 && numbers.contains(entry.getKey() * 2)) {\n                count++;\n            }\n        }\n        return count;\n    }\n    public static void main(String[] args) {\n        // Test the function with different test cases\n        assert countDoubles(new int[]{1, 2, 4, 8, 16}) == 4;\n        assert countDoubles(new int[]{5, 10, 20, 40, 80}) == 4;\n        assert countDoubles(new int[]{3, 6, 12, 24, 48}) == 4;\n        System.out.println(\"All tests passed\");\n    }\n}",
+      "timestamp": 1741536772,
+      "stdout": "",
+      "stderr": "/tmp/tmpzujp0vfs.java:23: error: cannot find symbol\n            if (entry.getValue() > 1 && numbers.contains(entry.getKey() * 2)) {\n                                               ^\n  symbol:   method contains(int)\n  location: variable numbers of type int[]\n1 error\n",
+      "exit_code": 1,
+      "status": "SyntaxError"
+    }
+  ]
+}

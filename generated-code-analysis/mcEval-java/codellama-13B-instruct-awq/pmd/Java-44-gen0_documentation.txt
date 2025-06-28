@@ -1,0 +1,3 @@
+/home/saima/projects/NonFunc-AWQ/mcEval-java/codellama-13B-instruct-awq/completion/java-files/Java-44-gen0.java:3:	CommentRequired:	Class comments are required
+/home/saima/projects/NonFunc-AWQ/mcEval-java/codellama-13B-instruct-awq/completion/java-files/Java-44-gen0.java:5:	CommentSize:	Comment is too large: Too many lines
+/home/saima/projects/NonFunc-AWQ/mcEval-java/codellama-13B-instruct-awq/completion/java-files/Java-44-gen0.java:26:	CommentRequired:	Public method and constructor comments are required

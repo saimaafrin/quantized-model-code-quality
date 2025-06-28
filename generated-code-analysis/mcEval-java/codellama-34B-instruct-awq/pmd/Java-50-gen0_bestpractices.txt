@@ -1,0 +1,7 @@
+/home/saima/projects/NonFunc-AWQ/mcEval-java/codellama-34B-instruct-awq/completion/java-files/Java-50-gen0.java:18:	ForLoopVariableCount:	Too many control variables in the for statement
+/home/saima/projects/NonFunc-AWQ/mcEval-java/codellama-34B-instruct-awq/completion/java-files/Java-50-gen0.java:19:	AvoidReassigningLoopVariables:	Avoid reassigning the loop control variable 'j'
+/home/saima/projects/NonFunc-AWQ/mcEval-java/codellama-34B-instruct-awq/completion/java-files/Java-50-gen0.java:26:	AvoidReassigningLoopVariables:	Avoid reassigning the loop control variable 'j'
+/home/saima/projects/NonFunc-AWQ/mcEval-java/codellama-34B-instruct-awq/completion/java-files/Java-50-gen0.java:35:	DoubleBraceInitialization:	Double-brace initialization should be avoided
+/home/saima/projects/NonFunc-AWQ/mcEval-java/codellama-34B-instruct-awq/completion/java-files/Java-50-gen0.java:56:	DoubleBraceInitialization:	Double-brace initialization should be avoided
+/home/saima/projects/NonFunc-AWQ/mcEval-java/codellama-34B-instruct-awq/completion/java-files/Java-50-gen0.java:84:	DoubleBraceInitialization:	Double-brace initialization should be avoided
+/home/saima/projects/NonFunc-AWQ/mcEval-java/codellama-34B-instruct-awq/completion/java-files/Java-50-gen0.java:91:	SystemPrintln:	Usage of System.out/err

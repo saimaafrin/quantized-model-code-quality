@@ -1,0 +1,6 @@
+/home/saima/projects/NonFunc-AWQ/mcEval-java/codellama-13B-instruct-hf/completion/java-files/Java-9-gen0.java:15:	UseVarargs:	Consider using varargs for methods or constructors which take an array the last parameter.
+/home/saima/projects/NonFunc-AWQ/mcEval-java/codellama-13B-instruct-hf/completion/java-files/Java-9-gen0.java:16:	LooseCoupling:	Avoid using implementation types like 'HashSet'; use the interface instead
+/home/saima/projects/NonFunc-AWQ/mcEval-java/codellama-13B-instruct-hf/completion/java-files/Java-9-gen0.java:16:	UnusedLocalVariable:	Avoid unused local variables such as 'set'.
+/home/saima/projects/NonFunc-AWQ/mcEval-java/codellama-13B-instruct-hf/completion/java-files/Java-9-gen0.java:18:	ForLoopCanBeForeach:	This for loop can be replaced by a foreach loop
+/home/saima/projects/NonFunc-AWQ/mcEval-java/codellama-13B-instruct-hf/completion/java-files/Java-9-gen0.java:19:	ForLoopCanBeForeach:	This for loop can be replaced by a foreach loop
+/home/saima/projects/NonFunc-AWQ/mcEval-java/codellama-13B-instruct-hf/completion/java-files/Java-9-gen0.java:32:	SystemPrintln:	Usage of System.out/err

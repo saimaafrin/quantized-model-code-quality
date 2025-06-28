@@ -1,0 +1,2 @@
+/home/saima/projects/NonFunc-AWQ/mcEval-java/codellama-13B-instruct-awq/completion/java-files/Java-45-gen0.java:20:	AvoidReassigningParameters:	Avoid reassigning parameters such as 'n'
+/home/saima/projects/NonFunc-AWQ/mcEval-java/codellama-13B-instruct-awq/completion/java-files/Java-45-gen0.java:42:	SystemPrintln:	Usage of System.out/err

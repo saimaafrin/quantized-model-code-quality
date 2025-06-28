@@ -1,0 +1,3 @@
+/home/saima/projects/NonFunc-AWQ/mcEval-java/codellama-34B-instruct-hf/completion/java-files/Java-21-gen0.java:12:	UseVarargs:	Consider using varargs for methods or constructors which take an array the last parameter.
+/home/saima/projects/NonFunc-AWQ/mcEval-java/codellama-34B-instruct-hf/completion/java-files/Java-21-gen0.java:14:	LooseCoupling:	Avoid using implementation types like 'HashSet'; use the interface instead
+/home/saima/projects/NonFunc-AWQ/mcEval-java/codellama-34B-instruct-hf/completion/java-files/Java-21-gen0.java:31:	SystemPrintln:	Usage of System.out/err

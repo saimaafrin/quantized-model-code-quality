@@ -1,0 +1,80 @@
+{
+    "Total code count": {
+        "files": 53
+    },
+    "Total Rule Violations": {
+        "bestpractices": 119,
+        "codestyle": 367,
+        "design": 54,
+        "documentation": 233,
+        "errorprone": 9,
+        "multithreading": 1,
+        "performance": 3,
+        "security": 0
+    },
+    "Error Code Counts": {
+        "bestpractices": {
+            "UseVarargs": 18,
+            "SystemPrintln": 53,
+            "ForLoopCanBeForeach": 5,
+            "AvoidReassigningParameters": 5,
+            "LiteralsFirstInComparisons": 23,
+            "OneDeclarationPerLine": 2,
+            "UnusedLocalVariable": 4,
+            "UnusedAssignment": 1,
+            "DoubleBraceInitialization": 3,
+            "LooseCoupling": 1,
+            "UnusedPrivateField": 2,
+            "ForLoopVariableCount": 2
+        },
+        "codestyle": {
+            "NoPackage": 52,
+            "AtLeastOneConstructor": 22,
+            "MethodArgumentCouldBeFinal": 61,
+            "UseShortArrayInitializer": 1,
+            "LocalVariableCouldBeFinal": 99,
+            "UnnecessaryImport": 18,
+            "ShortVariable": 49,
+            "CommentDefaultAccessModifier": 2,
+            "UseUnderscoresInNumericLiterals": 11,
+            "OnlyOneReturn": 21,
+            "PrematureDeclaration": 1,
+            "ControlStatementBraces": 10,
+            "LinguisticNaming": 2,
+            "UseDiamondOperator": 2,
+            "FormalParameterNamingConventions": 5,
+            "ConfusingTernary": 1,
+            "LongVariable": 1,
+            "UselessParentheses": 2,
+            "FieldNamingConventions": 2,
+            "LocalVariableNamingConventions": 5
+        },
+        "design": {
+            "UseUtilityClass": 30,
+            "CognitiveComplexity": 3,
+            "SimplifyBooleanReturns": 2,
+            "SimplifyBooleanExpressions": 16,
+            "CollapsibleIfStatements": 1,
+            "CyclomaticComplexity": 2
+        },
+        "documentation": {
+            "CommentRequired": 109,
+            "CommentSize": 124
+        },
+        "errorprone": {
+            "AvoidLiteralsInIfCondition": 5,
+            "AvoidDuplicateLiterals": 1,
+            "AssignmentInOperand": 1,
+            "UseLocaleWithCaseConversions": 1,
+            "SimpleDateFormatNeedsLocale": 1
+        },
+        "multithreading": {
+            "UseConcurrentHashMap": 1
+        },
+        "performance": {
+            "UseStringBufferForStringAppends": 2,
+            "AddEmptyString": 1
+        },
+        "security": {}
+    }
+}

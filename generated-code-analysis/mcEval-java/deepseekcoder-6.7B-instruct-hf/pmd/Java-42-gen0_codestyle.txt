@@ -1,0 +1,14 @@
+/home/saima/projects/NonFunc-AWQ/mcEval-java/deepseekcoder-6.7B-instruct-hf/completion/java-files/Java-42-gen0.java:4:	NoPackage:	All classes, interfaces, enums and annotations must belong to a named package
+/home/saima/projects/NonFunc-AWQ/mcEval-java/deepseekcoder-6.7B-instruct-hf/completion/java-files/Java-42-gen0.java:21:	ShortVariable:	Avoid variables with short names like A
+/home/saima/projects/NonFunc-AWQ/mcEval-java/deepseekcoder-6.7B-instruct-hf/completion/java-files/Java-42-gen0.java:21:	MethodArgumentCouldBeFinal:	Parameter 'A' is not assigned and could be declared final
+/home/saima/projects/NonFunc-AWQ/mcEval-java/deepseekcoder-6.7B-instruct-hf/completion/java-files/Java-42-gen0.java:21:	FormalParameterNamingConventions:	The method parameter name 'A' doesn't match '[a-z][a-zA-Z0-9]*'
+/home/saima/projects/NonFunc-AWQ/mcEval-java/deepseekcoder-6.7B-instruct-hf/completion/java-files/Java-42-gen0.java:22:	LocalVariableCouldBeFinal:	Local variable 'len' could be declared final
+/home/saima/projects/NonFunc-AWQ/mcEval-java/deepseekcoder-6.7B-instruct-hf/completion/java-files/Java-42-gen0.java:23:	LocalVariableCouldBeFinal:	Local variable 'count' could be declared final
+/home/saima/projects/NonFunc-AWQ/mcEval-java/deepseekcoder-6.7B-instruct-hf/completion/java-files/Java-42-gen0.java:24:	ShortVariable:	Avoid variables with short names like dp
+/home/saima/projects/NonFunc-AWQ/mcEval-java/deepseekcoder-6.7B-instruct-hf/completion/java-files/Java-42-gen0.java:24:	LocalVariableCouldBeFinal:	Local variable 'dp' could be declared final
+/home/saima/projects/NonFunc-AWQ/mcEval-java/deepseekcoder-6.7B-instruct-hf/completion/java-files/Java-42-gen0.java:40:	ShortVariable:	Avoid variables with short names like j
+/home/saima/projects/NonFunc-AWQ/mcEval-java/deepseekcoder-6.7B-instruct-hf/completion/java-files/Java-42-gen0.java:40:	LocalVariableCouldBeFinal:	Local variable 'j' could be declared final
+/home/saima/projects/NonFunc-AWQ/mcEval-java/deepseekcoder-6.7B-instruct-hf/completion/java-files/Java-42-gen0.java:53:	UseUnderscoresInNumericLiterals:	Number 1000000007 should separate every third digit with an underscore
+/home/saima/projects/NonFunc-AWQ/mcEval-java/deepseekcoder-6.7B-instruct-hf/completion/java-files/Java-42-gen0.java:55:	LocalVariableCouldBeFinal:	Local variable 'num' could be declared final
+/home/saima/projects/NonFunc-AWQ/mcEval-java/deepseekcoder-6.7B-instruct-hf/completion/java-files/Java-42-gen0.java:57:	UselessParentheses:	Useless parentheses.
+/home/saima/projects/NonFunc-AWQ/mcEval-java/deepseekcoder-6.7B-instruct-hf/completion/java-files/Java-42-gen0.java:57:	UseUnderscoresInNumericLiterals:	Number 1000000007 should separate every third digit with an underscore

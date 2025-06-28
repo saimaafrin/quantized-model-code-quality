@@ -1,0 +1,10 @@
+/home/saima/projects/NonFunc-AWQ/mcEval-java/deepseekcoder-6.7B-instruct-awq/completion/java-files/Java-30-gen0.java:1:	NoPackage:	All classes, interfaces, enums and annotations must belong to a named package
+/home/saima/projects/NonFunc-AWQ/mcEval-java/deepseekcoder-6.7B-instruct-awq/completion/java-files/Java-30-gen0.java:1:	AtLeastOneConstructor:	Each class should declare at least one constructor
+/home/saima/projects/NonFunc-AWQ/mcEval-java/deepseekcoder-6.7B-instruct-awq/completion/java-files/Java-30-gen0.java:29:	ShortVariable:	Avoid variables with short names like s
+/home/saima/projects/NonFunc-AWQ/mcEval-java/deepseekcoder-6.7B-instruct-awq/completion/java-files/Java-30-gen0.java:29:	MethodArgumentCouldBeFinal:	Parameter 's' is not assigned and could be declared final
+/home/saima/projects/NonFunc-AWQ/mcEval-java/deepseekcoder-6.7B-instruct-awq/completion/java-files/Java-30-gen0.java:30:	LocalVariableCouldBeFinal:	Local variable 'stack' could be declared final
+/home/saima/projects/NonFunc-AWQ/mcEval-java/deepseekcoder-6.7B-instruct-awq/completion/java-files/Java-30-gen0.java:31:	LocalVariableCouldBeFinal:	Local variable 'c' could be declared final
+/home/saima/projects/NonFunc-AWQ/mcEval-java/deepseekcoder-6.7B-instruct-awq/completion/java-files/Java-30-gen0.java:38:	ShortVariable:	Avoid variables with short names like sb
+/home/saima/projects/NonFunc-AWQ/mcEval-java/deepseekcoder-6.7B-instruct-awq/completion/java-files/Java-30-gen0.java:38:	LocalVariableCouldBeFinal:	Local variable 'sb' could be declared final
+/home/saima/projects/NonFunc-AWQ/mcEval-java/deepseekcoder-6.7B-instruct-awq/completion/java-files/Java-30-gen0.java:39:	LocalVariableCouldBeFinal:	Local variable 'c' could be declared final
+/home/saima/projects/NonFunc-AWQ/mcEval-java/deepseekcoder-6.7B-instruct-awq/completion/java-files/Java-30-gen0.java:45:	LocalVariableCouldBeFinal:	Local variable 'solution' could be declared final

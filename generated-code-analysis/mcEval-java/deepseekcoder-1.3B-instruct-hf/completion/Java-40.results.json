@@ -1,0 +1,20 @@
+{
+  "name": "Java-40",
+  "language": "java",
+  "temperature": 0.8,
+  "top_p": 0.95,
+  "max_tokens": 1024,
+  "prompt": "class Problem {\n\n  /**\n   * Given a binary matrix mat of size m x n, return the length of the longest continuous line of 1s in the matrix.\n   * The line could be horizontal, vertical, diagonal, or anti-diagonal.\n   *\n   * @param mat The binary matrix.\n   * @return The length of the longest continuous line of 1s.\n   *\n   * Example:\n   * longestLine(new int[][]{{0,1,1,0},{0,1,1,0},{0,0,0,1}})\n   * Output: 3\n   */\n  public static int longestLine(int[][] mat) ",
+  "tests": "  public static void main(String[] args) {\n    assert longestLine(\n      new int[][] {\n        { 1, 1, 0, 0 },\n        { 0, 1, 1, 0 },\n        { 0, 0, 0, 1 },\n        { 1, 0, 0, 0 },\n      }\n    ) ==\n    3;\n    assert longestLine(\n      new int[][] {\n        { 1, 0, 0, 1 },\n        { 0, 1, 1, 0 },\n        { 1, 1, 0, 0 },\n        { 1, 0, 1, 1 },\n      }\n    ) ==\n    4;\n    assert longestLine(new int[][] { { 0, 0, 0 }, { 0, 1, 0 }, { 0, 0, 0 } }) ==\n    1;\n\n    System.out.println(\"All tests passed\");\n  }\n}",
+  "stop_tokens": [],
+  "results": [
+    {
+      "program": "class Problem {\n\n  /**\n   * Given a binary matrix mat of size m x n, return the length of the longest continuous line of 1s in the matrix.\n   * The line could be horizontal, vertical, diagonal, or anti-diagonal.\n   *\n   * @param mat The binary matrix.\n   * @return The length of the longest continuous line of 1s.\n   *\n   * Example:\n   * longestLine(new int[][]{{0,1,1,0},{0,1,1,0},{0,0,0,1}})\n   * Output: 3\n   */\n  public static int longestLine(int[][] mat)  {\n    if (mat == null || mat.length == 0) return 0;\n    int m = mat.length;\n    int n = mat[0].length;\n    int[][] vertical = new int[m][n];\n    int[][] horizontal = new int[m][n];\n    int[][] diagonal = new int[m][n];\n    int[][] antiDiagonal = new int[m][n];\n\n    for (int i = 0; i < m; i++) {\n      for (int j = 0; j < n; j++) {\n        if (i == 0 || j == 0) {\n          horizontal[i][j] = mat[i][j];\n          vertical[i][j] = mat[i][j];\n          diagonal[i][j] = mat[i][j];\n          antiDiagonal[i][j] = mat[i][j];\n        } else {\n          if (mat[i][j] == 1) {\n            horizontal[i][j] = horizontal[i][j - 1] + 1;\n            vertical[i][j] = vertical[i - 1][j] + 1;\n            diagonal[i][j] = Math.min(vertical[i - 1][j - 1], horizontal[i - 1][j]);\n            antiDiagonal[i][j] = Math.min(vertical[i - 1][j + 1], horizontal[i - 1][j]);\n          } else {\n            horizontal[i][j] = vertical[i][j] = diagonal[i][j] = antiDiagonal[i][j] = 0;\n          }\n        }\n      }\n    }\n\n    int max = 0;\n    for (int i = 0; i < m; i++) {\n      for (int j = 0; j < n; j++) {\n        max = Math.max(max, Math.max(horizontal[i][j], vertical[i][j]));\n        max = Math.max(max, Math.max(diagonal[i][j], antiDiagonal[i][j]));\n      }\n    }\n    return max;\n  }\n  public static void main(String[] args) {\n    assert longestLine(\n      new int[][] {\n        { 1, 1, 0, 0 },\n        { 0, 1, 1, 0 },\n        { 0, 0, 0, 1 },\n        { 1, 0, 0, 0 },\n      }\n    ) ==\n    3;\n    assert longestLine(\n      new int[][] {\n        { 1, 0, 0, 1 },\n        { 0, 1, 1, 0 },\n        { 1, 1, 0, 0 },\n        { 1, 0, 1, 1 },\n      }\n    ) ==\n    4;\n    assert longestLine(new int[][] { { 0, 0, 0 }, { 0, 1, 0 }, { 0, 0, 0 } }) ==\n    1;\n\n    System.out.println(\"All tests passed\");\n  }\n}",
+      "timestamp": 1741535357,
+      "stdout": "",
+      "stderr": "Exception in thread \"main\" java.lang.ArrayIndexOutOfBoundsException: Index 4 out of bounds for length 4\n\tat Problem.longestLine(tmp9q_4i_to.java:35)\n\tat Problem.main(tmp9q_4i_to.java:53)\n",
+      "exit_code": 1,
+      "status": "Exception"
+    }
+  ]
+}

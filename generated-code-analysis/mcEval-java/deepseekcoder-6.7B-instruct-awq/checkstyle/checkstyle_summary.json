@@ -1,0 +1,57 @@
+{
+    "Total code count": {
+        "files": 53
+    },
+    "Total Rule Violations": {
+        "javadoc": 116,
+        "imports": 31,
+        "whitespace": 315,
+        "coding": 504,
+        "design": 32,
+        "regexp": 20,
+        "blocks": 15,
+        "naming": 7
+    },
+    "Error Code Counts": {
+        "javadoc": {
+            "JavadocPackage": 53,
+            "JavadocMethod": 61,
+            "JavadocVariable": 2
+        },
+        "imports": {
+            "AvoidStarImport": 23,
+            "RedundantImport": 4,
+            "UnusedImports": 4
+        },
+        "whitespace": {
+            "WhitespaceAfter": 118,
+            "NoWhitespaceAfter": 98,
+            "OperatorWrap": 21,
+            "WhitespaceAround": 78
+        },
+        "coding": {
+            "MagicNumber": 483,
+            "SimplifyBooleanExpression": 16,
+            "MultipleVariableDeclarations": 4,
+            "InnerAssignment": 1
+        },
+        "design": {
+            "HideUtilityClassConstructor": 30,
+            "VisibilityModifier": 2
+        },
+        "regexp": {
+            "RegexpSingleline": 20
+        },
+        "blocks": {
+            "NeedBraces": 12,
+            "RightCurly": 3
+        },
+        "naming": {
+            "ParameterName": 5,
+            "ConstantName": 2
+        },
+        "annotation": {},
+        "metrics": {},
+        "modifiers": {}
+    }
+}

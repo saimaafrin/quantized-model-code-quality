@@ -1,0 +1,20 @@
+{
+  "name": "Java-5",
+  "language": "java",
+  "temperature": 0.8,
+  "top_p": 0.95,
+  "max_tokens": 1024,
+  "prompt": "import java.util.*;\n\nclass Problem {\n    /**\n     * Given a number of case-sensitive strings, finds the largest string X, such that either X, or its inverse can be found as a substring of any of the given strings.\n     * \n     * Example:\n     * >>> findLargestSubstring(Arrays.asList(\"ABCD\", \"BCDFF\", \"BRCD\"))\n     * 2\n     * >>> findLargestSubstring(Arrays.asList(\"rose\", \"orchid\"))\n     * 2\n     */\n    public int findLargestSubstring(List<String> strings) ",
+  "tests": "    public static void main(String[] args) {\n        Problem solution = new Problem();\n\n        // Test the function with different test cases\n        assert solution.findLargestSubstring(Arrays.asList(\"ABCD\", \"BCDFF\", \"BRCD\")) == 2;\n        assert solution.findLargestSubstring(Arrays.asList(\"rose\", \"orchid\")) == 2;\n        assert solution.findLargestSubstring(Arrays.asList(\"hello\", \"world\")) == 1;\n        System.out.println(\"All tests passed\");\n    }\n}",
+  "stop_tokens": [],
+  "results": [
+    {
+      "program": "import java.util.*;\n\nclass Problem {\n    /**\n     * Given a number of case-sensitive strings, finds the largest string X, such that either X, or its inverse can be found as a substring of any of the given strings.\n     * \n     * Example:\n     * >>> findLargestSubstring(Arrays.asList(\"ABCD\", \"BCDFF\", \"BRCD\"))\n     * 2\n     * >>> findLargestSubstring(Arrays.asList(\"rose\", \"orchid\"))\n     * 2\n     */\n    public int findLargestSubstring(List<String> strings)  {\n        Map<String, Integer> stringFrequencies = new HashMap<>();\n        for (String string : strings) {\n            for (int i = 0; i < string.length(); i++) {\n                String substring = string.substring(i);\n                if (stringFrequencies.containsKey(substring)) {\n                    stringFrequencies.put(substring, stringFrequencies.get(substring) + 1);\n                } else {\n                    stringFrequencies.put(substring, 1);\n                }\n            }\n        }\n        \n        int max = 0;\n        for (String key : stringFrequencies.keySet()) {\n            int value = stringFrequencies.get(key);\n            if (value > max) {\n                max = value;\n            }\n        }\n        return max;\n    }\n    public static void main(String[] args) {\n        Problem solution = new Problem();\n\n        // Test the function with different test cases\n        assert solution.findLargestSubstring(Arrays.asList(\"ABCD\", \"BCDFF\", \"BRCD\")) == 2;\n        assert solution.findLargestSubstring(Arrays.asList(\"rose\", \"orchid\")) == 2;\n        assert solution.findLargestSubstring(Arrays.asList(\"hello\", \"world\")) == 1;\n        System.out.println(\"All tests passed\");\n    }\n}",
+      "timestamp": 1741527466,
+      "stdout": "",
+      "stderr": "Exception in thread \"main\" java.lang.AssertionError\n\tat Problem.main(tmppe58dh09.java:40)\n",
+      "exit_code": 1,
+      "status": "Exception"
+    }
+  ]
+}

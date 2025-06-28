@@ -1,0 +1,10 @@
+/home/saima/projects/NonFunc-AWQ/mcEval-java/codellama-13B-instruct-awq/completion/java-files/Java-2-gen0.java:1:	NoPackage:	All classes, interfaces, enums and annotations must belong to a named package
+/home/saima/projects/NonFunc-AWQ/mcEval-java/codellama-13B-instruct-awq/completion/java-files/Java-2-gen0.java:14:	ShortVariable:	Avoid variables with short names like Y
+/home/saima/projects/NonFunc-AWQ/mcEval-java/codellama-13B-instruct-awq/completion/java-files/Java-2-gen0.java:14:	MethodArgumentCouldBeFinal:	Parameter 'Y' is not assigned and could be declared final
+/home/saima/projects/NonFunc-AWQ/mcEval-java/codellama-13B-instruct-awq/completion/java-files/Java-2-gen0.java:14:	FormalParameterNamingConventions:	The method parameter name 'Y' doesn't match '[a-z][a-zA-Z0-9]*'
+/home/saima/projects/NonFunc-AWQ/mcEval-java/codellama-13B-instruct-awq/completion/java-files/Java-2-gen0.java:14:	ShortVariable:	Avoid variables with short names like N
+/home/saima/projects/NonFunc-AWQ/mcEval-java/codellama-13B-instruct-awq/completion/java-files/Java-2-gen0.java:14:	MethodArgumentCouldBeFinal:	Parameter 'N' is not assigned and could be declared final
+/home/saima/projects/NonFunc-AWQ/mcEval-java/codellama-13B-instruct-awq/completion/java-files/Java-2-gen0.java:14:	FormalParameterNamingConventions:	The method parameter name 'N' doesn't match '[a-z][a-zA-Z0-9]*'
+/home/saima/projects/NonFunc-AWQ/mcEval-java/codellama-13B-instruct-awq/completion/java-files/Java-2-gen0.java:17:	ConfusingTernary:	Avoid if (x != y) ..; else ..;
+/home/saima/projects/NonFunc-AWQ/mcEval-java/codellama-13B-instruct-awq/completion/java-files/Java-2-gen0.java:19:	LongVariable:	Avoid excessively long variable names like firstLeapYearAfterY
+/home/saima/projects/NonFunc-AWQ/mcEval-java/codellama-13B-instruct-awq/completion/java-files/Java-2-gen0.java:24:	OnlyOneReturn:	A method should have only one exit point, and that should be the last statement in the method

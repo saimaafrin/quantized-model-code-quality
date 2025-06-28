@@ -1,0 +1,5 @@
+/home/saima/projects/NonFunc-AWQ/mcEval-java/deepseekcoder-1.3B-instruct-awq/completion/java-files/Java-35-gen0.java:4:	NoPackage:	All classes, interfaces, enums and annotations must belong to a named package
+/home/saima/projects/NonFunc-AWQ/mcEval-java/deepseekcoder-1.3B-instruct-awq/completion/java-files/Java-35-gen0.java:20:	MethodArgumentCouldBeFinal:	Parameter 'nums' is not assigned and could be declared final
+/home/saima/projects/NonFunc-AWQ/mcEval-java/deepseekcoder-1.3B-instruct-awq/completion/java-files/Java-35-gen0.java:21:	LocalVariableCouldBeFinal:	Local variable 'map' could be declared final
+/home/saima/projects/NonFunc-AWQ/mcEval-java/deepseekcoder-1.3B-instruct-awq/completion/java-files/Java-35-gen0.java:31:	LocalVariableCouldBeFinal:	Local variable 'entry' could be declared final
+/home/saima/projects/NonFunc-AWQ/mcEval-java/deepseekcoder-1.3B-instruct-awq/completion/java-files/Java-35-gen0.java:33:	OnlyOneReturn:	A method should have only one exit point, and that should be the last statement in the method

@@ -1,0 +1,4 @@
+/home/saima/projects/NonFunc-AWQ/mcEval-java/codellama-34B-instruct-hf/completion/java-files/Java-6-gen0.java:3:	UseUtilityClass:	This utility class has a non-private constructor
+/home/saima/projects/NonFunc-AWQ/mcEval-java/codellama-34B-instruct-hf/completion/java-files/Java-6-gen0.java:24:	CognitiveComplexity:	The method 'countOilDeposits(char[][])' has a cognitive complexity of 17, current threshold is 15
+/home/saima/projects/NonFunc-AWQ/mcEval-java/codellama-34B-instruct-hf/completion/java-files/Java-6-gen0.java:24:	CyclomaticComplexity:	The method 'countOilDeposits(char[][])' has a cyclomatic complexity of 11.
+LoosePackageCoupling	-	No packages or classes specified

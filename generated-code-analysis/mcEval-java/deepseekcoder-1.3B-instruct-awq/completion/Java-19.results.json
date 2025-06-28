@@ -1,0 +1,20 @@
+{
+  "name": "Java-19",
+  "language": "java",
+  "temperature": 0.8,
+  "top_p": 0.95,
+  "max_tokens": 1024,
+  "prompt": "import java.util.*;\n\nclass Problem {\n    /**\n     * Check if it is possible to split the given integer array into two non-empty arrays\n     * with the same average.\n     *\n     * >>> splitArraySameAverage(new int[]{1,2,3,4,5,6,7,8})\n     * true\n     *\n     * >>> splitArraySameAverage(new int[]{3,1})\n     * false\n     */\n    public boolean splitArraySameAverage(int[] nums) ",
+  "tests": "public static void main(String[] args) {\n        Problem solution = new Problem();\n\n        // Test the function with different test cases\n        assert solution.splitArraySameAverage(new int[]{1, 2, 3, 4, 5, 6, 7, 8}) == true;\n        assert solution.splitArraySameAverage(new int[]{1, 2, 3, 4, 5, 6, 7, 9}) == false;\n        assert solution.splitArraySameAverage(new int[]{1, 2, 3, 4, 5, 6, 7, 10}) == true;\n        assert solution.splitArraySameAverage(new int[]{1, 2, 3, 4, 5, 6, 7, 8, 9, 10}) == true;\n        System.out.println(\"All tests passed\");\n    }\n}",
+  "stop_tokens": [],
+  "results": [
+    {
+      "program": "import java.util.*;\n\nclass Problem {\n    /**\n     * Check if it is possible to split the given integer array into two non-empty arrays\n     * with the same average.\n     *\n     * >>> splitArraySameAverage(new int[]{1,2,3,4,5,6,7,8})\n     * true\n     *\n     * >>> splitArraySameAverage(new int[]{3,1})\n     * false\n     */\n    public boolean splitArraySameAverage(int[] nums)  {\n        int sum = Arrays.stream(nums).sum();\n        for (int i = 1; i < nums.length; i++) {\n            if ((sum * i) % nums.length == 0 && Arrays.stream(nums, 0, i).average().isPresent() && Arrays.stream(nums, i, nums.length - i).average().isPresent()\n                    && (sum * i) / nums.length == Arrays.stream(nums, 0, i).average().getAsDouble()\n                    && (sum * i) / nums.length == Arrays.stream(nums, i, nums.length - i).average().getAsDouble()) {\n                return true;\n            }\n        }\n        return false;\n    }\npublic static void main(String[] args) {\n        Problem solution = new Problem();\n\n        // Test the function with different test cases\n        assert solution.splitArraySameAverage(new int[]{1, 2, 3, 4, 5, 6, 7, 8}) == true;\n        assert solution.splitArraySameAverage(new int[]{1, 2, 3, 4, 5, 6, 7, 9}) == false;\n        assert solution.splitArraySameAverage(new int[]{1, 2, 3, 4, 5, 6, 7, 10}) == true;\n        assert solution.splitArraySameAverage(new int[]{1, 2, 3, 4, 5, 6, 7, 8, 9, 10}) == true;\n        System.out.println(\"All tests passed\");\n    }\n}",
+      "timestamp": 1741620773,
+      "stdout": "",
+      "stderr": "Exception in thread \"main\" java.lang.ArrayIndexOutOfBoundsException: origin(6) > fence(2)\n\tat java.base/java.util.Spliterators.checkFromToBounds(Spliterators.java:387)\n\tat java.base/java.util.Spliterators.spliterator(Spliterators.java:239)\n\tat java.base/java.util.Arrays.spliterator(Arrays.java:5521)\n\tat java.base/java.util.Arrays.stream(Arrays.java:5663)\n\tat Problem.splitArraySameAverage(tmpylemb9k1.java:17)\n\tat Problem.main(tmpylemb9k1.java:29)\n",
+      "exit_code": 1,
+      "status": "Exception"
+    }
+  ]
+}

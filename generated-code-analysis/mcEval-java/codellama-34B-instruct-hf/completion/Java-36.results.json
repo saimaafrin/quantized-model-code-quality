@@ -1,0 +1,20 @@
+{
+  "name": "Java-36",
+  "language": "java",
+  "temperature": 0.8,
+  "top_p": 0.95,
+  "max_tokens": 1024,
+  "prompt": "import java.util.ArrayList;\nimport java.util.List;\n\nclass Problem {\n\n  /**\n   * Find all stepping numbers in the range [low, high] where a stepping number is defined as a number where each digit is either one more or one less than the adjacent digit.\n   *\n   * @param low The lower bound of the range.\n   * @param high The upper bound of the range.\n   * @return A list of stepping numbers within the range [low, high] sorted in ascending order.\n   *\n   * Example:\n   * findSteppingNumbers(0, 21)\n   * Output: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 12, 21]\n   */\n  public static List<Integer> findSteppingNumbers(int low, int high) ",
+  "tests": "  public static void main(String[] args) {\n    assert findSteppingNumbers(0, 21)\n      .equals(\n        new ArrayList<>(List.of(0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 12, 21))\n      );\n    assert findSteppingNumbers(10, 15).equals(new ArrayList<>(List.of(10, 12)));\n    assert findSteppingNumbers(50, 55).equals(List.of(54));\n\n    System.out.println(\"All tests passed\");\n  }\n}\n",
+  "stop_tokens": [],
+  "results": [
+    {
+      "program": "import java.util.ArrayList;\nimport java.util.List;\n\nclass Problem {\n\n  /**\n   * Find all stepping numbers in the range [low, high] where a stepping number is defined as a number where each digit is either one more or one less than the adjacent digit.\n   *\n   * @param low The lower bound of the range.\n   * @param high The upper bound of the range.\n   * @return A list of stepping numbers within the range [low, high] sorted in ascending order.\n   *\n   * Example:\n   * findSteppingNumbers(0, 21)\n   * Output: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 12, 21]\n   */\n  public static List<Integer> findSteppingNumbers(int low, int high)  {\n\n    List<Integer> steppingNumbers = new ArrayList<>();\n\n    // loop through every possible number within the range.\n    for (int number = low; number <= high; number++) {\n\n      // assume the number is stepping at first.\n      boolean isSteppingNumber = true;\n\n      // convert the number to string.\n      String numberAsString = String.valueOf(number);\n\n      // loop through every character in the string.\n      for (int i = 0; i < numberAsString.length() - 1; i++) {\n\n        // convert the character to int.\n        int current = Integer.parseInt(String.valueOf(numberAsString.charAt(i)));\n\n        // convert the next character to int.\n        int next = Integer.parseInt(String.valueOf(numberAsString.charAt(i + 1)));\n\n        // if the difference between the current and the next number is not 1 or -1 then the number is not stepping.\n        if (Math.abs(current - next) != 1) {\n          isSteppingNumber = false;\n          break;\n        }\n      }\n\n      // if the number is stepping then add it to the list.\n      if (isSteppingNumber) {\n        steppingNumbers.add(number);\n      }\n    }\n    return steppingNumbers;\n  }\n  public static void main(String[] args) {\n    assert findSteppingNumbers(0, 21)\n      .equals(\n        new ArrayList<>(List.of(0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 12, 21))\n      );\n    assert findSteppingNumbers(10, 15).equals(new ArrayList<>(List.of(10, 12)));\n    assert findSteppingNumbers(50, 55).equals(List.of(54));\n\n    System.out.println(\"All tests passed\");\n  }\n}\n",
+      "timestamp": 1741530738,
+      "stdout": "All tests passed\n",
+      "stderr": "",
+      "exit_code": 0,
+      "status": "OK"
+    }
+  ]
+}

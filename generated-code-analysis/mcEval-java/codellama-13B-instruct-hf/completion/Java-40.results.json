@@ -1,0 +1,20 @@
+{
+  "name": "Java-40",
+  "language": "java",
+  "temperature": 0.8,
+  "top_p": 0.95,
+  "max_tokens": 1024,
+  "prompt": "class Problem {\n\n  /**\n   * Given a binary matrix mat of size m x n, return the length of the longest continuous line of 1s in the matrix.\n   * The line could be horizontal, vertical, diagonal, or anti-diagonal.\n   *\n   * @param mat The binary matrix.\n   * @return The length of the longest continuous line of 1s.\n   *\n   * Example:\n   * longestLine(new int[][]{{0,1,1,0},{0,1,1,0},{0,0,0,1}})\n   * Output: 3\n   */\n  public static int longestLine(int[][] mat) ",
+  "tests": "  public static void main(String[] args) {\n    assert longestLine(\n      new int[][] {\n        { 1, 1, 0, 0 },\n        { 0, 1, 1, 0 },\n        { 0, 0, 0, 1 },\n        { 1, 0, 0, 0 },\n      }\n    ) ==\n    3;\n    assert longestLine(\n      new int[][] {\n        { 1, 0, 0, 1 },\n        { 0, 1, 1, 0 },\n        { 1, 1, 0, 0 },\n        { 1, 0, 1, 1 },\n      }\n    ) ==\n    4;\n    assert longestLine(new int[][] { { 0, 0, 0 }, { 0, 1, 0 }, { 0, 0, 0 } }) ==\n    1;\n\n    System.out.println(\"All tests passed\");\n  }\n}",
+  "stop_tokens": [],
+  "results": [
+    {
+      "program": "class Problem {\n\n  /**\n   * Given a binary matrix mat of size m x n, return the length of the longest continuous line of 1s in the matrix.\n   * The line could be horizontal, vertical, diagonal, or anti-diagonal.\n   *\n   * @param mat The binary matrix.\n   * @return The length of the longest continuous line of 1s.\n   *\n   * Example:\n   * longestLine(new int[][]{{0,1,1,0},{0,1,1,0},{0,0,0,1}})\n   * Output: 3\n   */\n  public static int longestLine(int[][] mat)  {\n    int rows = mat.length, cols = mat[0].length;\n    int[][] dirs = new int[][]{{0,1},{1,0},{1,1},{1,-1}};\n    int max = 0;\n    for(int i=0; i<rows; i++)\n      for(int j=0; j<cols; j++)\n        for(int[] dir : dirs) {\n          int cnt = 0;\n          int x = i, y = j;\n          while(x >= 0 && x < rows && y >= 0 && y < cols && mat[x][y] == 1) {\n            cnt++;\n            x += dir[0];\n            y += dir[1];\n          }\n          if(cnt > max)\n            max = cnt;\n        }\n    return max;\n  }\n  public static void main(String[] args) {\n    assert longestLine(\n      new int[][] {\n        { 1, 1, 0, 0 },\n        { 0, 1, 1, 0 },\n        { 0, 0, 0, 1 },\n        { 1, 0, 0, 0 },\n      }\n    ) ==\n    3;\n    assert longestLine(\n      new int[][] {\n        { 1, 0, 0, 1 },\n        { 0, 1, 1, 0 },\n        { 1, 1, 0, 0 },\n        { 1, 0, 1, 1 },\n      }\n    ) ==\n    4;\n    assert longestLine(new int[][] { { 0, 0, 0 }, { 0, 1, 0 }, { 0, 0, 0 } }) ==\n    1;\n\n    System.out.println(\"All tests passed\");\n  }\n}",
+      "timestamp": 1741528530,
+      "stdout": "All tests passed\n",
+      "stderr": "",
+      "exit_code": 0,
+      "status": "OK"
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+/home/saima/projects/NonFunc-AWQ/mcEval-java/deepseekcoder-6.7B-instruct-hf/completion/java-files/Java-21-gen0.java:3:	NoPackage:	All classes, interfaces, enums and annotations must belong to a named package
+/home/saima/projects/NonFunc-AWQ/mcEval-java/deepseekcoder-6.7B-instruct-hf/completion/java-files/Java-21-gen0.java:3:	AtLeastOneConstructor:	Each class should declare at least one constructor
+/home/saima/projects/NonFunc-AWQ/mcEval-java/deepseekcoder-6.7B-instruct-hf/completion/java-files/Java-21-gen0.java:12:	MethodArgumentCouldBeFinal:	Parameter 'words' is not assigned and could be declared final
+/home/saima/projects/NonFunc-AWQ/mcEval-java/deepseekcoder-6.7B-instruct-hf/completion/java-files/Java-21-gen0.java:13:	LocalVariableCouldBeFinal:	Local variable 'morseCode' could be declared final
+/home/saima/projects/NonFunc-AWQ/mcEval-java/deepseekcoder-6.7B-instruct-hf/completion/java-files/Java-21-gen0.java:14:	LocalVariableCouldBeFinal:	Local variable 'transformations' could be declared final
+/home/saima/projects/NonFunc-AWQ/mcEval-java/deepseekcoder-6.7B-instruct-hf/completion/java-files/Java-21-gen0.java:16:	LocalVariableCouldBeFinal:	Local variable 'word' could be declared final
+/home/saima/projects/NonFunc-AWQ/mcEval-java/deepseekcoder-6.7B-instruct-hf/completion/java-files/Java-21-gen0.java:17:	LocalVariableCouldBeFinal:	Local variable 'transformation' could be declared final
+/home/saima/projects/NonFunc-AWQ/mcEval-java/deepseekcoder-6.7B-instruct-hf/completion/java-files/Java-21-gen0.java:18:	LocalVariableCouldBeFinal:	Local variable 'c' could be declared final
+/home/saima/projects/NonFunc-AWQ/mcEval-java/deepseekcoder-6.7B-instruct-hf/completion/java-files/Java-21-gen0.java:26:	LocalVariableCouldBeFinal:	Local variable 'solution' could be declared final

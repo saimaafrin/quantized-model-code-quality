@@ -1,0 +1,2 @@
+/home/saima/projects/NonFunc-AWQ/mcEval-java/codellama-34B-instruct-awq/completion/java-files/Java-16-gen0.java:27:	UnusedLocalVariable:	Avoid unused local variables such as 'n'.
+/home/saima/projects/NonFunc-AWQ/mcEval-java/codellama-34B-instruct-awq/completion/java-files/Java-16-gen0.java:49:	SystemPrintln:	Usage of System.out/err

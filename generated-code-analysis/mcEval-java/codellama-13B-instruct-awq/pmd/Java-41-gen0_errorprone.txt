@@ -1,0 +1,2 @@
+/home/saima/projects/NonFunc-AWQ/mcEval-java/codellama-13B-instruct-awq/completion/java-files/Java-41-gen0.java:36:	AssignmentInOperand:	Avoid assignments in operands
+/home/saima/projects/NonFunc-AWQ/mcEval-java/codellama-13B-instruct-awq/completion/java-files/Java-41-gen0.java:36:	AvoidLiteralsInIfCondition:	Avoid using literals in if statements

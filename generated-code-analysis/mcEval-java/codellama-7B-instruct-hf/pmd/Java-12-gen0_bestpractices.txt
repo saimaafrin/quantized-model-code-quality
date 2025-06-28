@@ -1,0 +1,9 @@
+/home/saima/projects/NonFunc-AWQ/mcEval-java/codellama-7B-instruct-hf/completion/java-files/Java-12-gen0.java:19:	UnusedAssignment:	The initializer for variable 'convertedDate' is never used (overwritten on line 25)
+/home/saima/projects/NonFunc-AWQ/mcEval-java/codellama-7B-instruct-hf/completion/java-files/Java-12-gen0.java:20:	UnusedAssignment:	The initializer for variable 'day' is never used (overwritten on line 28)
+/home/saima/projects/NonFunc-AWQ/mcEval-java/codellama-7B-instruct-hf/completion/java-files/Java-12-gen0.java:21:	UnusedAssignment:	The initializer for variable 'month' is never used (overwritten on line 29)
+/home/saima/projects/NonFunc-AWQ/mcEval-java/codellama-7B-instruct-hf/completion/java-files/Java-12-gen0.java:22:	UnusedAssignment:	The initializer for variable 'year' is never used (overwritten on line 30)
+/home/saima/projects/NonFunc-AWQ/mcEval-java/codellama-7B-instruct-hf/completion/java-files/Java-12-gen0.java:23:	UnusedAssignment:	The initializer for variable 'weekday' is never used (overwritten on line 31)
+/home/saima/projects/NonFunc-AWQ/mcEval-java/codellama-7B-instruct-hf/completion/java-files/Java-12-gen0.java:40:	LiteralsFirstInComparisons:	Position literals first in String comparisons
+/home/saima/projects/NonFunc-AWQ/mcEval-java/codellama-7B-instruct-hf/completion/java-files/Java-12-gen0.java:41:	LiteralsFirstInComparisons:	Position literals first in String comparisons
+/home/saima/projects/NonFunc-AWQ/mcEval-java/codellama-7B-instruct-hf/completion/java-files/Java-12-gen0.java:42:	LiteralsFirstInComparisons:	Position literals first in String comparisons
+/home/saima/projects/NonFunc-AWQ/mcEval-java/codellama-7B-instruct-hf/completion/java-files/Java-12-gen0.java:43:	SystemPrintln:	Usage of System.out/err

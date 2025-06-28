@@ -1,0 +1,20 @@
+{
+  "name": "Java-48",
+  "language": "java",
+  "temperature": 0.8,
+  "top_p": 0.95,
+  "max_tokens": 1024,
+  "prompt": "import java.lang.Math;\n\nclass Problem {\n\n  /**\n   * Find and return the nth ugly number.\n   *\n   * @param n The index of the ugly number to find.\n   * @return The nth ugly number.\n   *\n   * Example:\n   * findNthUglyNumber(10)\n   * Output: 12\n   */\n  public static int findNthUglyNumber(int n) ",
+  "tests": "  public static void main(String[] args) {\n    assert findNthUglyNumber(1) == 1 : \"Test case 1 failed\";\n    assert findNthUglyNumber(7) == 8 : \"Test case 2 failed\";\n    assert findNthUglyNumber(15) == 24 : \"Test case 3 failed\";\n\n    System.out.println(\"All tests passed\");\n  }\n}\n",
+  "stop_tokens": [],
+  "results": [
+    {
+      "program": "import java.lang.Math;\n\nclass Problem {\n\n  /**\n   * Find and return the nth ugly number.\n   *\n   * @param n The index of the ugly number to find.\n   * @return The nth ugly number.\n   *\n   * Example:\n   * findNthUglyNumber(10)\n   * Output: 12\n   */\n  public static int findNthUglyNumber(int n)  {\n    // Initialize variables\n    int[] ugly = new int[n];\n    int currentIndex = 0;\n\n    // Find the first ugly number\n    int number = 1;\n    ugly[currentIndex] = number;\n    currentIndex++;\n\n    // Find the remaining ugly numbers\n    while (currentIndex < n) {\n      number = ugly[0] * 2;\n      for (int i = 1; i < currentIndex; i++) {\n        int nextNumber = ugly[i] * 2;\n        if (nextNumber < number) {\n          number = nextNumber;\n        }\n      }\n      ugly[currentIndex] = number;\n      currentIndex++;\n    }\n\n    return ugly[n - 1];\n  }\n  public static void main(String[] args) {\n    assert findNthUglyNumber(1) == 1 : \"Test case 1 failed\";\n    assert findNthUglyNumber(7) == 8 : \"Test case 2 failed\";\n    assert findNthUglyNumber(15) == 24 : \"Test case 3 failed\";\n\n    System.out.println(\"All tests passed\");\n  }\n}\n",
+      "timestamp": 1741608277,
+      "stdout": "",
+      "stderr": "Exception in thread \"main\" java.lang.AssertionError: Test case 2 failed\n\tat Problem.main(tmpyf1nc5lw.java:42)\n",
+      "exit_code": 1,
+      "status": "Exception"
+    }
+  ]
+}

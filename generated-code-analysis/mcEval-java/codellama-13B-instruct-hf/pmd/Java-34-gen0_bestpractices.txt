@@ -1,0 +1,5 @@
+/home/saima/projects/NonFunc-AWQ/mcEval-java/codellama-13B-instruct-hf/completion/java-files/Java-34-gen0.java:34:	UnusedLocalVariable:	Avoid unused local variables such as 'previousProbability'.
+/home/saima/projects/NonFunc-AWQ/mcEval-java/codellama-13B-instruct-hf/completion/java-files/Java-34-gen0.java:34:	UnusedAssignment:	The initializer for variable 'previousProbability' is never used (overwritten on line 40)
+/home/saima/projects/NonFunc-AWQ/mcEval-java/codellama-13B-instruct-hf/completion/java-files/Java-34-gen0.java:35:	UnusedAssignment:	The initializer for variable 'currentProbability' is never used (overwritten on line 38)
+/home/saima/projects/NonFunc-AWQ/mcEval-java/codellama-13B-instruct-hf/completion/java-files/Java-34-gen0.java:40:	UnusedAssignment:	The value assigned to variable 'previousProbability' is never used (reassigned every iteration)
+/home/saima/projects/NonFunc-AWQ/mcEval-java/codellama-13B-instruct-hf/completion/java-files/Java-34-gen0.java:49:	SystemPrintln:	Usage of System.out/err

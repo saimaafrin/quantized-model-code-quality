@@ -1,0 +1,3 @@
+/home/saima/projects/NonFunc-AWQ/mcEval-java/codellama-13B-instruct-hf/completion/java-files/Java-18-gen0.java:16:	CognitiveComplexity:	The method 'sortString(String)' has a cognitive complexity of 16, current threshold is 15
+/home/saima/projects/NonFunc-AWQ/mcEval-java/codellama-13B-instruct-hf/completion/java-files/Java-18-gen0.java:16:	CyclomaticComplexity:	The method 'sortString(String)' has a cyclomatic complexity of 10.
+LoosePackageCoupling	-	No packages or classes specified

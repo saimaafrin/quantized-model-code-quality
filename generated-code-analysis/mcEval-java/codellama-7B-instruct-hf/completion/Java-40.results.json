@@ -1,0 +1,20 @@
+{
+  "name": "Java-40",
+  "language": "java",
+  "temperature": 0.8,
+  "top_p": 0.95,
+  "max_tokens": 1024,
+  "prompt": "class Problem {\n\n  /**\n   * Given a binary matrix mat of size m x n, return the length of the longest continuous line of 1s in the matrix.\n   * The line could be horizontal, vertical, diagonal, or anti-diagonal.\n   *\n   * @param mat The binary matrix.\n   * @return The length of the longest continuous line of 1s.\n   *\n   * Example:\n   * longestLine(new int[][]{{0,1,1,0},{0,1,1,0},{0,0,0,1}})\n   * Output: 3\n   */\n  public static int longestLine(int[][] mat) ",
+  "tests": "  public static void main(String[] args) {\n    assert longestLine(\n      new int[][] {\n        { 1, 1, 0, 0 },\n        { 0, 1, 1, 0 },\n        { 0, 0, 0, 1 },\n        { 1, 0, 0, 0 },\n      }\n    ) ==\n    3;\n    assert longestLine(\n      new int[][] {\n        { 1, 0, 0, 1 },\n        { 0, 1, 1, 0 },\n        { 1, 1, 0, 0 },\n        { 1, 0, 1, 1 },\n      }\n    ) ==\n    4;\n    assert longestLine(new int[][] { { 0, 0, 0 }, { 0, 1, 0 }, { 0, 0, 0 } }) ==\n    1;\n\n    System.out.println(\"All tests passed\");\n  }\n}",
+  "stop_tokens": [],
+  "results": [
+    {
+      "program": "class Problem {\n\n  /**\n   * Given a binary matrix mat of size m x n, return the length of the longest continuous line of 1s in the matrix.\n   * The line could be horizontal, vertical, diagonal, or anti-diagonal.\n   *\n   * @param mat The binary matrix.\n   * @return The length of the longest continuous line of 1s.\n   *\n   * Example:\n   * longestLine(new int[][]{{0,1,1,0},{0,1,1,0},{0,0,0,1}})\n   * Output: 3\n   */\n  public static int longestLine(int[][] mat)  {\n    if (mat == null || mat.length == 0) return 0;\n    int rows = mat.length;\n    int cols = mat[0].length;\n    int[][] dp = new int[rows][cols];\n\n    // DP table initialization\n    for (int i = 0; i < rows; i++) {\n      dp[i][0] = mat[i][0];\n    }\n    for (int j = 0; j < cols; j++) {\n      dp[0][j] = mat[0][j];\n    }\n\n    // Fill the DP table\n    for (int i = 1; i < rows; i++) {\n      for (int j = 1; j < cols; j++) {\n        if (mat[i][j] == 1) {\n          dp[i][j] = Math.min(Math.min(dp[i - 1][j], dp[i][j - 1]), dp[i - 1][j - 1]) + 1;\n        }\n      }\n    }\n\n    // Find the maximum value in the DP table\n    int maxLen = 0;\n    for (int i = 0; i < rows; i++) {\n      for (int j = 0; j < cols; j++) {\n        maxLen = Math.max(maxLen, dp[i][j]);\n      }\n    }\n\n    return maxLen;\n  }\n  public static void main(String[] args) {\n    assert longestLine(\n      new int[][] {\n        { 1, 1, 0, 0 },\n        { 0, 1, 1, 0 },\n        { 0, 0, 0, 1 },\n        { 1, 0, 0, 0 },\n      }\n    ) ==\n    3;\n    assert longestLine(\n      new int[][] {\n        { 1, 0, 0, 1 },\n        { 0, 1, 1, 0 },\n        { 1, 1, 0, 0 },\n        { 1, 0, 1, 1 },\n      }\n    ) ==\n    4;\n    assert longestLine(new int[][] { { 0, 0, 0 }, { 0, 1, 0 }, { 0, 0, 0 } }) ==\n    1;\n\n    System.out.println(\"All tests passed\");\n  }\n}",
+      "timestamp": 1741527487,
+      "stdout": "",
+      "stderr": "Exception in thread \"main\" java.lang.AssertionError\n\tat Problem.main(tmpkb38bhra.java:48)\n",
+      "exit_code": 1,
+      "status": "Exception"
+    }
+  ]
+}

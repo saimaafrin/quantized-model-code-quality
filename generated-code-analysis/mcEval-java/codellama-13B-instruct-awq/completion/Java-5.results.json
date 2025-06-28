@@ -1,0 +1,20 @@
+{
+  "name": "Java-5",
+  "language": "java",
+  "temperature": 0.8,
+  "top_p": 0.95,
+  "max_tokens": 1024,
+  "prompt": "import java.util.*;\n\nclass Problem {\n    /**\n     * Given a number of case-sensitive strings, finds the largest string X, such that either X, or its inverse can be found as a substring of any of the given strings.\n     * \n     * Example:\n     * >>> findLargestSubstring(Arrays.asList(\"ABCD\", \"BCDFF\", \"BRCD\"))\n     * 2\n     * >>> findLargestSubstring(Arrays.asList(\"rose\", \"orchid\"))\n     * 2\n     */\n    public int findLargestSubstring(List<String> strings) ",
+  "tests": "    public static void main(String[] args) {\n        Problem solution = new Problem();\n\n        // Test the function with different test cases\n        assert solution.findLargestSubstring(Arrays.asList(\"ABCD\", \"BCDFF\", \"BRCD\")) == 2;\n        assert solution.findLargestSubstring(Arrays.asList(\"rose\", \"orchid\")) == 2;\n        assert solution.findLargestSubstring(Arrays.asList(\"hello\", \"world\")) == 1;\n        System.out.println(\"All tests passed\");\n    }\n}",
+  "stop_tokens": [],
+  "results": [
+    {
+      "program": "import java.util.*;\n\nclass Problem {\n    /**\n     * Given a number of case-sensitive strings, finds the largest string X, such that either X, or its inverse can be found as a substring of any of the given strings.\n     * \n     * Example:\n     * >>> findLargestSubstring(Arrays.asList(\"ABCD\", \"BCDFF\", \"BRCD\"))\n     * 2\n     * >>> findLargestSubstring(Arrays.asList(\"rose\", \"orchid\"))\n     * 2\n     */\n    public int findLargestSubstring(List<String> strings)  {\n        int length = strings.get(0).length();\n        for (String s : strings) {\n            length = Math.max(length, s.length());\n        }\n        String candidate = \"\";\n        int current = 0;\n        for (int i = 0; i < length; i++) {\n            candidate = \"\";\n            for (String s : strings) {\n                String sub = s.substring(i, i+1);\n                if (!sub.equals(candidate)) {\n                    candidate = \"\";\n                    break;\n                }\n                candidate += sub;\n            }\n            if (!candidate.isEmpty()) {\n                if (candidate.length() > current) {\n                    current = candidate.length();\n                }\n            }\n        }\n        return current;\n    }\n    public static void main(String[] args) {\n        Problem solution = new Problem();\n\n        // Test the function with different test cases\n        assert solution.findLargestSubstring(Arrays.asList(\"ABCD\", \"BCDFF\", \"BRCD\")) == 2;\n        assert solution.findLargestSubstring(Arrays.asList(\"rose\", \"orchid\")) == 2;\n        assert solution.findLargestSubstring(Arrays.asList(\"hello\", \"world\")) == 1;\n        System.out.println(\"All tests passed\");\n    }\n}",
+      "timestamp": 1741608261,
+      "stdout": "",
+      "stderr": "Exception in thread \"main\" java.lang.StringIndexOutOfBoundsException: begin 4, end 5, length 4\n\tat java.base/java.lang.String.checkBoundsBeginEnd(String.java:3319)\n\tat java.base/java.lang.String.substring(String.java:1874)\n\tat Problem.findLargestSubstring(tmpfl1widae.java:23)\n\tat Problem.main(tmpfl1widae.java:42)\n",
+      "exit_code": 1,
+      "status": "Exception"
+    }
+  ]
+}

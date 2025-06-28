@@ -1,0 +1,20 @@
+{
+  "name": "Java-45",
+  "language": "java",
+  "temperature": 0.8,
+  "top_p": 0.95,
+  "max_tokens": 1024,
+  "prompt": "class Problem {\n\n  /**\n   * Find the smallest integer that can be formed by rearranging the digits of the given positive integer n, which is greater than n.\n   *\n   * @param n The input positive integer.\n   * @return The smallest rearranged integer greater than n, or -1 if not possible.\n   *\n   * Example:\n   * findSmallestInteger(12)\n   * Output: 21\n   */\n  public static int findSmallestInteger(int n) ",
+  "tests": "  public static void main(String[] args) {\n    assert findSmallestInteger(123) == 132;\n    assert findSmallestInteger(531) == -1;\n    assert findSmallestInteger(2071) == 2107;\n\n    System.out.println(\"All tests passed\");\n  }\n}",
+  "stop_tokens": [],
+  "results": [
+    {
+      "program": "class Problem {\n\n  /**\n   * Find the smallest integer that can be formed by rearranging the digits of the given positive integer n, which is greater than n.\n   *\n   * @param n The input positive integer.\n   * @return The smallest rearranged integer greater than n, or -1 if not possible.\n   *\n   * Example:\n   * findSmallestInteger(12)\n   * Output: 21\n   */\n  public static int findSmallestInteger(int n)  {\n\n    // Find the number of digits in the input number\n    int numberOfDigits = 0;\n    while (n > 0) {\n      n /= 10;\n      numberOfDigits++;\n    }\n\n    // Initialize the smallest number\n    int smallestNumber = -1;\n\n    // Start with the input number\n    int number = n;\n\n    // Iterate through each digit in the input number\n    for (int i = 0; i < numberOfDigits; i++) {\n\n      // Find the last digit in the current number\n      int lastDigit = number % 10;\n\n      // Remove the last digit from the current number\n      number = number / 10;\n\n      // Add the last digit to the end of the number\n      number = number * 10 + lastDigit;\n\n      // Check if the current number is greater than the smallest number\n      if (number > smallestNumber) {\n\n        // Update the smallest number\n        smallestNumber = number;\n      }\n    }\n\n    // Return the smallest number\n    return smallestNumber;\n  }\n  public static void main(String[] args) {\n    assert findSmallestInteger(123) == 132;\n    assert findSmallestInteger(531) == -1;\n    assert findSmallestInteger(2071) == 2107;\n\n    System.out.println(\"All tests passed\");\n  }\n}",
+      "timestamp": 1741573269,
+      "stdout": "",
+      "stderr": "Exception in thread \"main\" java.lang.AssertionError\n\tat Problem.main(tmp2_d9_pjq.java:52)\n",
+      "exit_code": 1,
+      "status": "Exception"
+    }
+  ]
+}

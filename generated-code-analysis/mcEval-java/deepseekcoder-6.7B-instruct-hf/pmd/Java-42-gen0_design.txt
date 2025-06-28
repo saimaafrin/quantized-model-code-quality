@@ -1,0 +1,5 @@
+/home/saima/projects/NonFunc-AWQ/mcEval-java/deepseekcoder-6.7B-instruct-hf/completion/java-files/Java-42-gen0.java:4:	UseUtilityClass:	This utility class has a non-private constructor
+/home/saima/projects/NonFunc-AWQ/mcEval-java/deepseekcoder-6.7B-instruct-hf/completion/java-files/Java-42-gen0.java:21:	CognitiveComplexity:	The method 'squarePermutations(int[])' has a cognitive complexity of 38, current threshold is 15
+/home/saima/projects/NonFunc-AWQ/mcEval-java/deepseekcoder-6.7B-instruct-hf/completion/java-files/Java-42-gen0.java:21:	CyclomaticComplexity:	The method 'squarePermutations(int[])' has a cyclomatic complexity of 16.
+/home/saima/projects/NonFunc-AWQ/mcEval-java/deepseekcoder-6.7B-instruct-hf/completion/java-files/Java-42-gen0.java:21:	NPathComplexity:	The method 'squarePermutations(int[])' has an NPath complexity of 606, current threshold is 200
+LoosePackageCoupling	-	No packages or classes specified

@@ -1,0 +1,72 @@
+{
+    "Total code count": {
+        "files": 53
+    },
+    "Total Rule Violations": {
+        "bestpractices": 114,
+        "codestyle": 384,
+        "design": 53,
+        "documentation": 238,
+        "errorprone": 7,
+        "multithreading": 4,
+        "performance": 8,
+        "security": 0
+    },
+    "Error Code Counts": {
+        "bestpractices": {
+            "UseVarargs": 19,
+            "SystemPrintln": 53,
+            "OneDeclarationPerLine": 4,
+            "AvoidReassigningParameters": 5,
+            "LiteralsFirstInComparisons": 23,
+            "DoubleBraceInitialization": 3,
+            "LooseCoupling": 3,
+            "ForLoopCanBeForeach": 1,
+            "UnusedPrivateField": 2,
+            "UnusedLocalVariable": 1
+        },
+        "codestyle": {
+            "NoPackage": 53,
+            "AtLeastOneConstructor": 23,
+            "MethodArgumentCouldBeFinal": 60,
+            "LocalVariableCouldBeFinal": 126,
+            "UnnecessaryImport": 11,
+            "ShortVariable": 61,
+            "CommentDefaultAccessModifier": 2,
+            "ControlStatementBraces": 4,
+            "UseUnderscoresInNumericLiterals": 12,
+            "OnlyOneReturn": 15,
+            "LinguisticNaming": 2,
+            "UselessParentheses": 4,
+            "FormalParameterNamingConventions": 5,
+            "LocalVariableNamingConventions": 4,
+            "FieldNamingConventions": 2
+        },
+        "design": {
+            "UseUtilityClass": 30,
+            "CyclomaticComplexity": 3,
+            "SimplifyBooleanExpressions": 16,
+            "CognitiveComplexity": 3,
+            "NPathComplexity": 1
+        },
+        "documentation": {
+            "CommentRequired": 111,
+            "CommentSize": 127
+        },
+        "errorprone": {
+            "AvoidLiteralsInIfCondition": 4,
+            "EmptyCatchBlock": 1,
+            "AvoidDuplicateLiterals": 1,
+            "SimpleDateFormatNeedsLocale": 1
+        },
+        "multithreading": {
+            "UseConcurrentHashMap": 4
+        },
+        "performance": {
+            "AvoidInstantiatingObjectsInLoops": 5,
+            "UseStringBufferForStringAppends": 1,
+            "AddEmptyString": 2
+        },
+        "security": {}
+    }
+}

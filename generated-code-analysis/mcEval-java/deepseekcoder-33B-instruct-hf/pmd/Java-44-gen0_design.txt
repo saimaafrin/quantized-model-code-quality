@@ -1,0 +1,4 @@
+/home/saima/projects/NonFunc-AWQ/mcEval-java/deepseekcoder-33B-instruct-hf/completion/java-files/Java-44-gen0.java:3:	UseUtilityClass:	This utility class has a non-private constructor
+/home/saima/projects/NonFunc-AWQ/mcEval-java/deepseekcoder-33B-instruct-hf/completion/java-files/Java-44-gen0.java:15:	CognitiveComplexity:	The method 'diagonalOrder(int[][])' has a cognitive complexity of 19, current threshold is 15
+/home/saima/projects/NonFunc-AWQ/mcEval-java/deepseekcoder-33B-instruct-hf/completion/java-files/Java-44-gen0.java:15:	CyclomaticComplexity:	The method 'diagonalOrder(int[][])' has a cyclomatic complexity of 11.
+LoosePackageCoupling	-	No packages or classes specified

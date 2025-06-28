@@ -1,0 +1,2 @@
+/home/saima/projects/NonFunc-AWQ/mcEval-java/codellama-13B-instruct-awq/completion/java-files/Java-5-gen0.java:31:	CollapsibleIfStatements:	This if statement could be combined with its parent
+LoosePackageCoupling	-	No packages or classes specified

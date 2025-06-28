@@ -1,0 +1,2 @@
+/home/saima/projects/NonFunc-AWQ/mcEval-java/deepseekcoder-1.3B-instruct-hf/completion/java-files/Java-24-gen0.java:19:	AvoidLiteralsInIfCondition:	Avoid using literals in if statements
+/home/saima/projects/NonFunc-AWQ/mcEval-java/deepseekcoder-1.3B-instruct-hf/completion/java-files/Java-24-gen0.java:20:	AvoidLiteralsInIfCondition:	Avoid using literals in if statements

@@ -1,0 +1,1 @@
+/home/saima/projects/NonFunc-AWQ/mcEval-java/codellama-7B-instruct-hf/completion/java-files/Java-33-gen0.java:16:	UseStringBufferForStringAppends:	Prefer StringBuilder (non-synchronized) or StringBuffer (synchronized) over += for concatenating strings

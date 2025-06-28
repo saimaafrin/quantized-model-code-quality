@@ -1,0 +1,2 @@
+/home/saima/projects/NonFunc-AWQ/mcEval-java/codellama-7B-instruct-hf/completion/java-files/Java-41-gen0.java:1:	UseUtilityClass:	This utility class has a non-private constructor
+LoosePackageCoupling	-	No packages or classes specified

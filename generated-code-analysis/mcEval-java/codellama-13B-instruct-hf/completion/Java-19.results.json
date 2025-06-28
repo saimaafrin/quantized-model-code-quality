@@ -1,0 +1,20 @@
+{
+  "name": "Java-19",
+  "language": "java",
+  "temperature": 0.8,
+  "top_p": 0.95,
+  "max_tokens": 1024,
+  "prompt": "import java.util.*;\n\nclass Problem {\n    /**\n     * Check if it is possible to split the given integer array into two non-empty arrays\n     * with the same average.\n     *\n     * >>> splitArraySameAverage(new int[]{1,2,3,4,5,6,7,8})\n     * true\n     *\n     * >>> splitArraySameAverage(new int[]{3,1})\n     * false\n     */\n    public boolean splitArraySameAverage(int[] nums) ",
+  "tests": "public static void main(String[] args) {\n        Problem solution = new Problem();\n\n        // Test the function with different test cases\n        assert solution.splitArraySameAverage(new int[]{1, 2, 3, 4, 5, 6, 7, 8}) == true;\n        assert solution.splitArraySameAverage(new int[]{1, 2, 3, 4, 5, 6, 7, 9}) == false;\n        assert solution.splitArraySameAverage(new int[]{1, 2, 3, 4, 5, 6, 7, 10}) == true;\n        assert solution.splitArraySameAverage(new int[]{1, 2, 3, 4, 5, 6, 7, 8, 9, 10}) == true;\n        System.out.println(\"All tests passed\");\n    }\n}",
+  "stop_tokens": [],
+  "results": [
+    {
+      "program": "import java.util.*;\n\nclass Problem {\n    /**\n     * Check if it is possible to split the given integer array into two non-empty arrays\n     * with the same average.\n     *\n     * >>> splitArraySameAverage(new int[]{1,2,3,4,5,6,7,8})\n     * true\n     *\n     * >>> splitArraySameAverage(new int[]{3,1})\n     * false\n     */\n    public boolean splitArraySameAverage(int[] nums)  {\n        int sum = 0;\n        for (int num : nums) {\n            sum += num;\n        }\n\n        int average = sum / nums.length;\n        int rest = sum % nums.length;\n\n        int sum1 = 0;\n        for (int i = 0; i < nums.length - rest; i++) {\n            sum1 += nums[i];\n            if (sum1 == average * rest) {\n                return true;\n            }\n        }\n\n        int sum2 = 0;\n        for (int i = nums.length - rest; i < nums.length; i++) {\n            sum2 += nums[i];\n            if (sum2 == average * (rest + 1)) {\n                return true;\n            }\n        }\n\n        return false;\n    }\npublic static void main(String[] args) {\n        Problem solution = new Problem();\n\n        // Test the function with different test cases\n        assert solution.splitArraySameAverage(new int[]{1, 2, 3, 4, 5, 6, 7, 8}) == true;\n        assert solution.splitArraySameAverage(new int[]{1, 2, 3, 4, 5, 6, 7, 9}) == false;\n        assert solution.splitArraySameAverage(new int[]{1, 2, 3, 4, 5, 6, 7, 10}) == true;\n        assert solution.splitArraySameAverage(new int[]{1, 2, 3, 4, 5, 6, 7, 8, 9, 10}) == true;\n        System.out.println(\"All tests passed\");\n    }\n}",
+      "timestamp": 1741528527,
+      "stdout": "",
+      "stderr": "Exception in thread \"main\" java.lang.AssertionError\n\tat Problem.main(tmp5e5h_z0p.java:45)\n",
+      "exit_code": 1,
+      "status": "Exception"
+    }
+  ]
+}

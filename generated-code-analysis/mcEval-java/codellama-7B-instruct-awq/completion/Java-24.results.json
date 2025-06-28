@@ -1,0 +1,20 @@
+{
+  "name": "Java-24",
+  "language": "java",
+  "temperature": 0.8,
+  "top_p": 0.95,
+  "max_tokens": 1024,
+  "prompt": "class Problem {\n    /**\n    * Given a string s composed of '(' and ')', the left and right brackets in s may be unbalanced. Each operation can insert a '(' or ')', and calculate the minimum number of insertion operations required. Make the left and right brackets in s balanced.\n    *\n    * Example 1:\n    * Input: s = \"(()))\"\n    * Output: 1\n    * Explanation:  We need to add one '(' at the first of the string to make it balanced: \"((()))\".\n    * Example 2:\n    * Input: s = \"((()))\"\n    * Output: 0\n    *\n    * - s consists of '(' and ')' only.\n    */\n public int minInsertions(String s) ",
+  "tests": "    public static void main(String[] args) {\n        Problem solution = new Problem();\n\n        // Test the function with different test cases\n        assert solution.minInsertions(\"((()))\") == 0;\n        assert solution.minInsertions(\"()()()\") == 0;\n        assert solution.minInsertions(\"(()))(()\") == 2;\n        assert solution.minInsertions(\"))())(((\") == 6;\n        System.out.println(\"All tests passed\");\n    }\n}",
+  "stop_tokens": [],
+  "results": [
+    {
+      "program": "class Problem {\n    /**\n    * Given a string s composed of '(' and ')', the left and right brackets in s may be unbalanced. Each operation can insert a '(' or ')', and calculate the minimum number of insertion operations required. Make the left and right brackets in s balanced.\n    *\n    * Example 1:\n    * Input: s = \"(()))\"\n    * Output: 1\n    * Explanation:  We need to add one '(' at the first of the string to make it balanced: \"((()))\".\n    * Example 2:\n    * Input: s = \"((()))\"\n    * Output: 0\n    *\n    * - s consists of '(' and ')' only.\n    */\n public int minInsertions(String s)  {\n        int count = 0;\n        Stack<Character> stack = new Stack<>();\n        for (char c : s.toCharArray()) {\n            if (c == '(') {\n                stack.push(c);\n            } else {\n                if (stack.isEmpty()) {\n                    count++;\n                } else {\n                    stack.pop();\n                }\n            }\n        }\n        while (!stack.isEmpty()) {\n            stack.pop();\n            count++;\n        }\n        return count;\n    }\n    public static void main(String[] args) {\n        Problem solution = new Problem();\n\n        // Test the function with different test cases\n        assert solution.minInsertions(\"((()))\") == 0;\n        assert solution.minInsertions(\"()()()\") == 0;\n        assert solution.minInsertions(\"(()))(()\") == 2;\n        assert solution.minInsertions(\"))())(((\") == 6;\n        System.out.println(\"All tests passed\");\n    }\n}",
+      "timestamp": 1741573278,
+      "stdout": "",
+      "stderr": "/tmp/tmpmpc5x7kq.java:17: error: cannot find symbol\n        Stack<Character> stack = new Stack<>();\n        ^\n  symbol:   class Stack\n  location: class Problem\n/tmp/tmpmpc5x7kq.java:17: error: cannot find symbol\n        Stack<Character> stack = new Stack<>();\n                                     ^\n  symbol:   class Stack\n  location: class Problem\n2 errors\n",
+      "exit_code": 1,
+      "status": "SyntaxError"
+    }
+  ]
+}

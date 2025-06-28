@@ -1,0 +1,3 @@
+/home/saima/projects/NonFunc-AWQ/mcEval-java/deepseekcoder-1.3B-instruct-awq/completion/java-files/Java-14-gen0.java:15:	CognitiveComplexity:	The method 'search(int[], int)' has a cognitive complexity of 18, current threshold is 15
+/home/saima/projects/NonFunc-AWQ/mcEval-java/deepseekcoder-1.3B-instruct-awq/completion/java-files/Java-14-gen0.java:15:	CyclomaticComplexity:	The method 'search(int[], int)' has a cyclomatic complexity of 10.
+LoosePackageCoupling	-	No packages or classes specified

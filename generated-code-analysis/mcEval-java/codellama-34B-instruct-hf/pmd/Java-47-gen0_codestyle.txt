@@ -1,0 +1,16 @@
+/home/saima/projects/NonFunc-AWQ/mcEval-java/codellama-34B-instruct-hf/completion/java-files/Java-47-gen0.java:1:	NoPackage:	All classes, interfaces, enums and annotations must belong to a named package
+/home/saima/projects/NonFunc-AWQ/mcEval-java/codellama-34B-instruct-hf/completion/java-files/Java-47-gen0.java:13:	MethodArgumentCouldBeFinal:	Parameter 'points' is not assigned and could be declared final
+/home/saima/projects/NonFunc-AWQ/mcEval-java/codellama-34B-instruct-hf/completion/java-files/Java-47-gen0.java:15:	ShortVariable:	Avoid variables with short names like x1
+/home/saima/projects/NonFunc-AWQ/mcEval-java/codellama-34B-instruct-hf/completion/java-files/Java-47-gen0.java:15:	LocalVariableCouldBeFinal:	Local variable 'x1' could be declared final
+/home/saima/projects/NonFunc-AWQ/mcEval-java/codellama-34B-instruct-hf/completion/java-files/Java-47-gen0.java:16:	ShortVariable:	Avoid variables with short names like y1
+/home/saima/projects/NonFunc-AWQ/mcEval-java/codellama-34B-instruct-hf/completion/java-files/Java-47-gen0.java:16:	LocalVariableCouldBeFinal:	Local variable 'y1' could be declared final
+/home/saima/projects/NonFunc-AWQ/mcEval-java/codellama-34B-instruct-hf/completion/java-files/Java-47-gen0.java:17:	ShortVariable:	Avoid variables with short names like x2
+/home/saima/projects/NonFunc-AWQ/mcEval-java/codellama-34B-instruct-hf/completion/java-files/Java-47-gen0.java:17:	LocalVariableCouldBeFinal:	Local variable 'x2' could be declared final
+/home/saima/projects/NonFunc-AWQ/mcEval-java/codellama-34B-instruct-hf/completion/java-files/Java-47-gen0.java:18:	ShortVariable:	Avoid variables with short names like y2
+/home/saima/projects/NonFunc-AWQ/mcEval-java/codellama-34B-instruct-hf/completion/java-files/Java-47-gen0.java:18:	LocalVariableCouldBeFinal:	Local variable 'y2' could be declared final
+/home/saima/projects/NonFunc-AWQ/mcEval-java/codellama-34B-instruct-hf/completion/java-files/Java-47-gen0.java:19:	ShortVariable:	Avoid variables with short names like x3
+/home/saima/projects/NonFunc-AWQ/mcEval-java/codellama-34B-instruct-hf/completion/java-files/Java-47-gen0.java:19:	LocalVariableCouldBeFinal:	Local variable 'x3' could be declared final
+/home/saima/projects/NonFunc-AWQ/mcEval-java/codellama-34B-instruct-hf/completion/java-files/Java-47-gen0.java:20:	ShortVariable:	Avoid variables with short names like y3
+/home/saima/projects/NonFunc-AWQ/mcEval-java/codellama-34B-instruct-hf/completion/java-files/Java-47-gen0.java:20:	LocalVariableCouldBeFinal:	Local variable 'y3' could be declared final
+/home/saima/projects/NonFunc-AWQ/mcEval-java/codellama-34B-instruct-hf/completion/java-files/Java-47-gen0.java:22:	LocalVariableCouldBeFinal:	Local variable 'isNotStraight' could be declared final
+/home/saima/projects/NonFunc-AWQ/mcEval-java/codellama-34B-instruct-hf/completion/java-files/Java-47-gen0.java:23:	LocalVariableCouldBeFinal:	Local variable 'isNotAllSamePoint' could be declared final

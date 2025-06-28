@@ -1,0 +1,1 @@
+/home/saima/projects/NonFunc-AWQ/mcEval-java/codellama-13B-instruct-hf/completion/java-files/Java-53-gen0.java:26:	AppendCharacterWithChar:	Avoid appending characters as strings in StringBuffer.append.

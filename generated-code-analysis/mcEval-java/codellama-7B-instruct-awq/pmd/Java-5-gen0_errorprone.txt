@@ -1,0 +1,2 @@
+/home/saima/projects/NonFunc-AWQ/mcEval-java/codellama-7B-instruct-awq/completion/java-files/Java-5-gen0.java:26:	CompareObjectsWithEquals:	Use equals() to compare object references.
+/home/saima/projects/NonFunc-AWQ/mcEval-java/codellama-7B-instruct-awq/completion/java-files/Java-5-gen0.java:26:	UseEqualsToCompareStrings:	Use equals() to compare strings instead of '==' or '!='

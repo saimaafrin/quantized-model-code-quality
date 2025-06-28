@@ -1,0 +1,20 @@
+{
+  "name": "Java-33",
+  "language": "java",
+  "temperature": 0.8,
+  "top_p": 0.95,
+  "max_tokens": 1024,
+  "prompt": "import java.util.*;\n\nclass Problem {\n    /**\n     * Return the lexicographically smallest string of length n and value k.\n     * The value of a string is the sum of the positions of its characters in the alphabet (starting from 1).\n     * Example:\n     * >>> getSmallestString(3, 27)\n     * \"aay\"\n     * >>> getSmallestString(5, 73)\n     * \"aaszz\"\n     */\n    public String getSmallestString(int n, int k) ",
+  "tests": "\n    public static void main(String[] args) {\n        Problem solution = new Problem();\n\n        // Test the function with different test cases\n        assert solution.getSmallestString(3, 27).equals(\"aay\");\n        assert solution.getSmallestString(5, 73).equals(\"aaszz\");\n        assert solution.getSmallestString(3, 30).equals(\"acz\");\n        System.out.println(\"All tests passed\");\n    }\n}",
+  "stop_tokens": [],
+  "results": [
+    {
+      "program": "import java.util.*;\n\nclass Problem {\n    /**\n     * Return the lexicographically smallest string of length n and value k.\n     * The value of a string is the sum of the positions of its characters in the alphabet (starting from 1).\n     * Example:\n     * >>> getSmallestString(3, 27)\n     * \"aay\"\n     * >>> getSmallestString(5, 73)\n     * \"aaszz\"\n     */\n    public String getSmallestString(int n, int k)  {\n        StringBuilder answer = new StringBuilder();\n        int minValue = 1;\n        while (n-- > 0) {\n            int nextCharValue = min(k, 26);\n            k -= nextCharValue;\n            char nextChar = (char) (minValue + nextCharValue - 1);\n            answer.append(nextChar);\n            minValue = nextCharValue + 1;\n        }\n        return answer.toString();\n    }\n\n    public static void main(String[] args) {\n        Problem solution = new Problem();\n\n        // Test the function with different test cases\n        assert solution.getSmallestString(3, 27).equals(\"aay\");\n        assert solution.getSmallestString(5, 73).equals(\"aaszz\");\n        assert solution.getSmallestString(3, 30).equals(\"acz\");\n        System.out.println(\"All tests passed\");\n    }\n}",
+      "timestamp": 1741530732,
+      "stdout": "",
+      "stderr": "/tmp/tmpeotda7va.java:17: error: cannot find symbol\n            int nextCharValue = min(k, 26);\n                                ^\n  symbol:   method min(int,int)\n  location: class Problem\n1 error\n",
+      "exit_code": 1,
+      "status": "SyntaxError"
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "name": "Java-24",
+  "language": "java",
+  "temperature": 0.8,
+  "top_p": 0.95,
+  "max_tokens": 1024,
+  "prompt": "class Problem {\n    /**\n    * Given a string s composed of '(' and ')', the left and right brackets in s may be unbalanced. Each operation can insert a '(' or ')', and calculate the minimum number of insertion operations required. Make the left and right brackets in s balanced.\n    *\n    * Example 1:\n    * Input: s = \"(()))\"\n    * Output: 1\n    * Explanation:  We need to add one '(' at the first of the string to make it balanced: \"((()))\".\n    * Example 2:\n    * Input: s = \"((()))\"\n    * Output: 0\n    *\n    * - s consists of '(' and ')' only.\n    */\n public int minInsertions(String s) ",
+  "tests": "    public static void main(String[] args) {\n        Problem solution = new Problem();\n\n        // Test the function with different test cases\n        assert solution.minInsertions(\"((()))\") == 0;\n        assert solution.minInsertions(\"()()()\") == 0;\n        assert solution.minInsertions(\"(()))(()\") == 2;\n        assert solution.minInsertions(\"))())(((\") == 6;\n        System.out.println(\"All tests passed\");\n    }\n}",
+  "stop_tokens": [],
+  "results": [
+    {
+      "program": "class Problem {\n    /**\n    * Given a string s composed of '(' and ')', the left and right brackets in s may be unbalanced. Each operation can insert a '(' or ')', and calculate the minimum number of insertion operations required. Make the left and right brackets in s balanced.\n    *\n    * Example 1:\n    * Input: s = \"(()))\"\n    * Output: 1\n    * Explanation:  We need to add one '(' at the first of the string to make it balanced: \"((()))\".\n    * Example 2:\n    * Input: s = \"((()))\"\n    * Output: 0\n    *\n    * - s consists of '(' and ')' only.\n    */\n public int minInsertions(String s)  {\n        int answer = 0;\n        int needToAdd = 0;\n        for (int i = 0; i < s.length(); i++) {\n            if (s.charAt(i) == '(') {\n                if (i % 2 == 1) { // i is odd\n                    needToAdd += 2;\n                }\n                if (needToAdd % 2 == 0) {\n                    i++;\n                } else {\n                    needToAdd--;\n                }\n            } else {\n                needToAdd--;\n                if (needToAdd < 0) {\n                    answer++;\n                    needToAdd++;\n                }\n            }\n        }\n        return answer + needToAdd;\n    }\n    public static void main(String[] args) {\n        Problem solution = new Problem();\n\n        // Test the function with different test cases\n        assert solution.minInsertions(\"((()))\") == 0;\n        assert solution.minInsertions(\"()()()\") == 0;\n        assert solution.minInsertions(\"(()))(()\") == 2;\n        assert solution.minInsertions(\"))())(((\") == 6;\n        System.out.println(\"All tests passed\");\n    }\n}",
+      "timestamp": 1741535351,
+      "stdout": "",
+      "stderr": "Exception in thread \"main\" java.lang.AssertionError\n\tat Problem.main(tmpx7nwxzn7.java:42)\n",
+      "exit_code": 1,
+      "status": "Exception"
+    }
+  ]
+}

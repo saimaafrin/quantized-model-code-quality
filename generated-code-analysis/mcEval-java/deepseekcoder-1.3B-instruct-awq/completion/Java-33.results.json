@@ -1,0 +1,20 @@
+{
+  "name": "Java-33",
+  "language": "java",
+  "temperature": 0.8,
+  "top_p": 0.95,
+  "max_tokens": 1024,
+  "prompt": "import java.util.*;\n\nclass Problem {\n    /**\n     * Return the lexicographically smallest string of length n and value k.\n     * The value of a string is the sum of the positions of its characters in the alphabet (starting from 1).\n     * Example:\n     * >>> getSmallestString(3, 27)\n     * \"aay\"\n     * >>> getSmallestString(5, 73)\n     * \"aaszz\"\n     */\n    public String getSmallestString(int n, int k) ",
+  "tests": "\n    public static void main(String[] args) {\n        Problem solution = new Problem();\n\n        // Test the function with different test cases\n        assert solution.getSmallestString(3, 27).equals(\"aay\");\n        assert solution.getSmallestString(5, 73).equals(\"aaszz\");\n        assert solution.getSmallestString(3, 30).equals(\"acz\");\n        System.out.println(\"All tests passed\");\n    }\n}",
+  "stop_tokens": [],
+  "results": [
+    {
+      "program": "import java.util.*;\n\nclass Problem {\n    /**\n     * Return the lexicographically smallest string of length n and value k.\n     * The value of a string is the sum of the positions of its characters in the alphabet (starting from 1).\n     * Example:\n     * >>> getSmallestString(3, 27)\n     * \"aay\"\n     * >>> getSmallestString(5, 73)\n     * \"aaszz\"\n     */\n    public String getSmallestString(int n, int k)  {\n        StringBuilder sb = new StringBuilder();\n        k = 27 - k;\n        while (n > 0) {\n            if (n == 1) {\n                if (k > 2) {\n                    sb.append('a');\n                    k -= 1;\n                } else {\n                    sb.append('z');\n                    n -= 1;\n               \n                }\n            } else {\n                if (k % 2 == 1) {\n                    sb.append('a');\n                    k -= 1;\n                } else {\n                    sb.append('z');\n                    k /= 2;\n                }\n                n -= 1;\n            }\n        }\n        return sb.reverse().toString();\n    }\n\n    public static void main(String[] args) {\n        Problem solution = new Problem();\n\n        // Test the function with different test cases\n        assert solution.getSmallestString(3, 27).equals(\"aay\");\n        assert solution.getSmallestString(5, 73).equals(\"aaszz\");\n        assert solution.getSmallestString(3, 30).equals(\"acz\");\n        System.out.println(\"All tests passed\");\n    }\n}",
+      "timestamp": 1741620745,
+      "stdout": "",
+      "stderr": "Exception in thread \"main\" java.lang.AssertionError\n\tat Problem.main(tmpcutzzccj.java:44)\n",
+      "exit_code": 1,
+      "status": "Exception"
+    }
+  ]
+}

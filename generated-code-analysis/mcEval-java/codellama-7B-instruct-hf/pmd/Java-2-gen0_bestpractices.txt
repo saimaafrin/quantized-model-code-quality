@@ -1,0 +1,3 @@
+/home/saima/projects/NonFunc-AWQ/mcEval-java/codellama-7B-instruct-hf/completion/java-files/Java-2-gen0.java:16:	AvoidReassigningParameters:	Avoid reassigning parameters such as 'Y'
+/home/saima/projects/NonFunc-AWQ/mcEval-java/codellama-7B-instruct-hf/completion/java-files/Java-2-gen0.java:17:	AvoidReassigningParameters:	Avoid reassigning parameters such as 'N'
+/home/saima/projects/NonFunc-AWQ/mcEval-java/codellama-7B-instruct-hf/completion/java-files/Java-2-gen0.java:26:	SystemPrintln:	Usage of System.out/err

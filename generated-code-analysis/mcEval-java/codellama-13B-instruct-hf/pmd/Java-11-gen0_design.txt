@@ -1,0 +1,3 @@
+/home/saima/projects/NonFunc-AWQ/mcEval-java/codellama-13B-instruct-hf/completion/java-files/Java-11-gen0.java:3:	UseUtilityClass:	This utility class has a non-private constructor
+/home/saima/projects/NonFunc-AWQ/mcEval-java/codellama-13B-instruct-hf/completion/java-files/Java-11-gen0.java:23:	CognitiveComplexity:	The method 'appx(String, String)' has a cognitive complexity of 16, current threshold is 15
+LoosePackageCoupling	-	No packages or classes specified

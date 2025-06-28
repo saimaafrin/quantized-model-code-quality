@@ -1,0 +1,69 @@
+{
+    "Total code count": {
+        "files": 53
+    },
+    "Total Rule Violations": {
+        "bestpractices": 115,
+        "codestyle": 357,
+        "design": 56,
+        "documentation": 237,
+        "errorprone": 7,
+        "multithreading": 3,
+        "performance": 5,
+        "security": 0
+    },
+    "Error Code Counts": {
+        "bestpractices": {
+            "UseVarargs": 19,
+            "SystemPrintln": 53,
+            "LiteralsFirstInComparisons": 23,
+            "OneDeclarationPerLine": 5,
+            "AvoidReassigningParameters": 5,
+            "ForLoopCanBeForeach": 2,
+            "DoubleBraceInitialization": 3,
+            "LooseCoupling": 2,
+            "UnusedPrivateField": 2,
+            "AvoidPrintStackTrace": 1
+        },
+        "codestyle": {
+            "NoPackage": 53,
+            "AtLeastOneConstructor": 23,
+            "MethodArgumentCouldBeFinal": 61,
+            "LocalVariableCouldBeFinal": 108,
+            "UnnecessaryImport": 10,
+            "ShortVariable": 53,
+            "CommentDefaultAccessModifier": 2,
+            "UseUnderscoresInNumericLiterals": 10,
+            "OnlyOneReturn": 19,
+            "UselessParentheses": 3,
+            "ControlStatementBraces": 6,
+            "LinguisticNaming": 2,
+            "FormalParameterNamingConventions": 5,
+            "FieldNamingConventions": 2
+        },
+        "design": {
+            "UseUtilityClass": 30,
+            "CollapsibleIfStatements": 1,
+            "SimplifyBooleanExpressions": 16,
+            "CognitiveComplexity": 6,
+            "CyclomaticComplexity": 3
+        },
+        "documentation": {
+            "CommentRequired": 111,
+            "CommentSize": 126
+        },
+        "errorprone": {
+            "AvoidLiteralsInIfCondition": 6,
+            "AvoidDuplicateLiterals": 1
+        },
+        "multithreading": {
+            "UseConcurrentHashMap": 3
+        },
+        "performance": {
+            "AvoidInstantiatingObjectsInLoops": 3,
+            "AppendCharacterWithChar": 1,
+            "AddEmptyString": 1
+        },
+        "security": {}
+    }
+}

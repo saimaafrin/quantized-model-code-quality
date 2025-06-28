@@ -1,0 +1,4 @@
+/home/saima/projects/NonFunc-AWQ/mcEval-java/deepseekcoder-1.3B-instruct-hf/completion/java-files/Java-40-gen0.java:1:	UseUtilityClass:	This utility class has a non-private constructor
+/home/saima/projects/NonFunc-AWQ/mcEval-java/deepseekcoder-1.3B-instruct-hf/completion/java-files/Java-40-gen0.java:14:	CognitiveComplexity:	The method 'longestLine(int[][])' has a cognitive complexity of 18, current threshold is 15
+/home/saima/projects/NonFunc-AWQ/mcEval-java/deepseekcoder-1.3B-instruct-hf/completion/java-files/Java-40-gen0.java:14:	CyclomaticComplexity:	The method 'longestLine(int[][])' has a cyclomatic complexity of 10.
+LoosePackageCoupling	-	No packages or classes specified

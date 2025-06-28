@@ -1,0 +1,20 @@
+{
+  "name": "Java-53",
+  "language": "java",
+  "temperature": 0.8,
+  "top_p": 0.95,
+  "max_tokens": 1024,
+  "prompt": "class Problem {\n\n  /**\n   * Reverse the characters of each word in the given string while maintaining the original word order.\n   *\n   * @param s The input string containing words separated by spaces.\n   * @return The string with characters of each word reversed.\n   *\n   * Example:\n   * reverseWords(\"Mr Ding\")\n   * Output: \"rM gniD\"\n   */\n  public static String reverseWords(String s) ",
+  "tests": "  public static void main(String[] args) {\n    assert reverseWords(\"The quick brown fox\").equals(\"ehT kciuq nworb xof\") : \"Test failed for input: The quick brown fox\";\n    assert reverseWords(\"Hello World\").equals(\"olleH dlroW\") : \"Test failed for input: Hello World\";\n    assert reverseWords(\"a b c d e f\").equals(\"a b c d e f\") : \"Test failed for input: a b c d e f\";\n    System.out.println(\"All tests passed\");\n  }\n}",
+  "stop_tokens": [],
+  "results": [
+    {
+      "program": "class Problem {\n\n  /**\n   * Reverse the characters of each word in the given string while maintaining the original word order.\n   *\n   * @param s The input string containing words separated by spaces.\n   * @return The string with characters of each word reversed.\n   *\n   * Example:\n   * reverseWords(\"Mr Ding\")\n   * Output: \"rM gniD\"\n   */\n  public static String reverseWords(String s)  {\n    // return s;\n\n    // 1. Split the string into words\n    // 2. Reverse each word\n    // 3. Combine the words back to a sentence\n\n    // String[] words = s.split(\" \");\n    // StringBuilder sb = new StringBuilder();\n\n    // for (String word : words) {\n    //   char[] chars = word.toCharArray();\n    //   int left = 0;\n    //   int right = chars.length - 1;\n\n    //   while (left < right) {\n    //     char temp = chars[left];\n    //     chars[left++] = chars[right];\n    //     chars[right--] = temp;\n    //   }\n    //   sb.append(new String(chars) + \" \");\n    // }\n    // return sb.toString().trim();\n\n    // Stream API\n    return Arrays.stream(s.split(\" \"))\n      .map(word -> new StringBuilder(word).reverse().toString())\n      .collect(Collectors.joining(\" \"));\n  }\n  public static void main(String[] args) {\n    assert reverseWords(\"The quick brown fox\").equals(\"ehT kciuq nworb xof\") : \"Test failed for input: The quick brown fox\";\n    assert reverseWords(\"Hello World\").equals(\"olleH dlroW\") : \"Test failed for input: Hello World\";\n    assert reverseWords(\"a b c d e f\").equals(\"a b c d e f\") : \"Test failed for input: a b c d e f\";\n    System.out.println(\"All tests passed\");\n  }\n}",
+      "timestamp": 1741530741,
+      "stdout": "",
+      "stderr": "/tmp/tmphxdqt129.java:38: error: cannot find symbol\n    return Arrays.stream(s.split(\" \"))\n           ^\n  symbol:   variable Arrays\n  location: class Problem\n/tmp/tmphxdqt129.java:40: error: cannot find symbol\n      .collect(Collectors.joining(\" \"));\n               ^\n  symbol:   variable Collectors\n  location: class Problem\n2 errors\n",
+      "exit_code": 1,
+      "status": "SyntaxError"
+    }
+  ]
+}

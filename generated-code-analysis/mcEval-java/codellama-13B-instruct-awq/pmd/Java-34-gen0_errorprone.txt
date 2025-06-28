@@ -1,0 +1,1 @@
+/home/saima/projects/NonFunc-AWQ/mcEval-java/codellama-13B-instruct-awq/completion/java-files/Java-34-gen0.java:33:	AvoidLiteralsInIfCondition:	Avoid using literals in if statements

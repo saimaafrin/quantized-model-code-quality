@@ -1,0 +1,3 @@
+/home/saima/projects/NonFunc-AWQ/mcEval-java/codellama-13B-instruct-hf/completion/java-files/Java-45-gen0.java:14:	UnusedAssignment:	The initializer for variable 'smallestInteger' is never used (overwritten on line 43)
+/home/saima/projects/NonFunc-AWQ/mcEval-java/codellama-13B-instruct-hf/completion/java-files/Java-45-gen0.java:21:	AvoidReassigningParameters:	Avoid reassigning parameters such as 'n'
+/home/saima/projects/NonFunc-AWQ/mcEval-java/codellama-13B-instruct-hf/completion/java-files/Java-45-gen0.java:52:	SystemPrintln:	Usage of System.out/err

@@ -1,0 +1,20 @@
+{
+  "name": "Java-52",
+  "language": "java",
+  "temperature": 0.8,
+  "top_p": 0.95,
+  "max_tokens": 1024,
+  "prompt": "class Problem {\n\n  /**\n   * Given an integer n, return the minimum number of perfect square numbers that sum up to n.\n   *\n   * @param n The target integer.\n   * @return The minimum number of perfect square numbers.\n   *\n   * Example:\n   * minPerfectSquareSum(12)\n   * Output: 3\n   *\n   * Example:\n   * minPerfectSquareSum(13)\n   * Output: 2\n   */\n  public static int minPerfectSquareSum(int n) ",
+  "tests": "  public static void main(String[] args) {\n    assert minPerfectSquareSum(26) == 2 : \"Test case 1 failed\";\n    assert minPerfectSquareSum(17) == 2 : \"Test case 2 failed\";\n    assert minPerfectSquareSum(99) == 3 : \"Test case 3 failed\";\n    System.out.println(\"All tests passed\");\n  }\n}",
+  "stop_tokens": [],
+  "results": [
+    {
+      "program": "class Problem {\n\n  /**\n   * Given an integer n, return the minimum number of perfect square numbers that sum up to n.\n   *\n   * @param n The target integer.\n   * @return The minimum number of perfect square numbers.\n   *\n   * Example:\n   * minPerfectSquareSum(12)\n   * Output: 3\n   *\n   * Example:\n   * minPerfectSquareSum(13)\n   * Output: 2\n   */\n  public static int minPerfectSquareSum(int n)  {\n    int numSquares = 0;\n    for (int i = 1; i <= n; i++) {\n      // The number of squares we've already added up.\n      int sum = (i * i);\n      // If the sum is less than or equal to n, we're done.\n      if (sum > n) {\n        // We need to add at least one more square.\n        numSquares++;\n        // Subtract the previous square.\n        sum -= ((i - 1) * (i - 1));\n        // And add the current square.\n        sum += (i * i);\n        if (sum <= n) {\n          numSquares++;\n        }\n        break;\n      }\n      numSquares++;\n    }\n    return numSquares;\n  }\n  public static void main(String[] args) {\n    assert minPerfectSquareSum(26) == 2 : \"Test case 1 failed\";\n    assert minPerfectSquareSum(17) == 2 : \"Test case 2 failed\";\n    assert minPerfectSquareSum(99) == 3 : \"Test case 3 failed\";\n    System.out.println(\"All tests passed\");\n  }\n}",
+      "timestamp": 1741610150,
+      "stdout": "",
+      "stderr": "Exception in thread \"main\" java.lang.AssertionError: Test case 1 failed\n\tat Problem.main(tmpcex312bx.java:40)\n",
+      "exit_code": 1,
+      "status": "Exception"
+    }
+  ]
+}

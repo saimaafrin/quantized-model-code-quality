@@ -1,0 +1,20 @@
+{
+  "name": "Java-7",
+  "language": "java",
+  "temperature": 0.8,
+  "top_p": 0.95,
+  "max_tokens": 1024,
+  "prompt": "import java.util.*;\n\nclass Problem {\n    /**\n     * Given the number of triangles N, determine the maximum number of regions the plane can be divided into.\n     *\n     * Example:\n     * >>> maxRegions(1)\n     * 2\n     * >>> maxRegions(2)\n     * 8\n     *\n     * @param N the number of triangles\n     * @return the maximum number of regions\n     */\n    public static int maxRegions(int N) ",
+  "tests": "    public static void main(String[] args) {\n        // Test the function with different test cases\n        assert maxRegions(3) == 13;\n        assert maxRegions(4) == 21;\n        assert maxRegions(5) == 31;\n        System.out.println(\"All tests passed\");\n    }\n}",
+  "stop_tokens": [],
+  "results": [
+    {
+      "program": "import java.util.*;\n\nclass Problem {\n    /**\n     * Given the number of triangles N, determine the maximum number of regions the plane can be divided into.\n     *\n     * Example:\n     * >>> maxRegions(1)\n     * 2\n     * >>> maxRegions(2)\n     * 8\n     *\n     * @param N the number of triangles\n     * @return the maximum number of regions\n     */\n    public static int maxRegions(int N)  {\n        // Write your code here\n        // To keep the complexity manageable, we can use dynamic programming\n        // dp[i][j] represents the maximum number of regions we can divide the plane into with i triangles left and j edges connected\n        // dp[i][j] = max(dp[i-1][j], dp[i-1][j-1] + 1) for i > 0 and j >= 0\n        // dp[i][0] = sum(dp[i-1]) for i > 0\n        // Initialize dp[0][j] = 1 for j >= 0\n        // return dp[N][N-1] for N > 0\n\n        int[][] dp = new int[N+1][N+1];\n        for (int j = 0; j <= N; j++) {\n            dp[0][j] = 1;\n        }\n        for (int i = 1; i <= N; i++) {\n            dp[i][0] = i;\n            for (int j = 1; j <= N; j++) {\n                dp[i][j] = Math.max(dp[i-1][j], dp[i-1][j-1] + 1);\n            }\n        }\n        return dp[N][N-1];\n    }\n    public static void main(String[] args) {\n        // Test the function with different test cases\n        assert maxRegions(3) == 13;\n        assert maxRegions(4) == 21;\n        assert maxRegions(5) == 31;\n        System.out.println(\"All tests passed\");\n    }\n}",
+      "timestamp": 1741535359,
+      "stdout": "",
+      "stderr": "Exception in thread \"main\" java.lang.AssertionError\n\tat Problem.main(tmpuw479kjf.java:39)\n",
+      "exit_code": 1,
+      "status": "Exception"
+    }
+  ]
+}

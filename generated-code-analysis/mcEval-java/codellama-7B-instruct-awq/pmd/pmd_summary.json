@@ -1,0 +1,76 @@
+{
+    "Total code count": {
+        "files": 53
+    },
+    "Total Rule Violations": {
+        "bestpractices": 117,
+        "codestyle": 422,
+        "design": 59,
+        "documentation": 241,
+        "errorprone": 8,
+        "multithreading": 4,
+        "performance": 3,
+        "security": 0
+    },
+    "Error Code Counts": {
+        "bestpractices": {
+            "UseVarargs": 19,
+            "SystemPrintln": 53,
+            "ForLoopCanBeForeach": 3,
+            "AvoidReassigningParameters": 4,
+            "LiteralsFirstInComparisons": 23,
+            "UnusedLocalVariable": 2,
+            "OneDeclarationPerLine": 2,
+            "LooseCoupling": 5,
+            "DoubleBraceInitialization": 3,
+            "UnusedPrivateField": 2,
+            "AvoidPrintStackTrace": 1
+        },
+        "codestyle": {
+            "NoPackage": 53,
+            "AtLeastOneConstructor": 23,
+            "MethodArgumentCouldBeFinal": 63,
+            "LocalVariableCouldBeFinal": 132,
+            "UnnecessaryImport": 16,
+            "ShortVariable": 56,
+            "CommentDefaultAccessModifier": 2,
+            "UnnecessaryLocalBeforeReturn": 2,
+            "UseUnderscoresInNumericLiterals": 11,
+            "OnlyOneReturn": 20,
+            "LinguisticNaming": 2,
+            "UseDiamondOperator": 2,
+            "UselessParentheses": 3,
+            "LongVariable": 2,
+            "FormalParameterNamingConventions": 5,
+            "ControlStatementBraces": 27,
+            "ConfusingTernary": 1,
+            "FieldNamingConventions": 2
+        },
+        "design": {
+            "UseUtilityClass": 30,
+            "CognitiveComplexity": 5,
+            "NPathComplexity": 3,
+            "SimplifyBooleanExpressions": 16,
+            "CyclomaticComplexity": 5
+        },
+        "documentation": {
+            "CommentRequired": 111,
+            "CommentSize": 130
+        },
+        "errorprone": {
+            "AvoidDuplicateLiterals": 2,
+            "AvoidLiteralsInIfCondition": 4,
+            "CompareObjectsWithEquals": 1,
+            "UseEqualsToCompareStrings": 1
+        },
+        "multithreading": {
+            "UseConcurrentHashMap": 4
+        },
+        "performance": {
+            "AvoidInstantiatingObjectsInLoops": 1,
+            "AppendCharacterWithChar": 1,
+            "AddEmptyString": 1
+        },
+        "security": {}
+    }
+}

@@ -1,0 +1,4 @@
+/home/saima/projects/NonFunc-AWQ/mcEval-java/codellama-13B-instruct-hf/completion/java-files/Java-50-gen0.java:36:	DoubleBraceInitialization:	Double-brace initialization should be avoided
+/home/saima/projects/NonFunc-AWQ/mcEval-java/codellama-13B-instruct-hf/completion/java-files/Java-50-gen0.java:57:	DoubleBraceInitialization:	Double-brace initialization should be avoided
+/home/saima/projects/NonFunc-AWQ/mcEval-java/codellama-13B-instruct-hf/completion/java-files/Java-50-gen0.java:85:	DoubleBraceInitialization:	Double-brace initialization should be avoided
+/home/saima/projects/NonFunc-AWQ/mcEval-java/codellama-13B-instruct-hf/completion/java-files/Java-50-gen0.java:92:	SystemPrintln:	Usage of System.out/err

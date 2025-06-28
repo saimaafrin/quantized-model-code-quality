@@ -1,0 +1,13 @@
+/home/saima/projects/NonFunc-AWQ/mcEval-java/codellama-34B-instruct-awq/completion/java-files/Java-12-gen0.java:2:	UnnecessaryImport:	Unused import 'java.text.SimpleDateFormat'
+/home/saima/projects/NonFunc-AWQ/mcEval-java/codellama-34B-instruct-awq/completion/java-files/Java-12-gen0.java:3:	UnnecessaryImport:	Unused import 'java.text.ParseException'
+/home/saima/projects/NonFunc-AWQ/mcEval-java/codellama-34B-instruct-awq/completion/java-files/Java-12-gen0.java:5:	NoPackage:	All classes, interfaces, enums and annotations must belong to a named package
+/home/saima/projects/NonFunc-AWQ/mcEval-java/codellama-34B-instruct-awq/completion/java-files/Java-12-gen0.java:17:	MethodArgumentCouldBeFinal:	Parameter 'date' is not assigned and could be declared final
+/home/saima/projects/NonFunc-AWQ/mcEval-java/codellama-34B-instruct-awq/completion/java-files/Java-12-gen0.java:19:	LocalVariableCouldBeFinal:	Local variable 'dateParts' could be declared final
+/home/saima/projects/NonFunc-AWQ/mcEval-java/codellama-34B-instruct-awq/completion/java-files/Java-12-gen0.java:20:	LocalVariableCouldBeFinal:	Local variable 'month' could be declared final
+/home/saima/projects/NonFunc-AWQ/mcEval-java/codellama-34B-instruct-awq/completion/java-files/Java-12-gen0.java:21:	LocalVariableCouldBeFinal:	Local variable 'day' could be declared final
+/home/saima/projects/NonFunc-AWQ/mcEval-java/codellama-34B-instruct-awq/completion/java-files/Java-12-gen0.java:22:	LocalVariableCouldBeFinal:	Local variable 'year' could be declared final
+/home/saima/projects/NonFunc-AWQ/mcEval-java/codellama-34B-instruct-awq/completion/java-files/Java-12-gen0.java:23:	LocalVariableCouldBeFinal:	Local variable 'calendar' could be declared final
+/home/saima/projects/NonFunc-AWQ/mcEval-java/codellama-34B-instruct-awq/completion/java-files/Java-12-gen0.java:24:	UselessParentheses:	Useless parentheses.
+/home/saima/projects/NonFunc-AWQ/mcEval-java/codellama-34B-instruct-awq/completion/java-files/Java-12-gen0.java:25:	LocalVariableCouldBeFinal:	Local variable 'dayOfWeek' could be declared final
+/home/saima/projects/NonFunc-AWQ/mcEval-java/codellama-34B-instruct-awq/completion/java-files/Java-12-gen0.java:26:	LocalVariableCouldBeFinal:	Local variable 'weekDays' could be declared final
+/home/saima/projects/NonFunc-AWQ/mcEval-java/codellama-34B-instruct-awq/completion/java-files/Java-12-gen0.java:27:	LocalVariableCouldBeFinal:	Local variable 'weekDay' could be declared final

@@ -1,0 +1,20 @@
+{
+  "name": "Java-48",
+  "language": "java",
+  "temperature": 0.8,
+  "top_p": 0.95,
+  "max_tokens": 1024,
+  "prompt": "import java.lang.Math;\n\nclass Problem {\n\n  /**\n   * Find and return the nth ugly number.\n   *\n   * @param n The index of the ugly number to find.\n   * @return The nth ugly number.\n   *\n   * Example:\n   * findNthUglyNumber(10)\n   * Output: 12\n   */\n  public static int findNthUglyNumber(int n) ",
+  "tests": "  public static void main(String[] args) {\n    assert findNthUglyNumber(1) == 1 : \"Test case 1 failed\";\n    assert findNthUglyNumber(7) == 8 : \"Test case 2 failed\";\n    assert findNthUglyNumber(15) == 24 : \"Test case 3 failed\";\n\n    System.out.println(\"All tests passed\");\n  }\n}\n",
+  "stop_tokens": [],
+  "results": [
+    {
+      "program": "import java.lang.Math;\n\nclass Problem {\n\n  /**\n   * Find and return the nth ugly number.\n   *\n   * @param n The index of the ugly number to find.\n   * @return The nth ugly number.\n   *\n   * Example:\n   * findNthUglyNumber(10)\n   * Output: 12\n   */\n  public static int findNthUglyNumber(int n)  {\n    // TODO: Implement this method\n    int count = 1;\n    int i = 1;\n    while (count < n) {\n      i++;\n      if (isUgly(i)) {\n        count++;\n      }\n    }\n    return i;\n  }\n  public static void main(String[] args) {\n    assert findNthUglyNumber(1) == 1 : \"Test case 1 failed\";\n    assert findNthUglyNumber(7) == 8 : \"Test case 2 failed\";\n    assert findNthUglyNumber(15) == 24 : \"Test case 3 failed\";\n\n    System.out.println(\"All tests passed\");\n  }\n}\n",
+      "timestamp": 1741546532,
+      "stdout": "",
+      "stderr": "/tmp/tmpyuy27ucb.java:21: error: cannot find symbol\n      if (isUgly(i)) {\n          ^\n  symbol:   method isUgly(int)\n  location: class Problem\n1 error\n",
+      "exit_code": 1,
+      "status": "SyntaxError"
+    }
+  ]
+}
