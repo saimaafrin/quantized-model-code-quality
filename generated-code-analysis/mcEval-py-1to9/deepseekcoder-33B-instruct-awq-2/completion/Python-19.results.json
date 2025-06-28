@@ -1,0 +1,25 @@
+{
+  "name": "Python-19",
+  "language": "py",
+  "temperature": 0.8,
+  "top_p": 0.95,
+  "max_tokens": 1024,
+  "prompt": "\ndef max_energy(beads):\n    \"\"\"\n    Calculate the maximum energy that can be released by merging beads on a necklace.\n\n    The function takes a list of integers representing the energy beads on a necklace, where\n    each bead has a head and a tail value. The head value of each bead must match the tail\n    value of the next bead in the sequence. The necklace is circular, and merging two adjacent\n    beads releases energy equal to the product of the head value of the first bead, the matching\n    value, and the tail value of the second bead.\n\n    To find the maximum energy release, the function considers all possible orders of merging beads\n    and uses dynamic programming to compute the maximum energy obtainable.\n\n    Args:\n        beads: A list of integers where each integer represents the head value of a bead and\n               the tail value of the previous bead. The tail value of the last bead is assumed\n               to match the head value of the first bead due to the circular nature of the necklace.\n\n    Returns:\n        An integer representing the maximum energy that can be obtained by optimally merging all beads.\n\n    Examples:\n        >>> max_energy([2, 3, 5, 10])\n        710\n        >>> max_energy([1, 2, 3, 4])\n        48\n    \"\"\"",
+  "tests": "def test_max_energy():\n    assert max_energy([2, 3, 5, 10]) == 710, \"Testcase 1 failed\"\n    assert max_energy([1, 2, 3, 4]) == 80, \"Testcase 2 failed\"\n    assert max_energy([4, 4, 4, 4]) == 192, \"Testcase 3 failed\"\n    assert max_energy([30, 40, 50, 60]) == 372000, \"Testcase 4 failed\"\n    print(\"All testcases passed\")\n\n# Call the test function\ntest_max_energy()",
+  "stop_tokens": [
+    "\ndef",
+    "\n#",
+    "\nif",
+    "\nclass"
+  ],
+  "results": [
+    {
+      "program": "\ndef max_energy(beads):\n    \"\"\"\n    Calculate the maximum energy that can be released by merging beads on a necklace.\n\n    The function takes a list of integers representing the energy beads on a necklace, where\n    each bead has a head and a tail value. The head value of each bead must match the tail\n    value of the next bead in the sequence. The necklace is circular, and merging two adjacent\n    beads releases energy equal to the product of the head value of the first bead, the matching\n    value, and the tail value of the second bead.\n\n    To find the maximum energy release, the function considers all possible orders of merging beads\n    and uses dynamic programming to compute the maximum energy obtainable.\n\n    Args:\n        beads: A list of integers where each integer represents the head value of a bead and\n               the tail value of the previous bead. The tail value of the last bead is assumed\n               to match the head value of the first bead due to the circular nature of the necklace.\n\n    Returns:\n        An integer representing the maximum energy that can be obtained by optimally merging all beads.\n\n    Examples:\n        >>> max_energy([2, 3, 5, 10])\n        710\n        >>> max_energy([1, 2, 3, 4])\n        48\n    \"\"\"\n    if len(beads) == 1:\n        return 0\n\n    from collections import defaultdict\n\n    # Store the max energy for each segment length\n    dp = defaultdict(lambda: defaultdict(int))\n    beads_count = len(beads)\n    # iterate over length of segment\n    for length in range(1, beads_count):\n        # iterate over start index of segment\n        for start in range(beads_count):\n            end = (start + length) % beads_count\n            # iterate over split point of segment\n            for split in range(length):\n                # calculate energy of split segment\n                energy = dp[start][(split + length - 1) % length] + dp[(start + split + 1) % beads_count][(length + start - split - 1) % length] + beads[start] * beads[(start + split + 1) % beads_count] * beads[end]\n                # update max energy for segment length\n                if dp[start][length] < energy:\n                    dp[start][length] = energy\n    return max(dp[0].values())\ndef test_max_energy():\n    assert max_energy([2, 3, 5, 10]) == 710, \"Testcase 1 failed\"\n    assert max_energy([1, 2, 3, 4]) == 80, \"Testcase 2 failed\"\n    assert max_energy([4, 4, 4, 4]) == 192, \"Testcase 3 failed\"\n    assert max_energy([30, 40, 50, 60]) == 372000, \"Testcase 4 failed\"\n    print(\"All testcases passed\")\n\n# Call the test function\ntest_max_energy()",
+      "timestamp": 1747013875,
+      "stdout": "",
+      "stderr": "Traceback (most recent call last):\n  File \"/tmp/tmp3_nzbwr8.py\", line 58, in <module>\n    test_max_energy()\n  File \"/tmp/tmp3_nzbwr8.py\", line 51, in test_max_energy\n    assert max_energy([2, 3, 5, 10]) == 710, \"Testcase 1 failed\"\nAssertionError: Testcase 1 failed\n",
+      "exit_code": 1,
+      "status": "Exception"
+    }
+  ]
+}

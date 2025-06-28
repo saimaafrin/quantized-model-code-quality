@@ -1,0 +1,12 @@
+************* Module Python-41-gen0
+/home/saima/projects/NonFunc-AWQ/mcEval-py/codellama-13B-instruct-awq-8/completion/python-files/Python-41-gen0.py:60:0: C0301: Line too long (123/100) (line-too-long)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/codellama-13B-instruct-awq-8/completion/python-files/Python-41-gen0.py:64:0: C0304: Final newline missing (missing-final-newline)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/codellama-13B-instruct-awq-8/completion/python-files/Python-41-gen0.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/codellama-13B-instruct-awq-8/completion/python-files/Python-41-gen0.py:1:0: C0103: Module name "Python-41-gen0" doesn't conform to snake_case naming style (invalid-name)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/codellama-13B-instruct-awq-8/completion/python-files/Python-41-gen0.py:24:7: E0602: Undefined variable 'gcd' (undefined-variable)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/codellama-13B-instruct-awq-8/completion/python-files/Python-41-gen0.py:30:4: W0612: Unused variable 'r0' (unused-variable)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/codellama-13B-instruct-awq-8/completion/python-files/Python-41-gen0.py:45:0: C0116: Missing function or method docstring (missing-function-docstring)
+
+------------------------------------------------------------------
+Your code has been rated at 5.77/10 (previous run: 0.00/10, +5.77)
+

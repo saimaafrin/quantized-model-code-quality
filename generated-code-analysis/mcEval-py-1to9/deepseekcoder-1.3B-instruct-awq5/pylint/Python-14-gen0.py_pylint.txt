@@ -1,0 +1,2 @@
+************* Module Python-14-gen0
+/home/saima/projects/NonFunc-AWQ/mcEval-py/deepseekcoder-1.3B-instruct-awq5/completion/python-files/Python-14-gen0.py:38:5: E0001: Parsing failed: 'invalid syntax (Python-14-gen0, line 38)' (syntax-error)

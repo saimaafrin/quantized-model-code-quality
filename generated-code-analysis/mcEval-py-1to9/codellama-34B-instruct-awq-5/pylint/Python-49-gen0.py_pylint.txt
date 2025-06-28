@@ -1,0 +1,16 @@
+************* Module Python-49-gen0
+/home/saima/projects/NonFunc-AWQ/mcEval-py/codellama-34B-instruct-awq-5/completion/python-files/Python-49-gen0.py:3:0: C0301: Line too long (118/100) (line-too-long)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/codellama-34B-instruct-awq-5/completion/python-files/Python-49-gen0.py:5:0: C0301: Line too long (114/100) (line-too-long)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/codellama-34B-instruct-awq-5/completion/python-files/Python-49-gen0.py:6:0: C0301: Line too long (118/100) (line-too-long)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/codellama-34B-instruct-awq-5/completion/python-files/Python-49-gen0.py:7:0: C0301: Line too long (123/100) (line-too-long)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/codellama-34B-instruct-awq-5/completion/python-files/Python-49-gen0.py:14:0: C0301: Line too long (102/100) (line-too-long)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/codellama-34B-instruct-awq-5/completion/python-files/Python-49-gen0.py:61:0: C0304: Final newline missing (missing-final-newline)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/codellama-34B-instruct-awq-5/completion/python-files/Python-49-gen0.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/codellama-34B-instruct-awq-5/completion/python-files/Python-49-gen0.py:1:0: C0103: Module name "Python-49-gen0" doesn't conform to snake_case naming style (invalid-name)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/codellama-34B-instruct-awq-5/completion/python-files/Python-49-gen0.py:21:11: C0123: Use isinstance() rather than type() for a typecheck. (unidiomatic-typecheck)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/codellama-34B-instruct-awq-5/completion/python-files/Python-49-gen0.py:30:8: W0612: Unused variable 'i' (unused-variable)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/codellama-34B-instruct-awq-5/completion/python-files/Python-49-gen0.py:37:0: C0116: Missing function or method docstring (missing-function-docstring)
+
+------------------------------------------------------------------
+Your code has been rated at 4.76/10 (previous run: 4.00/10, +0.76)
+

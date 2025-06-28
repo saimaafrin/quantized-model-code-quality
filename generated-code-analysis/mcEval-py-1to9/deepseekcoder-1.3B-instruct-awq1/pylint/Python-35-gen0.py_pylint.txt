@@ -1,0 +1,16 @@
+************* Module Python-35-gen0
+/home/saima/projects/NonFunc-AWQ/mcEval-py/deepseekcoder-1.3B-instruct-awq1/completion/python-files/Python-35-gen0.py:8:0: C0301: Line too long (107/100) (line-too-long)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/deepseekcoder-1.3B-instruct-awq1/completion/python-files/Python-35-gen0.py:13:0: C0301: Line too long (113/100) (line-too-long)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/deepseekcoder-1.3B-instruct-awq1/completion/python-files/Python-35-gen0.py:42:0: C0304: Final newline missing (missing-final-newline)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/deepseekcoder-1.3B-instruct-awq1/completion/python-files/Python-35-gen0.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/deepseekcoder-1.3B-instruct-awq1/completion/python-files/Python-35-gen0.py:1:0: C0103: Module name "Python-35-gen0" doesn't conform to snake_case naming style (invalid-name)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/deepseekcoder-1.3B-instruct-awq1/completion/python-files/Python-35-gen0.py:20:4: W0107: Unnecessary pass statement (unnecessary-pass)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/deepseekcoder-1.3B-instruct-awq1/completion/python-files/Python-35-gen0.py:2:27: W0613: Unused argument 'apple_heights' (unused-argument)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/deepseekcoder-1.3B-instruct-awq1/completion/python-files/Python-35-gen0.py:2:53: W0613: Unused argument 'tao_reach' (unused-argument)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/deepseekcoder-1.3B-instruct-awq1/completion/python-files/Python-35-gen0.py:21:0: C0413: Import "import unittest" should be placed at the top of the module (wrong-import-position)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/deepseekcoder-1.3B-instruct-awq1/completion/python-files/Python-35-gen0.py:23:0: C0115: Missing class docstring (missing-class-docstring)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/deepseekcoder-1.3B-instruct-awq1/completion/python-files/Python-35-gen0.py:24:4: C0116: Missing function or method docstring (missing-function-docstring)
+
+------------------------------------------------------------------
+Your code has been rated at 3.53/10 (previous run: 6.52/10, -2.99)
+

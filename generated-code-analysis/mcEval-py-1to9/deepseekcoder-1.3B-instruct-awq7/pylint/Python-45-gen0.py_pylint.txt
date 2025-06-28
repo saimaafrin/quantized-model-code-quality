@@ -1,0 +1,2 @@
+************* Module Python-45-gen0
+/home/saima/projects/NonFunc-AWQ/mcEval-py/deepseekcoder-1.3B-instruct-awq7/completion/python-files/Python-45-gen0.py:29:5: E0001: Parsing failed: 'invalid syntax (Python-45-gen0, line 29)' (syntax-error)

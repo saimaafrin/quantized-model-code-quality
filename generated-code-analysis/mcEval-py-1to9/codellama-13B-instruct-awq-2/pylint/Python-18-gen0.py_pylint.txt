@@ -1,0 +1,14 @@
+************* Module Python-18-gen0
+/home/saima/projects/NonFunc-AWQ/mcEval-py/codellama-13B-instruct-awq-2/completion/python-files/Python-18-gen0.py:27:0: C0303: Trailing whitespace (trailing-whitespace)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/codellama-13B-instruct-awq-2/completion/python-files/Python-18-gen0.py:42:0: C0301: Line too long (115/100) (line-too-long)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/codellama-13B-instruct-awq-2/completion/python-files/Python-18-gen0.py:65:0: C0304: Final newline missing (missing-final-newline)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/codellama-13B-instruct-awq-2/completion/python-files/Python-18-gen0.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/codellama-13B-instruct-awq-2/completion/python-files/Python-18-gen0.py:1:0: C0103: Module name "Python-18-gen0" doesn't conform to snake_case naming style (invalid-name)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/codellama-13B-instruct-awq-2/completion/python-files/Python-18-gen0.py:32:12: R1724: Unnecessary "else" after "continue", remove the "else" and de-indent the code inside it (no-else-continue)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/codellama-13B-instruct-awq-2/completion/python-files/Python-18-gen0.py:35:24: R1728: Consider using a generator instead 'sum(item[0] for item in items[j])' (consider-using-generator)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/codellama-13B-instruct-awq-2/completion/python-files/Python-18-gen0.py:36:29: R1728: Consider using a generator instead 'sum(item[1] for item in items[j])' (consider-using-generator)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/codellama-13B-instruct-awq-2/completion/python-files/Python-18-gen0.py:40:0: C0116: Missing function or method docstring (missing-function-docstring)
+
+------------------------------------------------------------------
+Your code has been rated at 6.09/10 (previous run: 6.47/10, -0.38)
+

@@ -1,0 +1,2 @@
+************* Module Python-33-gen0
+/home/saima/projects/NonFunc-AWQ/mcEval-py/deepseekcoder-1.3B-instruct-awq9/completion/python-files/Python-33-gen0.py:39:17: E0001: Parsing failed: 'invalid syntax (Python-33-gen0, line 39)' (syntax-error)

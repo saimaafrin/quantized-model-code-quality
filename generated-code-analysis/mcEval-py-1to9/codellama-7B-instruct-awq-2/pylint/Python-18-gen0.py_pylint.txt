@@ -1,0 +1,11 @@
+************* Module Python-18-gen0
+/home/saima/projects/NonFunc-AWQ/mcEval-py/codellama-7B-instruct-awq-2/completion/python-files/Python-18-gen0.py:31:0: C0301: Line too long (115/100) (line-too-long)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/codellama-7B-instruct-awq-2/completion/python-files/Python-18-gen0.py:54:0: C0304: Final newline missing (missing-final-newline)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/codellama-7B-instruct-awq-2/completion/python-files/Python-18-gen0.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/codellama-7B-instruct-awq-2/completion/python-files/Python-18-gen0.py:1:0: C0103: Module name "Python-18-gen0" doesn't conform to snake_case naming style (invalid-name)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/codellama-7B-instruct-awq-2/completion/python-files/Python-18-gen0.py:28:11: E0602: Undefined variable 'max_happiness_recursive' (undefined-variable)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/codellama-7B-instruct-awq-2/completion/python-files/Python-18-gen0.py:29:0: C0116: Missing function or method docstring (missing-function-docstring)
+
+------------------------------------------------------------------
+Your code has been rated at 2.31/10 (previous run: 6.52/10, -4.21)
+

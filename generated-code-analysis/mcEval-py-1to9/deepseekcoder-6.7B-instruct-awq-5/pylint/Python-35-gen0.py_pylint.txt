@@ -1,0 +1,13 @@
+************* Module Python-35-gen0
+/home/saima/projects/NonFunc-AWQ/mcEval-py/deepseekcoder-6.7B-instruct-awq-5/completion/python-files/Python-35-gen0.py:8:0: C0301: Line too long (107/100) (line-too-long)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/deepseekcoder-6.7B-instruct-awq-5/completion/python-files/Python-35-gen0.py:13:0: C0301: Line too long (113/100) (line-too-long)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/deepseekcoder-6.7B-instruct-awq-5/completion/python-files/Python-35-gen0.py:46:0: C0304: Final newline missing (missing-final-newline)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/deepseekcoder-6.7B-instruct-awq-5/completion/python-files/Python-35-gen0.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/deepseekcoder-6.7B-instruct-awq-5/completion/python-files/Python-35-gen0.py:1:0: C0103: Module name "Python-35-gen0" doesn't conform to snake_case naming style (invalid-name)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/deepseekcoder-6.7B-instruct-awq-5/completion/python-files/Python-35-gen0.py:25:0: C0413: Import "import unittest" should be placed at the top of the module (wrong-import-position)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/deepseekcoder-6.7B-instruct-awq-5/completion/python-files/Python-35-gen0.py:27:0: C0115: Missing class docstring (missing-class-docstring)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/deepseekcoder-6.7B-instruct-awq-5/completion/python-files/Python-35-gen0.py:28:4: C0116: Missing function or method docstring (missing-function-docstring)
+
+------------------------------------------------------------------
+Your code has been rated at 6.19/10 (previous run: 6.19/10, +0.00)
+

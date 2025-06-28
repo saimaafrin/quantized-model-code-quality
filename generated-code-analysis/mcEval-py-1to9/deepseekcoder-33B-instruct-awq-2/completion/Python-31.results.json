@@ -1,0 +1,25 @@
+{
+  "name": "Python-31",
+  "language": "py",
+  "temperature": 0.8,
+  "top_p": 0.95,
+  "max_tokens": 1024,
+  "prompt": "from collections import deque\ndef generate_numbers(n, rules) -> int:\n    \"\"\"\n    Generate all unique numbers from the given number by applying transformation rules.\n\n    Each rule allows a single digit to be transformed into another. A breadth-first search\n    (BFS) is used to explore all possible transformations. The function returns the count\n    of unique numbers that can be generated from the original number, including the number itself.\n\n    Args:\n    - n (int): The original integer number to transform.\n    - rules (list of tuples): A list of transformation rules, where each rule is represented\n                              as a tuple (x, y) indicating that digit x can be transformed into y.\n\n    Returns:\n    - int: The total count of unique numbers that can be generated.\n\n    Cases:\n    >>> generate_numbers(234, [(2, 5), (3, 6)])\n    4\n    >>> generate_numbers(100, [(1, 9)])\n    2\n    \"\"\"",
+  "tests": "def test_generate_numbers():\n    # Test case 1\n    n1, k1 = 234, 2\n    rules1 = [(2, 5), (3, 6)]\n    assert generate_numbers(n1, rules1) == 4, \"Test case 1 failed\"\n\n    # Test case 2\n    n2, k2 = 123, 3\n    rules2 = [(1, 9), (2, 8), (3, 7)]\n    assert generate_numbers(n2, rules2) == 8, \"Test case 2 failed\"\n\n    # Test case 3\n    n3, k3 = 999, 1\n    rules3 = [(9, 1)]\n    assert generate_numbers(n3, rules3) == 8, \"Test case 3 failed\"\n\n    print(\"All test cases passed!\")\n\n# Call the test function\ntest_generate_numbers()",
+  "stop_tokens": [
+    "\ndef",
+    "\n#",
+    "\nif",
+    "\nclass"
+  ],
+  "results": [
+    {
+      "program": "from collections import deque\ndef generate_numbers(n, rules) -> int:\n    \"\"\"\n    Generate all unique numbers from the given number by applying transformation rules.\n\n    Each rule allows a single digit to be transformed into another. A breadth-first search\n    (BFS) is used to explore all possible transformations. The function returns the count\n    of unique numbers that can be generated from the original number, including the number itself.\n\n    Args:\n    - n (int): The original integer number to transform.\n    - rules (list of tuples): A list of transformation rules, where each rule is represented\n                              as a tuple (x, y) indicating that digit x can be transformed into y.\n\n    Returns:\n    - int: The total count of unique numbers that can be generated.\n\n    Cases:\n    >>> generate_numbers(234, [(2, 5), (3, 6)])\n    4\n    >>> generate_numbers(100, [(1, 9)])\n    2\n    \"\"\"\n    assert isinstance(n, int), 'n should be an integer'\n    assert isinstance(rules, list), 'rules should be a list'\n\n    queue = deque([str(n)])\n    generated_numbers = set([str(n)])\n\n    while queue:\n        number = queue.popleft()\n\n        for i in range(len(number)):\n            for rule in rules:\n                if number[i] == str(rule[0]):\n                    new_number = number[:i] + str(rule[1]) + number[i+1:]\n\n                    if new_number not in generated_numbers:\n                        queue.append(new_number)\n                        generated_numbers.add(new_number)\n\n    return len(generated_numbers)\ndef test_generate_numbers():\n    # Test case 1\n    n1, k1 = 234, 2\n    rules1 = [(2, 5), (3, 6)]\n    assert generate_numbers(n1, rules1) == 4, \"Test case 1 failed\"\n\n    # Test case 2\n    n2, k2 = 123, 3\n    rules2 = [(1, 9), (2, 8), (3, 7)]\n    assert generate_numbers(n2, rules2) == 8, \"Test case 2 failed\"\n\n    # Test case 3\n    n3, k3 = 999, 1\n    rules3 = [(9, 1)]\n    assert generate_numbers(n3, rules3) == 8, \"Test case 3 failed\"\n\n    print(\"All test cases passed!\")\n\n# Call the test function\ntest_generate_numbers()",
+      "timestamp": 1747013877,
+      "stdout": "All test cases passed!\n",
+      "stderr": "",
+      "exit_code": 0,
+      "status": "OK"
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+************* Module Python-29-gen0
+/home/saima/projects/NonFunc-AWQ/mcEval-py/codellama-13B-instruct-awq-4/completion/python-files/Python-29-gen0.py:9:0: C0301: Line too long (103/100) (line-too-long)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/codellama-13B-instruct-awq-4/completion/python-files/Python-29-gen0.py:37:0: C0304: Final newline missing (missing-final-newline)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/codellama-13B-instruct-awq-4/completion/python-files/Python-29-gen0.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/codellama-13B-instruct-awq-4/completion/python-files/Python-29-gen0.py:1:0: C0103: Module name "Python-29-gen0" doesn't conform to snake_case naming style (invalid-name)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/codellama-13B-instruct-awq-4/completion/python-files/Python-29-gen0.py:1:30: W0613: Unused argument 'k' (unused-argument)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/codellama-13B-instruct-awq-4/completion/python-files/Python-29-gen0.py:23:0: C0116: Missing function or method docstring (missing-function-docstring)
+
+------------------------------------------------------------------
+Your code has been rated at 2.50/10 (previous run: 0.91/10, +1.59)
+

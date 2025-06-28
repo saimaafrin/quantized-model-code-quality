@@ -1,0 +1,2 @@
+************* Module Python-8-gen0
+/home/saima/projects/NonFunc-AWQ/mcEval-py/codellama-34B-instruct-awq-6/completion/python-files/Python-8-gen0.py:67:0: E0001: Parsing failed: 'expected an indented block (Python-8-gen0, line 67)' (syntax-error)

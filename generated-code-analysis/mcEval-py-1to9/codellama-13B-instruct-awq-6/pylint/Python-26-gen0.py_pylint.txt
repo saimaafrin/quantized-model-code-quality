@@ -1,0 +1,17 @@
+************* Module Python-26-gen0
+/home/saima/projects/NonFunc-AWQ/mcEval-py/codellama-13B-instruct-awq-6/completion/python-files/Python-26-gen0.py:4:0: C0301: Line too long (123/100) (line-too-long)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/codellama-13B-instruct-awq-6/completion/python-files/Python-26-gen0.py:14:0: C0301: Line too long (106/100) (line-too-long)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/codellama-13B-instruct-awq-6/completion/python-files/Python-26-gen0.py:15:0: C0301: Line too long (105/100) (line-too-long)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/codellama-13B-instruct-awq-6/completion/python-files/Python-26-gen0.py:16:0: C0301: Line too long (111/100) (line-too-long)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/codellama-13B-instruct-awq-6/completion/python-files/Python-26-gen0.py:17:0: C0301: Line too long (106/100) (line-too-long)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/codellama-13B-instruct-awq-6/completion/python-files/Python-26-gen0.py:39:19: C0303: Trailing whitespace (trailing-whitespace)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/codellama-13B-instruct-awq-6/completion/python-files/Python-26-gen0.py:40:0: C0301: Line too long (116/100) (line-too-long)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/codellama-13B-instruct-awq-6/completion/python-files/Python-26-gen0.py:46:0: C0301: Line too long (101/100) (line-too-long)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/codellama-13B-instruct-awq-6/completion/python-files/Python-26-gen0.py:49:0: C0304: Final newline missing (missing-final-newline)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/codellama-13B-instruct-awq-6/completion/python-files/Python-26-gen0.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/codellama-13B-instruct-awq-6/completion/python-files/Python-26-gen0.py:1:0: C0103: Module name "Python-26-gen0" doesn't conform to snake_case naming style (invalid-name)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/codellama-13B-instruct-awq-6/completion/python-files/Python-26-gen0.py:36:0: C0116: Missing function or method docstring (missing-function-docstring)
+
+------------------------------------------------------------------
+Your code has been rated at 2.94/10 (previous run: 2.94/10, +0.00)
+

@@ -1,0 +1,25 @@
+{
+  "name": "Python-27",
+  "language": "py",
+  "temperature": 0.8,
+  "top_p": 0.95,
+  "max_tokens": 1024,
+  "prompt": "def preorder_traversal(inorder: str, postorder: str) -> str:\n    \"\"\"\n    Reconstructs the binary tree from its inorder and postorder traversals and\n    returns the preorder traversal as a string.\n\n    Args:\n    inorder (str): The inorder traversal of the binary tree.\n    postorder (str): The postorder traversal of the binary tree.\n\n    Returns:\n    str: The preorder traversal of the binary tree.\n\n    Example:\n    >>> preorder_traversal('BADC', 'BDCA')\n    'ABCD'\n    >>> preorder_traversal('A', 'A')\n    'A'\n    \"\"\"",
+  "tests": "def test_preorder_traversal():\n    # Test case 1\n    inorder1 = \"BADC\"\n    postorder1 = \"BDCA\"\n    expected_preorder1 = \"ABCD\"\n    assert preorder_traversal(inorder1, postorder1) == expected_preorder1\n    print(f\"Test case 1 passed. Preorder: {preorder_traversal(inorder1, postorder1)}\")\n\n    # Test case 2\n    inorder2 = \"DBGEACF\"\n    postorder2 = \"DGEBFCA\"\n    expected_preorder2 = \"ABDEGCF\"\n    assert preorder_traversal(inorder2, postorder2) == expected_preorder2\n    print(f\"Test case 2 passed. Preorder: {preorder_traversal(inorder2, postorder2)}\")\n\n    # Test case 3\n    inorder3 = \"A\"\n    postorder3 = \"A\"\n    expected_preorder3 = \"A\"\n    assert preorder_traversal(inorder3, postorder3) == expected_preorder3\n    print(f\"Test case 3 passed. Preorder: {preorder_traversal(inorder3, postorder3)}\")\n\n# Run the test function\ntest_preorder_traversal()",
+  "stop_tokens": [
+    "\ndef",
+    "\n#",
+    "\nif",
+    "\nclass"
+  ],
+  "results": [
+    {
+      "program": "def preorder_traversal(inorder: str, postorder: str) -> str:\n    \"\"\"\n    Reconstructs the binary tree from its inorder and postorder traversals and\n    returns the preorder traversal as a string.\n\n    Args:\n    inorder (str): The inorder traversal of the binary tree.\n    postorder (str): The postorder traversal of the binary tree.\n\n    Returns:\n    str: The preorder traversal of the binary tree.\n\n    Example:\n    >>> preorder_traversal('BADC', 'BDCA')\n    'ABCD'\n    >>> preorder_traversal('A', 'A')\n    'A'\n    \"\"\"\n\n    def helper(in_start, in_end, post_start, post_end):\n        if post_start > post_end:\n            return None\n\n        root = TreeNode(postorder[post_end])\n        index = index_map[root.val]\n\n        root.left = helper(in_start, index - 1, post_start, post_start + index - in_start - 1)\n        root.right = helper(index + 1, in_end, post_start + index - in_start, post\n                            start + index - in_start - 1)\n\n        return root\n\n    n = len(inorder)\n    index_map = {val:idx for idx, val in enumerate(inorder)}\n\n    return helper(0, n - 1, 0, n - 1)\ndef test_preorder_traversal():\n    # Test case 1\n    inorder1 = \"BADC\"\n    postorder1 = \"BDCA\"\n    expected_preorder1 = \"ABCD\"\n    assert preorder_traversal(inorder1, postorder1) == expected_preorder1\n    print(f\"Test case 1 passed. Preorder: {preorder_traversal(inorder1, postorder1)}\")\n\n    # Test case 2\n    inorder2 = \"DBGEACF\"\n    postorder2 = \"DGEBFCA\"\n    expected_preorder2 = \"ABDEGCF\"\n    assert preorder_traversal(inorder2, postorder2) == expected_preorder2\n    print(f\"Test case 2 passed. Preorder: {preorder_traversal(inorder2, postorder2)}\")\n\n    # Test case 3\n    inorder3 = \"A\"\n    postorder3 = \"A\"\n    expected_preorder3 = \"A\"\n    assert preorder_traversal(inorder3, postorder3) == expected_preorder3\n    print(f\"Test case 3 passed. Preorder: {preorder_traversal(inorder3, postorder3)}\")\n\n# Run the test function\ntest_preorder_traversal()",
+      "timestamp": 1747232125,
+      "stdout": "",
+      "stderr": "  File \"/tmp/tmp4fwkbsmv.py\", line 28\n    root.right = helper(index + 1, in_end, post_start + index - in_start, post\n                                                                          ^^^^\nSyntaxError: invalid syntax. Perhaps you forgot a comma?\n",
+      "exit_code": 1,
+      "status": "SyntaxError"
+    }
+  ]
+}

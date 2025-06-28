@@ -1,0 +1,25 @@
+{
+  "name": "Python-9",
+  "language": "py",
+  "temperature": 0.8,
+  "top_p": 0.95,
+  "max_tokens": 1024,
+  "prompt": "from itertools import permutations\n\ndef find_number_combinations():\n    \"\"\"\n    Generate all unique combinations of three numbers, each formed from the digits 1 to 9 without repetition,\n    such that the second number is twice the first and the third is three times the first.\n\n    Returns:\n        list of tuples: A sorted list of tuples, where each tuple contains three integers representing the\n                        valid number combinations in ascending order based on the first number.\n\n    Example:\n        >>> find_number_combinations()\n        [(123, 246, 369), (124, 248, 372), ...]\n    \"\"\"",
+  "tests": "def test_find_number_combinations():\n    # Call the function to get the combinations\n    combinations = find_number_combinations()\n\n    # Check that we have at least one valid combination\n    assert len(combinations) > 0, \"There should be at least one valid combination.\"\n\n    # Iterate over each combination to perform further checks\n    for combo in combinations:\n        # Each combination should have exactly three numbers\n        assert len(combo) == 3, \"Each combination should have three numbers.\"\n\n        # Check if numbers are 3-digit numbers\n        for num in combo:\n            assert 100 <= num <= 999, f\"Each number should be a 3-digit number, got {num}.\"\n\n        # Check the 1:2:3 ratio\n        assert combo[1] == 2 * combo[0] and combo[2] == 3 * combo[0], \"The numbers should be in a 1:2:3 ratio.\"\n\n    print(\"All test cases passed!\")\n\n# Run the test cases\ntest_find_number_combinations()",
+  "stop_tokens": [
+    "\ndef",
+    "\n#",
+    "\nif",
+    "\nclass"
+  ],
+  "results": [
+    {
+      "program": "from itertools import permutations\n\ndef find_number_combinations():\n    \"\"\"\n    Generate all unique combinations of three numbers, each formed from the digits 1 to 9 without repetition,\n    such that the second number is twice the first and the third is three times the first.\n\n    Returns:\n        list of tuples: A sorted list of tuples, where each tuple contains three integers representing the\n                        valid number combinations in ascending order based on the first number.\n\n    Example:\n        >>> find_number_combinations()\n        [(123, 246, 369), (124, 248, 372), ...]\n    \"\"\"\n    valid_combinations = []\n\n    # Generate all unique permutations of numbers from 1 to 9\n    for permutation in permutations(range(1, 10)):\n\n        # Select first number\n        first_number = permutation[0] * 100 + permutation[1] * 10 + permutation[2]\n\n        # Select second number\n        second_number = permutation[3] * 100 + permutation[4] * 10 + permutation[5]\n\n        # Select third number\n        third_number = permutation[6] * 100 + permutation[7] * 10 + permutation[8]\n\n        # If second number is twice the first number and third number is three times the first number\n        if second_number == 2 * first_number and third_number == 3 * first_number:\n\n            # Add combination to list\n            valid_combinations.append((first_number, second_number, third_number))\n\n    # Return list of valid combinations sorted in ascending order based on first number\n    return sorted(valid_combinations)\ndef test_find_number_combinations():\n    # Call the function to get the combinations\n    combinations = find_number_combinations()\n\n    # Check that we have at least one valid combination\n    assert len(combinations) > 0, \"There should be at least one valid combination.\"\n\n    # Iterate over each combination to perform further checks\n    for combo in combinations:\n        # Each combination should have exactly three numbers\n        assert len(combo) == 3, \"Each combination should have three numbers.\"\n\n        # Check if numbers are 3-digit numbers\n        for num in combo:\n            assert 100 <= num <= 999, f\"Each number should be a 3-digit number, got {num}.\"\n\n        # Check the 1:2:3 ratio\n        assert combo[1] == 2 * combo[0] and combo[2] == 3 * combo[0], \"The numbers should be in a 1:2:3 ratio.\"\n\n    print(\"All test cases passed!\")\n\n# Run the test cases\ntest_find_number_combinations()",
+      "timestamp": 1741611711,
+      "stdout": "All test cases passed!\n",
+      "stderr": "",
+      "exit_code": 0,
+      "status": "OK"
+    }
+  ]
+}

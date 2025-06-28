@@ -1,0 +1,22 @@
+************* Module Python-13-gen0
+/home/saima/projects/NonFunc-AWQ/mcEval-py/codellama-7B-instruct-awq-4/completion/python-files/Python-13-gen0.py:4:0: C0301: Line too long (123/100) (line-too-long)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/codellama-7B-instruct-awq-4/completion/python-files/Python-13-gen0.py:5:0: C0301: Line too long (157/100) (line-too-long)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/codellama-7B-instruct-awq-4/completion/python-files/Python-13-gen0.py:7:0: C0301: Line too long (135/100) (line-too-long)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/codellama-7B-instruct-awq-4/completion/python-files/Python-13-gen0.py:8:0: C0301: Line too long (156/100) (line-too-long)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/codellama-7B-instruct-awq-4/completion/python-files/Python-13-gen0.py:11:0: C0301: Line too long (126/100) (line-too-long)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/codellama-7B-instruct-awq-4/completion/python-files/Python-13-gen0.py:67:0: C0301: Line too long (186/100) (line-too-long)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/codellama-7B-instruct-awq-4/completion/python-files/Python-13-gen0.py:76:0: C0301: Line too long (186/100) (line-too-long)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/codellama-7B-instruct-awq-4/completion/python-files/Python-13-gen0.py:85:0: C0301: Line too long (186/100) (line-too-long)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/codellama-7B-instruct-awq-4/completion/python-files/Python-13-gen0.py:91:0: C0304: Final newline missing (missing-final-newline)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/codellama-7B-instruct-awq-4/completion/python-files/Python-13-gen0.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/codellama-7B-instruct-awq-4/completion/python-files/Python-13-gen0.py:1:0: C0103: Module name "Python-13-gen0" doesn't conform to snake_case naming style (invalid-name)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/codellama-7B-instruct-awq-4/completion/python-files/Python-13-gen0.py:32:8: R1705: Unnecessary "else" after "return", remove the "else" and de-indent the code inside it (no-else-return)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/codellama-7B-instruct-awq-4/completion/python-files/Python-13-gen0.py:39:12: R1705: Unnecessary "else" after "return", remove the "else" and de-indent the code inside it (no-else-return)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/codellama-7B-instruct-awq-4/completion/python-files/Python-13-gen0.py:50:8: R1705: Unnecessary "else" after "return", remove the "else" and de-indent the code inside it (no-else-return)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/codellama-7B-instruct-awq-4/completion/python-files/Python-13-gen0.py:2:0: R0911: Too many return statements (10/6) (too-many-return-statements)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/codellama-7B-instruct-awq-4/completion/python-files/Python-13-gen0.py:2:0: R0912: Too many branches (13/12) (too-many-branches)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/codellama-7B-instruct-awq-4/completion/python-files/Python-13-gen0.py:59:0: C0116: Missing function or method docstring (missing-function-docstring)
+
+------------------------------------------------------------------
+Your code has been rated at 6.14/10 (previous run: 6.57/10, -0.44)
+

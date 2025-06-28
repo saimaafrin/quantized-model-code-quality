@@ -1,0 +1,12 @@
+************* Module Python-17-gen0
+/home/saima/projects/NonFunc-AWQ/mcEval-py/deepseekcoder-1.3B-instruct-awq1/completion/python-files/Python-17-gen0.py:30:0: C0301: Line too long (142/100) (line-too-long)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/deepseekcoder-1.3B-instruct-awq1/completion/python-files/Python-17-gen0.py:45:0: C0301: Line too long (101/100) (line-too-long)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/deepseekcoder-1.3B-instruct-awq1/completion/python-files/Python-17-gen0.py:48:0: C0301: Line too long (113/100) (line-too-long)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/deepseekcoder-1.3B-instruct-awq1/completion/python-files/Python-17-gen0.py:53:0: C0304: Final newline missing (missing-final-newline)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/deepseekcoder-1.3B-instruct-awq1/completion/python-files/Python-17-gen0.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/deepseekcoder-1.3B-instruct-awq1/completion/python-files/Python-17-gen0.py:1:0: C0103: Module name "Python-17-gen0" doesn't conform to snake_case naming style (invalid-name)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/deepseekcoder-1.3B-instruct-awq1/completion/python-files/Python-17-gen0.py:28:0: C0116: Missing function or method docstring (missing-function-docstring)
+
+------------------------------------------------------------------
+Your code has been rated at 5.33/10 (previous run: 5.00/10, +0.33)
+

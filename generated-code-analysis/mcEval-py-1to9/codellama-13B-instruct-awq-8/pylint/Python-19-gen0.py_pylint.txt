@@ -1,0 +1,15 @@
+************* Module Python-19-gen0
+/home/saima/projects/NonFunc-AWQ/mcEval-py/codellama-13B-instruct-awq-8/completion/python-files/Python-19-gen0.py:21:0: C0301: Line too long (103/100) (line-too-long)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/codellama-13B-instruct-awq-8/completion/python-files/Python-19-gen0.py:32:0: C0301: Line too long (106/100) (line-too-long)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/codellama-13B-instruct-awq-8/completion/python-files/Python-19-gen0.py:33:0: C0301: Line too long (113/100) (line-too-long)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/codellama-13B-instruct-awq-8/completion/python-files/Python-19-gen0.py:34:0: C0301: Line too long (107/100) (line-too-long)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/codellama-13B-instruct-awq-8/completion/python-files/Python-19-gen0.py:51:0: C0301: Line too long (105/100) (line-too-long)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/codellama-13B-instruct-awq-8/completion/python-files/Python-19-gen0.py:64:0: C0304: Final newline missing (missing-final-newline)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/codellama-13B-instruct-awq-8/completion/python-files/Python-19-gen0.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/codellama-13B-instruct-awq-8/completion/python-files/Python-19-gen0.py:1:0: C0103: Module name "Python-19-gen0" doesn't conform to snake_case naming style (invalid-name)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/codellama-13B-instruct-awq-8/completion/python-files/Python-19-gen0.py:39:4: W0621: Redefining name 'max_energy' from outer scope (line 2) (redefined-outer-name)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/codellama-13B-instruct-awq-8/completion/python-files/Python-19-gen0.py:56:0: C0116: Missing function or method docstring (missing-function-docstring)
+
+------------------------------------------------------------------
+Your code has been rated at 4.12/10 (previous run: 6.43/10, -2.31)
+

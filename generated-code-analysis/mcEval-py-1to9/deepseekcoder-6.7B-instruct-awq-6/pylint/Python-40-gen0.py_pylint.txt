@@ -1,0 +1,11 @@
+************* Module Python-40-gen0
+/home/saima/projects/NonFunc-AWQ/mcEval-py/deepseekcoder-6.7B-instruct-awq-6/completion/python-files/Python-40-gen0.py:28:0: C0301: Line too long (109/100) (line-too-long)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/deepseekcoder-6.7B-instruct-awq-6/completion/python-files/Python-40-gen0.py:64:0: C0304: Final newline missing (missing-final-newline)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/deepseekcoder-6.7B-instruct-awq-6/completion/python-files/Python-40-gen0.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/deepseekcoder-6.7B-instruct-awq-6/completion/python-files/Python-40-gen0.py:1:0: C0103: Module name "Python-40-gen0" doesn't conform to snake_case naming style (invalid-name)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/deepseekcoder-6.7B-instruct-awq-6/completion/python-files/Python-40-gen0.py:25:4: W0612: Unused variable 'key_length' (unused-variable)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/deepseekcoder-6.7B-instruct-awq-6/completion/python-files/Python-40-gen0.py:30:0: C0116: Missing function or method docstring (missing-function-docstring)
+
+------------------------------------------------------------------
+Your code has been rated at 7.93/10 (previous run: 7.37/10, +0.56)
+

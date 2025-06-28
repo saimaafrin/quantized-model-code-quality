@@ -1,0 +1,80 @@
+from typing import List
+def min_remaining_space(V: int, n: int, volumes: List[int]) -> int:
+    """
+    Calculate the minimum remaining space in a box after trying to fit a number of items with given volumes.
+    
+    This function uses a dynamic programming approach to determine the maximum volume that can be occupied
+    in the box by any subset of the given items. It then returns the difference between the box's total capacity
+    and this maximum occupied volume, which is the minimum remaining space.
+
+    Args:
+    - V (int): The total capacity of the box.
+    - n (int): The number of items to consider for packing into the box.
+    - volumes (List[int]): A list of the volumes of the n items.
+
+    Returns:
+    - int: The minimum remaining space in the box after fitting the items.
+
+    Examples:
+    - min_remaining_space(24, 6, [8, 3, 12, 7, 9, 7]) -> 0
+    - min_remaining_space(5, 3, [6, 7, 8]) -> 5
+
+    """
+    # Create a matrix to store the maximum volume that can be occupied by any subset of items [1..j]
+    # of size j, where j is the number of items considered so far.
+    # Each cell will be indexed as dp[i][j].
+    dp = [[0 for _ in range(n+1)] for _ in range(V+1)]
+    
+    # Fill in the bottom row of the matrix with the volume of each item
+    for i in range(n+1):
+        dp[i][0] = volumes[i-1]
+    
+    # Fill in the leftmost column of the matrix with the maximum volume that can be occupied by any subset
+    # of size 0 (i.e. the empty subset)
+    for i in range(V+1):
+        dp[0][i] = 0
+    
+    # Fill in the rest of the matrix using the recurrence relation
+    for i in range(1, n+1):
+        for j in range(1, V+1):
+            # If the current item i does not fit in the box, use the maximum volume that can be occupied
+            # by any subset of size i-1
+            if dp[i-1][j] >= j:
+                dp[i][j] = dp[i-1][j]
+            # Otherwise, use the maximum of the maximum volume that can be occupied by any subset of size i-1
+            # and the volume of the current item i added to the maximum volume that can be occupied by any
+            # subset of size i-1 that does not include the current item i
+            else:
+                dp[i][j] = max(dp[i-1][j], dp[i-1][j-volumes[i-1]] + volumes[i-1])
+    
+    # Return the difference between the total capacity of the box and the maximum volume that can be occupied
+    # by any subset of the items
+    return V - dp[n][V]
+def test_min_remaining_space():
+    # Test case 1: Sample provided in the problem statement where all items can fit perfectly
+    V1, n1 = 24, 6
+    volumes1 = [8, 3, 12, 7, 9, 7]
+    expected1 = 0
+    assert min_remaining_space(V1, n1,
+                               volumes1) == expected1, f"Test case 1 failed: expected {expected1}, got {min_remaining_space(V1, n1, volumes1)}"
+
+    # Test case 2: Some space is expected to remain in the box
+    V2, n2 = 10, 4
+    volumes2 = [3, 5, 3, 2]
+    expected2 = 0  # Possible packing: 3, 5, and 3, leaves 2 units of space
+    assert min_remaining_space(V2, n2,
+                               volumes2) == expected2, f"Test case 2 failed: expected {expected2}, got {min_remaining_space(V2, n2, volumes2)}"
+
+    # Test case 3: No items can fit due to the items being larger than the box capacity
+    V3, n3 = 5, 3
+    volumes3 = [6, 7, 8]
+    expected3 = 5  # No items fit, so all 5 units of space remain
+    assert min_remaining_space(V3, n3,
+                               volumes3) == expected3, f"Test case 3 failed: expected {expected3}, got {min_remaining_space(V3, n3, volumes3)}"
+
+    # If all tests pass, print this:
+    print("All test cases passed!")
+
+
+# Run the test function
+test_min_remaining_space()

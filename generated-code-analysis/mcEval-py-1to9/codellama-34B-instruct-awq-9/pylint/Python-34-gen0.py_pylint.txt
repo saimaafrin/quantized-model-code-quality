@@ -1,0 +1,15 @@
+************* Module Python-34-gen0
+/home/saima/projects/NonFunc-AWQ/mcEval-py/codellama-34B-instruct-awq-9/completion/python-files/Python-34-gen0.py:5:0: C0301: Line too long (117/100) (line-too-long)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/codellama-34B-instruct-awq-9/completion/python-files/Python-34-gen0.py:6:0: C0301: Line too long (127/100) (line-too-long)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/codellama-34B-instruct-awq-9/completion/python-files/Python-34-gen0.py:7:0: C0301: Line too long (125/100) (line-too-long)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/codellama-34B-instruct-awq-9/completion/python-files/Python-34-gen0.py:42:0: C0301: Line too long (127/100) (line-too-long)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/codellama-34B-instruct-awq-9/completion/python-files/Python-34-gen0.py:47:0: C0301: Line too long (127/100) (line-too-long)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/codellama-34B-instruct-awq-9/completion/python-files/Python-34-gen0.py:52:0: C0301: Line too long (127/100) (line-too-long)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/codellama-34B-instruct-awq-9/completion/python-files/Python-34-gen0.py:57:0: C0304: Final newline missing (missing-final-newline)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/codellama-34B-instruct-awq-9/completion/python-files/Python-34-gen0.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/codellama-34B-instruct-awq-9/completion/python-files/Python-34-gen0.py:1:0: C0103: Module name "Python-34-gen0" doesn't conform to snake_case naming style (invalid-name)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/codellama-34B-instruct-awq-9/completion/python-files/Python-34-gen0.py:38:0: C0116: Missing function or method docstring (missing-function-docstring)
+
+------------------------------------------------------------------
+Your code has been rated at 5.00/10 (previous run: 4.74/10, +0.26)
+

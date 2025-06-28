@@ -1,0 +1,14 @@
+************* Module Python-18-gen0
+/home/saima/projects/NonFunc-AWQ/mcEval-py/codellama-7B-instruct-awq-3/completion/python-files/Python-18-gen0.py:31:0: C0301: Line too long (115/100) (line-too-long)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/codellama-7B-instruct-awq-3/completion/python-files/Python-18-gen0.py:54:0: C0304: Final newline missing (missing-final-newline)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/codellama-7B-instruct-awq-3/completion/python-files/Python-18-gen0.py:27:5: W0511: TODO: Implement the function here. (fixme)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/codellama-7B-instruct-awq-3/completion/python-files/Python-18-gen0.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/codellama-7B-instruct-awq-3/completion/python-files/Python-18-gen0.py:1:0: C0103: Module name "Python-18-gen0" doesn't conform to snake_case naming style (invalid-name)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/codellama-7B-instruct-awq-3/completion/python-files/Python-18-gen0.py:2:18: W0613: Unused argument 'n' (unused-argument)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/codellama-7B-instruct-awq-3/completion/python-files/Python-18-gen0.py:2:26: W0613: Unused argument 'm' (unused-argument)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/codellama-7B-instruct-awq-3/completion/python-files/Python-18-gen0.py:2:34: W0613: Unused argument 'items' (unused-argument)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/codellama-7B-instruct-awq-3/completion/python-files/Python-18-gen0.py:29:0: C0116: Missing function or method docstring (missing-function-docstring)
+
+------------------------------------------------------------------
+Your code has been rated at 3.08/10 (previous run: 2.31/10, +0.77)
+

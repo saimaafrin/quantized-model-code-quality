@@ -1,0 +1,27 @@
+************* Module Python-39-gen0
+/home/saima/projects/NonFunc-AWQ/mcEval-py/deepseekcoder-6.7B-instruct-awq/completion/python-files/Python-39-gen0.py:46:0: C0301: Line too long (142/100) (line-too-long)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/deepseekcoder-6.7B-instruct-awq/completion/python-files/Python-39-gen0.py:51:0: C0301: Line too long (142/100) (line-too-long)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/deepseekcoder-6.7B-instruct-awq/completion/python-files/Python-39-gen0.py:56:0: C0301: Line too long (142/100) (line-too-long)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/deepseekcoder-6.7B-instruct-awq/completion/python-files/Python-39-gen0.py:61:0: C0304: Final newline missing (missing-final-newline)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/deepseekcoder-6.7B-instruct-awq/completion/python-files/Python-39-gen0.py:19:5: W0511: TODO: Replace the following with your implementation. (fixme)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/deepseekcoder-6.7B-instruct-awq/completion/python-files/Python-39-gen0.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/deepseekcoder-6.7B-instruct-awq/completion/python-files/Python-39-gen0.py:1:0: C0103: Module name "Python-39-gen0" doesn't conform to snake_case naming style (invalid-name)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/deepseekcoder-6.7B-instruct-awq/completion/python-files/Python-39-gen0.py:1:27: C0103: Argument name "n" doesn't conform to snake_case naming style (invalid-name)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/deepseekcoder-6.7B-instruct-awq/completion/python-files/Python-39-gen0.py:1:30: C0103: Argument name "m" doesn't conform to snake_case naming style (invalid-name)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/deepseekcoder-6.7B-instruct-awq/completion/python-files/Python-39-gen0.py:1:33: C0103: Argument name "a" doesn't conform to snake_case naming style (invalid-name)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/deepseekcoder-6.7B-instruct-awq/completion/python-files/Python-39-gen0.py:29:11: C3001: Lambda expression assigned to a variable. Define a function using the "def" keyword instead. (unnecessary-lambda-assignment)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/deepseekcoder-6.7B-instruct-awq/completion/python-files/Python-39-gen0.py:30:4: C0103: Variable name "dp" doesn't conform to snake_case naming style (invalid-name)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/deepseekcoder-6.7B-instruct-awq/completion/python-files/Python-39-gen0.py:38:0: C0116: Missing function or method docstring (missing-function-docstring)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/deepseekcoder-6.7B-instruct-awq/completion/python-files/Python-39-gen0.py:44:4: C0103: Variable name "n" doesn't conform to snake_case naming style (invalid-name)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/deepseekcoder-6.7B-instruct-awq/completion/python-files/Python-39-gen0.py:44:7: C0103: Variable name "m" doesn't conform to snake_case naming style (invalid-name)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/deepseekcoder-6.7B-instruct-awq/completion/python-files/Python-39-gen0.py:44:10: C0103: Variable name "a" doesn't conform to snake_case naming style (invalid-name)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/deepseekcoder-6.7B-instruct-awq/completion/python-files/Python-39-gen0.py:49:4: C0103: Variable name "n" doesn't conform to snake_case naming style (invalid-name)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/deepseekcoder-6.7B-instruct-awq/completion/python-files/Python-39-gen0.py:49:7: C0103: Variable name "m" doesn't conform to snake_case naming style (invalid-name)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/deepseekcoder-6.7B-instruct-awq/completion/python-files/Python-39-gen0.py:49:10: C0103: Variable name "a" doesn't conform to snake_case naming style (invalid-name)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/deepseekcoder-6.7B-instruct-awq/completion/python-files/Python-39-gen0.py:54:4: C0103: Variable name "n" doesn't conform to snake_case naming style (invalid-name)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/deepseekcoder-6.7B-instruct-awq/completion/python-files/Python-39-gen0.py:54:7: C0103: Variable name "m" doesn't conform to snake_case naming style (invalid-name)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/deepseekcoder-6.7B-instruct-awq/completion/python-files/Python-39-gen0.py:54:10: C0103: Variable name "a" doesn't conform to snake_case naming style (invalid-name)
+
+------------------------------------------------------------------
+Your code has been rated at 3.53/10 (previous run: 3.53/10, +0.00)
+

@@ -1,0 +1,47 @@
+def find_min_n_greater_than_k(k: int) -> int:
+    """
+    Calculate the smallest positive integer n such that the sum of the harmonic series
+    up to 1/n is greater than a given positive integer k.
+
+    The harmonic series is defined as S_n = 1 + 1/2 + 1/3 + ... + 1/n.
+
+    Args:
+    - k (int): A positive integer representing the threshold value the harmonic series sum must exceed.
+
+    Returns:
+    - int: The smallest integer n for which the harmonic series sum S_n exceeds the threshold k.
+
+    Examples:
+    >>> find_min_n_greater_than_k(1)
+    2
+    >>> find_min_n_greater_than_k(3)
+    11
+    """
+
+    # Initialize an upper limit for the number of terms n in the harmonic series.
+    upper_bound = 10
+
+    # Loop while the sum of the harmonic series up to n is less than or equal to k.
+    while harmonic_series_sum(upper_bound) <= k:
+
+        # Double the upper bound to avoid an infinite loop.
+        upper_bound *= 2
+
+    # Once the loop is exited, the upper_bound is the smallest integer n such that the
+    # harmonic series sum exceeds k.
+    return upper_bound
+def test_find_min_n_greater_than_k():
+    # Test case 1: k = 1, expected result is 2
+
+    assert find_min_n_greater_than_k(1) == 2, "Test case 1 failed."
+
+    # Test case 2: k = 3, expected result is 11
+    assert find_min_n_greater_than_k(3) == 11, "Test case 2 failed."
+    # Test case 3: k = 5, expected result is 83
+    assert find_min_n_greater_than_k(5) == 83, "Test case 3 failed."
+
+    print("All test cases passed.")
+
+
+# Run the test function
+test_find_min_n_greater_than_k()

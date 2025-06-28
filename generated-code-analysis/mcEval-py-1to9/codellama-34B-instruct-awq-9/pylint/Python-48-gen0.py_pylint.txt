@@ -1,0 +1,16 @@
+************* Module Python-48-gen0
+/home/saima/projects/NonFunc-AWQ/mcEval-py/codellama-34B-instruct-awq-9/completion/python-files/Python-48-gen0.py:3:0: C0301: Line too long (120/100) (line-too-long)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/codellama-34B-instruct-awq-9/completion/python-files/Python-48-gen0.py:5:0: C0301: Line too long (109/100) (line-too-long)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/codellama-34B-instruct-awq-9/completion/python-files/Python-48-gen0.py:22:0: C0303: Trailing whitespace (trailing-whitespace)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/codellama-34B-instruct-awq-9/completion/python-files/Python-48-gen0.py:23:0: C0301: Line too long (147/100) (line-too-long)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/codellama-34B-instruct-awq-9/completion/python-files/Python-48-gen0.py:25:0: C0301: Line too long (134/100) (line-too-long)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/codellama-34B-instruct-awq-9/completion/python-files/Python-48-gen0.py:26:0: C0301: Line too long (120/100) (line-too-long)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/codellama-34B-instruct-awq-9/completion/python-files/Python-48-gen0.py:53:0: C0304: Final newline missing (missing-final-newline)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/codellama-34B-instruct-awq-9/completion/python-files/Python-48-gen0.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/codellama-34B-instruct-awq-9/completion/python-files/Python-48-gen0.py:1:0: C0103: Module name "Python-48-gen0" doesn't conform to snake_case naming style (invalid-name)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/codellama-34B-instruct-awq-9/completion/python-files/Python-48-gen0.py:27:11: E0602: Undefined variable 'math' (undefined-variable)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/codellama-34B-instruct-awq-9/completion/python-files/Python-48-gen0.py:28:0: C0116: Missing function or method docstring (missing-function-docstring)
+
+------------------------------------------------------------------
+Your code has been rated at 2.50/10 (previous run: 6.33/10, -3.83)
+

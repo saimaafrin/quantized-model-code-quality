@@ -1,0 +1,16 @@
+************* Module Python-8-gen0
+/home/saima/projects/NonFunc-AWQ/mcEval-py/deepseekcoder-33B-instruct-awq-3/completion/python-files/Python-8-gen0.py:55:0: C0303: Trailing whitespace (trailing-whitespace)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/deepseekcoder-33B-instruct-awq-3/completion/python-files/Python-8-gen0.py:65:0: C0304: Final newline missing (missing-final-newline)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/deepseekcoder-33B-instruct-awq-3/completion/python-files/Python-8-gen0.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/deepseekcoder-33B-instruct-awq-3/completion/python-files/Python-8-gen0.py:1:0: C0103: Module name "Python-8-gen0" doesn't conform to snake_case naming style (invalid-name)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/deepseekcoder-33B-instruct-awq-3/completion/python-files/Python-8-gen0.py:3:23: C0103: Argument name "N" doesn't conform to snake_case naming style (invalid-name)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/deepseekcoder-33B-instruct-awq-3/completion/python-files/Python-8-gen0.py:3:0: R0914: Too many local variables (16/15) (too-many-locals)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/deepseekcoder-33B-instruct-awq-3/completion/python-files/Python-8-gen0.py:29:4: C0103: Variable name "MAX_N" doesn't conform to snake_case naming style (invalid-name)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/deepseekcoder-33B-instruct-awq-3/completion/python-files/Python-8-gen0.py:30:4: C0103: Variable name "MAX_VAL" doesn't conform to snake_case naming style (invalid-name)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/deepseekcoder-33B-instruct-awq-3/completion/python-files/Python-8-gen0.py:31:4: C0103: Variable name "INF" doesn't conform to snake_case naming style (invalid-name)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/deepseekcoder-33B-instruct-awq-3/completion/python-files/Python-8-gen0.py:30:4: W0612: Unused variable 'MAX_VAL' (unused-variable)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/deepseekcoder-33B-instruct-awq-3/completion/python-files/Python-8-gen0.py:52:0: C0116: Missing function or method docstring (missing-function-docstring)
+
+------------------------------------------------------------------
+Your code has been rated at 5.77/10 (previous run: 7.50/10, -1.73)
+

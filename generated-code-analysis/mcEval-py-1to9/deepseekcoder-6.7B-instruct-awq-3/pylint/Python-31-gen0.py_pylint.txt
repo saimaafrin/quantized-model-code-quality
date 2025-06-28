@@ -1,0 +1,12 @@
+************* Module Python-31-gen0
+/home/saima/projects/NonFunc-AWQ/mcEval-py/deepseekcoder-6.7B-instruct-awq-3/completion/python-files/Python-31-gen0.py:58:0: C0304: Final newline missing (missing-final-newline)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/deepseekcoder-6.7B-instruct-awq-3/completion/python-files/Python-31-gen0.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/deepseekcoder-6.7B-instruct-awq-3/completion/python-files/Python-31-gen0.py:1:0: C0103: Module name "Python-31-gen0" doesn't conform to snake_case naming style (invalid-name)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/deepseekcoder-6.7B-instruct-awq-3/completion/python-files/Python-31-gen0.py:39:0: C0116: Missing function or method docstring (missing-function-docstring)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/deepseekcoder-6.7B-instruct-awq-3/completion/python-files/Python-31-gen0.py:41:8: W0612: Unused variable 'k1' (unused-variable)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/deepseekcoder-6.7B-instruct-awq-3/completion/python-files/Python-31-gen0.py:46:8: W0612: Unused variable 'k2' (unused-variable)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/deepseekcoder-6.7B-instruct-awq-3/completion/python-files/Python-31-gen0.py:51:8: W0612: Unused variable 'k3' (unused-variable)
+
+------------------------------------------------------------------
+Your code has been rated at 7.59/10 (previous run: 7.74/10, -0.16)
+

@@ -1,0 +1,2 @@
+************* Module Python-15-gen0
+/home/saima/projects/NonFunc-AWQ/mcEval-py/codellama-13B-instruct-awq-6/completion/python-files/Python-15-gen0.py:83:15: E0001: Parsing failed: 'invalid syntax (Python-15-gen0, line 83)' (syntax-error)

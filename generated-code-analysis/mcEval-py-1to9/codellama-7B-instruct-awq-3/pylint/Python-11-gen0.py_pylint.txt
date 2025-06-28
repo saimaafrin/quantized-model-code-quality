@@ -1,0 +1,13 @@
+************* Module Python-11-gen0
+/home/saima/projects/NonFunc-AWQ/mcEval-py/codellama-7B-instruct-awq-3/completion/python-files/Python-11-gen0.py:45:0: C0304: Final newline missing (missing-final-newline)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/codellama-7B-instruct-awq-3/completion/python-files/Python-11-gen0.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/codellama-7B-instruct-awq-3/completion/python-files/Python-11-gen0.py:1:0: C0103: Module name "Python-11-gen0" doesn't conform to snake_case naming style (invalid-name)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/codellama-7B-instruct-awq-3/completion/python-files/Python-11-gen0.py:1:21: C0103: Argument name "N" doesn't conform to snake_case naming style (invalid-name)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/codellama-7B-instruct-awq-3/completion/python-files/Python-11-gen0.py:15:12: E0602: Undefined variable 'math' (undefined-variable)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/codellama-7B-instruct-awq-3/completion/python-files/Python-11-gen0.py:16:12: E0602: Undefined variable 'math' (undefined-variable)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/codellama-7B-instruct-awq-3/completion/python-files/Python-11-gen0.py:20:4: R1705: Unnecessary "elif" after "return", remove the leading "el" from "elif" (no-else-return)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/codellama-7B-instruct-awq-3/completion/python-files/Python-11-gen0.py:28:0: C0116: Missing function or method docstring (missing-function-docstring)
+
+------------------------------------------------------------------
+Your code has been rated at 1.11/10 (previous run: 6.15/10, -5.04)
+

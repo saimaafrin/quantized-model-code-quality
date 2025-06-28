@@ -1,0 +1,13 @@
+************* Module Python-39-gen0
+/home/saima/projects/NonFunc-AWQ/mcEval-py/codellama-7B-instruct-awq-5/completion/python-files/Python-39-gen0.py:28:0: C0301: Line too long (102/100) (line-too-long)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/codellama-7B-instruct-awq-5/completion/python-files/Python-39-gen0.py:83:0: C0301: Line too long (142/100) (line-too-long)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/codellama-7B-instruct-awq-5/completion/python-files/Python-39-gen0.py:88:0: C0301: Line too long (142/100) (line-too-long)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/codellama-7B-instruct-awq-5/completion/python-files/Python-39-gen0.py:93:0: C0301: Line too long (142/100) (line-too-long)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/codellama-7B-instruct-awq-5/completion/python-files/Python-39-gen0.py:98:0: C0304: Final newline missing (missing-final-newline)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/codellama-7B-instruct-awq-5/completion/python-files/Python-39-gen0.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/codellama-7B-instruct-awq-5/completion/python-files/Python-39-gen0.py:1:0: C0103: Module name "Python-39-gen0" doesn't conform to snake_case naming style (invalid-name)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/codellama-7B-instruct-awq-5/completion/python-files/Python-39-gen0.py:75:0: C0116: Missing function or method docstring (missing-function-docstring)
+
+-----------------------------------
+Your code has been rated at 7.78/10
+

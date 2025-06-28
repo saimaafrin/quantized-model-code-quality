@@ -1,0 +1,25 @@
+************* Module Python-37-gen0
+/home/saima/projects/NonFunc-AWQ/mcEval-py/codellama-13B-instruct-awq-1/completion/python-files/Python-37-gen0.py:1:30: C0303: Trailing whitespace (trailing-whitespace)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/codellama-13B-instruct-awq-1/completion/python-files/Python-37-gen0.py:31:0: C0301: Line too long (129/100) (line-too-long)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/codellama-13B-instruct-awq-1/completion/python-files/Python-37-gen0.py:38:0: C0301: Line too long (129/100) (line-too-long)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/codellama-13B-instruct-awq-1/completion/python-files/Python-37-gen0.py:45:0: C0301: Line too long (129/100) (line-too-long)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/codellama-13B-instruct-awq-1/completion/python-files/Python-37-gen0.py:49:0: C0304: Final newline missing (missing-final-newline)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/codellama-13B-instruct-awq-1/completion/python-files/Python-37-gen0.py:23:5: W0511: TODO: Replace with your code (fixme)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/codellama-13B-instruct-awq-1/completion/python-files/Python-37-gen0.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/codellama-13B-instruct-awq-1/completion/python-files/Python-37-gen0.py:1:0: C0103: Module name "Python-37-gen0" doesn't conform to snake_case naming style (invalid-name)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/codellama-13B-instruct-awq-1/completion/python-files/Python-37-gen0.py:2:19: C0103: Argument name "T" doesn't conform to snake_case naming style (invalid-name)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/codellama-13B-instruct-awq-1/completion/python-files/Python-37-gen0.py:2:27: C0103: Argument name "M" doesn't conform to snake_case naming style (invalid-name)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/codellama-13B-instruct-awq-1/completion/python-files/Python-37-gen0.py:2:19: W0613: Unused argument 'T' (unused-argument)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/codellama-13B-instruct-awq-1/completion/python-files/Python-37-gen0.py:2:27: W0613: Unused argument 'M' (unused-argument)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/codellama-13B-instruct-awq-1/completion/python-files/Python-37-gen0.py:2:35: W0613: Unused argument 'herbs' (unused-argument)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/codellama-13B-instruct-awq-1/completion/python-files/Python-37-gen0.py:25:0: C0116: Missing function or method docstring (missing-function-docstring)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/codellama-13B-instruct-awq-1/completion/python-files/Python-37-gen0.py:27:4: C0103: Variable name "T1" doesn't conform to snake_case naming style (invalid-name)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/codellama-13B-instruct-awq-1/completion/python-files/Python-37-gen0.py:27:8: C0103: Variable name "M1" doesn't conform to snake_case naming style (invalid-name)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/codellama-13B-instruct-awq-1/completion/python-files/Python-37-gen0.py:34:4: C0103: Variable name "T2" doesn't conform to snake_case naming style (invalid-name)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/codellama-13B-instruct-awq-1/completion/python-files/Python-37-gen0.py:34:8: C0103: Variable name "M2" doesn't conform to snake_case naming style (invalid-name)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/codellama-13B-instruct-awq-1/completion/python-files/Python-37-gen0.py:41:4: C0103: Variable name "T3" doesn't conform to snake_case naming style (invalid-name)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/codellama-13B-instruct-awq-1/completion/python-files/Python-37-gen0.py:41:8: C0103: Variable name "M3" doesn't conform to snake_case naming style (invalid-name)
+
+------------------------------------------------------------------
+Your code has been rated at 0.00/10 (previous run: 3.60/10, -3.60)
+

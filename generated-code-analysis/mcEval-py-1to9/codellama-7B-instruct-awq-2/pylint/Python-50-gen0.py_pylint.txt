@@ -1,0 +1,9 @@
+************* Module Python-50-gen0
+/home/saima/projects/NonFunc-AWQ/mcEval-py/codellama-7B-instruct-awq-2/completion/python-files/Python-50-gen0.py:21:0: C0301: Line too long (102/100) (line-too-long)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/codellama-7B-instruct-awq-2/completion/python-files/Python-50-gen0.py:23:0: C0304: Final newline missing (missing-final-newline)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/codellama-7B-instruct-awq-2/completion/python-files/Python-50-gen0.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/codellama-7B-instruct-awq-2/completion/python-files/Python-50-gen0.py:1:0: C0103: Module name "Python-50-gen0" doesn't conform to snake_case naming style (invalid-name)
+
+------------------------------------------------------------------
+Your code has been rated at 6.36/10 (previous run: 3.75/10, +2.61)
+

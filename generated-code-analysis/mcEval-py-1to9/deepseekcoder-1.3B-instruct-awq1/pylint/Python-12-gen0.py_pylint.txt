@@ -1,0 +1,24 @@
+************* Module Python-12-gen0
+/home/saima/projects/NonFunc-AWQ/mcEval-py/deepseekcoder-1.3B-instruct-awq1/completion/python-files/Python-12-gen0.py:8:0: C0301: Line too long (143/100) (line-too-long)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/deepseekcoder-1.3B-instruct-awq1/completion/python-files/Python-12-gen0.py:43:0: C0301: Line too long (135/100) (line-too-long)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/deepseekcoder-1.3B-instruct-awq1/completion/python-files/Python-12-gen0.py:51:0: C0301: Line too long (135/100) (line-too-long)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/deepseekcoder-1.3B-instruct-awq1/completion/python-files/Python-12-gen0.py:59:0: C0301: Line too long (135/100) (line-too-long)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/deepseekcoder-1.3B-instruct-awq1/completion/python-files/Python-12-gen0.py:63:0: C0304: Final newline missing (missing-final-newline)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/deepseekcoder-1.3B-instruct-awq1/completion/python-files/Python-12-gen0.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/deepseekcoder-1.3B-instruct-awq1/completion/python-files/Python-12-gen0.py:1:0: C0103: Module name "Python-12-gen0" doesn't conform to snake_case naming style (invalid-name)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/deepseekcoder-1.3B-instruct-awq1/completion/python-files/Python-12-gen0.py:1:30: C0103: Argument name "N" doesn't conform to snake_case naming style (invalid-name)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/deepseekcoder-1.3B-instruct-awq1/completion/python-files/Python-12-gen0.py:1:38: C0103: Argument name "K" doesn't conform to snake_case naming style (invalid-name)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/deepseekcoder-1.3B-instruct-awq1/completion/python-files/Python-12-gen0.py:11:35: C0103: Argument name "N" doesn't conform to snake_case naming style (invalid-name)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/deepseekcoder-1.3B-instruct-awq1/completion/python-files/Python-12-gen0.py:11:43: C0103: Argument name "K" doesn't conform to snake_case naming style (invalid-name)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/deepseekcoder-1.3B-instruct-awq1/completion/python-files/Python-12-gen0.py:11:43: W0613: Unused argument 'K' (unused-argument)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/deepseekcoder-1.3B-instruct-awq1/completion/python-files/Python-12-gen0.py:36:0: C0116: Missing function or method docstring (missing-function-docstring)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/deepseekcoder-1.3B-instruct-awq1/completion/python-files/Python-12-gen0.py:39:4: C0103: Variable name "N1" doesn't conform to snake_case naming style (invalid-name)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/deepseekcoder-1.3B-instruct-awq1/completion/python-files/Python-12-gen0.py:40:4: C0103: Variable name "K1" doesn't conform to snake_case naming style (invalid-name)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/deepseekcoder-1.3B-instruct-awq1/completion/python-files/Python-12-gen0.py:47:4: C0103: Variable name "N2" doesn't conform to snake_case naming style (invalid-name)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/deepseekcoder-1.3B-instruct-awq1/completion/python-files/Python-12-gen0.py:48:4: C0103: Variable name "K2" doesn't conform to snake_case naming style (invalid-name)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/deepseekcoder-1.3B-instruct-awq1/completion/python-files/Python-12-gen0.py:55:4: C0103: Variable name "N3" doesn't conform to snake_case naming style (invalid-name)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/deepseekcoder-1.3B-instruct-awq1/completion/python-files/Python-12-gen0.py:56:4: C0103: Variable name "K3" doesn't conform to snake_case naming style (invalid-name)
+
+------------------------------------------------------------------
+Your code has been rated at 5.00/10 (previous run: 0.00/10, +5.00)
+

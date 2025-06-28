@@ -1,0 +1,11 @@
+************* Module Python-11-gen0
+/home/saima/projects/NonFunc-AWQ/mcEval-py/codellama-13B-instruct-awq-4/completion/python-files/Python-11-gen0.py:51:0: C0304: Final newline missing (missing-final-newline)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/codellama-13B-instruct-awq-4/completion/python-files/Python-11-gen0.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/codellama-13B-instruct-awq-4/completion/python-files/Python-11-gen0.py:1:0: C0103: Module name "Python-11-gen0" doesn't conform to snake_case naming style (invalid-name)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/codellama-13B-instruct-awq-4/completion/python-files/Python-11-gen0.py:1:21: C0103: Argument name "N" doesn't conform to snake_case naming style (invalid-name)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/codellama-13B-instruct-awq-4/completion/python-files/Python-11-gen0.py:24:12: R1705: Unnecessary "else" after "return", remove the "else" and de-indent the code inside it (no-else-return)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/codellama-13B-instruct-awq-4/completion/python-files/Python-11-gen0.py:34:0: C0116: Missing function or method docstring (missing-function-docstring)
+
+------------------------------------------------------------------
+Your code has been rated at 6.47/10 (previous run: 7.27/10, -0.80)
+

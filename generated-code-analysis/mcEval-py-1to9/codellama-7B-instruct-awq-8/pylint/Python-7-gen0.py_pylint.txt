@@ -1,0 +1,13 @@
+************* Module Python-7-gen0
+/home/saima/projects/NonFunc-AWQ/mcEval-py/codellama-7B-instruct-awq-8/completion/python-files/Python-7-gen0.py:38:0: C0301: Line too long (104/100) (line-too-long)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/codellama-7B-instruct-awq-8/completion/python-files/Python-7-gen0.py:50:0: C0304: Final newline missing (missing-final-newline)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/codellama-7B-instruct-awq-8/completion/python-files/Python-7-gen0.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/codellama-7B-instruct-awq-8/completion/python-files/Python-7-gen0.py:1:0: C0103: Module name "Python-7-gen0" doesn't conform to snake_case naming style (invalid-name)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/codellama-7B-instruct-awq-8/completion/python-files/Python-7-gen0.py:1:24: W0613: Unused argument 'n' (unused-argument)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/codellama-7B-instruct-awq-8/completion/python-files/Python-7-gen0.py:1:27: W0613: Unused argument 'carpets' (unused-argument)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/codellama-7B-instruct-awq-8/completion/python-files/Python-7-gen0.py:1:36: W0613: Unused argument 'point' (unused-argument)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/codellama-7B-instruct-awq-8/completion/python-files/Python-7-gen0.py:24:0: C0116: Missing function or method docstring (missing-function-docstring)
+
+------------------------------------------------------------------
+Your code has been rated at 3.33/10 (previous run: 6.47/10, -3.14)
+

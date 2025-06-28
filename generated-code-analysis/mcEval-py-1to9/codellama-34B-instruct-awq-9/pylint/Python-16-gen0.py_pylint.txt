@@ -1,0 +1,10 @@
+************* Module Python-16-gen0
+/home/saima/projects/NonFunc-AWQ/mcEval-py/codellama-34B-instruct-awq-9/completion/python-files/Python-16-gen0.py:68:0: C0301: Line too long (126/100) (line-too-long)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/codellama-34B-instruct-awq-9/completion/python-files/Python-16-gen0.py:72:0: C0304: Final newline missing (missing-final-newline)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/codellama-34B-instruct-awq-9/completion/python-files/Python-16-gen0.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/codellama-34B-instruct-awq-9/completion/python-files/Python-16-gen0.py:1:0: C0103: Module name "Python-16-gen0" doesn't conform to snake_case naming style (invalid-name)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/codellama-34B-instruct-awq-9/completion/python-files/Python-16-gen0.py:44:0: C0116: Missing function or method docstring (missing-function-docstring)
+
+------------------------------------------------------------------
+Your code has been rated at 8.08/10 (previous run: 7.50/10, +0.58)
+

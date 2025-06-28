@@ -1,0 +1,20 @@
+************* Module Python-38-gen0
+/home/saima/projects/NonFunc-AWQ/mcEval-py/codellama-34B-instruct-awq-2/completion/python-files/Python-38-gen0.py:4:0: C0301: Line too long (108/100) (line-too-long)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/codellama-34B-instruct-awq-2/completion/python-files/Python-38-gen0.py:6:0: C0301: Line too long (106/100) (line-too-long)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/codellama-34B-instruct-awq-2/completion/python-files/Python-38-gen0.py:7:0: C0301: Line too long (112/100) (line-too-long)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/codellama-34B-instruct-awq-2/completion/python-files/Python-38-gen0.py:54:0: C0301: Line too long (106/100) (line-too-long)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/codellama-34B-instruct-awq-2/completion/python-files/Python-38-gen0.py:62:0: C0301: Line too long (143/100) (line-too-long)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/codellama-34B-instruct-awq-2/completion/python-files/Python-38-gen0.py:69:0: C0301: Line too long (143/100) (line-too-long)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/codellama-34B-instruct-awq-2/completion/python-files/Python-38-gen0.py:76:0: C0301: Line too long (143/100) (line-too-long)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/codellama-34B-instruct-awq-2/completion/python-files/Python-38-gen0.py:83:0: C0304: Final newline missing (missing-final-newline)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/codellama-34B-instruct-awq-2/completion/python-files/Python-38-gen0.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/codellama-34B-instruct-awq-2/completion/python-files/Python-38-gen0.py:1:0: C0103: Module name "Python-38-gen0" doesn't conform to snake_case naming style (invalid-name)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/codellama-34B-instruct-awq-2/completion/python-files/Python-38-gen0.py:2:24: C0103: Argument name "V" doesn't conform to snake_case naming style (invalid-name)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/codellama-34B-instruct-awq-2/completion/python-files/Python-38-gen0.py:56:0: C0116: Missing function or method docstring (missing-function-docstring)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/codellama-34B-instruct-awq-2/completion/python-files/Python-38-gen0.py:58:4: C0103: Variable name "V1" doesn't conform to snake_case naming style (invalid-name)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/codellama-34B-instruct-awq-2/completion/python-files/Python-38-gen0.py:65:4: C0103: Variable name "V2" doesn't conform to snake_case naming style (invalid-name)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/codellama-34B-instruct-awq-2/completion/python-files/Python-38-gen0.py:72:4: C0103: Variable name "V3" doesn't conform to snake_case naming style (invalid-name)
+
+------------------------------------------------------------------
+Your code has been rated at 4.00/10 (previous run: 4.17/10, -0.17)
+

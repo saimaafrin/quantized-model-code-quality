@@ -1,0 +1,17 @@
+************* Module Python-31-gen0
+/home/saima/projects/NonFunc-AWQ/mcEval-py/deepseekcoder-1.3B-instruct-awq1/completion/python-files/Python-31-gen0.py:63:0: C0304: Final newline missing (missing-final-newline)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/deepseekcoder-1.3B-instruct-awq1/completion/python-files/Python-31-gen0.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/deepseekcoder-1.3B-instruct-awq1/completion/python-files/Python-31-gen0.py:1:0: C0103: Module name "Python-31-gen0" doesn't conform to snake_case naming style (invalid-name)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/deepseekcoder-1.3B-instruct-awq1/completion/python-files/Python-31-gen0.py:24:17: C3001: Lambda expression assigned to a variable. Define a function using the "def" keyword instead. (unnecessary-lambda-assignment)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/deepseekcoder-1.3B-instruct-awq1/completion/python-files/Python-31-gen0.py:25:17: C3001: Lambda expression assigned to a variable. Define a function using the "def" keyword instead. (unnecessary-lambda-assignment)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/deepseekcoder-1.3B-instruct-awq1/completion/python-files/Python-31-gen0.py:25:17: W0108: Lambda may not be necessary (unnecessary-lambda)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/deepseekcoder-1.3B-instruct-awq1/completion/python-files/Python-31-gen0.py:26:15: C3001: Lambda expression assigned to a variable. Define a function using the "def" keyword instead. (unnecessary-lambda-assignment)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/deepseekcoder-1.3B-instruct-awq1/completion/python-files/Python-31-gen0.py:26:33: E1101: Function '<lambda>' has no 'has_key' member (no-member)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/deepseekcoder-1.3B-instruct-awq1/completion/python-files/Python-31-gen0.py:44:0: C0116: Missing function or method docstring (missing-function-docstring)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/deepseekcoder-1.3B-instruct-awq1/completion/python-files/Python-31-gen0.py:46:8: W0612: Unused variable 'k1' (unused-variable)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/deepseekcoder-1.3B-instruct-awq1/completion/python-files/Python-31-gen0.py:51:8: W0612: Unused variable 'k2' (unused-variable)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/deepseekcoder-1.3B-instruct-awq1/completion/python-files/Python-31-gen0.py:56:8: W0612: Unused variable 'k3' (unused-variable)
+
+------------------------------------------------------------------
+Your code has been rated at 4.67/10 (previous run: 8.06/10, -3.39)
+

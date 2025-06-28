@@ -1,0 +1,2 @@
+************* Module Python-49-gen0
+/home/saima/projects/NonFunc-AWQ/mcEval-py/deepseekcoder-6.7B-instruct-awq-7/completion/python-files/Python-49-gen0.py:37:104: E0001: Parsing failed: 'keyword argument repeated (Python-49-gen0, line 37)' (syntax-error)

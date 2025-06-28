@@ -1,0 +1,25 @@
+************* Module Python-32-gen0
+/home/saima/projects/NonFunc-AWQ/mcEval-py/codellama-34B-instruct-awq-2/completion/python-files/Python-32-gen0.py:3:0: C0301: Line too long (112/100) (line-too-long)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/codellama-34B-instruct-awq-2/completion/python-files/Python-32-gen0.py:5:0: C0301: Line too long (108/100) (line-too-long)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/codellama-34B-instruct-awq-2/completion/python-files/Python-32-gen0.py:6:0: C0301: Line too long (106/100) (line-too-long)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/codellama-34B-instruct-awq-2/completion/python-files/Python-32-gen0.py:12:0: C0301: Line too long (104/100) (line-too-long)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/codellama-34B-instruct-awq-2/completion/python-files/Python-32-gen0.py:19:0: C0301: Line too long (151/100) (line-too-long)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/codellama-34B-instruct-awq-2/completion/python-files/Python-32-gen0.py:73:0: C0301: Line too long (104/100) (line-too-long)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/codellama-34B-instruct-awq-2/completion/python-files/Python-32-gen0.py:84:0: C0301: Line too long (102/100) (line-too-long)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/codellama-34B-instruct-awq-2/completion/python-files/Python-32-gen0.py:94:0: C0301: Line too long (122/100) (line-too-long)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/codellama-34B-instruct-awq-2/completion/python-files/Python-32-gen0.py:104:0: C0301: Line too long (122/100) (line-too-long)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/codellama-34B-instruct-awq-2/completion/python-files/Python-32-gen0.py:114:0: C0301: Line too long (122/100) (line-too-long)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/codellama-34B-instruct-awq-2/completion/python-files/Python-32-gen0.py:119:0: C0304: Final newline missing (missing-final-newline)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/codellama-34B-instruct-awq-2/completion/python-files/Python-32-gen0.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/codellama-34B-instruct-awq-2/completion/python-files/Python-32-gen0.py:1:0: C0103: Module name "Python-32-gen0" doesn't conform to snake_case naming style (invalid-name)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/codellama-34B-instruct-awq-2/completion/python-files/Python-32-gen0.py:38:16: R0916: Too many boolean expressions in if statement (8/5) (too-many-boolean-expressions)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/codellama-34B-instruct-awq-2/completion/python-files/Python-32-gen0.py:1:0: R0911: Too many return statements (8/6) (too-many-return-statements)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/codellama-34B-instruct-awq-2/completion/python-files/Python-32-gen0.py:1:0: R0912: Too many branches (23/12) (too-many-branches)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/codellama-34B-instruct-awq-2/completion/python-files/Python-32-gen0.py:82:0: C0116: Missing function or method docstring (missing-function-docstring)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/codellama-34B-instruct-awq-2/completion/python-files/Python-32-gen0.py:94:11: C0121: Comparison 'check_scenario(scenario_test1, liar_count_test1, statements_test1, days_of_week) == False' should be 'check_scenario(scenario_test1, liar_count_test1, statements_test1, days_of_week) is False' if checking for the singleton value False, or 'not check_scenario(scenario_test1, liar_count_test1, statements_test1, days_of_week)' if testing for falsiness (singleton-comparison)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/codellama-34B-instruct-awq-2/completion/python-files/Python-32-gen0.py:104:11: C0121: Comparison 'check_scenario(scenario_test2, liar_count_test2, statements_test2, days_of_week) == False' should be 'check_scenario(scenario_test2, liar_count_test2, statements_test2, days_of_week) is False' if checking for the singleton value False, or 'not check_scenario(scenario_test2, liar_count_test2, statements_test2, days_of_week)' if testing for falsiness (singleton-comparison)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/codellama-34B-instruct-awq-2/completion/python-files/Python-32-gen0.py:114:11: C0121: Comparison 'check_scenario(scenario_test3, liar_count_test3, statements_test3, days_of_week) == False' should be 'check_scenario(scenario_test3, liar_count_test3, statements_test3, days_of_week) is False' if checking for the singleton value False, or 'not check_scenario(scenario_test3, liar_count_test3, statements_test3, days_of_week)' if testing for falsiness (singleton-comparison)
+
+------------------------------------------------------------------
+Your code has been rated at 5.92/10 (previous run: 1.92/10, +4.00)
+

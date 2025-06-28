@@ -1,0 +1,12 @@
+************* Module Python-46-gen0
+/home/saima/projects/NonFunc-AWQ/mcEval-py/codellama-13B-instruct-awq-8/completion/python-files/Python-46-gen0.py:16:0: C0301: Line too long (105/100) (line-too-long)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/codellama-13B-instruct-awq-8/completion/python-files/Python-46-gen0.py:36:0: C0304: Final newline missing (missing-final-newline)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/codellama-13B-instruct-awq-8/completion/python-files/Python-46-gen0.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/codellama-13B-instruct-awq-8/completion/python-files/Python-46-gen0.py:1:0: C0103: Module name "Python-46-gen0" doesn't conform to snake_case naming style (invalid-name)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/codellama-13B-instruct-awq-8/completion/python-files/Python-46-gen0.py:13:4: W0107: Unnecessary pass statement (unnecessary-pass)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/codellama-13B-instruct-awq-8/completion/python-files/Python-46-gen0.py:1:30: W0613: Unused argument 'heights' (unused-argument)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/codellama-13B-instruct-awq-8/completion/python-files/Python-46-gen0.py:14:0: C0116: Missing function or method docstring (missing-function-docstring)
+
+------------------------------------------------------------------
+Your code has been rated at 3.64/10 (previous run: 7.00/10, -3.36)
+

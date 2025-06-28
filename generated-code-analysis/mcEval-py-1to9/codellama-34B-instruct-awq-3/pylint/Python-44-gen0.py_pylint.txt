@@ -1,0 +1,10 @@
+************* Module Python-44-gen0
+/home/saima/projects/NonFunc-AWQ/mcEval-py/codellama-34B-instruct-awq-3/completion/python-files/Python-44-gen0.py:61:0: C0304: Final newline missing (missing-final-newline)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/codellama-34B-instruct-awq-3/completion/python-files/Python-44-gen0.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/codellama-34B-instruct-awq-3/completion/python-files/Python-44-gen0.py:1:0: C0103: Module name "Python-44-gen0" doesn't conform to snake_case naming style (invalid-name)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/codellama-34B-instruct-awq-3/completion/python-files/Python-44-gen0.py:29:8: R1705: Unnecessary "else" after "return", remove the "else" and de-indent the code inside it (no-else-return)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/codellama-34B-instruct-awq-3/completion/python-files/Python-44-gen0.py:36:0: C0116: Missing function or method docstring (missing-function-docstring)
+
+------------------------------------------------------------------
+Your code has been rated at 8.00/10 (previous run: 8.26/10, -0.26)
+

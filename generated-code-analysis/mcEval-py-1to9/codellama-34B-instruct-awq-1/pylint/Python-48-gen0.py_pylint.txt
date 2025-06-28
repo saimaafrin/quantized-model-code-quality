@@ -1,0 +1,17 @@
+************* Module Python-48-gen0
+/home/saima/projects/NonFunc-AWQ/mcEval-py/codellama-34B-instruct-awq-1/completion/python-files/Python-48-gen0.py:3:0: C0301: Line too long (120/100) (line-too-long)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/codellama-34B-instruct-awq-1/completion/python-files/Python-48-gen0.py:5:0: C0301: Line too long (109/100) (line-too-long)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/codellama-34B-instruct-awq-1/completion/python-files/Python-48-gen0.py:22:0: C0303: Trailing whitespace (trailing-whitespace)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/codellama-34B-instruct-awq-1/completion/python-files/Python-48-gen0.py:24:0: C0303: Trailing whitespace (trailing-whitespace)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/codellama-34B-instruct-awq-1/completion/python-files/Python-48-gen0.py:30:0: C0303: Trailing whitespace (trailing-whitespace)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/codellama-34B-instruct-awq-1/completion/python-files/Python-48-gen0.py:41:0: C0303: Trailing whitespace (trailing-whitespace)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/codellama-34B-instruct-awq-1/completion/python-files/Python-48-gen0.py:69:0: C0304: Final newline missing (missing-final-newline)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/codellama-34B-instruct-awq-1/completion/python-files/Python-48-gen0.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/codellama-34B-instruct-awq-1/completion/python-files/Python-48-gen0.py:1:0: C0103: Module name "Python-48-gen0" doesn't conform to snake_case naming style (invalid-name)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/codellama-34B-instruct-awq-1/completion/python-files/Python-48-gen0.py:31:4: W0621: Redefining name 'min_groups' from outer scope (line 1) (redefined-outer-name)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/codellama-34B-instruct-awq-1/completion/python-files/Python-48-gen0.py:35:8: R1724: Unnecessary "else" after "continue", remove the "else" and de-indent the code inside it (no-else-continue)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/codellama-34B-instruct-awq-1/completion/python-files/Python-48-gen0.py:44:0: C0116: Missing function or method docstring (missing-function-docstring)
+
+------------------------------------------------------------------
+Your code has been rated at 6.67/10 (previous run: 6.80/10, -0.13)
+

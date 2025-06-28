@@ -1,0 +1,20 @@
+************* Module Python-34-gen0
+/home/saima/projects/NonFunc-AWQ/mcEval-py/codellama-13B-instruct-awq/completion/python-files/Python-34-gen0.py:5:0: C0301: Line too long (117/100) (line-too-long)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/codellama-13B-instruct-awq/completion/python-files/Python-34-gen0.py:6:0: C0301: Line too long (127/100) (line-too-long)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/codellama-13B-instruct-awq/completion/python-files/Python-34-gen0.py:7:0: C0301: Line too long (125/100) (line-too-long)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/codellama-13B-instruct-awq/completion/python-files/Python-34-gen0.py:37:0: C0301: Line too long (127/100) (line-too-long)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/codellama-13B-instruct-awq/completion/python-files/Python-34-gen0.py:42:0: C0301: Line too long (127/100) (line-too-long)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/codellama-13B-instruct-awq/completion/python-files/Python-34-gen0.py:47:0: C0301: Line too long (127/100) (line-too-long)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/codellama-13B-instruct-awq/completion/python-files/Python-34-gen0.py:52:0: C0304: Final newline missing (missing-final-newline)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/codellama-13B-instruct-awq/completion/python-files/Python-34-gen0.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/codellama-13B-instruct-awq/completion/python-files/Python-34-gen0.py:1:0: C0103: Module name "Python-34-gen0" doesn't conform to snake_case naming style (invalid-name)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/codellama-13B-instruct-awq/completion/python-files/Python-34-gen0.py:1:19: C0103: Argument name "n" doesn't conform to snake_case naming style (invalid-name)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/codellama-13B-instruct-awq/completion/python-files/Python-34-gen0.py:29:4: R1705: Unnecessary "else" after "return", remove the "else" and de-indent the code inside it (no-else-return)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/codellama-13B-instruct-awq/completion/python-files/Python-34-gen0.py:33:0: C0116: Missing function or method docstring (missing-function-docstring)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/codellama-13B-instruct-awq/completion/python-files/Python-34-gen0.py:35:4: C0103: Variable name "n1" doesn't conform to snake_case naming style (invalid-name)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/codellama-13B-instruct-awq/completion/python-files/Python-34-gen0.py:40:4: C0103: Variable name "n2" doesn't conform to snake_case naming style (invalid-name)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/codellama-13B-instruct-awq/completion/python-files/Python-34-gen0.py:45:4: C0103: Variable name "n3" doesn't conform to snake_case naming style (invalid-name)
+
+------------------------------------------------------------------
+Your code has been rated at 2.50/10 (previous run: 3.64/10, -1.14)
+

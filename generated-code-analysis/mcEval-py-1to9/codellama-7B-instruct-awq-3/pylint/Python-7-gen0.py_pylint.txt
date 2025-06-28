@@ -1,0 +1,14 @@
+************* Module Python-7-gen0
+/home/saima/projects/NonFunc-AWQ/mcEval-py/codellama-7B-instruct-awq-3/completion/python-files/Python-7-gen0.py:45:0: C0301: Line too long (104/100) (line-too-long)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/codellama-7B-instruct-awq-3/completion/python-files/Python-7-gen0.py:57:0: C0304: Final newline missing (missing-final-newline)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/codellama-7B-instruct-awq-3/completion/python-files/Python-7-gen0.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/codellama-7B-instruct-awq-3/completion/python-files/Python-7-gen0.py:1:0: C0103: Module name "Python-7-gen0" doesn't conform to snake_case naming style (invalid-name)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/codellama-7B-instruct-awq-3/completion/python-files/Python-7-gen0.py:23:12: E0602: Undefined variable 'Point' (undefined-variable)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/codellama-7B-instruct-awq-3/completion/python-files/Python-7-gen0.py:26:16: E0602: Undefined variable 'Point' (undefined-variable)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/codellama-7B-instruct-awq-3/completion/python-files/Python-7-gen0.py:27:17: E0602: Undefined variable 'Point' (undefined-variable)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/codellama-7B-instruct-awq-3/completion/python-files/Python-7-gen0.py:1:24: W0613: Unused argument 'n' (unused-argument)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/codellama-7B-instruct-awq-3/completion/python-files/Python-7-gen0.py:31:0: C0116: Missing function or method docstring (missing-function-docstring)
+
+------------------------------------------------------------------
+Your code has been rated at 0.00/10 (previous run: 3.12/10, -3.12)
+

@@ -1,0 +1,17 @@
+************* Module Python-28-gen0
+/home/saima/projects/NonFunc-AWQ/mcEval-py/deepseekcoder-6.7B-instruct-awq-6/completion/python-files/Python-28-gen0.py:74:0: C0304: Final newline missing (missing-final-newline)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/deepseekcoder-6.7B-instruct-awq-6/completion/python-files/Python-28-gen0.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/deepseekcoder-6.7B-instruct-awq-6/completion/python-files/Python-28-gen0.py:1:0: C0103: Module name "Python-28-gen0" doesn't conform to snake_case naming style (invalid-name)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/deepseekcoder-6.7B-instruct-awq-6/completion/python-files/Python-28-gen0.py:3:26: C0103: Argument name "A" doesn't conform to snake_case naming style (invalid-name)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/deepseekcoder-6.7B-instruct-awq-6/completion/python-files/Python-28-gen0.py:3:34: C0103: Argument name "B" doesn't conform to snake_case naming style (invalid-name)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/deepseekcoder-6.7B-instruct-awq-6/completion/python-files/Python-28-gen0.py:49:0: C0116: Missing function or method docstring (missing-function-docstring)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/deepseekcoder-6.7B-instruct-awq-6/completion/python-files/Python-28-gen0.py:51:4: C0103: Variable name "A1" doesn't conform to snake_case naming style (invalid-name)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/deepseekcoder-6.7B-instruct-awq-6/completion/python-files/Python-28-gen0.py:52:4: C0103: Variable name "B1" doesn't conform to snake_case naming style (invalid-name)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/deepseekcoder-6.7B-instruct-awq-6/completion/python-files/Python-28-gen0.py:58:4: C0103: Variable name "A2" doesn't conform to snake_case naming style (invalid-name)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/deepseekcoder-6.7B-instruct-awq-6/completion/python-files/Python-28-gen0.py:59:4: C0103: Variable name "B2" doesn't conform to snake_case naming style (invalid-name)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/deepseekcoder-6.7B-instruct-awq-6/completion/python-files/Python-28-gen0.py:65:4: C0103: Variable name "A3" doesn't conform to snake_case naming style (invalid-name)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/deepseekcoder-6.7B-instruct-awq-6/completion/python-files/Python-28-gen0.py:66:4: C0103: Variable name "B3" doesn't conform to snake_case naming style (invalid-name)
+
+------------------------------------------------------------------
+Your code has been rated at 6.92/10 (previous run: 7.21/10, -0.29)
+

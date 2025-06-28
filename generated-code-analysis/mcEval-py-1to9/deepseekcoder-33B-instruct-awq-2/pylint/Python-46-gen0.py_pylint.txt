@@ -1,0 +1,11 @@
+************* Module Python-46-gen0
+/home/saima/projects/NonFunc-AWQ/mcEval-py/deepseekcoder-33B-instruct-awq-2/completion/python-files/Python-46-gen0.py:34:0: C0301: Line too long (105/100) (line-too-long)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/deepseekcoder-33B-instruct-awq-2/completion/python-files/Python-46-gen0.py:54:0: C0304: Final newline missing (missing-final-newline)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/deepseekcoder-33B-instruct-awq-2/completion/python-files/Python-46-gen0.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/deepseekcoder-33B-instruct-awq-2/completion/python-files/Python-46-gen0.py:1:0: C0103: Module name "Python-46-gen0" doesn't conform to snake_case naming style (invalid-name)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/deepseekcoder-33B-instruct-awq-2/completion/python-files/Python-46-gen0.py:28:8: R1731: Consider using 'max_length = max(max_length, left_increasing[i] + right_increasing[i] - 1)' instead of unnecessary if block (consider-using-max-builtin)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/deepseekcoder-33B-instruct-awq-2/completion/python-files/Python-46-gen0.py:32:0: C0116: Missing function or method docstring (missing-function-docstring)
+
+------------------------------------------------------------------
+Your code has been rated at 7.60/10 (previous run: 1.67/10, +5.93)
+

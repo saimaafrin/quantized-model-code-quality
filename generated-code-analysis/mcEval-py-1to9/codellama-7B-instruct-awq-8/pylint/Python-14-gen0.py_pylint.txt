@@ -1,0 +1,17 @@
+************* Module Python-14-gen0
+/home/saima/projects/NonFunc-AWQ/mcEval-py/codellama-7B-instruct-awq-8/completion/python-files/Python-14-gen0.py:10:0: C0301: Line too long (101/100) (line-too-long)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/codellama-7B-instruct-awq-8/completion/python-files/Python-14-gen0.py:54:0: C0304: Final newline missing (missing-final-newline)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/codellama-7B-instruct-awq-8/completion/python-files/Python-14-gen0.py:25:19: W1401: Anomalous backslash in string: '\d'. String constant might be missing an r prefix. (anomalous-backslash-in-string)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/codellama-7B-instruct-awq-8/completion/python-files/Python-14-gen0.py:25:24: W1401: Anomalous backslash in string: '\d'. String constant might be missing an r prefix. (anomalous-backslash-in-string)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/codellama-7B-instruct-awq-8/completion/python-files/Python-14-gen0.py:25:32: W1401: Anomalous backslash in string: '\d'. String constant might be missing an r prefix. (anomalous-backslash-in-string)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/codellama-7B-instruct-awq-8/completion/python-files/Python-14-gen0.py:25:40: W1401: Anomalous backslash in string: '\d'. String constant might be missing an r prefix. (anomalous-backslash-in-string)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/codellama-7B-instruct-awq-8/completion/python-files/Python-14-gen0.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/codellama-7B-instruct-awq-8/completion/python-files/Python-14-gen0.py:1:0: C0103: Module name "Python-14-gen0" doesn't conform to snake_case naming style (invalid-name)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/codellama-7B-instruct-awq-8/completion/python-files/Python-14-gen0.py:28:4: W0622: Redefining built-in 'sum' (redefined-builtin)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/codellama-7B-instruct-awq-8/completion/python-files/Python-14-gen0.py:25:7: E0602: Undefined variable 're' (undefined-variable)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/codellama-7B-instruct-awq-8/completion/python-files/Python-14-gen0.py:38:4: R1705: Unnecessary "else" after "return", remove the "else" and de-indent the code inside it (no-else-return)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/codellama-7B-instruct-awq-8/completion/python-files/Python-14-gen0.py:44:0: C0116: Missing function or method docstring (missing-function-docstring)
+
+------------------------------------------------------------------
+Your code has been rated at 2.38/10 (previous run: 5.71/10, -3.33)
+

@@ -1,0 +1,12 @@
+************* Module Python-48-gen0
+/home/saima/projects/NonFunc-AWQ/mcEval-py/codellama-13B-instruct-awq-2/completion/python-files/Python-48-gen0.py:3:0: C0301: Line too long (120/100) (line-too-long)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/codellama-13B-instruct-awq-2/completion/python-files/Python-48-gen0.py:5:0: C0301: Line too long (109/100) (line-too-long)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/codellama-13B-instruct-awq-2/completion/python-files/Python-48-gen0.py:72:0: C0304: Final newline missing (missing-final-newline)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/codellama-13B-instruct-awq-2/completion/python-files/Python-48-gen0.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/codellama-13B-instruct-awq-2/completion/python-files/Python-48-gen0.py:1:0: C0103: Module name "Python-48-gen0" doesn't conform to snake_case naming style (invalid-name)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/codellama-13B-instruct-awq-2/completion/python-files/Python-48-gen0.py:34:8: R1723: Unnecessary "else" after "break", remove the "else" and de-indent the code inside it (no-else-break)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/codellama-13B-instruct-awq-2/completion/python-files/Python-48-gen0.py:47:0: C0116: Missing function or method docstring (missing-function-docstring)
+
+------------------------------------------------------------------
+Your code has been rated at 7.74/10 (previous run: 8.06/10, -0.32)
+

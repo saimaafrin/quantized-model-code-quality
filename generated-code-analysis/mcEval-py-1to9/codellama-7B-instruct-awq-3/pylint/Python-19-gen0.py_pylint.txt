@@ -1,0 +1,13 @@
+************* Module Python-19-gen0
+/home/saima/projects/NonFunc-AWQ/mcEval-py/codellama-7B-instruct-awq-3/completion/python-files/Python-19-gen0.py:21:0: C0301: Line too long (103/100) (line-too-long)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/codellama-7B-instruct-awq-3/completion/python-files/Python-19-gen0.py:39:0: C0304: Final newline missing (missing-final-newline)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/codellama-7B-instruct-awq-3/completion/python-files/Python-19-gen0.py:29:5: W0511: TODO: Write your solution here (fixme)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/codellama-7B-instruct-awq-3/completion/python-files/Python-19-gen0.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/codellama-7B-instruct-awq-3/completion/python-files/Python-19-gen0.py:1:0: C0103: Module name "Python-19-gen0" doesn't conform to snake_case naming style (invalid-name)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/codellama-7B-instruct-awq-3/completion/python-files/Python-19-gen0.py:30:4: W0107: Unnecessary pass statement (unnecessary-pass)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/codellama-7B-instruct-awq-3/completion/python-files/Python-19-gen0.py:2:15: W0613: Unused argument 'beads' (unused-argument)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/codellama-7B-instruct-awq-3/completion/python-files/Python-19-gen0.py:31:0: C0116: Missing function or method docstring (missing-function-docstring)
+
+------------------------------------------------------------------
+Your code has been rated at 1.11/10 (previous run: 6.00/10, -4.89)
+

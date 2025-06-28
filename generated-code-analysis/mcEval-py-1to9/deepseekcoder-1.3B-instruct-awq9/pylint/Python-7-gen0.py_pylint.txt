@@ -1,0 +1,13 @@
+************* Module Python-7-gen0
+/home/saima/projects/NonFunc-AWQ/mcEval-py/deepseekcoder-1.3B-instruct-awq9/completion/python-files/Python-7-gen0.py:37:0: C0301: Line too long (104/100) (line-too-long)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/deepseekcoder-1.3B-instruct-awq9/completion/python-files/Python-7-gen0.py:49:0: C0304: Final newline missing (missing-final-newline)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/deepseekcoder-1.3B-instruct-awq9/completion/python-files/Python-7-gen0.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/deepseekcoder-1.3B-instruct-awq9/completion/python-files/Python-7-gen0.py:1:0: C0103: Module name "Python-7-gen0" doesn't conform to snake_case naming style (invalid-name)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/deepseekcoder-1.3B-instruct-awq9/completion/python-files/Python-7-gen0.py:1:24: W0613: Unused argument 'n' (unused-argument)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/deepseekcoder-1.3B-instruct-awq9/completion/python-files/Python-7-gen0.py:1:27: W0613: Unused argument 'carpets' (unused-argument)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/deepseekcoder-1.3B-instruct-awq9/completion/python-files/Python-7-gen0.py:1:36: W0613: Unused argument 'point' (unused-argument)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/deepseekcoder-1.3B-instruct-awq9/completion/python-files/Python-7-gen0.py:23:0: C0116: Missing function or method docstring (missing-function-docstring)
+
+------------------------------------------------------------------
+Your code has been rated at 2.73/10 (previous run: 7.39/10, -4.66)
+

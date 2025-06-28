@@ -1,0 +1,22 @@
+************* Module Python-15-gen0
+/home/saima/projects/NonFunc-AWQ/mcEval-py/codellama-34B-instruct-awq-2/completion/python-files/Python-15-gen0.py:3:0: C0301: Line too long (104/100) (line-too-long)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/codellama-34B-instruct-awq-2/completion/python-files/Python-15-gen0.py:11:0: C0301: Line too long (126/100) (line-too-long)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/codellama-34B-instruct-awq-2/completion/python-files/Python-15-gen0.py:14:0: C0301: Line too long (107/100) (line-too-long)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/codellama-34B-instruct-awq-2/completion/python-files/Python-15-gen0.py:16:0: C0301: Line too long (131/100) (line-too-long)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/codellama-34B-instruct-awq-2/completion/python-files/Python-15-gen0.py:17:0: C0301: Line too long (115/100) (line-too-long)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/codellama-34B-instruct-awq-2/completion/python-files/Python-15-gen0.py:77:0: C0301: Line too long (144/100) (line-too-long)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/codellama-34B-instruct-awq-2/completion/python-files/Python-15-gen0.py:78:0: C0301: Line too long (144/100) (line-too-long)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/codellama-34B-instruct-awq-2/completion/python-files/Python-15-gen0.py:82:0: C0304: Final newline missing (missing-final-newline)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/codellama-34B-instruct-awq-2/completion/python-files/Python-15-gen0.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/codellama-34B-instruct-awq-2/completion/python-files/Python-15-gen0.py:1:0: C0103: Module name "Python-15-gen0" doesn't conform to snake_case naming style (invalid-name)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/codellama-34B-instruct-awq-2/completion/python-files/Python-15-gen0.py:1:21: C0103: Argument name "M" doesn't conform to snake_case naming style (invalid-name)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/codellama-34B-instruct-awq-2/completion/python-files/Python-15-gen0.py:1:29: C0103: Argument name "N" doesn't conform to snake_case naming style (invalid-name)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/codellama-34B-instruct-awq-2/completion/python-files/Python-15-gen0.py:1:37: C0103: Argument name "K" doesn't conform to snake_case naming style (invalid-name)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/codellama-34B-instruct-awq-2/completion/python-files/Python-15-gen0.py:1:45: C0103: Argument name "L" doesn't conform to snake_case naming style (invalid-name)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/codellama-34B-instruct-awq-2/completion/python-files/Python-15-gen0.py:1:53: C0103: Argument name "D" doesn't conform to snake_case naming style (invalid-name)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/codellama-34B-instruct-awq-2/completion/python-files/Python-15-gen0.py:1:0: R0913: Too many arguments (6/5) (too-many-arguments)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/codellama-34B-instruct-awq-2/completion/python-files/Python-15-gen0.py:51:0: C0116: Missing function or method docstring (missing-function-docstring)
+
+------------------------------------------------------------------
+Your code has been rated at 3.93/10 (previous run: 3.21/10, +0.71)
+

@@ -1,0 +1,25 @@
+{
+  "name": "Python-27",
+  "language": "py",
+  "temperature": 0.8,
+  "top_p": 0.95,
+  "max_tokens": 1024,
+  "prompt": "def preorder_traversal(inorder: str, postorder: str) -> str:\n    \"\"\"\n    Reconstructs the binary tree from its inorder and postorder traversals and\n    returns the preorder traversal as a string.\n\n    Args:\n    inorder (str): The inorder traversal of the binary tree.\n    postorder (str): The postorder traversal of the binary tree.\n\n    Returns:\n    str: The preorder traversal of the binary tree.\n\n    Example:\n    >>> preorder_traversal('BADC', 'BDCA')\n    'ABCD'\n    >>> preorder_traversal('A', 'A')\n    'A'\n    \"\"\"",
+  "tests": "def test_preorder_traversal():\n    # Test case 1\n    inorder1 = \"BADC\"\n    postorder1 = \"BDCA\"\n    expected_preorder1 = \"ABCD\"\n    assert preorder_traversal(inorder1, postorder1) == expected_preorder1\n    print(f\"Test case 1 passed. Preorder: {preorder_traversal(inorder1, postorder1)}\")\n\n    # Test case 2\n    inorder2 = \"DBGEACF\"\n    postorder2 = \"DGEBFCA\"\n    expected_preorder2 = \"ABDEGCF\"\n    assert preorder_traversal(inorder2, postorder2) == expected_preorder2\n    print(f\"Test case 2 passed. Preorder: {preorder_traversal(inorder2, postorder2)}\")\n\n    # Test case 3\n    inorder3 = \"A\"\n    postorder3 = \"A\"\n    expected_preorder3 = \"A\"\n    assert preorder_traversal(inorder3, postorder3) == expected_preorder3\n    print(f\"Test case 3 passed. Preorder: {preorder_traversal(inorder3, postorder3)}\")\n\n# Run the test function\ntest_preorder_traversal()",
+  "stop_tokens": [
+    "\ndef",
+    "\n#",
+    "\nif",
+    "\nclass"
+  ],
+  "results": [
+    {
+      "program": "def preorder_traversal(inorder: str, postorder: str) -> str:\n    \"\"\"\n    Reconstructs the binary tree from its inorder and postorder traversals and\n    returns the preorder traversal as a string.\n\n    Args:\n    inorder (str): The inorder traversal of the binary tree.\n    postorder (str): The postorder traversal of the binary tree.\n\n    Returns:\n    str: The preorder traversal of the binary tree.\n\n    Example:\n    >>> preorder_traversal('BADC', 'BDCA')\n    'ABCD'\n    >>> preorder_traversal('A', 'A')\n    'A'\n    \"\"\"\n    inorder = inorder.replace('_', '')\n    postorder = postorder.replace('_', '')\n    if len(inorder) != len(postorder) or len(inorder) < 1:\n        return ''\n    elif len(inorder) == 1:\n        return inorder\n\n    # find root char\n    root = postorder[-1]\n    root_index = inorder.index(root)\n\n    # find left and right subtrees\n    inorder_left = inorder[:root_index]\n    inorder_right = inorder[root_index + 1:]\n    postorder_left = postorder[:len(inorder_left)]\n    postorder_right = postorder[len(inorder_left):-1]\n\n    # recursively construct subtrees\n    preorder_left = preorder_traversal(inorder_left, postorder_left)\n    preorder_right = preorder_traversal(inorder_right, postorder_right)\n\n    # construct preorder\n    preorder = root\n    if preorder_left:\n        preorder += preorder_left\n    if preorder_right:\n        preorder += preorder_right\n    return preorder\ndef test_preorder_traversal():\n    # Test case 1\n    inorder1 = \"BADC\"\n    postorder1 = \"BDCA\"\n    expected_preorder1 = \"ABCD\"\n    assert preorder_traversal(inorder1, postorder1) == expected_preorder1\n    print(f\"Test case 1 passed. Preorder: {preorder_traversal(inorder1, postorder1)}\")\n\n    # Test case 2\n    inorder2 = \"DBGEACF\"\n    postorder2 = \"DGEBFCA\"\n    expected_preorder2 = \"ABDEGCF\"\n    assert preorder_traversal(inorder2, postorder2) == expected_preorder2\n    print(f\"Test case 2 passed. Preorder: {preorder_traversal(inorder2, postorder2)}\")\n\n    # Test case 3\n    inorder3 = \"A\"\n    postorder3 = \"A\"\n    expected_preorder3 = \"A\"\n    assert preorder_traversal(inorder3, postorder3) == expected_preorder3\n    print(f\"Test case 3 passed. Preorder: {preorder_traversal(inorder3, postorder3)}\")\n\n# Run the test function\ntest_preorder_traversal()",
+      "timestamp": 1746739004,
+      "stdout": "Test case 1 passed. Preorder: ABCD\nTest case 2 passed. Preorder: ABDEGCF\nTest case 3 passed. Preorder: A\n",
+      "stderr": "",
+      "exit_code": 0,
+      "status": "OK"
+    }
+  ]
+}

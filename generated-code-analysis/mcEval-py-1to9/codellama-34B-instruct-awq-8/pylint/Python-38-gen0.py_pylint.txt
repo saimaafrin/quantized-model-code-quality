@@ -1,0 +1,28 @@
+************* Module Python-38-gen0
+/home/saima/projects/NonFunc-AWQ/mcEval-py/codellama-34B-instruct-awq-8/completion/python-files/Python-38-gen0.py:4:0: C0301: Line too long (108/100) (line-too-long)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/codellama-34B-instruct-awq-8/completion/python-files/Python-38-gen0.py:6:0: C0301: Line too long (106/100) (line-too-long)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/codellama-34B-instruct-awq-8/completion/python-files/Python-38-gen0.py:7:0: C0301: Line too long (112/100) (line-too-long)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/codellama-34B-instruct-awq-8/completion/python-files/Python-38-gen0.py:27:0: C0303: Trailing whitespace (trailing-whitespace)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/codellama-34B-instruct-awq-8/completion/python-files/Python-38-gen0.py:31:0: C0303: Trailing whitespace (trailing-whitespace)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/codellama-34B-instruct-awq-8/completion/python-files/Python-38-gen0.py:32:0: C0301: Line too long (106/100) (line-too-long)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/codellama-34B-instruct-awq-8/completion/python-files/Python-38-gen0.py:36:0: C0303: Trailing whitespace (trailing-whitespace)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/codellama-34B-instruct-awq-8/completion/python-files/Python-38-gen0.py:40:0: C0301: Line too long (104/100) (line-too-long)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/codellama-34B-instruct-awq-8/completion/python-files/Python-38-gen0.py:44:0: C0301: Line too long (109/100) (line-too-long)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/codellama-34B-instruct-awq-8/completion/python-files/Python-38-gen0.py:45:0: C0301: Line too long (106/100) (line-too-long)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/codellama-34B-instruct-awq-8/completion/python-files/Python-38-gen0.py:49:0: C0303: Trailing whitespace (trailing-whitespace)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/codellama-34B-instruct-awq-8/completion/python-files/Python-38-gen0.py:50:0: C0301: Line too long (109/100) (line-too-long)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/codellama-34B-instruct-awq-8/completion/python-files/Python-38-gen0.py:59:0: C0301: Line too long (143/100) (line-too-long)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/codellama-34B-instruct-awq-8/completion/python-files/Python-38-gen0.py:66:0: C0301: Line too long (143/100) (line-too-long)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/codellama-34B-instruct-awq-8/completion/python-files/Python-38-gen0.py:73:0: C0301: Line too long (143/100) (line-too-long)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/codellama-34B-instruct-awq-8/completion/python-files/Python-38-gen0.py:80:0: C0304: Final newline missing (missing-final-newline)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/codellama-34B-instruct-awq-8/completion/python-files/Python-38-gen0.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/codellama-34B-instruct-awq-8/completion/python-files/Python-38-gen0.py:1:0: C0103: Module name "Python-38-gen0" doesn't conform to snake_case naming style (invalid-name)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/codellama-34B-instruct-awq-8/completion/python-files/Python-38-gen0.py:2:24: C0103: Argument name "V" doesn't conform to snake_case naming style (invalid-name)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/codellama-34B-instruct-awq-8/completion/python-files/Python-38-gen0.py:53:0: C0116: Missing function or method docstring (missing-function-docstring)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/codellama-34B-instruct-awq-8/completion/python-files/Python-38-gen0.py:55:4: C0103: Variable name "V1" doesn't conform to snake_case naming style (invalid-name)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/codellama-34B-instruct-awq-8/completion/python-files/Python-38-gen0.py:62:4: C0103: Variable name "V2" doesn't conform to snake_case naming style (invalid-name)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/codellama-34B-instruct-awq-8/completion/python-files/Python-38-gen0.py:69:4: C0103: Variable name "V3" doesn't conform to snake_case naming style (invalid-name)
+
+------------------------------------------------------------------
+Your code has been rated at 1.79/10 (previous run: 4.23/10, -2.45)
+

@@ -1,0 +1,17 @@
+************* Module Python-10-gen0
+/home/saima/projects/NonFunc-AWQ/mcEval-py/codellama-13B-instruct-awq-4/completion/python-files/Python-10-gen0.py:34:0: C0301: Line too long (113/100) (line-too-long)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/codellama-13B-instruct-awq-4/completion/python-files/Python-10-gen0.py:35:0: C0301: Line too long (113/100) (line-too-long)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/codellama-13B-instruct-awq-4/completion/python-files/Python-10-gen0.py:36:0: C0301: Line too long (115/100) (line-too-long)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/codellama-13B-instruct-awq-4/completion/python-files/Python-10-gen0.py:37:0: C0301: Line too long (117/100) (line-too-long)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/codellama-13B-instruct-awq-4/completion/python-files/Python-10-gen0.py:38:0: C0301: Line too long (117/100) (line-too-long)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/codellama-13B-instruct-awq-4/completion/python-files/Python-10-gen0.py:39:0: C0301: Line too long (127/100) (line-too-long)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/codellama-13B-instruct-awq-4/completion/python-files/Python-10-gen0.py:43:0: C0304: Final newline missing (missing-final-newline)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/codellama-13B-instruct-awq-4/completion/python-files/Python-10-gen0.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/codellama-13B-instruct-awq-4/completion/python-files/Python-10-gen0.py:1:0: C0103: Module name "Python-10-gen0" doesn't conform to snake_case naming style (invalid-name)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/codellama-13B-instruct-awq-4/completion/python-files/Python-10-gen0.py:23:4: R1720: Unnecessary "else" after "raise", remove the "else" and de-indent the code inside it (no-else-raise)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/codellama-13B-instruct-awq-4/completion/python-files/Python-10-gen0.py:24:25: W1309: Using an f-string that does not have any interpolated variables (f-string-without-interpolation)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/codellama-13B-instruct-awq-4/completion/python-files/Python-10-gen0.py:33:0: C0116: Missing function or method docstring (missing-function-docstring)
+
+------------------------------------------------------------------
+Your code has been rated at 3.33/10 (previous run: 1.67/10, +1.67)
+

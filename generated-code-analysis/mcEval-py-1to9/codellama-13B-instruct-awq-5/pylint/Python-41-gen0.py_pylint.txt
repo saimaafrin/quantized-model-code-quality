@@ -1,0 +1,14 @@
+************* Module Python-41-gen0
+/home/saima/projects/NonFunc-AWQ/mcEval-py/codellama-13B-instruct-awq-5/completion/python-files/Python-41-gen0.py:47:0: C0301: Line too long (123/100) (line-too-long)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/codellama-13B-instruct-awq-5/completion/python-files/Python-41-gen0.py:51:0: C0304: Final newline missing (missing-final-newline)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/codellama-13B-instruct-awq-5/completion/python-files/Python-41-gen0.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/codellama-13B-instruct-awq-5/completion/python-files/Python-41-gen0.py:1:0: C0103: Module name "Python-41-gen0" doesn't conform to snake_case naming style (invalid-name)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/codellama-13B-instruct-awq-5/completion/python-files/Python-41-gen0.py:24:7: E0602: Undefined variable 'gcd' (undefined-variable)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/codellama-13B-instruct-awq-5/completion/python-files/Python-41-gen0.py:27:21: E0602: Undefined variable 'extgcd' (undefined-variable)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/codellama-13B-instruct-awq-5/completion/python-files/Python-41-gen0.py:28:4: R1705: Unnecessary "else" after "return", remove the "else" and de-indent the code inside it (no-else-return)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/codellama-13B-instruct-awq-5/completion/python-files/Python-41-gen0.py:27:8: W0612: Unused variable 'y' (unused-variable)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/codellama-13B-instruct-awq-5/completion/python-files/Python-41-gen0.py:32:0: C0116: Missing function or method docstring (missing-function-docstring)
+
+------------------------------------------------------------------
+Your code has been rated at 0.00/10 (previous run: 6.25/10, -6.25)
+

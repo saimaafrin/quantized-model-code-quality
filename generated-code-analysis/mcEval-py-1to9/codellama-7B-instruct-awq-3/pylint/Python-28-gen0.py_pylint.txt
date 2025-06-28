@@ -1,0 +1,2 @@
+************* Module Python-28-gen0
+/home/saima/projects/NonFunc-AWQ/mcEval-py/codellama-7B-instruct-awq-3/completion/python-files/Python-28-gen0.py:45:11: E0001: Parsing failed: 'unexpected character after line continuation character (Python-28-gen0, line 45)' (syntax-error)

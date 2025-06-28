@@ -1,0 +1,42 @@
+{
+    "Total code count": {
+        "files": 42
+    },
+    "Total Rule Violations": {
+        "Error": 3,
+        "Warning": 8,
+        "Convention": 346,
+        "Refactor": 2,
+        "Information": 0
+    },
+    "Error Code Counts": {
+        "Error": {
+            "E0602": 2,
+            "E0001": 1
+        },
+        "Convention": {
+            "C0301": 120,
+            "C0303": 19,
+            "C0304": 41,
+            "C0114": 41,
+            "C0103": 72,
+            "C0116": 40,
+            "C0200": 1,
+            "C0117": 2,
+            "C0121": 8,
+            "C0413": 1,
+            "C0115": 1
+        },
+        "Warning": {
+            "W0612": 3,
+            "W0613": 2,
+            "W0640": 1,
+            "W0611": 1,
+            "W0621": 1
+        },
+        "Refactor": {
+            "R1720": 1,
+            "R1705": 1
+        }
+    }
+}

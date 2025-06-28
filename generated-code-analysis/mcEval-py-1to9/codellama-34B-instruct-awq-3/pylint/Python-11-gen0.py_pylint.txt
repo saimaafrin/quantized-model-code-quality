@@ -1,0 +1,2 @@
+************* Module Python-11-gen0
+/home/saima/projects/NonFunc-AWQ/mcEval-py/codellama-34B-instruct-awq-3/completion/python-files/Python-11-gen0.py:117:9: E0001: Parsing failed: 'invalid syntax (Python-11-gen0, line 117)' (syntax-error)

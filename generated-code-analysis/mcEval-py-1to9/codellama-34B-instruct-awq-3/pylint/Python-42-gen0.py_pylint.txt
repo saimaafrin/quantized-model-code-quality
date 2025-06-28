@@ -1,0 +1,10 @@
+************* Module Python-42-gen0
+/home/saima/projects/NonFunc-AWQ/mcEval-py/codellama-34B-instruct-awq-3/completion/python-files/Python-42-gen0.py:75:0: C0304: Final newline missing (missing-final-newline)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/codellama-34B-instruct-awq-3/completion/python-files/Python-42-gen0.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/codellama-34B-instruct-awq-3/completion/python-files/Python-42-gen0.py:1:0: C0103: Module name "Python-42-gen0" doesn't conform to snake_case naming style (invalid-name)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/codellama-34B-instruct-awq-3/completion/python-files/Python-42-gen0.py:26:4: W0612: Unused variable 'days' (unused-variable)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/codellama-34B-instruct-awq-3/completion/python-files/Python-42-gen0.py:35:0: C0116: Missing function or method docstring (missing-function-docstring)
+
+------------------------------------------------------------------
+Your code has been rated at 7.37/10 (previous run: 7.78/10, -0.41)
+

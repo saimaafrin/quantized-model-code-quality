@@ -1,0 +1,25 @@
+{
+  "name": "Python-8",
+  "language": "py",
+  "temperature": 0.8,
+  "top_p": 0.95,
+  "max_tokens": 1024,
+  "prompt": "from typing import List, Tuple\n\ndef max_value_on_paths(N: int, grid_values: List[Tuple[int, int, int]]) -> int:\n    \"\"\"\n    Calculate the maximum sum of values collected on two paths in an N x N grid.\n\n    This function utilizes dynamic programming to find two paths from the top-left corner to\n    the bottom-right corner of the grid which maximize the sum of the values collected. Each\n    value can be collected at most once, even if both paths pass through it.\n\n    Args:\n    - N (int): The size of the grid (N x N).\n    - grid_values (List[Tuple[int, int, int]]): A list of tuples where each tuple contains\n      the x-coordinate, y-coordinate, and value to be placed on the grid at that position.\n      The list is terminated by a tuple with all zeros.\n\n    Returns:\n    - int: The maximum sum of values collected on the two paths.\n\n    Examples:\n    >>> max_value_on_paths(2, [(1, 2, 1), (2, 1, 2), (0, 0, 0)])\n    3\n    >>> max_value_on_paths(8, [\n    ...     (2, 3, 13), (2, 6, 6), (3, 5, 7), (4, 4, 14),\n    ...     (5, 2, 21), (5, 6, 4), (6, 3, 15), (7, 2, 14),\n    ...     (0, 0, 0)])\n    67\n    \"\"\"",
+  "tests": "def test_max_value_on_paths():\n    # Test case 1: Small grid with clear path\n    assert max_value_on_paths(2, [(1, 2, 1), (2, 1, 2), (0, 0, 0)]) == 3\n    \n    # Test case 2: Example provided in the problem statement\n    assert max_value_on_paths(8, [\n        (2, 3, 13), (2, 6, 6), (3, 5, 7), (4, 4, 14),\n        (5, 2, 21), (5, 6, 4), (6, 3, 15), (7, 2, 14),\n        (0, 0, 0)]) == 67\n\n    print(\"All test cases passed!\")\n\n# Run the test cases\ntest_max_value_on_paths()",
+  "stop_tokens": [
+    "\ndef",
+    "\n#",
+    "\nif",
+    "\nclass"
+  ],
+  "results": [
+    {
+      "program": "from typing import List, Tuple\n\ndef max_value_on_paths(N: int, grid_values: List[Tuple[int, int, int]]) -> int:\n    \"\"\"\n    Calculate the maximum sum of values collected on two paths in an N x N grid.\n\n    This function utilizes dynamic programming to find two paths from the top-left corner to\n    the bottom-right corner of the grid which maximize the sum of the values collected. Each\n    value can be collected at most once, even if both paths pass through it.\n\n    Args:\n    - N (int): The size of the grid (N x N).\n    - grid_values (List[Tuple[int, int, int]]): A list of tuples where each tuple contains\n      the x-coordinate, y-coordinate, and value to be placed on the grid at that position.\n      The list is terminated by a tuple with all zeros.\n\n    Returns:\n    - int: The maximum sum of values collected on the two paths.\n\n    Examples:\n    >>> max_value_on_paths(2, [(1, 2, 1), (2, 1, 2), (0, 0, 0)])\n    3\n    >>> max_value_on_paths(8, [\n    ...     (2, 3, 13), (2, 6, 6), (3, 5, 7), (4, 4, 14),\n    ...     (5, 2, 21), (5, 6, 4), (6, 3, 15), (7, 2, 14),\n    ...     (0, 0, 0)])\n    67\n    \"\"\"\n    # Initialize the grid.\n    grid = [[0 for _ in range(N)] for _ in range(N)]\n\n    # Fill in the values of the grid.\n    for grid_value in grid_values:\n        grid[grid_value[0]][grid_value[1]] = grid_value[2]\n\n    # Initialize the dynamic programming table.\n    table = [[[0, 0] for _ in range(N)] for _ in range(N)]\n\n    # Initialize the table with the values at the top left.\n    table[0][0] = grid[0][0]\n\n    # Fill in the table using the recurrence.\n    for i in range(1, N):\n        table[0][i] = max(table[0][i-1], grid[0][i] + table[0][i-1][1])\n\n    for j in range(1, N):\n        table[j][0] = max(table[j-1][0], grid[j][0] + table[j-1][0][1])\n\n    for i in range(1, N):\n        for j in range(1, N):\n            table[i][j] = [\n                max(table[i][j-1], grid[i][j] + table[i][j-1][1]),\n                max(table[i-1][j], grid[i][j] + table[i-1][j][0])]\n\n    # Return the maximum sum.\n    return max(table[N-1][N-1])\ndef test_max_value_on_paths():\n    # Test case 1: Small grid with clear path\n    assert max_value_on_paths(2, [(1, 2, 1), (2, 1, 2), (0, 0, 0)]) == 3\n    \n    # Test case 2: Example provided in the problem statement\n    assert max_value_on_paths(8, [\n        (2, 3, 13), (2, 6, 6), (3, 5, 7), (4, 4, 14),\n        (5, 2, 21), (5, 6, 4), (6, 3, 15), (7, 2, 14),\n        (0, 0, 0)]) == 67\n\n    print(\"All test cases passed!\")\n\n# Run the test cases\ntest_max_value_on_paths()",
+      "timestamp": 1746742174,
+      "stdout": "",
+      "stderr": "Traceback (most recent call last):\n  File \"/tmp/tmpa1cc6uqf.py\", line 70, in <module>\n    test_max_value_on_paths()\n  File \"/tmp/tmpa1cc6uqf.py\", line 59, in test_max_value_on_paths\n    assert max_value_on_paths(2, [(1, 2, 1), (2, 1, 2), (0, 0, 0)]) == 3\n  File \"/tmp/tmpa1cc6uqf.py\", line 34, in max_value_on_paths\n    grid[grid_value[0]][grid_value[1]] = grid_value[2]\nIndexError: list assignment index out of range\n",
+      "exit_code": 1,
+      "status": "Exception"
+    }
+  ]
+}

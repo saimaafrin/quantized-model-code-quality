@@ -1,0 +1,25 @@
+{
+  "name": "Python-27",
+  "language": "py",
+  "temperature": 0.8,
+  "top_p": 0.95,
+  "max_tokens": 1024,
+  "prompt": "def preorder_traversal(inorder: str, postorder: str) -> str:\n    \"\"\"\n    Reconstructs the binary tree from its inorder and postorder traversals and\n    returns the preorder traversal as a string.\n\n    Args:\n    inorder (str): The inorder traversal of the binary tree.\n    postorder (str): The postorder traversal of the binary tree.\n\n    Returns:\n    str: The preorder traversal of the binary tree.\n\n    Example:\n    >>> preorder_traversal('BADC', 'BDCA')\n    'ABCD'\n    >>> preorder_traversal('A', 'A')\n    'A'\n    \"\"\"",
+  "tests": "def test_preorder_traversal():\n    # Test case 1\n    inorder1 = \"BADC\"\n    postorder1 = \"BDCA\"\n    expected_preorder1 = \"ABCD\"\n    assert preorder_traversal(inorder1, postorder1) == expected_preorder1\n    print(f\"Test case 1 passed. Preorder: {preorder_traversal(inorder1, postorder1)}\")\n\n    # Test case 2\n    inorder2 = \"DBGEACF\"\n    postorder2 = \"DGEBFCA\"\n    expected_preorder2 = \"ABDEGCF\"\n    assert preorder_traversal(inorder2, postorder2) == expected_preorder2\n    print(f\"Test case 2 passed. Preorder: {preorder_traversal(inorder2, postorder2)}\")\n\n    # Test case 3\n    inorder3 = \"A\"\n    postorder3 = \"A\"\n    expected_preorder3 = \"A\"\n    assert preorder_traversal(inorder3, postorder3) == expected_preorder3\n    print(f\"Test case 3 passed. Preorder: {preorder_traversal(inorder3, postorder3)}\")\n\n# Run the test function\ntest_preorder_traversal()",
+  "stop_tokens": [
+    "\ndef",
+    "\n#",
+    "\nif",
+    "\nclass"
+  ],
+  "results": [
+    {
+      "program": "def preorder_traversal(inorder: str, postorder: str) -> str:\n    \"\"\"\n    Reconstructs the binary tree from its inorder and postorder traversals and\n    returns the preorder traversal as a string.\n\n    Args:\n    inorder (str): The inorder traversal of the binary tree.\n    postorder (str): The postorder traversal of the binary tree.\n\n    Returns:\n    str: The preorder traversal of the binary tree.\n\n    Example:\n    >>> preorder_traversal('BADC', 'BDCA')\n    'ABCD'\n    >>> preorder_traversal('A', 'A')\n    'A'\n    \"\"\"\n    # Base case: if the tree is empty, return an empty string\n    if not inorder:\n        return ''\n\n    # The root of the tree is the last element of the postorder sequence\n    root = postorder[-1]\n\n    # Find the index of the root in the inorder sequence\n    index = inorder.index(root)\n\n    # The left subtree of the root is the inorder sequence up to the root index\n    # The right subtree is the inorder sequence from the root index + 1 to the end\n    left_inorder = inorder[:index]\n    right_inorder = inorder[index + 1:]\n\n    # The left subtree of the root is the postorder sequence up to the root index\n    # The right subtree is the postorder sequence from the root index to the end - 1\n    left_postorder = postorder[:index]\n    right_postorder = postorder[index: -1]\n\n    # Recursively compute the preorder traversal of the left and right subtrees\n    left_preorder = preorder_traversal(left_inorder, left_postorder)\n    right_preorder = preorder_traversal(right_inorder, right\n    \"\"\"\n    :param inorder: The inorder traversal of the binary tree.\n    :param postorder: The postorder traversal of the binary tree.\n    :return: The preorder traversal of the binary tree.\n    \"\"\"\n    \"\"\"\n    # Recursively compute the preorder traversal of the left and right subtrees\n    left_preorder = preorder_traversal(left_inorder, left_postorder)\n    right_preorder = preorder_traversal(right_inorder, right_postorder)\n\n    # Return the preorder traversal of the root, followed by the preorder traversal of the left and right subtrees\n    return root + left_preorder + right_preorder\n\"\"\"\n    return root + left_preorder + right_preorder\ndef test_preorder_traversal():\n    # Test case 1\n    inorder1 = \"BADC\"\n    postorder1 = \"BDCA\"\n    expected_preorder1 = \"ABCD\"\n    assert preorder_traversal(inorder1, postorder1) == expected_preorder1\n    print(f\"Test case 1 passed. Preorder: {preorder_traversal(inorder1, postorder1)}\")\n\n    # Test case 2\n    inorder2 = \"DBGEACF\"\n    postorder2 = \"DGEBFCA\"\n    expected_preorder2 = \"ABDEGCF\"\n    assert preorder_traversal(inorder2, postorder2) == expected_preorder2\n    print(f\"Test case 2 passed. Preorder: {preorder_traversal(inorder2, postorder2)}\")\n\n    # Test case 3\n    inorder3 = \"A\"\n    postorder3 = \"A\"\n    expected_preorder3 = \"A\"\n    assert preorder_traversal(inorder3, postorder3) == expected_preorder3\n    print(f\"Test case 3 passed. Preorder: {preorder_traversal(inorder3, postorder3)}\")\n\n# Run the test function\ntest_preorder_traversal()",
+      "timestamp": 1747229725,
+      "stdout": "",
+      "stderr": "  File \"/tmp/tmpfhakrncu.py\", line 41\n    right_preorder = preorder_traversal(right_inorder, right\n                                       ^\nSyntaxError: '(' was never closed\n",
+      "exit_code": 1,
+      "status": "SyntaxError"
+    }
+  ]
+}

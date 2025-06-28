@@ -1,0 +1,12 @@
+************* Module Python-41-gen0
+/home/saima/projects/NonFunc-AWQ/mcEval-py/deepseekcoder-33B-instruct-awq-7/completion/python-files/Python-41-gen0.py:52:0: C0301: Line too long (123/100) (line-too-long)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/deepseekcoder-33B-instruct-awq-7/completion/python-files/Python-41-gen0.py:56:0: C0304: Final newline missing (missing-final-newline)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/deepseekcoder-33B-instruct-awq-7/completion/python-files/Python-41-gen0.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/deepseekcoder-33B-instruct-awq-7/completion/python-files/Python-41-gen0.py:1:0: C0103: Module name "Python-41-gen0" doesn't conform to snake_case naming style (invalid-name)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/deepseekcoder-33B-instruct-awq-7/completion/python-files/Python-41-gen0.py:26:8: R1705: Unnecessary "else" after "return", remove the "else" and de-indent the code inside it (no-else-return)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/deepseekcoder-33B-instruct-awq-7/completion/python-files/Python-41-gen0.py:33:4: R1705: Unnecessary "else" after "return", remove the "else" and de-indent the code inside it (no-else-return)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/deepseekcoder-33B-instruct-awq-7/completion/python-files/Python-41-gen0.py:37:0: C0116: Missing function or method docstring (missing-function-docstring)
+
+------------------------------------------------------------------
+Your code has been rated at 6.32/10 (previous run: 6.32/10, +0.00)
+

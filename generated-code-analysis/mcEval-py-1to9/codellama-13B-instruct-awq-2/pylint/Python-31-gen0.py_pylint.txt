@@ -1,0 +1,12 @@
+************* Module Python-31-gen0
+/home/saima/projects/NonFunc-AWQ/mcEval-py/codellama-13B-instruct-awq-2/completion/python-files/Python-31-gen0.py:64:0: C0304: Final newline missing (missing-final-newline)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/codellama-13B-instruct-awq-2/completion/python-files/Python-31-gen0.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/codellama-13B-instruct-awq-2/completion/python-files/Python-31-gen0.py:1:0: C0103: Module name "Python-31-gen0" doesn't conform to snake_case naming style (invalid-name)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/codellama-13B-instruct-awq-2/completion/python-files/Python-31-gen0.py:45:0: C0116: Missing function or method docstring (missing-function-docstring)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/codellama-13B-instruct-awq-2/completion/python-files/Python-31-gen0.py:47:8: W0612: Unused variable 'k1' (unused-variable)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/codellama-13B-instruct-awq-2/completion/python-files/Python-31-gen0.py:52:8: W0612: Unused variable 'k2' (unused-variable)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/codellama-13B-instruct-awq-2/completion/python-files/Python-31-gen0.py:57:8: W0612: Unused variable 'k3' (unused-variable)
+
+------------------------------------------------------------------
+Your code has been rated at 7.31/10 (previous run: 7.08/10, +0.22)
+

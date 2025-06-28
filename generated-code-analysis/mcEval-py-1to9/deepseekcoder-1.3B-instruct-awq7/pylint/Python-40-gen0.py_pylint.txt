@@ -1,0 +1,12 @@
+************* Module Python-40-gen0
+/home/saima/projects/NonFunc-AWQ/mcEval-py/deepseekcoder-1.3B-instruct-awq7/completion/python-files/Python-40-gen0.py:37:0: C0301: Line too long (108/100) (line-too-long)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/deepseekcoder-1.3B-instruct-awq7/completion/python-files/Python-40-gen0.py:75:0: C0304: Final newline missing (missing-final-newline)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/deepseekcoder-1.3B-instruct-awq7/completion/python-files/Python-40-gen0.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/deepseekcoder-1.3B-instruct-awq7/completion/python-files/Python-40-gen0.py:1:0: C0103: Module name "Python-40-gen0" doesn't conform to snake_case naming style (invalid-name)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/deepseekcoder-1.3B-instruct-awq7/completion/python-files/Python-40-gen0.py:25:4: C0415: Import outside toplevel (string.ascii_lowercase) (import-outside-toplevel)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/deepseekcoder-1.3B-instruct-awq7/completion/python-files/Python-40-gen0.py:27:4: W0612: Unused variable 'key_len' (unused-variable)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/deepseekcoder-1.3B-instruct-awq7/completion/python-files/Python-40-gen0.py:41:0: C0116: Missing function or method docstring (missing-function-docstring)
+
+------------------------------------------------------------------
+Your code has been rated at 7.74/10 (previous run: 6.80/10, +0.94)
+

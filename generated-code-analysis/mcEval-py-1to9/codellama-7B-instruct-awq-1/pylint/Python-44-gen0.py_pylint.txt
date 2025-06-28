@@ -1,0 +1,11 @@
+************* Module Python-44-gen0
+/home/saima/projects/NonFunc-AWQ/mcEval-py/codellama-7B-instruct-awq-1/completion/python-files/Python-44-gen0.py:51:0: C0304: Final newline missing (missing-final-newline)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/codellama-7B-instruct-awq-1/completion/python-files/Python-44-gen0.py:25:5: W0511: TODO - you code here (fixme)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/codellama-7B-instruct-awq-1/completion/python-files/Python-44-gen0.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/codellama-7B-instruct-awq-1/completion/python-files/Python-44-gen0.py:1:0: C0103: Module name "Python-44-gen0" doesn't conform to snake_case naming style (invalid-name)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/codellama-7B-instruct-awq-1/completion/python-files/Python-44-gen0.py:2:24: W0613: Unused argument 'budgets' (unused-argument)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/codellama-7B-instruct-awq-1/completion/python-files/Python-44-gen0.py:26:0: C0116: Missing function or method docstring (missing-function-docstring)
+
+-----------------------------------
+Your code has been rated at 6.00/10
+

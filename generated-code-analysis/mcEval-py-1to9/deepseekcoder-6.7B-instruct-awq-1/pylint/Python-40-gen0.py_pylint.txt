@@ -1,0 +1,13 @@
+************* Module Python-40-gen0
+/home/saima/projects/NonFunc-AWQ/mcEval-py/deepseekcoder-6.7B-instruct-awq-1/completion/python-files/Python-40-gen0.py:62:0: C0304: Final newline missing (missing-final-newline)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/deepseekcoder-6.7B-instruct-awq-1/completion/python-files/Python-40-gen0.py:26:5: W0511: TODO: Your code goes here (fixme)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/deepseekcoder-6.7B-instruct-awq-1/completion/python-files/Python-40-gen0.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/deepseekcoder-6.7B-instruct-awq-1/completion/python-files/Python-40-gen0.py:1:0: C0103: Module name "Python-40-gen0" doesn't conform to snake_case naming style (invalid-name)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/deepseekcoder-6.7B-instruct-awq-1/completion/python-files/Python-40-gen0.py:27:4: W0107: Unnecessary pass statement (unnecessary-pass)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/deepseekcoder-6.7B-instruct-awq-1/completion/python-files/Python-40-gen0.py:1:21: W0613: Unused argument 'key' (unused-argument)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/deepseekcoder-6.7B-instruct-awq-1/completion/python-files/Python-40-gen0.py:1:31: W0613: Unused argument 'ciphertext' (unused-argument)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/deepseekcoder-6.7B-instruct-awq-1/completion/python-files/Python-40-gen0.py:28:0: C0116: Missing function or method docstring (missing-function-docstring)
+
+------------------------------------------------------------------
+Your code has been rated at 6.80/10 (previous run: 8.67/10, -1.87)
+

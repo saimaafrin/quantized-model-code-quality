@@ -1,0 +1,18 @@
+************* Module Python-20-gen0
+/home/saima/projects/NonFunc-AWQ/mcEval-py/codellama-7B-instruct-awq-4/completion/python-files/Python-20-gen0.py:1:23: C0303: Trailing whitespace (trailing-whitespace)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/codellama-7B-instruct-awq-4/completion/python-files/Python-20-gen0.py:6:0: C0301: Line too long (103/100) (line-too-long)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/codellama-7B-instruct-awq-4/completion/python-files/Python-20-gen0.py:10:0: C0301: Line too long (115/100) (line-too-long)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/codellama-7B-instruct-awq-4/completion/python-files/Python-20-gen0.py:11:0: C0301: Line too long (106/100) (line-too-long)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/codellama-7B-instruct-awq-4/completion/python-files/Python-20-gen0.py:12:0: C0301: Line too long (106/100) (line-too-long)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/codellama-7B-instruct-awq-4/completion/python-files/Python-20-gen0.py:18:0: C0301: Line too long (109/100) (line-too-long)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/codellama-7B-instruct-awq-4/completion/python-files/Python-20-gen0.py:46:0: C0303: Trailing whitespace (trailing-whitespace)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/codellama-7B-instruct-awq-4/completion/python-files/Python-20-gen0.py:78:0: C0304: Final newline missing (missing-final-newline)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/codellama-7B-instruct-awq-4/completion/python-files/Python-20-gen0.py:30:5: W0511: TODO: Your code here! (fixme)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/codellama-7B-instruct-awq-4/completion/python-files/Python-20-gen0.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/codellama-7B-instruct-awq-4/completion/python-files/Python-20-gen0.py:1:0: C0103: Module name "Python-20-gen0" doesn't conform to snake_case naming style (invalid-name)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/codellama-7B-instruct-awq-4/completion/python-files/Python-20-gen0.py:48:4: C0200: Consider using enumerate instead of iterating with range and len (consider-using-enumerate)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/codellama-7B-instruct-awq-4/completion/python-files/Python-20-gen0.py:63:0: C0116: Missing function or method docstring (missing-function-docstring)
+
+------------------------------------------------------------------
+Your code has been rated at 4.35/10 (previous run: 0.00/10, +4.35)
+

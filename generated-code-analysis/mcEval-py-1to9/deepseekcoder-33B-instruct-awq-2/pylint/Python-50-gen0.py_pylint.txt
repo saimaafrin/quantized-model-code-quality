@@ -1,0 +1,11 @@
+************* Module Python-50-gen0
+/home/saima/projects/NonFunc-AWQ/mcEval-py/deepseekcoder-33B-instruct-awq-2/completion/python-files/Python-50-gen0.py:17:0: C0301: Line too long (102/100) (line-too-long)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/deepseekcoder-33B-instruct-awq-2/completion/python-files/Python-50-gen0.py:19:0: C0304: Final newline missing (missing-final-newline)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/deepseekcoder-33B-instruct-awq-2/completion/python-files/Python-50-gen0.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/deepseekcoder-33B-instruct-awq-2/completion/python-files/Python-50-gen0.py:1:0: C0103: Module name "Python-50-gen0" doesn't conform to snake_case naming style (invalid-name)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/deepseekcoder-33B-instruct-awq-2/completion/python-files/Python-50-gen0.py:1:28: W0613: Unused argument 'n' (unused-argument)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/deepseekcoder-33B-instruct-awq-2/completion/python-files/Python-50-gen0.py:1:31: W0613: Unused argument 'k' (unused-argument)
+
+------------------------------------------------------------------
+Your code has been rated at 1.43/10 (previous run: 4.44/10, -3.02)
+

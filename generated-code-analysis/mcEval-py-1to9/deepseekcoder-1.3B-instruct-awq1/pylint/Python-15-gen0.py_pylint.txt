@@ -1,0 +1,2 @@
+************* Module Python-15-gen0
+/home/saima/projects/NonFunc-AWQ/mcEval-py/deepseekcoder-1.3B-instruct-awq1/completion/python-files/Python-15-gen0.py:33:12: E0001: Parsing failed: 'unexpected indent (Python-15-gen0, line 33)' (syntax-error)

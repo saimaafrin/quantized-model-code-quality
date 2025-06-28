@@ -1,0 +1,2 @@
+************* Module Python-38-gen0
+/home/saima/projects/NonFunc-AWQ/mcEval-py/codellama-7B-instruct-awq-6/completion/python-files/Python-38-gen0.py:75:0: E0001: Parsing failed: 'expected an indented block (Python-38-gen0, line 75)' (syntax-error)

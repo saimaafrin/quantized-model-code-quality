@@ -1,0 +1,13 @@
+************* Module Python-39-gen0
+/home/saima/projects/NonFunc-AWQ/mcEval-py/deepseekcoder-6.7B-instruct-awq-5/completion/python-files/Python-39-gen0.py:44:0: C0301: Line too long (142/100) (line-too-long)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/deepseekcoder-6.7B-instruct-awq-5/completion/python-files/Python-39-gen0.py:49:0: C0301: Line too long (142/100) (line-too-long)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/deepseekcoder-6.7B-instruct-awq-5/completion/python-files/Python-39-gen0.py:54:0: C0301: Line too long (142/100) (line-too-long)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/deepseekcoder-6.7B-instruct-awq-5/completion/python-files/Python-39-gen0.py:59:0: C0304: Final newline missing (missing-final-newline)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/deepseekcoder-6.7B-instruct-awq-5/completion/python-files/Python-39-gen0.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/deepseekcoder-6.7B-instruct-awq-5/completion/python-files/Python-39-gen0.py:1:0: C0103: Module name "Python-39-gen0" doesn't conform to snake_case naming style (invalid-name)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/deepseekcoder-6.7B-instruct-awq-5/completion/python-files/Python-39-gen0.py:26:11: C3001: Lambda expression assigned to a variable. Define a function using the "def" keyword instead. (unnecessary-lambda-assignment)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/deepseekcoder-6.7B-instruct-awq-5/completion/python-files/Python-39-gen0.py:36:0: C0116: Missing function or method docstring (missing-function-docstring)
+
+------------------------------------------------------------------
+Your code has been rated at 7.33/10 (previous run: 6.92/10, +0.41)
+

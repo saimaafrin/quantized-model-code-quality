@@ -1,0 +1,12 @@
+************* Module Python-42-gen0
+/home/saima/projects/NonFunc-AWQ/mcEval-py/codellama-7B-instruct-awq-6/completion/python-files/Python-42-gen0.py:28:0: C0303: Trailing whitespace (trailing-whitespace)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/codellama-7B-instruct-awq-6/completion/python-files/Python-42-gen0.py:32:0: C0303: Trailing whitespace (trailing-whitespace)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/codellama-7B-instruct-awq-6/completion/python-files/Python-42-gen0.py:39:0: C0303: Trailing whitespace (trailing-whitespace)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/codellama-7B-instruct-awq-6/completion/python-files/Python-42-gen0.py:81:0: C0304: Final newline missing (missing-final-newline)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/codellama-7B-instruct-awq-6/completion/python-files/Python-42-gen0.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/codellama-7B-instruct-awq-6/completion/python-files/Python-42-gen0.py:1:0: C0103: Module name "Python-42-gen0" doesn't conform to snake_case naming style (invalid-name)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/codellama-7B-instruct-awq-6/completion/python-files/Python-42-gen0.py:41:0: C0116: Missing function or method docstring (missing-function-docstring)
+
+------------------------------------------------------------------
+Your code has been rated at 6.11/10 (previous run: 5.00/10, +1.11)
+

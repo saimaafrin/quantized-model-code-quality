@@ -1,0 +1,66 @@
+def mod_inverse(a, b):
+    """
+    Calculate the modular multiplicative inverse of `a` modulo `b`.
+    
+    This function finds an integer `x` such that (a * x) % b == 1, provided that
+    `a` and `b` are coprime (i.e., gcd(a, b) == 1). It uses the Extended Euclidean
+    Algorithm to compute the inverse. If `a` and `b` are not coprime, the modular
+    inverse does not exist, and the function returns `None`.
+    
+    Args:
+      a (int): The integer whose modular inverse is to be found.
+      b (int): The modulus with respect to which the inverse is sought.
+    
+    Returns:
+      int: The modular inverse of `a` modulo `b` if it exists, otherwise `None`.
+    
+    Examples:
+      >>> mod_inverse(3, 10)
+      7
+
+      >>> mod_inverse(42, 2017)
+      None
+    """
+
+    # Initialize the extended Euclidean algorithm state.
+    x1, x2 = 1, 0
+    y1, y2 = 0, 1
+    
+    # Iterate over the Euclidean algorithm until the gcd is 1.
+    while b != 0:
+        # Store the quotient and remainder.
+        q, a = divmod(a, b)
+        x, y = x1 - q*x2, y1 - q*y2
+        
+        # Advance to the next iteration of the Euclidean algorithm.
+        b, a = a, b
+        x1, x2 = x2, x
+        y1, y2 = y2, y
+    
+    # If the gcd is 1, the modular inverse exists.
+    if a == 1:
+        return x1 % b
+    
+    # Otherwise, the modular inverse does not exist.
+    else:
+        return None
+def test_mod_inverse():
+    test_cases = [
+        (3, 10),  # Test case 1: gcd(3, 10) = 1, inverse should be 7
+        (17, 3120),  # Test case 2: gcd(17, 3120) = 1, inverse should be 2753
+        (42, 2017),  # Test case 3: gcd(42, 2017) = 1, inverse should be 1969
+    ]
+    expected_results = [
+        7,  # Expected result for test case 1
+        2753,  # Expected result for test case 2
+        1969,  # Expected result for test case 3
+    ]
+
+    for i, (a, b) in enumerate(test_cases):
+        actual_result = mod_inverse(a, b)
+        expected_result = expected_results[i]
+        assert actual_result == expected_result, f"Test case {i+1} failed: expected {expected_result}, got {actual_result}"
+        print(f"Test case {i+1} passed: a={a}, b={b}, x0={actual_result}")
+
+# Run the test function
+test_mod_inverse()

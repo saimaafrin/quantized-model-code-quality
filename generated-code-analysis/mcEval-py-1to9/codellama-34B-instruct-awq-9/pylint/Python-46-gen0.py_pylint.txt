@@ -1,0 +1,12 @@
+************* Module Python-46-gen0
+/home/saima/projects/NonFunc-AWQ/mcEval-py/codellama-34B-instruct-awq-9/completion/python-files/Python-46-gen0.py:33:0: C0301: Line too long (105/100) (line-too-long)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/codellama-34B-instruct-awq-9/completion/python-files/Python-46-gen0.py:53:0: C0304: Final newline missing (missing-final-newline)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/codellama-34B-instruct-awq-9/completion/python-files/Python-46-gen0.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/codellama-34B-instruct-awq-9/completion/python-files/Python-46-gen0.py:1:0: C0103: Module name "Python-46-gen0" doesn't conform to snake_case naming style (invalid-name)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/codellama-34B-instruct-awq-9/completion/python-files/Python-46-gen0.py:22:15: C0117: Consider changing "not current_state == increasing" to "current_state != increasing" (unnecessary-negation)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/codellama-34B-instruct-awq-9/completion/python-files/Python-46-gen0.py:26:15: C0117: Consider changing "not current_state == decreasing" to "current_state != decreasing" (unnecessary-negation)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/codellama-34B-instruct-awq-9/completion/python-files/Python-46-gen0.py:31:0: C0116: Missing function or method docstring (missing-function-docstring)
+
+------------------------------------------------------------------
+Your code has been rated at 7.31/10 (previous run: 8.15/10, -0.84)
+

@@ -1,0 +1,14 @@
+************* Module Python-31-gen0
+/home/saima/projects/NonFunc-AWQ/mcEval-py/deepseekcoder-33B-instruct-awq-7/completion/python-files/Python-31-gen0.py:32:0: C0301: Line too long (110/100) (line-too-long)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/deepseekcoder-33B-instruct-awq-7/completion/python-files/Python-31-gen0.py:56:0: C0304: Final newline missing (missing-final-newline)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/deepseekcoder-33B-instruct-awq-7/completion/python-files/Python-31-gen0.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/deepseekcoder-33B-instruct-awq-7/completion/python-files/Python-31-gen0.py:1:0: C0103: Module name "Python-31-gen0" doesn't conform to snake_case naming style (invalid-name)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/deepseekcoder-33B-instruct-awq-7/completion/python-files/Python-31-gen0.py:25:27: R1721: Unnecessary use of a comprehension, use dict(rules) instead. (unnecessary-comprehension)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/deepseekcoder-33B-instruct-awq-7/completion/python-files/Python-31-gen0.py:37:0: C0116: Missing function or method docstring (missing-function-docstring)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/deepseekcoder-33B-instruct-awq-7/completion/python-files/Python-31-gen0.py:39:8: W0612: Unused variable 'k1' (unused-variable)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/deepseekcoder-33B-instruct-awq-7/completion/python-files/Python-31-gen0.py:44:8: W0612: Unused variable 'k2' (unused-variable)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/deepseekcoder-33B-instruct-awq-7/completion/python-files/Python-31-gen0.py:49:8: W0612: Unused variable 'k3' (unused-variable)
+
+------------------------------------------------------------------
+Your code has been rated at 6.67/10 (previous run: 7.41/10, -0.74)
+

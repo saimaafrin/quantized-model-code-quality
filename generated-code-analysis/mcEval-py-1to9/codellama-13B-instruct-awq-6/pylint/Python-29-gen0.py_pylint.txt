@@ -1,0 +1,13 @@
+************* Module Python-29-gen0
+/home/saima/projects/NonFunc-AWQ/mcEval-py/codellama-13B-instruct-awq-6/completion/python-files/Python-29-gen0.py:9:0: C0301: Line too long (103/100) (line-too-long)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/codellama-13B-instruct-awq-6/completion/python-files/Python-29-gen0.py:36:0: C0304: Final newline missing (missing-final-newline)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/codellama-13B-instruct-awq-6/completion/python-files/Python-29-gen0.py:20:5: W0511: TODO: Implement the function (fixme)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/codellama-13B-instruct-awq-6/completion/python-files/Python-29-gen0.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/codellama-13B-instruct-awq-6/completion/python-files/Python-29-gen0.py:1:0: C0103: Module name "Python-29-gen0" doesn't conform to snake_case naming style (invalid-name)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/codellama-13B-instruct-awq-6/completion/python-files/Python-29-gen0.py:21:4: W0107: Unnecessary pass statement (unnecessary-pass)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/codellama-13B-instruct-awq-6/completion/python-files/Python-29-gen0.py:1:30: W0613: Unused argument 'k' (unused-argument)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/codellama-13B-instruct-awq-6/completion/python-files/Python-29-gen0.py:22:0: C0116: Missing function or method docstring (missing-function-docstring)
+
+------------------------------------------------------------------
+Your code has been rated at 0.00/10 (previous run: 5.45/10, -5.45)
+

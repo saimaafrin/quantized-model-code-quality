@@ -1,0 +1,2 @@
+************* Module Python-12-gen0
+/home/saima/projects/NonFunc-AWQ/mcEval-py/codellama-7B-instruct-awq-7/completion/python-files/Python-12-gen0.py:112:1258: E0001: Parsing failed: 'EOF while scanning triple-quoted string literal (Python-12-gen0, line 112)' (syntax-error)

@@ -1,0 +1,12 @@
+/home/saima/projects/NonFunc-AWQ/mcEval-py/deepseekcoder-6.7B-instruct-awq-5/completion/python-files/Python-35-gen0.py:2:1: E302 expected 2 blank lines, found 0
+/home/saima/projects/NonFunc-AWQ/mcEval-py/deepseekcoder-6.7B-instruct-awq-5/completion/python-files/Python-35-gen0.py:7:80: E501 line too long (86 > 79 characters)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/deepseekcoder-6.7B-instruct-awq-5/completion/python-files/Python-35-gen0.py:8:80: E501 line too long (107 > 79 characters)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/deepseekcoder-6.7B-instruct-awq-5/completion/python-files/Python-35-gen0.py:11:80: E501 line too long (89 > 79 characters)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/deepseekcoder-6.7B-instruct-awq-5/completion/python-files/Python-35-gen0.py:13:80: E501 line too long (113 > 79 characters)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/deepseekcoder-6.7B-instruct-awq-5/completion/python-files/Python-35-gen0.py:17:80: E501 line too long (100 > 79 characters)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/deepseekcoder-6.7B-instruct-awq-5/completion/python-files/Python-35-gen0.py:18:80: E501 line too long (99 > 79 characters)
+/home/saima/projects/NonFunc-AWQ/mcEval-py/deepseekcoder-6.7B-instruct-awq-5/completion/python-files/Python-35-gen0.py:25:1: E305 expected 2 blank lines after class or function definition, found 0
+/home/saima/projects/NonFunc-AWQ/mcEval-py/deepseekcoder-6.7B-instruct-awq-5/completion/python-files/Python-35-gen0.py:25:1: E402 module level import not at top of file
+/home/saima/projects/NonFunc-AWQ/mcEval-py/deepseekcoder-6.7B-instruct-awq-5/completion/python-files/Python-35-gen0.py:27:1: E302 expected 2 blank lines, found 1
+/home/saima/projects/NonFunc-AWQ/mcEval-py/deepseekcoder-6.7B-instruct-awq-5/completion/python-files/Python-35-gen0.py:45:1: E305 expected 2 blank lines after class or function definition, found 1
+/home/saima/projects/NonFunc-AWQ/mcEval-py/deepseekcoder-6.7B-instruct-awq-5/completion/python-files/Python-35-gen0.py:46:20: W292 no newline at end of file
