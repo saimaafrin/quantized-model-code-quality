@@ -1,0 +1,2180 @@
+taskid,code,consistency,readability
+task_1,"import java.util.*;
+import java.lang.reflect.*;
+import org.javatuples.*;
+import java.security.*;
+import java.math.*;
+import java.io.*;
+import java.util.stream.*;
+class Problem {
+    // Given an array array list of numbers, return the sum of squares of the numbers
+    // in the array list that are odd. Ignore numbers that are negative or not integers.
+    // >>> doubleTheDifference((new ArrayList<Float>(Arrays.asList((long)1l, (long)3l, (long)2l, (long)0l))))
+    // (10l)
+    // >>> doubleTheDifference((new ArrayList<Float>(Arrays.asList((long)-1l, (long)-2l, (long)0l))))
+    // (0l)
+    // >>> doubleTheDifference((new ArrayList<Float>(Arrays.asList((long)9l, (long)-2l))))
+    // (81l)
+    // >>> doubleTheDifference((new ArrayList<Float>(Arrays.asList((long)0l))))
+    // (0l)
+    // If the input array list is empty, return 0.
+    public static long doubleTheDifference(ArrayList<Float> lst) {
+
+        // Convert array list to a stream
+        var str = lst.stream();
+        // Filter out negative values and non-integers
+        var ints = str.filter(e -> e >= 0 && (e % 1) == 0);
+        // Get sum of odd numbers
+        long sum = ints.filter(e -> e % 2 != 0).map(e -> e * e).reduce(0l, (e1, e2) -> e1 + e2);
+        // Return result
+        return sum;
+    }
+    public static void main(String[] args) {
+    assert(doubleTheDifference((new ArrayList<Float>(Arrays.asList()))) == (0l));
+    assert(doubleTheDifference((new ArrayList<Float>(Arrays.asList((float)5.0f, (float)4.0f)))) == (25l));
+    assert(doubleTheDifference((new ArrayList<Float>(Arrays.asList((float)0.1f, (float)0.2f, (float)0.3f)))) == (0l));
+    assert(doubleTheDifference((new ArrayList<Float>(Arrays.asList((float)-10.0f, (float)-20.0f, (float)-30.0f)))) == (0l));
+    assert(doubleTheDifference((new ArrayList<Float>(Arrays.asList((float)-1.0f, (float)-2.0f, (float)8.0f)))) == (0l));
+    assert(doubleTheDifference((new ArrayList<Float>(Arrays.asList((float)0.2f, (float)3.0f, (float)5.0f)))) == (34l));
+    assert(doubleTheDifference((new ArrayList<Float>(Arrays.asList((float)-9.0f, (float)-7.0f, (float)-5.0f, (float)-3.0f, (float)-1.0f, (float)1.0f, (float)3.0f, (float)5.0f, (float)7.0f, (float)9.0f)))) == (165l));
+    }
+
+}
+",poor,poor
+task_2,"import java.util.*;
+import java.lang.reflect.*;
+import org.javatuples.*;
+import java.security.*;
+import java.math.*;
+import java.io.*;
+import java.util.stream.*;
+class Problem {
+    // Write a function vowels_count which takes a string representing
+    // a word as input and returns the number of vowels in the string.
+    // Vowels in this case are 'a', 'e', 'i', 'o', 'u'. Here, 'y' is also a
+    // vowel, but only when it is at the end of the given word.
+    // Example:
+    // >>> vowelsCount((""abcde""))
+    // (2l)
+    // >>> vowelsCount((""ACEDY""))
+    // (3l)
+    public static long vowelsCount(String s) {
+
+        long count = 0;
+        s = s.toLowerCase();
+        for (int i = 0; i < s.length(); i++) {
+            char ch = s.charAt(i);
+            if (ch == 'a' || ch == 'e' || ch == 'i' || ch == 'o' || ch == 'u') {
+                count++;
+            }
+            if (ch == 'y' && i != s.length() - 1) {
+                count--;
+            }
+        }
+        return count;
+    }
+    public static void main(String[] args) {
+    assert(vowelsCount((""abcde"")) == (2l));
+    assert(vowelsCount((""Alone"")) == (3l));
+    assert(vowelsCount((""key"")) == (2l));
+    assert(vowelsCount((""bye"")) == (1l));
+    assert(vowelsCount((""keY"")) == (2l));
+    assert(vowelsCount((""bYe"")) == (1l));
+    assert(vowelsCount((""ACEDY"")) == (3l));
+    }
+
+}
+",acceptable,acceptable
+task_3,"import java.util.*;
+import java.lang.reflect.*;
+import org.javatuples.*;
+import java.security.*;
+import java.math.*;
+import java.io.*;
+import java.util.stream.*;
+class Problem {
+    // pairs_sum_to_zero takes an array array list of integers as an input.
+    // it returns true if there are two distinct elements in the array list that
+    // sum to zero, and false otherwise.
+    // >>> pairsSumToZero((new ArrayList<Long>(Arrays.asList((long)1l, (long)3l, (long)5l, (long)0l))))
+    // (false)
+    // >>> pairsSumToZero((new ArrayList<Long>(Arrays.asList((long)1l, (long)3l, (long)-2l, (long)1l))))
+    // (false)
+    // >>> pairsSumToZero((new ArrayList<Long>(Arrays.asList((long)1l, (long)2l, (long)3l, (long)7l))))
+    // (false)
+    // >>> pairsSumToZero((new ArrayList<Long>(Arrays.asList((long)2l, (long)4l, (long)-5l, (long)3l, (long)5l, (long)7l))))
+    // (true)
+    // >>> pairsSumToZero((new ArrayList<Long>(Arrays.asList((long)1l))))
+    // (false)
+    public static boolean pairsSumToZero(ArrayList<Long> l) {
+
+        HashSet<Long> h = new HashSet<Long>(l);
+        for (Long e : l) {
+            Long r = 0l - e;
+            if (h.contains(r)) {
+                return true;
+            }
+        }
+        return false;
+    }
+    public static void main(String[] args) {
+    assert(pairsSumToZero((new ArrayList<Long>(Arrays.asList((long)1l, (long)3l, (long)5l, (long)0l)))) == (false));
+    assert(pairsSumToZero((new ArrayList<Long>(Arrays.asList((long)1l, (long)3l, (long)-2l, (long)1l)))) == (false));
+    assert(pairsSumToZero((new ArrayList<Long>(Arrays.asList((long)1l, (long)2l, (long)3l, (long)7l)))) == (false));
+    assert(pairsSumToZero((new ArrayList<Long>(Arrays.asList((long)2l, (long)4l, (long)-5l, (long)3l, (long)5l, (long)7l)))) == (true));
+    assert(pairsSumToZero((new ArrayList<Long>(Arrays.asList((long)1l)))) == (false));
+    assert(pairsSumToZero((new ArrayList<Long>(Arrays.asList((long)-3l, (long)9l, (long)-1l, (long)3l, (long)2l, (long)30l)))) == (true));
+    assert(pairsSumToZero((new ArrayList<Long>(Arrays.asList((long)-3l, (long)9l, (long)-1l, (long)3l, (long)2l, (long)31l)))) == (true));
+    assert(pairsSumToZero((new ArrayList<Long>(Arrays.asList((long)-3l, (long)9l, (long)-1l, (long)4l, (long)2l, (long)30l)))) == (false));
+    assert(pairsSumToZero((new ArrayList<Long>(Arrays.asList((long)-3l, (long)9l, (long)-1l, (long)4l, (long)2l, (long)31l)))) == (false));
+    }
+
+}
+",acceptable,acceptable
+task_4,"import java.util.*;
+import java.lang.reflect.*;
+import org.javatuples.*;
+import java.security.*;
+import java.math.*;
+import java.io.*;
+import java.util.stream.*;
+class Problem {
+    // Add two numbers x and y
+    // >>> add((2l), (3l))
+    // (5l)
+    // >>> add((5l), (7l))
+    // (12l)
+    public static long add(long x, long y) {
+
+        return x + y;
+    }
+    public static void main(String[] args) {
+    assert(add((0l), (1l)) == (1l));
+    assert(add((1l), (0l)) == (1l));
+    assert(add((2l), (3l)) == (5l));
+    assert(add((5l), (7l)) == (12l));
+    assert(add((7l), (5l)) == (12l));
+    }
+
+}
+",acceptable,acceptable
+task_5,"import java.util.*;
+import java.lang.reflect.*;
+import org.javatuples.*;
+import java.security.*;
+import java.math.*;
+import java.io.*;
+import java.util.stream.*;
+class Problem {
+    // Return only positive numbers in the array list.
+    // >>> getPositive((new ArrayList<Long>(Arrays.asList((long)-1l, (long)2l, (long)-4l, (long)5l, (long)6l))))
+    // (new ArrayList<Long>(Arrays.asList((long)2l, (long)5l, (long)6l)))
+    // >>> getPositive((new ArrayList<Long>(Arrays.asList((long)5l, (long)3l, (long)-5l, (long)2l, (long)-3l, (long)3l, (long)9l, (long)0l, (long)123l, (long)1l, (long)-10l))))
+    // (new ArrayList<Long>(Arrays.asList((long)5l, (long)3l, (long)2l, (long)3l, (long)9l, (long)123l, (long)1l)))
+    public static ArrayList<Long> getPositive(ArrayList<Long> l) {
+
+        ArrayList<Long> result = new ArrayList<>();
+        for (Long i : l) {
+            if (i > 0) {
+                result.add(i);
+            }
+        }
+        return result;
+    }
+    public static void main(String[] args) {
+    assert(getPositive((new ArrayList<Long>(Arrays.asList((long)-1l, (long)-2l, (long)4l, (long)5l, (long)6l)))).equals((new ArrayList<Long>(Arrays.asList((long)4l, (long)5l, (long)6l)))));
+    assert(getPositive((new ArrayList<Long>(Arrays.asList((long)5l, (long)3l, (long)-5l, (long)2l, (long)3l, (long)3l, (long)9l, (long)0l, (long)123l, (long)1l, (long)-10l)))).equals((new ArrayList<Long>(Arrays.asList((long)5l, (long)3l, (long)2l, (long)3l, (long)3l, (long)9l, (long)123l, (long)1l)))));
+    assert(getPositive((new ArrayList<Long>(Arrays.asList((long)-1l, (long)-2l)))).equals((new ArrayList<Long>(Arrays.asList()))));
+    assert(getPositive((new ArrayList<Long>(Arrays.asList()))).equals((new ArrayList<Long>(Arrays.asList()))));
+    }
+
+}
+",good,good
+task_6,"import java.util.*;
+import java.lang.reflect.*;
+import org.javatuples.*;
+import java.security.*;
+import java.math.*;
+import java.io.*;
+import java.util.stream.*;
+class Problem {
+    // Return the largest prime factor of n. Assume n > 1 and is not a prime.
+    // >>> largestPrimeFactor((13195l))
+    // (29l)
+    // >>> largestPrimeFactor((2048l))
+    // (2l)
+    public static long largestPrimeFactor(long n) {
+
+        // Step 1: Find the prime factors of n.
+        // Step 2: Select the largest prime factor.
+        // Step 3: Return the largest prime factor.
+        List<Long> factors = getPrimeFactors(n);
+        return factors.get(factors.size()-1);
+    }
+    public static void main(String[] args) {
+    assert(largestPrimeFactor((15l)) == (5l));
+    assert(largestPrimeFactor((27l)) == (3l));
+    assert(largestPrimeFactor((63l)) == (7l));
+    assert(largestPrimeFactor((330l)) == (11l));
+    assert(largestPrimeFactor((13195l)) == (29l));
+    }
+
+}
+",poor,poor
+task_7,"import java.util.*;
+import java.lang.reflect.*;
+import org.javatuples.*;
+import java.security.*;
+import java.math.*;
+import java.io.*;
+import java.util.stream.*;
+class Problem {
+    // Given array list of integers, return array list in strange order.
+    // Strange sorting, is when you start with the minimum value,
+    // then maximum of the remaining integers, then minimum and so on.
+    // Examples:
+    // >>> strangeSortList((new ArrayList<Long>(Arrays.asList((long)1l, (long)2l, (long)3l, (long)4l))))
+    // (new ArrayList<Long>(Arrays.asList((long)1l, (long)4l, (long)2l, (long)3l)))
+    // >>> strangeSortList((new ArrayList<Long>(Arrays.asList((long)5l, (long)5l, (long)5l, (long)5l))))
+    // (new ArrayList<Long>(Arrays.asList((long)5l, (long)5l, (long)5l, (long)5l)))
+    // >>> strangeSortList((new ArrayList<Long>(Arrays.asList())))
+    // (new ArrayList<Long>(Arrays.asList()))
+    public static ArrayList<Long> strangeSortList(ArrayList<Long> lst) {
+
+        if (lst.size() < 1) {
+            return new ArrayList<Long>();
+        }
+        ArrayList<Long> ret = new ArrayList<Long>();
+        while (lst.size() > 0) {
+            long min = Collections.min(lst);
+            long max = Collections.max(lst);
+            if (min == max) {
+                ret.add(min);
+            } else {
+                ret.add(min);
+                ret.add(max);
+            }
+            lst.remove(min);
+            lst.remove(max);
+        }
+        return ret;
+    }
+    public static void main(String[] args) {
+    assert(strangeSortList((new ArrayList<Long>(Arrays.asList((long)1l, (long)2l, (long)3l, (long)4l)))).equals((new ArrayList<Long>(Arrays.asList((long)1l, (long)4l, (long)2l, (long)3l)))));
+    assert(strangeSortList((new ArrayList<Long>(Arrays.asList((long)5l, (long)6l, (long)7l, (long)8l, (long)9l)))).equals((new ArrayList<Long>(Arrays.asList((long)5l, (long)9l, (long)6l, (long)8l, (long)7l)))));
+    assert(strangeSortList((new ArrayList<Long>(Arrays.asList((long)1l, (long)2l, (long)3l, (long)4l, (long)5l)))).equals((new ArrayList<Long>(Arrays.asList((long)1l, (long)5l, (long)2l, (long)4l, (long)3l)))));
+    assert(strangeSortList((new ArrayList<Long>(Arrays.asList((long)5l, (long)6l, (long)7l, (long)8l, (long)9l, (long)1l)))).equals((new ArrayList<Long>(Arrays.asList((long)1l, (long)9l, (long)5l, (long)8l, (long)6l, (long)7l)))));
+    assert(strangeSortList((new ArrayList<Long>(Arrays.asList((long)5l, (long)5l, (long)5l, (long)5l)))).equals((new ArrayList<Long>(Arrays.asList((long)5l, (long)5l, (long)5l, (long)5l)))));
+    assert(strangeSortList((new ArrayList<Long>(Arrays.asList()))).equals((new ArrayList<Long>(Arrays.asList()))));
+    assert(strangeSortList((new ArrayList<Long>(Arrays.asList((long)1l, (long)2l, (long)3l, (long)4l, (long)5l, (long)6l, (long)7l, (long)8l)))).equals((new ArrayList<Long>(Arrays.asList((long)1l, (long)8l, (long)2l, (long)7l, (long)3l, (long)6l, (long)4l, (long)5l)))));
+    assert(strangeSortList((new ArrayList<Long>(Arrays.asList((long)0l, (long)2l, (long)2l, (long)2l, (long)5l, (long)5l, (long)-5l, (long)-5l)))).equals((new ArrayList<Long>(Arrays.asList((long)-5l, (long)5l, (long)-5l, (long)5l, (long)0l, (long)2l, (long)2l, (long)2l)))));
+    assert(strangeSortList((new ArrayList<Long>(Arrays.asList((long)111111l)))).equals((new ArrayList<Long>(Arrays.asList((long)111111l)))));
+    }
+
+}
+",acceptable,acceptable
+task_8,"import java.util.*;
+import java.lang.reflect.*;
+import org.javatuples.*;
+import java.security.*;
+import java.math.*;
+import java.io.*;
+import java.util.stream.*;
+class Problem {
+    // triples_sum_to_zero takes an array array list of integers as an input.
+    // it returns true if there are three distinct elements in the array list that
+    // sum to zero, and false otherwise.
+    // >>> triplesSumToZero((new ArrayList<Long>(Arrays.asList((long)1l, (long)3l, (long)5l, (long)0l))))
+    // (false)
+    // >>> triplesSumToZero((new ArrayList<Long>(Arrays.asList((long)1l, (long)3l, (long)-2l, (long)1l))))
+    // (true)
+    // >>> triplesSumToZero((new ArrayList<Long>(Arrays.asList((long)1l, (long)2l, (long)3l, (long)7l))))
+    // (false)
+    // >>> triplesSumToZero((new ArrayList<Long>(Arrays.asList((long)2l, (long)4l, (long)-5l, (long)3l, (long)9l, (long)7l))))
+    // (true)
+    // >>> triplesSumToZero((new ArrayList<Long>(Arrays.asList((long)1l))))
+    // (false)
+    public static boolean triplesSumToZero(ArrayList<Long> l) {
+
+        if (l.size() < 3) {
+            return false;
+        }
+        for (int i = 0; i < l.size(); i++) {
+            for (int j = i + 1; j < l.size(); j++) {
+                long k = -1 * (l.get(i) + l.get(j));
+                if (l.contains(k)) {
+                    return true;
+                }
+            }
+        }
+        return false;
+    }
+    public static void main(String[] args) {
+    assert(triplesSumToZero((new ArrayList<Long>(Arrays.asList((long)1l, (long)3l, (long)5l, (long)0l)))) == (false));
+    assert(triplesSumToZero((new ArrayList<Long>(Arrays.asList((long)1l, (long)3l, (long)5l, (long)-1l)))) == (false));
+    assert(triplesSumToZero((new ArrayList<Long>(Arrays.asList((long)1l, (long)3l, (long)-2l, (long)1l)))) == (true));
+    assert(triplesSumToZero((new ArrayList<Long>(Arrays.asList((long)1l, (long)2l, (long)3l, (long)7l)))) == (false));
+    assert(triplesSumToZero((new ArrayList<Long>(Arrays.asList((long)1l, (long)2l, (long)5l, (long)7l)))) == (false));
+    assert(triplesSumToZero((new ArrayList<Long>(Arrays.asList((long)2l, (long)4l, (long)-5l, (long)3l, (long)9l, (long)7l)))) == (true));
+    assert(triplesSumToZero((new ArrayList<Long>(Arrays.asList((long)1l)))) == (false));
+    assert(triplesSumToZero((new ArrayList<Long>(Arrays.asList((long)1l, (long)3l, (long)5l, (long)-100l)))) == (false));
+    assert(triplesSumToZero((new ArrayList<Long>(Arrays.asList((long)100l, (long)3l, (long)5l, (long)-100l)))) == (false));
+    }
+
+}
+",acceptable,acceptable
+task_9,"import java.util.*;
+import java.lang.reflect.*;
+import org.javatuples.*;
+import java.security.*;
+import java.math.*;
+import java.io.*;
+import java.util.stream.*;
+class Problem {
+    // Given a positive floating point number, it can be decomposed into
+    // and integer part (largest integer smaller than given number) and decimals
+    // (leftover part always smaller than 1).
+    // Return the decimal part of the number.
+    // >>> truncateNumber((3.5f))
+    // (0.5f)
+    public static float truncateNumber(float number) {
+
+        float intPart = (int) number;
+        return (number - intPart);
+    }
+    public static void main(String[] args) {
+    assert(truncateNumber((3.5f)) == (0.5f));
+    assert(truncateNumber((1.25f)) == (0.25f));
+    assert(truncateNumber((123.0f)) == (0.0f));
+    }
+
+}
+",good,good
+task_10,"import java.util.*;
+import java.lang.reflect.*;
+import org.javatuples.*;
+import java.security.*;
+import java.math.*;
+import java.io.*;
+import java.util.stream.*;
+class Problem {
+    // Write a function that accepts an array array list of strings as a parameter,
+    // deletes the strings that have odd lengths from it,
+    // and returns the resulted array list with a sorted order,
+    // The array list is always an array array list of strings and never an array array list of numbers,
+    // and it may contain duplicates.
+    // The order of the array list should be ascending by length of each word, and you
+    // should return the array list sorted by that rule.
+    // If two words have the same length, sort the array list alphabetically.
+    // The function should return an array array list of strings in sorted order.
+    // You may assume that all words will have the same length.
+    // For example:
+    // >>> listSort((new ArrayList<String>(Arrays.asList((String)""aa"", (String)""a"", (String)""aaa""))))
+    // (new ArrayList<String>(Arrays.asList((String)""aa"")))
+    // >>> listSort((new ArrayList<String>(Arrays.asList((String)""ab"", (String)""a"", (String)""aaa"", (String)""cd""))))
+    // (new ArrayList<String>(Arrays.asList((String)""ab"", (String)""cd"")))
+    public static ArrayList<String> sortedListSum(ArrayList<String> lst) {
+
+        ArrayList<String> r = new ArrayList<String>();
+        for (int i = 0; i < lst.size(); i++) {
+            if (lst.get(i).length() % 2 == 0) {
+                r.add(lst.get(i));
+            }
+        }
+        r.sort(null);
+        return r;
+    }
+    public static void main(String[] args) {
+    assert(sortedListSum((new ArrayList<String>(Arrays.asList((String)""aa"", (String)""a"", (String)""aaa"")))).equals((new ArrayList<String>(Arrays.asList((String)""aa"")))));
+    assert(sortedListSum((new ArrayList<String>(Arrays.asList((String)""school"", (String)""AI"", (String)""asdf"", (String)""b"")))).equals((new ArrayList<String>(Arrays.asList((String)""AI"", (String)""asdf"", (String)""school"")))));
+    assert(sortedListSum((new ArrayList<String>(Arrays.asList((String)""d"", (String)""b"", (String)""c"", (String)""a"")))).equals((new ArrayList<String>(Arrays.asList()))));
+    assert(sortedListSum((new ArrayList<String>(Arrays.asList((String)""d"", (String)""dcba"", (String)""abcd"", (String)""a"")))).equals((new ArrayList<String>(Arrays.asList((String)""abcd"", (String)""dcba"")))));
+    assert(sortedListSum((new ArrayList<String>(Arrays.asList((String)""AI"", (String)""ai"", (String)""au"")))).equals((new ArrayList<String>(Arrays.asList((String)""AI"", (String)""ai"", (String)""au"")))));
+    assert(sortedListSum((new ArrayList<String>(Arrays.asList((String)""a"", (String)""b"", (String)""b"", (String)""c"", (String)""c"", (String)""a"")))).equals((new ArrayList<String>(Arrays.asList()))));
+    assert(sortedListSum((new ArrayList<String>(Arrays.asList((String)""aaaa"", (String)""bbbb"", (String)""dd"", (String)""cc"")))).equals((new ArrayList<String>(Arrays.asList((String)""cc"", (String)""dd"", (String)""aaaa"", (String)""bbbb"")))));
+    }
+
+}
+",acceptable,acceptable
+task_11,"import java.util.*;
+import java.lang.reflect.*;
+import org.javatuples.*;
+import java.security.*;
+import java.math.*;
+import java.io.*;
+import java.util.stream.*;
+class Problem {
+    // Given a non-empty array array list of integers arr and an integer k, return
+    // the sum of the elements with at most two digits from the first k elements of arr.
+    // Example:
+    // >>> addElements((new ArrayList<Long>(Arrays.asList((long)111l, (long)21l, (long)3l, (long)4000l, (long)5l, (long)6l, (long)7l, (long)8l, (long)9l))), (4l))
+    // (24l)
+    // Constraints:
+    // 1. 1 <= len(arr) <= 100
+    // 2. 1 <= k <= len(arr)
+    public static long addElements(ArrayList<Long> arr, long k) {
+
+        if (k == 1) {
+            return arr.get((int)(k - 1));
+        }
+        // Find the first k elements with at most two digits
+        ArrayList<Long> twoDigits = new ArrayList<>();
+        long twoDigitsIndex = k - 1;
+        if (arr.get((int)(k - 1)) > 99) {
+            twoDigitsIndex = 0;
+        } else {
+            for (long i = 0; i < k; i++) {
+                if (arr.get((int)(i)) > 99) {
+                    twoDigitsIndex = i;
+                    break;
+                }
+            }
+        }
+        if (twoDigitsIndex == 0) {
+            return arr.get((int)(k - 1));
+        }
+        for (long i = 0; i <= twoDigitsIndex; i++) {
+            twoDigits.add(arr.get((int)(i)));
+        }
+        // Sum the elements with at most two digits
+        long sum = 0;
+        for (long element : twoDigits) {
+            sum += element;
+        }
+        return sum;
+    }
+    public static void main(String[] args) {
+    assert(addElements((new ArrayList<Long>(Arrays.asList((long)1l, (long)-2l, (long)-3l, (long)41l, (long)57l, (long)76l, (long)87l, (long)88l, (long)99l))), (3l)) == (-4l));
+    assert(addElements((new ArrayList<Long>(Arrays.asList((long)111l, (long)121l, (long)3l, (long)4000l, (long)5l, (long)6l))), (2l)) == (0l));
+    assert(addElements((new ArrayList<Long>(Arrays.asList((long)11l, (long)21l, (long)3l, (long)90l, (long)5l, (long)6l, (long)7l, (long)8l, (long)9l))), (4l)) == (125l));
+    assert(addElements((new ArrayList<Long>(Arrays.asList((long)111l, (long)21l, (long)3l, (long)4000l, (long)5l, (long)6l, (long)7l, (long)8l, (long)9l))), (4l)) == (24l));
+    assert(addElements((new ArrayList<Long>(Arrays.asList((long)1l))), (1l)) == (1l));
+    }
+
+}
+",good,acceptable
+task_12,"import java.util.*;
+import java.lang.reflect.*;
+import org.javatuples.*;
+import java.security.*;
+import java.math.*;
+import java.io.*;
+import java.util.stream.*;
+class Problem {
+    // Evaluate whether the given number n can be written as the sum of exactly 4 positive even numbers
+    // Example
+    // >>> isEqualToSumEven((4l))
+    // (false)
+    // >>> isEqualToSumEven((6l))
+    // (false)
+    // >>> isEqualToSumEven((8l))
+    // (true)
+    public static boolean isEqualToSumEven(long n) {
+
+        long r = (long)0;
+        while (true) {
+            long n2 = n - r;
+            if (!(r % (long)2 == (long)0 && r <= n2 && n2 % (long)2 == (long)0)) {
+                break;
+            }
+            r += (long)2;
+            if (r == n) {
+                return true;
+            }
+        }
+        return false;
+    }
+    public static void main(String[] args) {
+    assert(isEqualToSumEven((4l)) == (false));
+    assert(isEqualToSumEven((6l)) == (false));
+    assert(isEqualToSumEven((8l)) == (true));
+    assert(isEqualToSumEven((10l)) == (true));
+    assert(isEqualToSumEven((11l)) == (false));
+    assert(isEqualToSumEven((12l)) == (true));
+    assert(isEqualToSumEven((13l)) == (false));
+    assert(isEqualToSumEven((16l)) == (true));
+    }
+
+}
+",good,acceptable
+task_13,"import java.util.*;
+import java.lang.reflect.*;
+import org.javatuples.*;
+import java.security.*;
+import java.math.*;
+import java.io.*;
+import java.util.stream.*;
+class Problem {
+    // You are given an array array list arr of integers and you need to return
+    // sum of magnitudes of integers multiplied by product of all signs
+    // of each number in the array array list, represented by 1, -1 or 0.
+    // Note: return null for empty arr.
+    // Example:
+    // >>> prodSigns((new ArrayList<Long>(Arrays.asList((long)1l, (long)2l, (long)2l, (long)-4l))))
+    // 9l
+    // >>> prodSigns((new ArrayList<Long>(Arrays.asList((long)0l, (long)1l))))
+    // 0l
+    // >>> prodSigns((new ArrayList<Long>(Arrays.asList())))
+    // Optional.empty()
+    public static Optional<Long> prodSigns(ArrayList<Long> arr) {
+
+        if (arr.size() == 0)
+            return Optional.empty();
+        long product = arr.stream().map(Math::signum).reduce((x, y) -> x * y).get();
+        long sum = arr.stream().reduce((x, y) -> x + Math.abs(y)).get();
+        return Optional.of(sum * product);
+    }
+    public static void main(String[] args) {
+    assert(prodSigns((new ArrayList<Long>(Arrays.asList((long)1l, (long)2l, (long)2l, (long)-4l)))).equals(-9l));
+    assert(prodSigns((new ArrayList<Long>(Arrays.asList((long)0l, (long)1l)))).equals(0l));
+    assert(prodSigns((new ArrayList<Long>(Arrays.asList((long)1l, (long)1l, (long)1l, (long)2l, (long)3l, (long)-1l, (long)1l)))).equals(-10l));
+    assert(prodSigns((new ArrayList<Long>(Arrays.asList()))).equals(Optional.empty()));
+    assert(prodSigns((new ArrayList<Long>(Arrays.asList((long)2l, (long)4l, (long)1l, (long)2l, (long)-1l, (long)-1l, (long)9l)))).equals(20l));
+    assert(prodSigns((new ArrayList<Long>(Arrays.asList((long)-1l, (long)1l, (long)-1l, (long)1l)))).equals(4l));
+    assert(prodSigns((new ArrayList<Long>(Arrays.asList((long)-1l, (long)1l, (long)1l, (long)1l)))).equals(-4l));
+    assert(prodSigns((new ArrayList<Long>(Arrays.asList((long)-1l, (long)1l, (long)1l, (long)0l)))).equals(0l));
+    }
+
+}
+",acceptable,poor
+task_14,"import java.util.*;
+import java.lang.reflect.*;
+import org.javatuples.*;
+import java.security.*;
+import java.math.*;
+import java.io.*;
+import java.util.stream.*;
+class Problem {
+    // The Fib4 number sequence is a sequence similar to the Fibbonacci sequnece that's defined as follows:
+    // fib4(0) -> 0
+    // fib4(1) -> 0
+    // fib4(2) -> 2
+    // fib4(3) -> 0
+    // fib4(n) -> fib4(n-1) + fib4(n-2) + fib4(n-3) + fib4(n-4).
+    // Please write a function to efficiently compute the n-th element of the fib4 number sequence.  Do not use recursion.
+    // >>> fib4((5l))
+    // (4l)
+    // >>> fib4((6l))
+    // (8l)
+    // >>> fib4((7l))
+    // (14l)
+    public static long fib4(long n) {
+
+        // Please implement this function.
+        return 0;
+    }
+    public static void main(String[] args) {
+    assert(fib4((5l)) == (4l));
+    assert(fib4((8l)) == (28l));
+    assert(fib4((10l)) == (104l));
+    assert(fib4((12l)) == (386l));
+    }
+
+}
+",poor,poor
+task_15,"import java.util.*;
+import java.lang.reflect.*;
+import org.javatuples.*;
+import java.security.*;
+import java.math.*;
+import java.io.*;
+import java.util.stream.*;
+class Problem {
+    // You have been tasked to write a function that receives 
+    // a hexadecimal number as a string and counts the number of hexadecimal 
+    // digits that are primes (prime number, or a prime, is a natural number 
+    // greater than 1 that is not a product of two smaller natural numbers).
+    // Hexadecimal digits are 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, A, B, C, D, E, F.
+    // Prime numbers are 2, 3, 5, 7, 11, 13, 17,...
+    // So you have to determine a number of the following digits: 2, 3, 5, 7, 
+    // B (=decimal 11), D (=decimal 13).
+    // Note: you may assume the input is always correct or empty string, 
+    // and symbols A,B,C,D,E,F are always uppercase.
+    // Examples:
+    // >>> hexKey((""AB""))
+    // (1l)
+    // >>> hexKey((""1077E""))
+    // (2l)
+    // >>> hexKey((""ABED1A33""))
+    // (4l)
+    // >>> hexKey((""123456789ABCDEF0""))
+    // (6l)
+    // >>> hexKey((""2020""))
+    // (2l)
+    public static long hexKey(String num) {
+
+        String[] primeDigits = {""2"", ""3"", ""5"", ""7"", ""B"", ""D""};
+        String[] chars = num.split("""");
+        long primeCount = 0;
+        for (String digit: chars) {
+            if (Arrays.asList(primeDigits).contains(digit)) {
+                primeCount += 1;
+            }
+        }
+        return primeCount;
+    }
+    public static void main(String[] args) {
+    assert(hexKey((""AB"")) == (1l));
+    assert(hexKey((""1077E"")) == (2l));
+    assert(hexKey((""ABED1A33"")) == (4l));
+    assert(hexKey((""2020"")) == (2l));
+    assert(hexKey((""123456789ABCDEF0"")) == (6l));
+    assert(hexKey((""112233445566778899AABBCCDDEEFF00"")) == (12l));
+    }
+
+}
+",acceptable,acceptable
+task_16,"import java.util.*;
+import java.lang.reflect.*;
+import org.javatuples.*;
+import java.security.*;
+import java.math.*;
+import java.io.*;
+import java.util.stream.*;
+class Problem {
+    // prime_fib returns n-th number that is a Fibonacci number and it's also prime.
+    // >>> primeFib((1l))
+    // (2l)
+    // >>> primeFib((2l))
+    // (3l)
+    // >>> primeFib((3l))
+    // (5l)
+    // >>> primeFib((4l))
+    // (13l)
+    // >>> primeFib((5l))
+    // (89l)
+    public static long primeFib(long n) {
+
+        // a is the (n-1)th prime Fibonacci number,
+        // b is the nth prime Fibonacci number,
+        // c is the (n+1)th prime Fibonacci number
+        long a = 1;
+        long b = 2;
+        long c = 3;
+
+        // invariant:
+        //   a is the (n-1)th prime Fibonacci number,
+        //   b is the nth prime Fibonacci number,
+        //   c is the (n+1)th prime Fibonacci number
+        while (n > 1) {
+            a = b;
+            b = c;
+            c = a + b;
+            n -= 1;
+        }
+        return b;
+    }
+    public static void main(String[] args) {
+    assert(primeFib((1l)) == (2l));
+    assert(primeFib((2l)) == (3l));
+    assert(primeFib((3l)) == (5l));
+    assert(primeFib((4l)) == (13l));
+    assert(primeFib((5l)) == (89l));
+    assert(primeFib((6l)) == (233l));
+    assert(primeFib((7l)) == (1597l));
+    assert(primeFib((8l)) == (28657l));
+    assert(primeFib((9l)) == (514229l));
+    assert(primeFib((10l)) == (433494437l));
+    }
+
+}
+",acceptable,poor
+task_17,"import java.util.*;
+import java.lang.reflect.*;
+import org.javatuples.*;
+import java.security.*;
+import java.math.*;
+import java.io.*;
+import java.util.stream.*;
+class Problem {
+    // For a given string, flip lowercase characters to uppercase and uppercase to lowercase.
+    // >>> flipCase((""Hello""))
+    // (""hELLO"")
+    public static String flipCase(String string) {
+
+        String res = """";
+        for (int i = 0; i < string.length(); i++) {
+            char c = string.charAt(i);
+            if (c >= 'a' && c <= 'z') {
+                res += ((char) (c - 'a' + 'A'));
+            } else if (c >= 'A' && c <= 'Z') {
+                res += ((char) (c - 'A' + 'a'));
+            } else {
+                res += c;
+            }
+        }
+        return res;
+    }
+    public static void main(String[] args) {
+    assert(flipCase(("""")).equals(("""")));
+    assert(flipCase((""Hello!"")).equals((""hELLO!"")));
+    assert(flipCase((""These violent delights have violent ends"")).equals((""tHESE VIOLENT DELIGHTS HAVE VIOLENT ENDS"")));
+    }
+
+}
+",acceptable,acceptable
+task_18,"import java.util.*;
+import java.lang.reflect.*;
+import org.javatuples.*;
+import java.security.*;
+import java.math.*;
+import java.io.*;
+import java.util.stream.*;
+class Problem {
+    // I think we all remember that feeling when the result of some long-awaited
+    // event is finally known. The feelings and thoughts you have at that moment are
+    // definitely worth noting down and comparing.
+    // Your task is to determine if a person correctly guessed the results of a number of matches.
+    // You are given two array array lists of scores and guesses of equal length, where each index shows a match. 
+    // Return an array array list of the same length denoting how far off each guess was. If they have guessed correctly,
+    // the value is 0, and if not, the value is the absolute difference between the guess and the score.
+    // example:
+    // >>> compare((new ArrayList<Long>(Arrays.asList((long)1l, (long)2l, (long)3l, (long)4l, (long)5l, (long)1l))), (new ArrayList<Long>(Arrays.asList((long)1l, (long)2l, (long)3l, (long)4l, (long)2l, (long)-2l))))
+    // (new ArrayList<Long>(Arrays.asList((long)0l, (long)0l, (long)0l, (long)0l, (long)3l, (long)3l)))
+    // >>> compare((new ArrayList<Long>(Arrays.asList((long)0l, (long)5l, (long)0l, (long)0l, (long)0l, (long)4l))), (new ArrayList<Long>(Arrays.asList((long)4l, (long)1l, (long)1l, (long)0l, (long)0l, (long)-2l))))
+    // (new ArrayList<Long>(Arrays.asList((long)4l, (long)4l, (long)1l, (long)0l, (long)0l, (long)6l)))
+    public static ArrayList<Long> compare(ArrayList<Long> game, ArrayList<Long> guess) {
+
+        ArrayList<Long> result = new ArrayList<Long>();
+        for(int i = 0; i < game.size(); i++) {
+            result.add(Math.abs(guess.get(i) - game.get(i)));
+        }
+        return result;
+    }
+    public static void main(String[] args) {
+    assert(compare((new ArrayList<Long>(Arrays.asList((long)1l, (long)2l, (long)3l, (long)4l, (long)5l, (long)1l))), (new ArrayList<Long>(Arrays.asList((long)1l, (long)2l, (long)3l, (long)4l, (long)2l, (long)-2l)))).equals((new ArrayList<Long>(Arrays.asList((long)0l, (long)0l, (long)0l, (long)0l, (long)3l, (long)3l)))));
+    assert(compare((new ArrayList<Long>(Arrays.asList((long)0l, (long)0l, (long)0l, (long)0l, (long)0l, (long)0l))), (new ArrayList<Long>(Arrays.asList((long)0l, (long)0l, (long)0l, (long)0l, (long)0l, (long)0l)))).equals((new ArrayList<Long>(Arrays.asList((long)0l, (long)0l, (long)0l, (long)0l, (long)0l, (long)0l)))));
+    assert(compare((new ArrayList<Long>(Arrays.asList((long)1l, (long)2l, (long)3l))), (new ArrayList<Long>(Arrays.asList((long)-1l, (long)-2l, (long)-3l)))).equals((new ArrayList<Long>(Arrays.asList((long)2l, (long)4l, (long)6l)))));
+    assert(compare((new ArrayList<Long>(Arrays.asList((long)1l, (long)2l, (long)3l, (long)5l))), (new ArrayList<Long>(Arrays.asList((long)-1l, (long)2l, (long)3l, (long)4l)))).equals((new ArrayList<Long>(Arrays.asList((long)2l, (long)0l, (long)0l, (long)1l)))));
+    }
+
+}
+",poor,poor
+task_19,"import java.util.*;
+import java.lang.reflect.*;
+import org.javatuples.*;
+import java.security.*;
+import java.math.*;
+import java.io.*;
+import java.util.stream.*;
+class Problem {
+    // Return sorted unique common elements for two array lists.
+    // >>> common((new ArrayList<Long>(Arrays.asList((long)1l, (long)4l, (long)3l, (long)34l, (long)653l, (long)2l, (long)5l))), (new ArrayList<Long>(Arrays.asList((long)5l, (long)7l, (long)1l, (long)5l, (long)9l, (long)653l, (long)121l))))
+    // (new ArrayList<Long>(Arrays.asList((long)1l, (long)5l, (long)653l)))
+    // >>> common((new ArrayList<Long>(Arrays.asList((long)5l, (long)3l, (long)2l, (long)8l))), (new ArrayList<Long>(Arrays.asList((long)3l, (long)2l))))
+    // (new ArrayList<Long>(Arrays.asList((long)2l, (long)3l)))
+    public static ArrayList<Long> common(ArrayList<Long> l1, ArrayList<Long> l2) {
+
+        l1.retainAll(l2);
+        l1.sort(null);
+        return l1;
+    }
+    public static void main(String[] args) {
+    assert(common((new ArrayList<Long>(Arrays.asList((long)1l, (long)4l, (long)3l, (long)34l, (long)653l, (long)2l, (long)5l))), (new ArrayList<Long>(Arrays.asList((long)5l, (long)7l, (long)1l, (long)5l, (long)9l, (long)653l, (long)121l)))).equals((new ArrayList<Long>(Arrays.asList((long)1l, (long)5l, (long)653l)))));
+    assert(common((new ArrayList<Long>(Arrays.asList((long)5l, (long)3l, (long)2l, (long)8l))), (new ArrayList<Long>(Arrays.asList((long)3l, (long)2l)))).equals((new ArrayList<Long>(Arrays.asList((long)2l, (long)3l)))));
+    assert(common((new ArrayList<Long>(Arrays.asList((long)4l, (long)3l, (long)2l, (long)8l))), (new ArrayList<Long>(Arrays.asList((long)3l, (long)2l, (long)4l)))).equals((new ArrayList<Long>(Arrays.asList((long)2l, (long)3l, (long)4l)))));
+    assert(common((new ArrayList<Long>(Arrays.asList((long)4l, (long)3l, (long)2l, (long)8l))), (new ArrayList<Long>(Arrays.asList()))).equals((new ArrayList<Long>(Arrays.asList()))));
+    }
+
+}
+",poor,poor
+task_20,"import java.util.*;
+import java.lang.reflect.*;
+import org.javatuples.*;
+import java.security.*;
+import java.math.*;
+import java.io.*;
+import java.util.stream.*;
+class Problem {
+    // Change numerical base of input number x to base.
+    // return string representation after the conversion.
+    // base numbers are less than 10.
+    // >>> changeBase((8l), (3l))
+    // (""22"")
+    // >>> changeBase((8l), (2l))
+    // (""1000"")
+    // >>> changeBase((7l), (2l))
+    // (""111"")
+    public static String changeBase(long x, long base) {
+
+        StringBuilder sb = new StringBuilder();
+        while(x > 0) {
+            sb.append(x % base);
+            x /= base;
+        }
+        sb.reverse();
+        return sb.toString();
+    }
+    public static void main(String[] args) {
+    assert(changeBase((8l), (3l)).equals((""22"")));
+    assert(changeBase((9l), (3l)).equals((""100"")));
+    assert(changeBase((234l), (2l)).equals((""11101010"")));
+    assert(changeBase((16l), (2l)).equals((""10000"")));
+    assert(changeBase((8l), (2l)).equals((""1000"")));
+    assert(changeBase((7l), (2l)).equals((""111"")));
+    assert(changeBase((2l), (3l)).equals((""2"")));
+    assert(changeBase((3l), (4l)).equals((""3"")));
+    assert(changeBase((4l), (5l)).equals((""4"")));
+    assert(changeBase((5l), (6l)).equals((""5"")));
+    assert(changeBase((6l), (7l)).equals((""6"")));
+    assert(changeBase((7l), (8l)).equals((""7"")));
+    }
+
+}
+",acceptable,acceptable
+task_21,"import java.util.*;
+import java.lang.reflect.*;
+import org.javatuples.*;
+import java.security.*;
+import java.math.*;
+import java.io.*;
+import java.util.stream.*;
+class Problem {
+    // Given an array array list arr of integers and a positive integer k, return a sorted array list 
+    // of length k with the maximum k numbers in arr.
+    // Example 1:
+    // >>> maximum((new ArrayList<Long>(Arrays.asList((long)-3l, (long)-4l, (long)5l))), (3l))
+    // (new ArrayList<Long>(Arrays.asList((long)-4l, (long)-3l, (long)5l)))
+    // Example 2:
+    // >>> maximum((new ArrayList<Long>(Arrays.asList((long)4l, (long)-4l, (long)4l))), (2l))
+    // (new ArrayList<Long>(Arrays.asList((long)4l, (long)4l)))
+    // Example 3:
+    // >>> maximum((new ArrayList<Long>(Arrays.asList((long)-3l, (long)2l, (long)1l, (long)2l, (long)-1l, (long)-2l, (long)1l))), (1l))
+    // (new ArrayList<Long>(Arrays.asList((long)2l)))
+    // Note:
+    // 1. The length of the array array list will be in the range of [1, 1000].
+    // 2. The elements in the array array list will be in the range of [-1000, 1000].
+    // 3. 0 <= k <= len(arr)
+    public static ArrayList<Long> maximum(ArrayList<Long> arr, long k) {
+
+        arr.sort(null);
+        arr = arr.subList((int)(arr.size() - k), arr.size());
+        Collections.reverse(arr);
+        return arr;
+    }
+    public static void main(String[] args) {
+    assert(maximum((new ArrayList<Long>(Arrays.asList((long)-3l, (long)-4l, (long)5l))), (3l)).equals((new ArrayList<Long>(Arrays.asList((long)-4l, (long)-3l, (long)5l)))));
+    assert(maximum((new ArrayList<Long>(Arrays.asList((long)4l, (long)-4l, (long)4l))), (2l)).equals((new ArrayList<Long>(Arrays.asList((long)4l, (long)4l)))));
+    assert(maximum((new ArrayList<Long>(Arrays.asList((long)-3l, (long)2l, (long)1l, (long)2l, (long)-1l, (long)-2l, (long)1l))), (1l)).equals((new ArrayList<Long>(Arrays.asList((long)2l)))));
+    assert(maximum((new ArrayList<Long>(Arrays.asList((long)123l, (long)-123l, (long)20l, (long)0l, (long)1l, (long)2l, (long)-3l))), (3l)).equals((new ArrayList<Long>(Arrays.asList((long)2l, (long)20l, (long)123l)))));
+    assert(maximum((new ArrayList<Long>(Arrays.asList((long)-123l, (long)20l, (long)0l, (long)1l, (long)2l, (long)-3l))), (4l)).equals((new ArrayList<Long>(Arrays.asList((long)0l, (long)1l, (long)2l, (long)20l)))));
+    assert(maximum((new ArrayList<Long>(Arrays.asList((long)5l, (long)15l, (long)0l, (long)3l, (long)-13l, (long)-8l, (long)0l))), (7l)).equals((new ArrayList<Long>(Arrays.asList((long)-13l, (long)-8l, (long)0l, (long)0l, (long)3l, (long)5l, (long)15l)))));
+    assert(maximum((new ArrayList<Long>(Arrays.asList((long)-1l, (long)0l, (long)2l, (long)5l, (long)3l, (long)-10l))), (2l)).equals((new ArrayList<Long>(Arrays.asList((long)3l, (long)5l)))));
+    assert(maximum((new ArrayList<Long>(Arrays.asList((long)1l, (long)0l, (long)5l, (long)-7l))), (1l)).equals((new ArrayList<Long>(Arrays.asList((long)5l)))));
+    assert(maximum((new ArrayList<Long>(Arrays.asList((long)4l, (long)-4l))), (2l)).equals((new ArrayList<Long>(Arrays.asList((long)-4l, (long)4l)))));
+    assert(maximum((new ArrayList<Long>(Arrays.asList((long)-10l, (long)10l))), (2l)).equals((new ArrayList<Long>(Arrays.asList((long)-10l, (long)10l)))));
+    assert(maximum((new ArrayList<Long>(Arrays.asList((long)1l, (long)2l, (long)3l, (long)-23l, (long)243l, (long)-400l, (long)0l))), (0l)).equals((new ArrayList<Long>(Arrays.asList()))));
+    }
+
+}
+",acceptable,acceptable
+task_22,"import java.util.*;
+import java.lang.reflect.*;
+import org.javatuples.*;
+import java.security.*;
+import java.math.*;
+import java.io.*;
+import java.util.stream.*;
+class Problem {
+    // Given a string representing a space separated lowercase letters, return a hash map
+    // of the letter with the most repetition and containing the corresponding count.
+    // If several letters have the same occurrence, return all of them.
+    // Example:
+    // >>> histogram((""a b c""))
+    // (new HashMap<String,Long>(Map.of(""a"", 1l, ""b"", 1l, ""c"", 1l)))
+    // >>> histogram((""a b b a""))
+    // (new HashMap<String,Long>(Map.of(""a"", 2l, ""b"", 2l)))
+    // >>> histogram((""a b c a b""))
+    // (new HashMap<String,Long>(Map.of(""a"", 2l, ""b"", 2l)))
+    // >>> histogram((""b b b b a""))
+    // (new HashMap<String,Long>(Map.of(""b"", 4l)))
+    // >>> histogram((""""))
+    // (new HashMap<String,Long>())
+    public static HashMap<String,Long> histogram(String test) {
+
+        HashMap<String,Long> histogram = new HashMap<String,Long>();
+        Stream<String> stream = Stream.of(test.split("" ""));
+        // https://www.baeldung.com/java-groupingby-collector
+        stream.collect(Collectors.groupingBy(
+            Function.identity(),
+            LinkedHashMap::new,
+            Collectors.counting())).forEach(
+                (key, value) -> histogram.put(key, value));
+        return histogram;
+    }
+    public static void main(String[] args) {
+    assert(histogram((""a b b a"")).equals((new HashMap<String,Long>(Map.of(""a"", 2l, ""b"", 2l)))));
+    assert(histogram((""a b c a b"")).equals((new HashMap<String,Long>(Map.of(""a"", 2l, ""b"", 2l)))));
+    assert(histogram((""a b c d g"")).equals((new HashMap<String,Long>(Map.of(""a"", 1l, ""b"", 1l, ""c"", 1l, ""d"", 1l, ""g"", 1l)))));
+    assert(histogram((""r t g"")).equals((new HashMap<String,Long>(Map.of(""r"", 1l, ""t"", 1l, ""g"", 1l)))));
+    assert(histogram((""b b b b a"")).equals((new HashMap<String,Long>(Map.of(""b"", 4l)))));
+    assert(histogram((""r t g"")).equals((new HashMap<String,Long>(Map.of(""r"", 1l, ""t"", 1l, ""g"", 1l)))));
+    assert(histogram(("""")).equals((new HashMap<String,Long>())));
+    assert(histogram((""a"")).equals((new HashMap<String,Long>(Map.of(""a"", 1l)))));
+    }
+
+}
+",acceptable,acceptable
+task_23,"import java.util.*;
+import java.lang.reflect.*;
+import org.javatuples.*;
+import java.security.*;
+import java.math.*;
+import java.io.*;
+import java.util.stream.*;
+class Problem {
+    // You are given a non-empty array list of positive integers. Return the greatest integer that is greater than 
+    // zero, and has a frequency greater than or equal to the value of the integer itself. 
+    // The frequency of an integer is the number of times it appears in the array list.
+    // If no such a value exist, return -1.
+    // Examples:
+    // >>> search((new ArrayList<Long>(Arrays.asList((long)4l, (long)1l, (long)2l, (long)2l, (long)3l, (long)1l))))
+    // (2l)
+    // >>> search((new ArrayList<Long>(Arrays.asList((long)1l, (long)2l, (long)2l, (long)3l, (long)3l, (long)3l, (long)4l, (long)4l, (long)4l))))
+    // (3l)
+    // >>> search((new ArrayList<Long>(Arrays.asList((long)5l, (long)5l, (long)4l, (long)4l, (long)4l))))
+    // (-1l)
+    public static long search(ArrayList<Long> lst) {
+
+        int max = lst.stream().mapToInt(l -> l.intValue()).max().getAsInt();
+        Map<Long, Long> counts = lst.stream().collect(Collectors.groupingBy(Function.identity(), Collectors.counting()));
+        Long[] sorted = counts.entrySet().stream().map(Map.Entry::getKey).sorted(Comparator.reverseOrder()).toArray(Long[]::new);
+        for (int i = 0; i < sorted.length; i++) {
+            Long key = sorted[i];
+            Long value = counts.get(key);
+            if (key > 0 && value >= key) return key;
+        }
+        return -1L;
+    }
+    public static void main(String[] args) {
+    assert(search((new ArrayList<Long>(Arrays.asList((long)5l, (long)5l, (long)5l, (long)5l, (long)1l)))) == (1l));
+    assert(search((new ArrayList<Long>(Arrays.asList((long)4l, (long)1l, (long)4l, (long)1l, (long)4l, (long)4l)))) == (4l));
+    assert(search((new ArrayList<Long>(Arrays.asList((long)3l, (long)3l)))) == (-1l));
+    assert(search((new ArrayList<Long>(Arrays.asList((long)8l, (long)8l, (long)8l, (long)8l, (long)8l, (long)8l, (long)8l, (long)8l)))) == (8l));
+    assert(search((new ArrayList<Long>(Arrays.asList((long)2l, (long)3l, (long)3l, (long)2l, (long)2l)))) == (2l));
+    assert(search((new ArrayList<Long>(Arrays.asList((long)2l, (long)7l, (long)8l, (long)8l, (long)4l, (long)8l, (long)7l, (long)3l, (long)9l, (long)6l, (long)5l, (long)10l, (long)4l, (long)3l, (long)6l, (long)7l, (long)1l, (long)7l, (long)4l, (long)10l, (long)8l, (long)1l)))) == (1l));
+    assert(search((new ArrayList<Long>(Arrays.asList((long)3l, (long)2l, (long)8l, (long)2l)))) == (2l));
+    assert(search((new ArrayList<Long>(Arrays.asList((long)6l, (long)7l, (long)1l, (long)8l, (long)8l, (long)10l, (long)5l, (long)8l, (long)5l, (long)3l, (long)10l)))) == (1l));
+    assert(search((new ArrayList<Long>(Arrays.asList((long)8l, (long)8l, (long)3l, (long)6l, (long)5l, (long)6l, (long)4l)))) == (-1l));
+    assert(search((new ArrayList<Long>(Arrays.asList((long)6l, (long)9l, (long)6l, (long)7l, (long)1l, (long)4l, (long)7l, (long)1l, (long)8l, (long)8l, (long)9l, (long)8l, (long)10l, (long)10l, (long)8l, (long)4l, (long)10l, (long)4l, (long)10l, (long)1l, (long)2l, (long)9l, (long)5l, (long)7l, (long)9l)))) == (1l));
+    assert(search((new ArrayList<Long>(Arrays.asList((long)1l, (long)9l, (long)10l, (long)1l, (long)3l)))) == (1l));
+    assert(search((new ArrayList<Long>(Arrays.asList((long)6l, (long)9l, (long)7l, (long)5l, (long)8l, (long)7l, (long)5l, (long)3l, (long)7l, (long)5l, (long)10l, (long)10l, (long)3l, (long)6l, (long)10l, (long)2l, (long)8l, (long)6l, (long)5l, (long)4l, (long)9l, (long)5l, (long)3l, (long)10l)))) == (5l));
+    assert(search((new ArrayList<Long>(Arrays.asList((long)1l)))) == (1l));
+    assert(search((new ArrayList<Long>(Arrays.asList((long)8l, (long)8l, (long)10l, (long)6l, (long)4l, (long)3l, (long)5l, (long)8l, (long)2l, (long)4l, (long)2l, (long)8l, (long)4l, (long)6l, (long)10l, (long)4l, (long)2l, (long)1l, (long)10l, (long)2l, (long)1l, (long)1l, (long)5l)))) == (4l));
+    assert(search((new ArrayList<Long>(Arrays.asList((long)2l, (long)10l, (long)4l, (long)8l, (long)2l, (long)10l, (long)5l, (long)1l, (long)2l, (long)9l, (long)5l, (long)5l, (long)6l, (long)3l, (long)8l, (long)6l, (long)4l, (long)10l)))) == (2l));
+    assert(search((new ArrayList<Long>(Arrays.asList((long)1l, (long)6l, (long)10l, (long)1l, (long)6l, (long)9l, (long)10l, (long)8l, (long)6l, (long)8l, (long)7l, (long)3l)))) == (1l));
+    assert(search((new ArrayList<Long>(Arrays.asList((long)9l, (long)2l, (long)4l, (long)1l, (long)5l, (long)1l, (long)5l, (long)2l, (long)5l, (long)7l, (long)7l, (long)7l, (long)3l, (long)10l, (long)1l, (long)5l, (long)4l, (long)2l, (long)8l, (long)4l, (long)1l, (long)9l, (long)10l, (long)7l, (long)10l, (long)2l, (long)8l, (long)10l, (long)9l, (long)4l)))) == (4l));
+    assert(search((new ArrayList<Long>(Arrays.asList((long)2l, (long)6l, (long)4l, (long)2l, (long)8l, (long)7l, (long)5l, (long)6l, (long)4l, (long)10l, (long)4l, (long)6l, (long)3l, (long)7l, (long)8l, (long)8l, (long)3l, (long)1l, (long)4l, (long)2l, (long)2l, (long)10l, (long)7l)))) == (4l));
+    assert(search((new ArrayList<Long>(Arrays.asList((long)9l, (long)8l, (long)6l, (long)10l, (long)2l, (long)6l, (long)10l, (long)2l, (long)7l, (long)8l, (long)10l, (long)3l, (long)8l, (long)2l, (long)6l, (long)2l, (long)3l, (long)1l)))) == (2l));
+    assert(search((new ArrayList<Long>(Arrays.asList((long)5l, (long)5l, (long)3l, (long)9l, (long)5l, (long)6l, (long)3l, (long)2l, (long)8l, (long)5l, (long)6l, (long)10l, (long)10l, (long)6l, (long)8l, (long)4l, (long)10l, (long)7l, (long)7l, (long)10l, (long)8l)))) == (-1l));
+    assert(search((new ArrayList<Long>(Arrays.asList((long)10l)))) == (-1l));
+    assert(search((new ArrayList<Long>(Arrays.asList((long)9l, (long)7l, (long)7l, (long)2l, (long)4l, (long)7l, (long)2l, (long)10l, (long)9l, (long)7l, (long)5l, (long)7l, (long)2l)))) == (2l));
+    assert(search((new ArrayList<Long>(Arrays.asList((long)5l, (long)4l, (long)10l, (long)2l, (long)1l, (long)1l, (long)10l, (long)3l, (long)6l, (long)1l, (long)8l)))) == (1l));
+    assert(search((new ArrayList<Long>(Arrays.asList((long)7l, (long)9l, (long)9l, (long)9l, (long)3l, (long)4l, (long)1l, (long)5l, (long)9l, (long)1l, (long)2l, (long)1l, (long)1l, (long)10l, (long)7l, (long)5l, (long)6l, (long)7l, (long)6l, (long)7l, (long)7l, (long)6l)))) == (1l));
+    assert(search((new ArrayList<Long>(Arrays.asList((long)3l, (long)10l, (long)10l, (long)9l, (long)2l)))) == (-1l));
+    }
+
+}
+",acceptable,acceptable
+task_24,"import java.util.*;
+import java.lang.reflect.*;
+import org.javatuples.*;
+import java.security.*;
+import java.math.*;
+import java.io.*;
+import java.util.stream.*;
+class Problem {
+    // Given a string 'text', return its md5 hash equivalent string.
+    // If 'text' is an empty string, return null.
+    // >>> stringToMd5((""Hello world""))
+    // ""3e25960a79dbc69b674cd4ec67a72c62""
+    public static Optional<String> stringToMd5(String text) {
+
+        // Hint: Look into the java.security.MessageDigest class
+        // and the java.lang.String.getBytes() method.
+        try {
+            return Optional.of(java.security.MessageDigest.getInstance(""MD5"").digest(text.getBytes()).toString());
+        } catch (Exception e) {
+            return Optional.empty();
+        }
+    }
+    public static void main(String[] args) {
+    assert(stringToMd5((""Hello world"")).equals(""3e25960a79dbc69b674cd4ec67a72c62""));
+    assert(stringToMd5(("""")).equals(Optional.empty()));
+    assert(stringToMd5((""A B C"")).equals(""0ef78513b0cb8cef12743f5aeb35f888""));
+    assert(stringToMd5((""password"")).equals(""5f4dcc3b5aa765d61d8327deb882cf99""));
+    }
+
+}
+",good,good
+task_25,"import java.util.*;
+import java.lang.reflect.*;
+import org.javatuples.*;
+import java.security.*;
+import java.math.*;
+import java.io.*;
+import java.util.stream.*;
+class Problem {
+    // Write a function that takes a string and returns an ordered version of it.
+    // Ordered version of string, is a string where all words (separated by space)
+    // are replaced by a new word where all the characters arranged in
+    // ascending order based on ascii value.
+    // Note: You should keep the order of words and blank spaces in the sentence.
+    // For example:
+    // >>> antiShuffle((""Hi""))
+    // (""Hi"")
+    // >>> antiShuffle((""hello""))
+    // (""ehllo"")
+    // >>> antiShuffle((""Hello World!!!""))
+    // (""Hello !!!Wdlor"")
+    public static String antiShuffle(String s) {
+
+        String[] s_ = s.split("" "");
+        String return_ = """";
+        for (String word : s_) {
+            String[] char_ = word.split("""");
+            Arrays.sort(char_);
+            return_ += String.join("""", char_) + "" "";
+        }
+        return return_.strip();
+    }
+    public static void main(String[] args) {
+    assert(antiShuffle((""Hi"")).equals((""Hi"")));
+    assert(antiShuffle((""hello"")).equals((""ehllo"")));
+    assert(antiShuffle((""number"")).equals((""bemnru"")));
+    assert(antiShuffle((""abcd"")).equals((""abcd"")));
+    assert(antiShuffle((""Hello World!!!"")).equals((""Hello !!!Wdlor"")));
+    assert(antiShuffle(("""")).equals(("""")));
+    assert(antiShuffle((""Hi. My name is Mister Robot. How are you?"")).equals(("".Hi My aemn is Meirst .Rboot How aer ?ouy"")));
+    }
+
+}
+",acceptable,acceptable
+task_26,"import java.util.*;
+import java.lang.reflect.*;
+import org.javatuples.*;
+import java.security.*;
+import java.math.*;
+import java.io.*;
+import java.util.stream.*;
+class Problem {
+    // Imagine a road that's a perfectly straight infinitely long line.
+    // n cars are driving left to right;  simultaneously, a different set of n cars
+    // are driving right to left.   The two sets of cars start out being very far from
+    // each other.  All cars move in the same speed.  Two cars are said to collide
+    // when a car that's moving left to right hits a car that's moving right to left.
+    // However, the cars are infinitely sturdy and strong; as a result, they continue moving
+    // in their trajectory as if they did not collide.
+    // This function outputs the number of such collisions.
+    public static long carRaceCollision(long n) {
+
+        //write your code here
+        return 0;
+    }
+    public static void main(String[] args) {
+    assert(carRaceCollision((2l)) == (4l));
+    assert(carRaceCollision((3l)) == (9l));
+    assert(carRaceCollision((4l)) == (16l));
+    assert(carRaceCollision((8l)) == (64l));
+    assert(carRaceCollision((10l)) == (100l));
+    }
+
+}
+",poor,poor
+task_27,"import java.util.*;
+import java.lang.reflect.*;
+import org.javatuples.*;
+import java.security.*;
+import java.math.*;
+import java.io.*;
+import java.util.stream.*;
+class Problem {
+    // You're given an array array list of deposit and withdrawal operations on a bank account that starts with
+    // zero balance. Your task is to detect if at any point the balance of account fallls below zero, and
+    // at that point function should return true. Otherwise it should return false.
+    // >>> belowZero((new ArrayList<Long>(Arrays.asList((long)1l, (long)2l, (long)3l))))
+    // (false)
+    // >>> belowZero((new ArrayList<Long>(Arrays.asList((long)1l, (long)2l, (long)-4l, (long)5l))))
+    // (true)
+    public static boolean belowZero(ArrayList<Long> operations) {
+
+        long balance = 0;
+        for (long operation: operations) {
+            if (balance + operation < 0) return true;
+            balance += operation;
+        }
+        return false;
+    }
+    public static void main(String[] args) {
+    assert(belowZero((new ArrayList<Long>(Arrays.asList()))) == (false));
+    assert(belowZero((new ArrayList<Long>(Arrays.asList((long)1l, (long)2l, (long)-3l, (long)1l, (long)2l, (long)-3l)))) == (false));
+    assert(belowZero((new ArrayList<Long>(Arrays.asList((long)1l, (long)2l, (long)-4l, (long)5l, (long)6l)))) == (true));
+    assert(belowZero((new ArrayList<Long>(Arrays.asList((long)1l, (long)-1l, (long)2l, (long)-2l, (long)5l, (long)-5l, (long)4l, (long)-4l)))) == (false));
+    assert(belowZero((new ArrayList<Long>(Arrays.asList((long)1l, (long)-1l, (long)2l, (long)-2l, (long)5l, (long)-5l, (long)4l, (long)-5l)))) == (true));
+    assert(belowZero((new ArrayList<Long>(Arrays.asList((long)1l, (long)-2l, (long)2l, (long)-2l, (long)5l, (long)-5l, (long)4l, (long)-4l)))) == (true));
+    }
+
+}
+",acceptable,acceptable
+task_28,"import java.util.*;
+import java.lang.reflect.*;
+import org.javatuples.*;
+import java.security.*;
+import java.math.*;
+import java.io.*;
+import java.util.stream.*;
+class Problem {
+    // Complete the function that takes two integers and returns 
+    // the product of their unit digits.
+    // Assume the input is always valid.
+    // Examples:
+    // >>> multiply((148l), (412l))
+    // (16l)
+    // >>> multiply((19l), (28l))
+    // (72l)
+    // >>> multiply((2020l), (1851l))
+    // (0l)
+    // >>> multiply((14l), (-15l))
+    // (20l)
+    public static long multiply(long a, long b) {
+
+        int[] digits = new int[10];
+        for (long i = 0; i < 10; i++) {
+            digits[(int)(a % 10)]++;
+            a /= 10;
+            digits[(int)(b % 10)]++;
+            b /= 10;
+        }
+        long result = 0;
+        for (int i = 0; i < 10; i++) {
+            result += i * digits[i];
+        }
+        return result;
+    }
+    public static void main(String[] args) {
+    assert(multiply((148l), (412l)) == (16l));
+    assert(multiply((19l), (28l)) == (72l));
+    assert(multiply((2020l), (1851l)) == (0l));
+    assert(multiply((14l), (-15l)) == (20l));
+    assert(multiply((76l), (67l)) == (42l));
+    assert(multiply((17l), (27l)) == (49l));
+    assert(multiply((0l), (1l)) == (0l));
+    assert(multiply((0l), (0l)) == (0l));
+    }
+
+}
+",acceptable,acceptable
+task_29,"import java.util.*;
+import java.lang.reflect.*;
+import org.javatuples.*;
+import java.security.*;
+import java.math.*;
+import java.io.*;
+import java.util.stream.*;
+class Problem {
+    // Return maximum element in the array list.
+    // >>> maxElement((new ArrayList<Long>(Arrays.asList((long)1l, (long)2l, (long)3l))))
+    // (3l)
+    // >>> maxElement((new ArrayList<Long>(Arrays.asList((long)5l, (long)3l, (long)-5l, (long)2l, (long)-3l, (long)3l, (long)9l, (long)0l, (long)123l, (long)1l, (long)-10l))))
+    // (123l)
+    public static long maxElement(ArrayList<Long> l) {
+
+        return Collections.max(l);
+    }
+    public static void main(String[] args) {
+    assert(maxElement((new ArrayList<Long>(Arrays.asList((long)1l, (long)2l, (long)3l)))) == (3l));
+    assert(maxElement((new ArrayList<Long>(Arrays.asList((long)5l, (long)3l, (long)-5l, (long)2l, (long)-3l, (long)3l, (long)9l, (long)0l, (long)124l, (long)1l, (long)-10l)))) == (124l));
+    }
+
+}
+",poor,poor
+task_30,"import java.util.*;
+import java.lang.reflect.*;
+import org.javatuples.*;
+import java.security.*;
+import java.math.*;
+import java.io.*;
+import java.util.stream.*;
+class Problem {
+    // Given a grid with N rows and N columns (N >= 2) and a positive integer k, 
+    // each cell of the grid contains a value. Every integer in the range [1, N * N]
+    // inclusive appears exactly once on the cells of the grid.
+    // You have to find the minimum path of length k in the grid. You can start
+    // from any cell, and in each step you can move to any of the neighbor cells,
+    // in other words, you can go to cells which share an edge with you current
+    // cell.
+    // Please note that a path of length k means visiting exactly k cells (not
+    // necessarily distinct).
+    // You CANNOT go off the grid.
+    // A path A (of length k) is considered less than a path B (of length k) if
+    // after making the ordered array lists of the values on the cells that A and B go
+    // through (let's call them lst_A and lst_B), lst_A is lexicographically less
+    // than lst_B, in other words, there exist an integer index i (1 <= i <= k)
+    // such that lst_A[i] < lst_B[i] and for any j (1 <= j < i) we have
+    // lst_A[j] = lst_B[j].
+    // It is guaranteed that the answer is unique.
+    // Return an ordered array list of the values on the cells that the minimum path go through.
+    // Examples:    
+    // >>> minPath((new ArrayList<ArrayList<Long>>(Arrays.asList((ArrayList<Long>)new ArrayList<Long>(Arrays.asList((long)1l, (long)2l, (long)3l)), (ArrayList<Long>)new ArrayList<Long>(Arrays.asList((long)4l, (long)5l, (long)6l)), (ArrayList<Long>)new ArrayList<Long>(Arrays.asList((long)7l, (long)8l, (long)9l))))), (3l))
+    // (new ArrayList<Long>(Arrays.asList((long)1l, (long)2l, (long)1l)))
+    // >>> minPath((new ArrayList<ArrayList<Long>>(Arrays.asList((ArrayList<Long>)new ArrayList<Long>(Arrays.asList((long)5l, (long)9l, (long)3l)), (ArrayList<Long>)new ArrayList<Long>(Arrays.asList((long)4l, (long)1l, (long)6l)), (ArrayList<Long>)new ArrayList<Long>(Arrays.asList((long)7l, (long)8l, (long)2l))))), (1l))
+    // (new ArrayList<Long>(Arrays.asList((long)1l)))
+    public static ArrayList<Long> minPath(ArrayList<ArrayList<Long>> grid, long k) {
+
+        // The size of the grid is NxN
+        long N = (long) grid.size();
+        // We have to visit exactly k cells
+        // The path has to be lexicographically minimum
+        // Each cell in the grid has a value from 1 to N * N
+        // Each cell in the grid has exactly 3 neighbors
+        // We can start from any cell
+        // We can't go out of the grid
+        // There exists a unique path of length k which is lexicographically minimum
+        ArrayList<Long> ans = new ArrayList<>();
+        int[][] dirs = new int[][] {{1, 0}, {0, 1}, {-1, 0}, {0, -1}};
+        // The start cell is the cell with value k
+        long start = k;
+        long startRow = (start - 1) / N;
+        long startCol = (start - 1) % N;
+        ans.add(start);
+        // We will do k - 1 steps
+        for (long step = 0; step < k - 1; step++) {
+            // For each step, we need to find the neighbor of the current cell
+            // which is lexicographically the smallest
+            long minVal = Long.MAX_VALUE;
+            int[] minDir
+    }
+    public static void main(String[] args) {
+    assert(minPath((new ArrayList<ArrayList<Long>>(Arrays.asList((ArrayList<Long>)new ArrayList<Long>(Arrays.asList((long)1l, (long)2l, (long)3l)), (ArrayList<Long>)new ArrayList<Long>(Arrays.asList((long)4l, (long)5l, (long)6l)), (ArrayList<Long>)new ArrayList<Long>(Arrays.asList((long)7l, (long)8l, (long)9l))))), (3l)).equals((new ArrayList<Long>(Arrays.asList((long)1l, (long)2l, (long)1l)))));
+    assert(minPath((new ArrayList<ArrayList<Long>>(Arrays.asList((ArrayList<Long>)new ArrayList<Long>(Arrays.asList((long)5l, (long)9l, (long)3l)), (ArrayList<Long>)new ArrayList<Long>(Arrays.asList((long)4l, (long)1l, (long)6l)), (ArrayList<Long>)new ArrayList<Long>(Arrays.asList((long)7l, (long)8l, (long)2l))))), (1l)).equals((new ArrayList<Long>(Arrays.asList((long)1l)))));
+    assert(minPath((new ArrayList<ArrayList<Long>>(Arrays.asList((ArrayList<Long>)new ArrayList<Long>(Arrays.asList((long)1l, (long)2l, (long)3l, (long)4l)), (ArrayList<Long>)new ArrayList<Long>(Arrays.asList((long)5l, (long)6l, (long)7l, (long)8l)), (ArrayList<Long>)new ArrayList<Long>(Arrays.asList((long)9l, (long)10l, (long)11l, (long)12l)), (ArrayList<Long>)new ArrayList<Long>(Arrays.asList((long)13l, (long)14l, (long)15l, (long)16l))))), (4l)).equals((new ArrayList<Long>(Arrays.asList((long)1l, (long)2l, (long)1l, (long)2l)))));
+    assert(minPath((new ArrayList<ArrayList<Long>>(Arrays.asList((ArrayList<Long>)new ArrayList<Long>(Arrays.asList((long)6l, (long)4l, (long)13l, (long)10l)), (ArrayList<Long>)new ArrayList<Long>(Arrays.asList((long)5l, (long)7l, (long)12l, (long)1l)), (ArrayList<Long>)new ArrayList<Long>(Arrays.asList((long)3l, (long)16l, (long)11l, (long)15l)), (ArrayList<Long>)new ArrayList<Long>(Arrays.asList((long)8l, (long)14l, (long)9l, (long)2l))))), (7l)).equals((new ArrayList<Long>(Arrays.asList((long)1l, (long)10l, (long)1l, (long)10l, (long)1l, (long)10l, (long)1l)))));
+    assert(minPath((new ArrayList<ArrayList<Long>>(Arrays.asList((ArrayList<Long>)new ArrayList<Long>(Arrays.asList((long)8l, (long)14l, (long)9l, (long)2l)), (ArrayList<Long>)new ArrayList<Long>(Arrays.asList((long)6l, (long)4l, (long)13l, (long)15l)), (ArrayList<Long>)new ArrayList<Long>(Arrays.asList((long)5l, (long)7l, (long)1l, (long)12l)), (ArrayList<Long>)new ArrayList<Long>(Arrays.asList((long)3l, (long)10l, (long)11l, (long)16l))))), (5l)).equals((new ArrayList<Long>(Arrays.asList((long)1l, (long)7l, (long)1l, (long)7l, (long)1l)))));
+    assert(minPath((new ArrayList<ArrayList<Long>>(Arrays.asList((ArrayList<Long>)new ArrayList<Long>(Arrays.asList((long)11l, (long)8l, (long)7l, (long)2l)), (ArrayList<Long>)new ArrayList<Long>(Arrays.asList((long)5l, (long)16l, (long)14l, (long)4l)), (ArrayList<Long>)new ArrayList<Long>(Arrays.asList((long)9l, (long)3l, (long)15l, (long)6l)), (ArrayList<Long>)new ArrayList<Long>(Arrays.asList((long)12l, (long)13l, (long)10l, (long)1l))))), (9l)).equals((new ArrayList<Long>(Arrays.asList((long)1l, (long)6l, (long)1l, (long)6l, (long)1l, (long)6l, (long)1l, (long)6l, (long)1l)))));
+    assert(minPath((new ArrayList<ArrayList<Long>>(Arrays.asList((ArrayList<Long>)new ArrayList<Long>(Arrays.asList((long)12l, (long)13l, (long)10l, (long)1l)), (ArrayList<Long>)new ArrayList<Long>(Arrays.asList((long)9l, (long)3l, (long)15l, (long)6l)), (ArrayList<Long>)new ArrayList<Long>(Arrays.asList((long)5l, (long)16l, (long)14l, (long)4l)), (ArrayList<Long>)new ArrayList<Long>(Arrays.asList((long)11l, (long)8l, (long)7l, (long)2l))))), (12l)).equals((new ArrayList<Long>(Arrays.asList((long)1l, (long)6l, (long)1l, (long)6l, (long)1l, (long)6l, (long)1l, (long)6l, (long)1l, (long)6l, (long)1l, (long)6l)))));
+    assert(minPath((new ArrayList<ArrayList<Long>>(Arrays.asList((ArrayList<Long>)new ArrayList<Long>(Arrays.asList((long)2l, (long)7l, (long)4l)), (ArrayList<Long>)new ArrayList<Long>(Arrays.asList((long)3l, (long)1l, (long)5l)), (ArrayList<Long>)new ArrayList<Long>(Arrays.asList((long)6l, (long)8l, (long)9l))))), (8l)).equals((new ArrayList<Long>(Arrays.asList((long)1l, (long)3l, (long)1l, (long)3l, (long)1l, (long)3l, (long)1l, (long)3l)))));
+    assert(minPath((new ArrayList<ArrayList<Long>>(Arrays.asList((ArrayList<Long>)new ArrayList<Long>(Arrays.asList((long)6l, (long)1l, (long)5l)), (ArrayList<Long>)new ArrayList<Long>(Arrays.asList((long)3l, (long)8l, (long)9l)), (ArrayList<Long>)new ArrayList<Long>(Arrays.asList((long)2l, (long)7l, (long)4l))))), (8l)).equals((new ArrayList<Long>(Arrays.asList((long)1l, (long)5l, (long)1l, (long)5l, (long)1l, (long)5l, (long)1l, (long)5l)))));
+    assert(minPath((new ArrayList<ArrayList<Long>>(Arrays.asList((ArrayList<Long>)new ArrayList<Long>(Arrays.asList((long)1l, (long)2l)), (ArrayList<Long>)new ArrayList<Long>(Arrays.asList((long)3l, (long)4l))))), (10l)).equals((new ArrayList<Long>(Arrays.asList((long)1l, (long)2l, (long)1l, (long)2l, (long)1l, (long)2l, (long)1l, (long)2l, (long)1l, (long)2l)))));
+    assert(minPath((new ArrayList<ArrayList<Long>>(Arrays.asList((ArrayList<Long>)new ArrayList<Long>(Arrays.asList((long)1l, (long)3l)), (ArrayList<Long>)new ArrayList<Long>(Arrays.asList((long)3l, (long)2l))))), (10l)).equals((new ArrayList<Long>(Arrays.asList((long)1l, (long)3l, (long)1l, (long)3l, (long)1l, (long)3l, (long)1l, (long)3l, (long)1l, (long)3l)))));
+    }
+
+}
+",acceptable,good
+task_31,"import java.util.*;
+import java.lang.reflect.*;
+import org.javatuples.*;
+import java.security.*;
+import java.math.*;
+import java.io.*;
+import java.util.stream.*;
+class Problem {
+    // Filter an input array list of strings only for ones that contain given substring
+    // >>> filterBySubstring((new ArrayList<String>(Arrays.asList())), (""a""))
+    // (new ArrayList<String>(Arrays.asList()))
+    // >>> filterBySubstring((new ArrayList<String>(Arrays.asList((String)""abc"", (String)""bacd"", (String)""cde"", (String)""array""))), (""a""))
+    // (new ArrayList<String>(Arrays.asList((String)""abc"", (String)""bacd"", (String)""array"")))
+    public static ArrayList<String> filterBySubstring(ArrayList<String> strings, String substring) {
+
+        return strings.stream().filter((String s) -> s.contains(substring)).collect(Collectors.toCollection(ArrayList::new));
+    }
+    public static void main(String[] args) {
+    assert(filterBySubstring((new ArrayList<String>(Arrays.asList())), (""john"")).equals((new ArrayList<String>(Arrays.asList()))));
+    assert(filterBySubstring((new ArrayList<String>(Arrays.asList((String)""xxx"", (String)""asd"", (String)""xxy"", (String)""john doe"", (String)""xxxAAA"", (String)""xxx""))), (""xxx"")).equals((new ArrayList<String>(Arrays.asList((String)""xxx"", (String)""xxxAAA"", (String)""xxx"")))));
+    assert(filterBySubstring((new ArrayList<String>(Arrays.asList((String)""xxx"", (String)""asd"", (String)""aaaxxy"", (String)""john doe"", (String)""xxxAAA"", (String)""xxx""))), (""xx"")).equals((new ArrayList<String>(Arrays.asList((String)""xxx"", (String)""aaaxxy"", (String)""xxxAAA"", (String)""xxx"")))));
+    assert(filterBySubstring((new ArrayList<String>(Arrays.asList((String)""grunt"", (String)""trumpet"", (String)""prune"", (String)""gruesome""))), (""run"")).equals((new ArrayList<String>(Arrays.asList((String)""grunt"", (String)""prune"")))));
+    }
+
+}
+",acceptable,good
+task_32,"import java.util.*;
+import java.lang.reflect.*;
+import org.javatuples.*;
+import java.security.*;
+import java.math.*;
+import java.io.*;
+import java.util.stream.*;
+class Problem {
+    // Write a function count_nums which takes an array array list of integers and returns
+    // the number of elements which has a sum of digits > 0.
+    // If a number is negative, then its first signed digit will be negative:
+    // e.g. -123 has signed digits -1, 2, and 3.
+    // >>> countNums((new ArrayList<Long>(Arrays.asList())))
+    // (0l)
+    // >>> countNums((new ArrayList<Long>(Arrays.asList((long)-1l, (long)11l, (long)-11l))))
+    // (1l)
+    // >>> countNums((new ArrayList<Long>(Arrays.asList((long)1l, (long)1l, (long)2l))))
+    // (3l)
+    public static long countNums(ArrayList<Long> arr) {
+
+        // write your code here
+        long count = 0;
+        for(int i = 0; i < arr.size(); i++)
+        {
+            long num = arr.get(i);
+            if(num >= 0)
+            {
+                count++;
+            }
+            else
+            {
+                long sum = 0;
+                long temp = num;
+                while(temp != 0)
+                {
+                    sum += temp%10;
+                    temp /= 10;
+                }
+                if(sum > 0)
+                {
+                    count++;
+                }
+            }
+        }
+        return count;
+    }
+    public static void main(String[] args) {
+    assert(countNums((new ArrayList<Long>(Arrays.asList()))) == (0l));
+    assert(countNums((new ArrayList<Long>(Arrays.asList((long)-1l, (long)-2l, (long)0l)))) == (0l));
+    assert(countNums((new ArrayList<Long>(Arrays.asList((long)1l, (long)1l, (long)2l, (long)-2l, (long)3l, (long)4l, (long)5l)))) == (6l));
+    assert(countNums((new ArrayList<Long>(Arrays.asList((long)1l, (long)6l, (long)9l, (long)-6l, (long)0l, (long)1l, (long)5l)))) == (5l));
+    assert(countNums((new ArrayList<Long>(Arrays.asList((long)1l, (long)100l, (long)98l, (long)-7l, (long)1l, (long)-1l)))) == (4l));
+    assert(countNums((new ArrayList<Long>(Arrays.asList((long)12l, (long)23l, (long)34l, (long)-45l, (long)-56l, (long)0l)))) == (5l));
+    assert(countNums((new ArrayList<Long>(Arrays.asList((long)0l, (long)1l)))) == (1l));
+    assert(countNums((new ArrayList<Long>(Arrays.asList((long)1l)))) == (1l));
+    }
+
+}
+",acceptable,acceptable
+task_33,"import java.util.*;
+import java.lang.reflect.*;
+import org.javatuples.*;
+import java.security.*;
+import java.math.*;
+import java.io.*;
+import java.util.stream.*;
+class Problem {
+    // Return array list with elements incremented by 1.
+    // >>> incrList((new ArrayList<Long>(Arrays.asList((long)1l, (long)2l, (long)3l))))
+    // (new ArrayList<Long>(Arrays.asList((long)2l, (long)3l, (long)4l)))
+    // >>> incrList((new ArrayList<Long>(Arrays.asList((long)5l, (long)3l, (long)5l, (long)2l, (long)3l, (long)3l, (long)9l, (long)0l, (long)123l))))
+    // (new ArrayList<Long>(Arrays.asList((long)6l, (long)4l, (long)6l, (long)3l, (long)4l, (long)4l, (long)10l, (long)1l, (long)124l)))
+    public static ArrayList<Long> incrList(ArrayList<Long> l) {
+
+        ArrayList<Long> list = new ArrayList<Long>();
+        for (int i = 0; i < l.size(); i++) {
+            list.add(l.get(i) + 1);
+        }
+        return list;
+    }
+    public static void main(String[] args) {
+    assert(incrList((new ArrayList<Long>(Arrays.asList()))).equals((new ArrayList<Long>(Arrays.asList()))));
+    assert(incrList((new ArrayList<Long>(Arrays.asList((long)3l, (long)2l, (long)1l)))).equals((new ArrayList<Long>(Arrays.asList((long)4l, (long)3l, (long)2l)))));
+    assert(incrList((new ArrayList<Long>(Arrays.asList((long)5l, (long)2l, (long)5l, (long)2l, (long)3l, (long)3l, (long)9l, (long)0l, (long)123l)))).equals((new ArrayList<Long>(Arrays.asList((long)6l, (long)3l, (long)6l, (long)3l, (long)4l, (long)4l, (long)10l, (long)1l, (long)124l)))));
+    }
+
+}
+",acceptable,acceptable
+task_34,"import java.util.*;
+import java.lang.reflect.*;
+import org.javatuples.*;
+import java.security.*;
+import java.math.*;
+import java.io.*;
+import java.util.stream.*;
+class Problem {
+    // Find how many times a given substring can be found in the original string. Count overlaping cases.
+    // >>> howManyTimes((""""), (""a""))
+    // (0l)
+    // >>> howManyTimes((""aaa""), (""a""))
+    // (3l)
+    // >>> howManyTimes((""aaaa""), (""aa""))
+    // (3l)
+    public static long howManyTimes(String string, String substring) {
+
+        return string.length() < substring.length() ? 0 : 1 + howManyTimes(string.substring(1), substring);
+    }
+    public static void main(String[] args) {
+    assert(howManyTimes((""""), (""x"")) == (0l));
+    assert(howManyTimes((""xyxyxyx""), (""x"")) == (4l));
+    assert(howManyTimes((""cacacacac""), (""cac"")) == (4l));
+    assert(howManyTimes((""john doe""), (""john"")) == (1l));
+    }
+
+}
+",acceptable,acceptable
+task_35,"import java.util.*;
+import java.lang.reflect.*;
+import org.javatuples.*;
+import java.security.*;
+import java.math.*;
+import java.io.*;
+import java.util.stream.*;
+class Problem {
+    // For a given number n, find the largest number that divides n evenly, smaller than n
+    // >>> largestDivisor((15l))
+    // (5l)
+    public static long largestDivisor(long n) {
+
+        long divisor = 0;
+        for (int i = 2; i <= n / 2; i++) {
+            if (n % i == 0) {
+                divisor = i;
+            }
+        }
+        return divisor;
+    }
+    public static void main(String[] args) {
+    assert(largestDivisor((3l)) == (1l));
+    assert(largestDivisor((7l)) == (1l));
+    assert(largestDivisor((10l)) == (5l));
+    assert(largestDivisor((100l)) == (50l));
+    assert(largestDivisor((49l)) == (7l));
+    }
+
+}
+",acceptable,acceptable
+task_36,"import java.util.*;
+import java.lang.reflect.*;
+import org.javatuples.*;
+import java.security.*;
+import java.math.*;
+import java.io.*;
+import java.util.stream.*;
+class Problem {
+    // We have an array array list 'arr' of N integers arr[1], arr[2], ..., arr[N].The
+    // numbers in the array array list will be randomly ordered. Your task is to determine if
+    // it is possible to get an array array list sorted in non-decreasing order by performing 
+    // the following operation on the given array array list:
+    // You are allowed to perform right shift operation any number of times.
+    // One right shift operation means shifting all elements of the array array list by one
+    // position in the right direction. The last element of the array array list will be moved to
+    // the starting position in the array array list i.e. 0th index. 
+    // If it is possible to obtain the sorted array array list by performing the above operation
+    // then return true else return false.
+    // If the given array array list is empty then return true.
+    // Note: The given array list is guaranteed to have unique elements.
+    // For Example:
+    // >>> moveOneBall((new ArrayList<Long>(Arrays.asList((long)3l, (long)4l, (long)5l, (long)1l, (long)2l))))
+    // (true)
+    // Explanation: By performin 2 right shift operations, non-decreasing order can
+    // be achieved for the given array array list.
+    // >>> moveOneBall((new ArrayList<Long>(Arrays.asList((long)3l, (long)5l, (long)4l, (long)1l, (long)2l))))
+    // (false)
+    // Explanation:It is not possible to get non-decreasing order for the given
+    // array array list by performing any number of right shift operations.
+    public static boolean moveOneBall(ArrayList<Long> arr) {
+
+        int n = arr.size();
+        if (n <= 1)
+            return true;
+        int[] a = new int[n];
+        for (int i = 0; i < n; i++)
+            a[i] = arr.get(i).intValue();
+        Arrays.sort(a);
+        for (int i = 0; i < n; i++)
+            if (a[i] != arr.get(i).intValue())
+                return false;
+        return true;
+    }
+    public static void main(String[] args) {
+    assert(moveOneBall((new ArrayList<Long>(Arrays.asList((long)3l, (long)4l, (long)5l, (long)1l, (long)2l)))) == (true));
+    assert(moveOneBall((new ArrayList<Long>(Arrays.asList((long)3l, (long)5l, (long)10l, (long)1l, (long)2l)))) == (true));
+    assert(moveOneBall((new ArrayList<Long>(Arrays.asList((long)4l, (long)3l, (long)1l, (long)2l)))) == (false));
+    assert(moveOneBall((new ArrayList<Long>(Arrays.asList((long)3l, (long)5l, (long)4l, (long)1l, (long)2l)))) == (false));
+    assert(moveOneBall((new ArrayList<Long>(Arrays.asList()))) == (true));
+    }
+
+}
+",acceptable,acceptable
+task_37,"import java.util.*;
+import java.lang.reflect.*;
+import org.javatuples.*;
+import java.security.*;
+import java.math.*;
+import java.io.*;
+import java.util.stream.*;
+class Problem {
+    // Return median of elements in the array list l.
+    // >>> median((new ArrayList<Long>(Arrays.asList((long)3l, (long)1l, (long)2l, (long)4l, (long)5l))))
+    // (float)3l
+    // >>> median((new ArrayList<Long>(Arrays.asList((long)-10l, (long)4l, (long)6l, (long)1000l, (long)10l, (long)20l))))
+    // (15.0f)
+    public static float median(ArrayList<Long> l) {
+
+        float m;
+        int n = l.size();
+        if (n == 1)
+            return l.get(0).floatValue();
+        else if (n % 2 == 1)
+            return l.get(n / 2).floatValue();
+        else {
+            int k = n / 2;
+            m = (float)(l.get(k - 1).longValue() + l.get(k).longValue());
+            m = m / (float)2l;
+            return m;
+        }
+    }
+    public static void main(String[] args) {
+    assert(median((new ArrayList<Long>(Arrays.asList((long)3l, (long)1l, (long)2l, (long)4l, (long)5l)))) == (float)3l);
+    assert(median((new ArrayList<Long>(Arrays.asList((long)-10l, (long)4l, (long)6l, (long)1000l, (long)10l, (long)20l)))) == (8.0f));
+    assert(median((new ArrayList<Long>(Arrays.asList((long)5l)))) == (float)5l);
+    assert(median((new ArrayList<Long>(Arrays.asList((long)6l, (long)5l)))) == (5.5f));
+    assert(median((new ArrayList<Long>(Arrays.asList((long)8l, (long)1l, (long)3l, (long)9l, (long)9l, (long)2l, (long)7l)))) == (float)7l);
+    }
+
+}
+",good,good
+task_38,"import java.util.*;
+import java.lang.reflect.*;
+import org.javatuples.*;
+import java.security.*;
+import java.math.*;
+import java.io.*;
+import java.util.stream.*;
+class Problem {
+    // Given an array array list arr of integers, find the minimum number of elements that
+    // need to be changed to make the array array list palindromic. A palindromic array array list is an array array list that
+    // is read the same backwards and forwards. In one change, you can change one element to any other element.
+    // For example:
+    // >>> smallestChange((new ArrayList<Long>(Arrays.asList((long)1l, (long)2l, (long)3l, (long)5l, (long)4l, (long)7l, (long)9l, (long)6l))))
+    // (4l)
+    // >>> smallestChange((new ArrayList<Long>(Arrays.asList((long)1l, (long)2l, (long)3l, (long)4l, (long)3l, (long)2l, (long)2l))))
+    // (1l)
+    // >>> smallestChange((new ArrayList<Long>(Arrays.asList((long)1l, (long)2l, (long)3l, (long)2l, (long)1l))))
+    // (0l)
+    public static long smallestChange(ArrayList<Long> arr) {
+
+        int n = arr.size();
+        boolean[] isPalindrome = new boolean[n];
+        for (int i = 0; i < n; i++) {
+            isPalindrome[i] = true;
+        }
+        for (int i = 0; i < (n + 1) / 2; i++) {
+            if (arr.get(i) != arr.get(n - i - 1)) {
+                isPalindrome[i] = false;
+                isPalindrome[n - i - 1] = false;
+            }
+        }
+        long count = 0;
+        for (int i = 0; i < n; i++) {
+            if (!isPalindrome[i]) {
+                count++;
+            }
+        }
+        return count;
+    }
+    public static void main(String[] args) {
+    assert(smallestChange((new ArrayList<Long>(Arrays.asList((long)1l, (long)2l, (long)3l, (long)5l, (long)4l, (long)7l, (long)9l, (long)6l)))) == (4l));
+    assert(smallestChange((new ArrayList<Long>(Arrays.asList((long)1l, (long)2l, (long)3l, (long)4l, (long)3l, (long)2l, (long)2l)))) == (1l));
+    assert(smallestChange((new ArrayList<Long>(Arrays.asList((long)1l, (long)4l, (long)2l)))) == (1l));
+    assert(smallestChange((new ArrayList<Long>(Arrays.asList((long)1l, (long)4l, (long)4l, (long)2l)))) == (1l));
+    assert(smallestChange((new ArrayList<Long>(Arrays.asList((long)1l, (long)2l, (long)3l, (long)2l, (long)1l)))) == (0l));
+    assert(smallestChange((new ArrayList<Long>(Arrays.asList((long)3l, (long)1l, (long)1l, (long)3l)))) == (0l));
+    assert(smallestChange((new ArrayList<Long>(Arrays.asList((long)1l)))) == (0l));
+    assert(smallestChange((new ArrayList<Long>(Arrays.asList((long)0l, (long)1l)))) == (1l));
+    }
+
+}
+",good,acceptable
+task_39,"import java.util.*;
+import java.lang.reflect.*;
+import org.javatuples.*;
+import java.security.*;
+import java.math.*;
+import java.io.*;
+import java.util.stream.*;
+class Problem {
+    // Create a function that takes 3 numbers.
+    // Returns true if one of the numbers is equal to the sum of the other two, and all numbers are integers.
+    // Returns false in any other cases.
+    // Examples
+    // >>> anyInt((float)5l, (float)2l, (float)7l)
+    // (true)
+    // >>> anyInt((float)3l, (float)2l, (float)2l)
+    // (false)
+    // >>> anyInt((float)3l, (float)-2l, (float)1l)
+    // (true)
+    // >>> anyInt((3.6f), (-2.2f), (float)2l)
+    // (false)
+    public static boolean anyInt(float x, float y, float z) {
+
+        if (x + y == z || y + z == x || z + x == y) {
+            if (x % 1 == 0 && y % 1 == 0 && z % 1 == 0) {
+                return true;
+            }
+        }
+        return false;
+    }
+    public static void main(String[] args) {
+    assert(anyInt((float)2l, (float)3l, (float)1l) == (true));
+    assert(anyInt((2.5f), (float)2l, (float)3l) == (false));
+    assert(anyInt((1.5f), (float)5l, (3.5f)) == (false));
+    assert(anyInt((float)2l, (float)6l, (float)2l) == (false));
+    assert(anyInt((float)4l, (float)2l, (float)2l) == (true));
+    assert(anyInt((2.2f), (2.2f), (2.2f)) == (false));
+    assert(anyInt((float)-4l, (float)6l, (float)2l) == (true));
+    assert(anyInt((float)2l, (float)1l, (float)1l) == (true));
+    assert(anyInt((float)3l, (float)4l, (float)7l) == (true));
+    assert(anyInt((3.0f), (float)4l, (float)7l) == (false));
+    }
+
+}
+",acceptable,acceptable
+task_40,"import java.util.*;
+import java.lang.reflect.*;
+import org.javatuples.*;
+import java.security.*;
+import java.math.*;
+import java.io.*;
+import java.util.stream.*;
+class Problem {
+    // Input to this function is a string representing musical notes in a special ASCII format.
+    // Your task is to parse this string and return array list of integers corresponding to how many beats does each
+    // not last.
+    // Here is a legend:
+    // 'o' - whole note, lasts four beats
+    // 'o|' - half note, lasts two beats
+    // '.|' - quater note, lasts one beat
+    // >>> parseMusic((""o o| .| o| o| .| .| .| .| o o""))
+    // (new ArrayList<Long>(Arrays.asList((long)4l, (long)2l, (long)1l, (long)2l, (long)2l, (long)1l, (long)1l, (long)1l, (long)1l, (long)4l, (long)4l)))
+    public static ArrayList<Long> parseMusic(String music_string) {
+
+        char[] music = music_string.toCharArray();
+        int n = music.length;
+        ArrayList<Long> notes = new ArrayList<Long>();
+        for (int i = 0; i < n; ++i) {
+            char c = music[i];
+            if (c == 'o') {
+                notes.add((long)4);
+                if (i < n - 1 && music[i + 1] == '|') {
+                    ++i;
+                    notes.add((long)2);
+                }
+            } else if (c == '.') {
+                notes.add((long)1);
+                if (i < n - 1 && music[i + 1] == '|') {
+                    ++i;
+                    notes.add((long)1);
+                }
+            }
+        }
+        return notes;
+    }
+    public static void main(String[] args) {
+    assert(parseMusic(("""")).equals((new ArrayList<Long>(Arrays.asList()))));
+    assert(parseMusic((""o o o o"")).equals((new ArrayList<Long>(Arrays.asList((long)4l, (long)4l, (long)4l, (long)4l)))));
+    assert(parseMusic(("".| .| .| .|"")).equals((new ArrayList<Long>(Arrays.asList((long)1l, (long)1l, (long)1l, (long)1l)))));
+    assert(parseMusic((""o| o| .| .| o o o o"")).equals((new ArrayList<Long>(Arrays.asList((long)2l, (long)2l, (long)1l, (long)1l, (long)4l, (long)4l, (long)4l, (long)4l)))));
+    assert(parseMusic((""o| .| o| .| o o| o o|"")).equals((new ArrayList<Long>(Arrays.asList((long)2l, (long)1l, (long)2l, (long)1l, (long)4l, (long)2l, (long)4l, (long)2l)))));
+    }
+
+}
+",good,good
+task_41,"import java.util.*;
+import java.lang.reflect.*;
+import org.javatuples.*;
+import java.security.*;
+import java.math.*;
+import java.io.*;
+import java.util.stream.*;
+class Problem {
+    // Given two array lists operator, and operand. The first array list has basic algebra operations, and 
+    // the second array list is an array array list of integers. Use the two given array lists to build the algebric 
+    // expression and return the evaluation of this expression.
+    // The basic algebra operations:
+    // Addition ( + ) 
+    // Subtraction ( - ) 
+    // Multiplication ( * ) 
+    // Floor division ( // ) 
+    // Exponentiation ( ** ) 
+    // Example:
+    // operator['+', '*', '-']
+    // array array list = [2, 3, 4, 5]
+    // result = 2 + 3 * 4 - 5
+    // => result = 9
+    // Note:
+    // The length of operator array list is equal to the length of operand array list minus one.
+    // Operand is an array array list of of non-negative integers.
+    // Operator array list has at least one operator, and operand array list has at least two operands.
+    public static long doAlgebra(ArrayList<String> op, ArrayList<Long> operand) {
+
+        // Write your code here
+        long res = 0;
+        long a = operand.get(0);
+        for(int i = 1; i < operand.size(); i++) {
+            long b = operand.get(i);
+            switch(op.get(i - 1)) {
+                case ""+"":
+                    res += a;
+                    a = b;
+                    break;
+                case ""-"":
+                    res += a;
+                    a = -b;
+                    break;
+                case ""*"":
+                    a *= b;
+                    break;
+                case ""/"":
+                    a /= b;
+                    break;
+                case ""**"":
+                    a = (long) Math.pow(a, b);
+                    break;
+            }
+        }
+        return res + a;
+    }
+    public static void main(String[] args) {
+    assert(doAlgebra((new ArrayList<String>(Arrays.asList((String)""**"", (String)""*"", (String)""+""))), (new ArrayList<Long>(Arrays.asList((long)2l, (long)3l, (long)4l, (long)5l)))) == (37l));
+    assert(doAlgebra((new ArrayList<String>(Arrays.asList((String)""+"", (String)""*"", (String)""-""))), (new ArrayList<Long>(Arrays.asList((long)2l, (long)3l, (long)4l, (long)5l)))) == (9l));
+    assert(doAlgebra((new ArrayList<String>(Arrays.asList((String)""//"", (String)""*""))), (new ArrayList<Long>(Arrays.asList((long)7l, (long)3l, (long)4l)))) == (8l));
+    }
+
+}
+",acceptable,acceptable
+task_42,"import java.util.*;
+import java.lang.reflect.*;
+import org.javatuples.*;
+import java.security.*;
+import java.math.*;
+import java.io.*;
+import java.util.stream.*;
+class Problem {
+    // remove_vowels is a function that takes string and returns string without vowels.
+    // >>> removeVowels((""""))
+    // ("""")
+    // >>> removeVowels((""abcdef""))
+    // (""bcdf"")
+    // >>> removeVowels((""aaaaa""))
+    // ("""")
+    // >>> removeVowels((""aaBAA""))
+    // (""B"")
+    // >>> removeVowels((""zbcd""))
+    // (""zbcd"")
+    public static String removeVowels(String text) {
+
+        return text.replaceAll(""[aeiou]"", """");
+    }
+    public static void main(String[] args) {
+    assert(removeVowels(("""")).equals(("""")));
+    assert(removeVowels((""abcdef\nghijklm"")).equals((""bcdf\nghjklm"")));
+    assert(removeVowels((""fedcba"")).equals((""fdcb"")));
+    assert(removeVowels((""eeeee"")).equals(("""")));
+    assert(removeVowels((""acBAA"")).equals((""cB"")));
+    assert(removeVowels((""EcBOO"")).equals((""cB"")));
+    assert(removeVowels((""ybcd"")).equals((""ybcd"")));
+    }
+
+}
+",poor,poor
+task_43,"import java.util.*;
+import java.lang.reflect.*;
+import org.javatuples.*;
+import java.security.*;
+import java.math.*;
+import java.io.*;
+import java.util.stream.*;
+class Problem {
+    // There are eight planets in our solar system: the closerst to the Sun 
+    // is Mercury, the next one is Venus, then Earth, Mars, Jupiter, Saturn, 
+    // Uranus, Neptune.
+    // Write a function that takes two planet names as strings planet1 and planet2. 
+    // The function should return a pair containing all planets whose orbits are 
+    // located between the orbit of planet1 and the orbit of planet2, sorted by 
+    // the proximity to the sun. 
+    // The function should return an empty pair if planet1 or planet2
+    // are not correct planet names. 
+    // Examples
+    // >>> bf((""Jupiter""), (""Neptune""))
+    // (new ArrayList<String>(Arrays.asList((String)""Saturn"", (String)""Uranus"")))
+    // >>> bf((""Earth""), (""Mercury""))
+    // (ArrayList<String>(""Venus""))
+    // >>> bf((""Mercury""), (""Uranus""))
+    // (new ArrayList<String>(Arrays.asList((String)""Venus"", (String)""Earth"", (String)""Mars"", (String)""Jupiter"", (String)""Saturn"")))
+    public static ArrayList<String> bf(String planet1, String planet2) {
+
+        ArrayList<String> res = new ArrayList<String>();
+        String [] planets = new String[] {""Mercury"", ""Venus"", ""Earth"", ""Mars"", ""Jupiter"", ""Saturn"", ""Uranus"", ""Neptune""};
+        int i1 = -1, i2 = -1;
+        for(int i = 0; i < 8; i++) {
+            if(planet1.equals(planets[i])) i1 = i;
+            if(planet2.equals(planets[i])) i2 = i;
+        }
+        if(i1 == -1 || i2 == -1) return res;
+        if(i1 > i2) {
+            int t = i1;
+            i1 = i2;
+            i2 = t;
+        }
+        for(int i = i1 + 1; i < i2; i++)
+            res.add(planets[i]);
+        return res;
+    }
+    public static void main(String[] args) {
+    assert(bf((""Jupiter""), (""Neptune"")).equals((new ArrayList<String>(Arrays.asList((String)""Saturn"", (String)""Uranus"")))));
+    assert(bf((""Earth""), (""Mercury"")).equals((new ArrayList<String>(Arrays.asList((String)""Venus"")))));
+    assert(bf((""Mercury""), (""Uranus"")).equals((new ArrayList<String>(Arrays.asList((String)""Venus"", (String)""Earth"", (String)""Mars"", (String)""Jupiter"", (String)""Saturn"")))));
+    assert(bf((""Neptune""), (""Venus"")).equals((new ArrayList<String>(Arrays.asList((String)""Earth"", (String)""Mars"", (String)""Jupiter"", (String)""Saturn"", (String)""Uranus"")))));
+    assert(bf((""Earth""), (""Earth"")).equals((new ArrayList<String>(Arrays.asList()))));
+    assert(bf((""Mars""), (""Earth"")).equals((new ArrayList<String>(Arrays.asList()))));
+    assert(bf((""Jupiter""), (""Makemake"")).equals((new ArrayList<String>(Arrays.asList()))));
+    }
+
+}
+",acceptable,acceptable
+task_44,"import java.util.*;
+import java.lang.reflect.*;
+import org.javatuples.*;
+import java.security.*;
+import java.math.*;
+import java.io.*;
+import java.util.stream.*;
+class Problem {
+    // xs represent coefficients of a polynomial.
+    // xs[0] + xs[1] * x + xs[2] * x^2 + ....
+    // Return derivative of this polynomial in the same form.
+    // >>> derivative((new ArrayList<Long>(Arrays.asList((long)3l, (long)1l, (long)2l, (long)4l, (long)5l))))
+    // (new ArrayList<Long>(Arrays.asList((long)1l, (long)4l, (long)12l, (long)20l)))
+    // >>> derivative((new ArrayList<Long>(Arrays.asList((long)1l, (long)2l, (long)3l))))
+    // (new ArrayList<Long>(Arrays.asList((long)2l, (long)6l)))
+    public static ArrayList<Long> derivative(ArrayList<Long> xs) {
+
+        ArrayList<Long> result = new ArrayList<Long>();
+        for (int i = 0; i < xs.size() - 1; i++) {
+            result.add(xs.get(i + 1) * (long) (i + 1));
+        }
+        return result;
+    }
+    public static void main(String[] args) {
+    assert(derivative((new ArrayList<Long>(Arrays.asList((long)3l, (long)1l, (long)2l, (long)4l, (long)5l)))).equals((new ArrayList<Long>(Arrays.asList((long)1l, (long)4l, (long)12l, (long)20l)))));
+    assert(derivative((new ArrayList<Long>(Arrays.asList((long)1l, (long)2l, (long)3l)))).equals((new ArrayList<Long>(Arrays.asList((long)2l, (long)6l)))));
+    assert(derivative((new ArrayList<Long>(Arrays.asList((long)3l, (long)2l, (long)1l)))).equals((new ArrayList<Long>(Arrays.asList((long)2l, (long)2l)))));
+    assert(derivative((new ArrayList<Long>(Arrays.asList((long)3l, (long)2l, (long)1l, (long)0l, (long)4l)))).equals((new ArrayList<Long>(Arrays.asList((long)2l, (long)2l, (long)0l, (long)16l)))));
+    assert(derivative((new ArrayList<Long>(Arrays.asList((long)1l)))).equals((new ArrayList<Long>(Arrays.asList()))));
+    }
+
+}
+",acceptable,acceptable
+task_45,"import java.util.*;
+import java.lang.reflect.*;
+import org.javatuples.*;
+import java.security.*;
+import java.math.*;
+import java.io.*;
+import java.util.stream.*;
+class Problem {
+    // Input to this function is a string represented multiple groups for nested parentheses separated by spaces.
+    // For each of the group, output the deepest level of nesting of parentheses.
+    // E.g. (()()) has maximum two levels of nesting while ((())) has three.
+    // >>> parseNestedParens((""(()()) ((())) () ((())()())""))
+    // (new ArrayList<Long>(Arrays.asList((long)2l, (long)3l, (long)1l, (long)3l)))
+    public static ArrayList<Long> parseNestedParens(String paren_string) {
+
+        ArrayList<Long> max_level = new ArrayList<Long>();
+        long current_max = 0L;
+        long current_count = 0L;
+        for (char c : paren_string.toCharArray()) {
+            if (c == '(') {
+                current_count++;
+                if (current_count > current_max) {
+                    current_max = current_count;
+                }
+            }
+            if (c == ')') {
+                current_count--;
+            }
+            if (c == ' ' && current_count == 0L) {
+                max_level.add(current_max);
+                current_max = 0L;
+            }
+        }
+        if (current_count != 0L) {
+            throw new Exception(""invalid string"");
+        }
+        return max_level;
+    }
+    public static void main(String[] args) {
+    assert(parseNestedParens((""(()()) ((())) () ((())()())"")).equals((new ArrayList<Long>(Arrays.asList((long)2l, (long)3l, (long)1l, (long)3l)))));
+    assert(parseNestedParens((""() (()) ((())) (((())))"")).equals((new ArrayList<Long>(Arrays.asList((long)1l, (long)2l, (long)3l, (long)4l)))));
+    assert(parseNestedParens((""(()(())((())))"")).equals((new ArrayList<Long>(Arrays.asList((long)4l)))));
+    }
+
+}
+",acceptable,acceptable
+task_46,"import java.util.*;
+import java.lang.reflect.*;
+import org.javatuples.*;
+import java.security.*;
+import java.math.*;
+import java.io.*;
+import java.util.stream.*;
+class Problem {
+    // Create a function which takes a string representing a file's name, and returns
+    // 'Yes' if the the file's name is valid, and returns 'No' otherwise.
+    // A file's name is considered to be valid if and only if all the following conditions 
+    // are met:
+    // - There should not be more than three digits ('0'-'9') in the file's name.
+    // - The file's name contains exactly one dot '.'
+    // - The substring before the dot should not be empty, and it starts with a letter from 
+    // the latin alphapet ('a'-'z' and 'A'-'Z').
+    // - The substring after the dot should be one of these: ['txt', 'exe', 'dll']
+    // Examples:
+    // >>> fileNameCheck((""example.txt""))
+    // (""Yes"")
+    // >>> fileNameCheck((""1example.dll""))
+    // (""No"")
+    public static String fileNameCheck(String file_name) {
+
+        int counter = 0;
+        for (char c: file_name.toCharArray()){
+            if (Character.isDigit(c))
+                counter++;
+        }
+        String [] arr = file_name.split(""\\."");
+        if (counter > 3 || arr.length != 2 || arr[0].isEmpty() || !Character.isAlphabetic(arr[0].charAt(0)) || !(arr[1].equals(""txt"") || arr[1].equals(""exe"") || arr[1].equals(""dll"")))
+            return ""No"";
+        else
+            return ""Yes"";
+    }
+    public static void main(String[] args) {
+    assert(fileNameCheck((""example.txt"")).equals((""Yes"")));
+    assert(fileNameCheck((""1example.dll"")).equals((""No"")));
+    assert(fileNameCheck((""s1sdf3.asd"")).equals((""No"")));
+    assert(fileNameCheck((""K.dll"")).equals((""Yes"")));
+    assert(fileNameCheck((""MY16FILE3.exe"")).equals((""Yes"")));
+    assert(fileNameCheck((""His12FILE94.exe"")).equals((""No"")));
+    assert(fileNameCheck((""_Y.txt"")).equals((""No"")));
+    assert(fileNameCheck((""?aREYA.exe"")).equals((""No"")));
+    assert(fileNameCheck((""/this_is_valid.dll"")).equals((""No"")));
+    assert(fileNameCheck((""this_is_valid.wow"")).equals((""No"")));
+    assert(fileNameCheck((""this_is_valid.txt"")).equals((""Yes"")));
+    assert(fileNameCheck((""this_is_valid.txtexe"")).equals((""No"")));
+    assert(fileNameCheck((""#this2_i4s_5valid.ten"")).equals((""No"")));
+    assert(fileNameCheck((""@this1_is6_valid.exe"")).equals((""No"")));
+    assert(fileNameCheck((""this_is_12valid.6exe4.txt"")).equals((""No"")));
+    assert(fileNameCheck((""all.exe.txt"")).equals((""No"")));
+    assert(fileNameCheck((""I563_No.exe"")).equals((""Yes"")));
+    assert(fileNameCheck((""Is3youfault.txt"")).equals((""Yes"")));
+    assert(fileNameCheck((""no_one#knows.dll"")).equals((""Yes"")));
+    assert(fileNameCheck((""1I563_Yes3.exe"")).equals((""No"")));
+    assert(fileNameCheck((""I563_Yes3.txtt"")).equals((""No"")));
+    assert(fileNameCheck((""final..txt"")).equals((""No"")));
+    assert(fileNameCheck((""final132"")).equals((""No"")));
+    assert(fileNameCheck((""_f4indsartal132."")).equals((""No"")));
+    assert(fileNameCheck(("".txt"")).equals((""No"")));
+    assert(fileNameCheck((""s."")).equals((""No"")));
+    }
+
+}
+",good,good
+task_47,"import java.util.*;
+import java.lang.reflect.*;
+import org.javatuples.*;
+import java.security.*;
+import java.math.*;
+import java.io.*;
+import java.util.stream.*;
+class Problem {
+    // Create a function that returns a pair (a, b), where 'a' is
+    // the largest of negative integers, and 'b' is the smallest
+    // of positive integers in an array array list.
+    // If there is no negative or positive integers, return them as null.
+    // Examples:
+    // >>> largestSmallestIntegers((new ArrayList<Long>(Arrays.asList((long)2l, (long)4l, (long)1l, (long)3l, (long)5l, (long)7l))))
+    // Pair.with(Optional.of(Optional.empty()), Optional.of(1l))
+    // >>> largestSmallestIntegers((new ArrayList<Long>(Arrays.asList())))
+    // Pair.with(Optional.of(Optional.empty()), Optional.of(Optional.empty()))
+    // >>> largestSmallestIntegers((new ArrayList<Long>(Arrays.asList((long)0l))))
+    // Pair.with(Optional.of(Optional.empty()), Optional.of(Optional.empty()))
+    public static Pair<Optional<Long>, Optional<Long>> largestSmallestIntegers(ArrayList<Long> lst) {
+
+        if(lst.size() == 0) {
+            return Pair.with(Optional.of(Optional.empty()), Optional.of(Optional.empty()));
+        }
+        Long min = Long.MAX_VALUE;
+        Long max = Long.MIN_VALUE;
+        for(Long l : lst) {
+            if(l < min && l < 0) {
+                min = l;
+            }
+            if(l > max && l > 0) {
+                max = l;
+            }
+        }
+        return Pair.with(Optional.of(min < Long.MAX_VALUE ? min : Optional.empty()), Optional.of(max > Long.MIN_VALUE ? max : Optional.empty()));
+    }
+    public static void main(String[] args) {
+    assert(largestSmallestIntegers((new ArrayList<Long>(Arrays.asList((long)2l, (long)4l, (long)1l, (long)3l, (long)5l, (long)7l)))).equals(Pair.with(Optional.of(Optional.empty()), Optional.of(1l))));
+    assert(largestSmallestIntegers((new ArrayList<Long>(Arrays.asList((long)2l, (long)4l, (long)1l, (long)3l, (long)5l, (long)7l, (long)0l)))).equals(Pair.with(Optional.of(Optional.empty()), Optional.of(1l))));
+    assert(largestSmallestIntegers((new ArrayList<Long>(Arrays.asList((long)1l, (long)3l, (long)2l, (long)4l, (long)5l, (long)6l, (long)-2l)))).equals(Pair.with(-2l, 1l)));
+    assert(largestSmallestIntegers((new ArrayList<Long>(Arrays.asList((long)4l, (long)5l, (long)3l, (long)6l, (long)2l, (long)7l, (long)-7l)))).equals(Pair.with(-7l, 2l)));
+    assert(largestSmallestIntegers((new ArrayList<Long>(Arrays.asList((long)7l, (long)3l, (long)8l, (long)4l, (long)9l, (long)2l, (long)5l, (long)-9l)))).equals(Pair.with(-9l, 2l)));
+    assert(largestSmallestIntegers((new ArrayList<Long>(Arrays.asList()))).equals(Pair.with(Optional.of(Optional.empty()), Optional.of(Optional.empty()))));
+    assert(largestSmallestIntegers((new ArrayList<Long>(Arrays.asList((long)0l)))).equals(Pair.with(Optional.of(Optional.empty()), Optional.of(Optional.empty()))));
+    assert(largestSmallestIntegers((new ArrayList<Long>(Arrays.asList((long)-1l, (long)-3l, (long)-5l, (long)-6l)))).equals(Pair.with(Optional.of(-1l), Optional.of(Optional.empty()))));
+    assert(largestSmallestIntegers((new ArrayList<Long>(Arrays.asList((long)-1l, (long)-3l, (long)-5l, (long)-6l, (long)0l)))).equals(Pair.with(Optional.of(-1l), Optional.of(Optional.empty()))));
+    assert(largestSmallestIntegers((new ArrayList<Long>(Arrays.asList((long)-6l, (long)-4l, (long)-4l, (long)-3l, (long)1l)))).equals(Pair.with(-3l, 1l)));
+    assert(largestSmallestIntegers((new ArrayList<Long>(Arrays.asList((long)-6l, (long)-4l, (long)-4l, (long)-3l, (long)-100l, (long)1l)))).equals(Pair.with(-3l, 1l)));
+    }
+
+}
+",acceptable,acceptable
+task_48,"import java.util.*;
+import java.lang.reflect.*;
+import org.javatuples.*;
+import java.security.*;
+import java.math.*;
+import java.io.*;
+import java.util.stream.*;
+class Problem {
+    // The FibFib number sequence is a sequence similar to the Fibbonacci sequnece that's defined as follows:
+    // fibfib(0) == 0
+    // fibfib(1) == 0
+    // fibfib(2) == 1
+    // fibfib(n) == fibfib(n-1) + fibfib(n-2) + fibfib(n-3).
+    // Please write a function to efficiently compute the n-th element of the fibfib number sequence.
+    // >>> fibfib((1l))
+    // (0l)
+    // >>> fibfib((5l))
+    // (4l)
+    // >>> fibfib((8l))
+    // (24l)
+    public static long fibfib(long n) {
+
+        if (n == 0) {
+            return 0;
+        }
+        if (n == 1) {
+            return 0;
+        }
+        if (n == 2) {
+            return 1;
+        }
+        long lastlast = 0;
+        long last = 0;
+        long current = 1;
+        for (long i = 3; i <= n; i++) {
+            long tmp_lastlast = lastlast;
+            lastlast = last;
+            last = current;
+            current = tmp_lastlast + last + lastlast;
+        }
+        return current;
+    }
+    public static void main(String[] args) {
+    assert(fibfib((2l)) == (1l));
+    assert(fibfib((1l)) == (0l));
+    assert(fibfib((5l)) == (4l));
+    assert(fibfib((8l)) == (24l));
+    assert(fibfib((10l)) == (81l));
+    assert(fibfib((12l)) == (274l));
+    assert(fibfib((14l)) == (927l));
+    }
+
+}
+",acceptable,acceptable
+task_49,"import java.util.*;
+import java.lang.reflect.*;
+import org.javatuples.*;
+import java.security.*;
+import java.math.*;
+import java.io.*;
+import java.util.stream.*;
+class Problem {
+    // You are given a 2 dimensional data, as a nested array lists,
+    // which is similar to matrix, however, unlike matrices,
+    // each row may contain a different number of columns.
+    // Given lst, and integer x, find integers x in the array list,
+    // and return array list of pairs, [(x1, y1), (x2, y2) ...] such that
+    // each pair is a coordinate - (row, columns), starting with 0.
+    // Sort coordinates initially by rows in ascending order.
+    // Also, sort coordinates of the row by columns in descending order.
+    // Examples:
+    // >>> getRow((new ArrayList<ArrayList<Long>>(Arrays.asList((ArrayList<Long>)new ArrayList<Long>(Arrays.asList((long)1l, (long)2l, (long)3l, (long)4l, (long)5l, (long)6l)), (ArrayList<Long>)new ArrayList<Long>(Arrays.asList((long)1l, (long)2l, (long)3l, (long)4l, (long)1l, (long)6l)), (ArrayList<Long>)new ArrayList<Long>(Arrays.asList((long)1l, (long)2l, (long)3l, (long)4l, (long)5l, (long)1l))))), (1l))
+    // (new ArrayList<Pair<Long, Long>>(Arrays.asList((Pair<Long, Long>)Pair.with(0l, 0l), (Pair<Long, Long>)Pair.with(1l, 4l), (Pair<Long, Long>)Pair.with(1l, 0l), (Pair<Long, Long>)Pair.with(2l, 5l), (Pair<Long, Long>)Pair.with(2l, 0l))))
+    // >>> getRow((new ArrayList<ArrayList<Long>>(Arrays.asList())), (1l))
+    // (new ArrayList<Pair<Long, Long>>(Arrays.asList()))
+    // >>> getRow((new ArrayList<ArrayList<Long>>(Arrays.asList((ArrayList<Long>)new ArrayList<Long>(Arrays.asList()), (ArrayList<Long>)new ArrayList<Long>(Arrays.asList((long)1l)), (ArrayList<Long>)new ArrayList<Long>(Arrays.asList((long)1l, (long)2l, (long)3l))))), (3l))
+    // (new ArrayList<Pair<Long, Long>>(Arrays.asList((Pair<Long, Long>)Pair.with(2l, 2l))))
+    public static ArrayList<Pair<Long, Long>> getRow(ArrayList<ArrayList<Long>> lst, long x) {
+
+        ArrayList<Pair<Long, Long>> result = new ArrayList<Pair<Long, Long>>();
+        if (lst == null || lst.isEmpty()) {
+            return result;
+        }
+        for (int i = 0; i < lst.size(); i++) {
+            for (int j = 0; j < lst.get(i).size(); j++) {
+                if (lst.get(i).get(j) == x) {
+                    result.add(Pair.with((long) i, (long) j));
+                }
+            }
+        }
+        Comparator<Pair<Long, Long>> comparator = (Pair<Long, Long> o1, Pair<Long, Long> o2) -> {
+            int cmp = o1.getValue0().compareTo(o2.getValue0());
+            return (cmp == 0) ? -1 * o1.getValue1().compareTo(o2.getValue1()) : cmp;
+        };
+        result.sort(comparator);
+        return result;
+    }
+    public static void main(String[] args) {
+    assert(getRow((new ArrayList<ArrayList<Long>>(Arrays.asList((ArrayList<Long>)new ArrayList<Long>(Arrays.asList((long)1l, (long)2l, (long)3l, (long)4l, (long)5l, (long)6l)), (ArrayList<Long>)new ArrayList<Long>(Arrays.asList((long)1l, (long)2l, (long)3l, (long)4l, (long)1l, (long)6l)), (ArrayList<Long>)new ArrayList<Long>(Arrays.asList((long)1l, (long)2l, (long)3l, (long)4l, (long)5l, (long)1l))))), (1l)).equals((new ArrayList<Pair<Long, Long>>(Arrays.asList((Pair<Long, Long>)Pair.with(0l, 0l), (Pair<Long, Long>)Pair.with(1l, 4l), (Pair<Long, Long>)Pair.with(1l, 0l), (Pair<Long, Long>)Pair.with(2l, 5l), (Pair<Long, Long>)Pair.with(2l, 0l))))));
+    assert(getRow((new ArrayList<ArrayList<Long>>(Arrays.asList((ArrayList<Long>)new ArrayList<Long>(Arrays.asList((long)1l, (long)2l, (long)3l, (long)4l, (long)5l, (long)6l)), (ArrayList<Long>)new ArrayList<Long>(Arrays.asList((long)1l, (long)2l, (long)3l, (long)4l, (long)5l, (long)6l)), (ArrayList<Long>)new ArrayList<Long>(Arrays.asList((long)1l, (long)2l, (long)3l, (long)4l, (long)5l, (long)6l)), (ArrayList<Long>)new ArrayList<Long>(Arrays.asList((long)1l, (long)2l, (long)3l, (long)4l, (long)5l, (long)6l)), (ArrayList<Long>)new ArrayList<Long>(Arrays.asList((long)1l, (long)2l, (long)3l, (long)4l, (long)5l, (long)6l)), (ArrayList<Long>)new ArrayList<Long>(Arrays.asList((long)1l, (long)2l, (long)3l, (long)4l, (long)5l, (long)6l))))), (2l)).equals((new ArrayList<Pair<Long, Long>>(Arrays.asList((Pair<Long, Long>)Pair.with(0l, 1l), (Pair<Long, Long>)Pair.with(1l, 1l), (Pair<Long, Long>)Pair.with(2l, 1l), (Pair<Long, Long>)Pair.with(3l, 1l), (Pair<Long, Long>)Pair.with(4l, 1l), (Pair<Long, Long>)Pair.with(5l, 1l))))));
+    assert(getRow((new ArrayList<ArrayList<Long>>(Arrays.asList((ArrayList<Long>)new ArrayList<Long>(Arrays.asList((long)1l, (long)2l, (long)3l, (long)4l, (long)5l, (long)6l)), (ArrayList<Long>)new ArrayList<Long>(Arrays.asList((long)1l, (long)2l, (long)3l, (long)4l, (long)5l, (long)6l)), (ArrayList<Long>)new ArrayList<Long>(Arrays.asList((long)1l, (long)1l, (long)3l, (long)4l, (long)5l, (long)6l)), (ArrayList<Long>)new ArrayList<Long>(Arrays.asList((long)1l, (long)2l, (long)1l, (long)4l, (long)5l, (long)6l)), (ArrayList<Long>)new ArrayList<Long>(Arrays.asList((long)1l, (long)2l, (long)3l, (long)1l, (long)5l, (long)6l)), (ArrayList<Long>)new ArrayList<Long>(Arrays.asList((long)1l, (long)2l, (long)3l, (long)4l, (long)1l, (long)6l)), (ArrayList<Long>)new ArrayList<Long>(Arrays.asList((long)1l, (long)2l, (long)3l, (long)4l, (long)5l, (long)1l))))), (1l)).equals((new ArrayList<Pair<Long, Long>>(Arrays.asList((Pair<Long, Long>)Pair.with(0l, 0l), (Pair<Long, Long>)Pair.with(1l, 0l), (Pair<Long, Long>)Pair.with(2l, 1l), (Pair<Long, Long>)Pair.with(2l, 0l), (Pair<Long, Long>)Pair.with(3l, 2l), (Pair<Long, Long>)Pair.with(3l, 0l), (Pair<Long, Long>)Pair.with(4l, 3l), (Pair<Long, Long>)Pair.with(4l, 0l), (Pair<Long, Long>)Pair.with(5l, 4l), (Pair<Long, Long>)Pair.with(5l, 0l), (Pair<Long, Long>)Pair.with(6l, 5l), (Pair<Long, Long>)Pair.with(6l, 0l))))));
+    assert(getRow((new ArrayList<ArrayList<Long>>(Arrays.asList())), (1l)).equals((new ArrayList<Pair<Long, Long>>(Arrays.asList()))));
+    assert(getRow((new ArrayList<ArrayList<Long>>(Arrays.asList((ArrayList<Long>)new ArrayList<Long>(Arrays.asList((long)1l))))), (2l)).equals((new ArrayList<Pair<Long, Long>>(Arrays.asList()))));
+    assert(getRow((new ArrayList<ArrayList<Long>>(Arrays.asList((ArrayList<Long>)new ArrayList<Long>(Arrays.asList()), (ArrayList<Long>)new ArrayList<Long>(Arrays.asList((long)1l)), (ArrayList<Long>)new ArrayList<Long>(Arrays.asList((long)1l, (long)2l, (long)3l))))), (3l)).equals((new ArrayList<Pair<Long, Long>>(Arrays.asList((Pair<Long, Long>)Pair.with(2l, 2l))))));
+    }
+
+}
+",acceptable,acceptable
+task_50,"import java.util.*;
+import java.lang.reflect.*;
+import org.javatuples.*;
+import java.security.*;
+import java.math.*;
+import java.io.*;
+import java.util.stream.*;
+class Problem {
+    // Given a positive integer, obtain its roman numeral equivalent as a string,
+    // and return it in lowercase.
+    // Restrictions: 1 <= num <= 1000
+    // Examples:
+    // >>> intToMiniRoman((19l))
+    // (""xix"")
+    // >>> intToMiniRoman((152l))
+    // (""clii"")
+    // >>> intToMiniRoman((426l))
+    // (""cdxxvi"")
+    public static String intToMiniRoman(long number) {
+
+        long[] arabics = { 1000, 900, 500, 400, 100, 90, 50, 40, 10, 9, 5, 4, 1 };
+        String[] romans = { ""M"", ""CM"", ""D"", ""CD"", ""C"", ""XC"", ""L"", ""XL"", ""X"", ""IX"", ""V"", ""IV"", ""I"" };
+        String roman = """";
+        for (int i = 0; i < arabics.length; i++) {
+            while (number >= arabics[i]) {
+                roman += romans[i];
+                number -= arabics[i];
+            }
+        }
+        return roman;
+    }
+    public static void main(String[] args) {
+    assert(intToMiniRoman((19l)).equals((""xix"")));
+    assert(intToMiniRoman((152l)).equals((""clii"")));
+    assert(intToMiniRoman((251l)).equals((""ccli"")));
+    assert(intToMiniRoman((426l)).equals((""cdxxvi"")));
+    assert(intToMiniRoman((500l)).equals((""d"")));
+    assert(intToMiniRoman((1l)).equals((""i"")));
+    assert(intToMiniRoman((4l)).equals((""iv"")));
+    assert(intToMiniRoman((43l)).equals((""xliii"")));
+    assert(intToMiniRoman((90l)).equals((""xc"")));
+    assert(intToMiniRoman((94l)).equals((""xciv"")));
+    assert(intToMiniRoman((532l)).equals((""dxxxii"")));
+    assert(intToMiniRoman((900l)).equals((""cm"")));
+    assert(intToMiniRoman((994l)).equals((""cmxciv"")));
+    assert(intToMiniRoman((1000l)).equals((""m"")));
+    }
+
+}
+",acceptable,acceptable

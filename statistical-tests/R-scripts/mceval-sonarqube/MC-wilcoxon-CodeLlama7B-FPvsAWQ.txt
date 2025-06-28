@@ -1,0 +1,107 @@
+[1] "********************** (HE) CodeLlama-7B FP vs AWQ Comparison (Python) *********************************"
+[1] "Reliability - FP vs AWQ (Python)"
+
+Cliff's Delta
+
+delta estimate: 6.673006e-19 (negligible)
+95 percent confidence interval:
+      lower       upper 
+-0.06683407  0.06683407 
+
+[1] "Maintainability - FP vs AWQ (Python)"
+
+Cliff's Delta
+
+delta estimate: 0.04138322 (negligible)
+95 percent confidence interval:
+     lower      upper 
+-0.1518799  0.2315985 
+
+[1] "Security Hotspots - FP vs AWQ (Python)"
+
+Cliff's Delta
+
+delta estimate: 0 (negligible)
+95 percent confidence interval:
+lower upper 
+    0     0 
+
+[1] "Cyclomatic Complexity (CyC) - FP vs AWQ (Python)"
+
+Cliff's Delta
+
+delta estimate: -0.01020408 (negligible)
+95 percent confidence interval:
+     lower      upper 
+-0.2523171  0.2331113 
+
+[1] "Cognitive Complexity (CoC) - FP vs AWQ (Python)"
+
+Cliff's Delta
+
+delta estimate: 0.01417234 (negligible)
+95 percent confidence interval:
+     lower      upper 
+-0.2306984  0.2573549 
+
+[1] "********************** (HE) CodeLlama-7B FP vs AWQ Comparison (Java) *********************************"
+[1] "Reliability - FP vs AWQ (Java)"
+
+Cliff's Delta
+
+delta estimate: -5.380098e-19 (negligible)
+95 percent confidence interval:
+      lower       upper 
+-0.08950911  0.08950911 
+
+[1] "Maintainability - FP vs AWQ (Java)"
+
+Cliff's Delta
+
+delta estimate: -0.1644713 (small)
+95 percent confidence interval:
+      lower       upper 
+-0.36792533  0.05401105 
+
+[1] "Security Hotspots - FP vs AWQ (Java)"
+
+Cliff's Delta
+
+delta estimate: 0 (negligible)
+95 percent confidence interval:
+lower upper 
+    0     0 
+
+[1] "Cyclomatic Complexity (CyC) - FP vs AWQ (Java)"
+
+Cliff's Delta
+
+delta estimate: -0.09042364 (negligible)
+95 percent confidence interval:
+     lower      upper 
+-0.2966971  0.1239113 
+
+[1] "Cognitive Complexity (CoC) - FP vs AWQ (Java)"
+
+Cliff's Delta
+
+delta estimate: -0.06158775 (negligible)
+95 percent confidence interval:
+     lower      upper 
+-0.2699467  0.1522810 
+
+[1] "***************************************************************************"
+[1] "Python Results:"
+  Wilcoxon.p
+1          1
+2          1
+3         NA
+4          1
+5          1
+[1] "Java Results:"
+  Wilcoxon.p
+1        NaN
+2  0.1872429
+3         NA
+4  0.1872429
+5  0.1872429

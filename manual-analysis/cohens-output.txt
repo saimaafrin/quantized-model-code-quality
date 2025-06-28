@@ -1,0 +1,32 @@
+Model: py-cl-34-awq
+
+Consistency Kappa Scores:
+  Quadratic Weighted Kappa: 0.3216
+
+Readability Kappa Scores:
+  Quadratic Weighted Kappa: 0.4251
+
+Model: py-dsc-33-awq
+
+Consistency Kappa Scores:
+  Quadratic Weighted Kappa: 0.2727
+
+Readability Kappa Scores:
+  Quadratic Weighted Kappa: 0.5816
+
+Model: java-dsc-33-awq
+
+Consistency Kappa Scores:
+  Quadratic Weighted Kappa: 0.3036
+
+Readability Kappa Scores:
+  Quadratic Weighted Kappa: 0.7191
+
+Model: java-cl-34-awq
+
+Consistency Kappa Scores:
+  Quadratic Weighted Kappa: 0.0803
+
+Readability Kappa Scores:
+  Quadratic Weighted Kappa: 0.6524
+

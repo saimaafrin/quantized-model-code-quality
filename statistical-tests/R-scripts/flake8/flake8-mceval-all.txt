@@ -1,0 +1,222 @@
+[1] "********************** CodeLlama-7B FP vs AWQ Comparison *********************************"
+[1] "********************** ERROR - FP vs AWQ ( CodeLlama-7B ) *********************************"
+[1] "Cliff's Delta:"
+
+Cliff's Delta
+
+delta estimate: -0.08730159 (negligible)
+95 percent confidence interval:
+     lower      upper 
+-0.3254582  0.1612708 
+
+[1] "********************** WARNING - FP vs AWQ ( CodeLlama-7B ) *********************************"
+[1] "Cliff's Delta:"
+
+Cliff's Delta
+
+delta estimate: -0.08730159 (negligible)
+95 percent confidence interval:
+     lower      upper 
+-0.3115771  0.1461874 
+
+[1] "********************** PyFlakes - FP vs AWQ ( CodeLlama-7B ) *********************************"
+[1] "Cliff's Delta:"
+
+Cliff's Delta
+
+delta estimate: 0.02097506 (negligible)
+95 percent confidence interval:
+     lower      upper 
+-0.1181367  0.1592794 
+
+[1] "***************************************************************************"
+[1] "CodeLlama-7B Results:"
+  Wilcoxon.p
+1  0.8108936
+2  0.5124072
+3  0.8108936
+[1] "********************** CodeLlama-13B FP vs AWQ Comparison *********************************"
+[1] "********************** ERROR - FP vs AWQ ( CodeLlama-13B ) *********************************"
+[1] "Cliff's Delta:"
+
+Cliff's Delta
+
+delta estimate: 0.03684807 (negligible)
+95 percent confidence interval:
+     lower      upper 
+-0.2097068  0.2789971 
+
+[1] "********************** WARNING - FP vs AWQ ( CodeLlama-13B ) *********************************"
+[1] "Cliff's Delta:"
+
+Cliff's Delta
+
+delta estimate: 0.05612245 (negligible)
+95 percent confidence interval:
+     lower      upper 
+-0.1800537  0.2861806 
+
+[1] "********************** PyFlakes - FP vs AWQ ( CodeLlama-13B ) *********************************"
+[1] "Cliff's Delta:"
+
+Cliff's Delta
+
+delta estimate: 0.05045351 (negligible)
+95 percent confidence interval:
+     lower      upper 
+-0.0911976  0.1901034 
+
+[1] "***************************************************************************"
+[1] "CodeLlama-13B Results:"
+  Wilcoxon.p
+1  0.6386041
+2  0.6386041
+3  0.3869341
+[1] "********************** CodeLlama-34B FP vs AWQ Comparison *********************************"
+[1] "********************** ERROR - FP vs AWQ ( CodeLlama-34B ) *********************************"
+[1] "Cliff's Delta:"
+
+Cliff's Delta
+
+delta estimate: 0.005668934 (negligible)
+95 percent confidence interval:
+     lower      upper 
+-0.2355246  0.2462047 
+
+[1] "********************** WARNING - FP vs AWQ ( CodeLlama-34B ) *********************************"
+[1] "Cliff's Delta:"
+
+Cliff's Delta
+
+delta estimate: 0.002834467 (negligible)
+95 percent confidence interval:
+     lower      upper 
+-0.2302314  0.2355928 
+
+[1] "********************** PyFlakes - FP vs AWQ ( CodeLlama-34B ) *********************************"
+[1] "Cliff's Delta:"
+
+Cliff's Delta
+
+delta estimate: 0.06802721 (negligible)
+95 percent confidence interval:
+      lower       upper 
+-0.06735606  0.20095072 
+
+[1] "***************************************************************************"
+[1] "CodeLlama-34B Results:"
+  Wilcoxon.p
+1          1
+2          1
+3          1
+[1] "********************** DeepSeek-Coder-1.3B FP vs AWQ Comparison *********************************"
+[1] "********************** ERROR - FP vs AWQ ( DeepSeek-Coder-1.3B ) *********************************"
+[1] "Cliff's Delta:"
+
+Cliff's Delta
+
+delta estimate: 0.1247166 (negligible)
+95 percent confidence interval:
+     lower      upper 
+-0.1243360  0.3589859 
+
+[1] "********************** WARNING - FP vs AWQ ( DeepSeek-Coder-1.3B ) *********************************"
+[1] "Cliff's Delta:"
+
+Cliff's Delta
+
+delta estimate: 0.0430839 (negligible)
+95 percent confidence interval:
+     lower      upper 
+-0.1919787  0.2734714 
+
+[1] "********************** PyFlakes - FP vs AWQ ( DeepSeek-Coder-1.3B ) *********************************"
+[1] "Cliff's Delta:"
+
+Cliff's Delta
+
+delta estimate: -0.01984127 (negligible)
+95 percent confidence interval:
+     lower      upper 
+-0.1662916  0.1274654 
+
+[1] "***************************************************************************"
+[1] "DeepSeek-Coder-1.3B Results:"
+  Wilcoxon.p
+1  0.0710293
+2  1.0000000
+3  1.0000000
+[1] "********************** DeepSeek-Coder-6.7B FP vs AWQ Comparison *********************************"
+[1] "********************** ERROR - FP vs AWQ ( DeepSeek-Coder-6.7B ) *********************************"
+[1] "Cliff's Delta:"
+
+Cliff's Delta
+
+delta estimate: -0.07426304 (negligible)
+95 percent confidence interval:
+     lower      upper 
+-0.3134852  0.1738226 
+
+[1] "********************** WARNING - FP vs AWQ ( DeepSeek-Coder-6.7B ) *********************************"
+[1] "Cliff's Delta:"
+
+Cliff's Delta
+
+delta estimate: -0.005102041 (negligible)
+95 percent confidence interval:
+     lower      upper 
+-0.2373929  0.2277407 
+
+[1] "********************** PyFlakes - FP vs AWQ ( DeepSeek-Coder-6.7B ) *********************************"
+[1] "Cliff's Delta:"
+
+Cliff's Delta
+
+delta estimate: -0.02267574 (negligible)
+95 percent confidence interval:
+      lower       upper 
+-0.12577606  0.08090917 
+
+[1] "***************************************************************************"
+[1] "DeepSeek-Coder-6.7B Results:"
+  Wilcoxon.p
+1  0.9278003
+2  1.0000000
+3  1.0000000
+[1] "********************** DeepSeek-Coder-33B FP vs AWQ Comparison *********************************"
+[1] "********************** ERROR - FP vs AWQ ( DeepSeek-Coder-33B ) *********************************"
+[1] "Cliff's Delta:"
+
+Cliff's Delta
+
+delta estimate: 0.02380952 (negligible)
+95 percent confidence interval:
+     lower      upper 
+-0.2218397  0.2666168 
+
+[1] "********************** WARNING - FP vs AWQ ( DeepSeek-Coder-33B ) *********************************"
+[1] "Cliff's Delta:"
+
+Cliff's Delta
+
+delta estimate: 0.01530612 (negligible)
+95 percent confidence interval:
+     lower      upper 
+-0.2180151  0.2469723 
+
+[1] "********************** PyFlakes - FP vs AWQ ( DeepSeek-Coder-33B ) *********************************"
+[1] "Cliff's Delta:"
+
+Cliff's Delta
+
+delta estimate: -0.04761905 (negligible)
+95 percent confidence interval:
+      lower       upper 
+-0.15902807  0.06498748 
+
+[1] "***************************************************************************"
+[1] "DeepSeek-Coder-33B Results:"
+  Wilcoxon.p
+1  0.5442253
+2  0.5442253
+3  0.5391375

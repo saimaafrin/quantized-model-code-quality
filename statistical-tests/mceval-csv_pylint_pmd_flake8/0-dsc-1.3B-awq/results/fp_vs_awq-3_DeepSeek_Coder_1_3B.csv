@@ -1,0 +1,4 @@
+"metric","p.value","signif","d","magnitude"
+"ERROR",0.16016,"No",0.089,"negligible"
+"WARNING",0.3221,"No",0.057,"negligible"
+"PyFlakes",0.10247,"No",0.047,"negligible"

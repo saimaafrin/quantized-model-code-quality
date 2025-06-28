@@ -1,0 +1,8 @@
+Model: py-cl-34-awq
+
+Consistency Kappa Scores:
+  Quadratic Weighted Kappa: 0.8416
+
+Readability Kappa Scores:
+  Quadratic Weighted Kappa: 0.6914
+

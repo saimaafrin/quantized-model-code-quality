@@ -1,0 +1,4 @@
+metric	p.value	signif	d	magnitude
+ERROR	0.01116	Yes	0.158	small
+WARNING	0.52542	No	0.128	negligible
+PyFlakes	0.33629	No	0.028	negligible

@@ -1,0 +1,107 @@
+[1] "********************** (HE) CodeLlama-34B FP vs AWQ Comparison (Python) *********************************"
+[1] "Reliability - FP vs AWQ (Python)"
+
+Cliff's Delta
+
+delta estimate: 0.00621118 (negligible)
+95 percent confidence interval:
+       lower        upper 
+-0.006008742  0.018429247 
+
+[1] "Maintainability - FP vs AWQ (Python)"
+
+Cliff's Delta
+
+delta estimate: 0.006018286 (negligible)
+95 percent confidence interval:
+      lower       upper 
+-0.06076833  0.07275126 
+
+[1] "Security Hotspots - FP vs AWQ (Python)"
+
+Cliff's Delta
+
+delta estimate: 5.360403e-19 (negligible)
+95 percent confidence interval:
+      lower       upper 
+-0.02435609  0.02435609 
+
+[1] "Cyclomatic Complexity (CyC) - FP vs AWQ (Python)"
+
+Cliff's Delta
+
+delta estimate: -0.04895644 (negligible)
+95 percent confidence interval:
+      lower       upper 
+-0.17090214  0.07446647 
+
+[1] "Cognitive Complexity (CoC) - FP vs AWQ (Python)"
+
+Cliff's Delta
+
+delta estimate: -0.03881023 (negligible)
+95 percent confidence interval:
+      lower       upper 
+-0.16128562  0.08484244 
+
+[1] "********************** (HE) CodeLlama-34B FP vs AWQ Comparison (Java) *********************************"
+[1] "Reliability - FP vs AWQ (Java)"
+
+Cliff's Delta
+
+delta estimate: -0.006128826 (negligible)
+95 percent confidence interval:
+      lower       upper 
+-0.05018522  0.03795138 
+
+[1] "Maintainability - FP vs AWQ (Java)"
+
+Cliff's Delta
+
+delta estimate: -0.07378625 (negligible)
+95 percent confidence interval:
+      lower       upper 
+-0.19718553  0.05191461 
+
+[1] "Security Hotspots - FP vs AWQ (Java)"
+
+Cliff's Delta
+
+delta estimate: 0 (negligible)
+95 percent confidence interval:
+lower upper 
+    0     0 
+
+[1] "Cyclomatic Complexity (CyC) - FP vs AWQ (Java)"
+
+Cliff's Delta
+
+delta estimate: -0.06901939 (negligible)
+95 percent confidence interval:
+      lower       upper 
+-0.19347538  0.05762269 
+
+[1] "Cognitive Complexity (CoC) - FP vs AWQ (Java)"
+
+Cliff's Delta
+
+delta estimate: -0.06369172 (negligible)
+95 percent confidence interval:
+      lower       upper 
+-0.18845130  0.06309094 
+
+[1] "***************************************************************************"
+[1] "Python Results:"
+  Wilcoxon.p
+1          1
+2          1
+3          1
+4          1
+5          1
+[1] "Java Results:"
+  Wilcoxon.p
+1  0.5637029
+2  0.2791786
+3         NA
+4  0.2791786
+5  0.5374778
